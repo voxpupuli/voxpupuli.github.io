@@ -31,21 +31,32 @@
           <p>This organisation is trying to synchronise certain community efforts. The idea is to have a namespace, maintained by the community with no official relation to Puppet Labs, where we can develop our modules and tooling.</p>
 
 <h2>
-<a name="rationale" class="anchor" href="#rationale"><span class="octicon octicon-link"></span></a>Rationale</h2>
+<a name="names" class="anchor" href="#names"><span class="octicon octicon-link"></span></a>Rationale</h2>
 
-<p>The reason we want to do this is because every now and then what Puppet Labs wants for the future of a module or a piece of software clashes with what the community wants. This gives us a place to experiment on our own and go with what we as a community feel we need. We might be wrong, but we can try.</p>
-
-<h2>
-<a name="modules" class="anchor" href="#modules"><span class="octicon octicon-link"></span></a>Modules</h2>
-
-<p>Another benefit we hope to achieve is that people will eventually start moving their modules to this community, especially when they feel they no longer have or want to maintain a module. People change jobs, tools or simply outgrow their current solutions but orphaned modules are a pain to those that still rely on them. Storing them with the Puppet Community will allow others to more easily step in and take over ensuring continued development.</p>
+<p>Puppet community has two names. On github we are have the puppet-communty namespace. On the puppet forge we have the puppet namespace.</p>
 
 <h2>
-<a name="tooling" class="anchor" href="#tooling"><span class="octicon octicon-link"></span></a>Tooling</h2>
+<a name="who" class="anchor" href="#who"><span class="octicon octicon-link"></span></a>Who can join?</h2>
 
-<p>Over the years a lot of tooling on top of Puppet has been developed. Some of those, though in active use, have fallen into a state of decay because the maintainer is AWOL or simply doesn't have the time or need to maintain this tool. The consequence of this is that a forest of forks with different patches and features have arisen and no one knows which one to pick, nor has an guarantee that the fork they're now using will see further development.</p>
+<p>Anyone can participate in puppet-community. We currently have four levels of participation, orchestrated by github teams.</p>
+<ul>
+<li><strong>Everyone</strong> with a github account can submit pull requests and review code.</li>
+<li><strong>Module contributors</strong> have commit/merge access to a subset of the modules in puppet-community, usually the modules they maintained before joining puppet-community.</li>
+<li><strong>Collabortators</strong> have commit/merge access to a subset of the modules in puppet-community.</li>
+<li><strong>Administsrators</strong> have the authorization to create new repositories and publish modules to the forge under the puppet namespace.</li>
+</ul>
+
 <h2>
-<a name="docs" class="docs.html" href="#tooling"><span class="octicon octicon-link"></span></a>Docs</h2>
+<a name="migrating" class="anchor" href="#migrating"><span class="octicon octicon-link"></span></a>Migrating a module to puppet-community</h2>
+
+<p> TODO: add docs on how to migrate a module </p>
+
+<h2>
+<a name="publishing" class="anchor" href="#publishing"><span class="octicon octicon-link"></span></a>Publishing a module</h2>
+
+<p>Push a signed tag to the module then ping an admin (@daenney, @igalic, @nibalizer) and they will publish the module.</p>
+<p>TODO: document module publish process for admins</p>
+
         </section>
 
         <aside id="sidebar">
