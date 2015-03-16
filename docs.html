@@ -66,8 +66,16 @@
 <h2>
 <a name="publishing" class="anchor" href="#publishing"><span class="octicon octicon-link"></span></a>Publishing a module</h2>
 
-<p>Push a signed tag to the module then ping an admin (@daenney, @igalic, @nibalizer) and they will publish the module.</p>
-<p>TODO: document module publish process for admins</p>
+<p>Forge publishing is handled by travis and puppet-blacksmith.</p>
+<p>To enable a module to be pushed, copy the 'deploy' block from puppetcommunity-extlib travis.yml.</p>
+<p>You will also need to manually define your travis testing matrix with respect to puppet version as in the extlib module. This prevents the deploy hook from running once for each version of puppet defined in your testing.</p>
+<p>Travis needs to be aware of the rename, this can be done by pushing a single commit'</p>
+<p>The secure line is unique per repository. To get a secure line:</p>
+<p>Ask an admin (or submit a PR) to add your module to the list <a href="https://github.com/puppet-community/plumbing/blob/master/share/modules">here.</a> then the admin will run the encrypt_travis.sh script and push a new version of <a href="https://github.com/puppet-community/plumbing/blob/master/share/travis_secrets">this</a> which you can then copy and paste your travis secure line from.</p>
+<p>If the forge puppet password is changed, an admin can run encrypt_travis.sh and the modules can bring in the new password on their own schedule.</p>
+
+<br>
+<p>Gem publishing is handled similarly, except there is not a unified user. Each gem owner is responsible for their own .travis.yml</p>
 
         </section>
 
