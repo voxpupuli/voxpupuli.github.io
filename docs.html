@@ -49,7 +49,7 @@
 <h2>
 <a name="migrating" class="anchor" href="#migrating"><span class="octicon octicon-link"></span></a>Migrating a module to puppet-community</h2>
 
-<p>The general flow is to…</p>
+<p>You will have someone by your side in this process, but general flow is to…</p>
 
 <ul>
   <li>Ask one of the Administrators to add you to the modules/admin team.</li>
@@ -71,10 +71,10 @@
 <a name="publishing" class="anchor" href="#publishing"><span class="octicon octicon-link"></span></a>Publishing a module - setup</h2>
 
 <p>Forge publishing is handled by travis and puppet-blacksmith.</p>
-<p>To enable a module to be pushed, copy the 'deploy' block from puppetcommunity-extlib travis.yml.</p>
-<p>You will also need to manually define your travis testing matrix with respect to puppet version as in the extlib module. This prevents the deploy hook from running once for each version of puppet defined in your testing.</p>
-<p>Travis needs to be aware of the rename, this can be done by pushing a single commit'</p>
-<p>The secure line is unique per repository. To get a secure line:</p>
+<p>To guarantee a frictionless process across all modules, we use <a href="https://github.com/puppet-community/modulesync">modulesync</a></p>
+<p>Most modulesync'ed settings can be overridden through a <a href="https://github.com/puppet-community/puppet-extlib/blob/master/.sync.yml">.sync.yml file</a>.You may also need to (re)define your travis testing matrix with respect to puppet version. This prevents the deploy hook from running once for each version of puppet defined in your testing.</p>
+<p>Travis needs to be aware of the rename, this can be done by pushing a single commit.</p>
+<p>The secure line is unique per repository and often the only line in .sync.yml. To get a secure line:</p>
 <p>Ask an admin (or submit a PR) to add your module to the list <a href="https://github.com/puppet-community/plumbing/blob/master/share/modules">here.</a> then the admin will run the encrypt_travis.sh script and push a new version of <a href="https://github.com/puppet-community/plumbing/blob/master/share/travis_secrets">this</a> which you can then copy and paste your travis secure line from.</p>
 <p>If the forge puppet password is changed, an admin can run encrypt_travis.sh and the modules can bring in the new password on their own schedule.</p>
 
@@ -84,15 +84,22 @@
 <h2>
 <a name="releasing" class="anchor" href="#releasing"><span class="octicon octicon-link"></span></a>Releasing a module</h2>
 
-<p>If modulesync is enabled for the module, run it to ensure dotifles are up to date.</p>
-<p>Create a 'release pr'. This is a PR that modifies the changelog, bumps the version name, etc. Ask for reviews on it. This is where the community can agree or disagree with the version number you have chosen, and otherwise vote on whether to release or not. Example: https://github.com/puppet-community/puppet-archive/pull/98 </p>
-<p>Get community feedback on the release pr, get it merged.</p>
-<p>Checkout master</p>
-<p>Create a signed tag at the version:  git tag -s 1.0.2</p>
-<p>For the text of the signed tag use: "Release 1.0.2"  </p>
-<p>Push the signed tag to github: git push --tags origin master </p>
-<p>Travis will then kick off a build that will put a new version of the module on the forge</p>
+<p><em>Please note that in order to perform a release you must be in the <strong>Collaborators</strong> group on Github.</em></p>
 
+<p>Run modulesync to ensure the dotfiles are up to date.</p>
+<p>Create a 'release pr'. This pull request updates the changelog, and bumps the version number. Here's an example: <a href="https://github.com/puppet-community/puppet-extlib/pull/43">puppet-extlib's 0.10.7 release</a></p>
+<p>Get community feedback on the release pr, get it merged.</p>
+<p>Checkout an updated copy of master (<code>git checkout master; git fetch origin; git pull origin master</code>)</p>
+<p>If necessary, run <code>bundle install</code> before continuing.</p>
+<p>Run the rake target <code>travis_release</code>. This will</p>
+<ul>
+  <li>create a new tag using the current version</li>
+  <li>bump the current version to the next PATCH version and add '-rc0' to the end</li>
+  <li>commit the change,</li>
+  <li>and push it to origin.</li>
+</ul>
+<p><code>bundle exec rake travis_release</code></p>
+<p>Travis will then kick off a build against the new tag created and deploy that build to the forge.</p>
 
         </section>
 
