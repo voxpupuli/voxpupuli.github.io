@@ -1,0 +1,148 @@
+{
+  "name": "puppet-lint",
+  "display_name": "Puppet Lint",
+  "url": "https://github.com/rodjek/puppet-lint",
+  "description": "Check that your Puppet manifests conform to the style guide.",
+  "plugins": [
+    {
+      "name": "trailing_newline",
+      "url": "https://github.com/rodjek/puppet-lint-trailing_newline-check",
+      "description": "Extends puppet-lint to ensure that your manifest files end with newlines."
+    },
+    {
+      "name": "variable_contains_upcase",
+      "url": "https://github.com/fiddyspence/puppetlint-variablecase",
+      "description": "Extends puppet-lint to ensure that your variables are all lower case."
+    },
+    {
+      "name": "param_docs",
+      "url": "https://github.com/domcleal/puppet-lint-param-docs",
+      "description": "A check for puppet-lint that validates all parameters are documented."
+    },
+    {
+      "name": "roles_and_profiles",
+      "url": "https://github.com/mcanevet/puppet-lint-roles_and_profiles-check",
+      "description": "A puppet-lint plugin to check that a node definition declares only a role, a role class does not have any param and only declares profiles, and a profiles class can declare anything but a role."
+    },
+    {
+      "name": "vim_modeline",
+      "url": "https://github.com/robertpearce/puppet-lint-vim_modeline-check",
+      "description": "A puppet-lint plugin to check for vim comment (modeline) as the last line in a manifest."
+    },
+    {
+      "name": "strict_indent",
+      "url": "https://github.com/relud/puppet-lint-strict_indent-check",
+      "description": "Extends puppet-lint to ensure that your manifests follow a strict indentation pattern."
+    },
+    {
+      "name": "unquoted_string",
+      "url": "https://github.com/puppet-community/puppet-lint-unquoted_string-check",
+      "description": "A puppet-lint plugin to check that selectors and case statements cases are quoted."
+    },
+    {
+      "name": "empty_string",
+      "url": "https://github.com/puppet-community/puppet-lint-empty_string-check",
+      "description": "A puppet-lint plugin to check for variables assigned to the empty string."
+    },
+    {
+      "name": "spaceship_operator_without_tag",
+      "url": "https://github.com/puppet-community/puppet-lint-spaceship_operator_without_tag-check",
+      "description": "A puppet-lint plugin to check that spaceship operator is called with a tag."
+    },
+    {
+      "name": "absolute_classname",
+      "url": "https://github.com/camptocamp/puppet-lint-absolute_classname-check",
+      "description": "Puppet-lint plugin to check relative class name inclusions."
+    },
+    {
+      "name": "leading_zero",
+      "url": "https://github.com/puppet-community/puppet-lint-leading_zero-check",
+      "description": "A puppet-lint plugin to check for unquoted numbers with leading zero."
+    },
+    {
+      "name": "newmericvariable",
+      "url": "https://github.com/fiddyspence/puppetlint-numericvariable",
+      "description": "Extends puppet-lint to ensure that your variables are not numeric."
+    },
+    {
+      "name": "file_ensure",
+      "url": "https://github.com/puppet-community/puppet-lint-file_ensure-check",
+      "description": "A puppet-lint plugin to check the ensure attribute on file resources."
+    },
+    {
+      "name": "trailing_comma",
+      "url": "https://github.com/puppet-community/puppet-lint-trailing_comma-check",
+      "description": "A puppet-lint plugin to check for missing trailing commas."
+    },
+    {
+      "name": "version_comparison",
+      "url": "https://github.com/puppet-community/puppet-lint-version_comparison-check",
+      "description": "A puppet-lint plugin to check for versions compared as numbers."
+    },
+    {
+      "name": "global_resource",
+      "url": "https://github.com/ninech/puppet-lint-global_resource-check",
+      "description": "Extends puppet-lint to ensure that your manifests have no global resources."
+    },
+    {
+      "name": "appends",
+      "url": "https://github.com/puppet-community/puppet-lint-appends-check",
+      "description": "A puppet-lint plugin to check that the appends operator (+=) is not used (removed in Puppet 4.0.0)."
+    },
+    {
+      "name": "classes_and_types_beginning_with_digits",
+      "url": "https://github.com/puppet-community/puppet-lint-classes_and_types_beginning_with_digits-check",
+      "description": "A puppet-lint plugin to check for types and class names that begin with digits."
+    },
+    {
+      "name": "file_source_rights",
+      "url": "https://github.com/camptocamp/puppet-lint-file_source_rights-check",
+      "description": "A puppet-lint plugin to check file rights when providing a source."
+    },
+    {
+      "name": "alias",
+      "url": "https://github.com/camptocamp/puppet-lint-alias-check",
+      "description": "A puppet-lint plugin to check for alias parameters in resources."
+    },
+    {
+      "name": "security",
+      "url": "https://github.com/floek/puppet-lint-security-plugins",
+      "description": "Checks puppet manifests for security related problems."
+    },
+    {
+      "name": "usascii_format",
+      "url": "https://github.com/jpmasters/puppet-lint-usascii_format-check",
+      "description": "A puppet-lint plugin to check that manifest files contain only US ASCII."
+    },
+    {
+      "name": "package_ensure",
+      "url": "https://github.com/danzilio/puppet-lint-package_ensure-check",
+      "description": "A puppet-lint plugin to check the ensure attribute on package resources."
+    },
+    {
+      "name": "resource_reference_syntax",
+      "url": "https://github.com/tuxmea/puppet-lint-resource_reference_syntax",
+      "description": "Extends puppet-lint to ensure that the reference syntax follows Puppet 4 style."
+    },
+    {
+      "name": "undef_in_function",
+      "url": "https://github.com/camptocamp/puppet-lint-undef_in_function-check",
+      "description": "A puppet-lint plugin to check for undef in function calls."
+    },
+    {
+      "name": "fileserver",
+      "url": "https://github.com/camptocamp/puppet-lint-fileserver-check",
+      "description": "A puppet-lint plugin to check if puppet:/// is used instead of file()."
+    },
+    {
+      "name": "absolute_template",
+      "url": "https://github.com/deanwilson/puppet-lint-absolute_template_path-check",
+      "description": "A puppet-lint plugin to check if paths to the template() function are relative."
+    },
+    {
+      "name": "resource_outside_class",
+      "url": "https://github.com/llowder/puppet-lint-resource_outside_class-check",
+      "description": "A puppet-lint plugin to check if resources exist outside of a class or defined type."
+    }
+  ]
+}

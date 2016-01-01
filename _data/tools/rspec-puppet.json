@@ -1,0 +1,33 @@
+{
+  "name": "rspec-puppet",
+  "display_name": "RSpec Puppet",
+  "url": "https://github.com/rodjek/rspec-puppet",
+  "description": "RSpec tests for your Puppet manifests.",
+  "plugins": [
+    {
+      "name": "rspec-hiera-puppet",
+      "url": "https://github.com/amfranz/rspec-hiera-puppet",
+      "description": "Hiera fixtures for puppet-rspec tests."
+    },
+    {
+      "name": "rspec-puppet-augeas",
+      "url": "https://github.com/domcleal/rspec-puppet-augeas",
+      "description": "RSpec tests for Augeas resources inside Puppet manifests."
+    },
+    {
+      "name": "rspec-puppet-utils",
+      "url": "https://github.com/Accuity/rspec-puppet-utils",
+      "description": "Helper classes for mock/stub functions, templates and hierdata."
+    },
+    {
+      "name": "rspec-puppet-facts",
+      "url": "https://github.com/mcanevet/rspec-puppet-facts",
+      "description": "Simplify your unit tests by looping on every supported Operating System and populating facts."
+    },
+    {
+      "name": "simp-rspec-puppet-facts",
+      "url": "https://github.com/simp/rubygem-simp-rspec-puppet-facts",
+      "description": "Shim that injects SIMP-related facts into rspec-puppet-facts."
+    }
+  ]
+}

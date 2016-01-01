@@ -1,0 +1,27 @@
+{
+  "name": "r10k",
+  "display_name": "R10k",
+  "description": "Puppet environment and module deployment.",
+  "plugins": [
+    {
+      "name": "Puppetfile updater",
+      "url": "https://github.com/camptocamp/puppetfile-updater",
+      "description": "Keep your Puppetfile up-to-date."
+    },
+    {
+      "name": "Generate Puppetfile",
+      "url": "https://github.com/rnelson0/puppet-generate-puppetfile",
+      "description": "Convert dependencies into a Puppetfile."
+    },
+    {
+      "name": "R10k diff",
+      "url": "https://github.com/dcosson/r10kdiff",
+      "description": "See differences in your Puppetfile between different environments."
+    },
+    {
+      "name": "R10k dashboard",
+      "url": "https://github.com/camptocamp/r10k-dashboard",
+      "description": "R10k's friendly companion."
+    }
+  ]
+}

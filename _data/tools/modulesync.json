@@ -1,0 +1,23 @@
+{
+  "name": "modulesync",
+  "display_name": "ModuleSync",
+  "url": "https://github.com/puppet-community/modulesync",
+  "description": "Keep a set of modules synced to a common base template.",
+  "plugins": [
+    {
+      "name": "Community configs",
+      "url": "https://github.com/puppet-community/modulesync_config",
+      "description": "The templates used by the puppet-community modules"
+    },
+    {
+      "name": "PuppetLabs' configs",
+      "url": "https://github.com/puppetlabs/modulesync_configs",
+      "description": "The templates used by most of PuppetLabs' supported modules."
+    },
+    {
+      "name": "OpenStack configs",
+      "url": "http://git.openstack.org/cgit/openstack/puppet-modulesync-configs/",
+      "description": "The templates used by the OpenStack Puppet Modules."
+    }
+  ]
+}

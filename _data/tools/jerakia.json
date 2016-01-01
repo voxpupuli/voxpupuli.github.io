@@ -1,0 +1,13 @@
+{
+  "name": "jerakia",
+  "display_name": "Jerakia",
+  "url": "https://github.com/crayfishx/jerakia",
+  "description": "A policy-based pluggable and extendable data lookup system. A drop-in replacement for Hiera.",
+  "plugins": [
+    {
+      "name": "puppet-jerakia",
+      "url": "https://github.com/crayfishx/puppet-jerakia",
+      "description": "A Puppet module for managing Jerakia."
+    },
+  ]
+}

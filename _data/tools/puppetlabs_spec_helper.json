@@ -1,0 +1,6 @@
+{
+  "name": "puppetlabs_spec_helper",
+  "display_name": "PuppetLabs Spec Helper",
+  "url": "https://github.com/puppetlabs/puppetlabs_spec_helper",
+  "description": "Rake tasks and a standard spec_helper for running spec tests on puppet modules."
+}

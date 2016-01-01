@@ -1,0 +1,32 @@
+{
+  "name": "miscellaneous",
+  "display_name": "Miscellaneous",
+  "description": "Plugins/libraries for tools that don't fit anywhere else.",
+  "plugins": [
+    {
+      "name": "vim-puppet",
+      "url": "https://github.com/roidelapluie/vim-puppet",
+      "description": "Plugin to make Vim more Puppet friendly."
+    },
+    {
+      "name": "guard-puppet-lint",
+      "url": "https://github.com/alister/guard-puppet-lint",
+      "description": "As Puppet manifest files change, run puppet-lint on them."
+    },
+    {
+      "name": "node-puppetdbquery",
+      "url": "https://github.com/dalen/node-puppetdbquery",
+      "description": "A JavaScript version of the puppetdbquery module for puppet."
+    },
+    {
+      "name": "pypuppetdb",
+      "url": "https://github.com/puppet-community/pypuppetdb",
+      "description": "Python library for working with the PuppetDB API"
+    },
+    {
+      "name": "puppet-ghostbuster",
+      "url": "https://github.com/camptocamp/puppet-ghostbuster",
+      "description": "Dead code detector for Puppet."
+    }
+  ]
+}

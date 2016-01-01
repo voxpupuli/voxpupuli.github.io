@@ -1,0 +1,6 @@
+{
+  "name": "puppet-strings",
+  "display_name": "Puppet Strings",
+  "description": "The next generation puppet documentation extraction and presentation tool.",
+  "url": "https://github.com/puppetlabs/puppetlabs-strings"
+}

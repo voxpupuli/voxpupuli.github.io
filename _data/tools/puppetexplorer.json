@@ -1,0 +1,6 @@
+{
+  "name": "puppetexplorer",
+  "display_name": "Puppet Explorer",
+  "description": "Puppet Explorer is a web application for PuppetDB that lets you explore your Puppet data.",
+  "url": "https://github.com/spotify/puppetexplorer"
+}

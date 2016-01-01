@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<div class="row">
+  <div class="col-md-8 col-md-offset-1">
+    <h1 class="media-heading">{{ page.title }}</h1>
+    <p>Published on {{ page.date | date: "%b %-d, %Y" }}{% if page.github_username %} by <a href="https://github.com/{{page.github_username}}">{{ page.github_username }}{% endif %}</a></p>
+    <article>
+      {{ content }}
+    </article>
+  </div>
+</div>

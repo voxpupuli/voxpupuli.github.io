@@ -1,0 +1,53 @@
+{
+  "name": "beaker",
+  "display_name": "Beaker",
+  "url": "https://github.com/puppetlabs/beaker",
+  "description": "Accceptance testing harness.",
+  "plugins": [
+    {
+      "name": "beaker-librarian",
+      "url": "https://github.com/afex/beaker-librarian",
+      "description": "Helpers to allow beaker-based tests to use librarian-puppet for module installation on VM hosts."
+    },
+    {
+      "name": "beaker_spec_helper",
+      "url": "https://github.com/camptocamp/beaker_spec_helper",
+      "description": "A set of shared spec helpers specific for Beaker."
+    },
+    {
+      "name": "beaker-puppet_install_helper",
+      "url": "https://github.com/puppetlabs/beaker-puppet_install_helper",
+      "description": "A beaker helper for installing PE, Foss/Gem puppet, or puppet-agent all in one beaker method."
+    },
+    {
+      "name": "beaker-answers",
+      "url": "https://github.com/puppetlabs/beaker-answers",
+      "description": "For use for the Beaker acceptance testing tool."
+    },
+    {
+      "name": "simp-beaker-helpers",
+      "url": "https://github.com/simp/rubygem-simp-beaker-helpers",
+      "description": "Beaker helper methods to help scaffold SIMP acceptance tests."
+    },
+    {
+      "name": "beaker-hiera",
+      "url": "https://github.com/puppetlabs/beaker-hiera",
+      "description": "Beaker DSL Extension Helpers!"
+    },
+    {
+      "name": "beaker-libvirt",
+      "url": "https://github.com/nibalizer/beaker-libvirt",
+      "description": "Beaker hypervisor for libvirt/virsh."
+    },
+    {
+      "name": "beaker-rspec",
+      "url": "https://github.com/puppetlabs/beaker-rspec",
+      "description": "Bridge between beaker and rspec."
+    },
+    {
+      "name": "beaker-digitalocean",
+      "url": "https://github.com/tiengo/beaker-digitalocean",
+      "description": "Adds DigitalOcean as a hypervisor for Beaker."
+    }
+  ]
+}

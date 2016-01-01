@@ -1,0 +1,6 @@
+{
+  "name": "puppetboard",
+  "display_name": "Puppetboard",
+  "description": "A web interface to PuppetDB aiming to replace the reporting functionality of Puppet Dashboard.",
+  "url": "https://github.com/puppet-community/puppetboard"
+}
