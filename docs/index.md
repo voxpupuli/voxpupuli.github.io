@@ -66,6 +66,7 @@ Checkout an updated copy of master (`git checkout master; git fetch origin; git 
 If necessary, run `bundle install` before continuing.
 
 Run the rake target `travis_release`. This will:
+
 * create a new tag using the current version
 * bump the current version to the next PATCH version and add `-rc0` to the end
 * commit the change,
