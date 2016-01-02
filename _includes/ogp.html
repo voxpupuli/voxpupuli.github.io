@@ -1,11 +1,11 @@
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta name="og:description" content="{{ page.content | strip_html | xml_escape | truncate: 200 }}">
 {% if page.url %}
 <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'/index.html','/' }}">
 {% endif %}
 
 {% if page.github_username != nil %}
+  <meta property="og:description" content="{{ page.content | markdownify | strip_html | strip_newlines | xml_escape | truncate: 200 }}">
   <meta property="og:type" content="article">
   <meta property="article:author" content="https://github.com/{{ page.github_username }}">
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
@@ -21,4 +21,5 @@
   {% endif %}
 {% else %}
   <meta property="og:type" content="website">
+  <meta property="og:description" content="{{ site.description }}">
 {% endif %}
