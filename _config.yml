@@ -4,7 +4,7 @@ description: >
   Vox Pupuli is a collective of Puppet module, tooling and documentation
   maintainers working together for the greater good.
 baseurl: ""
-url: "https://puppet.community"
+url: "https://voxpupuli.org"
 github_username:  voxpupuli
 twitter_username: voxpupuliorg
 
