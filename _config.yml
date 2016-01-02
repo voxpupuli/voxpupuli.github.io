@@ -22,12 +22,12 @@ navigation:
   - title: Home
     url: /
   - title: Code of Conduct
-    url: /coc
+    url: /coc/
   - title: Documentation
-    url: /docs
+    url: /docs/
   - title: Plugins
-    url: /plugins
+    url: /plugins/
   - title: Blog
-    url: /posts
+    url: /posts/
 
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME", "README.md", "vendor"]
