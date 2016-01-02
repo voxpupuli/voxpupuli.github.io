@@ -71,7 +71,7 @@
     },
     {
       "name": "hiera-psql",
-      "url": "https://github.com/crayfishx/hiera-mysq://github.com/dalen/hiera-psql",
+      "url": "https://github.com/dalen/hiera-psql",
       "description": "PostgreSQL backend for Hiera."
     },
     {

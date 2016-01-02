@@ -1,12 +1,10 @@
 # Site settings
 title: Vox Pupuli
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://puppet.community" # the base hostname & protocol for your site
+description: >
+  Vox Pupuli is a collective of Puppet module, tooling and documentation
+  maintainers working together for the greater good.
+baseurl: ""
+url: "https://puppet.community"
 github_username:  voxpupuli
 twitter_username: voxpupuliorg
 
@@ -32,4 +30,4 @@ navigation:
   - title: Blog
     url: /posts
 
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME", "README.md"]
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME", "README.md", "vendor"]
