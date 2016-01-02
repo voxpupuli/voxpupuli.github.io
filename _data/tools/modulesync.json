@@ -1,12 +1,12 @@
 {
   "name": "modulesync",
   "display_name": "ModuleSync",
-  "url": "https://github.com/puppet-community/modulesync",
+  "url": "https://github.com/voxpupuli/modulesync",
   "description": "Keep a set of modules synced to a common base template.",
   "plugins": [
     {
       "name": "Community configs",
-      "url": "https://github.com/puppet-community/modulesync_config",
+      "url": "https://github.com/voxpupuli/modulesync_config",
       "description": "The templates used by the puppet-community modules"
     },
     {

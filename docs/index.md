@@ -37,9 +37,9 @@ administrator access to speed things up.
 ##  Publishing a module - setup
 Forge publishing is handled by travis and puppet-blacksmith.
 
-To guarantee a frictionless process across all modules, we use [modulesync](https://github.com/puppet-community/modulesync).
+To guarantee a frictionless process across all modules, we use [modulesync](https://github.com/voxpupuli/modulesync).
 
-Most modulesync'ed settings can be overridden through a [.sync.yml](https://github.com/puppet-community/puppet-extlib/blob/master/.sync.yml). You may also need to (re)define your travis testing matrix with respect to puppet version. This prevents the deploy hook from running once for each version of puppet defined in your testing.
+Most modulesync'ed settings can be overridden through a [.sync.yml](https://github.com/voxpupuli/puppet-extlib/blob/master/.sync.yml). You may also need to (re)define your travis testing matrix with respect to puppet version. This prevents the deploy hook from running once for each version of puppet defined in your testing.
 
 Travis needs to be aware of the rename, this can be done by pushing a single commit.
 
@@ -57,7 +57,7 @@ Gem publishing is handled similarly, except there is not a unified user. Each ge
  
 Run modulesync to ensure the dotfiles are up to date.
 
-Create a 'release pr'. This pull request updates the changelog, and bumps the version number. Here's an example: [puppet-extlib's 0.10.7 release](https://github.com/puppet-community/puppet-extlib/pull/43)
+Create a 'release pr'. This pull request updates the changelog, and bumps the version number. Here's an example: [puppet-extlib's 0.10.7 release](https://github.com/voxpupuli/puppet-extlib/pull/43)
 
 Get community feedback on the release pr, get it merged.
 

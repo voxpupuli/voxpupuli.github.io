@@ -2,5 +2,5 @@
   "name": "metadata-json-lint",
   "display_name": "Metadata JSON Lint",
   "description": "A linter for your metadata.json file.",
-  "url": "https://github.com/puppet-community/metadata-json-lint"
+  "url": "https://github.com/voxpupuli/metadata-json-lint"
 }

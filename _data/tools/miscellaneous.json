@@ -20,7 +20,7 @@
     },
     {
       "name": "pypuppetdb",
-      "url": "https://github.com/puppet-community/pypuppetdb",
+      "url": "https://github.com/voxpupuli/pypuppetdb",
       "description": "Python library for working with the PuppetDB API"
     },
     {

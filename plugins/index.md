@@ -6,7 +6,7 @@ title: Plugins
 This is a community curated list of plugins and tools for Puppet.
 
 Tools and plugins are defined in the `_data/tools` directory of the [community
-website repository](https://github.com/puppet-community/puppet-community.github.io)
+website repository](https://github.com/voxpupuli/voxpupuli.github.io)
 Tools without plugins are going to be listed in the table under the `Tools`
 header. Tools with plugins will have their own header and table listing the
 plugins defined for that tool.
