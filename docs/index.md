@@ -20,7 +20,7 @@ participation, orchestrated by github teams.
   publish modules to the forge under the puppet namespace.
 
 ## Migrating a module to puppet-community
-The general flow is to…
+You will have someone by your side in this process. The general flow is to…
 
 * Ask one of the Administrators to add you to the modules/admin team.
 * At that point you can transfer your own repository
@@ -37,13 +37,13 @@ administrator access to speed things up.
 ##  Publishing a module - setup
 Forge publishing is handled by travis and puppet-blacksmith.
 
-To enable a module to be pushed, copy the 'deploy' block from puppetcommunity-extlib travis.yml.
+To guarantee a frictionless process across all modules, we use [modulesync](https://github.com/puppet-community/modulesync).
 
-You will also need to manually define your travis testing matrix with respect to puppet version as in the extlib module. This prevents the deploy hook from running once for each version of puppet defined in your testing.
+Most modulesync'ed settings can be overridden through a [.sync.yml](https://github.com/puppet-community/puppet-extlib/blob/master/.sync.yml). You may also need to (re)define your travis testing matrix with respect to puppet version. This prevents the deploy hook from running once for each version of puppet defined in your testing.
 
-Travis needs to be aware of the rename, this can be done by pushing a single commit'
+Travis needs to be aware of the rename, this can be done by pushing a single commit.
 
-The secure line is unique per repository. To get a secure line:
+The secure line is unique per repository and often the only line in .sync.yml. To get a secure line:
 
 Ask an admin (or submit a PR) to add your module to the list here. then the admin will run the encrypt_travis.sh script and push a new version of this which you can then copy and paste your travis secure line from.
 
@@ -52,19 +52,25 @@ If the forge puppet password is changed, an admin can run encrypt_travis.sh and 
 
 Gem publishing is handled similarly, except there is not a unified user. Each gem owner is responsible for their own .travis.yml
 
-## Releasing a module
-If modulesync is enabled for the module, run it to ensure dotifles are up to date.
+## Releasing a new version of a module
+*Please note that in order to perform a release you must be in the __Collaborators__ group on Github for the module in question.*
+ 
+Run modulesync to ensure the dotfiles are up to date.
 
-Create a 'release pr'. This is a PR that modifies the changelog, bumps the version name, etc. Ask for reviews on it. This is where the community can agree or disagree with the version number you have chosen, and otherwise vote on whether to release or not. Example: https://github.com/puppet-community/puppet-archive/pull/98
+Create a 'release pr'. This pull request updates the changelog, and bumps the version number. Here's an example: [puppet-extlib's 0.10.7 release](https://github.com/puppet-community/puppet-extlib/pull/43)
 
 Get community feedback on the release pr, get it merged.
 
-Checkout master
+Checkout an updated copy of master (`git checkout master; git fetch origin; git pull origin master`)
 
-Create a signed tag at the version: git tag -s 1.0.2
+If necessary, run `bundle install` before continuing.
 
-For the text of the signed tag use: "Release 1.0.2"
+Run the rake target `travis_release`. This will:
+* create a new tag using the current version
+* bump the current version to the next PATCH version and add `-rc0` to the end
+* commit the change,
+* and push it to origin.
 
-Push the signed tag to github: git push --tags origin master
+`bundle exec rake travis_release`
 
-Travis will then kick off a build that will put a new version of the module on the forge
+Travis will then kick off a build against the new tag created and deploy that build to the forge.
