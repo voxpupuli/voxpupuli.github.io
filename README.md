@@ -1,6 +1,6 @@
 # voxpupuli.github.io
 
-The https://puppet.community site. Have a look at it to see what this is all about.
+The https://voxpupuli.org site. Have a look at it to see what this is all about.
 
 ## Puppet Plugins
 Tools and plugins that appear on the Plugins page of our site
