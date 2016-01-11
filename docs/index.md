@@ -7,19 +7,19 @@ This page is far from finished but contains some basic information on getting
 started. If you have any questions reach out to us in #voxpupuli on Freenode.
 
 ## Who can join?
-Anyone can participate in puppet-community. We currently have four levels of
+Anyone can participate in voxpupuli. We currently have four levels of
 participation, orchestrated by github teams.
 
 * Everyone with a github account can submit pull requests and review code.
 * Module contributors have commit/merge access to a subset of the modules in
-  puppet-community, usually the modules they maintained before joining
-  puppet-community.
+  voxpupuli, usually the modules they maintained before joining
+  voxpupuli.
 * Collaborators have commit/merge access to a subset of the modules in
-  puppet-community.
+  voxpupuli.
 * Administsrators have the authorization to create new repositories and
   publish modules to the forge under the puppet namespace.
 
-## Migrating a module to puppet-community
+## Migrating a module to voxpupuli
 You will have someone by your side in this process. The general flow is to…
 
 * Ask one of the Administrators to add you to the modules/admin team.
