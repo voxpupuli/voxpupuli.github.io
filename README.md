@@ -1,10 +1,10 @@
-# voxpupuli.github.io
+# voxpupuli.github.io [![Build Status](https://travis-ci.org/voxpupuli/voxpupuli.github.io.svg?branch=master)](https://travis-ci.org/voxpupuli/voxpupuli.github.io)
 
 The https://voxpupuli.org site. Have a look at it to see what this is all about.
 
 ## Building this site
 
-* `bundle install
+* `bundle install`
 * `bundle exec jekyll serve -w --config _config.yml,_config-dev.yml`
 
 ## Puppet Plugins
