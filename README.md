@@ -2,6 +2,11 @@
 
 The https://voxpupuli.org site. Have a look at it to see what this is all about.
 
+## Building this site
+
+* `bundle install
+* `bundle exec jekyll serve -w --config _config.yml,_config-dev.yml`
+
 ## Puppet Plugins
 Tools and plugins that appear on the Plugins page of our site
 are defined in the `_data/tools` directory. Tools without plugins are going to
