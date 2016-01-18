@@ -6,6 +6,9 @@ title: Documentation
 This page is far from finished but contains some basic information on getting
 started. If you have any questions reach out to us in #voxpupuli on Freenode.
 
+* TOC
+{:toc}
+
 ## Who can join?
 Anyone can participate in voxpupuli. We currently have four levels of
 participation, orchestrated by github teams.
