@@ -22,6 +22,11 @@
       "name": "R10k dashboard",
       "url": "https://github.com/camptocamp/r10k-dashboard",
       "description": "R10k's friendly companion."
+    },
+    {
+      "name": "Reaktor",
+      "url": "https://github.com/pzim/reaktor",
+      "description": "Reaktor is a modular post-receive hook designed to work with r10k"
     }
   ]
 }
