@@ -16,6 +16,7 @@ permalink: /blog/:year/:month/:day/:title/
 kramdown:
   hard_wrap: false
   input: GFM
+  syntax_highlighter: rouge
 
 
 navigation:
