@@ -1,0 +1,7 @@
+{
+
+  "name": "retrospec",
+  "display_name": "Retrospec",
+  "url": "https://github.com/nwops/puppet-retrospec",
+  "description": "A tool that retrofits your module with all the necessary files and unit tests you forgot to create.  Retrospec can also be used to easily generate some of the more advance puppet files like facts, functions, types, providers, and reports."
+}
