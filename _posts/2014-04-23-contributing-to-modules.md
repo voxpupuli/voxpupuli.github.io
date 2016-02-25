@@ -37,7 +37,7 @@ are:
  * Work with us and we'll work with you. It's okay if you PR is not perfect or
    if you're unfamiliar with writing tests. As long as you're willing to put in
    the work we're willing to coach you. Perhaps you can have a look at this
-   [post](http://puppet-a-day.com/blog/2014/04/22/modern-testing-of-modules/) to
+   [post](https://voxpupuli.org/blog/2014/04/22/modern-testing-of-modules/) to
    get you going;
  * Don't ride off into the sunset. If you submit a PR we expect you to stick
    around for the follow-ups. If not then it'll simply not get merged. Not
