@@ -1,0 +1,7 @@
+{
+
+  "name": "puppet-repl",
+  "display_name": "puppet-repl",
+  "url": "https://github.com/nwops/puppet-repl",
+  "description": "A repl for the puppet language"
+}
