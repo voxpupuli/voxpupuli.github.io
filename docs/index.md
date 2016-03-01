@@ -40,7 +40,7 @@ administrator access to speed things up.
 ##  Publishing a module - setup
 Forge publishing is handled by travis and puppet-blacksmith.
 
-To guarantee a frictionless process across all modules, we use [modulesync](https://github.com/voxpupuli/modulesync).
+To guarantee a frictionless process across all modules, we use [modulesync](https://github.com/voxpupuli/modulesync). Our modulesync configuration is available at [modulesync_config](https://github.com/voxpupuli/modulesync_config).
 
 Most modulesync'ed settings can be overridden through a [.sync.yml](https://github.com/voxpupuli/puppet-extlib/blob/master/.sync.yml). You may also need to (re)define your travis testing matrix with respect to puppet version. This prevents the deploy hook from running once for each version of puppet defined in your testing.
 
