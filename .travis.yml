@@ -3,7 +3,7 @@ sudo: false
 rvm:
 - 2.1
 
-script: jekyll build && htmlproof ./_site
+script: bundle exec jekyll build && bundle exec htmlproof ./_site
 
 env:
   global:
