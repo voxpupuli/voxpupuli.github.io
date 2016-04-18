@@ -59,7 +59,7 @@ Gem publishing is handled similarly, except there is not a unified user. Each ge
 
 ## Releasing a new version of a module
 *Please note that in order to perform a release you must be in the __Collaborators__ group on Github for the module in question.*
- 
+
 Run modulesync to ensure the dotfiles are up to date.
 
 Create a 'release pr'. This pull request updates the changelog and bumps the version number to the target version, removing all release candidate identifiers, i.e. from `0.10.7-rc0` to `0.10.7`. Here's an example: [puppet-extlib's 0.10.7 release](https://github.com/voxpupuli/puppet-extlib/pull/43)
