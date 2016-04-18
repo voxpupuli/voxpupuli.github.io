@@ -32,6 +32,8 @@ You will have someone by your side in this process. The general flow is to…
 * Release a 999.999.999 version of your modules to the forge, so everyone
   knows to stop using it.
 * Release a copy of your module to the 'puppet' forge account.
+* Add the module to our [modulesync setup](https://github.com/voxpupuli/modulesync_config/blob/master/managed_modules.yml)
+* Add the module to our [plumbing repository](https://github.com/voxpupuli/plumbing/blob/master/share/modules)(handles travis secrets)
 
 If you have many modules you wish to migrate, this will be cumbersome.
 In this case we will generally create a separate group and give you
