@@ -48,7 +48,7 @@ metadata-json-lint metadata.json
 Command line(failure):
 
 ```shell
-$: metadata-json-lint metadata.json 
+$: metadata-json-lint metadata.json
 Error: Unable to parse json. There is a syntax error somewhere.
 $: echo $?
 1
@@ -57,7 +57,7 @@ $: echo $?
 Command line(failure):
 
 ```shell
-$: metadata-json-lint metadata.json 
+$: metadata-json-lint metadata.json
 Error: Required field 'summary' not found in metadata.json.
 Errors found in metadata.json
 $: echo $?
