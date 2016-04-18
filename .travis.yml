@@ -6,3 +6,5 @@ script: bundle exec jekyll build && bundle exec htmlproofer ./_site
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+notifications:
+  email: false
