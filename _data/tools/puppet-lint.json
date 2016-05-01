@@ -143,6 +143,11 @@
       "name": "resource_outside_class",
       "url": "https://github.com/llowder/puppet-lint-resource_outside_class-check",
       "description": "A puppet-lint plugin to check if resources exist outside of a class or defined type."
+    },
+    {
+      "name": "resource_reference_outside_class",
+      "url": "https://github.com/voxpupuli/puppet-lint-reference_on_declaration_outside_of_class-check.git",
+      "description": "A puppet-lint plugin to check for references which are declared outside of the class where the reference is used."
     }
   ]
 }
