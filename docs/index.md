@@ -65,7 +65,7 @@ Gem publishing is handled similarly, except there is not a unified user. Each ge
 
 Run modulesync to ensure the dotfiles are up to date.
 
-Create a 'release pr'. This pull request updates the changelog and bumps the version number to the target version, removing all release candidate identifiers, i.e. from `0.10.7-rc0` to `0.10.7`. Here's an example: [puppet-extlib's 0.10.7 release](https://github.com/voxpupuli/puppet-extlib/pull/43). In most cases it is sufficient to update CHANGELOG.md and metadata.json.
+Create a 'release pr'. This pull request updates the changelog and bumps the version number to the target version, removing all release candidate identifiers, i.e. from `0.10.7-rc0` to `0.10.7`. Here's an example: [puppet-extlib's 0.10.7 release](https://github.com/voxpupuli/puppet-extlib/pull/43). In most cases it is sufficient to update CHANGELOG.md and metadata.json. We try to honor [semantic versioning](http://semver.org/) and decided that dropping ruby1.8 support is a major change and requires a major version bump for the module.
 
 Get community feedback on the release pr, get it merged.
 
