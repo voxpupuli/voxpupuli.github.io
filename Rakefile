@@ -1,3 +1,4 @@
+require 'colorize'
 require 'html-proofer'
 require 'jekyll'
 
@@ -28,7 +29,18 @@ end
 
 desc 'Build and validate the site'
 task :test do
+  notify 'Building site'
   Rake::Task['build'].invoke
+  notify 'Validating site'
   Rake::Task['validate'].invoke
+  notify 'Checking for deprecation issues'
   Rake::Task['doctor'].invoke
+end
+
+def notify message
+  puts
+  puts '###################################################'.blue
+  puts "#{message}...".blue
+  puts '###################################################'.blue
+  puts
 end
