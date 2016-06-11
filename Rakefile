@@ -1,14 +1,16 @@
 require 'html-proofer'
-require 'fileutils'
+require 'jekyll'
+
+task :default => :test
 
 desc 'Build the site with Jekyll'
 task :build do
-  sh 'bundle exec jekyll build'
+  Jekyll::Commands::Build.process(profile: true)
 end
 
 desc 'Remove generated site'
 task :clean do
-  FileUtils.rm_rf('./_site')
+  Jekyll::Commands::Clean.process({})
 end
 
 desc 'Validate _site/ with html-proofer'
