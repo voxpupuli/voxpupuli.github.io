@@ -1,14 +1,17 @@
+require 'colorize'
 require 'html-proofer'
-require 'fileutils'
+require 'jekyll'
+
+task :default => :test
 
 desc 'Build the site with Jekyll'
 task :build do
-  sh 'bundle exec jekyll build'
+  Jekyll::Commands::Build.process(profile: true)
 end
 
 desc 'Remove generated site'
 task :clean do
-  FileUtils.rm_rf('./_site')
+  Jekyll::Commands::Clean.process({})
 end
 
 desc 'Validate _site/ with html-proofer'
@@ -19,8 +22,25 @@ task :validate do
   }).run
 end
 
+desc 'Check for Jekyll deprecation issues'
+task :doctor do
+  Jekyll::Commands::Doctor.process({})
+end
+
 desc 'Build and validate the site'
 task :test do
+  notify 'Building site'
   Rake::Task['build'].invoke
+  notify 'Validating site'
   Rake::Task['validate'].invoke
+  notify 'Checking for deprecation issues'
+  Rake::Task['doctor'].invoke
+end
+
+def notify message
+  puts
+  puts '###################################################'.blue
+  puts "#{message}...".blue
+  puts '###################################################'.blue
+  puts
 end
