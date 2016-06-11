@@ -21,8 +21,14 @@ task :validate do
   }).run
 end
 
+desc 'Check for Jekyll deprecation issues'
+task :doctor do
+  Jekyll::Commands::Doctor.process({})
+end
+
 desc 'Build and validate the site'
 task :test do
   Rake::Task['build'].invoke
   Rake::Task['validate'].invoke
+  Rake::Task['doctor'].invoke
 end
