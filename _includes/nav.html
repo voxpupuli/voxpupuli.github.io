@@ -16,7 +16,7 @@
         {% if page.url contains link.url %}
           {% assign current = 'current' %}
         {% endif %}
-        <li class="{{ current }}"><a href="{{site.url}}{{site.baseurl}}{{ link.url }}">{{ link.title }}</a></li>
+        <li class="{{ current }}"><a href="{{site.url}}{{site.baseurl}}{{ link.url }}" data-proofer-ignore>{{ link.title }}</a></li>
       {% endfor %}
     </ul>
     <ul class="nav navbar-nav navbar-right">
