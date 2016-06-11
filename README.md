@@ -7,6 +7,12 @@ The https://voxpupuli.org site. Have a look at it to see what this is all about.
 * `bundle install`
 * `bundle exec jekyll serve -w --config _config.yml,_config-dev.yml`
 
+You can also use the rake tasks defined in the `Rakefile`:
+
+* `build`: `jekyll build`
+* `validate`: uses html-proofer to check the generated site
+* `clean`: removes the `./_site` directory Jekyll generated
+
 ## Puppet Plugins
 Tools and plugins that appear on the Plugins page of our site
 are defined in the `_data/tools` directory. Tools without plugins are going to
