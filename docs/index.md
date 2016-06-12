@@ -22,6 +22,18 @@ participation, orchestrated by github teams.
 * Administsrators have the authorization to create new repositories and
   publish modules to the forge under the puppet namespace.
 
+## Where you can find us
+We have a number of communication channels:
+
+* #voxpupuli on [Freenode](http://freenode.net), aka IRC
+* [#voxpupuli](http://puppetcommunity.slack.com/messages/voxpupuli/) on
+  [Puppet Community](http://slack.puppet.com), aka Slack
+
+IRC still counts as the preferred point of contact for many of us but we tend
+to be available and reachable through both. If you need to reach out to a
+maintainer because of behaviour in our community that you find questionable
+please read through our Code of Conduct, you'll find a contact address there.
+
 ## Migrating a module to voxpupuli
 You will have someone by your side in this process. The general flow is to…
 
