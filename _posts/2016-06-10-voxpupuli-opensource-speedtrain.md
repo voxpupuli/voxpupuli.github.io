@@ -12,7 +12,7 @@ You can find the [slides can be found on my blag](https://blag.esotericsystems.a
 Voxpupuli
 =========
 
-![8bit vox]({{ site.url }}{{ site.baseurl }}/static/images/8bit-vox.png)
+<img alt="8bit vox" src="{{ site.url }}{{ site.baseurl }}/static/images/8bit-vox.png" width="50%" height="50%" />
 
 **Opensource 🚅 Speedtrain**
 
@@ -54,7 +54,7 @@ Let's get started with
 Who is Voxpupuli?
 =================
 
-<img alt="gray fox kits" src="{{ site.url }}{{ site.baseurl }}/static/images/gray-fox-kits-956687_1280.jpg" width="25%" height="25%" />
+<img alt="gray fox kits" src="{{ site.url }}{{ site.baseurl }}/static/images/gray-fox-kits-956687_1280.jpg" width="40%" height="40%" />
 
 64… wait 65… no actually 66 volunteers
 
@@ -90,7 +90,7 @@ A puppet module can be tiny. Yet, at times, it may require a lot of attention an
 
 With 60~ other people around, you are not alone. I believe that in Voxpupuli we have succeeded in eliminating the single-point of failure of the *maintainer*.
 
-<img alt="more fox pups" src="{{ site.url }}{{ site.baseurl }}/static/images/more-fox-pups.jpg" width="25%" height="25%" />
+<img alt="more fox pups" src="{{ site.url }}{{ site.baseurl }}/static/images/more-fox-pups.jpg" width="40%" height="40%" />
 
 Daenney and I may have been the fire-starters, but Voxpupuli has transcended our  
 hopes and expectations. It has become that proof that the sum is greater than its parts.
@@ -108,7 +108,7 @@ With robots, too. And with tools, that enforce standards and conventions. Let's 
 Robots: vpci
 ============
 
-<img alt="8bit vpci" src="{{ site.url }}{{ site.baseurl }}/static/images/8bit-vpci.jpg" width="50%" height="50%" />
+<img alt="8bit vpci" src="{{ site.url }}{{ site.baseurl }}/static/images/8bit-vpci.png" width="50%" height="50%" />
 
 Is a set of bash and python scripts that runs beaker tests for Voxpupuli, but
 also for Puppet. Of those modules that have beaker acceptance tests, we can be
@@ -117,7 +117,7 @@ relatively certain that they will work out quite fine.
 Robots: Travis
 ==============
 
-![Travis]({{ site.url }}{{ site.baseurl }}/static/images/travis-mascot-600px.png)
+<img alt="Travis" src="{{ site.url }}{{ site.baseurl }}/static/images/travis-mascot-600px.png" width="60%" height="60%" />
 
 -   rspec-puppet
 -   STRICT\_VARIABLES
@@ -164,7 +164,7 @@ Structure and Communication
 
 in Community Management
 
-<img alt="plumbing" src="{{ site.url }}{{ site.baseurl }}/static/images/plumbing.jpg" width="50%" height="50%" />
+<img alt="plumbing" src="{{ site.url }}{{ site.baseurl }}/static/images/plumbing.jpg" width="60%" height="60%" />
 
 The *plumbing* repository is where you can track or report structural issues
 that need public discussion. Bugs in the community, or feature requests, if you
@@ -204,12 +204,12 @@ than to be overwhelmed with it are our standards and conventions.
 -   Every pull request is checked by Travis & vpci
 -   Every pull request is reviewed and merged by someone who is *not* the author
 
-<img alt="tyre fire" src="{{ site.url }}{{ site.baseurl }}/static/images/tyre-fire.jpg" width="25%" height="25%" />
+<img alt="tyre fire" src="{{ site.url }}{{ site.baseurl }}/static/images/tyre-fire.jpg" width="40%" height="40%" />
 
 If this sounds boring, all I can say is that boring code is *good*. We have far
 too much excitement in our jobs.
 
-<img alt="campfire" src="{{ site.url }}{{ site.baseurl }}/static/images/lagerfeuer.jpg" width="25%" height="25%" />
+<img alt="campfire" src="{{ site.url }}{{ site.baseurl }}/static/images/lagerfeuer.jpg" width="40%" height="40%" />
 
 So having boring code code that helps us run our infrastructure give you  
 that warm fuzzy feeling of reliability.
@@ -217,7 +217,7 @@ that warm fuzzy feeling of reliability.
 People: Community Gardeners
 ===========================
 
-<img alt="community garden" src="{{ site.url }}{{ site.baseurl }}/static/images/community-garden.jpg" width="25%" height="25%" />
+<img alt="community garden" src="{{ site.url }}{{ site.baseurl }}/static/images/community-garden.jpg" width="40%" height="40%" />
 
 -   grant & revoke access
 -   enforce coc
@@ -258,7 +258,7 @@ review pull requests!
 What does Voxpupuli…
 ====================
 
-<img alt="8bit vox" src="{{ site.url }}{{ site.baseurl }}/static/images/8bit-vox.jpg" width="50%" height="50%" />
+<img alt="8bit vox" src="{{ site.url }}{{ site.baseurl }}/static/images/8bit-vox.png" width="50%" height="50%" />
 
 -   … do for my company?
 -   … do for me?
