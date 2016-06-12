@@ -80,7 +80,7 @@ Maintaining puppet modules is hard. Constantly ensuring quality is a
 never-ending race against bit-rot. The ruby ecosystem is evolving fast, and it's
 hard to keep up with the tools and *best* practices. Running this race alone can
 be exhausting, at best. But slipping up, falling ill, taking vacation, changing
-jobs, losing interest - being human, makes it impossible to keep up *alone*.
+jobs, losing interest - [being human](http://somethingsinistral.net/blog/hiatus/), makes it impossible to keep up *alone*.
 
 As systems administrators we strive to eliminate any possible
 single-point-of-failure. Often times forgetting that we ourselves can become
