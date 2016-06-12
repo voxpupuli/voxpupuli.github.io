@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Voxpupuli: Opensource Speedtrain
+title: Voxpupuli - Opensource Speedtrain
 github_username: igalic
 twitter_username: hirojin
 date: 2016-06-10
