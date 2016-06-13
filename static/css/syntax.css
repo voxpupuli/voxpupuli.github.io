@@ -75,3 +75,14 @@
 .highlight .ss {
   color: #90a959;
 }
+
+.logo {
+  max-width: 32px;
+  display: inline-block;
+}
+
+.voxpupuli-intro {
+  background: url('/static/images/blue-skies.jpg');
+  background-size: cover;
+  background-position: 50%;
+}
