@@ -78,7 +78,7 @@
 
 .logo {
   max-width: 32px;
-  display: inline-block;
+  display: inline-block!important;
 }
 
 .voxpupuli-intro {
