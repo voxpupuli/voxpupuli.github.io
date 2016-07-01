@@ -1,5 +1,7 @@
 language: ruby
 sudo: false
+before_install:
+  - gem install bundler # the default bundler version on travis is very old and causes dependency issues
 rvm:
   - 2.2
 script: bundle exec rake test
