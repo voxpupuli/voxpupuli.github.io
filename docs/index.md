@@ -41,12 +41,12 @@ You will have someone by your side in this process. The general flow is to…
 * At that point you can transfer your own repository
 * If migrating a module from puppetlabs, re-enable github issues.
 * Verify that all webhooks except travis are disabled.
-* Release a 999.999.999 version of your modules to the forge, so everyone
-  knows to stop using it.
+* Update the README.md with a description of the deprecation and a link to the new module location.
+* Release a 999.999.999 version of the *original* module to the forge, so users and tools knows to stop using it.
 * Release a copy of your module to the 'puppet' forge account.
 * Add the module to our [modulesync setup](https://github.com/voxpupuli/modulesync_config/blob/master/managed_modules.yml)
 * Add the module to our [plumbing repository](https://github.com/voxpupuli/plumbing/blob/master/share/modules)(handles travis secrets)
-* Ask one of the Admins to add the module to the collaborators Team on github
+* Ask one of the Admins to add the module to the collaborators Team on github.
 
 If you have many modules you wish to migrate, this will be cumbersome.
 In this case we will generally create a separate group and give you
