@@ -14,5 +14,8 @@
   </body>
 
   {% include scripts.html %}
+  {% if page.path == 'index.html' %}
+    {% include stats.html %}
+  {% endif %}
 
 </html>

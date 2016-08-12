@@ -1,0 +1,17 @@
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+  $.getJSON( "https://api.github.com/orgs/voxpupuli", function( data ) {
+
+    $("#repository-count").text(data.public_repos);
+
+  });
+
+  $.getJSON( "https://api.github.com/orgs/voxpupuli/members", function( data ) {
+
+    console.log(data.length);
+    $("#members-count").text(data.length);
+
+  });
+});
+</script>
