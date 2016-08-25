@@ -145,6 +145,16 @@
       "description": "A puppet-lint plugin to check if resources exist outside of a class or defined type."
     },
     {
+      "name": "top_scope_facts ",
+      "url": "https://github.com/mmckinst/puppet-lint-top_scope_facts-check",
+      "description": "A puppet-lint plugin to check for top scope facts that should use the facts hash instead."
+    },
+    {
+      "name": "legacy_facts",
+      "url": "https://github.com/mmckinst/puppet-lint-legacy_facts-check",
+      "description": "A puppet-lint plugin to check for legacy facts that have been replaced with new structured facts."
+    },
+    {
       "name": "resource_reference_outside_class",
       "url": "https://github.com/voxpupuli/puppet-lint-reference_on_declaration_outside_of_class-check.git",
       "description": "A puppet-lint plugin to check for references which are declared outside of the class where the reference is used."
