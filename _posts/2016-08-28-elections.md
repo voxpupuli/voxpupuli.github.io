@@ -14,7 +14,7 @@ context and how to become a candidate.
 
 (Source: [https://voxpupuli.org/](https://voxpupuli.org/))
 
-Vox Pupuli now represents 68 collaborators, and 86 repositories. In order to
+Vox Pupuli now represents 68 collaborators, and 93 repositories. In order to
 make this project successful in the long term, we have been [discussing][d]
 about how we can better work together and take appropriate decisions.
 
