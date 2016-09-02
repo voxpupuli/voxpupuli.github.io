@@ -42,8 +42,7 @@ Vox Pupuli needs candidates like you!
 [g]:https://github.com/voxpupuli/plumbing/blob/master/share/governance.md
 [n]:https://github.com/voxpupuli
 [r1]:https://github.com/voxpupuli/puppet-selinux
-[r1]:https://github.com/voxpupuli/puppet-nginx
-[r1]:https://github.com/voxpupuli/puppet-googleauthenticator
+[r2]:https://github.com/voxpupuli/puppet-nginx
+[r3]:https://github.com/voxpupuli/puppet-googleauthenticator
 [e]:https://github.com/voxpupuli/plumbing/edit/master/share/elections/2016-01.md
 [c]:https://voxpupuli.org/coc/
-[y]
