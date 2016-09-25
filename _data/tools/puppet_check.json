@@ -1,0 +1,6 @@
+{
+  "name": "puppet_check",
+  "display_name": "Puppet Check",
+  "url": "https://github.com/mschuchard/puppet-check",
+  "description": "A streamlined comprehensive set of checks for your entire Puppet code and data."
+}
