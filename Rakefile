@@ -17,7 +17,7 @@ end
 desc 'Validate _site/ with html-proofer'
 task :validate do
   HTMLProofer.check_directory('./_site', {
-    :url_ignore => [/voxpupuli.org/],
+    :url_ignore => [/voxpupuli.org/, /github.com\/voxpupuli\/voxpupuli.github.io\/edit\/master/],
     :check_html => true,
   }).run
 end
