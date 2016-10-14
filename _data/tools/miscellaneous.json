@@ -4,11 +4,6 @@
   "description": "Plugins/libraries for tools that don't fit anywhere else.",
   "plugins": [
     {
-      "name": "vim-puppet",
-      "url": "https://github.com/roidelapluie/vim-puppet",
-      "description": "Plugin to make Vim more Puppet friendly."
-    },
-    {
       "name": "guard-puppet-lint",
       "url": "https://github.com/alister/guard-puppet-lint",
       "description": "As Puppet manifest files change, run puppet-lint on them."
