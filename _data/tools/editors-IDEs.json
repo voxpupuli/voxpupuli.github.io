@@ -1,0 +1,32 @@
+{
+  "name": "editors-IDEs",
+  "display_name": "Editor and IDE",
+  "description": "Editor and IDE support for Puppet.",
+  "plugins": [
+    {
+      "name": "vim-puppet",
+      "url": "https://github.com/voxpupuli/vim-puppet",
+      "description": "Plugin to make Vim more Puppet friendly."
+    },
+    {
+      "name": "Intellij Puppet Support",
+      "url": "https://plugins.jetbrains.com/plugin/7180",
+      "description": "This plugin provides Puppet language support for Intellij."
+    },
+    {
+      "name": "puppet-mode",
+      "url": "https://github.com/lunaryorn/puppet-mode",
+      "description": "Edit Puppet 3 manifests with GNU Emacs 24."
+    },
+    {
+      "name": "flycheck",
+      "url": "https://github.com/flycheck/flycheck",
+      "description": "On the fly Puppet syntax checking for GNU Emacs using puppet parser and puppet-lint."
+    },
+    {
+      "name": "Spacemacs",
+      "url": "https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Btools/puppet",
+      "description": "A community-driven Emacs distribution. Comes with a Puppet layer that sets up flycheck and puppet-mode."
+    }
+  ]
+}
