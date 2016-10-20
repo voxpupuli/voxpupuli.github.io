@@ -15,7 +15,7 @@
     },
     {
       "name": "puppet-mode",
-      "url": "https://github.com/lunaryorn/puppet-mode",
+      "url": "https://github.com/voxpupuli/puppet-mode",
       "description": "Edit Puppet 3 manifests with GNU Emacs 24."
     },
     {
