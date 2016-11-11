@@ -19,7 +19,7 @@ participation, orchestrated by github teams.
   voxpupuli.
 * Collaborators have commit/merge access to a subset of the modules in
   voxpupuli.
-* Administsrators have the authorization to create new repositories and
+* Administrators have the authorization to create new repositories and
   publish modules to the forge under the puppet namespace.
 
 ## Where you can find us
