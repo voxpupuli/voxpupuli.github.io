@@ -26,6 +26,8 @@ navigation:
     url: /coc/
   - title: Documentation
     url: /docs/
+  - title: Security
+    url: /security/
   - title: Plugins
     url: /plugins/
   - title: Blog
