@@ -29,9 +29,9 @@ Here is a list of topics where the security officer can help you:
 * Any other security and Vox Pupuli related problem
 
 
-## Best practices regarding security
+## Good practices regarding security
 
-For our contributors, here are some best practices that we highly recommend.
+For our contributors, here are some good practices that we highly recommend.
 
 1. Setup Github [Two-Factor Authentication][2fa]
 
@@ -40,7 +40,7 @@ For our contributors, here are some best practices that we highly recommend.
 
 1. GPG-Sign Tag commits
 
-    Git allows you to gpg-sign commits. You should at least GPG-Sign the release
+    Git allows you to [gpg-sign commits][s]. You should at least GPG-Sign the release
     commits, and register you GPG key inside Github.
 
 1. Respect the [Responsible disclosure][m] model.
@@ -64,3 +64,4 @@ For our contributors, here are some best practices that we highly recommend.
 
 [2fa]:https://help.github.com/articles/about-two-factor-authentication/
 [m]:https://en.wikipedia.org/wiki/Responsible_disclosure
+[s]:https://help.github.com/articles/signing-commits-using-gpg/
