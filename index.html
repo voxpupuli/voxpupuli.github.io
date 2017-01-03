@@ -66,14 +66,15 @@ layout: default
   </div>
   <div class="col-md-4">
     <div class="panel">
-      <div class="panel-heading">Tools</div>
+      <div class="panel-heading">Latest posts</div>
       <div class="panel-body">
-        <p>In the same spirit as modules a lot of tooling we rely on was
-        originally written and maintained by a single person. This created many
-        areas of friction and sometimes caused these tools to not get updates
-        for extended periods of time stranding our community.</p>
-        <p>The shared ownership in these cases allows us to keep moving forward
-        without blocking on a single person or small team.</p>
+        <ul>
+          {% for post in site.posts limit:5 %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%Y-%m-%d" }})
+            </li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </div>
