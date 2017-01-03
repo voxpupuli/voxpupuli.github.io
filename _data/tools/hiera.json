@@ -88,11 +88,6 @@
       "name": "hiera-vault",
       "url": "https://github.com/jsok/hiera-vault",
       "description": "Backend to retrieve secrets from Hashicorp's Vault."
-    },
-    {
-      "name": "hiera-yamlgpg",
-      "url": "https://github.com/compete/hiera_yamlgpg",
-      "description": "Decrypt Hiera YAML values encrypted with GPG."
     }
   ]
 }
