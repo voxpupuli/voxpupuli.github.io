@@ -11,16 +11,16 @@ We announced the deprecation of Puppet 3 in our modules
 [already](https://voxpupuli.org/blog/2016/12/22/putting-down-puppet-3/). There
 are a few steps needed to be taken before a Puppet-4-only release can be done:
 
-* Check the current metadata.json for the required Puppet version and bump it if needed
+* Check the current `metadata.json` for the required Puppet version and bump it if needed
   * We already have a few modules that only support Puppet 4, in this case you can ignore this guide
-  * The minimal required Puppet Version should not be 4.0.0 but [4.6.1](https://github.com/voxpupuli/community-triage/blob/master/modules/notes/2017-01-05.md#discussion)
-  * Also check if the dependencies in the `metadata,json` all have Puppet 4 support, probably they have to be bumped too
-  * The minimal required stdlib version has to be 4.6.0
-* Do a last release with Puppet 3 support which announces the next major release without Puppet 3
+  * The minimum required Puppet Version should not be 4.0.0 but [4.6.1](https://github.com/voxpupuli/community-triage/blob/master/modules/notes/2017-01-05.md#discussion)
+  * Also check if the dependencies in the `metadata.json` all have Puppet 4 support, they may have to be bumped too
+  * The minimum required stdlib version has to be 4.6.0
+* Perform a release of the module within the current Major version that announces the deprecation of Puppet 3. e.g. Current version is 2.1.3, release 2.2.0 with the deprecation notice
 * Create a new branch which is called `puppet3`
   * The required Puppet version for this branch in the `metadata.json` should be the latest available, which is currently 3.8.7
   * Keep in mind that stdlib [4.13.0](https://forge.puppet.com/puppetlabs/stdlib/changelog#supported-release-4130) deprecates a lot of functions, you maybe want to require an older version in the `puppet3` branch
 * Check the [.sync.yml](https://github.com/voxpupuli/puppet-tea/blob/e49d6d1ce8ba71c2123edf9fae45cde19e603ec3/.sync.yml#L3-L17), sometimes the `.travis.yml` file is unmanaged or modified because the module is already Puppet 4 only. Take a look for an `include` block in the `.travis.yml` section and remove it
-* Do a modulesync with at least version XY ([how to do it](https://github.com/voxpupuli/modulesync_config#how-to-use-it))
-* Merge any incoming pull requests that add Puppet 4 functionality now, but not earlier
-* Do a major version bump + a release soon after the first Puppet 4 functionalty got added
+* Do a modulesync with at least version 0.17.0 ([how to do it](https://github.com/voxpupuli/modulesync_config#how-to-use-it))
+* You may now merge any existing Pull Requests to the master branch that are not backwards compatible with Puppet 3
+* Do a major version bump + a release soon after the first Puppet 4 functionality is added
