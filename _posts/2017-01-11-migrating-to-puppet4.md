@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Migrating a Module to Puppet 4
-date: 2017-01-09
+date: 2017-01-11
 github_username: bastelfreak
 twitter_username: BastelsBlog
 ---
