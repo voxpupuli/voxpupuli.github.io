@@ -15,6 +15,7 @@ are a few steps needed to be taken before a Puppet-4-only release can be done:
   * We already have a few modules that only support Puppet 4, in this case you can ignore this guide
   * The minimal required Puppet Version should not be 4.0.0 but [4.6.1](https://github.com/voxpupuli/community-triage/blob/master/modules/notes/2017-01-05.md#discussion)
   * Also check if the dependencies in the `metadata,json` all have Puppet 4 support, probably they have to be bumped too
+  * The minimal required stdlib version has to be 4.6.0
 * Do a last release with Puppet 3 support which announces the next major release without Puppet 3
 * Create a new branch which is called `puppet3`
   * The required Puppet version for this branch in the `metadata.json` should be the latest available, which is currently 3.8.7
