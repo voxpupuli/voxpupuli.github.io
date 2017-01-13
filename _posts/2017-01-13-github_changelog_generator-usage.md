@@ -9,7 +9,7 @@ twitter_username: rnelson0
 With the upgrade to Puppet 4 in all of our modules, we have also added the gem [github_changelog_generator](https://github.com/skywinder/github-changelog-generator). This is an automated tool to generate a `CHANGELOG.md` based on the Issues and PRs from a github repo with minimal manual intervention. No more forgetting about an important change or describing it wrong, the gem handles that for you.
 
 The changelog contents are based on a few things:
-* The current version of the Puppet module per `metadata.json`
+* The current version of the Puppet module per `metadata.json`. This means updating the `metadata.json` prior to creating the changelog (i.e. not the X.Y.Z*-rc0* versions)
 * All Issues/PRs between every release tag, as well as the last release tag and the present
 * Descriptions are based on the Issue/PR title
 * Issues/PRs are excluded if they have have certain tags. The current list is duplicate, question, invalid, wontfix, modulesync
@@ -26,6 +26,6 @@ To generate a changelog for a Vox Pupuli module, all you need to do is run a sin
 ```
 bundle exec rake changelog
 ```
-That's it! After generating your changelog, review it (I advise committing your change and viewing it in your branch on GitHub), and make sure it looks okay. Update the title or label on Issues and PRs and generate the change log again. Review and tweak as necessary until the changelog is accurate and the noise is removed. Commit again and attach it to your release PR.
+That's it! After generating your changelog, review it (I advise committing your change and viewing it in your branch on GitHub), and make sure it looks okay. Update the title or label on Issues and PRs and generate the changelog again. Review and tweak as necessary until the changelog is accurate and the noise is removed. Commit again and attach it to your release PR.
 
 You can also use the github_changelog_generator gem on your own modules. Add these edits to your [Gemfile](https://github.com/voxpupuli/puppet-jira/blob/88d139e6b5de62410698e9fbf573842a2bd2d675/Gemfile#L33-L35) and [Rakefile](https://github.com/voxpupuli/puppet-jira/blob/88d139e6b5de62410698e9fbf573842a2bd2d675/Rakefile#L34-L43) (requires puppet-blacksmith which should be in your [Gemfile](https://github.com/voxpupuli/puppet-jira/blob/88d139e6b5de62410698e9fbf573842a2bd2d675/Gemfile#L26) and [Rakefile](https://github.com/voxpupuli/puppet-jira/blob/88d139e6b5de62410698e9fbf573842a2bd2d675/Rakefile#L2) already) and you will have the rake target `changelog` as well!
