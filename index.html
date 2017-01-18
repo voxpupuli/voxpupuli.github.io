@@ -19,7 +19,7 @@ layout: default
         repositories
       </div>
       <div class="panel-body">
-        <h1 id="repository-count">{% github_repo_stats %}</h1>
+        <h1 id="repository-count">{{ site.stats['repos'] }}</h1>
       </div>
     </div>
   </div>
@@ -29,7 +29,7 @@ layout: default
         open pull requests
       </div>
       <div class="panel-body">
-        <h1 id="pr-count">{% github_pr_stats %}</h1>
+        <h1 id="pr-count">{{ site.stats['prs'] }}</h1>
       </div>
     </div>
   </div>

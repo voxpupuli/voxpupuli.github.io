@@ -1,42 +1,42 @@
-# Site settings
+---
 title: Vox Pupuli
-description: >
-  Vox Pupuli is a collective of Puppet module, tooling and documentation
+description: Vox Pupuli is a collective of Puppet module, tooling and documentation
   maintainers working together for the greater good.
-baseurl: ""
-url: "https://voxpupuli.org"
-github_username:  voxpupuli
+baseurl: ''
+url: https://voxpupuli.org
+github_username: voxpupuli
 twitter_username: voxpupuliorg
-
-# Build settings
 markdown: kramdown
 encoding: utf-8
 timezone: Etc/UTC
-permalink: /blog/:year/:month/:day/:title/
+permalink: "/blog/:year/:month/:day/:title/"
 kramdown:
   hard_wrap: false
   input: GFM
   syntax_highlighter: rouge
-
-
 navigation:
-  - title: Home
-    url: /
-  - title: Code of Conduct
-    url: /coc/
-  - title: Documentation
-    url: /docs/
-  - title: Security
-    url: /security/
-  - title: Plugins
-    url: /plugins/
-  - title: Blog
-    url: /posts/
-
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME", "README.md", "vendor"]
-
-# static fallback stats values
+- title: Home
+  url: "/"
+- title: Code of Conduct
+  url: "/coc/"
+- title: Documentation
+  url: "/docs/"
+- title: Security
+  url: "/security/"
+- title: Plugins
+  url: "/plugins/"
+- title: Blog
+  url: "/posts/"
+exclude:
+- Gemfile
+- Gemfile.lock
+- LICENSE
+- README.md
+- CNAME
+- README.md
+- vendor
+- tasks
 stats:
   collaborators: 30
   repos: 119
-  pr: 183
+  prs: 168
