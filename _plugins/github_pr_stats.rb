@@ -9,6 +9,9 @@ module Jekyll
       api_url = 'https://api.github.com/orgs/voxpupuli/repos?per_page=100'
       oauth_client_id = ENV['GH_CLIENT_ID'] ||= nil
       oauth_client_secret = ENV['GH_CLIENT_SECRET'] ||= nil
+      p('debug: ENV', ENV)
+      log("debug: ENV['GH_CLIENT_ID'] = #{ENV['GH_CLIENT_ID']}")
+      log("debug: ENV['GH_CLIENT_SECRET'] = #{ENV['GH_CLIENT_SECRET']}")
       @auth_suffix = nil
       if oauth_client_id && oauth_client_secret
         @auth_suffix = "&client_id=#{oauth_client_id}&client_secret=#{oauth_client_secret}"
