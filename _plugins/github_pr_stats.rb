@@ -9,9 +9,6 @@ module Jekyll
       api_url = 'https://api.github.com/orgs/voxpupuli/repos?per_page=100'
       oauth_client_id = ENV['GH_CLIENT_ID'] ||= nil
       oauth_client_secret = ENV['GH_CLIENT_SECRET'] ||= nil
-      p('debug: ENV', ENV)
-      log("debug: ENV['GH_CLIENT_ID'] = #{ENV['GH_CLIENT_ID']}")
-      log("debug: ENV['GH_CLIENT_SECRET'] = #{ENV['GH_CLIENT_SECRET']}")
       @auth_suffix = nil
       if oauth_client_id && oauth_client_secret
         @auth_suffix = "&client_id=#{oauth_client_id}&client_secret=#{oauth_client_secret}"
@@ -28,6 +25,8 @@ module Jekyll
       req['User-Agent'] = 'voxpupuli.org github API'
       res = Net::HTTP.start(url.host, url.port, use_ssl: true) { |http| http.request(req) }
 
+      return [nil, nil] if res.code.to_s.match?(%r{(4|5)\d\d})
+
       # see if there are more pages
       next_page = nil
       if res['link']
@@ -43,6 +42,7 @@ module Jekyll
     end
 
     def process_repos(repositories = {})
+      return nil if repositories.nil? || repositories.empty?
       @repos += repositories.length
       # iterate over the repositories
       repositories.each do |repo|
@@ -78,11 +78,16 @@ module Jekyll
         end
 
         # some build output
-        log("github_pr_stats.rb: parsed #{@repos} repositories with #{@pull_reqs} PRs")
+        log("parsed #{@repos} repositories with #{@pull_reqs} PRs")
+        if @repos.zero?
+          log('falling back to values from _config.yml')
+          return Jekyll.configuration['stats']['pr']
+        end
 
         return @pull_reqs
       rescue => err
         p(err)
+        p(err.backtrace)
         return Jekyll.configuration['stats']['pr']
       end
     end
