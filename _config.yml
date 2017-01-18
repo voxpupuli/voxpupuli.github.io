@@ -34,3 +34,9 @@ navigation:
     url: /posts/
 
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME", "README.md", "vendor"]
+
+# static fallback stats values
+stats:
+  collaborators: 30
+  repos: 119
+  pr: 183
