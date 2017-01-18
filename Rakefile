@@ -1,8 +1,17 @@
+# frozen_string_literal: true
 require 'colorize'
 require 'html-proofer'
 require 'jekyll'
 
-task :default => :test
+task default: :test
+
+desc 'Run rubocop'
+task :rubocop do
+  require 'rubocop/rake_task'
+  RuboCop::RakeTask.new(:rubocop) do |t|
+    t.options = ['-D', '-S', '-E']
+  end
+end
 
 desc 'Build the site with Jekyll'
 task :build do
@@ -16,10 +25,11 @@ end
 
 desc 'Validate _site/ with html-proofer'
 task :validate do
-  HTMLProofer.check_directory('./_site', {
-    :url_ignore => [/voxpupuli.org/, /github.com\/voxpupuli\/voxpupuli.github.io\/edit\/master/],
-    :check_html => true,
-  }).run
+  HTMLProofer.check_directory(
+    './_site',
+    url_ignore: [%r{voxpupuli.org}, %r{github.com/voxpupuli/voxpupuli.github.io/edit/master}],
+    check_html: true
+  ).run
 end
 
 desc 'Check for Jekyll deprecation issues'
@@ -29,6 +39,8 @@ end
 
 desc 'Build and validate the site'
 task :test do
+  notify 'Checking code'
+  Rake::Task['rubocop'].invoke
   notify 'Building site'
   Rake::Task['build'].invoke
   notify 'Validating site'
@@ -37,7 +49,7 @@ task :test do
   Rake::Task['doctor'].invoke
 end
 
-def notify message
+def notify(message)
   puts
   puts '###################################################'.blue
   puts "#{message}...".blue
