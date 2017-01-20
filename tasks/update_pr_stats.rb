@@ -20,8 +20,15 @@ begin
       next
     end
 
+    # permissions
+    system("chmod 0700 #{Dir.pwd}")
+    system("chmod 0700 #{Dir.home}")
+    system("chmod 0600 #{identity_file}")
+    system('umask 077')
+
     # create symlink for the git ssh wrapper
     system("ln -sf $(readlink -f #{identity_file}) #{Dir.home}/id_deploy")
+    system("chmod 0600 #{Dir.home}/id_deploy")
 
     git_diff = `git diff --stat _config.yml`
     p(git_diff)
