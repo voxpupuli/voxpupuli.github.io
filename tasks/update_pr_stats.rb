@@ -14,11 +14,18 @@ begin
     next unless ENV['TRAVIS'] && ENV['TRAVIS']
     next if result.nil?
 
-    gh_auth_token = ENV['GH_AUTH_TOKEN'] ||= nil
+    gh_deploy_key = ENV['GH_DEPLOY_KEY'] ||= nil
 
-    unless gh_auth_token
-      puts 'No GitHub auth token found in GH_AUTH_TOKEN, skipping the commit & push...'
+    unless gh_deploy_key
+      puts 'No GitHub deploy key found in GH_DEPLOY_KEY, skipping the commit & push...'
       next
+    end
+
+    identity_file = "#{Dir.home}/id_deploy"
+    system("touch #{identity_file}")
+    system("chmod 0600 #{identity_file}")
+    File.open(identity_file, 'w') do |f|
+      f.write(Base64.decode64(gh_deploy_key))
     end
 
     git_diff = `git diff --stat _config.yml`
@@ -41,24 +48,29 @@ begin
         next
       end
 
-      puts(`git status`)
-      system('git config --global user.name "TRAVIS-CI"')
-      system('git config --global user.email "travis@voxpupuli"')
+      # puts(`git status`)
+      # system('git config --global user.name "TRAVIS-CI"')
+      system('git config user.name "TRAVIS-CI"')
+      # system('git config --global user.email "travis@voxpupuli"')
+      system('git config user.email "travis@voxpupuli"')
       system('git add _config.yml')
-      puts(`git status`)
+      # puts(`git status`)
       message = "[TRAVIS-CI] updated _config.yml stats at #{Time.now}"
-      puts(`git commit -m "#{message}"`)
-      system('git remote add upstream https://github.com/voxpupuli/voxpupuli.github.io.git')
+      system("git commit -m '#{message}'")
+      system('git remote add upstream git@github.com:voxpupuli/voxpupuli.github.io.git')
       # system('git branch --set-upstream-to upstream/master')
-      system('git config --global credential.helper store')
-      File.open(Dir.home + '/.git-credentials', 'w') do |f|
-        f.write("https://#{gh_pr_stats.token}:x-oauth-basic@github.com\n")
-      end
-      puts(`git status`)
+      # puts(`git status`)
       puts(`git log -n 1`)
-      system('git push -f -u upstream update-gh-pr-stats-travis-test')
+      ENV['SSH_AUTH_SOCK'] = nil
+      system('unset SSH_AUTH_SOCK')
+      system('GIT_SSH="./tasks/support/git_ssh_wrapper" git push -f -u upstream HEAD:update-gh-pr-stats-travis-test-live')
       # system('git push upstream master')
-      puts(`git status`)
+      # puts(`git status`)
+
+      # cleanup, just in case
+      system("rm -f #{identity_file}")
+      gh_deploy_key = nil
+      ENV['GH_DEPLOY_KEY'] = nil
     end
   end
 end
