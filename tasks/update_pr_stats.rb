@@ -15,7 +15,7 @@ begin
     next if result.nil?
 
     identity_file = './id_ed25519'
-    unless File.exists?(identity_file)
+    unless File.exist?(identity_file)
       puts('deploy key not found, skipping git commit & push...')
       puts('trying to find the file:')
       puts(`find . -type f -name 'id_ed25519'`)
