@@ -56,6 +56,7 @@ begin
       message = "[TRAVIS-CI] updated _config.yml stats at #{Time.now}"
       system("git commit -m '#{message}'")
       system('git remote add upstream git@github.com:voxpupuli/voxpupuli.github.io.git')
+      system('git fetch -p upstream')
       puts(`git log -n 1`)
       ENV['SSH_AUTH_SOCK'] = nil
       system('unset SSH_AUTH_SOCK')
