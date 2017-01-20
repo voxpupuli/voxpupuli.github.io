@@ -17,10 +17,11 @@ begin
     identity_file = './id_ed25519'
     unless File.exist?(identity_file)
       puts('deploy key not found, skipping git commit & push...')
-      puts('trying to find the file:')
-      puts(`find . -type f -name 'id_ed25519'`)
       next
     end
+
+    # create symlink for the git ssh wrapper
+    system("ln -sf #{identity_file} #{Dir.home}/id_deploy")
 
     git_diff = `git diff --stat _config.yml`
     p(git_diff)
