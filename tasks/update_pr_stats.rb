@@ -14,18 +14,12 @@ begin
     next unless ENV['TRAVIS'] && ENV['TRAVIS']
     next if result.nil?
 
-    gh_deploy_key = ENV['GH_DEPLOY_KEY'] ||= nil
-
-    unless gh_deploy_key
-      puts 'No GitHub deploy key found in GH_DEPLOY_KEY, skipping the commit & push...'
+    identity_file = './id_ed25519'
+    unless File.exists?(identity_file)
+      puts('deploy key not found, skipping git commit & push...')
+      puts('trying to find the file:')
+      puts(`find . -type f -name 'id_ed25519'`)
       next
-    end
-
-    identity_file = "#{Dir.home}/id_deploy"
-    system("touch #{identity_file}")
-    system("chmod 0600 #{identity_file}")
-    File.open(identity_file, 'w') do |f|
-      f.write(Base64.decode64(gh_deploy_key))
     end
 
     git_diff = `git diff --stat _config.yml`
@@ -69,8 +63,6 @@ begin
 
       # cleanup, just in case
       system("rm -f #{identity_file}")
-      gh_deploy_key = nil
-      ENV['GH_DEPLOY_KEY'] = nil
     end
   end
 end
