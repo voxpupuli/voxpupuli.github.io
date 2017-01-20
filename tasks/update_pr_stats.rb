@@ -21,7 +21,7 @@ begin
     end
 
     # create symlink for the git ssh wrapper
-    system("ln -sf #{identity_file} #{Dir.home}/id_deploy")
+    system("ln -sf $(readlink -f #{identity_file}) #{Dir.home}/id_deploy")
 
     git_diff = `git diff --stat _config.yml`
     p(git_diff)
@@ -43,24 +43,17 @@ begin
         next
       end
 
-      # puts(`git status`)
-      # system('git config --global user.name "TRAVIS-CI"')
-      system('git config user.name "TRAVIS-CI"')
-      # system('git config --global user.email "travis@voxpupuli"')
-      system('git config user.email "travis@voxpupuli"')
+      system('git config --global user.name "TRAVIS-CI"')
+      system('git config --global user.email "travis@voxpupuli"')
       system('git add _config.yml')
-      # puts(`git status`)
       message = "[TRAVIS-CI] updated _config.yml stats at #{Time.now}"
       system("git commit -m '#{message}'")
       system('git remote add upstream git@github.com:voxpupuli/voxpupuli.github.io.git')
-      # system('git branch --set-upstream-to upstream/master')
-      # puts(`git status`)
       puts(`git log -n 1`)
       ENV['SSH_AUTH_SOCK'] = nil
       system('unset SSH_AUTH_SOCK')
-      system('GIT_SSH="./tasks/support/git_ssh_wrapper" git push -f -u upstream HEAD:update-gh-pr-stats-travis-test-live')
-      # system('git push upstream master')
-      # puts(`git status`)
+      system('GIT_SSH="./tasks/support/git_ssh_wrapper" git push -f -u upstream HEAD:update-gh-pr-stats-travis')
+      # system('git push upstream HEAD:master')
 
       # cleanup, just in case
       system("rm -f #{identity_file}")
