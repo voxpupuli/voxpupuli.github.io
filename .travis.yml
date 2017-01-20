@@ -1,14 +1,16 @@
 language: ruby
 sudo: false
 before_install:
-  - gem install bundler
+- openssl aes-256-cbc -K $encrypted_29b13b1d0465_key -iv $encrypted_29b13b1d0465_iv
+  -in id_ed25519.enc -out id_ed25519 -d
+- gem install bundler
 dist: trusty
 rvm:
-  - 2.4.0
+- 2.4.0
 script: bundle exec rake test
 notifications:
   email: false
 env:
   global:
-    - secure: JtT9vwmixV5eZ9/bkCVbrUtXeBSDl4xgNKHnKCEVPhNMwEn4oPRPAk612dp4rxYj4mQJpNnGf8ARAd573AY34LIdIArW0JaFAvLOqjz3bEuLpf0SbYS7bfBi/YhUeSEluPmyZxkavrMJ18lTPbHqfn3vP95PCcGtdjm00M4jlWI=
-    - secure: j0C//Zg8QMsNH3wuew19IVocOmkAcqid+Y4qEXppwaMJpRWP/bWa7vcur3647iTuX7STcqKuRKj4YtUE+f61ihxFuDqUFZnu4eqEHco98R7OiYxEgu8zQ0zSXlXFw2kvLHKnDJ/mV0iLUSGpAgQdFNjsLSgD/Lc/lCRInDYOpM0=
+  - secure: JtT9vwmixV5eZ9/bkCVbrUtXeBSDl4xgNKHnKCEVPhNMwEn4oPRPAk612dp4rxYj4mQJpNnGf8ARAd573AY34LIdIArW0JaFAvLOqjz3bEuLpf0SbYS7bfBi/YhUeSEluPmyZxkavrMJ18lTPbHqfn3vP95PCcGtdjm00M4jlWI=
+  - secure: j0C//Zg8QMsNH3wuew19IVocOmkAcqid+Y4qEXppwaMJpRWP/bWa7vcur3647iTuX7STcqKuRKj4YtUE+f61ihxFuDqUFZnu4eqEHco98R7OiYxEgu8zQ0zSXlXFw2kvLHKnDJ/mV0iLUSGpAgQdFNjsLSgD/Lc/lCRInDYOpM0=
