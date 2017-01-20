@@ -10,6 +10,8 @@ end
 
 # fetch open pull requests
 class GithubPRStats
+  attr_reader :token
+
   def initialize
     @config_file = '_config.yml'
     @config = YAML.safe_load(File.read(@config_file))
@@ -17,6 +19,7 @@ class GithubPRStats
     api_url = 'https://api.github.com/orgs/voxpupuli/repos?per_page=100'
     oauth_client_id = ENV['GH_CLIENT_ID'] ||= nil
     oauth_client_secret = ENV['GH_CLIENT_SECRET'] ||= nil
+    @token = oauth_client_secret
     @auth_suffix = nil
     if oauth_client_id && oauth_client_secret
       @auth_suffix = "&client_id=#{oauth_client_id}&client_secret=#{oauth_client_secret}"
@@ -73,7 +76,7 @@ class GithubPRStats
 
   def update
     # do not even attempt to continue w/o privileged api access
-    log('no authentication provided, aborting...')
+    log('no authentication provided, aborting...') unless @auth_suffix
     return nil unless @auth_suffix
 
     log('fetching data from github API, this may take a while...')
