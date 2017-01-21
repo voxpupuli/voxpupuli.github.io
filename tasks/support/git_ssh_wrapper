@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ssh -i ~/gh_deploy_key "$1" "$2"

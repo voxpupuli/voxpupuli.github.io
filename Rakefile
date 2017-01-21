@@ -3,6 +3,8 @@ require 'colorize'
 require 'html-proofer'
 require 'jekyll'
 
+FileList['tasks/*.rb'].each { |task| import task }
+
 task default: :test
 
 desc 'Run rubocop'
@@ -41,6 +43,8 @@ desc 'Build and validate the site'
 task :test do
   notify 'Checking code'
   Rake::Task['rubocop'].invoke
+  notify 'Update GitHub stats'
+  Rake::Task['update_stats'].invoke
   notify 'Building site'
   Rake::Task['build'].invoke
   notify 'Validating site'
