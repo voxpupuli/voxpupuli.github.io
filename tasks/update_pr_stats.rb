@@ -27,8 +27,8 @@ begin
     system('umask 077')
 
     # create symlink for the git ssh wrapper
-    system("ln -sf $(readlink -f #{identity_file}) #{Dir.home}/id_deploy")
-    system("chmod 0600 #{Dir.home}/id_deploy")
+    system("ln -sf $(readlink -f #{identity_file}) #{Dir.home}/gh_deploy_key")
+    system("chmod 0600 #{Dir.home}/gh_deploy_key")
 
     git_diff = `git diff --stat _config.yml`
     p(git_diff)
@@ -50,21 +50,23 @@ begin
         next
       end
 
+      ENV['SSH_AUTH_SOCK'] = nil
+      system('unset SSH_AUTH_SOCK')
+
       system('git config --global user.name "TRAVIS-CI"')
       system('git config --global user.email "travis@voxpupuli"')
       system('git add _config.yml')
       message = "[TRAVIS-CI] updated _config.yml stats at #{Time.now}"
       system("git commit -m '#{message}'")
       system('git remote add upstream git@github.com:voxpupuli/voxpupuli.github.io.git')
-      system('git fetch -p upstream')
+      system('GIT_SSH="./tasks/support/git_ssh_wrapper" git fetch -p upstream')
       puts(`git log -n 1`)
-      ENV['SSH_AUTH_SOCK'] = nil
-      system('unset SSH_AUTH_SOCK')
       system('GIT_SSH="./tasks/support/git_ssh_wrapper" git push -f -u upstream HEAD:update-gh-pr-stats-travis')
       # system('git push upstream HEAD:master')
 
       # cleanup, just in case
       system("rm -f #{identity_file}")
+      system("rm -f #{Dir.home}/gh_deploy_key")
     end
   end
 end
