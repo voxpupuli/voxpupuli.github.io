@@ -4,8 +4,6 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_29b13b1d0465_key -iv $encrypted_29b13b1d0465_iv
   -in id_ed25519.enc -out id_ed25519 -d
 - gem install bundler -v 1.13.7
-- bundle _1.13.7_ install --path .vendor
-dist: trusty
 rvm:
 - 2.4.0
 script: bundle exec rake test
