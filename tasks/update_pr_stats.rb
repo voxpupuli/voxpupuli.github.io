@@ -53,15 +53,21 @@ begin
       ENV['SSH_AUTH_SOCK'] = nil
       system('unset SSH_AUTH_SOCK')
 
+      puts(`git status`)
+      system('git checkout -b "update-gh-pr-stats-travis"')
+      puts(`git status`)
       system('git config --global user.name "TRAVIS-CI"')
       system('git config --global user.email "travis@voxpupuli"')
       system('git add _config.yml')
       message = "[TRAVIS-CI] updated _config.yml stats at #{Time.now}"
       system("git commit -m '#{message}'")
-      system('git remote add upstream git@github.com:voxpupuli/voxpupuli.github.io.git')
-      system('GIT_SSH="./tasks/support/git_ssh_wrapper" git fetch -p upstream')
       puts(`git log -n 1`)
+      system('git remote add upstream git@github.com:voxpupuli/voxpupuli.github.io.git')
+      puts(`git status`)
+      system('GIT_SSH="./tasks/support/git_ssh_wrapper" git fetch -p upstream')
+      puts(`git status`)
       system('GIT_SSH="./tasks/support/git_ssh_wrapper" git push -f -u upstream HEAD:update-gh-pr-stats-travis')
+      puts(`git status`)
       # system('git push upstream HEAD:master')
 
       # cleanup, just in case
