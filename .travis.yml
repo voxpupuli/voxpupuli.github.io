@@ -5,7 +5,7 @@ before_install:
   -in id_ed25519.enc -out id_ed25519 -d
 - gem install bundler -v 1.13.7
 rvm:
-- 2.3.1
+- 2.4.0-rc1
 script: bundle exec rake test
 notifications:
   email: false
