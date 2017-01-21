@@ -36,14 +36,14 @@ class GithubPRStats
     req['User-Agent'] = 'voxpupuli.org github API'
     res = Net::HTTP.start(url.host, url.port, use_ssl: true) { |http| http.request(req) }
 
-    raise GithubAPIError.new, "API response status: #{res.code}" if res.code.to_s.match?(%r{(4|5)\d\d})
+    raise GithubAPIError.new, "API response status: #{res.code}" if res.code.to_s.match(%r{(4|5)\d\d})
 
     # see if there are more pages
     next_page = nil
     if res['link']
       res['link'].split(',').each do |link|
         # also catch possibly nested quoting
-        if link.match?(%r{rel=(\\|)"next(\\|)"})
+        if link.match(%r{rel=(\\|)"next(\\|)"})
           next_url = URI.extract(link)[0]
           next_page = next_url.match(%r{(&|\?)page=(?<page>[0-9]+)})[:page]
         end
