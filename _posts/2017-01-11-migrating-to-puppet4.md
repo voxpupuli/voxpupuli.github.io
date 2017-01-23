@@ -16,7 +16,7 @@ are a few steps needed to be taken before a Puppet-4-only release can be done:
   * Also check if the dependencies in the `metadata.json` all have Puppet 4 support, they may have to be bumped too
   * The minimum required stdlib version has to be 4.6.0
   * The required Puppet version should be 3.8.7 or newer
-* Ensure that the module is modulesynced with version 0.16.8. You can detect the version in the [.msync.yml](https://github.com/voxpupuli/puppet-zabbix/blob/master/.msync.yml)
+* Ensure that the module is modulesynced with version 0.16.10. You can detect the version in the [.msync.yml](https://github.com/voxpupuli/puppet-zabbix/blob/master/.msync.yml)
 * Perform a release of the module within the current Major version that announces the deprecation of Puppet 3. e.g. Current version is 2.1.3, release 2.2.0 with the deprecation notice
 * Create a new branch which is called `puppet3`
   * The required Puppet version for this branch in the `metadata.json` should be the latest available, which is currently 3.8.7
