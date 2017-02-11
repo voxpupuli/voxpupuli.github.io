@@ -22,7 +22,7 @@ are a few steps needed to be taken before a Puppet-4-only release can be done:
   * The required Puppet version for this branch in the `metadata.json` should be the latest available, which is currently 3.8.7
   * Keep in mind that stdlib [4.13.0](https://forge.puppet.com/puppetlabs/stdlib/changelog#supported-release-4130) deprecates a lot of functions, you maybe want to require an older version in the `puppet3` branch
 * Check the [.sync.yml](https://github.com/voxpupuli/puppet-tea/blob/e49d6d1ce8ba71c2123edf9fae45cde19e603ec3/.sync.yml#L3-L17), sometimes the `.travis.yml` file is unmanaged or modified because the module is already Puppet 4 only. Take a look for an `include` block in the `.travis.yml` section and remove it
-* Do a modulesync with at least version 0.17.0 ([how to do it](https://github.com/voxpupuli/modulesync_config#how-to-use-it))
+* Do a modulesync with at least version 0.20.0 ([how to do it](https://github.com/voxpupuli/modulesync_config#how-to-use-it))
 * Check if the `.sync.yml` provides any [extra travis jobs](https://github.com/voxpupuli/puppet-jira/blob/master/.sync.yml#L4), they should use the [latest ruby version](https://github.com/voxpupuli/puppet-jira/blob/master/.sync.yml#L5) (2.4.0 right now) as the other jobs and run on the [trusty platform](https://github.com/voxpupuli/puppet-jira/blob/master/.sync.yml#L10)
 * The minimum required Puppet Version should not be 4.0.0 but [4.6.1](https://github.com/voxpupuli/community-triage/blob/master/modules/notes/2017-01-05.md#discussion)
 * You may now merge any existing Pull Requests to the master branch that are not backwards compatible with Puppet 3
