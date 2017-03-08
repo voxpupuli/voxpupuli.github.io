@@ -87,7 +87,17 @@ Get community feedback on the release pr, get it merged.
 
 Checkout an updated copy of master (`git checkout master; git fetch origin; git pull origin master`)
 
-If necessary, run `bundle install` before continuing.
+If necessary, run `bundle install` before continuing. If you want you can also only install the needed gems:
+
+```bash
+bundle install --path .vendor/ --without system_tests development
+```
+
+And in case you installed the gems before:
+
+```bash
+bundle install --path .vendor/ --without system_tests development; bundle update; bundle clean
+```
 
 Run the rake target `travis_release`. This will:
 
