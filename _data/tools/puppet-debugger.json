@@ -1,0 +1,7 @@
+{
+
+  "name": "puppet-debugger",
+  "display_name": "puppet-debugger",
+  "url": "https://github.com/nwops/puppet-debugger",
+  "description": "A interactive live debugger repl for the puppet language"
+}
