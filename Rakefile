@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require 'colorize'
 require 'html-proofer'
 require 'jekyll'
