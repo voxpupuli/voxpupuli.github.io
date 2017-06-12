@@ -7,7 +7,7 @@ before_install:
   - gem install bundler
 dist: trusty
 rvm:
-  - 2.3.0
+  - 2.4.1
 script: bundle exec rake test
 notifications:
   email: false
