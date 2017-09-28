@@ -51,6 +51,8 @@ You will have someone by your side in this process. The general flow is to…
 * Add the module to our [modulesync setup](https://github.com/voxpupuli/modulesync_config/blob/master/managed_modules.yml)
 * Add the module to our [plumbing repository](https://github.com/voxpupuli/plumbing/blob/master/share/modules)(handles travis secrets)
 * Ask one of the Admins to add the module to the collaborators Team on github.
+* Execute modulesync for this module
+* Create a Jira issue at https://tickets.puppetlabs.com and ask to deprecate the old module (and approve the new one if the old one was approved as well)
 
 If you have many modules you wish to migrate, this will be cumbersome.
 In this case we will generally create a separate group and give you
@@ -108,4 +110,4 @@ Run the rake target `travis_release`. This will:
 
 `bundle exec rake travis_release`
 
-Travis will then kick off a build against the new tag created and deploy that build to the forge.
+Travis will then kick off a build against the new tag created and deploy that build to the forge. Caution: The Vox Pupuli repo has to be the configured default branch in your local clone. Otherwise you will try to release to your fork.
