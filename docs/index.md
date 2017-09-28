@@ -110,4 +110,4 @@ Run the rake target `travis_release`. This will:
 
 `bundle exec rake travis_release`
 
-Travis will then kick off a build against the new tag created and deploy that build to the forge.
+Travis will then kick off a build against the new tag created and deploy that build to the forge. Caution: The Vox Pupuli repo has to be the configured default branch in your local clone. Otherwise you will try to release to your fork.
