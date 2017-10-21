@@ -32,6 +32,8 @@ navigation:
     url: /plugins/
   - title: Blog
     url: /posts/
+  - title: puppet-strings
+    url: /puppet-strings/
 
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME", "README.md", "vendor"]
 
