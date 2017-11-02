@@ -111,3 +111,15 @@ Run the rake target `travis_release`. This will:
 `bundle exec rake travis_release`
 
 Travis will then kick off a build against the new tag created and deploy that build to the forge. Caution: The Vox Pupuli repo has to be the configured default branch in your local clone. Otherwise you will try to release to your fork.
+
+## Reviewing a module
+
+There are a few things that can be checked if you review a pull request against one of our modules:
+
+* Correct email address used in the commits (if so, travis displays the avatar next to the commit)?
+* Is this a bugfix, modulesync, breaking change, enhancement, docs update? Label it with `bug`, `modulesync`, `backwards-incompatible`, `enhancement`, `docs`
+* Are updates to the README.md needed but missing? Label it with `needs-docs`
+* Are there merge conflicts? Add the `needs-rebase` label
+* Does it need additional tests? Add the `needs-tests` label
+* Are new parameters introduced? They should have datatypes
+* Are facts used? They should only be accessed via `$facts[]` or [fact()](https://github.com/puppetlabs/puppetlabs-stdlib#fact) from stdlib, but not topscope variables
