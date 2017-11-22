@@ -123,3 +123,5 @@ There are a few things that can be checked if you review a pull request against 
 * Does it need additional tests? Add the `needs-tests` label
 * Are new parameters introduced? They should have datatypes
 * Are facts used? They should only be accessed via `$facts[]` or [fact()](https://github.com/puppetlabs/puppetlabs-stdlib#fact) from stdlib, but not topscope variables
+* Are datatypes from stdlib used? Ensure that lowest supported stdlib version is 4.13.1. Check if a newer version introduced the used datatype
+* Are hiera yaml files added for /docs? Ensure that the lowest supported Puppet version is 4.10.9
