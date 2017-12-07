@@ -46,11 +46,10 @@ You will have someone by your side in this process. The general flow is to…
 * If migrating a module from puppetlabs, re-enable github issues.
 * Verify that all webhooks except travis are disabled.
 * Update the README.md with a description of the deprecation and a link to the new module location.
-* Release a 999.999.999 version of the *original* module to the forge, so users and tools knows to stop using it.
 * Release a copy of your module to the 'puppet' forge account.
 * Add the module to our [modulesync setup](https://github.com/voxpupuli/modulesync_config/blob/master/managed_modules.yml)
 * Add the module to our [plumbing repository](https://github.com/voxpupuli/plumbing/blob/master/share/modules)(handles travis secrets)
-* Ask one of the Admins to add the module to the collaborators Team on github.
+* Ask one of the admins to add the module to the collaborators Team on github.
 * Execute modulesync for this module
 * Create a Jira issue at https://tickets.puppetlabs.com and ask to deprecate the old module (and approve the new one if the old one was approved as well)
 
