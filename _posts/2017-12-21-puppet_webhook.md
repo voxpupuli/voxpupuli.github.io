@@ -31,11 +31,11 @@ Shortly after the New Year, we will also be working on providing RPM, Deb, and A
 * The application and its dependencies
 * SystemD and SysVInit Service files
 * Default configuration and config directories
-* Create Logging and PID directories that the gem (currently) doesn't provide
+* Logging and PID directories that the gem (currently) doesn't provide
 
 For more information on running Puppet_Webhook, see the [README.md](https://github.com/voxpupuli/puppet_webhook/blob/master/README.md) file for usage instructions.
 
-### So, What's in the future?
+### So, what's in the future?
 
 As with any good software project, the release of 1.0.0 is just the beginning. We intend to continue iterating on what we've built to provide our users with the best experience we can.
 
@@ -48,7 +48,7 @@ Upcoming improvements and features include:
 * Replace the current system calls with native Ruby Library calls for executing backend functionality (where possible).
 * Anything else that this amazing community can come up with (as long as it benefits the community as a whole).
 
-If you have any questions, feel free to reach out to us in the following ways:
+If you have any questions, feedback, or want to know how to get involved, feel free to reach out to us in the following ways:
 
 * IRC: `#voxpupuli` on Freenode.
 * Slack: `#voxpupuli` on [Puppet Slack](http://slack.puppet.com)
