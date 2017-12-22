@@ -16,9 +16,9 @@ Puppet_Webhook is a standalone replacement for the Webhook script that has been 
 
 The purpose behind this work is to provide our users with the same functionality that already exists with the current webhook while also providing improved quality within the code itself. While the webhook script has worked thus far for us and our users, it was becoming increasingly difficult to maintain and update the code when needed.
 
-The current iteration of the script is Ruby code embedded in a Puppet ERB template. As such, we are unable to write tests against the script to test changes and even ended up with mistakes in the code due to IDEs and Text Editors formatting it as ERB rather than Ruby code.
+The current iteration of the script is Ruby code embedded in a Puppet ERB template. As such, we are unable to write tests against the script when making changes and even ended up with mistakes in the code due to IDEs and Text Editors formatting it as ERB rather than Ruby code.
 
-Additionally, this also allows us to add additional functionality and even a plugin framework to allow users to extend the REST API to their own internal needs.
+Additionally, this also allows us to add additional functionality and even a plugin framework to allow users to extend the REST API to fit their own needs.
 
 ### How can I try it now?
 
@@ -26,10 +26,10 @@ You can, as of today, download the application from RubyGems.org using the gem c
 
 `gem install puppet_webhook`
 
-Shortly after the New Year, we will also be working on providing RPM, Deb, and Arch packages that provide:
+Shortly after the New Year, we will begin working on building RPM, Deb, and Arch packages that provide:
 
 * The application and its dependencies
-* SystemD and SysVInit Service files
+* SystemD Unit and SysVInit Service files
 * Default configuration and config directories
 * Logging and PID directories that the gem (currently) doesn't provide
 
@@ -41,7 +41,7 @@ As with any good software project, the release of 1.0.0 is just the beginning. W
 
 Upcoming improvements and features include:
 
-* Integrate Puppet_Webhook in to the [puppet-r10k](https://github.com/voxpupuli/puppet-r10k), replacing the old script.
+* Integrate Puppet_Webhook in to the [puppet-r10k](https://github.com/voxpupuli/puppet-r10k) module, replacing the old script.
 * Add additional functionality to the application, such as a `/decommission` endpoint for cleaning nodes and certs from the puppet master.
 * Build a plugin framework so that users and the community can extend functionality with their own plugins/gems.
 * Improve testing to better ensure the quality of our code and, by extension, our releases.
