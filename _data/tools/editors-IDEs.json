@@ -27,6 +27,16 @@
       "name": "Spacemacs",
       "url": "https://github.com/syl20bnr/spacemacs/tree/master/layers/%2Btools/puppet",
       "description": "A community-driven Emacs distribution. Comes with a Puppet layer that sets up flycheck and puppet-mode."
+    },
+    {
+      "name": "Visual Studio Code Extension for Puppet",
+      "url": "https://marketplace.visualstudio.com/items?itemName=jpogran.puppet-vscode",
+      "description": "This extension provides full Puppet Language support for Visual Studio Code, including syntax highlighting, inline linting, autocomplete, PDK integration and compile debugging"
+    },
+    {
+      "name": "Atom plugin for Puppet",
+      "url": "https://atom.io/packages/ide-puppet",
+      "description": "An Atom plugin for Puppet based on the Puppet Language Server"
     }
   ]
 }
