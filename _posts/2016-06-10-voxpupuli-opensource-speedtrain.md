@@ -19,7 +19,7 @@ Voxpupuli
 whoami
 ======
 
-Hello, my name is…  
+Hello, my name is…
 Igor Galić — Co-Founder of Voxpupuli, and of my own company, Brainsware
 
 igalic — profesionally, my motto can be summed up as "Infrastructure & Open Source"
@@ -29,7 +29,7 @@ igalic — profesionally, my motto can be summed up as "Infrastructure & Open So
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">genders are like shoes. if they don&#39;t fit well, it looks a bit weird, and feels uncomfortable.<br><br>(and that&#39;s why i like to walk barefoot)</p>&mdash; The Wrath of me™ (@hirojin) <a href="https://twitter.com/hirojin/status/646652627581829120">September 23, 2015</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-daenney and I started this project. He also started the fine tradition at  
+daenney and I started this project. He also started the fine tradition at
 puppetConf, to mention, or rather, proudly proclaim, that he is gay.
 
 I am convinced that *diversity cannot exist without visibility*.
@@ -43,7 +43,7 @@ What is Voxpupuli
 
 > We are a collective of Puppet module, tooling and documentation authors all working together to ensure continued development on the code we maintain.
 
-Some of my favourite words are in this sentence:
+Some of my favorite words are in this sentence:
 
 We are a **collective** of Puppet **module**, tooling and **documentation** authors all **working together** to *ensure* **continued development** on the *code* we **maintain**.
 
@@ -62,7 +62,7 @@ Who is Voxpupuli?
 -   many non-coders
 -   git newbies
 
-Currently, Voxpupuli is made of ~64~ ~65~ 66 people who alltogether have  
+Currently, Voxpupuli is made of ~64~ ~65~ 66 people who altogether have
 access to 130~ repositories. Most of those represent either puppet modules (100~) or puppet-lint checks, or some other kind of gem.
 
 Except for those among us who are Puppet employees, none of our contributors are paid to do this work. And even the Puppet employees aren't paid to do *this* work! We are volunteers, most of us are admins, many of us not coders, a lot of us don't know how git works…
@@ -92,7 +92,7 @@ With 60~ other people around, you are not alone. I believe that in Voxpupuli we 
 
 <img alt="more fox pups" src="{{ site.url }}{{ site.baseurl }}/static/images/more-fox-pups.jpg" width="40%" height="40%" />
 
-Daenney and I may have been the fire-starters, but Voxpupuli has transcended our  
+Daenney and I may have been the fire-starters, but Voxpupuli has transcended our
 hopes and expectations. It has become that proof that the sum is greater than its parts.
 
 Voxpupuli is a collaborative space, and a safe-haven.
@@ -102,7 +102,7 @@ For people, and for their work.
 How does Voxpupuli…?
 ====================
 
-So how are we doing this? With people; obviously.  
+So how are we doing this? With people; obviously.
 With robots, too. And with tools, that enforce standards and conventions. Let's start with the robots…
 
 Robots: vpci
@@ -177,7 +177,7 @@ Code of Conduct in place in all of our repositories.
 
 Every contribution, no matter how trivial or elaborate, or even *wrong* is
 immensely valuable. Treating it, and the person it comes from with the respect
-and hummility strenghtens our ties to the community, and can broaden it, too.
+and humility strengthens our ties to the community, and can broaden it, too.
 
 People: Members
 ===============
@@ -187,11 +187,11 @@ People: Members
 -   push buttons
 
 Many drive-thru contributors circle around, and finally stick around. Whenever I
-notice that someone is doing my job, I invite them to the organisation. Clicking
+notice that someone is doing my job, I invite them to the organization. Clicking
 on accept in that email is all they have to do. We don't require anyone to sign
 a CLA (Contributor License Agreement), or anything like that. But, clicking that
 button is a powerful motion. Suddenly, instead of having one pet project, a
-person has merge access to *all* our repositories. This can be an exhilerating
+person has merge access to *all* our repositories. This can be an exhilarating
 feeling. It might not last long, mind you, but even so, it motivates them to
 clean up a bunch of old issues & pull requests, or release a module that hasn't
 been released in a while.
@@ -211,7 +211,7 @@ too much excitement in our jobs.
 
 <img alt="campfire" src="{{ site.url }}{{ site.baseurl }}/static/images/lagerfeuer.jpg" width="40%" height="40%" />
 
-So having boring code code that helps us run our infrastructure give you  
+So having boring code code that helps us run our infrastructure give you
 that warm fuzzy feeling of reliability.
 
 People: Community Gardeners
@@ -232,9 +232,9 @@ In our own terms, it means that I
 -   get to be on the <coc@voxpupuli.org> list
 
 It means that I have to listen — often for clues — to our community. I might
-have to moderate behaviour, or (over)enthusiasm. If others have failed to do so,
+have to moderate behavior, or (over)enthusiasm. If others have failed to do so,
 I have to enforce our CoC. And finally, I have to recognize and empower
-contributors, elavating them to members.
+contributors, elevating them to members.
 
 The Quantified Us
 =================
@@ -263,7 +263,7 @@ What does Voxpupuli…
 -   … do for my company?
 -   … do for me?
 
-We provide a broad set of well recongised modules. These modules are subject to
+We provide a broad set of well recognized modules. These modules are subject to
 the highest quality standards — enforced by robots!
 
 Our modules are released frequently (by robots!), and are compatible with the latest puppet versions.
@@ -278,7 +278,7 @@ interested in our tools, or our process.
 
 All the tools we use are freely (gratis, libre) available. All the tools we produce are freely (gratis, libre) available.
 
-If you are stuck in a silo, you may be able to aleviate your pains by adopting our tools to enforce standards, quality, and to make deployments easy.
+If you are stuck in a silo, you may be able to alleviate your pains by adopting our tools to enforce standards, quality, and to make deployments easy.
 
 If you are "stuck" in a flat hierarchy, you may be in the unique position of having responsibility, *and* power.
 
