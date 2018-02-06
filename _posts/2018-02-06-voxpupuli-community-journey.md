@@ -221,23 +221,23 @@ So let's look at some
 
 ## Daily Business
 
-![Bugfix](images/bugfix.png)
+![Bugfix]({{ site.url }}{{ site.baseurl }}/static/images/bugfix.png)
 
 People are often too scared to contribute.
 They might think they can't write the code needed, but they can!
 So encourage them!
 
-![End Of Life discussion](images/eol.png)
+![End Of Life discussion]({{ site.url }}{{ site.baseurl }}/static/images/eol.png)
 
 TL;DR still people use outdated ruby/puppet versions from time to time :(
 
-![Travis Restart](images/travisrestart.png)
+![Travis Restart]({{ site.url }}{{ site.baseurl }}/static/images/travisrestart.png)
 
 Travis cheats: closing/reopen a PR will trigger another Travis run.
 A project admin can do this in the travis UI, but outside-contributors can't.
 close/reopen can be triggered by the PR author, however.
 
-![Please add Spec Tests](images/spectests.png)
+![Please add Spec Tests]({{ site.url }}{{ site.baseurl }}/static/images/spectests.png)
 
 
 We try to get at least a unit test for all new features.
@@ -246,30 +246,30 @@ On a bugfix we're really happy when someone includes a test that fails without t
 
 And always, always say thanks! Be friendly to contributors. We're always happy for a new Issue/PR (We prefer PRs;)
 
-![Happy Maintainers](images/yey.png)
+![Happy Maintainers]({{ site.url }}{{ site.baseurl }}/static/images/yey.png)
 
 Everybody is good at blaming others, but we rarely tell people that they did something well.
 bastelfreak is happy about all new Datatypes!
 
-![Please look at the failing Spec Tests](images/fail.png)
+![Please look at the failing Spec Tests]({{ site.url }}{{ site.baseurl }}/static/images/fail.png)
 
 People often don't notice that a Travis run has failed.
 Do we need to change the visibility?
 
-![Please use the correct email address for github contributions](images/email.png)
+![Please use the correct email address for github contributions]({{ site.url }}{{ site.baseurl }}/static/images/email.png)
 
 For a clean history we want people to use a correct email address.
 
-![Please Update the README](images/readme.png)
+![Please Update the README]({{ site.url }}{{ site.baseurl }}/static/images/readme.png)
 
 Something that many people very often forget: Is the new feature documented in the README.md?
 
-![Please migrate your module to us](images/migrate.png)
+![Please migrate your module to us]({{ site.url }}{{ site.baseurl }}/static/images/migrate.png)
 
 Often people ask us to migrate a dead module into our namespace.
 All we can do is head out to the maintainer to ask for that, and hope for the best.
 
-![Puppet Inc people receiving Candy](images/candy.jpg)
+![Puppet Inc people receiving Candy]({{ site.url }}{{ site.baseurl }}/static/images/candy.jpg)
 
 bastelfreak noticed in the Archlinux community that people are happy, if you send them sweets
 
@@ -277,7 +277,7 @@ We tried this in the Puppet community as well. Puppet Inc. received 15pounds of 
 
 You all keep contributing and bastelfreak will send you sweets as well!
 
-![Igor with two Vox puppets on their fingers](images/igor-voxes.jpeg)
+![Igor with two Vox puppets on their fingers]({{ site.url }}{{ site.baseurl }}/static/images/igor-voxes.jpeg)
 
 Now, my methods are slightly different: Instead of handy, I like to hand out these very cute puppets to anyone who wants one.
 So long as you promise to send back cute selfies!
@@ -287,7 +287,7 @@ So long as you promise to send back cute selfies!
 What if I told you that a lot of this daily business could be automated?
 
 
-![Danger JS logo](images/danger-logo-hero@2x-73a8464a.png)
+![Danger JS logo]({{ site.url }}{{ site.baseurl }}/static/images/danger-logo-hero@2x-73a8464a.png)
 
 There are a lot of tools out there — and Danger is only one of them, that could help our contributors cut down on the "boilerplate" responses, and instead have a robot do that.
 
