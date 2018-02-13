@@ -42,16 +42,16 @@ as well as release announcements.
 You will have someone by your side in this process. The general flow is to…
 
 * Ask one of the Administrators to add you to the modules/admin team.
-* At that point you can transfer your own repository
+* At that point you can transfer your own repository.
 * If migrating a module from puppetlabs, re-enable github issues.
 * Verify that all webhooks except travis are disabled.
 * Update the README.md with a description of the deprecation and a link to the new module location.
 * Release a copy of your module to the 'puppet' forge account.
-* Add the module to our [modulesync setup](https://github.com/voxpupuli/modulesync_config/blob/master/managed_modules.yml)
-* Add the module to our [plumbing repository](https://github.com/voxpupuli/plumbing/blob/master/share/modules)(handles travis secrets)
-* Ask one of the admins to add the module to the collaborators Team on github.
-* Execute modulesync for this module
-* Create a Jira issue at https://tickets.puppetlabs.com and ask to deprecate the old module (and approve the new one if the old one was approved as well)
+* Add the module to our [modulesync setup](https://github.com/voxpupuli/modulesync_config/blob/master/managed_modules.yml).
+* Add the module to our [plumbing repository](https://github.com/voxpupuli/plumbing/blob/master/share/modules)(handles travis secrets).
+* Ask an admin to add the `collaborators` team to the module's `Collaborators & Teams`  'Teams' list with `Write` permissions (e.g. https://github.com/voxpupuli/puppet-gitlab/settings/collaboration).
+* Execute modulesync for this module.
+* Create a Jira issue at https://tickets.puppetlabs.com and ask to deprecate the old module (and approve the new one if the old one was approved as well).
 
 If you have many modules you wish to migrate, this will be cumbersome.
 In this case we will generally create a separate group and give you
