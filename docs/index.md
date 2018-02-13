@@ -49,7 +49,7 @@ You will have someone by your side in this process. The general flow is to…
 * Release a copy of your module to the 'puppet' forge account.
 * Add the module to our [modulesync setup](https://github.com/voxpupuli/modulesync_config/blob/master/managed_modules.yml).
 * Add the module to our [plumbing repository](https://github.com/voxpupuli/plumbing/blob/master/share/modules)(handles travis secrets).
-* Ask an admin to add the `collaborators` team to the module's `Collaborators & Teams`  'Teams' list with `Read` permissions (e.g. https://github.com/voxpupuli/puppet-gitlab/settings/collaboration).
+* Ask an admin to add the `collaborators` team to the module's `Collaborators & Teams`  'Teams' list with `Write` permissions (e.g. https://github.com/voxpupuli/puppet-gitlab/settings/collaboration).
 * Execute modulesync for this module.
 * Create a Jira issue at https://tickets.puppetlabs.com and ask to deprecate the old module (and approve the new one if the old one was approved as well).
 
