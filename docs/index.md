@@ -115,12 +115,17 @@ Travis will then kick off a build against the new tag created and deploy that bu
 
 There are a few things that can be checked if you review a pull request against one of our modules:
 
-* Correct email address used in the commits (if so, travis displays the avatar next to the commit)?
+* Does the email address used in the commits match the github email address? (This will let github display the contributor's avatar next to the commit)
 * Is this a bugfix, modulesync, breaking change, enhancement, docs update? Label it with `bug`, `modulesync`, `backwards-incompatible`, `enhancement`, `docs`
 * Are updates to the README.md needed but missing? Label it with `needs-docs`
+* Has the file documented params or examples in the header? This needs to be updated as well
 * Are there merge conflicts? Add the `needs-rebase` label
 * Does it need additional tests? Add the `needs-tests` label
-* Are new parameters introduced? They should have datatypes
+* Does it have failing tests? Add the `tests-fail` label
+* Are new parameters introduced? They must have datatypes
 * Are facts used? They should only be accessed via `$facts[]` or [fact()](https://github.com/puppetlabs/puppetlabs-stdlib#fact) from stdlib, but not topscope variables
+* In the majority of cases, variables shouldn't be accessed via topscope: $::modulename::$param. Instead do: $modulename::$param
 * Are datatypes from stdlib used? Ensure that lowest supported stdlib version is 4.13.1. Check if a newer version introduced the used datatype
-* Are hiera yaml files added for /docs? Ensure that the lowest supported Puppet version is 4.10.9
+* Are hiera yaml files added for data-in-modules? Ensure that the lowest supported Puppet version is 4.10.9
+* Are there new params with datatype Hash or Array? If possible, they should default to empty Hash/Array instead of undef. You can also enforce the datastructure like Array[String]
+* Are there new params with datatype Boolean? The default value is a tricky decision which needs careful reviewing. Sometimes a True/False is the better approach, sometimes undef
