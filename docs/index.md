@@ -111,7 +111,7 @@ Run the rake target `travis_release`. This will:
 
 Travis will then kick off a build against the new tag created and deploy that build to the forge. Caution: The Vox Pupuli repo has to be the configured default branch in your local clone. Otherwise you will try to release to your fork.
 
-## Reviewing a module
+## Reviewing a module PR
 
 There are a few things that can be checked if you review a pull request against one of our modules:
 
