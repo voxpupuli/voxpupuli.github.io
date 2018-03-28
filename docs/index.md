@@ -87,15 +87,11 @@ Create a 'release pr'. This pull request updates the changelog and bumps the
 version number to the target version, removing all release candidate
 identifiers, i.e. from `0.10.7-rc0` to `0.10.7`. Here's an example:
 [puppet-extlib's 0.10.7 release](https://github.com/voxpupuli/puppet-extlib/pull/43).
-In most cases it is sufficient to update CHANGELOG.md and metadata.json. We try
+In most cases it is sufficient to update metadata.json. We try
 to honor [semantic versioning](http://semver.org/) and decided that dropping ruby1.8
 support is a major change and requires a major version bump for the module.
 (Only the minor version should be bumped if the module is pre version 1.0 and
 ruby 1.8 support has been dropped.)
-
-Get community feedback on the release pr, get it merged.
-
-Checkout an updated copy of master (`git checkout master; git fetch origin; git pull origin master`)
 
 If necessary, run `bundle install` before continuing. If you want you can also only install the needed gems:
 
@@ -109,6 +105,16 @@ And in case you installed the gems before:
 bundle install --path .vendor/ --without system_tests development; bundle update; bundle clean
 ```
 
+We can generate the changelog after updating the metadata.json with a rake task:
+
+```bash
+bundle exec rake changelog
+```
+
+Get community feedback on the release pr, label it with skip-changelog, get it merged.
+
+Checkout an updated copy of master (`git checkout master; git fetch origin; git pull origin master`)
+
 Run the rake target `travis_release`. This will:
 
 * create a new tag using the current version
@@ -116,7 +122,9 @@ Run the rake target `travis_release`. This will:
 * commit the change,
 * and push it to origin.
 
-`bundle exec rake travis_release`
+```bash
+bundle exec rake travis_release
+```
 
 Travis will then kick off a build against the new tag created and deploy that build to the forge. Caution: The Vox Pupuli repo has to be the configured default branch in your local clone. Otherwise you will try to release to your fork.
 
