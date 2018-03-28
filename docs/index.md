@@ -78,11 +78,20 @@ If the forge puppet password is changed, an admin can run encrypt_travis.sh and 
 Gem publishing is handled similarly, except there is not a unified user. Each gem owner is responsible for their own .travis.yml
 
 ## Releasing a new version of a module
+
 *Please note that in order to perform a release you must be in the __Collaborators__ group on Github for the module in question.*
 
 Run modulesync to ensure the dotfiles are up to date.
 
-Create a 'release pr'. This pull request updates the changelog and bumps the version number to the target version, removing all release candidate identifiers, i.e. from `0.10.7-rc0` to `0.10.7`. Here's an example: [puppet-extlib's 0.10.7 release](https://github.com/voxpupuli/puppet-extlib/pull/43). In most cases it is sufficient to update CHANGELOG.md and metadata.json. We try to honor [semantic versioning](http://semver.org/) and decided that dropping ruby1.8 support is a major change and requires a major version bump for the module. (Only the minor version should be bumped if the module is pre version 1.0 and ruby 1.8 support has been dropped.)
+Create a 'release pr'. This pull request updates the changelog and bumps the
+version number to the target version, removing all release candidate
+identifiers, i.e. from `0.10.7-rc0` to `0.10.7`. Here's an example:
+[puppet-extlib's 0.10.7 release](https://github.com/voxpupuli/puppet-extlib/pull/43).
+In most cases it is sufficient to update CHANGELOG.md and metadata.json. We try
+to honor [semantic versioning](http://semver.org/) and decided that dropping ruby1.8
+support is a major change and requires a major version bump for the module.
+(Only the minor version should be bumped if the module is pre version 1.0 and
+ruby 1.8 support has been dropped.)
 
 Get community feedback on the release pr, get it merged.
 
