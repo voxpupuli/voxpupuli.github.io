@@ -146,3 +146,4 @@ There are a few things that can be checked if you review a pull request against 
 * Are hiera yaml files added for data-in-modules? Ensure that the lowest supported Puppet version is 4.10.0
 * Are there new params with datatype Hash or Array? If possible, they should default to empty Hash/Array instead of undef. You can also enforce the datastructure like Array[String]
 * Are there new params with datatype Boolean? The default value is a tricky decision which needs careful reviewing. Sometimes a True/False is the better approach, sometimes undef
+* Is this a bugfix? Write the Pull Request Title in a way that users can easily identify if they are impacted or not
