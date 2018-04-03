@@ -57,6 +57,12 @@ If you have many modules you wish to migrate, this will be cumbersome.
 In this case we will generally create a separate group and give you
 administrator access to speed things up.
 
+If you are interested in Vox Pupuli accepting a module *that you do not own*, the process has a few extra steps before beginning the checklist above.
+We do ask that you show that reasonable efforts have been made to engage the owner and they are unresponsive.
+If the owner has responded and is not interested in migrating their module to VP, it will be evaluated on a case by case basis.
+To start the process, document your request and efforts in a brief email to the [mailing list](https://groups.io/g/voxpupuli/).
+If the module is accepted, VP will work with you to determine the proper fork/migration steps needed in addition to the checklist above.
+
 ##  Publishing a module - setup
 Forge publishing is handled by travis and puppet-blacksmith.
 
