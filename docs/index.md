@@ -159,3 +159,4 @@ There are a few things that can be checked if you review a pull request against 
 * Files should always terminate with a newline if possible, with an exception being file or template fragments like those used with concat. This is the [POSIX standard](http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_206), and some tools don't handle the lack of a terminating newline properly
 * You can merge your own PR if it was approved by someone else and travis is green. Don't merge if either one of those conditions are not true
 * It's okay to approve code regardless if travis is still running or not. The code won't be merged if travis fails after the PR got approved
+* If you can supply one or multiple values for an attribute it's common practice to enforce the datatype for one value and an array of that datatype. An example for string is `Variant[String[1],Array[String[1]]]`. This can be used in the Puppet code as `[$var].flatten()`
