@@ -162,3 +162,4 @@ There are a few things that can be checked if you review a pull request against 
 * If you can supply one or multiple values for an attribute it's common practice to enforce the datatype for one value and an array of that datatype. An example for string is `Variant[String[1],Array[String[1]]]`. This can be used in the Puppet code as `[$var].flatten()`
 * The parameter section should always be aligned at the `=` char
 * Is a class considered private? Then it should contain [assert_private](https://github.com/puppetlabs/puppetlabs-stdlib#assert_private)
+* A module should have as few public interfaces as possible. It should be aimed for the init.pp being the only public class. This is not a rule but a general guideline. Depending on the module, it is not always possible or feasible to configure everything through a single class.
