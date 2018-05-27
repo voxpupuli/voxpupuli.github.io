@@ -17,6 +17,9 @@ law.
 * Contact details
   * Name
   * E-Mail address
+* Other data
+  * Some third party tools use Cookies
+  * Some third party tools use GitHub user data
 
 # How and why we use your data
 
@@ -27,8 +30,14 @@ infromation or set cookies. There is no account needed or required to access
 the website itself. The website itself is hosted with [Github Pages](https://pages.github.com/) 
 and any data gathered by Github will adhere to the [Github Privacy Policy](https://help.github.com/articles/github-privacy-statement/).
 
-The website does host a community run Blog series and do require that the 
+The website uses [Cloudflare](https://www.cloudflare.com) for securing the
+communication to the Vox Pupuli website.
+
+The website does host a community run Blog series and may have the 
 author's name be visible in the blog post indefinitely.
+
+* Legal basis for this data usage: Legitimate interest
+ 
 
 ## The codebases
 
@@ -40,17 +49,43 @@ non-identifiable data from the codebases to provide aggregated statistics such
 as total member count, number of open PRs, total number of projects, etc.
 
 Please note that due to the open source nature of the community, we may retain 
-limited personally-identifiable data indefinitely. 
+limited personally-identifiable data indefinitely.
 
 * Legal basis for this data usage: Legitimate interest
 
+The codebases also connect to a variety of external services for testing code,
+tracking issues/pull requests, GitHub notification management, etc:
+
+* Automated Testing and Code Quality
+  * [Travis CI](https://travis-ci.org/)
+  * [AppVeyor](https://www.appveyor.com/)
+  * [Codacy](https://www.codacy.com/)
+  * [Code Climate](https://codeclimate.com/)
+  * [Coveralls](https://coveralls.io/)
+* Project and Ticket Management
+  * [Waffle.io](https://waffle.io/)
+  * [ZenHub](https://www.zenhub.com/)
+  * [Zube](https://zube.io/)
+* GitHub notification Management
+  * [Octobox](https://octobox.io/)
+* Documentation Hosting
+  * [Read the Docs](https://readthedocs.org/)
+
+As these tools work in conjunction with our GitHub organization and Source Code
+repositories, they will have access to any of your data stored in GitHub and/or
+the source code. Please be sure to read the Privacy Policy for each tool above
+to see what they use that data for.
+
+* Legal basis for this data usage: Legitimate interest, Consent
+
 ## Communication
 
-The Vox Pupuli project maintains two public IRC channels on 
+The Vox Pupuli project maintains three public IRC channels on 
 [Freenode](https://freenode.net), refer to [Freenode's privacy policy](https://freenode.net/policies#privacy-policy-and-data-retention)
 for details on how they handle your data. Our bot keeps a rolling backlog in 
 the IRC channel for logging purposes, however that backlog is rolled off after
-10 minutes.
+10 minutes, however due to the open nature of the IRC protocol, other users can
+log channel data outside of the control of the community.
 
 The Vox Pupuli community also uses a mailing list via the 
 [Groups.io](https://groups.io) website. When signing up for a Groups.io 
@@ -69,8 +104,9 @@ any additional data usage relating to your account.
 
 ### You can choose not to provide us with personal data
 
-Using a VPN, Tor, or other IP/UserAgent masking servers will not affect your
-use of the project website as it is entirely static.
+Using a VPN, or other IP/UserAgent masking servers will not affect your
+use of the project website as it is entirely static, however Tor may not work
+due to [CloudFlare](https://cloudflare.com) blocking Tor communication.
 
 ### Your accounts on our services
 
@@ -94,7 +130,7 @@ to certain limitations, against the Vox Pupuli Project:
 * The right to restrict our use of your personal data
 * The right to object to our use of your personal data
 * The right to receive your personal data in a usable electronic format and transmit it to a third party (also known as the right of data portability)
-* The right to lodge a complaint with your local dtaa protection authority
+* The right to lodge a complaint with your local data protection authority
 
 If you would like to exercise any of these rights, you may do so by contacting
 the Vox Pupuli Project Management Committee on [IRC](https://kiwiirc.com/client/irc.freenode.net/?#voxpupuli-pmc)
@@ -104,7 +140,7 @@ that the rights above are not absolute in all instances.
 # Contacting us
 
 If you have any questions about this policy or our use of your data, please
-[contact us](pmc@voxpupuli.org) or on [IRC](https://kiwiirc.com/client/irc.freenode.net/?#voxpupuli-pmc)
+contact us via [E-Mail](pmc@voxpupuli.org) or on [IRC](https://kiwiirc.com/client/irc.freenode.net/?#voxpupuli-pmc)
 
 # Changes to this Privacy Statement
 
@@ -115,3 +151,14 @@ was last updated on 27th May 2018.
 [GitHub]: https://help.github.com/articles/global-privacy-practices
 [Freenode]: https://freenode.net/policies
 [Groups.io]: https://groups.io/static/privacy
+[CloudFlare]: https://www.cloudflare.com/privacypolicy/
+[Travis CI]: https://docs.travis-ci.com/legal/privacy-policy/
+[AppVeyor]: https://www.appveyor.com/privacy-policy/
+[Codacy]: https://www.codacy.com/privacy
+[Code Climate]: https://codeclimate.com/legal/privacy
+[Coveralls]: https://coveralls.io/legal
+[Waffle.io]: https://waffle.io/terms-of-service
+[ZenHub]: https://www.zenhub.com/privacy-policy
+[Zube]: https://zube.io/privacy
+[Octobox]: https://octobox.io/privacy
+[Read the Docs]: https://docs.readthedocs.io/en/latest/privacy-policy.html
