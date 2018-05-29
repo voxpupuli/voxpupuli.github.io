@@ -158,6 +158,21 @@
       "name": "resource_reference_outside_class",
       "url": "https://github.com/voxpupuli/puppet-lint-reference_on_declaration_outside_of_class-check.git",
       "description": "Check for references which are declared outside of the class where the reference is used."
+    },
+    {
+      "name": "duplicate_class_parameters",
+      "url": "https://github.com/deanwilson/puppet-lint_duplicate_class_parameters-check.git",
+      "description": "Check that class parameter names are unique."
+    },
+    {
+      "name": "template_file_extension",
+      "url": "https://github.com/deanwilson/puppet-lint_duplicate_class_parameters-check.git",
+      "description": "Check that all template and epp functions filenames end correctly."
+    },
+    {
+      "name": "world_writable_files",
+      "url": "https://github.com/deanwilson/puppet-lint-world_writable_files-check.git",
+      "description": "Check that file resources are not world writable."
     }
   ]
 }
