@@ -72,9 +72,9 @@ tracking issues/pull requests, GitHub notification management, etc:
   * [Read the Docs](https://readthedocs.org/)
 
 As these tools work in conjunction with our GitHub organization and Source Code
-repositories, they will have access to any of your data stored in GitHub and/or
-the source code. Please be sure to read the Privacy Policy for each tool above
-to see what they use that data for.
+repositories, they will have access to any public data that is stored in
+your GitHub account and/or the source code. Please be sure to read the Privacy 
+Policy for each tool above to see what they use that data for.
 
 * Legal basis for this data usage: Legitimate interest, Consent
 
@@ -83,8 +83,8 @@ to see what they use that data for.
 The Vox Pupuli project maintains three public IRC channels on 
 [Freenode](https://freenode.net), refer to [Freenode's privacy policy](https://freenode.net/policies#privacy-policy-and-data-retention)
 for details on how they handle your data. Our bot keeps a rolling backlog in 
-the IRC channel for logging purposes, however that backlog is rolled off after
-10 minutes, however due to the open nature of the IRC protocol, other users can
+the IRC channel for logging purposes that is rolled off after 10 minutes. 
+However, due to the open nature of the IRC protocol, other users can
 log channel data outside of the control of the community.
 
 The Vox Pupuli community also uses a mailing list via the 
@@ -116,7 +116,7 @@ and privacy options.
 
 ### Your name and email in our codebases
 
-***As part of ANY contribution to a Vox Pupuli project, you are acknowledging and agreeing that your name and email address will become embedded and part of the source code repository, which are all publicly available. You understand that the removal of this information would be impermissibly destructive to the project and the overall interests of those who contribute, utilize, and benefit from it. Therefore, in consideration of your participation in any project, you understand that retaining your name and email address, as described above, does not require your consent and that the right of erasure, as spelled out in the GDRP Article 17(1)b does not apply.***
+***As part of ANY contribution to a Vox Pupuli project, you are acknowledging and agreeing that your name and email address will become embedded and part of the source code repository, which are all publicly available. You understand that the removal of this information would be impermissibly destructive to the project and the overall interests of those who contribute, utilize, and benefit from it. Therefore, in consideration of your participation in any project, you understand that retaining your name and email address, as described above, does not require your consent and that the right of erasure, as spelled out in the GDPR Article 17(1)b does not apply.***
 
 ## Your rights
 
