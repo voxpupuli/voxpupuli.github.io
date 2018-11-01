@@ -41,7 +41,7 @@ as well as release announcements.
 ## Migrating a module to voxpupuli
 You will have someone by your side in this process. The general flow is to…
 
-* Ask one of the Administrators to add you to the modules/admin team.
+* Ask one of the Administrators to add you to the `incoming-migrations` team.
 * At that point you can transfer your own repository.
 * If migrating a module from puppetlabs, re-enable github issues.
 * Verify that all webhooks except travis are disabled.
