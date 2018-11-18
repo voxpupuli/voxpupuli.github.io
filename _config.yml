@@ -26,6 +26,8 @@ navigation:
     url: /coc/
   - title: Documentation
     url: /docs/
+  - title: Leadership
+    url: /elections/
   - title: Security
     url: /security/
   - title: Plugins
