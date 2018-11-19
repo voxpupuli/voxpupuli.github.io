@@ -7,10 +7,23 @@ $( document ).ready(function() {
 
   });
 
-  $.getJSON( "https://api.github.com/orgs/voxpupuli/members", function( data ) {
+  // because this is unauthenticated, it will only list *public* members
+  xhr = $.getJSON( "https://api.github.com/orgs/voxpupuli/members", function( data ) {
 
-    console.log(data.length);
-    $("#members-count").text(data.length);
+    var count = data.length;
+    try {
+      var link  = xhr.getResponseHeader("Link").split(' ')[2].slice(1, -2);
+      var reg   = /page=(\d)/
+      var pages = reg.exec(link)[1] - 1 // number of full pages
+
+      $.getJSON(link, function( data ) {
+        $("#members-count").text((count * pages) + data.length);
+      });
+    }
+    catch {
+      // if there aren't extra pages, just show the count
+      $("#members-count").text(count);
+    }
 
   });
 });
