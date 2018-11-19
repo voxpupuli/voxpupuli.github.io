@@ -8,3 +8,19 @@
   background-size: cover;
   background-position: 50%;
 }
+
+.voxpupuli-intro .row h1 {
+  text-align: center;
+}
+
+/* keep the long heading from disrupting flow if it wraps at narrow widths */
+.voxpupuli-intro .row .panel-heading {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#pr-count {
+  font-size: 2em;
+  line-height: 2.45em;
+}
