@@ -20,11 +20,9 @@ kramdown:
 
 
 navigation:
-  - title: Home
-    url: /
   - title: Code of Conduct
     url: /coc/
-  - title: Docs
+  - title: Documentation
     url: /docs/
   - title: Security
     url: /security/
