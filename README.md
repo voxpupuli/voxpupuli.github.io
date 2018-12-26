@@ -11,6 +11,7 @@ The https://voxpupuli.org site. Have a look at it to see what this is all about.
 * [Plugin schema](#plugin-schema)
 * [What's a tool vs. a plugin?](#what-s-a-tool-vs-a-plugin)
 * [Contribution](#contribution)
+* [License](#license)
 
 ## Building this site
 
@@ -72,9 +73,19 @@ you do a talk about Vox Pupuli that you would like to link to? Do you want to
 write a plog post?
 
 Feel free to send us a pull request with your changes or raise an [issue](https://github.com/voxpupuli/voxpupuli.github.io/issues/new).
-We currently require all commits to be signed with gpg, so please configure
-your git client properly. Let us know if you need some help. We're also
+We currently require all commits in this repo to be signed with gpg, so please
+configure your git client properly. Let us know if you need some help. We're also
 reachable via our IRC channel `#voxpupuli` on freenode.
 
 We test if the pages still build properly via travis, You can run this locally
 by running `bundle exec rake test`.
+
+## License
+
+Our website uses two licenses. The actual content uses
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). This is the
+same license as our [logos](https://github.com/voxpupuli/logos#voxpupuli-logos)
+use. The underlying scripts and code of our website use the
+[Apache-2](http://www.apache.org/licenses/#2.0) license. The
+[Apache-2](LICENSE) and the [CC BY-SA 4.0](LICENSE2) files are present in the
+repository.
