@@ -42,7 +42,7 @@ is `Undef`. For newcomers: Undef
 a lambda to each value in the array. If it returns true, the value will be
 returned in a new array with all other values that also evaluated to true.
 
-Now the cool part: `NotUndef` !. Paul uses `=~` to match the values against the
+Now the cool part: `NotUndef`! Paul uses `=~` to match the values against the
 `NotUndef` datatype. In most languages, `=~` is used to validate against a
 regular expression. In Puppet, you can also evaluate against a datatype like
 `String`, `Array` or `Undef` (or
