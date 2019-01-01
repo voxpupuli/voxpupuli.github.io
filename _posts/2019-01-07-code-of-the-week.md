@@ -7,7 +7,7 @@ twitter_username: BastelsBlog
 ---
 
 This is a new blog series that we would like to introduce. At Vox Pupuli, we
-receive many Pull Requests. We receive so much awesome code, that isn't really
+receive many [Pull Requests](https://github.com/search?q=type%3Apr+is%3Aopen+is%3Apublic+org%3Avoxpupuli&type=Issues). We receive so much awesome code, that isn't really
 appreciated. In the past, some of our members sent out tweets if they saw cool
 code. We now want to start a blog series with regular updates to appreciate the
 work of our collaborators and contributors.
