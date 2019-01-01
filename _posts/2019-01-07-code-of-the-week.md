@@ -22,7 +22,7 @@ slipped through:
 <img alt="8bit vox" src="{{ site.url }}{{ site.baseurl }}/static/images/puppetboard-logo.jpg"/>
 
 Another collaborator, [Sebastian Rakel](https://github.com/sebastianrakel), was
-so kind to seperate the image from the background (he kind of patched it -
+so kind to separate the image from the background (he kind of patched it -
 this pun is required to qualify this for the `Code of the Week` series):
 
 <img alt="8bit vox" src="{{ site.url }}{{ site.baseurl }}/static/images/puppetboard-logo-seperated.png"/>
