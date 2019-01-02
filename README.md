@@ -2,6 +2,16 @@
 
 The https://voxpupuli.org site. Have a look at it to see what this is all about.
 
+## Table of Contents
+
+* [Building this site](#building-this-site)
+* [Puppet Plugins](#puppet-plugins)
+* [Tool definition format](#tool-definition-format)
+* [Tool schema](#tool-schema)
+* [Plugin schema](#plugin-schema)
+* [What's a tool vs. a plugin?](#what-s-a-tool-vs-a-plugin)
+* [Contribution](#contribution)
+
 ## Building this site
 
 * `bundle install`
@@ -54,3 +64,17 @@ A *tool* can generally be used independent of another specific tool or it is a
 tool that has plugins itself. An example of a tool is `rspec-puppet` because it
 has plugins. Another example of a tool is `modulesync` because it can be used
 independent of another tool.
+
+## Contribution
+
+We happily accept contributions of all kind. Did you spot a typo somewhere? Did
+you do a talk about Vox Pupuli that you would like to link to? Do you want to
+write a plog post?
+
+Feel free to send us a pull request with your changes or raise an [issue](https://github.com/voxpupuli/voxpupuli.github.io/issues/new).
+We currently require all commits to be signed with gpg, so please configure
+your git client properly. Let us know if you need some help. We're also
+reachable via our IRC channel `#voxpupuli` on freenode.
+
+We test if the pages still build properly via travis, You can run this locally
+by running `bundle exec rake test`.
