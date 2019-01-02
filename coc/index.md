@@ -36,7 +36,7 @@ advances
 
 ## Our Responsibilities
 
-[Project maintainers][maintainers] are responsible for clarifying the standards of acceptable
+Project maintainers are responsible for clarifying the standards of acceptable
 behavior and are expected to take appropriate and fair corrective action in
 response to any instances of unacceptable behavior.
 
@@ -46,6 +46,8 @@ that are not aligned to this Code of Conduct, or to ban temporarily or
 permanently any contributor for other behaviors that they deem inappropriate,
 threatening, offensive, or harmful.
 
+Our maintainers are elected on a yearly basis as the project management
+committee. You can find an up to date list of those people [on our site][pmc]
 ## Scope
 
 This Code of Conduct applies both within project spaces and in public spaces
@@ -58,7 +60,7 @@ further defined and clarified by project maintainers.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at maintainers@voxpupuli.org. All
+reported by contacting the project team at [pmc@voxpupuli.org](pmc@voxpupuli.org). All
 complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project team is
 obligated to maintain confidentiality with regard to the reporter of an incident.
@@ -75,4 +77,4 @@ available at [http://contributor-covenant.org/version/1/4][version]
 
 [homepage]: http://contributor-covenant.org
 [version]: http://contributor-covenant.org/version/1/4/
-[maintainers]: https://github.com/orgs/voxpupuli/teams/project-maintainers
+[pmc]: https://voxpupuli.org/docs/#project-management-committee

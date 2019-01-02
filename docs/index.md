@@ -167,3 +167,11 @@ There are a few things that can be checked if you review a pull request against 
 * Only hard dependencies must be added to the metadata.json. Don't add soft dependencies! More explanation is [in the official Puppet styleguide](https://puppet.com/docs/puppet/5.5/style_guide.html#dependencies)
 * Ensure that the version range of any dependency doesn't include an unreleased major version (do not allow version 6.X of a dependency if the current version is 5.X)
 * An increase of an upper version boundary (of a module or Puppet itself) is only an enhancement if code adjustments were needed. Don't add the `enhancement` label if the only change is within the `metadata.json`. Ensure that `.fixtures.yml` doesn't pin a specific version.
+
+## Project management committee
+
+We defined a [governance document](https://github.com/voxpupuli/plumbing/blob/master/share/governance.md#vox-pupuli-governance)
+some time ago. It defines several different groups and roles. One of them is
+the PMC. For 2019 [we
+elected](https://voxpupuli.org/blog/2018/12/19/election-results-2019/) 5
+people.
