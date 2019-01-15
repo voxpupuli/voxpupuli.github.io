@@ -7,86 +7,120 @@
     {
       "name": "hiera-cloudformation",
       "url": "https://github.com/fanduel/hiera-cloudformation",
+      "name_v5": "",
+      "url_v5": "",
       "description": "AWS CloudFormation backend."
     },
     {
       "name": "hiera-consul",
       "url": "https://github.com/lynxman/hiera-consul",
+      "name_v5": "",
+      "url_v5": "",
       "description": "Consul backend."
     },
     {
       "name": "hiera-etcd",
       "url": "https://github.com/garethr/hiera-etcd",
+      "name_v5": "",
+      "url_v5": "",
       "description": "Etcd distributed configuration store backend."
     },
     {
       "name": "hiera-eyaml",
       "url": "https://github.com/TomPoulton/hiera-eyaml",
+      "name_v5": "hiera-eyaml",
+      "url_v5": "https://github.com/voxpupuli/hiera-eyaml",
       "description": "Backend that provides per-value asymmetric encryption of sensitive data."
     },
     {
       "name": "hiera-eyaml-gpg",
       "url": "https://github.com/sihil/hiera-eyaml-gpg",
+      "name_v5": "",
+      "url_v5": "",
       "description": "GPG encryption backend for the hiera-eyaml module."
     },
     {
       "name": "hiera-file",
       "url": "https://github.com/adrienthebo/hiera-file",
+      "name_v5": "",
+      "url_v5": "",
       "description": "File backend."
     },
     {
       "name": "hiera-foreman",
       "url": "https://github.com/torrancew/hiera-foreman",
+      "name_v5": "",
+      "url_v5": "",
       "description": "Backend that queries the Foreman for data."
     },
     {
       "name": "hiera-gpg",
       "url": "https://github.com/crayfishx/hiera-gpg",
+      "name_v5": "",
+      "url_v5": "",
       "description": "GPG Backend."
     },
     {
       "name": "hiera-aws",
       "url": "https://github.com/Jimdo/hiera-aws",
+      "name_v5": "",
+      "url_v5": "",
       "description": "AWS Backend."
     },
     {
       "name": "hiera-json",
       "url": "https://github.com/puppetlabs/hiera-json",
+      "name_v5": "",
+      "url_v5": "",
       "description": "JSON Backend."
     },
     {
       "name": "hiera-http",
       "url": "https://github.com/crayfishx/hiera-http",
+      "name_v5": "",
+      "url_v5": "",
       "description": "HTTP Backend."
     },
     {
       "name": "hiera-ldap",
       "url": "https://github.com/hunner/hiera-ldap",
+      "name_v5": "",
+      "url_v5": "",
       "description": "LDAP Backend."
     },
     {
       "name": "hiera-mysql",
       "url": "https://github.com/crayfishx/hiera-mysql",
+      "name_v5": "",
+      "url_v5": "",
       "description": "MySQL Backend."
     },
     {
       "name": "hiera-psql",
       "url": "https://github.com/dalen/hiera-psql",
+      "name_v5": "",
+      "url_v5": "",
       "description": "PostgreSQL backend."
     },
     {
       "name": "hiera-redis",
       "url": "https://github.com/reliantsecurity/hiera-redis",
+      "name_v5": "hiera_redis",
+      "url_v5": "https://github.com/maxadamo/hiera_redis",
       "description": "A Redis backend."
     },
     {
       "name": "hiera-rest",
       "url": "https://github.com/binford2k/hiera-rest",
+      "name_v5": "",
+      "url_v5": "",
       "description": "Backend that allows one to look up parameters via calls to a REST endpoint."
     },
     {
       "name": "hiera-vault",
       "url": "https://github.com/jsok/hiera-vault",
+      "name_v5": "hiera_vault",
+      "url_v5": "https://github.com/petems/petems-hiera_vault",
       "description": "Backend to retrieve secrets from Hashicorp's Vault."
     }
   ]

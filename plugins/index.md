@@ -58,7 +58,12 @@ Useful tools when writing Puppet.
 <table class="table">
   <thead>
   <tr>
+    {% if tool[1].display_name == "Hiera" %}
+    <th>Plugin Link v. 3</th>
+    <th>Plugin Link v. 5</th>
+    {% else %}
     <th>Plugin Link</th>
+    {% endif%}
     <th>Description</th>
   </tr>
   </thead>
@@ -67,6 +72,7 @@ Useful tools when writing Puppet.
   {% for plugin in sorted_plugins %}
   <tr>
     <td><a href="{{plugin.url}}">{{plugin.name}}</a></td>
+    {% if tool[1].display_name == "Hiera" %}<td><a href="{{plugin.url_v5}}">{{plugin.name_v5}}</a></td>{% endif %}
     <td>{{plugin.description}}</td>
   </tr>
   {% endfor %}
