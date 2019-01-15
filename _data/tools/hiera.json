@@ -28,8 +28,8 @@
     {
       "name": "hiera-eyaml",
       "url": "https://github.com/TomPoulton/hiera-eyaml",
-      "name_v5": "",
-      "url_v5": "",
+      "name_v5": "hiera-eyaml",
+      "url_v5": "https://github.com/voxpupuli/hiera-eyaml",
       "description": "Backend that provides per-value asymmetric encryption of sensitive data."
     },
     {
@@ -106,7 +106,7 @@
       "name": "hiera-redis",
       "url": "https://github.com/reliantsecurity/hiera-redis",
       "name_v5": "hiera_redis",
-      "url_v5": "https://forge.puppet.com/maxadamo/hiera_redis",
+      "url_v5": "https://github.com/maxadamo/hiera_redis",
       "description": "A Redis backend."
     },
     {
@@ -120,7 +120,7 @@
       "name": "hiera-vault",
       "url": "https://github.com/jsok/hiera-vault",
       "name_v5": "hiera_vault",
-      "url_v5": "https://forge.puppet.com/petems/hiera_vault",
+      "url_v5": "https://github.com/petems/petems-hiera_vault",
       "description": "Backend to retrieve secrets from Hashicorp's Vault."
     }
   ]
