@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Code of the Week 3
+title: Deprecating the puppet3 branch
 date: 2019-03-05
 github_username: bastelfreak
 twitter_username: BastelsBlog
