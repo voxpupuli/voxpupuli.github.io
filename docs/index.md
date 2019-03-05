@@ -157,8 +157,6 @@ There are a few things that can be checked if you review a pull request against 
 * Is a new template added? The preferred language is [epp](https://puppet.com/docs/puppet/latest/lang_template_epp.html), not [erb](https://puppet.com/docs/puppet/latest/lang_template_erb.html)
 * Is a new class added? It should have unit tests using [rpsec-puppet-facts](https://github.com/mcanevet/rspec-puppet-facts#rspec-puppet-facts) that at least verify that the new class compiles
 * Files should always terminate with a newline if possible, with an exception being file or template fragments like those used with concat. This is the [POSIX standard](http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_206), and some tools don't handle the lack of a terminating newline properly
-* You can merge your own PR if it was approved by someone else and travis is green. Don't merge if either one of those conditions are not true
-* It's okay to approve code regardless if travis is still running or not. The code won't be merged if travis fails after the PR got approved
 * If you can supply one or multiple values for an attribute it's common practice to enforce the datatype for one value and an array of that datatype. An example for string is `Variant[String[1],Array[String[1]]]`. This can be used in the Puppet code as `[$var].flatten()`
 * The parameter section should always be aligned at the `=` char
 * Is a class considered private? Then it should contain [assert_private](https://github.com/puppetlabs/puppetlabs-stdlib#assert_private)
@@ -167,6 +165,13 @@ There are a few things that can be checked if you review a pull request against 
 * Only hard dependencies must be added to the metadata.json. Don't add soft dependencies! More explanation is [in the official Puppet styleguide](https://puppet.com/docs/puppet/5.5/style_guide.html#dependencies)
 * Ensure that the version range of any dependency doesn't include an unreleased major version (do not allow version 6.X of a dependency if the current version is 5.X)
 * An increase of an upper version boundary (of a module or Puppet itself) is only an enhancement if code adjustments were needed. Don't add the `enhancement` label if the only change is within the `metadata.json`. Ensure that `.fixtures.yml` doesn't pin a specific version.
+
+
+### Approving and Merging
+
+* You can merge your own PR if it was approved by someone else and travis is green. Don't merge if either one of those conditions are not true
+  * Modulesync PRs are an exception (a PR based on changes that the msync tool did, NOT PRs on [modulesync_config](https://github.com/voxpupuli/modulesync_config#modulesync-configs)). We agreed some time ago that it's ok to merge your own modulesync PR if travis is green, without separate approval. This is okay because changes to [modulesync_config](https://github.com/voxpupuli/modulesync_config#modulesync-configs) were reviewed and tested
+* It's okay to approve code regardless if travis is still running or not. The code won't be merged if travis fails after the PR got approved
 
 ## Project management committee
 
