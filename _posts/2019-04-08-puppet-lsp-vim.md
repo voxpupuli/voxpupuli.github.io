@@ -23,7 +23,7 @@ $ curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
 
 Next you need to install the plugins you will need for Puppet Development. Use your favorite plugin manager or manually manage them if you know how, but I personally use [Vim-Plug](https://github.com/junegunn/vim-plug).
 
-**Note to Vim users: `coc.vim` requires vim >= 8.1**
+**Note to Vim users: `coc.vim` requires vim >= 8.1 and you'll need to install `vim-node-rpc` through NPM****
 
 ```vim
 call plug#begin('~/.config/nvim/plugged')
@@ -42,6 +42,8 @@ call plug#end()
 command! -bang -nargs=* Rg call fzf#vim#grep('rg --column --line-number --no-heading --fixed-strings --ignore-case --no-ignore --hidden --follow --glob "!.git/*" --color "always" '.shellescape(<q-args>), 1, <bang>0) " FZF settings
 noremap <Leader>/ :FZF<CR> " Set FZF to <LEADER>/, which for me is `,/`
 ```
+
+**Note: The above configuration assumes you use `Vim-Plug` to manage plugins. If you don't, you'll need to run `coc#util#install()` from Vim NORMAL mode**
 
 Once your `.vimrc` or `init.vim` are set up, open vim/neovim and execute `PlugInstall` from command mode. This will install the plugins and run any additional tasks they require. 
 
