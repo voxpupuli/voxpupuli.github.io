@@ -145,6 +145,7 @@ There are a few things that can be checked if you review a pull request against 
 * Are there merge conflicts? Add the `needs-rebase` label
 * Does it need additional tests? Add the `needs-tests` label
 * Does it have failing tests? Add the `tests-fail` label
+* Does it drop support for a specific Operating system or a major Puppet version? Add the `backwards-incompatible` label
 * Are new parameters introduced? They must have datatypes
 * Are facts used? They should only be accessed via `$facts[]` or [fact()](https://github.com/puppetlabs/puppetlabs-stdlib#fact) from stdlib, but not topscope variables
 * In the majority of cases, variables shouldn't be accessed via topscope: $::modulename::$param. Instead do: $modulename::$param
