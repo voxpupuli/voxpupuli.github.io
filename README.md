@@ -1,6 +1,7 @@
 # voxpupuli.github.io [![Build Status](https://travis-ci.org/voxpupuli/voxpupuli.github.io.svg?branch=master)](https://travis-ci.org/voxpupuli/voxpupuli.github.io)
 
-The https://voxpupuli.org site. Have a look at it to see what this is all about.
+The [https://voxpupuli.org](ttps://voxpupuli.org) site. Have a look at it to see
+what this is all about.
 
 ## Table of Contents
 
@@ -25,19 +26,22 @@ You can also use the rake tasks defined in the `Rakefile`:
 * `clean`: removes the `./_site` directory Jekyll generated
 
 ## Puppet Plugins
+
 Tools and plugins that appear on the Plugins page of our site
 are defined in the `_data/tools` directory. Tools without plugins are going to
 be listed in the table under the `Tools` header. Tools with plugins will have
 their own header and table listing the plugins defined for that tool.
 
 ### Tool definition format
+
 There's a single hash in each tool's definition that describes the tool and
 optionally contains an array of plugins that can be used with that tool. A tool
 that doesn't have any plugins will be listed in the table under the Tools header
 while a tool that does have plugins will have its own header and a table listing
 all plugins in the tool's `plugins` array.
 
-#### Tool Schema:
+#### Tool Schema
+
 | Key            | Value Data Type | Required or Optional |
 | -------------- | --------------- | -------------------- |
 | `name`         | String          | Required             |
@@ -46,14 +50,16 @@ all plugins in the tool's `plugins` array.
 | `description`  | String          | Required             |
 | `plugins`      | Array           | Optional             |
 
-#### Plugin Schema:
+#### Plugin Schema
+
 | Key            | Value Data Type | Required or Optional |
 | -------------- | --------------- | -------------------- |
 | `name`         | String          | Required             |
 | `url`          | String          | Required             |
 | `description`  | String          | Required             |
 
-### What's a tool vs. a plugin?
+### What's a tool vs. a plugin
+
 The difference can be kind of fluid, so I figured it would be helpful to define
 plugin and tool.
 
