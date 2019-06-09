@@ -21,7 +21,6 @@ and decision making using [lazy consensus][lazy], amongst other things.
 
 The current list of PMC members can be found on [GitHub][maintainers].
 
-
 ## Terms and Dates
 
 Terms begin each year on *January 1st*.
@@ -31,7 +30,6 @@ December, with each lasting for approximately two weeks. Precise dates will be
 announced each year by the Election Officer. When possible, the dates will be
 chosen to coincide with Puppet's [Contributor Summit][cso], so as to reach a
 large number of community members with the announcement.
-
 
 ## Elections
 
@@ -50,8 +48,8 @@ your top 5 candidate choices.
 After the election, the election officer will announce the results, and the newly
 elected PMC will take office on January 1.
 
-In the case where 5 or fewer candidates are nominated, the voting process may be skipped.
-
+In the case where 5 or fewer candidates are nominated, the voting process may be
+skipped.
 
 ## Election Officer
 
@@ -69,7 +67,6 @@ According to our rules, the Election Officers can not run in the Election.
 
 If the existing PMC term has expired, then the Election Officer will also assume
 the duties of project communication until a new Committee is elected and terms begin.
-
 
 [gd]:https://github.com/voxpupuli/plumbing/blob/master/share/governance.md
 [coc]:https://voxpupuli.org/coc/
