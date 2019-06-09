@@ -7,9 +7,11 @@ This page is far from finished but contains some basic information on getting
 started. If you have any questions reach out to us in #voxpupuli on Freenode.
 
 * TOC
+
 {:toc}
 
 ## Who can join?
+
 Anyone can participate in voxpupuli. We currently have four levels of
 participation, orchestrated by github teams.
 
@@ -23,6 +25,7 @@ participation, orchestrated by github teams.
   publish modules to the forge under the puppet namespace.
 
 ## Where you can find us
+
 We have a number of communication channels:
 
 * #voxpupuli on [Freenode](http://freenode.net), aka IRC
@@ -39,6 +42,7 @@ Longer form cross-project discussion tends to take place on the mailing list,
 as well as release announcements.
 
 ## Migrating a module to voxpupuli
+
 You will have someone by your side in this process. The general flow is to…
 
 * Ask one of the Administrators to add you to the `incoming-migrations` team.
@@ -49,9 +53,9 @@ You will have someone by your side in this process. The general flow is to…
 * Release a copy of your module to the 'puppet' forge account.
 * Add the module to our [modulesync setup](https://github.com/voxpupuli/modulesync_config/blob/master/managed_modules.yml).
 * Add the module to our [plumbing repository](https://github.com/voxpupuli/plumbing/blob/master/share/modules)(handles travis secrets).
-* Ask an admin to add the `collaborators` team to the module's `Collaborators & Teams`  'Teams' list with `Write` permissions (e.g. https://github.com/voxpupuli/puppet-gitlab/settings/collaboration).
+* Ask an admin to add the `collaborators` team to the module's `Collaborators & Teams` 'Teams' list with `Write` permissions (e.g. [https://github.com/voxpupuli/puppet-gitlab/settings/collaboration](https://github.com/voxpupuli/puppet-gitlab/settings/collaboration))).
 * Execute modulesync for this module.
-* Create a Jira issue at https://tickets.puppetlabs.com and ask to deprecate the old module (and approve the new one if the old one was approved as well).
+* Create a Jira issue at [https://tickets.puppetlabs.com](https://tickets.puppetlabs.com) and ask to deprecate the old module (and approve the new one if the old one was approved as well).
 
 If you have many modules you wish to migrate, this will be cumbersome.
 In this case we will generally create a separate group and give you
@@ -63,7 +67,8 @@ If the owner has responded and is not interested in migrating their module to VP
 To start the process, document your request and efforts in a brief email to the [mailing list](https://groups.io/g/voxpupuli/).
 If the module is accepted, VP will work with you to determine the proper fork/migration steps needed in addition to the checklist above.
 
-##  Publishing a module - setup
+## Publishing a module - setup
+
 Forge publishing is handled by travis and puppet-blacksmith.
 
 To guarantee a frictionless process across all modules, we use [modulesync](https://github.com/voxpupuli/modulesync). Our modulesync configuration is available at [modulesync_config](https://github.com/voxpupuli/modulesync_config).
@@ -79,7 +84,6 @@ Ask an admin (or submit a PR) to add your module to the list [here](https://gith
 Note that you need to mask your ``secure:`` line in .travis.yml from modulesync. [Here](https://github.com/voxpupuli/puppet-iis/blob/master/.sync.yml#L35) is an example of what that looks like.
 
 If the forge puppet password is changed, an admin can run encrypt_travis.sh and the modules can bring in the new password on their own schedule.
-
 
 Gem publishing is handled similarly, except there is not a unified user. Each gem owner is responsible for their own .travis.yml
 
@@ -119,7 +123,11 @@ bundle exec rake changelog
 
 Get community feedback on the release pr, label it with skip-changelog, get it merged.
 
-Checkout an updated copy of master (`git checkout master; git fetch origin; git pull origin master`)
+Checkout an updated copy of master
+
+```bash
+git checkout master; git fetch origin; git pull origin master
+```
 
 Run the rake target `travis_release`. This will:
 
@@ -167,7 +175,6 @@ There are a few things that can be checked if you review a pull request against 
 * Ensure that the version range of any dependency doesn't include an unreleased major version (do not allow version 6.X of a dependency if the current version is 5.X)
 * An increase of an upper version boundary (of a module or Puppet itself) is only an enhancement if code adjustments were needed. Don't add the `enhancement` label if the only change is within the `metadata.json`. Ensure that `.fixtures.yml` doesn't pin a specific version.
 * Sometimes you review a PR where somebody else requested changes. If the contributor clearly fixed it, you can still approve or merge it and ignore the `somebody requested changes` message. If you are not sure that it is really fixed, only approve it and do not merge it.
-
 
 ### Approving and Merging
 
