@@ -7,7 +7,6 @@ This page is far from finished but contains some basic information on getting
 started. If you have any questions reach out to us in #voxpupuli on Freenode.
 
 * TOC
-
 {:toc}
 
 ## Who can join?
