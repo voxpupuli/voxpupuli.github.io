@@ -232,10 +232,15 @@ one of our modules:
   [POSIX
   standard](http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_206),
   and some tools don't handle the lack of a terminating newline properly
-* If you can supply one or multiple values for an attribute it's common practice
-  to enforce the datatype for one value and an array of that datatype. An
-  example for string is `Variant[String[1],Array[String[1]]]`. This can be used
-  in the Puppet code as `[$var].flatten()`
+* If you can supply multiple values for an attribute it's common practice to
+  enforce the datatype as an array of values, even if the default is a single
+  item. This cuts down on code and remove some edge cases. An example for string
+  is `Array[String[1]]` instead of `Variant[String[1],Array[String[1]]]`.
+
+  Note that previously the recommendation was to have a `Variant` type, but this
+  causes problems with values that contain Arrays, e.g. `Variant[Tuple[String,
+  Array], Array[Tuple[String, Array]]]` (which would unintentionally flatten the
+  array inside the tuple).
 * The parameter section should always be aligned at the `=` char
 * Is a class considered private? Then it should contain
   [assert_private](https://github.com/puppetlabs/puppetlabs-stdlib#assert_private)
