@@ -179,6 +179,8 @@ There are a few things that can be checked if you review a pull request against 
 
 * You can merge your own PR if it was approved by a collaborator with merge permissions and travis is green. Don't merge if either one of those conditions are not true
   * Modulesync PRs are an exception (a PR based on changes that the msync tool did, NOT PRs on [modulesync_config](https://github.com/voxpupuli/modulesync_config#modulesync-configs)). We agreed some time ago that it's ok to merge your own modulesync PR if travis is green, without separate approval. This is okay because changes to [modulesync_config](https://github.com/voxpupuli/modulesync_config#modulesync-configs) were reviewed and tested
+  * If your PR is non-trivial or perhaps has only been approved by a work colleague etc, please consider allowing reasonable extra time for other 3rd parties to leave their reviews before merging.
+    There is no prescribed minimum review period, or definition of 'reasonable time'. Vox Pupuli trusts collaborators to use their own judgement here.
 * It's okay to approve code regardless if travis is still running or not. The code won't be merged if travis fails after the PR got approved
 * You are highly encouraged to review and approve code (or comment on it), even if you do not have merge permissions. This makes further reviews way easier
 
