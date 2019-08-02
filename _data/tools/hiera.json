@@ -110,13 +110,6 @@
       "description": "A Redis backend."
     },
     {
-      "name": "hiera-rest",
-      "url": "https://github.com/binford2k/hiera-rest",
-      "name_v5": "",
-      "url_v5": "",
-      "description": "Backend that allows one to look up parameters via calls to a REST endpoint."
-    },
-    {
       "name": "hiera-vault",
       "url": "https://github.com/jsok/hiera-vault",
       "name_v5": "hiera_vault",
