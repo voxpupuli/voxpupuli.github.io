@@ -154,7 +154,7 @@ There are a few things that can be checked if you review a pull request against 
 * Does it have failing tests? Add the `tests-fail` label
 * Does it drop support for a specific Operating system or a major Puppet version? Add the `backwards-incompatible` label
 * Are new parameters introduced? They must have datatypes
-* Are facts used? They should only be accessed via `$facts[]` or [fact()](https://github.com/puppetlabs/puppetlabs-stdlib#fact) from stdlib, but not topscope variables
+* Are facts used? They should only be accessed via `$facts[]` or [fact()](https://github.com/puppetlabs/puppetlabs-stdlib/blob/master/REFERENCE.md#fact) function from stdlib, but not topscope variables
 * In the majority of cases, variables shouldn't be accessed via topscope: $::modulename::$param. Instead do: $modulename::$param
 * Are datatypes from stdlib used? Ensure that lowest supported stdlib version is 4.18.0 (This is the first version that supports Puppet 5). Check if a newer version introduced the used datatype
 * Are hiera yaml files added for data-in-modules? Ensure that the data is compatible with [hiera 5](https://puppet.com/docs/puppet/5.3/hiera_migrate.html#use-cases-for-upgrading-to-hiera-5). Static data that is equal across every supported operating system can stay in the init.pp, it doesn't need to be moved to a common.yaml
@@ -167,7 +167,7 @@ There are a few things that can be checked if you review a pull request against 
 * Files should always terminate with a newline if possible, with an exception being file or template fragments like those used with concat. This is the [POSIX standard](http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_206), and some tools don't handle the lack of a terminating newline properly
 * If you can supply one or multiple values for an attribute it's common practice to enforce the datatype for one value and an array of that datatype. An example for string is `Variant[String[1],Array[String[1]]]`. This can be used in the Puppet code as `[$var].flatten()`
 * The parameter section should always be aligned at the `=` char
-* Is a class considered private? Then it should contain [assert_private](https://github.com/puppetlabs/puppetlabs-stdlib#assert_private)
+* Is a class considered private? Then it should contain [assert_private](https://github.com/puppetlabs/puppetlabs-stdlib/blob/master/REFERENCE.md#assert_private)
 * A module should have as few public interfaces as possible. It should be aimed for the init.pp being the only public class. This is not a rule but a general guideline. Depending on the module, it is not always possible or feasible to configure everything through a single class.
 * Is another module added as a dependency? Add it to the `.fixtures.yml` file as a git repository (as a `https://` link, not `ssh` or `git://`). Spec tests always run against master branches to detect breaking changes as early as possible. Acceptance tests use the last release (installed by [install_module_dependencies](https://github.com/puppetlabs/beaker-module_install_helper#install_module_dependencies) which parses it from the `metadata.json`)
 * Only hard dependencies must be added to the metadata.json. Don't add soft dependencies! More explanation is [in the official Puppet styleguide](https://puppet.com/docs/puppet/5.5/style_guide.html#dependencies)
