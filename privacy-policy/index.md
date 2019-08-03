@@ -63,7 +63,6 @@ tracking issues/pull requests, GitHub notification management, etc:
   * [Code Climate](https://codeclimate.com/)
   * [Coveralls](https://coveralls.io/)
 * Project and Ticket Management
-  * [Waffle.io](https://waffle.io/)
   * [ZenHub](https://www.zenhub.com/)
   * [Zube](https://zube.io/)
 * GitHub notification Management
@@ -157,7 +156,6 @@ was last updated on 27th May 2018.
 [Codacy]: https://www.codacy.com/privacy
 [Code Climate]: https://codeclimate.com/legal/privacy
 [Coveralls]: https://coveralls.io/legal
-[Waffle.io]: https://waffle.io/terms-of-service
 [ZenHub]: https://www.zenhub.com/privacy-policy
 [Zube]: https://zube.io/privacy
 [Octobox]: https://octobox.io/privacy
