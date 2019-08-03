@@ -80,7 +80,7 @@ The secure line is unique per repository and often the only line in .sync.yml. T
 
 Ask an admin (or submit a PR) to add your module to the list [here](https://github.com/voxpupuli/plumbing/blob/master/share/modules). Then an admin will run the encrypt_travis.sh script and push a new version of [this](https://github.com/voxpupuli/plumbing/blob/master/share/travis_secrets) which you can then copy and paste your travis secure line from.
 
-Note that you need to mask your ``secure:`` line in .travis.yml from modulesync. [Here](https://github.com/voxpupuli/puppet-iis/blob/master/.sync.yml#L35) is an example of what that looks like.
+Note that you need to mask your ``secure:`` line in .travis.yml from modulesync. [Here](https://github.com/voxpupuli/puppet-iis/blob/f570fa84b761b0d0e0e1238abb355db47040651f/.sync.yml#L1-L3) is an example of what that looks like.
 
 If the forge puppet password is changed, an admin can run encrypt_travis.sh and the modules can bring in the new password on their own schedule.
 
