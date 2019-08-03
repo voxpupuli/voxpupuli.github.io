@@ -68,10 +68,10 @@ According to our rules, the Election Officers can not run in the Election.
 If the existing PMC term has expired, then the Election Officer will also assume
 the duties of project communication until a new Committee is elected and terms begin.
 
-[gd]:https://github.com/voxpupuli/plumbing/blob/master/share/governance.md
-[coc]:https://voxpupuli.org/coc/
-[lazy]:https://github.com/voxpupuli/plumbing/blob/master/share/governance.md#lazy-consensus
+[coc]: https://voxpupuli.org/coc/
+[gd]: https://github.com/voxpupuli/plumbing/blob/master/share/governance.md
+[lazy]: https://github.com/voxpupuli/plumbing/blob/master/share/governance.md#lazy-consensus
 [maintainers]: https://github.com/orgs/voxpupuli/teams/project-maintainers/members
-[civs]:https://civs.cs.cornell.edu/
-[elections]:https://github.com/voxpupuli/plumbing/tree/master/share/elections
-[cso]:http://pup.pt/cso
+[cso]: http://pup.pt/cso
+[elections]: https://github.com/voxpupuli/plumbing/tree/master/share/elections
+[civs]: https://civs.cs.cornell.edu/
