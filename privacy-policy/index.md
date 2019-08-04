@@ -64,6 +64,7 @@ tracking issues/pull requests, GitHub notification management, etc:
 * Project and Ticket Management
   * [ZenHub](https://www.zenhub.com/)
   * [Zube](https://zube.io/)
+  * [Vox Pupuli Tasks](https://github.com/voxpupuli/vox-pupuli-tasks#vox-pupuli-tasks---the-webapp-for-community-management)
 * GitHub notification Management
   * [Octobox](https://octobox.io/)
 * Documentation Hosting
@@ -73,6 +74,9 @@ As these tools work in conjunction with our GitHub organization and Source Code
 repositories, they will have access to any public data that is stored in
 your GitHub account and/or the source code. Please be sure to read the Privacy
 Policy for each tool above to see what they use that data for.
+
+GitHub may send notifications for each action you do via the website or the API
+to those services. All possible events are documented at [GitHub.com](https://developer.github.com/v3/activity/events/types/)
 
 * Legal basis for this data usage: Legitimate interest, Consent
 
@@ -144,7 +148,7 @@ contact us via [E-Mail](pmc@voxpupuli.org) or on [IRC](https://kiwiirc.com/clien
 
 Vox Pupuli reserves the right to update this policy periodically. Material
 changes will be posted to the [Blog](https://voxpupuli.org/posts). This policy
-was last updated on 27th May 2018.
+was last updated on 4th August 2019.
 
 [GitHub]: https://help.github.com/articles/global-privacy-practices
 [Freenode]: https://freenode.net/policies

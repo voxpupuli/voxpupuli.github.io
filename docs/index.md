@@ -149,7 +149,8 @@ There are a few things that can be checked if you review a pull request against 
 * Is this a bugfix, modulesync, breaking change, enhancement, docs update? Label it with `bug`, `modulesync`, `backwards-incompatible`, `enhancement`, `docs`
 * Are updates to the README.md needed but missing? Label it with `needs-docs`
 * Has the file documented params or examples in the header? This needs to be updated as well
-* Are there merge conflicts? Add the `needs-rebase` label
+* Are there merge conflicts? You don't need to do anything. Our [Vox Pupuli Tasks GitHub App][vpt] will label this as `merge-conflicts` and notify the author
+* Were changes to master merged that are required in this PR (fox example an updated Travis-CI configuration)? Add the `needs-rebase` label
 * Does it need additional tests? Add the `needs-tests` label
 * Does it have failing tests? Add the `tests-fail` label
 * Does it drop support for a specific Operating system or a major Puppet version? Add the `backwards-incompatible` label
@@ -195,3 +196,5 @@ some time ago. It defines several different groups and roles. One of them is
 the PMC. For 2019 [we
 elected](https://voxpupuli.org/blog/2018/12/19/election-results-2019/) 5
 people.
+
+[vpt]: https://github.com/voxpupuli/vox-pupuli-tasks#vox-pupuli-tasks---the-webapp-for-community-management
