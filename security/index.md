@@ -62,6 +62,6 @@ For our contributors, here are some good practices that we highly recommend.
     please come to us and talk about your use case. Maybe the changes you want
     to make would be useful for everyone! A good example of this is modulesync.
 
-[2fa]:https://help.github.com/articles/about-two-factor-authentication/
-[m]:https://en.wikipedia.org/wiki/Responsible_disclosure
-[s]:https://help.github.com/articles/signing-commits-using-gpg/
+[2fa]: https://help.github.com/articles/about-two-factor-authentication/
+[s]: https://help.github.com/articles/signing-commits-using-gpg/
+[m]: https://en.wikipedia.org/wiki/Responsible_disclosure
