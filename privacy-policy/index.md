@@ -25,30 +25,29 @@ law.
 
 ## The website
 
-The Vox Pupuli website is a static site that does not track, collect, or store 
-infromation or set cookies. There is no account needed or required to access 
-the website itself. The website itself is hosted with [Github Pages](https://pages.github.com/) 
+The Vox Pupuli website is a static site that does not track, collect, or store
+infromation or set cookies. There is no account needed or required to access
+the website itself. The website itself is hosted with [Github Pages](https://pages.github.com/)
 and any data gathered by Github will adhere to the [Github Privacy Policy](https://help.github.com/articles/github-privacy-statement/).
 
 The website uses [Cloudflare](https://www.cloudflare.com) for securing the
 communication to the Vox Pupuli website.
 
-The website does host a community run Blog series and may have the 
+The website does host a community run Blog series and may have the
 author's name be visible in the blog post indefinitely.
 
 * Legal basis for this data usage: Legitimate interest
- 
 
 ## The codebases
 
-The Vox Pupuli community uses [GitHub](https://github.com) to manage the code 
-that comprises the various Puppet modules, plugins, tools, and RubyGems the 
+The Vox Pupuli community uses [GitHub](https://github.com) to manage the code
+that comprises the various Puppet modules, plugins, tools, and RubyGems the
 community is responsible for maintaining. Refer to [GitHub's Privacy Policy](https://help.github.com/articles/github-privacy-statement/)
-for information on how GitHub handles the data you post there. We also use 
-non-identifiable data from the codebases to provide aggregated statistics such 
+for information on how GitHub handles the data you post there. We also use
+non-identifiable data from the codebases to provide aggregated statistics such
 as total member count, number of open PRs, total number of projects, etc.
 
-Please note that due to the open source nature of the community, we may retain 
+Please note that due to the open source nature of the community, we may retain
 limited personally-identifiable data indefinitely.
 
 * Legal basis for this data usage: Legitimate interest
@@ -72,27 +71,27 @@ tracking issues/pull requests, GitHub notification management, etc:
 
 As these tools work in conjunction with our GitHub organization and Source Code
 repositories, they will have access to any public data that is stored in
-your GitHub account and/or the source code. Please be sure to read the Privacy 
+your GitHub account and/or the source code. Please be sure to read the Privacy
 Policy for each tool above to see what they use that data for.
 
 * Legal basis for this data usage: Legitimate interest, Consent
 
 ## Communication
 
-The Vox Pupuli project maintains three public IRC channels on 
+The Vox Pupuli project maintains three public IRC channels on
 [Freenode](https://freenode.net), refer to [Freenode's privacy policy](https://freenode.net/policies#privacy-policy-and-data-retention)
-for details on how they handle your data. Our bot keeps a rolling backlog in 
-the IRC channel for logging purposes that is rolled off after 10 minutes. 
+for details on how they handle your data. Our bot keeps a rolling backlog in
+the IRC channel for logging purposes that is rolled off after 10 minutes.
 However, due to the open nature of the IRC protocol, other users can
 log channel data outside of the control of the community.
 
-The Vox Pupuli community also uses a mailing list via the 
-[Groups.io](https://groups.io) website. When signing up for a Groups.io 
+The Vox Pupuli community also uses a mailing list via the
+[Groups.io](https://groups.io) website. When signing up for a Groups.io
 account, you provide an E-Mail address and password. The email address is used
-to log into the web interface for the mailing list and to send updates to your 
-mailing list topics, personal messages from other users, and summaries. You have 
-full control over the emails sent from your Groups.io account preferences. 
-Please see the [Groups.io Privacy Policy](https://groups.io/static/privacy) on 
+to log into the web interface for the mailing list and to send updates to your
+mailing list topics, personal messages from other users, and summaries. You have
+full control over the emails sent from your Groups.io account preferences.
+Please see the [Groups.io Privacy Policy](https://groups.io/static/privacy) on
 any additional data usage relating to your account.
 
 * Legal basis for this data usage: Legitimate interest, Consent
@@ -109,8 +108,8 @@ due to [CloudFlare](https://cloudflare.com) blocking Tor communication.
 
 ### Your accounts on our services
 
-Your Groups.io account contains options to control what emails are sent to you. 3rd 
-party services, such as [GitHub](https://github.com) retain their own policies 
+Your Groups.io account contains options to control what emails are sent to you. 3rd
+party services, such as [GitHub](https://github.com) retain their own policies
 and privacy options.
 
 ### Your name and email in our codebases
@@ -119,7 +118,7 @@ and privacy options.
 
 ## Your rights
 
-Where the EU General Data Protection Regulation (GDPR) applies to the 
+Where the EU General Data Protection Regulation (GDPR) applies to the
 processing of your personal data, you have the following rights, subject
 to certain limitations, against the Vox Pupuli Project:
 
