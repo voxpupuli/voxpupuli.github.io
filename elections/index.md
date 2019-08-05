@@ -19,7 +19,8 @@ Management Committee (PMC).
 care of the Code of Conduct and its values, participate in strategic planning,
 and decision making using [lazy consensus][lazy], amongst other things.
 
-The current list of PMC members can be found on [GitHub][maintainers].
+The current list of PMC members can be found on [GitHub][maintainers]. You need
+to be part of the Vox Pupuli GitHub organisation to access the list.
 
 ## Terms and Dates
 
