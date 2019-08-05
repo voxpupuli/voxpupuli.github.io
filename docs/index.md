@@ -50,8 +50,8 @@ You will have someone by your side in this process. The general flow is to…
 * Verify that all webhooks except travis are disabled.
 * Update the README.md with a description of the deprecation and a link to the new module location.
 * Release a copy of your module to the 'puppet' forge account.
-* Add the module to our [modulesync setup](https://github.com/voxpupuli/modulesync_config/blob/master/managed_modules.yml).
-* Add the module to our [plumbing repository](https://github.com/voxpupuli/plumbing/blob/master/share/modules)(handles travis secrets).
+* Add the module to our [modulesync setup](managed_modules).
+* Add the module to our [plumbing repository](plumbing)(handles travis secrets).
 * Ask an admin to add the `collaborators` team to the module's `Collaborators & Teams` 'Teams' list with `Write` permissions (e.g. [https://github.com/voxpupuli/puppet-gitlab/settings/collaboration](https://github.com/voxpupuli/puppet-gitlab/settings/collaboration))).
 * Execute modulesync for this module.
 * Create a Jira issue at [https://tickets.puppetlabs.com](https://tickets.puppetlabs.com) and ask to deprecate the old module (and approve the new one if the old one was approved as well).
@@ -70,7 +70,7 @@ If the module is accepted, VP will work with you to determine the proper fork/mi
 
 Forge publishing is handled by travis and puppet-blacksmith.
 
-To guarantee a frictionless process across all modules, we use [modulesync](https://github.com/voxpupuli/modulesync). Our modulesync configuration is available at [modulesync_config](https://github.com/voxpupuli/modulesync_config).
+To guarantee a frictionless process across all modules, we use [modulesync][ms]. Our modulesync configuration is available at [modulesync_config][ms_docs].
 
 Most modulesync'ed settings can be overridden through a [.sync.yml](https://github.com/voxpupuli/puppet-extlib/blob/master/.sync.yml). You may also need to (re)define your travis testing matrix with respect to puppet version. This prevents the deploy hook from running once for each version of puppet defined in your testing.
 
@@ -139,17 +139,22 @@ Run the rake target `travis_release`. This will:
 bundle exec rake travis_release
 ```
 
-Travis will then kick off a build against the new tag created and deploy that build to the forge. Caution: The Vox Pupuli repo has to be the configured default branch in your local clone. Otherwise you will try to release to your fork.
+Travis will then kick off a build against the new tag created and deploy that
+build to the forge. Caution: The Vox Pupuli repo has to be the configured
+default branch in your local clone. Otherwise you will try to release to your
+fork.
 
 ## Reviewing a module PR
 
-There are a few things that can be checked if you review a pull request against one of our modules:
+There are a few things that can be checked if you review a pull request against
+one of our modules:
 
 * Does the email address used in the commits match the github email address? (This will let github display the contributor's avatar next to the commit)
 * Is this a bugfix, modulesync, breaking change, enhancement, docs update? Label it with `bug`, `modulesync`, `backwards-incompatible`, `enhancement`, `docs`
 * Are updates to the README.md needed but missing? Label it with `needs-docs`
 * Has the file documented params or examples in the header? This needs to be updated as well
-* Are there merge conflicts? Add the `needs-rebase` label
+* Are there merge conflicts? You don't need to do anything. Our [Vox Pupuli Tasks GitHub App][vpt] will label this as `merge-conflicts` and notify the author
+* Were changes to master merged that are required in this PR (for example an updated Travis-CI configuration)? Add the `needs-rebase` label
 * Does it need additional tests? Add the `needs-tests` label
 * Does it have failing tests? Add the `tests-fail` label
 * Does it drop support for a specific Operating system or a major Puppet version? Add the `backwards-incompatible` label
@@ -164,13 +169,13 @@ There are a few things that can be checked if you review a pull request against 
 * Does a new param map to an option in a config file of a service? The Parameter should accept the possible values that the service allows. For example 'on' and 'off'. Don't accept a boolean that will be converted to 'on' or 'off'
 * Is a new template added? The preferred language is [epp](https://puppet.com/docs/puppet/latest/lang_template_epp.html), not [erb](https://puppet.com/docs/puppet/latest/lang_template_erb.html)
 * Is a new class added? It should have unit tests using [rpsec-puppet-facts](https://github.com/mcanevet/rspec-puppet-facts#rspec-puppet-facts) that at least verify that the new class compiles
-* Files should always terminate with a newline if possible, with an exception being file or template fragments like those used with concat. This is the [POSIX standard](http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_206), and some tools don't handle the lack of a terminating newline properly
+* Files should always terminate with a newline if possible, with an exception being file or template fragments like those used with concat. This is the [POSIX standard][posix], and some tools don't handle the lack of a terminating newline properly
 * If you can supply one or multiple values for an attribute it's common practice to enforce the datatype for one value and an array of that datatype. An example for string is `Variant[String[1],Array[String[1]]]`. This can be used in the Puppet code as `[$var].flatten()`
 * The parameter section should always be aligned at the `=` char
-* Is a class considered private? Then it should contain [assert_private](https://github.com/puppetlabs/puppetlabs-stdlib/blob/master/REFERENCE.md#assert_private)
+* Is a class considered private? Then it should contain [assert_private][as]
 * A module should have as few public interfaces as possible. It should be aimed for the init.pp being the only public class. This is not a rule but a general guideline. Depending on the module, it is not always possible or feasible to configure everything through a single class.
-* Is another module added as a dependency? Add it to the `.fixtures.yml` file as a git repository (as a `https://` link, not `ssh` or `git://`). Spec tests always run against master branches to detect breaking changes as early as possible. Acceptance tests use the last release (installed by [install_module_dependencies](https://github.com/puppetlabs/beaker-module_install_helper#install_module_dependencies) which parses it from the `metadata.json`)
-* Only hard dependencies must be added to the metadata.json. Don't add soft dependencies! More explanation is [in the official Puppet styleguide](https://puppet.com/docs/puppet/5.5/style_guide.html#dependencies)
+* Is another module added as a dependency? Add it to the `.fixtures.yml` file as a git repository (as a `https://` link, not `ssh` or `git://`). Spec tests always run against master branches to detect breaking changes as early as possible. Acceptance tests use the last release (installed by [install_module_dependencies][imd] which parses it from the `metadata.json`)
+* Only hard dependencies must be added to the metadata.json. Don't add soft dependencies! More explanation is [in the official Puppet styleguide][styleguide]
 * Ensure that the version range of any dependency doesn't include an unreleased major version (do not allow version 6.X of a dependency if the current version is 5.X)
 * An increase of an upper version boundary (of a module or Puppet itself) is only an enhancement if code adjustments were needed. Don't add the `enhancement` label if the only change is within the `metadata.json`. Ensure that `.fixtures.yml` doesn't pin a specific version.
 * Sometimes you review a PR where somebody else requested changes. If the contributor clearly fixed it, you can still approve or merge it and ignore the `somebody requested changes` message. If you are not sure that it is really fixed, only approve it and do not merge it.
@@ -178,7 +183,7 @@ There are a few things that can be checked if you review a pull request against 
 ### Approving and Merging
 
 * You can merge your own PR if it was approved by a collaborator with merge permissions and travis is green. Don't merge if either one of those conditions are not true
-  * Modulesync PRs are an exception (a PR based on changes that the msync tool did, NOT PRs on [modulesync_config](https://github.com/voxpupuli/modulesync_config#modulesync-configs)). We agreed some time ago that it's ok to merge your own modulesync PR if travis is green, without separate approval. This is okay because changes to [modulesync_config](https://github.com/voxpupuli/modulesync_config#modulesync-configs) were reviewed and tested
+  * Modulesync PRs are an exception (a PR based on changes that the msync tool did, NOT PRs on [modulesync_config][ms_docs]). We agreed some time ago that it's ok to merge your own modulesync PR if travis is green, without separate approval. This is okay because changes to [modulesync_config][ms_docs] were reviewed and tested
   * If your PR is non-trivial or perhaps has only been approved by a work colleague etc, please consider allowing reasonable extra time for other 3rd parties to leave their reviews before merging.
     There is no prescribed minimum review period, or definition of 'reasonable time'. Vox Pupuli trusts collaborators to use their own judgement here.
 * It's okay to approve code regardless if travis is still running or not. The code won't be merged if travis fails after the PR got approved
@@ -195,3 +200,13 @@ some time ago. It defines several different groups and roles. One of them is
 the PMC. For 2019 [we
 elected](https://voxpupuli.org/blog/2018/12/19/election-results-2019/) 5
 people.
+
+[ms]: https://github.com/voxpupuli/modulesync#modulesync
+[ms_docs]: https://github.com/voxpupuli/modulesync_config#modulesync-configs
+[managed_modules]: https://github.com/voxpupuli/modulesync_config/blob/master/managed_modules.yml
+[plumbing]: https://github.com/voxpupuli/plumbing/blob/master/share/modules
+[vpt]: https://github.com/voxpupuli/vox-pupuli-tasks#vox-pupuli-tasks---the-webapp-for-community-management
+[posix]: http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_206
+[as]: https://github.com/puppetlabs/puppetlabs-stdlib/blob/master/REFERENCE.md#assert_private
+[imd]: https://github.com/puppetlabs/beaker-module_install_helper#install_module_dependencies
+[styleguide]: https://puppet.com/docs/puppet/5.5/style_guide.html#dependencies
