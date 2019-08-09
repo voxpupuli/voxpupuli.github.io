@@ -31,7 +31,7 @@ We have a number of communication channels:
 IRC still counts as the preferred point of contact for many of us but we tend
 to be available and reachable through both. If you need to reach out to a
 maintainer because of behaviour in our community that you find questionable
-please read through our Code of Conduct, you'll find a contact address there.
+please read through our [Code of Conduct](/coc), you'll find a contact address there.
 
 Longer form cross-project discussion tends to take place on the mailing list,
 as well as release announcements.
