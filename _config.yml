@@ -18,6 +18,9 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+collections:
+  docs:
+    output: true
 
 navigation:
   - title: Code of Conduct
