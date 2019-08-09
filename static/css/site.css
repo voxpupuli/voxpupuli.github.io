@@ -24,3 +24,28 @@
   font-size: 2em;
   line-height: 2.45em;
 }
+
+/* minimal styling for the docs index page listing */
+ul.docs-index {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul.docs-index h3 {
+  margin: 0;
+}
+
+ul.docs-index li {
+  border: 1px solid #eee;
+  border-radius: 2px;
+  padding: 0.5em;
+}
+ul.docs-index li:hover {
+  border: 1px solid #ccc;
+  background-color: #fefefe;
+}
+
+/* make the breadcrumb position match the right nav list, but pinned to the bottom */
+.navbar-left {
+  padding-top: 30px;
+}
