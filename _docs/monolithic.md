@@ -6,6 +6,16 @@ version: v0.0.1
 summary: A simple master/agent architecture with all services running on one master.
 ---
 
+## Intended Audience
+
+This architecture is intended for small to medium static infrastructures and is
+easier than multiple compile masters to set up and maintain. Generally speaking,
+redundancy and HA are most useful for dynamic environments. A stopped Puppet
+master doesn't prevent the existing configuration from being enforced but it will
+halt any new deployments or configuration updates. If those constraints fit your
+needs, then this architecture is suggested.
+
+
 <div class="mermaid">
   graph LR;
   git(Git Repository)
@@ -36,6 +46,10 @@ summary: A simple master/agent architecture with all services running on one mas
   PuppetServer --> Agents
   PuppetServer --> Agent_n
 </div>
+
+## Setup and Usage
+
+{write a guide on how to deploy, configure, and use this architecture}
 
 
 ### Git Repository

@@ -6,6 +6,12 @@ version: v0.0.1
 summary: A complete master/agent architecture with multiple compile masters and load balancing for redundancy.
 ---
 
+## Intended Audience
+
+This architecture is intended for large infrastructures or dynamic infrastructures
+that require the redundancy of multiple compile masters.
+
+
 <div class="mermaid">
   graph LR;
   git(Git Repository)
@@ -53,6 +59,10 @@ summary: A complete master/agent architecture with multiple compile masters and 
   LoadBalancer --> Agents
   LoadBalancer --> Agent_n
 </div>
+
+## Setup and Usage
+
+{write a guide on how to deploy, configure, and use this architecture}
 
 
 ### Git Repository
