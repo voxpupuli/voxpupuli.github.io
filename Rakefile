@@ -3,14 +3,11 @@
 require 'colorize'
 require 'jekyll'
 
+require 'rubocop/rake_task'
 task default: :test
 
-desc 'Run rubocop'
-task :rubocop do
-  require 'rubocop/rake_task'
-  RuboCop::RakeTask.new(:rubocop) do |t|
-    t.options = ['-D', '-S', '-E']
-  end
+RuboCop::RakeTask.new(:rubocop) do |t|
+  t.options = ['-D', '-S', '-E']
 end
 
 desc 'Build the site with Jekyll'
