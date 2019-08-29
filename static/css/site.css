@@ -47,5 +47,6 @@ ul.docs-index li:hover {
 
 /* make the breadcrumb position match the right nav list, but pinned to the bottom */
 .navbar-left {
+  clear: left;
   padding-top: 30px;
 }
