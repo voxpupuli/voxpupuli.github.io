@@ -42,7 +42,7 @@ one of our modules:
 ### Approving and Merging
 
 * You can merge your own PR if it was approved by a collaborator with merge permissions and travis is green. Don't merge if either one of those conditions are not true
-  * Modulesync PRs are an exception (a PR based on changes that the msync tool did, NOT PRs on [modulesync_config][ms_docs]). We agreed some time ago that it's ok to merge your own modulesync PR if travis is green, without separate approval. This is okay because changes to [modulesync_config][ms_docs] were reviewed and tested
+  * Modulesync PRs are an exception (a PR based on changes that the msync tool did, NOT PRs on [modulesync_config][ms_docs]). We agreed some time ago that it's ok to merge your own modulesync PR if travis is green, without separate approval. This is okay because changes to [modulesync_config][ms_docs] were [reviewed and tested](ms_guide)
   * If your PR is non-trivial or perhaps has only been approved by a work colleague etc, please consider allowing reasonable extra time for other 3rd parties to leave their reviews before merging.
     There is no prescribed minimum review period, or definition of 'reasonable time'. Vox Pupuli trusts collaborators to use their own judgement here.
 * It's okay to approve code regardless if travis is still running or not. The code won't be merged if travis fails after the PR got approved
@@ -53,9 +53,47 @@ A green checkmark indicates that the review was done by someone with merge permi
 <img alt="8bit vox" src="{{ site.url }}{{ site.baseurl }}/static/images/approved_pr_by_collaborator.png"/>
 
 
+If you want to merge:
+
+GitHub provides [multiple merge methods](methods):
+
+<img alt="8bit vox" src="{{ site.url }}{{ site.baseurl }}/static/images/merge_methods.png"/>
+
+Our default behaviour is `Create a merge commit`. Please keep this default.
+GitHub will automatically sign the merge commit. You can merge it on the CLI if
+you want to sign the commit with your own GPG key:
+
+```sh
+# clone the Vox Pupuli repo where you want to merge a Pull Request
+git clone git@github.com:voxpupuli/puppet-myawesomemodule.git
+# create a temporary branch
+git checkout -b temp
+# pull the changes from the pullrequest
+git pull git@github.com:contributor/puppet-myawesomemodule.git featurebranch_from_the_pr
+# switch back to the master branch
+git checkout master
+# merge the temp branch, that now contains the content from the PR
+git merge --no-ff temp
+# push the merge commit to the Vox Pupuli master branch
+git push origin master
+# delete the now obsolete temp branch
+git branch -d temp
+```
+
+GitHub has some [docs available](gpg) to help you configuring GPG for git.
+It's also good practice to automatically sign every commit. You can enable that
+with:
+
+```sh
+git config --global commit.gpgsign true
+```
+
 [ms_docs]: https://github.com/voxpupuli/modulesync_config#modulesync-configs
+[ms_guide]: https://github.com/voxpupuli/modulesync_config#contribution
 [vpt]: https://github.com/voxpupuli/vox-pupuli-tasks#vox-pupuli-tasks---the-webapp-for-community-management
 [posix]: http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_206
 [as]: https://github.com/puppetlabs/puppetlabs-stdlib/blob/master/REFERENCE.md#assert_private
 [imd]: https://github.com/puppetlabs/beaker-module_install_helper#install_module_dependencies
 [styleguide]: https://puppet.com/docs/puppet/5.5/style_guide.html#dependencies
+[methods]: https://help.github.com/en/articles/about-merge-methods-on-github
+[gpg]: https://help.github.com/en/articles/generating-a-new-gpg-key
