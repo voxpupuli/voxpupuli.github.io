@@ -28,3 +28,6 @@ We do ask that you show that reasonable efforts have been made to engage the own
 If the owner has responded and is not interested in migrating their module to VP, it will be evaluated on a case by case basis.
 To start the process, document your request and efforts in a brief email to the [mailing list](https://groups.io/g/voxpupuli/).
 If the module is accepted, VP will work with you to determine the proper fork/migration steps needed in addition to the checklist above.
+
+[managed_modules]: https://github.com/voxpupuli/modulesync_config/blob/master/managed_modules.yml
+[plumbing]: https://github.com/voxpupuli/plumbing/blob/master/share/modules
