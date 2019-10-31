@@ -20,9 +20,9 @@
   white-space: nowrap;
 }
 
-#pr-count {
-  font-size: 2em;
-  line-height: 2.45em;
+.panel-body .github-stat {
+  font-size: 1.25em;
+  line-height: 1.4em;
 }
 
 /* minimal styling for the docs index page listing */
