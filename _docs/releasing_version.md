@@ -31,10 +31,13 @@ And in case you installed the gems before:
 bundle install --path .vendor/ --without system_tests development; bundle update; bundle clean
 ```
 
-We can generate the changelog after updating the metadata.json with a rake task:
+We can generate the changelog after updating the metadata.json with a rake task
+(in most cases, this requires a
+[GitHub access token (docs on how to create one)](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line):
+the changelog generator expects the token in the environment variable `CHANGELOG_GITHUB_TOKEN`)
 
 ```bash
-bundle exec rake changelog
+CHANGELOG_GITHUB_TOKEN='mytoken' bundle exec rake changelog
 ```
 
 Get community feedback on the release pr, label it with skip-changelog, get it merged.
