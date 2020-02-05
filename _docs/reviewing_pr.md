@@ -16,7 +16,10 @@ one of our modules:
 * Does it have failing tests? You don't need to do anything. Our [Vox Pupuli Tasks GitHub App][vpt] will label this as `tests-fail` and notify the author
 * Were changes to master merged that are required in this PR (for example an updated Travis-CI configuration)? Add the `needs-rebase` label
 * Does it need additional tests? Add the `needs-tests` label
-* Does it drop support for a specific Operating system or a major Puppet version? Add the `backwards-incompatible` label
+* Does it drop support for a specific Operating system version?
+  * Does it also drop code for that OS? Add the `backwards-incompatible` label
+  * Is the OS end of life and just the version got removed from the metadata.json? Don't add the `backwards-incompatible` label
+* Does it drop support for a major Puppet version? Add the `backwards-incompatible` label
 * Are new parameters introduced? They must have datatypes
 * Are facts used? They should only be accessed via `$facts[]` or [fact()](https://github.com/puppetlabs/puppetlabs-stdlib/blob/master/REFERENCE.md#fact) function from stdlib, but not topscope variables
 * In the majority of cases, variables shouldn't be accessed via topscope: $::modulename::$param. Instead do: $modulename::$param
