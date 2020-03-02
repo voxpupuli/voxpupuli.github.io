@@ -31,6 +31,15 @@ And in case you installed the gems before:
 bundle install --path .vendor/ --without system_tests development; bundle update; bundle clean
 ```
 
+If the module contains a Puppet Strings generated documentation, please
+ensure the file is update to date. A good indicator for a Puppet Strings
+documentation is the existence of a REFERENCE.md file. You can automatically
+generate the documentation by running the following rake task:
+
+```bash
+bundle exec rake strings:generate:reference
+```
+
 We can generate the changelog after updating the metadata.json with a rake task
 (in most cases, this requires a
 [GitHub access token (docs on how to create one)](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line):
