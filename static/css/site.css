@@ -50,3 +50,12 @@ ul.docs-index li:hover {
   clear: left;
   padding-top: 30px;
 }
+
+div.mermaid {
+  border: 1px solid #aaa;
+  background-color: white;
+  border-radius: 3px;
+  padding: 1em;
+  margin: 1em;
+  box-shadow: 2px 2px 4px #ccc;
+}
