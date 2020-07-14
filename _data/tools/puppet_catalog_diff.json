@@ -2,7 +2,7 @@
   "name": "puppet catalog diff",
   "display_name": "Puppet Catalog Diff",
   "description": "Tool to diff Puppet catalogs.",
-  "url": "https://github.com/acidprime/puppet-catalog-diff",
+  "url": "https://github.com/camptocamp/puppet-catalog-diff",
   "plugins": [
     {
       "name": "puppet-catalog-diff-viewer",
