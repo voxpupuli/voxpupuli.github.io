@@ -13,9 +13,9 @@ one of our modules:
 * Are updates to the README.md needed but missing? Label it with `needs-docs`
 * Has the file documented params or examples in the header? This needs to be updated as well
 * Are there merge conflicts? You don't need to do anything. Our [Vox Pupuli Tasks GitHub App][vpt] will label this as `merge-conflicts` and notify the author
+* Does it have failing tests? You don't need to do anything. Our [Vox Pupuli Tasks GitHub App][vpt] will label this as `tests-fail` and notify the author
 * Were changes to master merged that are required in this PR (for example an updated Travis-CI configuration)? Add the `needs-rebase` label
 * Does it need additional tests? Add the `needs-tests` label
-* Does it have failing tests? Add the `tests-fail` label
 * Does it drop support for a specific Operating system or a major Puppet version? Add the `backwards-incompatible` label
 * Are new parameters introduced? They must have datatypes
 * Are facts used? They should only be accessed via `$facts[]` or [fact()](https://github.com/puppetlabs/puppetlabs-stdlib/blob/master/REFERENCE.md#fact) function from stdlib, but not topscope variables
