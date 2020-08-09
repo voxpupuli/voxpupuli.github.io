@@ -27,7 +27,7 @@ one of our modules:
 * Is this a bugfix? Write the Pull Request Title in a way that users can easily identify if they are impacted or not
 * Does a new param map to an option in a config file of a service? The Parameter should accept the possible values that the service allows. For example 'on' and 'off'. Don't accept a boolean that will be converted to 'on' or 'off'
 * Is a new template added? The preferred language is [epp](https://puppet.com/docs/puppet/latest/lang_template_epp.html), not [erb](https://puppet.com/docs/puppet/latest/lang_template_erb.html)
-* Is a new class added? It should have unit tests using [rpsec-puppet-facts](https://github.com/mcanevet/rspec-puppet-facts#rspec-puppet-facts) that at least verify that the new class compiles
+* Is a new class added? It should have unit tests using [rpsec-puppet-facts](https://github.com/mcanevet/rspec-puppet-facts#rspec-puppet-facts) that at least verify that the new class compiles. It also needs to have [puppet-strings docs](https://puppet.com/docs/puppet/6.17/puppet_strings.html).
 * Files should always terminate with a newline if possible, with an exception being file or template fragments like those used with concat. This is the [POSIX standard][posix], and some tools don't handle the lack of a terminating newline properly
 * If you can supply one or multiple values for an attribute it's common practice to enforce the datatype for one value and an array of that datatype. An example for string is `Variant[String[1],Array[String[1]]]`. This can be used in the Puppet code as `[$var].flatten()`
 * The parameter section should always be aligned at the `=` char
