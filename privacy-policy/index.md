@@ -142,7 +142,7 @@ that the rights above are not absolute in all instances.
 # Contacting us
 
 If you have any questions about this policy or our use of your data, please
-contact us via [E-Mail](pmc@voxpupuli.org) or on [IRC](https://kiwiirc.com/client/irc.freenode.net/?#voxpupuli-pmc)
+contact us via [E-Mail](mailto:pmc@voxpupuli.org) or on [IRC](https://kiwiirc.com/client/irc.freenode.net/?#voxpupuli-pmc)
 
 # Changes to this Privacy Statement
 
