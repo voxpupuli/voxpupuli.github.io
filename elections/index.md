@@ -73,6 +73,6 @@ the duties of project communication until a new Committee is elected and terms b
 [gd]: https://github.com/voxpupuli/plumbing/blob/master/share/governance.md
 [lazy]: https://github.com/voxpupuli/plumbing/blob/master/share/governance.md#lazy-consensus
 [maintainers]: https://github.com/orgs/voxpupuli/teams/project-maintainers/members
-[cso]: http://pup.pt/cso
+[cso]: https://puppet.com/events/puppet-contributor-summit/
 [elections]: https://github.com/voxpupuli/plumbing/tree/master/share/elections
 [civs]: https://civs.cs.cornell.edu/
