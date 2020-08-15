@@ -21,7 +21,7 @@ one of our modules:
 * Are facts used? They should only be accessed via `$facts[]` or [fact()](https://github.com/puppetlabs/puppetlabs-stdlib/blob/master/REFERENCE.md#fact) function from stdlib, but not topscope variables
 * In the majority of cases, variables shouldn't be accessed via topscope: $::modulename::$param. Instead do: $modulename::$param
 * Are datatypes from stdlib used? Ensure that lowest supported stdlib version is 4.18.0 (This is the first version that supports Puppet 5). Check if a newer version introduced the used datatype
-* Are hiera yaml files added for data-in-modules? Ensure that the data is compatible with [hiera 5](https://puppet.com/docs/puppet/5.3/hiera_migrate.html#use-cases-for-upgrading-to-hiera-5). Static data that is equal across every supported operating system can stay in the init.pp, it doesn't need to be moved to a common.yaml
+* Are hiera yaml files added for data-in-modules? Ensure that the data is compatible with [hiera 5](https://puppet.com/docs/puppet/5.3/hiera_migrate.html#use-cases-for-upgrading-to-hiera-5). Static data that is equal across every supported operating system must stay in the init.pp, it shouldn't be moved to a common.yaml due to [puppet-strings issue #250](https://github.com/puppetlabs/puppet-strings/issues/250).
 * Are there new params with datatype Hash or Array? If possible, they should default to empty Hash/Array instead of undef. You can also enforce the datastructure like Array[String[1]]
 * Are there new params with datatype Boolean? The default value is a tricky decision which needs careful reviewing. Sometimes a True/False is the better approach, sometimes undef
 * Is this a bugfix? Write the Pull Request Title in a way that users can easily identify if they are impacted or not
