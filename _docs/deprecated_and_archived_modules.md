@@ -16,7 +16,7 @@ The decision to archive a module isn't necessarily final and can be undone.
 
 ### Deprecation process
 
-* The README.md needs a bolt message at the beginning
+* The README.md needs a bold message at the beginning
   * It needs to mention that the module is archived
   * If a successor exists, that one should be linked to
 * The GitHub repository needs to be archived in the GitHub settings
