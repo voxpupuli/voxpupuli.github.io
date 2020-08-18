@@ -20,7 +20,7 @@ The decision to archive a module isn't necessarily final and can be undone.
 * The README.md needs a bold message at the beginning
   * It must mention that the module is archived
   * If a successor exists, that one should be linked to
-  * The deprecation issue in that project needs to be linked
+  * The deprecation issue in that project must be linked
 * The GitHub repository needs to be archived in the GitHub settings
 * On forge.puppet.com the module needs to be archived, with a link to the successor (if available)
 * The module needs to be removed from our [modulesync_config][mc] and [plumbing][pl] setup
