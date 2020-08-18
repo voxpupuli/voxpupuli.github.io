@@ -16,9 +16,11 @@ The decision to archive a module isn't necessarily final and can be undone.
 
 ### Deprecation process
 
+* An issue needs to be raised on the module to discuss wether it should be archived or not. The decision will be made by lazy consensus (as described in our governance guidelines)
 * The README.md needs a bold message at the beginning
   * It needs to mention that the module is archived
   * If a successor exists, that one should be linked to
+  * The deprecation issue in that project needs to be linked
 * The GitHub repository needs to be archived in the GitHub settings
 * On forge.puppet.com the module needs to be archived, with a link to the successor (if available)
 * The module needs to be removed from our [modulesync_config][mc] and [plumbing][pl] setup
