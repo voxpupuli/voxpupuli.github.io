@@ -47,9 +47,11 @@ the changelog generator expects the token in the environment variable `CHANGELOG
 CHANGELOG_GITHUB_TOKEN='mytoken' bundle exec rake changelog
 ```
 
-The changelog generator checks for certain labels on closed issues and PRs since the last release and groups them together. Backwards incompatible changes require a major release.
-If only bug fixes were merged, a patch release is suggested. If both isn't the case, continue with a minor release. Check the generated diff for the CHANGELOG.md. If your chosen
-release version doesn't fit to the generated changelog, update metadata.json and run the changelog task again.
+The changelog generator checks for certain labels on closed issues and PRs since
+the last release and groups them together. If the changes were neither
+backwards-incompatible nor only bug fixes, make a minor release. Check the
+generated diff for the CHANGELOG.md. If your chosen release version doesn't
+match the generated changelog, update metadata.json and run the changelog task again.
 
 Get community feedback on the release pr, label it with skip-changelog, get it merged.
 
