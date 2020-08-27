@@ -16,7 +16,7 @@ started. If you have any questions, reach out to us in #voxpupuli on Freenode.
 {% endfor %}
 </ul>
 
-<h2>Reference Architectures</h2>
+<h2 id="architectures">Reference Architectures</h2>
 <ul class="docs-index">
 {% assign archs = site.docs | where: "layout", "architecture" %}
 {% for arch in archs %}
