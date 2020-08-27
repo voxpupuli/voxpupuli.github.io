@@ -1,35 +1,31 @@
 ---
 layout: architecture
-title: Master of Masters
+title: Single Server
 date: 2019-07-09
 version: v0.0.1
-summary: A complete master/agent architecture with multiple compile masters and load balancing for redundancy.
+summary: A simple server/agent architecture with all services running on a single machine.
 ---
 
 ## Intended Audience
 
-This architecture is intended for large infrastructures or dynamic infrastructures
-that require the redundancy of multiple compile masters.
+This architecture is intended for small to medium static infrastructures and is
+easier to set up and maintain than a load balanced compiler farm. Generally speaking,
+redundancy and HA are most useful for dynamic environments. A stopped Puppet
+server doesn't prevent the existing configuration from being enforced but it will
+halt any new deployments or configuration updates. If those constraints fit your
+needs, then this architecture is suggested.
 
 
 <div class="mermaid">
   graph LR;
   git(Git Repository)
-  Foreman(The Foreman)
-  Webhook(Puppet Webhook Server)
-  AllCM((All Compile Masters))
 
-  PuppetDB
-
-  PuppetServerMoM{Master of Masters}
-
-  subgraph CM[Compile Masters]
-      Compile1[/Compile Master\]
-      Compile2[/Compile Master\]
-      Compile3[/Compile Master\]
+  subgraph server[Puppet Server node]
+    Foreman(The Foreman)
+    Webhook(Puppet Webhook Server)
+    PuppetDB
+    PuppetServer{Puppet Server}
   end
-
-  LoadBalancer[Load Balancer]
 
   Agent1(Agent 1)
   Agent2(Agent 2)
@@ -40,24 +36,15 @@ that require the redundancy of multiple compile masters.
   click Webhook "https://github.com/voxpupuli/puppet_webhook" "A webhook service that can trigger code deploys from source code repository updates."
 
   git --webhook--> Webhook
-  Webhook --r10k code deploy--> PuppetServerMoM
-  Webhook -.r10k code deploy.-> AllCM
+  Webhook --r10k code deploy--> PuppetServer
 
-  PuppetDB --- PuppetServerMoM
-  Foreman --- PuppetServerMoM
+  PuppetDB --- PuppetServer
+  Foreman --- PuppetServer
 
-  PuppetServerMoM --> Compile1
-  PuppetServerMoM --> Compile2
-  PuppetServerMoM --> Compile3
-
-  Compile1 --> LoadBalancer
-  Compile2 --> LoadBalancer
-  Compile3 --> LoadBalancer
-
-  LoadBalancer --> Agent1
-  LoadBalancer --> Agent2
-  LoadBalancer --> Agents
-  LoadBalancer --> Agent_n
+  PuppetServer --> Agent1
+  PuppetServer --> Agent2
+  PuppetServer --> Agents
+  PuppetServer --> Agent_n
 </div>
 
 ## Setup and Usage
@@ -84,25 +71,15 @@ proactively manage servers, on-premise or in the cloud.
 ### Puppet Webhook
 
 Configure [Puppet Webhook](https://github.com/voxpupuli/puppet_webhook) to receive
-webhook events from your code repository and automate your code deploys. This
-service should be installed on the central Master of Masters. You might consider
-using the Bolt task from the [puppet-r10k module](https://github.com/voxpupuli/puppet-r10k/blob/master/tasks/deploy.json)
-to trigger code deployments on each compile master, or you can also install
-Puppet Webhook on each.
-
+webhook events from your code repository and automate your code deploys.
 
 ### Code Deployment
 
 [r10k](https://github.com/puppetlabs/r10k) is considered the default Puppet code
-deployment tool. Install it on each master in your infrastructure and use it to
+deployment tool. Install it on your server in your infrastructure and use it to
 deploy your control repository as needed.
 
 If you're a Golang shop, you might consider [g10k](https://github.com/xorpaul/g10k) as well.
-
-
-### Load Balancer
-
-Is current state-of-the-art still Nginx?
 
 
 ### Puppet Stack
