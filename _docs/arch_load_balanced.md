@@ -17,13 +17,13 @@ that require the redundancy of multiple compilers.
   git(Git Repository)
   Foreman(The Foreman)
   Webhook(Puppet Webhook Server)
-  AllCM((All Compilers))
+  AllCompilers((All Compilers))
 
   PuppetDB
 
-  PuppetServerMoM{Main Puppet Server}
+  MainPuppetServer{Main Puppet Server}
 
-  subgraph CM[Compilers]
+  subgraph Compilers[Compilers]
       Compile1[/Compilers\]
       Compile2[/Compilers\]
       Compile3[/Compilers\]
@@ -40,15 +40,15 @@ that require the redundancy of multiple compilers.
   click Webhook "https://github.com/voxpupuli/puppet_webhook" "A webhook service that can trigger code deploys from source code repository updates."
 
   git --webhook--> Webhook
-  Webhook --r10k code deploy--> PuppetServerMoM
-  Webhook -.r10k code deploy.-> AllCM
+  Webhook --r10k code deploy--> MainPuppetServer
+  Webhook -.r10k code deploy.-> AllCompilers
 
-  PuppetDB --- PuppetServerMoM
-  Foreman --- PuppetServerMoM
+  PuppetDB --- MainPuppetServer
+  Foreman --- MainPuppetServer
 
-  PuppetServerMoM --> Compile1
-  PuppetServerMoM --> Compile2
-  PuppetServerMoM --> Compile3
+  MainPuppetServer --> Compile1
+  MainPuppetServer --> Compile2
+  MainPuppetServer --> Compile3
 
   Compile1 --> LoadBalancer
   Compile2 --> LoadBalancer
