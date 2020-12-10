@@ -11,24 +11,26 @@ As a part of Vox Pupuli's mission to provide a home for modules that still have 
 
 As we operate entirely on the graces of our community members being willing to voluntarily contribute to our modules, we also need to be respective of their time and resources and not add undue stress in order to support software that upstream creators no longer support.
 
-To account for this, we no longer support any software or operating system after the date that the maintainers have marked said software or operating system as End of Life. However, this does not mean we will immediately remove code that allows for the module to run on End of Life'd software or operating systems, but the community will not longer be expected to provide support to users for that software.
+To account for this, we no longer support any software or operating system after the date that the maintainers have marked said software or operating system as End of Life. However, this does not mean we will immediately remove code that allows for the module to run on End of Life'd software or operating systems, but the community will no longer be expected to provide support to users for that software.
 
 There are exceptions and the full policy is detailed in the next section.
 
 ### Support Lifecycle
 
 #### Operating Systems
-Operating System support is considered no longer supported once it reaches an End of Life date determined by the upstream maintainer* of the operating system. To ensure our users have enough time to adjust, we will take the following steps to ensure as seamless of a transition as possible:
+An Operating System is no longer considered supported once it reaches an End of Life date determined by the upstream maintainer* of the operating system. To ensure our users have enough time to adjust, we will take the following steps to ensure as seamless of a transition as possible:
 
 1. A deprecation PR will be created no later that 3 months before an Operating System's End of Life date.
 2. Removal of the End of Life version from the metadata.json and tests to be completed by the End of Life date.
-3. Issues relating to the End of Life operating system will will no longer be addressed after the End of Life date.
+3. Issues relating to the End of Life operating system will no longer be addressed after the End of Life date.
 4. Code allowing a module to be run on the End of Life operating system will be left in the module until one of the following milestones are reached after which time the code will be removed:
     1. Maintaining the code prevents the module from moving forward.
     2. 12 Months after the End of Life date.
 5. Pull Requests will continue to be accepted with the following exceptions:
     1. Accepting such a pull request would be detrimental to the module's long term goals.
     2. The code has already been removed as per the standards set in section 4.
+
+*maintainers include, but are not limited to, the community, company, or organization that maintains ownership over a specific piece of software or project.
 
 ##### Support Table:
 
