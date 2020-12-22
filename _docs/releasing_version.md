@@ -5,8 +5,6 @@ date: 2016-01-01
 summary: How to perform a complete version release, including modulesync and publication.
 ---
 
-*Please note that in order to perform a release you must be in the __Collaborators__ group on Github for the module in question.*
-
 Run modulesync to ensure the dotfiles are up to date.
 
 Create a 'release pr'. This pull request updates the changelog and bumps the
@@ -49,6 +47,12 @@ the changelog generator expects the token in the environment variable `CHANGELOG
 CHANGELOG_GITHUB_TOKEN='mytoken' bundle exec rake changelog
 ```
 
+The changelog generator checks for certain labels on closed issues and PRs since
+the last release and groups them together. If the changes were neither
+backwards-incompatible nor only bug fixes, make a minor release. Check the
+generated diff for the CHANGELOG.md. If your chosen release version doesn't
+match the generated changelog, update metadata.json and run the changelog task again.
+
 Get community feedback on the release pr, label it with skip-changelog, get it merged.
 
 Checkout an updated copy of master
@@ -63,6 +67,10 @@ Run the rake target `travis_release`. This will:
 * bump the current version to the next PATCH version and add `-rc0` to the end
 * commit the change,
 * and push it to origin.
+
+*Please note that in order to execute this rake task you must be in the __Collaborators__ group on GitHub for the module in question.*
+
+*Please also note that the task requires a configured gpg key in your local git settings*
 
 ```bash
 bundle exec rake travis_release
