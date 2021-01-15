@@ -14,7 +14,7 @@ one of our modules:
 * Has the file documented params or examples in the header? This needs to be updated as well
 * Are there merge conflicts? You don't need to do anything. Our [Vox Pupuli Tasks GitHub App][vpt] will label this as `merge-conflicts` and notify the author
 * Does it have failing tests? You don't need to do anything. Our [Vox Pupuli Tasks GitHub App][vpt] will label this as `tests-fail` and notify the author
-* Were changes to master merged that are required in this PR (for example an updated Travis-CI configuration)? Add the `needs-rebase` label
+* Were changes to master merged that are required in this PR (for example an updated GitHub Actions configuration)? Add the `needs-rebase` label
 * Does it need additional tests? Add the `needs-tests` label
 * Does it drop support for a specific Operating system or a major Puppet version? Add the `backwards-incompatible` label
 * Are new parameters introduced? They must have datatypes
@@ -41,11 +41,11 @@ one of our modules:
 
 ### Approving and Merging
 
-* You can merge your own PR if it was approved by a collaborator with merge permissions and travis is green. Don't merge if either one of those conditions are not true
-  * Modulesync PRs are an exception (a PR based on changes that the msync tool did, NOT PRs on [modulesync_config][ms_docs]). We agreed some time ago that it's ok to merge your own modulesync PR if travis is green, without separate approval. This is okay because changes to [modulesync_config][ms_docs] were [reviewed and tested](ms_guide)
+* You can merge your own PR if it was approved by a collaborator with merge permissions and CI is green. Don't merge if either one of those conditions are not true
+  * Modulesync PRs are an exception (a PR based on changes that the msync tool did, NOT PRs on [modulesync_config][ms_docs]). We agreed some time ago that it's ok to merge your own modulesync PR if CI is green, without separate approval. This is okay because changes to [modulesync_config][ms_docs] were [reviewed and tested](ms_guide)
   * If your PR is non-trivial or perhaps has only been approved by a work colleague etc, please consider allowing reasonable extra time for other 3rd parties to leave their reviews before merging.
     There is no prescribed minimum review period, or definition of 'reasonable time'. Vox Pupuli trusts collaborators to use their own judgement here.
-* It's okay to approve code regardless if travis is still running or not. The code won't be merged if travis fails after the PR got approved
+* It's okay to approve code regardless if CI is still running or not. The code won't be merged if CI fails after the PR got approved
 * You are highly encouraged to review and approve code (or comment on it), even if you do not have merge permissions. This makes further reviews way easier
 
 A green checkmark indicates that the review was done by someone with merge permissions:
