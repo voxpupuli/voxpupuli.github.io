@@ -11,7 +11,7 @@ As a part of Vox Pupuli's mission to provide a home for modules that still have 
 
 As we operate entirely on the graces of our community members being willing to voluntarily contribute to our modules, we also need to be respectful of their time and resources and not add undue stress in order to support software that upstream creators no longer support.
 
-To account for this, we no longer support any software or operating system after the date that the maintainers have marked said software or operating system as End of Life, hereafter referred to as "EOL". However, this does not mean we will immediately remove code that allows for the module to run on EOL'd software or operating systems, but the community will no longer be expected to provide support to users for that software. 
+To account for this, we no longer support any software or operating system after the date that the maintainers have marked said software or operating system as End of Life, hereafter referred to as "EOL". However, this does not mean we will always immediately remove code that allows for the module to run on EOL'd software or operating systems, but the community will no longer be expected to provide support to users for that software. The list of supported operating systems in `metadata.json` is always leading.
 
 If a user still needs to use the EOL operating system, then they must either:
 * Pin their module version to a version compatible with their operating system.
