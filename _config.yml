@@ -37,3 +37,6 @@ navigation:
     url: /posts/
 
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME", "README.md", "vendor"]
+
+plugins:
+  - jekyll-last-modified-at

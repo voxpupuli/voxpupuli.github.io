@@ -86,6 +86,27 @@ reachable via our IRC channel `#voxpupuli` on freenode.
 We test if the pages still build properly via travis, You can run this locally
 by running `bundle exec rake test`.
 
+## Writing docs
+
+Docs can have the following header:
+
+```
+---
+layout: post
+title: Deprecated and Archived Modules
+date: 2019-11-29
+summary: Vox Pupuli policy on deprecating and archiving modules
+github_username: binford2k
+last_updater: bastelfreak
+---
+```
+
+* `title` will be used in the URL + in the header
+* `date` is assumed as the date of publishing
+* `summary` is a short roundup used on the navigation page
+* `github_username` the GitHub username of the original author, optional attribute
+* `last_update` the GitHub username of the author from the last update, optional attribute (if it was updated is determined by Jekyll automatically)
+
 ## License
 
 Our website uses two licenses. The actual content uses

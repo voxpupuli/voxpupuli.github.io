@@ -6,7 +6,7 @@ layout: default
     <h1>{{ page.title }}
       <a style="float: right;" class="btn btn-raised btn-xs" href="https://github.com/{{ site.github_username }}/{{ site.github_username }}.github.io/edit/master/{{ page.path}}">Edit <i class="glyphicon glyphicon-edit"></i></a>
     </h1>
-    <p>Published on {{ page.date | date: "%b %-d, %Y" }}{% if page.github_username %} by <a href="https://github.com/{{page.github_username}}">{{ page.github_username }}{% endif %}</a></p>
+    <p>Published on {{ page.date | date: "%b %-d, %Y" }}{% if page.github_username %} by <a href="https://github.com/{{page.github_username}}">{{ page.github_username }}{% endif %}. Last updated on {{ page.last_modified_at | date: "%b %-d, %Y" }}{% if page.last_updater %} by <a href="https://github.com/{{page.last_updater}}">{{ page.last_updater }}{% endif %}</a></p>
     <article>
       {{ content }}
     </article>
