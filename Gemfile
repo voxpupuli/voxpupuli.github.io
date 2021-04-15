@@ -12,3 +12,8 @@ gem 'html-proofer'
 gem 'rake'
 gem 'rubocop', '~> 0.49.1'
 gem 'rubocop-rspec', '~> 1.15.0'
+
+# https://github.com/gjtorikian/jekyll-last-modified-at
+group :jekyll_plugins do
+  gem 'jekyll-last-modified-at'
+end
