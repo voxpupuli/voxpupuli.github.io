@@ -3,6 +3,7 @@ layout: post
 title: Deprecated and Archived Modules
 date: 2019-11-29
 summary: Vox Pupuli policy on deprecating and archiving modules
+last_updater: bastelfreak
 ---
 
 ## Archived Modules
@@ -24,7 +25,9 @@ The decision to archive a module isn't necessarily final and can be undone.
 * The GitHub repository needs to be archived in the GitHub settings
 * On forge.puppet.com the module needs to be archived, with a link to the successor (if available)
 * The module needs to be removed from our [modulesync_config][mc] and [plumbing][pl] setup
+* The Vox Pupuli admins can manage the [org secrets][secrets]. The permission for the archived module needs to be revoked.
 
 [email]: https://groups.io/g/voxpupuli/topics
 [mc]: https://github.com/voxpupuli/modulesync_config/blob/master/managed_modules.yml
 [pl]: https://github.com/voxpupuli/plumbing/blob/master/share/modules
+[secrets]: https://github.com/organizations/voxpupuli/settings/secrets/actions
