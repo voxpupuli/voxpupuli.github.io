@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Software Support Lifecycle
-date: 2020-12-09
+date: 2021-06-11
 summary: Vox Pupuli policy on supporting upstream software
 ---
 
@@ -22,11 +22,10 @@ If a user still needs to use the EOL operating system, then they must either:
 #### Operating Systems
 An Operating System is no longer considered supported once it reaches an EOL date determined by the upstream maintainer* of the operating system. To ensure our users have enough time to adjust, we will take the following steps to ensure as seamless of a transition as possible:
 
-1. A deprecation PR will be created no later that 3 months before an Operating System's EOL date.
-2. Removal of the EOL version from the metadata.json and tests to be completed by the EOL date.
+1. A deprecation PR will be created no later than 3 months before an Operating System's EOL date.
+2. Removal of the EOL version from the metadata.json and tests and related code to be completed by the EOL date.
 3. Issues relating to the EOL operating system will no longer be addressed after the EOL date.
-4. While a module will not have general code replace, all code specific to the EOL operating system will be removed by the EOL date, or shortly thereafter.
-5. Pull Requests specific to the EOL operating system will no longer be accepted.
+4. Pull Requests specific to the EOL operating system will no longer be accepted.
 
 *maintainers include, but are not limited to, the community, company, or organization that maintains ownership over a specific piece of software or project.
 
@@ -61,8 +60,7 @@ Puppet support will fall in-line with the Puppet Open Source project's lifecycle
 
 1. A Puppet version that has been labelled as EOL by the Puppet Open Source project, will no longer be supported by Vox Pupuli.
 2. A deprecation PR will be created no later than 6 months before EOL.
-3. All tests and data in metadata.json will be removed no later than the EOL date for that version.
-4. Code that works on the EOL versions will not be removed unless it bars the progress of the module or is specific to the EOL version of Puppet.
+3. All tests and data in metadata.json will be removed no later than the EOL date for that version. Code specifically for the EOL version will be removed as well.
 5. Pull Requests and Issues relating to the EOL version of Puppet will no longer be accepted.
 6. Issues are only valid if they affect supported versions.
 
@@ -75,7 +73,7 @@ Modules are considered supported only at their current latest release and roll f
         1. Major
         2. Minor
         3. Patch
-        4. Examples: 
+        4. Examples:
             1. `5.1.1` is the latest version and supported.
             2. `5.1.0` is not supported.
             3. `4.9.9` is not supported.
