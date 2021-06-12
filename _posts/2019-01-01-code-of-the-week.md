@@ -58,4 +58,4 @@ Did you spot some cool code as well? Write a
 [short blogpost](https://github.com/voxpupuli/voxpupuli.github.io/tree/master/_posts)
 or write an email to our
 [Project Management committee](mailto:pmc@voxpupuli.org) or just drop a note on
-our IRC channel #voxpupuli on Freenode.
+our IRC channel #voxpupuli on [Libera](https://web.libera.chat/?#voxpupuli).

@@ -4,7 +4,7 @@ title: Security
 ---
 
 This page describes how to report security vulnerabilities, both external or
-internal. If you have any question, please reach us on #voxpupuli on Freenode.
+internal. If you have any question, please reach us on #voxpupuli on [Libera](https://web.libera.chat/?#voxpupuli).
 
 * TOC
 {:toc}

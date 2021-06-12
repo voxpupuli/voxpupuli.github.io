@@ -54,7 +54,7 @@ This list is sourced from the election [metadata][e].
 * Terms begin *January 1 2019 00:00 UTC*
 
 Please enjoy the party, and let's gather as much participation as possible
-during the whole election process! Provide feedback in the #Voxpupuli channel on freenode.
+during the whole election process! Provide feedback in the #voxpupuli channel on [Libera](https://web.libera.chat/?#voxpupuli).
 
 [e]:https://github.com/voxpupuli/plumbing/blob/master/share/elections/2019-01.md
 [leadership]:https://voxpupuli.org/elections
