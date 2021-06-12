@@ -8,7 +8,7 @@ twitter_username: BastelsBlog
 
 In the summer of 2021 a lot happened around freenode. The IRC network is now
 maintained by new people. As a consequence many open source communities
-migrated their channels to [Libera.chat][lb]. Many freenode staffs resigned
+migrated their channels to [Libera.chat][lb]. Many freenode staff resigned
 and published resignation letters with background information. One from fuchs
 is available [here][fuchs], one from amdj can be found [here][amdj]. Freenode
 published a [counterstatement][cs]. Many former freenode staff member now
