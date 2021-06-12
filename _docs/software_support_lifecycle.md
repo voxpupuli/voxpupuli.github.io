@@ -79,4 +79,4 @@ Modules are considered supported only at their current latest release and roll f
             3. `4.9.9` is not supported.
     2. Exceptions:
         1. The maintainer may make exceptions to the above rule as long as it does not create undue expectations for the community.
-2. For all other documentation on Archived Modules see [Deprecated and Archived Modules]({% doc_url deprecated_and_archived_modules %})
+2. For all other documentation on Archived Modules see [Deprecated and Archived Modules](https://voxpupuli.org/docs/deprecated_and_archived_modules/)
