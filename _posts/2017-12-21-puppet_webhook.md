@@ -50,7 +50,7 @@ Upcoming improvements and features include:
 
 If you have any questions, feedback, or want to know how to get involved, feel free to reach out to us in the following ways:
 
-* IRC: `#voxpupuli` on Freenode.
+* IRC: `#voxpupuli` on [Libera](https://web.libera.chat/?#voxpupuli).
 * Slack: `#voxpupuli` on [Puppet Slack](http://slack.puppet.com)
 * Mailing Lists: [Vox Pupuli](https://groups.io/g/voxpupuli) on Groups.io
 * Twitter: @voxpupuliorg

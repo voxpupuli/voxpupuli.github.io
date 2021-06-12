@@ -82,8 +82,8 @@ to those services. All possible events are documented at [GitHub.com](https://de
 
 ## Communication
 
-The Vox Pupuli project maintains three public IRC channels on
-[Freenode](https://freenode.net), refer to [Freenode's privacy policy](https://freenode.net/policies#privacy-policy-and-data-retention)
+The Vox Pupuli project maintains two public IRC channels on
+[Libera](https://libera.chat), refer to [Libera's privacy policy](https://libera.chat/privacy)
 for details on how they handle your data. Our bot keeps a rolling backlog in
 the IRC channel for logging purposes that is rolled off after 10 minutes.
 However, due to the open nature of the IRC protocol, other users can
@@ -135,14 +135,14 @@ to certain limitations, against the Vox Pupuli Project:
 * The right to lodge a complaint with your local data protection authority
 
 If you would like to exercise any of these rights, you may do so by contacting
-the Vox Pupuli Project Management Committee on [IRC](https://kiwiirc.com/client/irc.freenode.net/?#voxpupuli-pmc)
+the Vox Pupuli Project Management Committee on [IRC](https://web.libera.chat/?#voxpupuli-pmc)
 or via email at [pmc@voxpupuli.org](mailto:pmc@voxpupuli.org). Please understand
 that the rights above are not absolute in all instances.
 
 # Contacting us
 
 If you have any questions about this policy or our use of your data, please
-contact us via [E-Mail](mailto:pmc@voxpupuli.org) or on [IRC](https://kiwiirc.com/client/irc.freenode.net/?#voxpupuli-pmc)
+contact us via [E-Mail](mailto:pmc@voxpupuli.org) or on [IRC](https://web.libera.chat/?#voxpupuli-pmc)
 
 # Changes to this Privacy Statement
 
@@ -151,7 +151,6 @@ changes will be posted to the [Blog](https://voxpupuli.org/posts). This policy
 was last updated on 4th August 2019.
 
 [GitHub]: https://help.github.com/articles/global-privacy-practices
-[Freenode]: https://freenode.net/policies
 [Groups.io]: https://groups.io/static/privacy
 [CloudFlare]: https://www.cloudflare.com/privacypolicy/
 [Travis CI]: https://docs.travis-ci.com/legal/privacy-policy/

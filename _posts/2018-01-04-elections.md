@@ -29,7 +29,7 @@ Important Dates:
 * Between *January 12 2018 12:00UTC* and *February 2 2018 12:00UTC*: Vote
 
 Please enjoy the party, and let's gather as much participation as possible
-during the whole election process! Provide feedback in the #Voxpupuli channel on freenode.
+during the whole election process! Provide feedback in the #voxpupuli channel on [Libera](https://web.libera.chat/?#voxpupuli).
 
 [e]:https://github.com/voxpupuli/plumbing/blob/master/share/elections/2018-01.md
 [sk]:https://github.com/nibalizer/

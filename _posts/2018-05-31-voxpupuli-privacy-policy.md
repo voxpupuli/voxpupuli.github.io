@@ -28,4 +28,4 @@ You should read the [Privacy Policy](https://voxpupuli.org/privacy-policy/) in f
 
 In the coming days, we will be adding links to the Privacy Policy in the `CONTRIBUTING.md` file found in all of our projects.
 
-If you have any questions, don't hesitate to reachout over [IRC](https://kiwiirc.com/client/irc.freenode.net/?#voxpupuli-pmc) or via [E-Mail](pmc@voxpupuli.org)
+If you have any questions, don't hesitate to reachout over [IRC](https://web.libera.chat/?#voxpupuli?#voxpupuli) or via [E-Mail](pmc@voxpupuli.org)

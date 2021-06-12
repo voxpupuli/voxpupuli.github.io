@@ -4,7 +4,7 @@ title: Documentation
 ---
 
 This section is far from finished but contains some basic information on getting
-started. If you have any questions, reach out to us in #voxpupuli on Freenode.
+started. If you have any questions, reach out to us in #voxpupuli on [Libera](https://web.libera.chat/?#voxpupuli).
 
 <ul class="docs-index">
 {% assign docs = site.docs | group_by: "layout" | first %}

@@ -351,9 +351,9 @@ Working closely together, listening to users, always be constructive, don't blam
 
 Contact:
 
-* IRC #voxpupli on freenode
+* IRC #voxpupli on [Libera](https://web.libera.chat/?#voxpupuli)
 
-* Slack: #voxpupuli on puppetcommunity.slack.com
+* Slack: #voxpupuli on [slack.puppet.com](http://slack.puppet.com/)
 
 * voxpupuli@groups.io
 
