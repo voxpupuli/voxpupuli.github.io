@@ -11,8 +11,8 @@ maintained by new people. As a consequence many open source communities
 migrated their channels to [Libera.chat][lb]. Many freenode staff resigned
 and published resignation letters with background information. One from fuchs
 is available [here][fuchs], one from amdj can be found [here][amdj]. Freenode
-published a [counterstatement][cs]. Many former freenode staff member now
-operate Liberat.
+published a [counterstatement][cs]. Many former freenode staff members now
+operate Libera.
 
 We as Vox Pupuli do not want to comment on the history between the former staff
 and the new owner. But as a consequence we will migrate our channels as well.
