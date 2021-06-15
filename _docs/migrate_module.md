@@ -11,8 +11,6 @@ You will have someone by your side in this process. The general flow is to…
 * At that point you can transfer your own repository.
 * If migrating a module from puppetlabs, re-enable github issues.
 * Verify that all webhooks are disabled.
-* Update the README.md with a description of the deprecation and a link to the new module location.
-* Release a copy of your module to the 'puppet' forge account.
 * Add the module to our [modulesync setup](publish_setup).
 * Ask an admin to add the `collaborators` team to the module's `Collaborators & Teams` 'Teams' list with `Write` permissions (e.g. [https://github.com/voxpupuli/puppet-gitlab/settings/collaboration](https://github.com/voxpupuli/puppet-gitlab/settings/collaboration)).
 * The admin shall also update the [access permissions](https://github.com/organizations/voxpupuli/settings/secrets/actions) for forge.puppet.com secrets so releases can be published.
