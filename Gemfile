@@ -10,8 +10,7 @@ gem 'colorize'
 gem 'github-pages', versions['github-pages']
 gem 'html-proofer'
 gem 'rake'
-gem 'rubocop', '~> 0.49.1'
-gem 'rubocop-rspec', '~> 1.15.0'
+gem 'rubocop', '~> 1.17.0'
 
 # https://github.com/gjtorikian/jekyll-last-modified-at
 group :jekyll_plugins do

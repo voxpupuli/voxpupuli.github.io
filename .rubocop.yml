@@ -1,5 +1,5 @@
 AllCops:
-  TargetRubyVersion: 2.4
+  TargetRubyVersion: 3.0
   Include:
     - ./**/*.rb
     - Gemfile
@@ -11,7 +11,6 @@ AllCops:
     - pkg/**/*
     - spec/fixtures/**/*
     - _site/Rakefile
-require: rubocop-rspec
 Lint/ConditionPosition:
   Enabled: True
 
@@ -21,16 +20,13 @@ Lint/ElseLayout:
 Lint/UnreachableCode:
   Enabled: True
 
-Lint/UselessComparison:
+Lint/BinaryOperatorWithIdenticalOperands:
   Enabled: True
 
 Lint/EnsureReturn:
   Enabled: True
 
-Lint/HandleExceptions:
-  Enabled: True
-
-Lint/LiteralInCondition:
+Lint/SuppressedException:
   Enabled: True
 
 Lint/ShadowingOuterLocalVariable:
@@ -101,7 +97,7 @@ Lint/ParenthesesAsGroupedExpression:
 Lint/RescueException:
   Enabled: True
 
-Lint/StringConversionInInterpolation:
+Lint/RedundantStringCoercion:
   Enabled: True
 
 Lint/UnusedBlockArgument:
@@ -128,13 +124,13 @@ Style/AccessorMethodName:
 Style/Alias:
   Enabled: True
 
-Layout/AlignArray:
+Layout/ArrayAlignment:
   Enabled: True
 
-Layout/AlignHash:
+Layout/HashAlignment:
   Enabled: True
 
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   Enabled: True
 
 Metrics/BlockNesting:
@@ -144,9 +140,6 @@ Style/AsciiComments:
   Enabled: True
 
 Style/Attr:
-  Enabled: True
-
-Style/BracesAroundHashParameters:
   Enabled: True
 
 Style/CaseEquality:
@@ -183,22 +176,19 @@ Style/WhenThen:
 Style/WordArray:
   Enabled: True
 
-Style/UnneededPercentQ:
+Style/RedundantPercentQ:
   Enabled: True
 
-Layout/Tab:
+Layout/IndentationStyle:
   Enabled: True
 
 Layout/SpaceBeforeSemicolon:
   Enabled: True
 
-Layout/TrailingBlankLines:
+LayoutLayout/TrailingEmptyLines:
   Enabled: True
 
 Layout/SpaceInsideBlockBraces:
-  Enabled: True
-
-Layout/SpaceInsideBrackets:
   Enabled: True
 
 Layout/SpaceInsideHashLiteralBraces:
@@ -280,10 +270,10 @@ Style/EachWithObject:
 Layout/EmptyLineBetweenDefs:
   Enabled: True
 
-Layout/IndentArray:
+Layout/FirstArrayElementIndentation:
   Enabled: True
 
-Layout/IndentHash:
+Layout/FirstHashElementIndentation:
   Enabled: True
 
 Layout/IndentationConsistency:
@@ -323,7 +313,10 @@ Style/StringLiterals:
 Style/TrailingCommaInArguments:
   Enabled: True
 
-Style/TrailingCommaInLiteral:
+Style/TrailingCommaInArrayLiteral:
+  Enabled: True
+
+Style/TrailingCommaInHashLiteral:
   Enabled: True
 
 Style/GlobalVars:
@@ -419,7 +412,7 @@ Style/NumericLiterals:
 Style/OneLineConditional:
   Enabled: True
 
-Style/OpMethod:
+Naming/BinaryOperatorParameterName:
   Enabled: True
 
 Style/ParenthesesAroundCondition:
@@ -498,35 +491,8 @@ Lint/UselessAssignment:
 Layout/ClosingParenthesisIndentation:
   Enabled: True
 
-# RSpec
-
-RSpec/BeforeAfterAll:
-  Exclude:
-    - spec/acceptance/**/*
-
-# We don't use rspec in this way
-RSpec/DescribeClass:
+Layout/HeredocIndentation:
   Enabled: False
 
-# Example length is not necessarily an indicator of code quality
-RSpec/ExampleLength:
-  Enabled: False
-
-RSpec/NamedSubject:
-  Enabled: False
-
-# disabled for now since they cause a lot of issues
-# these issues aren't easy to fix
-RSpec/RepeatedDescription:
-  Enabled: False
-
-RSpec/NestedGroups:
-  Enabled: False
-
-# this is broken on ruby1.9
-Layout/IndentHeredoc:
-  Enabled: False
-
-# disable Yaml safe_load. This is needed to support ruby2.0.0 development envs
 Security/YAMLLoad:
-  Enabled: false
+  Enabled: True
