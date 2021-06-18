@@ -59,7 +59,7 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
-    if: github.repository == 'voxpupuli/$repository'
+    if: github.repository_owner == 'voxpupuli'
     steps:
       - uses: actions/checkout@v2
       - name: Install Ruby 3.0
