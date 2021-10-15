@@ -23,7 +23,7 @@ We are now allowed to run 60 concurrent jobs across our organisation.
 Thanks GitHub and especially [kara Sowles](https://twitter.com/FeyNudibranch)
 for making this possible!
 
-You would like to know how we use GitHub Actions? We have a blog post on
+Would you like to know how we use GitHub Actions? We have a blog post on
 [how we test Rubygems](https://voxpupuli.org/blog/2021/06/18/the-new-ci-setup-for-rubygems/)
 or checkout the Actions we
 [use on our modules](https://github.com/voxpupuli/modulesync_config/tree/master/moduleroot/.github/workflows).
