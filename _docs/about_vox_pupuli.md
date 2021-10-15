@@ -53,7 +53,9 @@ automate daily tasks with the help of the GitHub API. See
 [github.como/voxpupuli/vox-pupuli-tasks](https://github.com/voxpupuli/vox-pupuli-tasks#vox-pupuli-tasks---the-webapp-for-community-management)
 for details).
 
-GitHub sponsors us a Team Plan for the whole organisation.
+GitHub
+[sponsors us a Team Plan](https://voxpupuli.org/blog/2021/10/15/github-sponsors/)
+for the whole organisation.
 
 Thanks to both sponsors! They enable us to continue our work. If you would like
 to sponsor us, in whatever form, please contact our
