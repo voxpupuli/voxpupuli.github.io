@@ -20,7 +20,7 @@ awesome perk: More
 [concurrent CI jobs](https://docs.github.com/en/actions/learn-github-actions/usage-limits-billing-and-administration#usage-limits).
 We are now allowed to run 60 concurrent jobs across our organisation.
 
-Thanks GitHub and especially [kara Sowles](https://twitter.com/FeyNudibranch)
+Thanks GitHub and especially [Kara Sowles](https://twitter.com/FeyNudibranch)
 for making this possible!
 
 Would you like to know how we use GitHub Actions? We have a blog post on
