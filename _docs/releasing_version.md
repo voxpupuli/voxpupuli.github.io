@@ -61,7 +61,7 @@ Checkout an updated copy of master
 git checkout master; git fetch origin; git pull origin master
 ```
 
-Run the rake target `travis_release`. This will:
+Run the rake target `release`. This will:
 
 * create a new tag using the current version
 * bump the current version to the next PATCH version and add `-rc0` to the end
@@ -73,10 +73,10 @@ Run the rake target `travis_release`. This will:
 *Please also note that the task requires a configured gpg key in your local git settings*
 
 ```bash
-bundle exec rake travis_release
+bundle exec rake release
 ```
 
-Travis will then kick off a build against the new tag created and deploy that
-build to the forge. Caution: The Vox Pupuli repo has to be the configured
-default branch in your local clone. Otherwise you will try to release to your
-fork.
+GitHub Actions (.github/workflows/release.yml in every module) will then kick
+off a build against the new tag created and deploy that build to the forge.
+Caution: The Vox Pupuli repo has to be the configured default branch in your
+local clone. Otherwise you will try to release to your fork.
