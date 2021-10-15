@@ -24,6 +24,7 @@ participation, orchestrated by github teams.
 We have a number of communication channels:
 
 * #voxpupuli on [Libera](https://web.libera.chat/?#voxpupuli), aka IRC
+* [#voxpupuli:libera.chat](https://matrix.to/#/!xKkvgsGCsiWDhqCMMZ:libera.chat) makes the IRC room available through Matrix clients such as [Element](https://element.io/)
 * [#voxpupuli](http://puppetcommunity.slack.com/messages/voxpupuli/) on
   [Puppet Community](http://slack.puppet.com), aka Slack
 * [Mailing List](https://groups.io/g/voxpupuli/)
