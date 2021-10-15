@@ -5,14 +5,16 @@ what this is all about.
 
 ## Table of Contents
 
-* [Building this site](#building-this-site)
-* [Puppet Plugins](#puppet-plugins)
-* [Tool definition format](#tool-definition-format)
-* [Tool schema](#tool-schema)
-* [Plugin schema](#plugin-schema)
-* [What's a tool vs. a plugin?](#what-s-a-tool-vs-a-plugin)
-* [Contribution](#contribution)
-* [License](#license)
+- [Table of Contents](#table-of-contents)
+- [Building this site](#building-this-site)
+- [Puppet Plugins](#puppet-plugins)
+  - [Tool definition format](#tool-definition-format)
+    - [Tool Schema](#tool-schema)
+    - [Plugin Schema](#plugin-schema)
+  - [What's a tool vs. a plugin](#whats-a-tool-vs-a-plugin)
+- [Contribution](#contribution)
+- [Writing docs](#writing-docs)
+- [License](#license)
 
 ## Building this site
 
@@ -79,9 +81,12 @@ you do a talk about Vox Pupuli that you would like to link to? Do you want to
 write a plog post?
 
 Feel free to send us a pull request with your changes or raise an [issue](https://github.com/voxpupuli/voxpupuli.github.io/issues/new).
-We currently require all commits in this repo to be signed with gpg, so please
-configure your git client properly. Let us know if you need some help. We're also
-reachable via our IRC channel `#voxpupuli` on [Libera](https://web.libera.chat/?#voxpupuli).
+We currently require all commits in this repo to be signed with gpg, so
+please configure your git client properly. Let us know if you need some help. We're also
+reachable via our IRC channel `#voxpupuli` on [Libera](https://web.libera.chat/?#voxpupuli),
+[`#voxpupuli:libera.chat`](https://matrix.to/#/!xKkvgsGCsiWDhqCMMZ:libera.chat) on Matrix,
+and [`#voxpupuli`](http://puppetcommunity.slack.com/messages/voxpupuli/) on the
+[Puppet Community Slack](http://slack.puppet.com).
 
 We test if the pages still build properly via travis, You can run this locally
 by running `bundle exec rake test`.
