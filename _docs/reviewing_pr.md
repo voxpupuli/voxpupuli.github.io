@@ -11,7 +11,7 @@ one of our modules:
 * Does the email address used in the commits match the github email address? (This will let github display the contributor's avatar next to the commit)
 * Is this a bugfix, modulesync, breaking change, enhancement, docs update? Label it with `bug`, `modulesync`, `backwards-incompatible`, `enhancement`, `docs`
 * Are updates to the README.md needed but missing? Label it with `needs-docs`
-* Has the file documented params or examples in the header? This needs to be updated as well
+* Has the file documented parameter or examples in the header? This needs to be updated as well
 * Are there merge conflicts? You don't need to do anything. Our [Vox Pupuli Tasks GitHub App][vpt] will label this as `merge-conflicts` and notify the author
 * Does it have failing tests? You don't need to do anything. Our [Vox Pupuli Tasks GitHub App][vpt] will label this as `tests-fail` and notify the author
 * Were changes to master merged that are required in this PR (for example an updated GitHub Actions configuration)? Add the `needs-rebase` label
@@ -22,8 +22,9 @@ one of our modules:
 * In the majority of cases, variables shouldn't be accessed via topscope: $::modulename::$param. Instead do: $modulename::$param
 * Are datatypes from stdlib used? Ensure that lowest supported stdlib version is 4.18.0 (This is the first version that supports Puppet 5). Check if a newer version introduced the used datatype
 * Are hiera yaml files added for data-in-modules? Ensure that the data is compatible with [hiera 5](https://puppet.com/docs/puppet/5.3/hiera_migrate.html#use-cases-for-upgrading-to-hiera-5). Static data that is equal across every supported operating system must stay in the init.pp, it shouldn't be moved to a common.yaml due to [puppet-strings issue #250](https://github.com/puppetlabs/puppet-strings/issues/250).
-* Are there new params with datatype Hash or Array? If possible, they should default to empty Hash/Array instead of undef. You can also enforce the datastructure like Array[String[1]]
-* Are there new params with datatype Boolean? The default value is a tricky decision which needs careful reviewing. Sometimes a True/False is the better approach, sometimes undef
+* Are there new parameters with datatype Hash or Array? If possible, they should default to empty `Hash` or `Array` instead of `undef`. You can also enforce the datastructure like `Array[String[1]]` (that's recommended if possible)
+* Are there new parameters with datatype Boolean? The default value is a tricky decision which needs careful reviewing. Sometimes a True/False is the better approach, sometimes `undef`
+* Are there new parameters with literal datatypes (String, Integer, Float)? If they don't have a default value and aren't a required parameter, they should be marked `Optional` and default to `undef`. Their default value should not be `''` (empty string). A common pattern is to use `Optional[String[1]] $var = undef`. The parameter defaults to undef. It cannot be set to `''`, the minimal string length is 1 character
 * Is this a bugfix? Write the Pull Request Title in a way that users can easily identify if they are impacted or not
 * Does a new param map to an option in a config file of a service? The Parameter should accept the possible values that the service allows. For example 'on' and 'off'. Don't accept a boolean that will be converted to 'on' or 'off'
 * Is a new template added? The preferred language is [epp](https://puppet.com/docs/puppet/latest/lang_template_epp.html), not [erb](https://puppet.com/docs/puppet/latest/lang_template_erb.html)
