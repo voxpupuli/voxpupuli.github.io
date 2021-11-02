@@ -11,7 +11,7 @@ one of our modules:
 * Does the email address used in the commits match the github email address? (This will let github display the contributor's avatar next to the commit)
 * Is this a bugfix, modulesync, breaking change, enhancement, docs update? Label it with `bug`, `modulesync`, `backwards-incompatible`, `enhancement`, `docs`
 * Are updates to the README.md needed but missing? Label it with `needs-docs`
-* Has the file documented parameter or examples in the header? This needs to be updated as well
+* Has the updated file(s) documented all of its parameters or and examples in the puppet-strings header? This needs to be updated as well.
 * Are there merge conflicts? You don't need to do anything. Our [Vox Pupuli Tasks GitHub App][vpt] will label this as `merge-conflicts` and notify the author
 * Does it have failing tests? You don't need to do anything. Our [Vox Pupuli Tasks GitHub App][vpt] will label this as `tests-fail` and notify the author
 * Were changes to master merged that are required in this PR (for example an updated GitHub Actions configuration)? Add the `needs-rebase` label
