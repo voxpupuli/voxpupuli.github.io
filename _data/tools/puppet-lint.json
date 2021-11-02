@@ -42,7 +42,12 @@
     {
       "name": "empty_string",
       "url": "https://github.com/voxpupuli/puppet-lint-empty_string-check",
-      "description": "Check for variables assigned to the empty string."
+      "description": "Check for variables assigned to the empty string (deprecated, see params_empty_string)."
+    },
+    {
+      "name": "params_empty_string",
+      "url": "https://github.com/voxpupuli/puppet-lint-params_empty_string-check",
+      "description": "Check for class parameters with string datatype assigned to the empty string."
     },
     {
       "name": "empty_trailing_lines",
