@@ -12,12 +12,12 @@ You will have someone by your side in this process. The general flow is to…
 * If migrating a module from puppetlabs, re-enable github issues.
 * Verify that all webhooks are disabled.
 * Add the module to our [modulesync setup][managed_modules].
-* Ask an admin to add the `collaborators` team to the module's `Collaborators & Teams` 'Teams' list with `Write` permissions (e.g. [https://github.com/voxpupuli/puppet-gitlab/settings/collaboration](https://github.com/voxpupuli/puppet-gitlab/settings/collaboration)).
-* The admin shall also update the [access permissions](https://github.com/organizations/voxpupuli/settings/secrets/actions) for forge.puppet.com secrets so releases can be published.
+* Ask an admin to add the `collaborators` team to the module's `Collaborators & Teams` 'Teams' list with `Write` permissions (e.g. [https://github.com/voxpupuli/puppet-gitlab/settings/collaboration](https://github.com/voxpupuli/puppet-gitlab/settings/collaboration) (that link works only for admins).
+* The admin shall also update the [access permissions](https://github.com/organizations/voxpupuli/settings/secrets/actions) (that link works only for admins) for forge.puppet.com secrets so releases can be published.
 * The admin shall also enable `Automatically delete head branches` in the repository settings.
 * Execute [modulesync][msync] for this module.
-* Create a Jira issue at [https://tickets.puppetlabs.com](https://tickets.puppetlabs.com) and ask to deprecate the old module (and approve the new one if the old one was approved as well).
-* Ensure that there isn't a `CONTRIBUTING.md` file in the docroot. Our modulesync will place one at `.github/CONTRIBUTING.md`. Please enhance [our existing template][template] if the version in the docroot contains useful parts.
+* Create a Jira issue at [tickets.puppetlabs.com](https://tickets.puppetlabs.com) in the MODULES project and ask to deprecate the old module (and approve the new one if the old one was approved as well).
+* Our modulesync will delete a `CONTRIBUTING.md` in the root directory and place one at `.github/CONTRIBUTING.md`. Please enhance [our existing template][template] if the version in the docroot contains useful parts.
 * Ensure that the module has a correct `LICENSE` file in the docroot that matches the mentioned license in the `metadata.json`.
 
 If you have many modules you wish to migrate, this will be cumbersome.
