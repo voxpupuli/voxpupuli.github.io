@@ -5,14 +5,14 @@ date: 2016-01-01
 summary: How to perform a complete version release, including modulesync and publication.
 ---
 
-Run modulesync to ensure the dotfiles are up to date.
+Run modulesync to ensure the dotfiles are up-to-date.
 
 Create a 'release pr'. This pull request updates the changelog and bumps the
 version number to the target version, removing all release candidate
 identifiers, i.e. from `0.10.7-rc0` to `0.10.7`. Here's an example:
 [puppet-extlib's 0.10.7 release](https://github.com/voxpupuli/puppet-extlib/pull/43).
 In most cases it is sufficient to update metadata.json. We try
-to honor [semantic versioning](http://semver.org/) and decided that dropping ruby1.8
+to respect [semantic versioning](http://semver.org/) and decided that dropping ruby1.8
 support is a major change and requires a major version bump for the module.
 (Only the minor version should be bumped if the module is pre version 1.0 and
 ruby 1.8 support has been dropped.)
@@ -30,7 +30,7 @@ bundle install --path .vendor/ --without system_tests development; bundle update
 ```
 
 If the module contains a Puppet Strings generated documentation, please
-ensure the file is update to date. A good indicator for a Puppet Strings
+ensure the file is up-to-date. A good indicator for a Puppet Strings
 documentation is the existence of a REFERENCE.md file. You can automatically
 generate the documentation by running the following rake task:
 
@@ -79,4 +79,4 @@ bundle exec rake release
 GitHub Actions (.github/workflows/release.yml in every module) will then kick
 off a build against the new tag created and deploy that build to the forge.
 Caution: The Vox Pupuli repo has to be the configured default branch in your
-local clone. Otherwise you will try to release to your fork.
+local clone. Otherwise, you will try to release to your fork.
