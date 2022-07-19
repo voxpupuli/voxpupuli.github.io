@@ -23,6 +23,8 @@ puppet resource package puppetdb_cli ensure=present provider=puppet_gem
 
 And Afterwards run the query with `/opt/puppetlabs/puppet/bin/puppet-query $query`. For PE installations you can use `puppet query`.
 
+On the PuppetServer side, installing the `puppetdb-termini` package allow to use the `puppetdb_query()` function in a manifest to generate portions of catalog based on result of queries, e.g. find all Virtual-Hosts on all machines and add the relevant configuration to a monitoring system.
+
 ## Contribute?!
 
 You can submit your own Queries by editing [voxpupuli.github.io/_docs/pql_queries.md](https://github.com/voxpupuli/voxpupuli.github.io/blob/master/_docs/pql_queries.md) on GitHub or by pressing the edit button in the upper right corner.
