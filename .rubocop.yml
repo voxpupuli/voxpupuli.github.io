@@ -1,4 +1,6 @@
+require: rubocop-rake
 AllCops:
+  NewCops: enable
   TargetRubyVersion: 3.0
   Include:
     - ./**/*.rb
@@ -11,7 +13,8 @@ AllCops:
     - pkg/**/*
     - spec/fixtures/**/*
     - _site/Rakefile
-Lint/ConditionPosition:
+
+Layout/ConditionPosition:
   Enabled: True
 
 Lint/ElseLayout:
@@ -76,13 +79,13 @@ Lint/AmbiguousRegexpLiteral:
 Security/Eval:
   Enabled: True
 
-Lint/BlockAlignment:
+Layout/BlockAlignment:
   Enabled: True
 
-Lint/DefEndAlignment:
+Layout/DefEndAlignment:
   Enabled: True
 
-Lint/EndAlignment:
+Layout/EndAlignment:
   Enabled: True
 
 Lint/DeprecatedClassMethods:
@@ -109,16 +112,13 @@ Lint/UnusedMethodArgument:
 Lint/UselessAccessModifier:
   Enabled: True
 
-Lint/UselessAssignment:
-  Enabled: True
-
 Lint/Void:
   Enabled: True
 
 Layout/AccessModifierIndentation:
   Enabled: True
 
-Style/AccessorMethodName:
+Naming/AccessorMethodName:
   Enabled: True
 
 Style/Alias:
@@ -151,7 +151,7 @@ Layout/CaseIndentation:
 Style/CharacterLiteral:
   Enabled: True
 
-Style/ClassAndModuleCamelCase:
+Naming/ClassAndModuleCamelCase:
   Enabled: True
 
 Style/ClassAndModuleChildren:
@@ -185,7 +185,7 @@ Layout/IndentationStyle:
 Layout/SpaceBeforeSemicolon:
   Enabled: True
 
-LayoutLayout/TrailingEmptyLines:
+Layout/TrailingEmptyLines:
   Enabled: True
 
 Layout/SpaceInsideBlockBraces:
@@ -246,7 +246,7 @@ Style/CommentAnnotation:
 Metrics/CyclomaticComplexity:
   Enabled: False
 
-Style/ConstantName:
+Naming/ConstantName:
   Enabled: True
 
 Style/Documentation:
@@ -292,7 +292,7 @@ Style/EmptyLiteral:
   Enabled: True
 
 # Configuration parameters: AllowURI, URISchemes.
-Metrics/LineLength:
+Layout/LineLength:
   Enabled: False
 
 Style/MethodCallWithoutArgsParentheses:
@@ -358,7 +358,7 @@ Style/UnlessElse:
 Style/VariableInterpolation:
   Enabled: True
 
-Style/VariableName:
+Naming/VariableName:
   Enabled: True
 
 Style/WhileUntilDo:
@@ -367,7 +367,7 @@ Style/WhileUntilDo:
 Style/EvenOdd:
   Enabled: True
 
-Style/FileName:
+Naming/FileName:
   Enabled: True
 
 Style/For:
@@ -376,7 +376,7 @@ Style/For:
 Style/Lambda:
   Enabled: True
 
-Style/MethodName:
+Naming/MethodName:
   Enabled: True
 
 Style/MultilineTernaryOperator:
@@ -424,7 +424,7 @@ Style/PercentLiteralDelimiters:
 Style/PerlBackrefs:
   Enabled: True
 
-Style/PredicateName:
+Naming/PredicateName:
   Enabled: True
 
 Style/RedundantException:
