@@ -73,3 +73,42 @@ puppet query 'nodes[certname] {latest_report_status = "changed" and certname in 
 ```
 puppet query 'events[certname] {resource_type = "Service" and resource_title = "apache2" and latest_report? = true and corrective_change = true}'
 ```
+
+### Get a list of nodes with stale catalogs (`date -R` to see your time offset)
+
+```
+puppet query 'catalogs[certname,producer_timestamp] {  producer_timestamp < "2022-06-21T07:00:00.000-05:00" }'
+```
+
+### Get a list of nodes with a catalog that has failed to compile but used a cached catalog during a specific time window
+
+```
+puppet query 'reports[certname,transaction_uuid,receive_time] { cached_catalog_status="on_failure" and start_time > "2021-10-27T15:36:00-05:00" and end_time < "2021-10-27T16:35:00-05:00"  }'
+```
+
+### Get a list of nodes with a specific fact value
+
+```
+puppet query 'inventory[certname] { facts.os.name = "windows" }'
+```
+
+### Print fact value (facts.virtual in this example) for nodes with a specific class
+
+```
+puppet-query 'inventory[certname,facts.virtual]{ resources { type="Class" and title ~ "CapitalizedClassname" }}'
+```
+
+### Get a list of nodes for which a fact is not set
+
+```
+puppet query 'inventory[certname] { ! certname in inventory[certname] {  facts.myfactofinterest is not null } }'
+```
+
+## Endpoints and fields
+The available endpoints is a function of which version of puppetdb you are going against. The current list is available at https://puppet.com/docs/puppetdb/7/api/query/v4/entities.html
+
+If you don't feel like looking up which fields are available for a given endpoint, use a bogus field name and the `puppet query` tool will return the valid list.
+
+```
+puppet-query 'resources[foo] {}'
+2022/07/21 10:02:41 ERROR - [GET /pdb/query/v4][400] getQueryBadRequest  Can't extract unknown 'resources' field 'foo'. Acceptable fields are 'resource', 'certname', 'tags', 'exported', 'line', 'title', 'type', 'environment', 'file', and 'parameters'
