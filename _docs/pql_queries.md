@@ -5,6 +5,9 @@ date: 2022-07-01
 summary: A community-collection of PQL queries
 ---
 
+* TOC
+{:toc}
+
 ## What?
 
 PQL is the [Puppet Query Language](https://puppet.com/docs/puppetdb/latest/api/query/examples-pql.html). You can use it to query the PuppetDB for information.
