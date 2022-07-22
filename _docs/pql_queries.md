@@ -120,7 +120,7 @@ This checks all catalogs in the PuppetDB for this resource type and counts it
 puppet query 'resources[count()] {type = "File" }'
 ```
 
-### Count all resoureces
+### Count all resources
 
 ```
 puppet query 'resources[count()] { }'
