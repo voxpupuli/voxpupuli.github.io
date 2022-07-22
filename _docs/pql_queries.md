@@ -112,3 +112,4 @@ If you don't feel like looking up which fields are available for a given endpoin
 ```
 puppet-query 'resources[foo] {}'
 2022/07/21 10:02:41 ERROR - [GET /pdb/query/v4][400] getQueryBadRequest  Can't extract unknown 'resources' field 'foo'. Acceptable fields are 'resource', 'certname', 'tags', 'exported', 'line', 'title', 'type', 'environment', 'file', and 'parameters'
+```
