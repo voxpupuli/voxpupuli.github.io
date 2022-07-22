@@ -98,6 +98,34 @@ puppet query 'inventory[certname] { facts.os.name = "windows" }'
 puppet-query 'inventory[certname,facts.virtual]{ resources { type="Class" and title ~ "CapitalizedClassname" }}'
 ```
 
+### Get all resources from one type for one node
+
+```
+puppet query 'resources {type = "File" and certname = "puppet.local"}'
+```
+
+### Get one param/attribute for one type of resource for one node
+
+In this case, `file` is a resource property, it's the absolute path to the pp file where the resource was declared
+
+```
+puppet query 'resources[file] {type = "File" and certname = "puppet.local"}'
+```
+
+### Count all resources of one type
+
+This checks all catalogs in the PuppetDB for this resource type and counts it
+
+```
+puppet query 'resources[count()] {type = "File" }'
+```
+
+### Count all resoureces
+
+```
+puppet query 'resources[count()] { }'
+```
+
 ### Get a list of nodes for which a fact is not set
 
 ```
