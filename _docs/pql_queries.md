@@ -95,6 +95,20 @@ puppet query 'reports[certname,transaction_uuid,receive_time] { cached_catalog_s
 puppet query 'inventory[certname] { facts.os.name = "windows" }'
 ```
 
+### Get a list of nodes with to specific facts
+
+```
+query 'inventory[certname] {facts.os.name = "AlmaLinux" and facts.os.release.major = "8" }'
+```
+
+```
+[
+  {
+    "certname": "puppet.local"
+  }
+]
+```
+
 ### Print fact value (facts.virtual in this example) for nodes with a specific class
 
 ```
