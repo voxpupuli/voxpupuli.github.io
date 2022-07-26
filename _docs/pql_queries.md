@@ -95,7 +95,7 @@ puppet query 'reports[certname,transaction_uuid,receive_time] { cached_catalog_s
 puppet query 'inventory[certname] { facts.os.name = "windows" }'
 ```
 
-### Get a list of nodes with to specific facts
+### Get a list of nodes with two specific facts
 
 ```
 query 'inventory[certname] {facts.os.name = "AlmaLinux" and facts.os.release.major = "8" }'
