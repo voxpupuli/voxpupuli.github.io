@@ -40,6 +40,7 @@ one of our modules:
 * Ensure that the version range of any dependency doesn't include an unreleased major version (do not allow version 6.X of a dependency if the current version is 5.X)
 * An increase of an upper version boundary (of a module or Puppet itself) is only an enhancement if code adjustments were needed. Don't add the `enhancement` label if the only change is within the `metadata.json`. Ensure that `.fixtures.yml` doesn't pin a specific version.
 * Sometimes you review a PR where somebody else requested changes. If the contributor clearly fixed it, you can still approve or merge it and ignore the `somebody requested changes` message. If you are not sure that it is really fixed, only approve it and do not merge it.
+* When code deals with systemd units, dropin files, kernel modules to load or services limits (or other configuration options systemd can do), the [puppet/systemd][systemd] module should be used
 
 ### Approving and Merging
 
@@ -99,3 +100,4 @@ git config --global commit.gpgsign true
 [styleguide]: https://puppet.com/docs/puppet/5.5/style_guide.html#dependencies
 [methods]: https://help.github.com/en/articles/about-merge-methods-on-github
 [gpg]: https://help.github.com/en/articles/generating-a-new-gpg-key
+[systemd]:https://github.com/voxpupuli/puppet-systemd
