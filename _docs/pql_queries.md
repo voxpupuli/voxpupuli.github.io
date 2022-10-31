@@ -149,6 +149,12 @@ puppet query 'resources[count()] { }'
 puppet query 'inventory[certname] { ! certname in inventory[certname] {  facts.myfactofinterest is not null } }'
 ```
 
+### Get a list of nodes with a specific structured fact value while using a wildcard in the fact structure
+
+```
+puppet query ' fact_contents { path ~> ["first_level",".*","third_level"] and value = "Y" } '
+```
+
 ## Endpoints and fields
 The available endpoints is a function of which version of puppetdb you are going against. The current list is available at https://puppet.com/docs/puppetdb/7/api/query/v4/entities.html
 
