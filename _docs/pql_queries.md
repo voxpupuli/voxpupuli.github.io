@@ -56,13 +56,13 @@ Result:
 ### Get all nodes that have a specific class in their catalog
 
 ```
-puppet query 'nodes[certname] {resources {type = "class" and title = "CapitalizedClassname"}}'
+puppet query 'nodes[certname] {resources {type = "Class" and title = "CapitalizedClassname"}}'
 ```
 
 ### Get all nodes that have a specific class in their catalog and start with bla-
 
 ```
-puppet query 'nodes[certname] {certname ~ "^bla-" and resources {type = "class" and title = "CapitalizedClassname"}}'
+puppet query 'nodes[certname] {certname ~ "^bla-" and resources {type = "Class" and title = "CapitalizedClassname"}}'
 ```
 
 ### Get all nodes with changes and a specific resource
