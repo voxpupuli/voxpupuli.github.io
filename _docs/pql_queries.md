@@ -155,6 +155,29 @@ puppet query 'inventory[certname] { ! certname in inventory[certname] {  facts.m
 puppet query ' fact_contents { path ~> ["first_level",".*","third_level"] and value = "Y" } '
 ```
 
+### Get all values for a fact
+
+This fetches a specified fact from all nodes and groups them by value. The
+result is a unique list of values for the fact:
+
+```
+puppet query 'facts[value]{ name = "domain" group by value}'
+```
+
+Result:
+
+```
+[
+  {
+    "value": "example.org"
+  },
+  {
+    "value": "example.com"
+  }
+]
+
+```
+
 ## Endpoints and fields
 The available endpoints is a function of which version of puppetdb you are going against. The current list is available at https://puppet.com/docs/puppetdb/7/api/query/v4/entities.html
 
