@@ -49,12 +49,6 @@ For our contributors, here are some good practices that we highly recommend.
     Still we encourage you to get in touch with the security officer that will
     help you to elaborate a good disclosure schedule and an appropriate answer.
 
-1. Link to this page from the README.
-
-    README files of Vox Pupuli projects should have a link to this page, by
-    making it clear that it is the way to go to report security vulnerabilities
-    that need some privacy.
-
 1. Follow Vox Pupuli flows and practices
 
     Our practices are made with security in mind. Please avoid breaking away
