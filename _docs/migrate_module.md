@@ -9,7 +9,7 @@ You will have someone by your side in this process. The general flow is to…
 
 * Ask one of the Administrators to add you to the `incoming-migrations` team.
 * At that point you can transfer your own repository.
-* If migrating a module from puppetlabs, re-enable github issues.
+* Ensure github issues are enabled.
 * Verify that all webhooks are disabled.
 * Add the module to our [modulesync setup][managed_modules].
 * Ask an admin to add the `collaborators` team to the module's `Collaborators & Teams` 'Teams' list with `Write` permissions (e.g. [https://github.com/voxpupuli/puppet-gitlab/settings/collaboration](https://github.com/voxpupuli/puppet-gitlab/settings/collaboration) (that link works only for admins).
