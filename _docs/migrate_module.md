@@ -12,11 +12,13 @@ You will have someone by your side in this process. The general flow is to…
 * Ensure github issues are enabled.
 * Verify that all webhooks are disabled.
 * Add the module to our [modulesync setup][managed_modules].
+* Enable `Automatically delete head branches` in the repository settings.
 * Ask an admin to add the `collaborators` team to the module's `Collaborators & Teams` 'Teams' list with `Write` permissions (e.g. [https://github.com/voxpupuli/puppet-gitlab/settings/collaboration](https://github.com/voxpupuli/puppet-gitlab/settings/collaboration) (that link works only for admins).
 * The admin shall also update the [access permissions](https://github.com/organizations/voxpupuli/settings/secrets/actions) (that link works only for admins) for forge.puppet.com secrets so releases can be published.
 * The admin shall also enable `Automatically delete head branches` in the repository settings.
 * Execute [modulesync][msync] for this module.
-* Create a Jira issue at [tickets.puppetlabs.com](https://tickets.puppetlabs.com) in the MODULES project and ask to deprecate the old module (and approve the new one if the old one was approved as well).
+* Create a Jira issue at [tickets.puppetlabs.com](https://tickets.puppetlabs.com) in the FORGE project and ask to deprecate the old module (and approve the new one if the old one was approved as well).
+* Do you think the module qualifies to be approved? Wait until it is released, then raise a [GitHub Issue][approve] in the Puppetlabs organisation.
 * Our modulesync will delete a `CONTRIBUTING.md` in the root directory and place one at `.github/CONTRIBUTING.md`. Please enhance [our existing template][template] if the version in the docroot contains useful parts.
 * Ensure that the module has a correct `LICENSE` file in the docroot that matches the mentioned license in the `metadata.json`.
 
@@ -33,3 +35,5 @@ If the module is accepted, VP will work with you to determine the proper fork/mi
 [managed_modules]: https://github.com/voxpupuli/modulesync_config/blob/master/managed_modules.yml
 [msync]: https://github.com/voxpupuli/modulesync_config#modulesync-configs
 [template]: https://github.com/voxpupuli/modulesync_config/blob/master/moduleroot/.github/CONTRIBUTING.md.erb
+[modules]: https://tickets.puppetlabs.com/projects/MODULES/issues/
+[approve]: https://github.com/puppetlabs/puppet-approved-modules/issues/new?assignees=&labels=&template=puppet-approved-modules.md&title=
