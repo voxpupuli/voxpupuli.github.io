@@ -55,8 +55,35 @@ Result:
 
 ### Get all nodes that have a specific class in their catalog
 
+This is useful if you want to get a list of nodes with a specific profile or role
+
 ```
 puppet query 'nodes[certname] {resources {type = "Class" and title = "CapitalizedClassname"}}'
+```
+
+### Get a list of all roles / profiles
+
+```
+puppet query 'resources[title] {type = "Class" and title ~ "Role" group by title}'
+```
+
+Result:
+
+```json
+[
+  {
+    "title": "Role::Base"
+  },
+  {
+    "title": "Role::Webserver"
+  },
+  {
+    "title": "Role::Mailserver"
+  },
+  {
+    "title": "Role::Backupnode"
+  }
+]
 ```
 
 ### Get all nodes that have a specific class in their catalog and start with bla-
