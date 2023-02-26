@@ -69,7 +69,7 @@ puppet query 'resources[title] {type = "Class" and title ~ "Role" group by title
 
 Result:
 
-```
+```json
 [
   {
     "title": "Role::Base"
