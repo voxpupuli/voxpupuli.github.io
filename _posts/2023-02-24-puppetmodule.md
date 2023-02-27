@@ -29,11 +29,11 @@ Which will look like this:
 
 You want to participate in the development? Checkout the sourcecode!
 
-https://github.com/voxpupuli/puppetmodule.info
+[github.com/voxpupuli/puppetmodule.info](https://github.com/voxpupuli/puppetmodule.info)
 
 You like Ops work and want to help run the server? Ping us on Slack or IRC (links in the footer).
 
-You love Vox Pupuli? You can now sponsor us! Check https://opencollective.com/vox-pupuli or https://github.com/sponsors/voxpupuli
+You love Vox Pupuli? You can now sponsor us! Check [opencollective.com/vox-pupuli](https://opencollective.com/vox-pupuli) or [github.com/sponsors/voxpupuli](https://github.com/sponsors/voxpupuli)
 
 
 Thanks Hetzner Online for sponsoring the cloud resources to host puppetmodule.info!
