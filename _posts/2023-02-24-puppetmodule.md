@@ -25,7 +25,7 @@ automatically. You can also add a badge to your README.md:
 ```
 Which will look like this:
 
-[![puppetmodule.info docs](http://www.puppetmodule.info/images/badge.png)](http://www.puppetmodule.info/m/puppet-borg)
+[![puppetmodule.info docs](https://www.puppetmodule.info/images/badge.png)](https://www.puppetmodule.info/m/puppet-borg)
 
 You want to participate in the development? Checkout the sourcecode!
 
