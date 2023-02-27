@@ -212,6 +212,6 @@ The available endpoints is a function of which version of puppetdb you are going
 If you don't feel like looking up which fields are available for a given endpoint, use a bogus field name and the `puppet query` tool will return the valid list.
 
 ```console
-$ puppet-query 'resources[foo] {}'
+$ puppet query 'resources[foo] {}'
 2022/07/21 10:02:41 ERROR - [GET /pdb/query/v4][400] getQueryBadRequest  Can't extract unknown 'resources' field 'foo'. Acceptable fields are 'resource', 'certname', 'tags', 'exported', 'line', 'title', 'type', 'environment', 'file', and 'parameters'
 ```
