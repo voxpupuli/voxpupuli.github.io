@@ -205,6 +205,16 @@ Result:
 
 ```
 
+### Get a sorted list of all recent event failures
+
+This gives a list of recent event failures from the lastest reports and applies counts to them to show how many
+of them are occurring across your nodes.  In order to sort by the counts, the command has to be combined with `jq`,
+which is typically another package that has to be installed on your system.
+
+```shell
+puppet query 'events[resource_type,resource_title,count()] { latest_report? = true and status = "failure" group by resource_type, resource_title }' | jq 'sort_by(.count) | reverse'
+```
+
 ## Endpoints and fields
 
 The available endpoints is a function of which version of puppetdb you are going against. The current list is available at <https://puppet.com/docs/puppetdb/7/api/query/v4/entities.html>.
