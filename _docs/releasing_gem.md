@@ -9,12 +9,13 @@ The release process is split into two parts. Part one can be done by anybody
 with a GitHub account. You do not need to be part of the Vox Pupuli GitHub
 organisation.
 
-Part One: Create a 'release pr'
+## Part One: Create a 'release pr'
+
 This pull request updates the changelog and bumps the version number to the
 target version. The version is set in the gemspec file in the root of the git
 repository. Sometimes it's a variable coming from something like
 `lib/$gem/version.rb`. An example is [beaker](https://github.com/voxpupuli/beaker/blob/f60ac9413f9c7976a6645ef9e1dd2afbcc6542de/beaker.gemspec#L8),
-([version.rb](https://github.com/voxpupuli/beaker/blob/master/lib/beaker/version.rb#L3)).
+([version.rb](https://github.com/voxpupuli/beaker/blob/master/lib/beaker/version.rb#L3)). This can be done from a fork.
 
 Now you can install the changelog generator:
 
@@ -48,11 +49,23 @@ Get community feedback on the release pr, label it with skip-changelog, get it m
 
 ## Part 2: Actually create the release
 
-Checkout an updated copy of master
+Checkout an updated copy of voxpupuli master. Do not use a fork here. Or add voxpupuli as a additional remote to your fork.
+
+with the main repo
 
 ```bash
-git checkout master; git pull origin master
+git switch master; git pull origin master
 ```
+
+with a fork
+
+```bash
+git remote add voxpupuli git@github.com:voxpupuli/$my_repo.git
+git fetch voxpupuli --tags
+git switch master
+git pull -r voxpupuli master
+```
+
 
 Check with `git tag -l` if the git tags are prefixed with a v or not. This varies
 by project (we often adopt gems from other people and don't want to change the
@@ -60,6 +73,19 @@ versioning scheme in a project).
 
 Create a new git tag with the new version: `git tag -s $version`
 
-Push the git tag: `git push origin $version`
+Push the git tag:
+
+with main repo:
+
+```bash
+git push origin $version
+```
+
+with a fork:
+
+```bash
+git push voxpupuli $version
+```
+
 
 Then a GitHub action will start to build the gem and publish it to GitHub Packages and RubyGems.org
