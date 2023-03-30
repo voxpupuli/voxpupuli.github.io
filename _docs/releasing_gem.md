@@ -9,7 +9,7 @@ The release process is split into two parts. Part one can be done by anybody
 with a GitHub account. You do not need to be part of the Vox Pupuli GitHub
 organisation.
 
-## Part One: Create a 'release pr'
+## Part 1: Create a 'release pr'
 
 This pull request updates the changelog and bumps the version number to the
 target version. The version is set in the gemspec file in the root of the git
