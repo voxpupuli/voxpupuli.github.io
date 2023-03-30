@@ -63,7 +63,7 @@ with a fork
 git remote add voxpupuli git@github.com:voxpupuli/$my_repo.git
 git fetch voxpupuli --tags
 git switch master
-git pull -r voxpupuli master
+git pull --rebase voxpupuli master
 ```
 
 
