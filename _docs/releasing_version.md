@@ -5,6 +5,12 @@ date: 2016-01-01
 summary: How to perform a complete version release, including modulesync and publication.
 ---
 
+Creating a release is a two step process:
+1. Prepare the release — setup everything so that peer review can happen and when everything is ready…
+2. Do the actual release
+
+## Preparing a release
+
 Run modulesync to ensure the dotfiles are up-to-date.
 
 Create a 'release pr'. This pull request updates the changelog and bumps the
@@ -53,7 +59,9 @@ backwards-incompatible nor only bug fixes, make a minor release. Check the
 generated diff for the CHANGELOG.md. If your chosen release version doesn't
 match the generated changelog, update metadata.json and run the changelog task again.
 
-Get community feedback on the release pr, label it with skip-changelog, get it merged.
+Get community feedback on the release pr, label it with `skip-changelog`, get it merged.
+
+## Doing the release
 
 Checkout an updated copy of master
 
