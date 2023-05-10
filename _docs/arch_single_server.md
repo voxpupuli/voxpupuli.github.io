@@ -95,3 +95,5 @@ We recommend managing each of these components with the supported module.
     * [puppetlabs/puppet_agent](https://forge.puppet.com/puppetlabs/puppet_agent)
 * Puppet Metrics Dashboard
     * [puppetlabs/puppet_metrics_dashboard](https://forge.puppet.com/puppetlabs/puppet_metrics_dashboard)
+* Hiera Data Manager (HDM)
+    * [puppet/hdm](https://forge.puppet.com/modules/puppet/hdm)
