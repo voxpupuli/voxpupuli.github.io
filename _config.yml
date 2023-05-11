@@ -33,6 +33,8 @@ navigation:
     url: /security/
   - title: Plugins
     url: /plugins/
+  - title: Sponsoring
+    url: /sponsoring/
   - title: Blog
     url: /posts/
 
