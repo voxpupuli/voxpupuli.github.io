@@ -205,6 +205,42 @@ Result:
 
 ```
 
+### Get all values for a trusted fact
+
+With the following query you can get a unique list of different values from the trusted hash
+
+```shell
+puppet query 'inventory[trusted.extensions.pp_role]{ group by trusted.extensions.pp_role }'
+```
+
+Result:
+
+```json
+[
+  {
+    "trusted.extensions.pp_role": "guacamole"
+  },
+  {
+    "trusted.extensions.pp_role": "gitlab"
+  },
+  {
+    "trusted.extensions.pp_role": "kibana"
+  },
+  {
+    "trusted.extensions.pp_role": "webserver"
+  },
+  {
+    "trusted.extensions.pp_role": "runner"
+  },
+  {
+    "trusted.extensions.pp_role": "elasticsearch"
+  },
+  {
+    "trusted.extensions.pp_role": "dbserver"
+  }
+]
+```
+
 ### Get a sorted list of all recent event failures
 
 This gives a list of recent event failures from the lastest reports and applies counts to them to show how many
