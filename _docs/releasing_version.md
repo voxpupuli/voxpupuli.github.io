@@ -13,7 +13,19 @@ Creating a release is a two step process:
 
 Run modulesync to ensure the dotfiles are up-to-date.
 
-Create a 'release pr'. This pull request updates the changelog and bumps the
+Checkout an updated copy of master
+
+```bash
+git checkout master; git fetch origin; git pull origin master
+```
+
+Create a 'release pr'.
+
+```bash
+git checkout -b release_1_2_3
+```
+
+This pull request updates the changelog and bumps the
 version number to the target version, removing all release candidate
 identifiers, i.e. from `0.10.7-rc0` to `0.10.7`. Here's an example:
 [puppet-extlib's 0.10.7 release](https://github.com/voxpupuli/puppet-extlib/pull/43).
@@ -26,13 +38,15 @@ ruby 1.8 support has been dropped.)
 If necessary, run `bundle install` before continuing. If you want you can also only install the needed gems:
 
 ```bash
-bundle install --path .vendor/ --without system_tests development
+# You can add --jobs with the number of cores you have to run this much faster in parallel.
+bundle install --path .vendor --jobs 8
 ```
 
 And in case you installed the gems before:
 
 ```bash
-bundle install --path .vendor/ --without system_tests development; bundle update; bundle clean
+rm -fr .vendor
+bundle install --path .vendor
 ```
 
 If the module contains a Puppet Strings generated documentation, please
@@ -41,7 +55,7 @@ documentation is the existence of a REFERENCE.md file. You can automatically
 generate the documentation by running the following rake task:
 
 ```bash
-bundle exec rake strings:generate:reference
+bundle exec rake reference
 ```
 
 We can generate the changelog after updating the metadata.json with a rake task
@@ -53,21 +67,20 @@ the changelog generator expects the token in the environment variable `CHANGELOG
 CHANGELOG_GITHUB_TOKEN='mytoken' bundle exec rake changelog
 ```
 
-The changelog generator checks for certain labels on closed issues and PRs since
-the last release and groups them together. If the changes were neither
+The changelog generator checks for certain labels on closed issues and PRs
+since the last release and groups them together. If the changes were neither
 backwards-incompatible nor only bug fixes, make a minor release. Check the
 generated diff for the CHANGELOG.md. If your chosen release version doesn't
-match the generated changelog, update metadata.json and run the changelog task again.
+match the generated changelog, update metadata.json and run the changelog task
+again. Ensure the pull requests in the diff have the appropriate GitHub labels.
+If not, update the label for the PR and re-run the changelog task.
 
 Get community feedback on the release pr, label it with `skip-changelog`, get it merged.
 
 ## Doing the release
 
-Checkout an updated copy of master
 
-```bash
-git checkout master; git fetch origin; git pull origin master
-```
+If you do the merge, you should do the following release rake task.
 
 Run the rake target `release`. This will:
 
