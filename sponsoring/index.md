@@ -14,8 +14,8 @@ Unfortunately a few things costs us money, like:
 - Sometimes we need a little BBQ and gathering of our community, for the work we love so much!
 
 There are ways to sponsor us:
-- [Voxpupuli on open collective](https://opencollective.com/vox-pupuli)
-- [Voxpupuli on GitHub](https://github.com/sponsors/voxpupuli)
+- [Vox Pupuli on open collective](https://opencollective.com/vox-pupuli)
+- [Vox Pupuli on GitHub](https://github.com/sponsors/voxpupuli)
 
 Or with stuff like:
 - Sponsor our CI resources at Hetzner
