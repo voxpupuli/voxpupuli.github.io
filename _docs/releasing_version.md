@@ -35,22 +35,13 @@ And in case you installed the gems before:
 bundle install --path .vendor/ --without system_tests development; bundle update; bundle clean
 ```
 
-If the module contains a Puppet Strings generated documentation, please
-ensure the file is up-to-date. A good indicator for a Puppet Strings
-documentation is the existence of a REFERENCE.md file. You can automatically
-generate the documentation by running the following rake task:
-
-```bash
-bundle exec rake strings:generate:reference
-```
-
 We can generate the changelog after updating the metadata.json with a rake task
 (in most cases, this requires a
 [GitHub access token (docs on how to create one)](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line):
 the changelog generator expects the token in the environment variable `CHANGELOG_GITHUB_TOKEN`)
 
 ```bash
-CHANGELOG_GITHUB_TOKEN='mytoken' bundle exec rake changelog
+CHANGELOG_GITHUB_TOKEN='mytoken' bundle exec rake release:prepare
 ```
 
 The changelog generator checks for certain labels on closed issues and PRs since
@@ -60,6 +51,9 @@ generated diff for the CHANGELOG.md. If your chosen release version doesn't
 match the generated changelog, update metadata.json and run the changelog task again.
 
 Get community feedback on the release pr, label it with `skip-changelog`, get it merged.
+
+If a REFERENCE.md is present and outdated, the `release:prepare` task will
+regenerate it.
 
 ## Doing the release
 
