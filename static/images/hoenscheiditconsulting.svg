@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 137.62 137.83">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke-width: 3px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #00a7e1;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3, .cls-4, .cls-2 {
+        fill: #00a7e1;
+      }
+
+      .cls-4 {
+        font-size: 5.36px;
+      }
+
+      .cls-4, .cls-2 {
+        font-family: Michroma, Michroma;
+      }
+
+      .cls-2 {
+        font-size: 7.3px;
+        letter-spacing: .1em;
+        stroke-width: .5px;
+      }
+
+      .cls-5 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-6 {
+        fill: url(#Verblassender_Himmel);
+      }
+    </style>
+    <linearGradient id="Verblassender_Himmel" data-name="Verblassender Himmel" x1="50.78" y1="60.21" x2="86.84" y2="60.21" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2581c4"/>
+      <stop offset="1" stop-color="#2581c4" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path class="cls-3" d="m50.78,33.94h8.76v21.6s18.55,0,18.55,0v-21.6h8.76v52.55h-8.76v-22.83s-18.55,0-18.55,0v22.83h-8.76v-52.55Z"/>
+  <path class="cls-6" d="m50.78,33.94h8.76v21.6s18.55,0,18.55,0v-21.6h8.76v52.55h-8.76v-22.83s-18.55,0-18.55,0v22.83h-8.76v-52.55Z"/>
+  <g>
+    <polyline class="cls-1" points="50.31 20.99 36.31 20.99 36.31 99.43 50.31 99.43"/>
+    <polyline class="cls-1" points="87.31 99.43 101.31 99.43 101.31 20.99 87.31 20.99"/>
+  </g>
+  <g>
+    <text class="cls-2" transform="translate(34.5 116.49)"><tspan x="0" y="0">HÖNSCHEID</tspan></text>
+    <text class="cls-4" transform="translate(46.51 124.28)"><tspan x="0" y="0">IT </tspan><tspan class="cls-5" x="7.88" y="0">C</tspan><tspan x="13.24" y="0">onsulting</tspan></text>
+  </g>
+</svg>
