@@ -36,7 +36,7 @@ Thanks Hetzner Cloud GmbH for sponsoring the cloud resources to host
 
 Thanks to [hoenscheid-itconsulting.com](https://www.hoenscheid-itconsulting.com/) for sponsoring us 50$/month via GitHub sponsors!
 
-[![Sponsored by hoenscheid-itconsulting.com]({{ site.url }}{{ site.baseurl }}/static/images/hoenscheiditconsulting.png)](https://www.hoenscheid-itconsulting.com)
+[![Sponsored by hoenscheid-itconsulting.com]({{ site.url }}{{ site.baseurl }}/static/images/hoenscheiditconsulting.png){:width="80%"}](https://www.hoenscheid-itconsulting.com)
 
 ---
 
