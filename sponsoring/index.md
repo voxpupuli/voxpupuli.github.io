@@ -28,6 +28,10 @@ At the moment we've multiple sponsors via GitHub. In addition to that,
 [Hetzner Cloud GmbH](https://www.hetzner-cloud.de/en) sponsors us cloud resources.
 
 Thanks Hetzner Cloud GmbH for sponsoring the cloud resources to host
-[puppetmodule.info](https://www.puppetmodule.info) and [voxpupuli](https://voxpupu.li)!
+[puppetmodule.info](https://www.puppetmodule.info) and [voxpupu.li](https://voxpupu.li)!
 
 [![Sponsored by Hetzner Cloud GmbH]({{ site.url }}{{ site.baseurl }}/static/images/hetzner_cloud_logo.svg)](https://www.hetzner.com)
+
+Thanks to [hoenscheid-itconsulting.com](https://www.hoenscheid-itconsulting.com/) for sponsoring us 50$/month via GitHub sponsors!
+
+[![Sponsored by hoenscheid-itconsulting.com]({{ site.url }}{{ site.baseurl }}/static/images/hoenscheiditconsulting.svg)](hoenscheid-itconsulting.com)
