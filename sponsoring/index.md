@@ -43,3 +43,9 @@ Thanks to [hoenscheid-itconsulting.com](https://www.hoenscheid-itconsulting.com/
 Thanks to [betadots GmbH](https://www.betadots.de/) for sponsoring us 50$/month via GitHub sponsors!
 
 [![Sponsored by betadots]({{ site.url }}{{ site.baseurl }}/static/images/betadots.png){:width="80%"}](https://www.betadots.de/)
+
+---
+
+Thanks to [Babiel GmbH](https://babiel.com/) for sponsoring us 50$/month via GitHub sponsors!
+
+[![Sponsored by babiel]({{ site.url }}{{ site.baseurl }}/static/images/babiel_logo_RGB.svg){:width="80%"}](https://babiel.com/)
