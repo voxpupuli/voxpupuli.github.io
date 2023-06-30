@@ -22,7 +22,12 @@ Or with stuff like:
 - Sponsor Swag for conferences
 - Sponsor Domain costs at Inwx
 
+If you're interested in these options, please get in touch and email the Project Management Committee at pmc@voxpupuli.org.
+
 At the moment we've multiple sponsors via GitHub. In addition to that,
 [Hetzner Cloud GmbH](https://www.hetzner-cloud.de/en) sponsors us cloud resources.
 
-If you're interested in these options, please get in touch and Email the Project Management Committee at pmc@voxpupuli.org.
+Thanks Hetzner Cloud GmbH for sponsoring the cloud resources to host
+[puppetmodule.info](https://www.puppetmodule.info) and [voxpupuli](https://voxpupu.li)!
+
+[![Sponsored by Hetzner Cloud GmbH]({{ site.url }}{{ site.baseurl }}/static/images/hetzner_cloud_logo.svg)](https://www.hetzner.com)
