@@ -32,6 +32,14 @@ Thanks Hetzner Cloud GmbH for sponsoring the cloud resources to host
 
 [![Sponsored by Hetzner Cloud GmbH]({{ site.url }}{{ site.baseurl }}/static/images/hetzner_cloud_logo.svg)](https://www.hetzner.com)
 
+---
+
 Thanks to [hoenscheid-itconsulting.com](https://www.hoenscheid-itconsulting.com/) for sponsoring us 50$/month via GitHub sponsors!
 
-[![Sponsored by hoenscheid-itconsulting.com]({{ site.url }}{{ site.baseurl }}/static/images/hoenscheiditconsulting.svg)](hoenscheid-itconsulting.com)
+[![Sponsored by hoenscheid-itconsulting.com]({{ site.url }}{{ site.baseurl }}/static/images/hoenscheiditconsulting.png){:width="80%"}](https://www.hoenscheid-itconsulting.com)
+
+---
+
+Thanks to [betadots GmbH](https://www.betadots.de/) for sponsoring us 50$/month via GitHub sponsors!
+
+[![Sponsored by betadots]({{ site.url }}{{ site.baseurl }}/static/images/betadots.png){:width="80%"}](https://www.betadots.de/)
