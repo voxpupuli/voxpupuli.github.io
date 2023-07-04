@@ -25,7 +25,7 @@ Or with stuff like:
 If you're interested in these options, please get in touch and email the Project Management Committee at pmc@voxpupuli.org.
 
 At the moment we've multiple sponsors via GitHub. In addition to that, multiple
-companies sponsor us cloud/CI resources.
+companies sponsor our cloud/CI resources.
 
 Thanks GitHub for sponsoring us 60 concurrent CI runners and the
 [GitHub Team plan](https://github.com/pricing) for the whole Vox Pupuli organisation!
