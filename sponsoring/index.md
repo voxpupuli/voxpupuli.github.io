@@ -30,7 +30,7 @@ companies sponsor our cloud/CI resources.
 Thanks GitHub for sponsoring us 60 concurrent CI runners and the
 [GitHub Team plan](https://github.com/pricing) for the whole Vox Pupuli organisation!
 
-[![Sponsored by GitHb]({{ site.url }}{{ site.baseurl }}/static/images/GitHub_Logo.png){:width="80%"}](https://github.com)
+[![Sponsored by GitHub]({{ site.url }}{{ site.baseurl }}/static/images/GitHub_Logo.png){:width="80%"}](https://github.com)
 
 ---
 
