@@ -24,8 +24,15 @@ Or with stuff like:
 
 If you're interested in these options, please get in touch and email the Project Management Committee at pmc@voxpupuli.org.
 
-At the moment we've multiple sponsors via GitHub. In addition to that,
-[Hetzner Cloud GmbH](https://www.hetzner-cloud.de/en) sponsors us cloud resources.
+At the moment we've multiple sponsors via GitHub. In addition to that, multiple
+companies sponsor our cloud/CI resources.
+
+Thanks GitHub for sponsoring us 60 concurrent CI runners and the
+[GitHub Team plan](https://github.com/pricing) for the whole Vox Pupuli organisation!
+
+[![Sponsored by GitHub]({{ site.url }}{{ site.baseurl }}/static/images/GitHub_Logo.png){:width="80%"}](https://github.com)
+
+---
 
 Thanks Hetzner Cloud GmbH for sponsoring the cloud resources to host
 [puppetmodule.info](https://www.puppetmodule.info) and [voxpupu.li](https://voxpupu.li)!
