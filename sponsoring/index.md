@@ -56,3 +56,9 @@ Thanks to [betadots GmbH](https://www.betadots.de/) for sponsoring us 50$/month 
 Thanks to [Babiel GmbH](https://babiel.com/) for sponsoring us 50$/month via GitHub sponsors!
 
 [![Sponsored by babiel]({{ site.url }}{{ site.baseurl }}/static/images/babiel_logo_RGB.svg){:width="80%"}](https://babiel.com/)
+
+---
+
+Thanks to [Enterprise Modules B.V.](https://www.enterprisemodules.com/) for sponsoring us 100$/month via open collective!
+
+[![Sponsored by Enterprise Modules]({{ site.url }}{{ site.baseurl }}/static/images/logo-Enterprise-modules SVG.svg){:width="80%"}](https://www.enterprisemodules.com/)
