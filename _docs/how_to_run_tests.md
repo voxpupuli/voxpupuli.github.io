@@ -48,7 +48,7 @@ To limit test execution to a certain os or os release you can set the environmen
 
 ## Acceptance tests
 
-`BEAKER_setfile=centos7-64 bundle exec rake beaker`
+`BEAKER_SETFILE=centos7-64 bundle exec rake beaker`
 
 How to run the acceptance tests is described more in detail on this page:
 [voxpupuli-acceptance](https://github.com/voxpupuli/voxpupuli-acceptance/#running-tests)
