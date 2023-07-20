@@ -20,12 +20,13 @@
       {% endfor %}
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="https://voxpupuli.org/privacy-policy"> Privacy Policy</a></li>
+      <li><a href="/privacy-policy"> Privacy Policy</a></li>
       <li><a href="https://github.com/voxpupuli"><i class="fa fa-github"></i> Github</a></li>
     </ul>
-    <div class="nav navbar-nav navbar-left">
-    {% include breadcrumbs.html %}
-    </div>
   </div><!--/.nav-collapse -->
 </div>
 </nav>
+
+<div class="container">
+  {% include breadcrumbs.html %}
+</div>

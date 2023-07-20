@@ -21,6 +21,8 @@ kramdown:
 collections:
   docs:
     output: true
+  sponsors:
+    output: false
 
 navigation:
   - title: Code of Conduct

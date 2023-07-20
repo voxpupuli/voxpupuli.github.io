@@ -59,3 +59,24 @@ div.mermaid {
   margin: 1em;
   box-shadow: 2px 2px 4px #ccc;
 }
+
+body {
+  background-color: #f5f5f5;
+}
+ol.breadcrumb {
+  padding: 0;
+}
+section.content {
+  background-color: #eee;
+}
+#footer {
+  padding-top: 1em;
+  margin-top: 1em;
+  font-size: small;
+}
+.row {
+  margin: 1em 0;
+}
+.card {
+  margin: 1em 0;
+}
