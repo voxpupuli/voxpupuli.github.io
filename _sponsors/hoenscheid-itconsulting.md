@@ -1,7 +1,7 @@
 ---
 name: hoenscheid-itconsulting.com
 logo: sponsor-hoenscheiditconsulting.png
-url: https://www.hoenscheid-itconsulting.com/
+website: https://www.hoenscheid-itconsulting.com/
 button: hoenscheid-itconsulting.com
 ---
 

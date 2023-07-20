@@ -1,7 +1,7 @@
 ---
 name: Hetzner Cloud GmbH
 logo: sponsor-hetzner.png
-url: https://www.hetzner.com
+website: https://www.hetzner.com
 button: hetzner.com
 ---
 

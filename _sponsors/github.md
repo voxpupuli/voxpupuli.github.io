@@ -1,7 +1,7 @@
 ---
 name: GitHub
 logo: sponsor-github.png
-url: https://github.com/
+website: https://github.com/
 button: github.com
 ---
 

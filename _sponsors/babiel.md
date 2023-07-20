@@ -1,7 +1,7 @@
 ---
 name: Babiel
 logo: sponsor-babiel.png
-url: https://babiel.com/
+website: https://babiel.com/
 button: babiel.com
 ---
 

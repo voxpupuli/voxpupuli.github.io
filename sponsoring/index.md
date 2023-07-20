@@ -37,7 +37,7 @@ companies sponsor our cloud/CI resources.
         <div class="card-body">
           <h5 class="card-title">Sponsored by {{sponsor.name}}</h5>
           <p class="card-text">{{sponsor.content | markdownify }}</p>
-          <a href="{{sponsor.url}}" class="btn btn-primary">{{sponsor.button}}</a>
+          <a href="{{sponsor.website}}" class="btn btn-primary">{{sponsor.button}}</a>
         </div>
       </div>
     </div>
