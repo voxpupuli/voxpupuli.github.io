@@ -4,7 +4,12 @@ SPONSOR_LOGO=	300x150
 SPONSOR_CANVAS=	320x170
 
 sponsor-%.png:
-        convert "$<" -background transparent -resize ${SPONSOR_LOGO} -gravity center -extent ${SPONSOR_CANVAS} "$@"
+	convert "$<" -background transparent -resize ${SPONSOR_LOGO} -gravity center -extent ${SPONSOR_CANVAS} "$@"
+
+.SUFFIXES: .png .svg
+
+%.png: %.svg
+	inkscape -o "$@" "$<"
 
 sponsor-github.png: GitHub_Logo.png
 
@@ -17,12 +22,3 @@ sponsor-betadots.png: betadots.png
 sponsor-babiel.png: babiel_logo_RGB.png
 
 sponsor-enterprise-modules.png: logo-Enterprise-modules\ SVG.png
-
-hetzner_cloud_logo.png: hetzner_cloud_logo.svg
-        inkscape -o "$@" "$<"
-
-babiel_logo_RGB.png: babiel_logo_RGB.svg
-        inkscape -o "$@" "$<"
-
-logo-Enterprise-modules\ SVG.png: logo-Enterprise-modules\ SVG.svg
-        inkscape -o "$@" "$<"
