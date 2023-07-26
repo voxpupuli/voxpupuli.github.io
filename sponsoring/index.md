@@ -27,38 +27,19 @@ If you're interested in these options, please get in touch and email the Project
 At the moment we've multiple sponsors via GitHub. In addition to that, multiple
 companies sponsor our cloud/CI resources.
 
-Thanks GitHub for sponsoring us 80 concurrent CI runners and the
-[GitHub Team plan](https://github.com/pricing) for the whole Vox Pupuli organisation!
-
-[![Sponsored by GitHub]({{ site.url }}{{ site.baseurl }}/static/images/GitHub_Logo.png){:width="80%"}](https://github.com)
-
----
-
-Thanks Hetzner Cloud GmbH for sponsoring the cloud resources to host
-[puppetmodule.info](https://www.puppetmodule.info) and [voxpupu.li](https://voxpupu.li)!
-
-[![Sponsored by Hetzner Cloud GmbH]({{ site.url }}{{ site.baseurl }}/static/images/hetzner_cloud_logo.svg)](https://www.hetzner.com)
-
----
-
-Thanks to [hoenscheid-itconsulting.com](https://www.hoenscheid-itconsulting.com/) for sponsoring us 50$/month via GitHub sponsors!
-
-[![Sponsored by hoenscheid-itconsulting.com]({{ site.url }}{{ site.baseurl }}/static/images/hoenscheiditconsulting.png){:width="80%"}](https://www.hoenscheid-itconsulting.com)
-
----
-
-Thanks to [betadots GmbH](https://www.betadots.de/) for sponsoring us 50$/month via GitHub sponsors!
-
-[![Sponsored by betadots]({{ site.url }}{{ site.baseurl }}/static/images/betadots.png){:width="80%"}](https://www.betadots.de/)
-
----
-
-Thanks to [Babiel GmbH](https://babiel.com/) for sponsoring us 50$/month via GitHub sponsors!
-
-[![Sponsored by babiel]({{ site.url }}{{ site.baseurl }}/static/images/babiel_logo_RGB.svg){:width="80%"}](https://babiel.com/)
-
----
-
-Thanks to [Enterprise Modules B.V.](https://www.enterprisemodules.com/) for sponsoring us 100$/month via open collective!
-
-[![Sponsored by Enterprise Modules]({{ site.url }}{{ site.baseurl }}/static/images/logo-Enterprise-modules SVG.svg){:width="80%"}](https://www.enterprisemodules.com/)
+<div class="row">
+  {% for sponsor in site.sponsors %}
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-image">
+          <img src="{{ site.url }}{{ site.baseurl }}/static/images/{{sponsor.logo}}" alt="Sponsored by {{sponsor.name}}">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Sponsored by {{sponsor.name}}</h5>
+          <p class="card-text">{{sponsor.content | markdownify }}</p>
+          <a href="{{sponsor.website}}" class="btn btn-primary">{{sponsor.button}}</a>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>

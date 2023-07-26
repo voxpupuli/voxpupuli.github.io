@@ -7,7 +7,7 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="/"><img class="logo" src="{{site.url}}/static/images/8bit-vox.png" alt="{{ site.title }}"> {{ site.title }}</a>
+    <a class="navbar-brand" href="/"><img class="logo" src="{{site.url}}{{site.baseurl}}/static/images/8bit-vox.png" alt="{{ site.title }}"> {{ site.title }}</a>
   </div>
   <div id="navbar" class="collapse navbar-collapse">
     <ul class="nav navbar-nav">
@@ -20,12 +20,13 @@
       {% endfor %}
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="https://voxpupuli.org/privacy-policy"> Privacy Policy</a></li>
+      <li><a href="{{site.url}}{{site.baseurl}}/privacy-policy"> Privacy Policy</a></li>
       <li><a href="https://github.com/voxpupuli"><i class="fa fa-github"></i> Github</a></li>
     </ul>
-    <div class="nav navbar-nav navbar-left">
-    {% include breadcrumbs.html %}
-    </div>
   </div><!--/.nav-collapse -->
 </div>
 </nav>
+
+<div class="container">
+  {% include breadcrumbs.html %}
+</div>
