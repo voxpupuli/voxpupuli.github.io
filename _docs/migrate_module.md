@@ -15,7 +15,6 @@ You will have someone by your side in this process. The general flow is to…
 * Enable `Automatically delete head branches` in the repository settings.
 * Ask an admin to add the `collaborators` team to the module's `Collaborators & Teams` 'Teams' list with `Write` permissions (e.g. [https://github.com/voxpupuli/puppet-gitlab/settings/collaboration](https://github.com/voxpupuli/puppet-gitlab/settings/collaboration) (that link works only for admins).
 * The admin shall also update the [access permissions](https://github.com/organizations/voxpupuli/settings/secrets/actions) (that link works only for admins) for forge.puppet.com secrets so releases can be published.
-* The admin shall also enable `Automatically delete head branches` in the repository settings.
 * Execute [modulesync][msync] for this module.
 * Create a Jira issue at [tickets.puppetlabs.com](https://tickets.puppetlabs.com) in the FORGE project and ask to deprecate the old module (and approve the new one if the old one was approved as well).
 * Do you think the module qualifies to be approved? Wait until it is released, then raise a [GitHub Issue][approve] in the Puppetlabs organisation.
