@@ -72,7 +72,7 @@ Run the rake target `release`. This will:
 
 *Please note that in order to execute this rake task you must be in the __Collaborators__ group on GitHub for the module in question.*
 
-*Please also note that the task requires a configured gpg key in your local git settings*
+*Please also note that the task requires a configured gpg or ssh key in your local git settings to sign the git tag*
 
 ```bash
 bundle exec rake release
