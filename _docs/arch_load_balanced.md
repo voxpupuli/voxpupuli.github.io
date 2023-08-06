@@ -18,6 +18,7 @@ that require the redundancy of multiple compilers.
   Foreman(The Foreman)
   Webhook(Puppet Webhook Server)
   AllCompilers((All Compilers))
+  HDM(Hiera Data Manager)
 
   MainPuppetServer{Main Puppet Server}
 
@@ -33,6 +34,7 @@ that require the redundancy of multiple compilers.
   Agent2(Agent 2)
   Agent_n(Agent n)
 
+  click HDM "https://github.com/betadots/hdm" "HDM is a web interface for analyzing and managing hiera data."
   click Foreman "https://www.theforeman.org" "Foreman is a complete lifecycle management tool for physical and virtual servers."
   click Webhook "https://github.com/voxpupuli/puppet_webhook" "A webhook service that can trigger code deploys from source code repository updates."
 
@@ -42,6 +44,8 @@ that require the redundancy of multiple compilers.
 
   Foreman --> MainPuppetServer
   MainPuppetServer --> Foreman
+  HDM --> MainPuppetServer
+  MainPuppetServer --> HDM
 
   Compile1 --> MainPuppetServer
   Compile2 --> MainPuppetServer
