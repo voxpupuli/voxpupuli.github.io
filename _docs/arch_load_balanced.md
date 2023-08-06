@@ -1,8 +1,8 @@
 ---
 layout: architecture
 title: Load Balanced
-date: 2019-07-09
-version: v0.0.1
+date: 2023-08-09
+version: v0.0.2
 summary: A complete server/agent architecture with multiple compilers and load balancing for redundancy.
 ---
 
@@ -19,7 +19,7 @@ that require the redundancy of multiple compilers.
   Webhook(Puppet Webhook Server)
   AllCompilers((All Compilers))
 
-  PuppetDB
+  PostgreSQL
 
   MainPuppetServer{Main Puppet Server}
 
@@ -43,21 +43,22 @@ that require the redundancy of multiple compilers.
   Webhook --r10k code deploy--> MainPuppetServer
   Webhook -.r10k code deploy.-> AllCompilers
 
-  PuppetDB --- MainPuppetServer
+  PostgreSQL --- MainPuppetServer
+  PostgreSQL --- Compilers
   Foreman --- MainPuppetServer
 
-  MainPuppetServer --> Compile1
-  MainPuppetServer --> Compile2
-  MainPuppetServer --> Compile3
+  Compile1 --> MainPuppetServer
+  Compile2 --> MainPuppetServer
+  Compile3 --> MainPuppetServer
 
-  Compile1 --> LoadBalancer
-  Compile2 --> LoadBalancer
-  Compile3 --> LoadBalancer
+  LoadBalancer --> Compile1
+  LoadBalancer --> Compile2
+  LoadBalancer --> Compile3
 
-  LoadBalancer --> Agent1
-  LoadBalancer --> Agent2
-  LoadBalancer --> Agents
-  LoadBalancer --> Agent_n
+  Agent1 --> LoadBalancer
+  Agent2 --> LoadBalancer
+  Agent3 --> LoadBalancer
+  Agent_n --> LoadBalancer
 </div>
 
 ## Setup and Usage
@@ -102,7 +103,9 @@ If you're a Golang shop, you might consider [g10k](https://github.com/xorpaul/g1
 
 ### Load Balancer
 
-Is current state-of-the-art still Nginx?
+Puppet Agent Server connections are connections with long duration. Therfore it is highly recommended to use `least_connection` algorithm.
+
+Any kind of load-balancer is sufficient. [HAProxy](https://github.com/puppetlabs/puppetlabs-haproxy) is well supported and allows flexibility.
 
 
 ### Puppet Stack
