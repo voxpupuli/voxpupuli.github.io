@@ -1,7 +1,7 @@
 ---
 layout: architecture
 title: Load Balanced
-date: 2023-08-05
+date: 2023-08-06
 version: v0.0.2
 summary: A complete server/agent architecture with multiple compilers and load balancing for redundancy.
 ---
