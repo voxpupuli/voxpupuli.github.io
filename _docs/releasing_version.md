@@ -12,7 +12,7 @@ Creating a release is a two step process:
 
 ## Preparing a release
 
-This has to be done on a __*private*__ fork.
+This should be done on a __*personal*__ fork.
 
 Run modulesync to ensure the dotfiles are up-to-date.
 
