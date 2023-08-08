@@ -6,10 +6,13 @@ summary: How to perform a complete version release, including modulesync and pub
 ---
 
 Creating a release is a two step process:
+
 1. Prepare the release — setup everything so that peer review can happen and when everything is ready…
 2. Do the actual release
 
 ## Preparing a release
+
+This has to be done on a __*private*__ fork.
 
 Run modulesync to ensure the dotfiles are up-to-date.
 
@@ -18,10 +21,10 @@ version number to the target version, removing all release candidate
 identifiers, i.e. from `0.10.7-rc0` to `0.10.7`. Here's an example:
 [puppet-extlib's 0.10.7 release](https://github.com/voxpupuli/puppet-extlib/pull/43).
 In most cases it is sufficient to update metadata.json. We try
-to respect [semantic versioning](http://semver.org/) and decided that dropping ruby1.8
-support is a major change and requires a major version bump for the module.
-(Only the minor version should be bumped if the module is pre version 1.0 and
-ruby 1.8 support has been dropped.)
+to respect [semantic versioning](http://semver.org/). We decided that dropping
+support for a puppet version or ruby is a major change and requires a major version bump for the module.
+(Only the minor version should be bumped if the module is pre version 1.0 and puppet or
+ruby support has been dropped.)
 
 If necessary, run `bundle install` before continuing. If you want you can also only install the needed gems:
 
@@ -62,6 +65,8 @@ match the generated changelog, update metadata.json and run the changelog task a
 Get community feedback on the release pr, label it with `skip-changelog`, get it merged.
 
 ## Doing the release
+
+This has to be done on the __*upstream*__ repo itself.
 
 Checkout an updated copy of master
 
