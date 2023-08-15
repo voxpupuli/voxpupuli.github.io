@@ -7,8 +7,6 @@ twitter_username: bastelsblog
 category: changelog
 ---
 
-Hi!
-
 Since [Configuration Management Camp 2023](https://cfgmgmtcamp.eu/), people can
 finally donate to Vox Pupuli!
 
