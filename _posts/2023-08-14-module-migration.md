@@ -7,8 +7,6 @@ twitter_username: bastelsblog
 category: changelog
 ---
 
-Hi!
-
 Puppet stepped up and is interested in maintaining some of our (archived)
 windows modules. Today we migrated the following git repositories to them:
 

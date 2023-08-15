@@ -7,8 +7,6 @@ twitter_username: bastelsblog
 category: changelog
 ---
 
-Hi!
-
 As a result of a set of discussions on IRC and on the mailinglist. We will archive the
 following modules due to lack of community engagement:
 
