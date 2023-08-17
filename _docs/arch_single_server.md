@@ -1,8 +1,8 @@
 ---
 layout: architecture
 title: Single Server
-date: 2019-07-09
-version: v0.0.1
+date: 2023-08-06
+version: v0.0.2
 summary: A simple server/agent architecture with all services running on a single machine.
 ---
 
@@ -25,13 +25,10 @@ needs, then this architecture is suggested.
     Webhook(Puppet Webhook Server)
     PuppetDB
     PuppetServer{Puppet Server}
+    HDM(Hiera Data Manager)
   end
 
-  Agent1(Agent 1)
-  Agent2(Agent 2)
-  Agents(Agents ...)
-  Agent_n(Agent n)
-
+  click HDM "https://github.com/betadots/hdm" "HDM is a web interface for analyzing and managing hiera data."
   click Foreman "https://www.theforeman.org" "Foreman is a complete lifecycle management tool for physical and virtual servers."
   click Webhook "https://github.com/voxpupuli/puppet_webhook" "A webhook service that can trigger code deploys from source code repository updates."
 
@@ -40,11 +37,15 @@ needs, then this architecture is suggested.
 
   PuppetDB --- PuppetServer
   Foreman --- PuppetServer
+  HDM --- PuppetServer
 
-  PuppetServer --> Agent1
-  PuppetServer --> Agent2
-  PuppetServer --> Agents
-  PuppetServer --> Agent_n
+  Agent1(Agent 1)
+  Agent2(Agent 2)
+  Agent_n(Agent n)
+
+  PuppetServer --- Agent1
+  PuppetServer --- Agent2
+  PuppetServer --- Agent_n
 </div>
 
 ## Setup and Usage
@@ -90,7 +91,7 @@ We recommend managing each of these components with the supported module.
     * [puppetlabs/puppetdb](https://forge.puppet.com/puppetlabs/puppetdb)
     * The default PostgreSQL database is recommended.
 * Puppet Server
-    * [puppet/puppetserver](https://forge.puppet.com/puppet/puppetserver)
+    * [theforeman/puppet](https://forge.puppet.com/modules/theforeman/puppet)
 * Puppet Agents
     * [puppetlabs/puppet_agent](https://forge.puppet.com/puppetlabs/puppet_agent)
 * Puppet Metrics Dashboard

@@ -1,8 +1,8 @@
 ---
 layout: architecture
 title: Load Balanced
-date: 2019-07-09
-version: v0.0.1
+date: 2023-08-06
+version: v0.0.2
 summary: A complete server/agent architecture with multiple compilers and load balancing for redundancy.
 ---
 
@@ -18,24 +18,23 @@ that require the redundancy of multiple compilers.
   Foreman(The Foreman)
   Webhook(Puppet Webhook Server)
   AllCompilers((All Compilers))
-
-  PuppetDB
+  HDM(Hiera Data Manager)
 
   MainPuppetServer{Main Puppet Server}
 
   subgraph Compilers[Compilers]
-      Compile1[/Compilers\]
-      Compile2[/Compilers\]
-      Compile3[/Compilers\]
+      Compile1[Compile1]
+      Compile2[Compile2]
+      Compile3[Compile3]
   end
 
   LoadBalancer[Load Balancer]
 
   Agent1(Agent 1)
   Agent2(Agent 2)
-  Agents(Agents ...)
   Agent_n(Agent n)
 
+  click HDM "https://github.com/betadots/hdm" "HDM is a web interface for analyzing and managing hiera data."
   click Foreman "https://www.theforeman.org" "Foreman is a complete lifecycle management tool for physical and virtual servers."
   click Webhook "https://github.com/voxpupuli/puppet_webhook" "A webhook service that can trigger code deploys from source code repository updates."
 
@@ -43,21 +42,23 @@ that require the redundancy of multiple compilers.
   Webhook --r10k code deploy--> MainPuppetServer
   Webhook -.r10k code deploy.-> AllCompilers
 
-  PuppetDB --- MainPuppetServer
-  Foreman --- MainPuppetServer
+  Foreman --> MainPuppetServer
+  MainPuppetServer --> Foreman
+  HDM --> MainPuppetServer
+  MainPuppetServer --> HDM
 
-  MainPuppetServer --> Compile1
-  MainPuppetServer --> Compile2
-  MainPuppetServer --> Compile3
+  Compile1 --> MainPuppetServer
+  Compile2 --> MainPuppetServer
+  Compile3 --> MainPuppetServer
 
-  Compile1 --> LoadBalancer
-  Compile2 --> LoadBalancer
-  Compile3 --> LoadBalancer
+  LoadBalancer --> Compile1
+  LoadBalancer --> Compile2
+  LoadBalancer --> Compile3
 
-  LoadBalancer --> Agent1
-  LoadBalancer --> Agent2
-  LoadBalancer --> Agents
-  LoadBalancer --> Agent_n
+  Agent1 --> LoadBalancer
+  Agent2 --> LoadBalancer
+  Agent3 --> LoadBalancer
+  Agent_n --> LoadBalancer
 </div>
 
 ## Setup and Usage
@@ -102,7 +103,9 @@ If you're a Golang shop, you might consider [g10k](https://github.com/xorpaul/g1
 
 ### Load Balancer
 
-Is current state-of-the-art still Nginx?
+Puppet Agent Server connections are connections with long duration. Therfore it is highly recommended to use `least_connection` algorithm.
+
+Any kind of load-balancer is sufficient. [HAProxy](https://www.haproxy.org/) is well supported and allows flexibility.
 
 
 ### Puppet Stack
@@ -113,10 +116,12 @@ We recommend managing each of these components with the supported module.
     * [puppetlabs/puppetdb](https://forge.puppet.com/puppetlabs/puppetdb)
     * The default PostgreSQL database is recommended.
 * Puppet Server
-    * [puppet/puppetserver](https://forge.puppet.com/puppet/puppetserver)
+    * [theforeman/puppet](https://forge.puppet.com/modules/theforeman/puppet)
 * Puppet Agents
     * [puppetlabs/puppet_agent](https://forge.puppet.com/puppetlabs/puppet_agent)
 * Puppet Metrics Dashboard
     * [puppetlabs/puppet_metrics_dashboard](https://forge.puppet.com/puppetlabs/puppet_metrics_dashboard)
 * Hiera Data Manager (HDM)
     * [puppet/hdm](https://forge.puppet.com/modules/puppet/hdm)
+* HAproxy LoadBalancer
+    * [puppetlabs/haproxy](https://forge.puppet.com/modules/puppetlabs/haproxy)
