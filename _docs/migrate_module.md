@@ -11,6 +11,7 @@ You will have someone by your side in this process. The general flow is to…
 * At that point you can transfer your own repository.
 * Ensure github issues are enabled.
 * Verify that all webhooks are disabled.
+* If this module was created with PDK delete .sync.yaml.
 * Add the module to our [modulesync setup][managed_modules].
 * Enable `Automatically delete head branches` in the repository settings.
 * Ask an admin to add the `collaborators` team to the module's `Collaborators & Teams` 'Teams' list with `Write` permissions (e.g. [https://github.com/voxpupuli/puppet-gitlab/settings/collaboration](https://github.com/voxpupuli/puppet-gitlab/settings/collaboration) (that link works only for admins).
