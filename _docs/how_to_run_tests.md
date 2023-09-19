@@ -52,3 +52,9 @@ To limit test execution to a certain os or os release you can set the environmen
 
 How to run the acceptance tests is described more in detail on this page:
 [voxpupuli-acceptance](https://github.com/voxpupuli/voxpupuli-acceptance/#running-tests)
+
+## REFERENCE.md update
+
+If REFERENCE.md is now out of date you can fix it with:
+
+`bundle exec rake  strings:generate:reference`
