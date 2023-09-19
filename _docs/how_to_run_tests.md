@@ -57,4 +57,4 @@ How to run the acceptance tests is described more in detail on this page:
 
 If REFERENCE.md is now out of date you can fix it with:
 
-`bundle exec rake  strings:generate:reference`
+`bundle exec rake strings:generate:reference`
