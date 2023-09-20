@@ -7,13 +7,13 @@ summary: How to proceed to update files managed by ModuleSync in Vox Pupuli temp
 
 ## What is ModuleSync?
 
-[ModuleSync] is used at Vox Pupuli to syncronise common files across the various modules we manage.  It helps us to update all of the modules in a consistent way.
+[ModuleSync] is used at Vox Pupuli to synchronise common files across the various modules we manage.  It helps us to update all of the modules in a consistent way.
 
 ## Should I update files managed by ModuleSync?
 
-Generaly speaking, there is a better way around.
+Generally speaking, there is a better way around.
 
-If your modifications are specific to a particular use-case / a single module, it is generaly better to find another way.  If you are unsure about where to look, [feel free to reach to us](/docs/about_vox_pupuli/#where-you-can-find-us).  But if your changes makse sense to *all* modules (or maybe just *most* modules), read on to submit your changes to the right place.
+If your modifications are specific to a particular use-case / a single module, it is generally better to find another way.  If you are unsure about where to look, [feel free to reach to us](/docs/about_vox_pupuli/#where-you-can-find-us).  But if your changes make sense to *all* modules (or maybe just *most* modules), read on to submit your changes to the right place.
 
 ## How do I update a file managed by ModuleSync?
 
@@ -27,7 +27,7 @@ For a complete example, see this commit to the [modulesync_config repository] wh
 
 * https://github.com/voxpupuli/modulesync_config/commit/758366479d9d65a7cf14b2f5f757eff154bfbd8b
 
-After this commit got merged, the tunables where updated in the appropriate repository, for example:
+After this commit got merged, the tunables were updated in the appropriate repository, for example:
 
 * https://github.com/voxpupuli/puppet-jenkins/commit/e25d6bf3fe047659f3375fe069c151cb5171a7ce#diff-b1bbc4d50c1c098ca18224cbc9519ad646dcc5e3dd912edf55610ab5bba3566e
 * https://github.com/voxpupuli/puppet-zabbix/commit/2d2fd20b3ceb036cd8a44747bc9c537e27022b82#diff-b1bbc4d50c1c098ca18224cbc9519ad646dcc5e3dd912edf55610ab5bba3566e
