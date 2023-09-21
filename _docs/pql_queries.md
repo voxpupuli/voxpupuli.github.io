@@ -209,6 +209,8 @@ Result:
 
 With the following query you can get a unique list of different values from the trusted hash
 
+#### via inventory
+
 ```shell
 puppet query 'inventory[trusted.extensions.pp_role]{ group by trusted.extensions.pp_role }'
 ```
@@ -225,18 +227,30 @@ Result:
   },
   {
     "trusted.extensions.pp_role": "kibana"
+  }
+]
+```
+
+#### via facts_contents
+
+See also [Get a list of nodes with a specific structured fact value while using a wildcard in the fact structure](#get-a-list-of-nodes-with-a-specific-structured-fact-value-while-using-a-wildcard-in-the-fact-structure)
+
+```shell
+puppet query 'fact_contents[value] { path = ["trusted","extensions","pp_role"] group by value }'
+```
+
+Result:
+
+```json
+[
+  {
+    "value": "guacamole"
   },
   {
-    "trusted.extensions.pp_role": "webserver"
+    "value": "gitlab"
   },
   {
-    "trusted.extensions.pp_role": "runner"
-  },
-  {
-    "trusted.extensions.pp_role": "elasticsearch"
-  },
-  {
-    "trusted.extensions.pp_role": "dbserver"
+    "value": "kibana"
   }
 ]
 ```
