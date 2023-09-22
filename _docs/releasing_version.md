@@ -7,8 +7,35 @@ summary: How to perform a complete version release, including modulesync and pub
 
 Creating a release is a two step process:
 
-1. Prepare the release — setup everything so that peer review can happen and when everything is ready…
-2. Do the actual release
+1. Create a Fork and set the remotes accordingly
+2. Prepare the release — setup everything so that peer review can happen and when everything is ready…
+3. Do the actual release
+
+## Prepare your Fork
+
+Go to the GitHub project on which you want to generate a new release.
+Klick on "fork" and create a local fork.
+
+Clone the original upstream repo to your workstation:
+
+```bash
+git clone git@github.com:voxpupuli/<project>.git
+```
+
+We usually recommend to always also set the remote for your fork:
+
+```bash
+git remote add local git@github.com:<name>/<project>.git
+```
+
+Ensure that your local fork is in sync with upstream:
+
+```bash
+git fetch --all --prune
+git switch master
+git pull origin master
+git push local master
+```
 
 ## Preparing a release
 
@@ -20,22 +47,36 @@ Create a 'release pr'. This pull request updates the changelog and bumps the
 version number to the target version, removing all release candidate
 identifiers, i.e. from `0.10.7-rc0` to `0.10.7`. Here's an example:
 [puppet-extlib's 0.10.7 release](https://github.com/voxpupuli/puppet-extlib/pull/43).
+
 In most cases it is sufficient to update metadata.json. We try
 to respect [semantic versioning](http://semver.org/). We decided that dropping
 support for a puppet version or ruby is a major change and requires a major version bump for the module.
 (Only the minor version should be bumped if the module is pre version 1.0 and puppet or
 ruby support has been dropped.)
 
+Add your release changes to your local fork:
+
+```bash
+git switch -c <branch>
+git add <file(s)>
+git commit
+git push local <branch>
+```
+
 If necessary, run `bundle install` before continuing. If you want you can also only install the needed gems:
 
 ```bash
-bundle install --path .vendor/ --without system_tests development
+bundle config set --local path 'vendor'
+bundle config set --local without 'development system_tests'
+bundle install
 ```
 
 And in case you installed the gems before:
 
 ```bash
-bundle install --path .vendor/ --without system_tests development; bundle update; bundle clean
+bundle config set --local path 'vendor'
+bundle config set --local without 'development system_tests'
+bundle install; bundle update; bundle clean
 ```
 
 We can generate the changelog after updating the metadata.json with a rake task
@@ -60,6 +101,12 @@ regenerate it.
 
 ## Doing the release
 
+*Please note that in order to execute this rake task you must be in the __Collaborators__ group on GitHub for the module in question.*
+
+*Please also note that the task requires a configured gpg or ssh key in your local git settings to sign the git tag*
+
+This step must be done by a voxpupuli maintainer!
+
 This has to be done on the __*upstream*__ repo itself.
 
 Checkout an updated copy of master
@@ -75,15 +122,11 @@ Run the rake target `release`. This will:
 * commit the change,
 * and push it to origin.
 
-*Please note that in order to execute this rake task you must be in the __Collaborators__ group on GitHub for the module in question.*
-
-*Please also note that the task requires a configured gpg or ssh key in your local git settings to sign the git tag*
-
 ```bash
 bundle exec rake release
 ```
 
 GitHub Actions (.github/workflows/release.yml in every module) will then kick
 off a build against the new tag created and deploy that build to the forge.
-Caution: The Vox Pupuli repo has to be the configured default branch in your
-local clone. Otherwise, you will try to release to your fork.
+*Caution: The Vox Pupuli repo has to be the configured default branch in your
+local clone. Otherwise, you will try to release to your fork.*
