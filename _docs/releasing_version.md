@@ -16,16 +16,16 @@ Creating a release is a two step process:
 Go to the GitHub project on which you want to generate a new release.
 Klick on "fork" and create a local fork.
 
-Clone your fork to your workstation:
+Clone the original upstream repo to your workstation:
 
 ```bash
-git clone git@github.com:<name>/<project>.git
+git clone git@github.com:voxpupuli/<project>.git
 ```
 
-We usually recommend to always also set the upstream remote:
+We usually recommend to always also set the remote for your fork:
 
 ```bash
-git remote add voxpupuli https://github.com/voxpupuli/<project>.git
+git remote add local git@github.com:<name>/<project>.git
 ```
 
 Ensure that your local fork is in sync with upstream:
@@ -33,8 +33,8 @@ Ensure that your local fork is in sync with upstream:
 ```bash
 git fetch --all --prune
 git switch master
-git pull voxpupuli master
-git push origin master
+git pull origin master
+git push local master
 ```
 
 ## Preparing a release
@@ -53,6 +53,15 @@ to respect [semantic versioning](http://semver.org/). We decided that dropping
 support for a puppet version or ruby is a major change and requires a major version bump for the module.
 (Only the minor version should be bumped if the module is pre version 1.0 and puppet or
 ruby support has been dropped.)
+
+Add your release changes to your local fork:
+
+```bash
+git switch -c <branch>
+git add <file(s)>
+git commit
+git push local <branch>
+```
 
 If necessary, run `bundle install` before continuing. If you want you can also only install the needed gems:
 
@@ -99,15 +108,6 @@ regenerate it.
 This step must be done by a voxpupuli maintainer!
 
 This has to be done on the __*upstream*__ repo itself.
-
-If you are switching from contributor to maintainer, you need to rename the remotes to reflect your status:
-
-```bash
-git remote rename origin <name>
-git remote rename voxpupuli origin
-```
-
-Please ensure that you also update your branch references in your `.git/config` file.
 
 Checkout an updated copy of master
 
