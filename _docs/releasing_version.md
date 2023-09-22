@@ -58,14 +58,16 @@ If necessary, run `bundle install` before continuing. If you want you can also o
 
 ```bash
 bundle config set --local path 'vendor'
-bundle install --without system_tests development
+bundle config set --local without 'development system_tests'
+bundle install
 ```
 
 And in case you installed the gems before:
 
 ```bash
 bundle config set --local path 'vendor'
-bundle install --without system_tests development; bundle update; bundle clean
+bundle config set --local without 'development system_tests'
+bundle install; bundle update; bundle clean
 ```
 
 We can generate the changelog after updating the metadata.json with a rake task
