@@ -1,4 +1,4 @@
-all: sponsor-github.png sponsor-hetzner.png sponsor-hoenscheiditconsulting.png sponsor-betadots.png sponsor-babiel.png sponsor-enterprise-modules.png
+all: sponsor-github.png sponsor-hetzner.png sponsor-hoenscheiditconsulting.png sponsor-betadots.png sponsor-babiel.png sponsor-enterprise-modules.png sponsor-docker.png
 
 SPONSOR_LOGO=	300x150
 SPONSOR_CANVAS=	320x170
@@ -22,3 +22,5 @@ sponsor-betadots.png: betadots.png
 sponsor-babiel.png: babiel_logo_RGB.png
 
 sponsor-enterprise-modules.png: logo-Enterprise-modules\ SVG.png
+
+sponsor-docker.png: 01-primary-blue-docker-logo.png
