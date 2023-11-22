@@ -2,44 +2,44 @@
 layout: default
 ---
 <div class="jumbotron voxpupuli-intro">
-<div class="row">
-  <div class="col-md-2 col-md-offset-2">
-    <div class="panel panel-info">
-      <div class="panel-heading">
+<div class="row justify-content-center">
+  <div class="col-md-3 d-flex align-items-stretch">
+    <div class="card">
+      <div class="card-header bg-primary text-white">
         repositories
       </div>
-      <div class="panel-body">
+      <div class="card-body">
         <h1 id="repository-count">310</h1>
       </div>
     </div>
   </div>
-  <div class="col-md-2">
-    <div class="panel panel-success">
-      <div class="panel-heading">
+  <div class="col-md-3 d-flex align-items-stretch">
+    <div class="card">
+      <div class="card-header bg-success text-white">
         collaborators
       </div>
-      <div class="panel-body">
+      <div class="card-body">
         <h1 id="members-count">208</h1>
       </div>
     </div>
   </div>
-  <div class="col-md-2">
-    <div class="panel panel-danger">
-      <div class="panel-heading">
+  <div class="col-md-3 d-flex align-items-stretch">
+    <div class="card">
+      <div class="card-header bg-danger text-white">
         issues
       </div>
-      <div class="panel-body">
+      <div class="card-body">
         <h1 class="github-stat"><a href="https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Avoxpupuli+archived%3Afalse+sort%3Acreated-asc">oldest</a></h1>
         <h1 class="github-stat"><a href="https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Avoxpupuli+archived%3Afalse+sort%3Acreated-desc">newest</a></h1>
       </div>
     </div>
   </div>
-  <div class="col-md-2">
-    <div class="panel panel-danger">
-      <div class="panel-heading">
+  <div class="col-md-3 d-flex align-items-stretch">
+    <div class="card">
+      <div class="card-header bg-danger text-white">
         pull requests
       </div>
-      <div class="panel-body">
+      <div class="card-body">
         <h1 class="github-stat"><a href="https://github.com/pulls?q=is%3Aopen+is%3Apr+user%3Avoxpupuli+archived%3Afalse+sort%3Acreated-asc">oldest</a></h1>
         <h1 class="github-stat"><a href="https://github.com/pulls?q=is%3Aopen+is%3Apr+user%3Avoxpupuli+archived%3Afalse+sort%3Acreated-desc">newest</a></h1>
       </div>
@@ -49,9 +49,9 @@ layout: default
 </div>
 <div class="row">
   <div class="col-md-4">
-    <div class="panel">
-      <div class="panel-heading">Rationale</div>
-      <div class="panel-body">
+    <div class="card">
+      <div class="card-header">Rationale</div>
+      <div class="card-body">
         <p>We are a collective of Puppet module, tooling and documentation authors
         all working together to ensure continued development on the code we
         maintain.</p>
@@ -64,9 +64,9 @@ layout: default
     </div>
   </div>
   <div class="col-md-4">
-    <div class="panel">
-      <div class="panel-heading">Modules</div>
-      <div class="panel-body">
+    <div class="card">
+      <div class="card-header">Modules</div>
+      <div class="card-body">
         <p>One of the benefits we hope to achieve is that by a shared ownership of
         modules we no longer end up in situations where the original maintainer
         has moved on and a forest of disparate forks try to fill the void.</p>
@@ -77,9 +77,9 @@ layout: default
     </div>
   </div>
   <div class="col-md-4">
-    <div class="panel">
-      <div class="panel-heading">Latest posts</div>
-      <div class="panel-body">
+    <div class="card">
+      <div class="card-header">Latest posts</div>
+      <div class="card-body">
         <ul>
           {% for post in site.posts limit:5 %}
             <li>
