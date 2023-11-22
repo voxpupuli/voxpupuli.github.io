@@ -11,14 +11,14 @@ Tools without plugins are going to be listed in the table under the `Tools`
 header. Tools with plugins will have their own header and table listing the
 plugins defined for that tool.
 
-<div class="panel panel-info">
-  <div class="panel-heading">Table of Contents</div>
+<div class="card">
+  <div class="card-header panel-heading bg-primary text-white">Table of Contents</div>
   <div class="panel-body">
-  <ul>
-  <li><a href="#tools">Tools</a></li>
+    <ul class="list-group">
+    <li class="list-group-item"><a href="#tools">Tools</a></li>
 {% for tool in site.data.tools %}
   {% assign link = tool[1].display_name | split: ' ' | join: '-' %}
-  {% if tool[1].plugins %}<li><a href="#{{link | downcase}}">{{tool[1].display_name}} Plugins</a></li>{%endif%}
+  {% if tool[1].plugins %}<li class="list-group-item"><a href="#{{link | downcase}}">{{tool[1].display_name}} Plugins</a></li>{%endif%}
 {% endfor %}
   </ul>
   </div>

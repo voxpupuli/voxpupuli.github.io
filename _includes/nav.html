@@ -1,32 +1,29 @@
-<nav class="navbar navbar-inverse navbar-static-top">
-<div class="container">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-      <span class="sr-only">Toggle navigation</span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="/"><img class="logo" src="{{site.url}}{{site.baseurl}}/static/images/8bit-vox.png" alt="{{ site.title }}"> {{ site.title }}</a>
-  </div>
-  <div id="navbar" class="collapse navbar-collapse">
-    <ul class="nav navbar-nav">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+  <a class="navbar-brand" href="/"><img class="logo" src="{{site.url}}{{site.baseurl}}/static/images/8bit-vox.png" alt="{{ site.title }}"> {{ site.title }}</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
       {% for link in site.navigation %}
-        {% assign current = nil %}
+        {% assign active = nil %}
         {% if page.url contains link.url %}
-          {% assign current = 'current' %}
+          {% assign active = 'active' %}
         {% endif %}
-        <li class="{{ current }}"><a href="{{site.url}}{{site.baseurl}}{{ link.url }}" data-proofer-ignore>{{ link.title }}</a></li>
+      <li class="nav-item {{ active }}">
+	<a class="nav-link" href="{{site.url}}{{site.baseurl}}{{ link.url }}" data-proofer-ignore>{{ link.title }}</a>
+      </li>
       {% endfor %}
     </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="{{site.url}}{{site.baseurl}}/privacy-policy"> Privacy Policy</a></li>
-      <li><a href="https://github.com/voxpupuli"><i class="fa fa-github"></i> Github</a></li>
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item"><a class="nav-link" href="{{site.url}}{{site.baseurl}}/privacy-policy"> Privacy Policy</a></li>
+      <li class="nav-item"><a class="nav-link" href="https://github.com/voxpupuli"><i class="fa fa-github"></i> Github</a></li>
     </ul>
-  </div><!--/.nav-collapse -->
-</div>
+  </div>
+  </div>
 </nav>
-
-<div class="container">
+<div class="container pt-3">
   {% include breadcrumbs.html %}
 </div>
