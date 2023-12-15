@@ -21,6 +21,7 @@ You will have someone by your side in this process. The general flow is to…
 * Do you think the module qualifies to be approved? Wait until it is released, then raise a [GitHub Issue][approve] in the Puppetlabs organisation.
 * Our modulesync will delete a `CONTRIBUTING.md` in the root directory and place one at `.github/CONTRIBUTING.md`. Please enhance [our existing template][template] if the version in the docroot contains useful parts.
 * Ensure that the module has a correct `LICENSE` file in the docroot that matches the mentioned license in the `metadata.json`.
+* Write a very short blog post about the migration([example][example]). Write to our [mailinglist](mailto:voxpupuli@groups.io) about the migration/new blogpost.
 
 If you have many modules you wish to migrate, this will be cumbersome.
 In this case we will generally create a separate group and give you
@@ -37,3 +38,4 @@ If the module is accepted, VP will work with you to determine the proper fork/mi
 [template]: https://github.com/voxpupuli/modulesync_config/blob/master/moduleroot/.github/CONTRIBUTING.md.erb
 [modules]: https://tickets.puppetlabs.com/projects/MODULES/issues/
 [approve]: https://github.com/puppetlabs/puppet-approved-modules/issues/new?assignees=&labels=&template=puppet-approved-modules.md&title=
+[example]: https://github.com/voxpupuli/voxpupuli.github.io/blob/master/_posts/2023-12-05-nsswitch-migration.md
