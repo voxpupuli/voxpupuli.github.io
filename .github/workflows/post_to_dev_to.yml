@@ -22,6 +22,7 @@ jobs:
           devto_key: ${{ secrets.DEV_TO_TOKEN }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           # (Optional) The files to publish. Default is "posts/**/*.md"
+          # TODO: rwaffen - lets test this first if and how this will release postings
           files: 'posts/**/2024-*.md'
           # (Optional) The git branch to use. Default is 'main'.
           branch: master
