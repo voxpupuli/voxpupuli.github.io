@@ -1,0 +1,31 @@
+---
+name: Post to dev.to
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+jobs:
+  post_to_dev_to:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Publish articles on dev.to
+        uses: sinedied/publish-devto@v2
+        with:
+          # Your dev.to personal API key to publish and update articles.
+          # See https://docs.dev.to/api/#section/Authentication/api_key
+          devto_key: ${{ secrets.DEV_TO_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # (Optional) The files to publish. Default is "posts/**/*.md"
+          # TODO: rwaffen - lets test this first if and how this will release postings
+          files: 'posts/**/2024-*.md'
+          # (Optional) The git branch to use. Default is 'main'.
+          branch: master
+          # (Optional) Do not make actual changes on dev.to.
+          # TODO: rwaffen - lets test this first
+          dry_run: true

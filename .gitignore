@@ -2,10 +2,11 @@
 _site/
 .sass-cache/
 .jekyll-metadata
-Gemfile.lock
 .vendor/
 .bundle/
 .dccache
+.DS_Store
+Gemfile.lock
 static/images/babiel_logo_RGB.png
 static/images/hetzner_cloud_logo.png
 static/images/logo-Enterprise-modules SVG.png
