@@ -205,6 +205,25 @@ Result:
 
 ```
 
+### Get all values for a structured fact
+
+The facts endpoint doesn't support structured facts :(
+
+```
+puppet query 'inventory[facts.networking.ip]{ group by facts.networking.ip }
+```
+
+```json
+[
+  {
+    "facts.networking.ip": "192.168.178.22"
+  },
+  {
+    "facts.networking.ip": "192.168.178.2"
+  },
+  }
+```
+
 ### Get all values for a trusted fact
 
 With the following query you can get a unique list of different values from the trusted hash
