@@ -17,6 +17,7 @@ You will have someone by your side in this process. The general flow is to…
 * Ask an admin to add the `collaborators` team to the module's `Collaborators & Teams` 'Teams' list with `Write` permissions (e.g. [https://github.com/voxpupuli/puppet-gitlab/settings/collaboration](https://github.com/voxpupuli/puppet-gitlab/settings/collaboration) (that link works only for admins).
 * The admin shall also update the [access permissions](https://github.com/organizations/voxpupuli/settings/secrets/actions) (that link works only for admins) for forge.puppet.com secrets so releases can be published.
 * Execute [modulesync][msync] for this module.
+* Creata a GitHub issue for the [FORGE][forge] project and ask to deprecate the old module (and approve the new one if the old one was approved as well).
 * Create a Jira issue at [tickets.puppetlabs.com](https://tickets.puppetlabs.com) in the FORGE project and ask to deprecate the old module (and approve the new one if the old one was approved as well).
 * Do you think the module qualifies to be approved? Wait until it is released, then raise a [GitHub Issue][approve] in the Puppetlabs organisation.
 * Our modulesync will delete a `CONTRIBUTING.md` in the root directory and place one at `.github/CONTRIBUTING.md`. Please enhance [our existing template][template] if the version in the docroot contains useful parts.
@@ -36,6 +37,6 @@ If the module is accepted, VP will work with you to determine the proper fork/mi
 [managed_modules]: https://github.com/voxpupuli/modulesync_config/blob/master/managed_modules.yml
 [msync]: https://github.com/voxpupuli/modulesync_config#modulesync-configs
 [template]: https://github.com/voxpupuli/modulesync_config/blob/master/moduleroot/.github/CONTRIBUTING.md.erb
-[modules]: https://tickets.puppetlabs.com/projects/MODULES/issues/
+[forge]: https://github.com/puppetlabs/forge_issues/issues/new/choose
 [approve]: https://github.com/puppetlabs/puppet-approved-modules/issues/new?assignees=&labels=&template=puppet-approved-modules.md&title=
 [example]: https://github.com/voxpupuli/voxpupuli.github.io/blob/master/_posts/2023-12-05-nsswitch-migration.md
