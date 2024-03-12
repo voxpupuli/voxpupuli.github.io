@@ -13,7 +13,9 @@ gem 'rake'
 gem 'rubocop', '~> 1.31'
 gem 'rubocop-rake'
 
-# https://github.com/gjtorikian/jekyll-last-modified-at
 group :jekyll_plugins do
+  # https://github.com/gjtorikian/jekyll-last-modified-at
   gem 'jekyll-last-modified-at'
+  # https://github.com/jekyll/jekyll-redirect-from
+  gem 'jekyll-redirect-from'
 end
