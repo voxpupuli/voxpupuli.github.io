@@ -2,7 +2,7 @@
 layout: default
 ---
 <h1>{{ page.title }}
-  <a style="float: right;" class="btn btn-raised btn-xs" href="https://github.com/{{ site.github_username }}/{{ site.github_username }}.github.io/edit/master/{{ page.path}}">Edit <i class="glyphicon glyphicon-edit"></i></a>
+  {% include edit_button.html %}
 </h1>
 <p>
   <i>Version {{ page.version}}</i><br />
