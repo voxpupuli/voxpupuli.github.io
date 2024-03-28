@@ -284,6 +284,24 @@ which is typically another package that has to be installed on your system.
 puppet query 'events[resource_type,resource_title,count()] { latest_report? = true and status = "failure" group by resource_type, resource_title }' | jq 'sort_by(.count) | reverse'
 ```
 
+### Get class information from latest catalogs from all nodes
+
+PuppetDB stores the last catalog of each node. That contains all classes and
+their parameters. There might be a usecase you get those information.
+
+```shell
+puppet query 'resources { type = "Class" and title = "Profile::Core::Node_info"}'
+```
+
+### Get class information from latest catalogs from all nodes that had another class in their last catalog
+
+Of course we can make the above query more complicated and restrict it to nodes
+that had another class in their last catalog
+
+```shell
+puppet query 'resources { type = "Class" and title = "Profile::Core::Node_info" and certname in resources[certname] { type = "Class" and title = "Prometheus::Node_exporter" }}'
+```
+
 ## Endpoints and fields
 
 The available endpoints is a function of which version of puppetdb you are going against. The current list is available at <https://puppet.com/docs/puppetdb/7/api/query/v4/entities.html>.
