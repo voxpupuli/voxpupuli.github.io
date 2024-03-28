@@ -302,6 +302,54 @@ that had another class in their last catalog
 puppet query 'resources { type = "Class" and title = "Profile::Core::Node_info" and certname in resources[certname] { type = "Class" and title = "Prometheus::Node_exporter" }}'
 ```
 
+Why is that helpful? Prometheus has [native support to query PuppetDB](https://prometheus.io/docs/prometheus/latest/configuration/configuration/#puppetdb_sd_config) and create a scrape config based on it (introduced in [github.com/prometheus/prometheus/commit/8920024323ad8fef353ec2fc495894f8748f0687](https://github.com/prometheus/prometheus/commit/8920024323ad8fef353ec2fc495894f8748f0687)):
+
+```yaml
+- job_name: node-exporter-dev
+    puppetdb_sd_configs:
+      - url: "http://puppetdb.local:8080"
+        query: |
+          resources {
+            type = "Class" and title = "Profile::Core::Node_info" and
+            certname in resources[certname] {
+              type = "Class" and title = "Prometheus::Node_exporter"
+            }
+          }
+        refresh_interval: 30s
+        follow_redirects: true
+        include_parameters: true
+        enable_http2: true
+        port: 9100
+    relabel_configs:
+      - source_labels: [__meta_puppetdb_certname]
+        target_label: instance
+      - source_labels: [__meta_puppetdb_environment]
+        target_label: environment
+      - source_labels: [__meta_puppetdb_parameter_site]
+        target_label: site
+      - source_labels: [__meta_puppetdb_parameter_role]
+        target_label: role
+      - source_labels: [__meta_puppetdb_parameter_cluster]
+        target_label: cluster
+```
+
+And the related Puppet class:
+
+``puppet
+class profile::core::node_info (
+  Optional[String[1]] $site = $::site,
+  Optional[String[1]] $role = $::role,
+  Optional[String[1]] $cluster = $::cluster,
+  Optional[String[1]] $variant = $::variant,
+  Optional[String[1]] $subvariant = $::subvariant,
+) {
+}
+```
+
+This will assign top scope variables from an ENC to a class. That in turn will save those topscope variables in the catalog and then they are available for Prometheus.
+
+Thanks to [Julien "roidelapluie" Pivotto](mailto:roidelapluie@inuits.eu) for writing puppetdb_sd_config and thanks to [Joshua Hoblitt](https://github.com/jhoblitt) for figuring out the PQL Query and the config example.
+
 ## Endpoints and fields
 
 The available endpoints is a function of which version of puppetdb you are going against. The current list is available at <https://puppet.com/docs/puppetdb/7/api/query/v4/entities.html>.
