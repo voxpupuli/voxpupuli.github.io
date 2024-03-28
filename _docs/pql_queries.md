@@ -335,7 +335,7 @@ Why is that helpful? Prometheus has [native support to query PuppetDB](https://p
 
 And the related Puppet class:
 
-``puppet
+```puppet
 class profile::core::node_info (
   Optional[String[1]] $site = $::site,
   Optional[String[1]] $role = $::role,
