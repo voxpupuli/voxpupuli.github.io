@@ -306,20 +306,20 @@ Why is that helpful? Prometheus has [native support to query PuppetDB](https://p
 
 ```yaml
 - job_name: node-exporter-dev
-    puppetdb_sd_configs:
-      - url: "http://puppetdb.local:8080"
-        query: |
-          resources {
-            type = "Class" and title = "Profile::Core::Node_info" and
-            certname in resources[certname] {
-              type = "Class" and title = "Prometheus::Node_exporter"
-            }
+  puppetdb_sd_configs:
+    - url: "http://puppetdb.local:8080"
+      query: |
+        resources {
+          type = "Class" and title = "Profile::Core::Node_info" and
+          certname in resources[certname] {
+            type = "Class" and title = "Prometheus::Node_exporter"
           }
-        refresh_interval: 30s
-        follow_redirects: true
-        include_parameters: true
-        enable_http2: true
-        port: 9100
+        }
+      refresh_interval: 30s
+      follow_redirects: true
+      include_parameters: true
+      enable_http2: true
+      port: 9100
     relabel_configs:
       - source_labels: [__meta_puppetdb_certname]
         target_label: instance
