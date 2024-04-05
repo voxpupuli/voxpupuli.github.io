@@ -18,7 +18,7 @@ The syntax isn't alway very intuitive. That's why this page exists. It serves as
 
 ## How?
 
-All queries here are documented in the [string-based query style](https://puppet.com/docs/puppetdb/7/api/query/v4/pql.html), not the [AST](https://puppet.com/docs/puppetdb/7/api/query/v4/ast.html) style. You need the [Puppet Client tools](https://puppet.com/docs/puppetdb/7/pdb_client_tools.html) (for Open Source or PE) to get the `puppet query` face. To install the client tools on Open Source, you can do:
+All queries here are documented in the [string-based query style](https://puppet.com/docs/puppetdb/latest/api/query/v4/pql.html), not the [AST](https://puppet.com/docs/puppetdb/latest/api/query/v4/ast.html) style. You need the [Puppet Client tools](https://puppet.com/docs/puppetdb/latest/pdb_client_tools.html) (for Open Source or PE) to get the `puppet query` face. To install the client tools on Open Source, you can do:
 
 ```shell
 puppet resource package puppetdb_cli ensure=present provider=puppet_gem
