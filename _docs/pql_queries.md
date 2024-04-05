@@ -124,7 +124,7 @@ and saves reports on a per-day partition. By filtering for the current day we
 avoid scans on other partitions.
 
 ```
-puppet query 'events[certname]{corrective_change = true and report_receive_time > "2024-04-05T06:06:00.000Z" group by certname}'
+puppet query "events[certname]{corrective_change = true and report_receive_time > \"$(date -u --date='1 day ago' +%Y-%m-%dT%H:%M:%S.000Z)\" group by certname}"
 ```
 
 ### Get all inactive nodes
