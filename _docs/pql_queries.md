@@ -116,6 +116,29 @@ puppet query 'catalogs[certname,producer_timestamp] {  producer_timestamp < "202
 puppet query 'reports[certname,transaction_uuid,receive_time] { cached_catalog_status="on_failure" and start_time > "2021-10-27T15:36:00-05:00" and end_time < "2021-10-27T16:35:00-05:00"  }'
 ```
 
+### Get all nodes with corrective changes
+
+It heavily improves the performance when we filter for events from the past
+hours. PuppetDB uses [partitioning](https://www.postgresql.org/docs/current/ddl-partitioning.html)
+and saves reports on a per-day partition. By filtering for the current day we
+avoid scans on other partitions.
+
+```
+puppet query 'events[certname]{corrective_change = true and report_receive_time > "2024-04-05T06:06:00.000Z" group by certname}'
+```
+
+### Get all inactive nodes
+
+```shell
+puppet query 'nodes[certname] { node_state = "inactive" }'
+```
+
+### Get all nodes where the last catalog compilation failed
+
+```shell
+puppet query 'nodes[certname] { latest_report_status = "failed" }'
+```
+
 ### Get a list of nodes with a specific fact value
 
 ```shell
@@ -140,6 +163,14 @@ puppet query 'inventory[certname] {facts.os.name = "AlmaLinux" and facts.os.rele
 
 ```shell
 puppet query 'inventory[certname,facts.virtual]{ resources { type="Class" and title ~ "CapitalizedClassname" }}'
+```
+
+### Get all nodes and their Puppet Agent version except for version X
+
+This is helpful if you did a Puppet Upgrade and want to identify all nodes that are on a different version than your primary
+
+```shell
+puppet query 'inventory[certname,facts.aio_agent_build]{facts.aio_agent_build != "7.28.0" }'
 ```
 
 ### Get all resources from one type for one node
