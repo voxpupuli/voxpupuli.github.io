@@ -14,7 +14,7 @@ PQL is the [Puppet Query Language](https://puppet.com/docs/puppetdb/latest/api/q
 
 ## Why?
 
-The syntax isn't alway very intuitive. That's why this page exists. It serves as a central place where the community can find and submit PQL queries!
+The syntax isn't always very intuitive. That's why this page exists. It serves as a central place where the community can find and submit PQL queries!
 
 ## How?
 
