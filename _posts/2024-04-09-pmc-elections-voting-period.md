@@ -24,6 +24,6 @@ These roles will be self selected amongst the committee after the election concl
 
 Visit the page below to read more about the candidates and to make your choices.
 
-- https://civs1.civs.us/cgi-bin/vote.pl?id=E_c3a85d1acd3e9feb&akey=dc65601945c5628c
+- [Vox Pupuli elections, 2024](https://civs1.civs.us/cgi-bin/vote.pl?id=E_c3a85d1acd3e9feb&akey=dc65601945c5628c)
 
 Thank you so much for your help!
