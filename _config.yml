@@ -25,6 +25,8 @@ collections:
     output: false
 
 navigation:
+  - title: How to contribute
+    url: /contributing/
   - title: Code of Conduct
     url: /coc/
   - title: Documentation
@@ -40,7 +42,7 @@ navigation:
   - title: Blog
     url: /blog/
 
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME", "README.md", "vendor"]
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME", "vendor"]
 
 plugins:
   - jekyll-last-modified-at
