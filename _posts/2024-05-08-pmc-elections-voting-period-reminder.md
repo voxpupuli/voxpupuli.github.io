@@ -6,8 +6,6 @@ github_username: bastelfreak
 twitter_username: bastelsblog
 ---
 
-Hi!
-
 This is a quick reminder that we started our [PMC elections](https://voxpupuli.org/blog/2024/04/09/pmc-elections-voting-period/).
 You can still vote until **May 15 2024 23:59 UTC.**
 
