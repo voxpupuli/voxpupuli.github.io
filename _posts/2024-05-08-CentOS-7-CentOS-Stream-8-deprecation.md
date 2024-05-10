@@ -6,8 +6,7 @@ github_username: bastelfreak
 twitter_username: bastelsblog
 ---
 
-A few operating systems are soon end of life and we won't run acceptance tests
-anymore for those:
+A few operating systems are soon end of life and we won't support them anymore:
 
 * [RedHat 7 - 2024-06-30](https://github.com/voxpupuli/puppet_metadata/blob/dd815b5b350af2936819a7c5a449c1156cfac4b4/lib/puppet_metadata/operatingsystem.rb#L107C17-L107C27)
 * [OracleLinux 7 - 2024-12-31](https://github.com/voxpupuli/puppet_metadata/blob/e8d46ebcbe1791834ba1cf77f49c8537faec3b78/lib/puppet_metadata/operatingsystem.rb#L53)
