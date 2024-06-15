@@ -1,4 +1,4 @@
-all: sponsor-github.png sponsor-hetzner.png sponsor-hoenscheiditconsulting.png sponsor-betadots.png sponsor-babiel.png sponsor-enterprise-modules.png sponsor-docker.png sponsor-puppet.png sponsor-deubert.png
+all: sponsor-github.png sponsor-hetzner.png sponsor-hoenscheiditconsulting.png sponsor-betadots.png sponsor-babiel.png sponsor-enterprise-modules.png sponsor-docker.png sponsor-puppet.png sponsor-deubert.png sponsor-microsoft.png
 
 SPONSOR_LOGO=	300x150
 SPONSOR_CANVAS=	320x170
@@ -28,3 +28,5 @@ sponsor-docker.png: 01-primary-blue-docker-logo.png
 sponsor-puppet.png: _puppet_by_perforce-on_light-4k.png
 
 sponsor-deubert.png: deubert_logo.png
+
+sponsor-microsoft.png: RWEDnc.png
