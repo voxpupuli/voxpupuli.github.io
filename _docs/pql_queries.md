@@ -256,7 +256,7 @@ puppet query 'inventory[certname] { ! certname in inventory[certname] {  facts.m
 ### Get a list of nodes with a specific structured fact value while using a wildcard in the fact structure
 
 ```shell
-puppet query ' fact_contents { path ~> ["first_level",".*","third_level"] and value = "Y" } '
+puppet query 'fact_contents { path ~> ["first_level",".*","third_level"] and value = "Y" }'
 ```
 
 ### Get all values for a fact
@@ -287,7 +287,7 @@ Result:
 The facts endpoint doesn't support structured facts :(
 
 ```
-puppet query 'inventory[facts.networking.ip]{ group by facts.networking.ip }
+puppet query 'inventory[facts.networking.ip]{ group by facts.networking.ip }'
 ```
 
 ```json
