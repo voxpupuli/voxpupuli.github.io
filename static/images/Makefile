@@ -15,8 +15,6 @@ sponsor-github.png: GitHub_Logo.png
 
 sponsor-hetzner.png: hetzner_cloud_logo.png
 
-sponsor-hoenscheiditconsulting.png: hoenscheiditconsulting.png
-
 sponsor-betadots.png: betadots.png
 
 sponsor-babiel.png: babiel_logo_RGB.png
