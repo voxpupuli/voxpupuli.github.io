@@ -30,3 +30,5 @@ sponsor-puppet.png: _puppet_by_perforce-on_light-4k.png
 sponsor-deubert.png: deubert_logo.png
 
 sponsor-microsoft.png: RWEDnc.png
+
+sponsor-xyntion.png: xyntion_logo.png
