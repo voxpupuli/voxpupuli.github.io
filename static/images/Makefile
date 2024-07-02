@@ -15,8 +15,6 @@ sponsor-github.png: GitHub_Logo.png
 
 sponsor-hetzner.png: hetzner_cloud_logo.png
 
-sponsor-hoenscheiditconsulting.png: hoenscheiditconsulting.png
-
 sponsor-betadots.png: betadots.png
 
 sponsor-babiel.png: babiel_logo_RGB.png
@@ -30,3 +28,5 @@ sponsor-puppet.png: _puppet_by_perforce-on_light-4k.png
 sponsor-deubert.png: deubert_logo.png
 
 sponsor-microsoft.png: RWEDnc.png
+
+sponsor-xyntion.png: xyntion_logo.png
