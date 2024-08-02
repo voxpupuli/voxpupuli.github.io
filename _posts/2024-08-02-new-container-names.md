@@ -24,4 +24,4 @@ The new, shorter names are: `voxpupuli/puppetserver` and `voxpupuli/puppetdb`.
 
 The content is exactly the same, only the name has changed. Only new tags will be pushed to the new names. The old names will also be updated.
 
-We plan to deprecated the old names in 6 months (2025-02), so please update your scripts and configurations to use the new names.
+We plan to deprecate the old names in 6 months (2025-02), so please update your scripts and configurations to use the new names.
