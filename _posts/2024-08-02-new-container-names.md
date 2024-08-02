@@ -10,11 +10,15 @@ Beginning of today we are also releaseing our puppetserver and puppetdb containe
 
 The current names are: `voxpupuli/container-puppetserver` and `voxpupuli/container-puppetdb`.
 
+- <https://github.com/orgs/voxpupuli/packages/container/package/container-puppetserver>
+- <https://github.com/orgs/voxpupuli/packages/container/package/container-puppetdb>
 - <https://hub.docker.com/r/voxpupuli/container-puppetserver>
 - <https://hub.docker.com/r/voxpupuli/container-puppetdb>
 
 The new, shorter names are: `voxpupuli/puppetserver` and `voxpupuli/puppetdb`.
 
+- <https://github.com/orgs/voxpupuli/packages/container/package/puppetserver>
+- <https://github.com/orgs/voxpupuli/packages/container/package/puppetdb>
 - <https://hub.docker.com/r/voxpupuli/puppetserver>
 - <https://hub.docker.com/r/voxpupuli/puppetdb>
 
