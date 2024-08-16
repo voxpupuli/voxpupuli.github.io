@@ -1,4 +1,4 @@
-all: sponsor-github.png sponsor-hetzner.png sponsor-hoenscheiditconsulting.png sponsor-betadots.png sponsor-babiel.png sponsor-enterprise-modules.png sponsor-docker.png sponsor-puppet.png sponsor-deubert.png sponsor-microsoft.png
+all: sponsor-github.png sponsor-hetzner.png sponsor-betadots.png sponsor-babiel.png sponsor-enterprise-modules.png sponsor-docker.png sponsor-puppet.png sponsor-deubert.png sponsor-microsoft.png sponsor-macarne.png
 
 SPONSOR_LOGO=	300x150
 SPONSOR_CANVAS=	320x170
@@ -30,3 +30,5 @@ sponsor-deubert.png: deubert_logo.png
 sponsor-microsoft.png: RWEDnc.png
 
 sponsor-xyntion.png: xyntion_logo.png
+
+sponsor-macarne.png: Macarne_Logo_wide@3x.png
