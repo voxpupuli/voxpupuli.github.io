@@ -48,20 +48,11 @@ version number to the target version, removing all release candidate
 identifiers, i.e. from `0.10.7-rc0` to `0.10.7`. Here's an example:
 [puppet-extlib's 0.10.7 release](https://github.com/voxpupuli/puppet-extlib/pull/43).
 
-In most cases it is sufficient to update metadata.json. We try
-to respect [semantic versioning](http://semver.org/). We decided that dropping
-support for a puppet version or ruby is a major change and requires a major version bump for the module.
-(Only the minor version should be bumped if the module is pre version 1.0 and puppet or
-ruby support has been dropped.)
-
-Add your release changes to your local fork:
-
-```bash
-git switch -c <branch>
-git add <file(s)>
-git commit
-git push local <branch>
-```
+It is sufficient to update metadata.json and then the `release:prepare` rake task.
+This will be explained in detail below.
+We try to respect [semantic versioning](http://semver.org/).
+We decided that dropping support for a puppet version or ruby is a major change and requires a major version bump for the module.
+(Only the minor version should be bumped if the module is pre version 1.0 and puppet or ruby support has been dropped.)
 
 If necessary, run `bundle install` before continuing. If you want you can also only install the needed gems:
 
@@ -79,8 +70,7 @@ bundle config set --local without 'development system_tests'
 bundle install; bundle update; bundle clean
 ```
 
-We can generate the changelog after updating the metadata.json with a rake task
-(in most cases, this requires a
+We can now generate the changelog after updating the metadata.json with a rake task (in most cases, this requires a
 [GitHub access token (docs on how to create one)](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line):
 the changelog generator expects the token in the environment variable `CHANGELOG_GITHUB_TOKEN`)
 
@@ -98,6 +88,26 @@ Get community feedback on the release pr, label it with `skip-changelog`, get it
 
 If a REFERENCE.md is present and outdated, the `release:prepare` task will
 regenerate it.
+
+Now the changes can be committed and pushed.
+The rake task will output the commands you need to run.
+
+It will look like this:
+
+```bash
+Please review these changes and commit them to a new branch:
+
+  git checkout -b release-v1.2.3
+  git commit --gpg-sign -am "Release v1.2.3"
+
+Then open a Pull-Request and wait for it to be reviewed and merged).
+```
+
+Afterwards you can push to your fork and create a PR via the Web UI (or use the `gh` CLI tool if you like):
+
+```bash
+git push --set-upstream local release-v1.2.3
+```
 
 ## Doing the release
 
