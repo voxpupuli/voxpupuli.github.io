@@ -70,9 +70,14 @@ bundle config set --local without 'development system_tests'
 bundle install; bundle update; bundle clean
 ```
 
-We can now generate the changelog after updating the metadata.json with a rake task (in most cases, this requires a
-[GitHub access token (docs on how to create one)](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line):
-the changelog generator expects the token in the environment variable `CHANGELOG_GITHUB_TOKEN`)
+We can now generate the changelog after updating the metadata.json with a rake task.
+
+> 🔔 In most cases, this requires a [GitHub fine-grained access token](https://github.com/settings/tokens?type=beta).
+> * Resource owner: you
+> * Expiration: one year or less
+> * Repository access: Public Repositories (read-only)
+>
+> The changelog generator expects the token in the environment variable `CHANGELOG_GITHUB_TOKEN`
 
 ```bash
 CHANGELOG_GITHUB_TOKEN='mytoken' bundle exec rake release:prepare
