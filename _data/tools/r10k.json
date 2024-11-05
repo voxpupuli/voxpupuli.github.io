@@ -32,6 +32,11 @@
       "name": "Ra10ke",
       "url": "https://github.com/voxpupuli/ra10ke",
       "description": " Rake tasks related to R10K and Puppetfile"
+    },
+    {
+      "name": "G10k",
+      "url": "https://github.com/xorpaul/g10k",
+      "description": "r10k fork in Go."
     }
   ]
 }
