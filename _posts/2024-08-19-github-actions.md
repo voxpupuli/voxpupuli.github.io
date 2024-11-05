@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Macarne sponsors a buildserver
+title: New github_actions_runner puppet module
 date: 2024-08-19
 github_username: bastelfreak
 category: changelog
