@@ -1,0 +1,6 @@
+{
+    "name": "hdm",
+    "display_name": "Hiera Data Manager",
+    "description": "Web interface for Hiera data",
+    "url": "https://github.com/betadots/hdm"
+}
