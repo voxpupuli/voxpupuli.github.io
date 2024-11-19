@@ -318,8 +318,8 @@ puppet query 'inventory[facts.networking.ip]{ group by facts.networking.ip }'
   },
   {
     "facts.networking.ip": "192.168.178.2"
-  },
   }
+]
 ```
 
 ### Get all values for a trusted fact
