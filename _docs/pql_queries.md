@@ -282,6 +282,27 @@ Result:
 
 ```
 
+### Get value for fact A that have a specific value on fact b
+
+This returns the ip address for all nodes where the trusted fact `pp_role` is `foobar`
+
+```shell
+puppet query 'inventory[certname,facts.networking.ip]{ trusted.extensions.pp_role = "foobar"}'
+```
+
+```json
+[
+  {
+    "certname": "bastel.local",
+    "facts.networking.ip": "127.0.0.1"
+  },
+  {
+    "certname": "freak.local",
+    "facts.networking.ip": "127.0.0.2"
+  }
+]
+```
+
 ### Get all values for a structured fact
 
 The facts endpoint doesn't support structured facts :(
