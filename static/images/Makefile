@@ -1,4 +1,4 @@
-all: sponsor-github.png sponsor-hetzner.png sponsor-betadots.png sponsor-babiel.png sponsor-enterprise-modules.png sponsor-docker.png sponsor-puppet.png sponsor-deubert.png sponsor-microsoft.png sponsor-macarne.png sponsor-cern.png
+all: sponsor-github.png sponsor-hetzner.png sponsor-betadots.png sponsor-babiel.png sponsor-enterprise-modules.png sponsor-docker.png sponsor-puppet.png sponsor-deubert.png sponsor-microsoft.png sponsor-macarne.png sponsor-cern.png sponsor-geant.png
 
 SPONSOR_LOGO=	300x150
 SPONSOR_CANVAS=	320x170
@@ -34,3 +34,5 @@ sponsor-xyntion.png: xyntion_logo.png
 sponsor-macarne.png: Macarne_Logo_wide@3x.png
 
 sponsor-cern.png: CERN_logo.svg
+
+sponsor-geant.png: GEANT_logo_2015.jpg
