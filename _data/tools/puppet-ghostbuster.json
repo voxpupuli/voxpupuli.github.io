@@ -1,6 +1,6 @@
 {
   "name": "puppet-ghostbuster",
   "display_name": "Ghostbuster",
-  "url": "https://github.com/camptocamp/puppet-ghostbuster",
+  "url": "https://github.com/voxpupuli/puppet-ghostbuster",
   "description": "Dead code detector for Puppet."
 }
