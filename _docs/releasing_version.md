@@ -114,6 +114,8 @@ Afterwards you can push to your fork and create a PR via the Web UI (or use the 
 git push --set-upstream local release-v1.2.3
 ```
 
+The person who does the merge is expected to do the release below.
+
 ## Doing the release
 
 *Please note that in order to execute this rake task you must be in the __Collaborators__ group on GitHub for the module in question.*
