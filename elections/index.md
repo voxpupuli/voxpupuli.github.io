@@ -30,7 +30,7 @@ Terms begin each year on *January 1st*.
 The nomination and voting periods will be held during the months of November and
 December, with each lasting for approximately two weeks. Precise dates will be
 announced each year by the Election Officer. When possible, the dates will be
-chosen to coincide with Puppet's [Contributor Summit][cso], so as to reach a
+chosen to coincide with Puppet's Contributor Summit, so as to reach a
 large number of community members with the announcement.
 
 ## Elections
@@ -74,6 +74,5 @@ the duties of project communication until a new Committee is elected and terms b
 [gd]: https://github.com/voxpupuli/plumbing/blob/master/share/governance.md
 [lazy]: https://github.com/voxpupuli/plumbing/blob/master/share/governance.md#lazy-consensus
 [maintainers]: https://github.com/orgs/voxpupuli/teams/project-maintainers/members
-[cso]: https://puppet.com/events/puppet-contributor-summit/
 [elections]: https://github.com/voxpupuli/plumbing/tree/master/share/elections
 [civs]: https://civs.cs.cornell.edu/
