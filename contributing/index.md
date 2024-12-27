@@ -13,7 +13,9 @@ If you have any questions, don't hesitate to ask. We are happy to help you.
 
 ## Monthly sync
 
-We have a monthly sync meeting where we discuss the state of the project and what we want to do in the future. You can find the [meeting board](https://github.com/orgs/voxpupuli/projects/10/) here. The [zoom link](https://perforce.zoom.us/j/91219793310?pwd=M0pPRklhd0lhL2V6ZldQd1BZRCsvQT09) is always the same, so you can join us every month. We meet every second tuesday of the month at 15:30 UTC.
+We have a monthly sync meeting where we discuss the state of the project and what we want to do in the future. You can find the [meeting board](https://github.com/orgs/voxpupuli/projects/10/) here. The [zoom link](https://perforce.zoom.us/j/91219793310?pwd=M0pPRklhd0lhL2V6ZldQd1BZRCsvQT09) is always the same, so you can join us every month. We meet every second tuesday of the month at 16:30 [CET](https://www.timeanddate.com/time/zones/cet)/[CEST](https://www.timeanddate.com/time/zones/cest). You can [import this event in your calendar](voxpupuli-monthly-sync.ics).
+
+<p id="nextmeeting"></p>
 
 ## Guidelines
 
@@ -22,3 +24,25 @@ We have a monthly sync meeting where we discuss the state of the project and wha
 - If you have question about security, please follow our [security policy](https://voxpupuli.org/security/).
 - General and more specific documentation can be found on our [docs](https://voxpupuli.org/docs/).
 - In the project you want to work on, check their own contribution guidelines most often found in the README.md or CONTRIBUTING.md file.
+
+<script src="https://momentjs.com/downloads/moment.min.js"></script>
+<script src="https://momentjs.com/downloads/moment-timezone-with-data-10-year-range.js"></script>
+<script type="application/javascript">
+const myTimeZone = moment.tz.guess();
+const eventTimeZone = "Europe/Berlin";
+
+let nextMeeting = moment.tz(eventTimeZone).startOf('month').add(1, 'week').hours(16).minutes(30);
+dayOffset = 2 - nextMeeting.day();
+if (dayOffset < 0) dayOffset += 7;
+nextMeeting.add(dayOffset, 'days');
+
+if (nextMeeting.isBefore(moment.tz(eventTimeZone).add(1, 'hour'))) {
+  nextMeeting = moment.tz(eventTimeZone).startOf('month').add(1, 'month').add(1, 'week').hours(16).minutes(30);
+  dayOffset = 2 - nextMeeting.day();
+  if (dayOffset < 0) dayOffset += 7;
+  nextMeeting.add(dayOffset, 'days');
+}
+
+document.getElementById('nextmeeting').innerHTML += "Next monthly sync: " + nextMeeting.tz(myTimeZone).calendar() + " (" +
+ nextMeeting.tz(myTimeZone).format() + ")";
+</script>
