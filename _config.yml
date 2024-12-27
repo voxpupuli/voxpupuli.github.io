@@ -24,23 +24,60 @@ collections:
   sponsors:
     output: false
 
+# See https://fontawesome.com/search for the icon syntax
 navigation:
-  - title: How to contribute
-    url: /contributing/
-  - title: Code of Conduct
-    url: /coc/
-  - title: Documentation
-    url: /docs/
-  - title: Leadership
-    url: /elections/
-  - title: Security
-    url: /security/
-  - title: Plugins
-    url: /plugins/
+  - title: About
+    entries:
+      - title: Documentation
+        url: /docs/
+        icon: fas fa-book
+      - title: Leadership
+        url: /elections/
+        icon: fas fa-people-group
+      - title: Security
+        url: /security/
+        icon: fas fa-shield-halved
+  - title: Projects
+    entries:
+      - title: Projects Overview
+        url: /projects/
+        icon: fas fa-signs-post
+      - title: Plugins
+        url: /plugins/
+        icon: fas fa-puzzle-piece
+      - title: How to contribute
+        url: /contributing/
+        icon: fas fa-screwdriver-wrench
+      - title: GitHub
+        url: https://github.com/voxpupuli
+        icon: fab fa-github
+  - title: Connect
+    entries:
+      - title: Blog
+        url: /blog/
+        icon: fas fa-newspaper
+      - title: Slack
+        url: https://short.voxpupu.li/puppetcommunity_slack_signup
+        icon: fab fa-slack
+      - title: Other Channels
+        url: /connect/
+        icon: fas fa-comments
+      - title: Code of Conduct
+        url: /coc/
+        icon: fas fa-users
   - title: Sponsoring
     url: /sponsoring/
-  - title: Blog
-    url: /blog/
+    icon: fas fa-money-bill-wave
+
+footer:
+  - title: Privacy Policy
+    url: /privacy-policy/
+  - title: Code of Conduct
+    url: /coc/
+  - title: Security
+    url: /security/
+  - title:  Dual license (CC BY-SA 4.0 + Apache 2.0)
+    url: /license/
 
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME", "vendor"]
 

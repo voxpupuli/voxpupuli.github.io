@@ -6,21 +6,32 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      {% for link in site.navigation %}
-        {% assign active = nil %}
-        {% if page.url contains link.url %}
-          {% assign active = 'active' %}
-        {% endif %}
-      <li class="nav-item">
-	<a class="nav-link {{ active }}" href="{{site.url}}{{site.baseurl}}{{ link.url }}" data-proofer-ignore>{{ link.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
     <ul class="navbar-nav ms-auto">
-      <li class="nav-item"><a class="nav-link{% if page.url contains "/privacy-policy" %} active{% endif %}" href="{{site.url}}{{site.baseurl}}/privacy-policy"> Privacy Policy</a></li>
-      <li class="nav-item"><a class="nav-link" href="https://github.com/voxpupuli"><i class="fa fa-github"></i> Github</a></li>
-      <li class="nav-item"><a class="nav-link" href="https://short.voxpupu.li/puppetcommunity_slack_signup"><i class="fa fa-slack"></i> Slack</a></li>
+      {% for item in site.navigation %}
+        {% if item.entries == nil %}
+          {% assign entries = "" | split: "," | push: item %}
+        {% else %}
+          {% assign entries = item.entries %}
+          <div class="submenu">
+          <span class="nav-header">{{ item.title }}</span>
+          <ul class="nav-menu ms-auto submenu-content">
+        {% endif %}
+
+        {% for link in entries %}
+          {% assign active = nil %}
+          {% if page.url contains link.url %}
+            {% assign active = 'active' %}
+          {% endif %}
+          <li class="nav-item">
+	         <a class="nav-link {{ active }}" href="{{ link.url }}" data-proofer-ignore>{% if link.icon %}<i class="fa {{ link.icon }}"></i> {% endif %}{{ link.title }}</a>
+          </li>
+        {% endfor %}
+
+        {% if item.entries != nil %}
+          </ul>
+          </div>
+        {% endif %}
+      {% endfor %}
     </ul>
   </div>
   </div>

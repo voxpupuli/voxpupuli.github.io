@@ -3,7 +3,7 @@ layout: page
 title: Plugins
 ---
 
-This is a community curated list of plugins and tools for Puppet.
+This is a community curated list of plugins and tools for Puppet, some of which we host.
 
 Tools and plugins are defined in the `_data/tools` directory of the [community
 website repository](https://github.com/voxpupuli/voxpupuli.github.io)
