@@ -14,7 +14,7 @@ advance our ecosystem.
   is where you'll see announcements, blog notifications, official decision threads,
   and others posted.
     * Join by sending an [empty email](mailto:voxpupuli+subscribe@groups.io)
-    * Post via [voxpupuli@groups.io](mailto:voxpupuli+subscribe@groups.io)
+    * Post via [voxpupuli@groups.io](mailto:voxpupuli@groups.io)
     * Browse [on the web](https://groups.io/g/voxpupuli/topics)
 * Many of our chat spaces are bridged together, so you can choose your favorite protocol.
     * [IRC](ircs://irc.libera.chat:6697) by joining `#voxpupuli` on `irc.libera.chat` or via the [web interface](https://web.libera.chat/?#voxpupuli)
