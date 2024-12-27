@@ -83,8 +83,7 @@ write a plog post?
 Feel free to send us a pull request with your changes or raise an [issue](https://github.com/voxpupuli/voxpupuli.github.io/issues/new).
 We currently require all commits in this repo to be signed with gpg, so
 please configure your git client properly. Let us know if you need some help. We're also
-reachable via our IRC channel `#voxpupuli` on [Libera](https://web.libera.chat/?#voxpupuli),
-[`#voxpupuli:libera.chat`](https://matrix.to/#/!xKkvgsGCsiWDhqCMMZ:libera.chat) on Matrix,
+reachable via our IRC channel `#voxpupuli` on [Libera](https://web.libera.chat/?#voxpupuli)
 and [`#voxpupuli`](http://puppetcommunity.slack.com/messages/voxpupuli/) on the
 [Puppet Community Slack](http://slack.puppet.com).
 
