@@ -8,7 +8,7 @@ title: How to Contribute
 Contributions are very welcome! We have hundreds of modules to care about, so any help is appreciated.
 If you want to contribute, you can start by looking at the [list of issues](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Avoxpupuli+archived%3Afalse+sort%3Acreated-desc) and see if there is something you can help with.
 
-We have a [mailinglist](https://groups.io/g/voxpupuli/), a [IRC channel](ircs://irc.libera.chat:6697) and a [slack channel](https://puppetcommunity.slack.com/messages/voxpupuli/) where you can ask questions and get in touch with us.
+We have a [mailinglist](https://groups.io/g/voxpupuli/), an [IRC channel](ircs://irc.libera.chat:6697/voxpupuli) and a [slack channel](https://puppetcommunity.slack.com/messages/voxpupuli/) where you can ask questions and get in touch with us.
 If you have any questions, don't hesitate to ask. We are happy to help you.
 
 ## Monthly sync
