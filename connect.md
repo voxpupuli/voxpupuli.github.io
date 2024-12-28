@@ -17,8 +17,7 @@ advance our ecosystem.
     * Post via [voxpupuli@groups.io](mailto:voxpupuli@groups.io)
     * Browse [on the web](https://groups.io/g/voxpupuli/topics)
 * Many of our chat spaces are bridged together, so you can choose your favorite protocol.
-    * [IRC](ircs://irc.libera.chat:6697) by joining `#voxpupuli` on `irc.libera.chat` or via the [web interface](https://web.libera.chat/?#voxpupuli)
-    * [#voxpupuli](https://matrix.to/#/!xKkvgsGCsiWDhqCMMZ:libera.chat) on Matrix
+    * IRC: [#voxpupuli](ircs://irc.libera.chat:6697/voxpupuli) on [Libera.Chat](https://libera.chat/) ([webchat](https://web.libera.chat/?#voxpupuli))
     * The `#voxpupuli` channel on [Puppet's Community Slack](https://puppetcommunity.slack.com)
         * *Note that Puppet's slack signups are broken, you'll need someone to invite you to join this space.*
 * Vox Pupuli has our own [Slack space](https://voxpupuli.slack.com) now with
