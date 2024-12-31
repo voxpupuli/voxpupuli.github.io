@@ -36,6 +36,11 @@
   </div>
   </div>
 </nav>
+
+{% if page.subsection %}
+{% include subsection.html %}
+{% endif %}
+
 <div class="container pt-3">
   {% include breadcrumbs.html %}
 </div>

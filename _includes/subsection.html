@@ -1,0 +1,11 @@
+<ul class="nav nav-tabs justify-content-end">
+{% for link in site.subsections[page.subsection] %}
+  {% assign active = nil %}
+  {% if page.url contains link.url %}
+    {% assign active = 'active' %}
+  {% endif %}
+  <li class="nav-item">
+    <a class="nav-link {{ active }}" href="{{ link.url }}" data-proofer-ignore>{% if link.icon %}<i class="fa {{ link.icon }}"></i> {% endif %}{{ link.title }}</a>
+  </li>
+{% endfor %}
+</ul>
