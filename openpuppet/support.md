@@ -14,7 +14,7 @@ afterwards too.
 
 Nevertheless, we understand that for many, a commercial support
 contract is required in order to use OpenPuppet. The companies below have
-indicated that they offer open source OpenPuppet support tiers.
+indicated that they offer OpenPuppet support tiers.
 
 <div class="row">
   {% for sponsor in site.support %}
