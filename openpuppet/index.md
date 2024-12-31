@@ -11,10 +11,9 @@ subsection: openpuppet
     </div>
     <div class="col align-self-center">
       <p>
-      OpenPuppet is the modern open source implementation of
-      the world's most capable configuration management platform. It's trusted by
-      everyone from the smallest hobbyist to operators of some of the largest
-      commercial infrastructures in the business.
+      OpenPuppet is the modern open source implementation of the world's most capable configuration management platform -- trusted by everyone from the
+      smallest hobbyist to operators of some of the largest commercial
+      infrastructures in the business.
       </p>
       <p>
       Try OpenPuppet as the engine powering your infrastructure deployment and
