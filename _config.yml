@@ -44,8 +44,8 @@ navigation:
       - title: Projects Overview
         url: /projects/
         icon: fas fa-signs-post
-      - title: OpenPuppet
-        url: /openpuppet/
+      - title: OpenVox
+        url: /openvox/
         icon: fas fa-meteor
       - title: Plugins
         url: /plugins/
@@ -85,18 +85,18 @@ footer:
     url: /license/
 
 subsections:
-  openpuppet:
+  openvox:
     - title: Quickstart
-      url: /openpuppet/quickstart/
+      url: /openvox/quickstart/
       icon: fas fa-hourglass-start
     - title: Install
-      url: /openpuppet/install/
+      url: /openvox/install/
       icon: fas fa-download
     - title: Standards
-      url: /openpuppet/standards/
+      url: /openvox/standards/
       icon: fas fa-users-rays
     - title: Support
-      url: /openpuppet/support/
+      url: /openvox/support/
       icon: fas fa-headset
 
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME", "vendor"]
