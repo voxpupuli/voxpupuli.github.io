@@ -23,6 +23,8 @@ collections:
     output: true
   sponsors:
     output: false
+  support:
+    output: false
 
 # See https://fontawesome.com/search for the icon syntax
 navigation:
@@ -42,6 +44,9 @@ navigation:
       - title: Projects Overview
         url: /projects/
         icon: fas fa-signs-post
+      - title: OpenVox
+        url: /openvox/
+        icon: fas fa-meteor
       - title: Plugins
         url: /plugins/
         icon: fas fa-puzzle-piece
@@ -78,6 +83,21 @@ footer:
     url: /security/
   - title:  Dual license (CC BY-SA 4.0 + Apache 2.0)
     url: /license/
+
+subsections:
+  openvox:
+    - title: Quickstart
+      url: /openvox/quickstart/
+      icon: fas fa-hourglass-start
+    - title: Install
+      url: /openvox/install/
+      icon: fas fa-download
+    - title: Standards
+      url: /openvox/standards/
+      icon: fas fa-users-rays
+    - title: Support
+      url: /openvox/support/
+      icon: fas fa-headset
 
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME", "vendor"]
 

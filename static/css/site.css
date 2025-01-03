@@ -117,3 +117,8 @@ section.content {
 .card {
   margin: 1em 0;
 }
+
+/* bootstrap customizations */
+.w-33 {
+    width: 33%!important;
+}

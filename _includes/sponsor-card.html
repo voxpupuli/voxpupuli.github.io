@@ -1,0 +1,12 @@
+<div class="col-md-{{include.width}} d-flex align-items-stretch">
+  <div class="card">
+    <img class="card-img-top" src="{{ site.url }}{{ site.baseurl }}/static/images/{{include.vendor.logo}}" alt="Sponsored by {{include.vendor.name}}">
+    <div class="card-body d-flex flex-column">
+      {% if include.vendor.name %}
+      <h5 class="card-title">{{include.vendor.name}}</h5>
+      {% endif %}
+      <p class="card-text">{{include.vendor.content | markdownify }}</p>
+      <a href="{{include.vendor.website}}" class="btn btn-primary mt-auto">{{include.vendor.button}}</a>
+    </div>
+  </div>
+</div>
