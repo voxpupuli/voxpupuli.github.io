@@ -39,4 +39,4 @@ The PMC will then decide which applicants receive how much funding.
 If you've an employer, please ask them if they are interested in co-sponsoring your trip.
 Our funding budget is 8,000 USD.
 We'll try our best to get as many people to the conference but will take previous contributions into account.
-We can only reimburse valid invoices, we cannot book anyting on your behalf!
+We can only reimburse valid invoices, we cannot book anything on your behalf!
