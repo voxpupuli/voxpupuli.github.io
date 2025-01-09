@@ -24,13 +24,17 @@ subsection: openvox
     </div>
     <div class="col align-self-center">
       <p>
-      OpenVox started life as a community maintained soft-fork of Puppet™️ in late fall of 2024.
-      Perforce moved all further Puppet™️ development to internal forks of the public repositories and discontinued public packaging efforts.
-      A community fork was the inevitable response.
+      OpenVox started life as a Puppet™️ mirror by <a href="https://overlookinfratech.com/downloads/">Overlook InfraTech</a> to continue providing community packages when Perforce discontinued public packaging efforts in late Fall of 2024.
+      It soon became clear that they were also moving all further Puppet™️ development to internal forks and ceasing development on open source Puppet™️.
+      A community fork using Overlook InfraTech's packaging pipeline was the inevitable response.
       </p>
       <p>
-      We call it a soft-fork because we intend to maintain downstream compatibility for as long as we are able.
+      We consider OpenVox a soft-fork because we intend to maintain downstream compatibility for as long as we are able.
       As such, we've created a <i>Puppet™️ Standards Steering Committee</i> to set the direction of features and language evolutions and have invited Perforce to participate.
+      </p>
+      <p>
+      Find out more or get involved at our
+      <a href="https://github.com/openvoxproject">GitHub namespace</a>.
       </p>
     </div>
   </div>
