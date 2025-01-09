@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 # Projects Overview
@@ -63,3 +63,9 @@ the [Hacktoberfest](https://hacktoberfest.com) project to see how it works.
 
 * [See all projects participating in Hacktoberfest]({% include github-repo-search.html topic="hacktoberfest" %})
 
+
+## OpenVox project
+
+Like the mythical bird, OpenVox has risen from the ashes of what used to be Open Source Puppet.
+We are still in the process of forming and architecting the governance, so follow this space, or just jump in and get involved at [its project space](https://github.com/openvoxproject).
+You can also find out more using the *Projects* menu in the navbar.
