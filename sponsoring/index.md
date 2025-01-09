@@ -29,15 +29,6 @@ companies sponsor our cloud/CI resources.
 
 <div class="row">
   {% for sponsor in site.sponsors %}
-    <div class="col-md-4 d-flex align-items-stretch">
-      <div class="card">
-        <img class="card-img-top" src="{{ site.url }}{{ site.baseurl }}/static/images/{{sponsor.logo}}" alt="Sponsored by {{sponsor.name}}">
-        <div class="card-body d-flex flex-column">
-          <h5 class="card-title">Sponsored by {{sponsor.name}}</h5>
-          <p class="card-text">{{sponsor.content | markdownify }}</p>
-          <a href="{{sponsor.website}}" class="btn btn-primary mt-auto">{{sponsor.button}}</a>
-        </div>
-      </div>
-    </div>
+    {% include sponsor-card.html width=4 vendor=sponsor %}
   {% endfor %}
 </div>
