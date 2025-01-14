@@ -44,10 +44,10 @@ BEGIN:VEVENT
 DTSTAMP:20241227T225300Z
 CREATED:20241227T225300Z
 UID:6A104D48-6E0B-455A-8287-A15FB58FD654
-LAST-MODIFIED:20241227T225910Z
+LAST-MODIFIED:20250114T153109Z
 DESCRIPTION:Meeting Board:\nhttps://github.com/orgs/voxpupuli/projects/10/\
- n\nZoom:\nhttps://perforce.zoom.us/j/91219793310?pwd=M0pPRklhd0lhL2V6ZldQd
- 1BZRCsvQT09
+ n\nZoom:\nhttps://perforce.zoom.us/j/92119937381?pwd=IK00nUw1GrmR9KNjtkbMS
+ bQAzpboPu.1
 SUMMARY:Vox Pupuli Monthly Sync
 LOCATION:Online
 DTSTART;TZID=Europe/Berlin:20241210T163000
@@ -59,8 +59,8 @@ TRIGGER;RELATED=START;VALUE=DURATION:-PT1H
 ACTION:DISPLAY
 SUMMARY:Vox Pupuli Monthly Sync
 DESCRIPTION:Meeting Board:\nhttps://github.com/orgs/voxpupuli/projects/10/\
- n\nZoom:\nhttps://perforce.zoom.us/j/91219793310?pwd=M0pPRklhd0lhL2V6ZldQd
- 1BZRCsvQT09
+ n\nZoom:\nhttps://perforce.zoom.us/j/92119937381?pwd=IK00nUw1GrmR9KNjtkbMS
+ bQAzpboPu.1
 END:VALARM
 RRULE:FREQ=MONTHLY;BYDAY=2TU
 END:VEVENT
