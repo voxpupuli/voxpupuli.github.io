@@ -36,7 +36,7 @@ dayOffset = 2 - nextMeeting.day();
 if (dayOffset < 0) dayOffset += 7;
 nextMeeting.add(dayOffset, 'days');
 
-if (nextMeeting.isBefore(moment.tz(eventTimeZone).add(1, 'hour'))) {
+if (nextMeeting.isBefore(moment.tz(eventTimeZone).subtract(1, 'hour'))) {
   nextMeeting = moment.tz(eventTimeZone).startOf('month').add(1, 'month').add(1, 'week').hours(16).minutes(30);
   dayOffset = 2 - nextMeeting.day();
   if (dayOffset < 0) dayOffset += 7;
