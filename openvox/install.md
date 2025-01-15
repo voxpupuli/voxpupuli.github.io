@@ -18,6 +18,9 @@ We do not yet have a fully robust test pipeline, although that is our next prior
 We encourage you to try out OpenVox on a fresh test system, the way you would for any major system package.
 If you'd rather try it on an existing system or develop a migration process, then you will first have to uninstall Puppet.
 
+You do not need to purge configuration files because OpenVox will continue to use them as they are.
+However, **before getting started on the migration you should strongly consider backing up the entire `/etc/puppetlabs/` tree** in case of accidents.
+
 * If you're migrating from Puppet Enterprise you can use the `puppet-enterprise-uninstaller` script on each node as described in [their docs](https://www.puppet.com/docs/pe/latest/uninstalling.html).
 * If you're using the all-in-one packages such as `puppet-agent` or `puppetserver` from the `[apt|yum].puppet.com` repos, simply remove these packages.
 * If you're using distro provided packages, then you might have a bigger job.
@@ -30,9 +33,7 @@ If you'd rather try it on an existing system or develop a migration process, the
           * `yum autoremove <packagename>`
     * You might also consider (carefully) cleaning up unused dependencies afterwards by running `apt` or `yum` autoremove without a package name.
 
-You do not need to purge the configuration files because OpenVox will continue to use them unchanged.
-However, you should consider making backups.
-Likewise, you do not need to remove the `[apt|yum].puppet.com` repositories although the only thing you'll be able to use them for going forward is installing historical Puppet releases.
+You do not need to remove the `[apt|yum].puppet.com` repositories although the only thing you'll be able to use them for going forward is installing historical Puppet releases.
 
 
 ## Installation
@@ -56,6 +57,7 @@ Then install the packages you want.
   * `yum install openvox-server`
   * `yum install openvox-db`
 
+If you have backed up config files, then restore them now.
 
 ### Sponsorship
 
