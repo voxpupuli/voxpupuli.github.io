@@ -5,16 +5,40 @@ subsection: openvox
 ---
 
 OpenVox package downloads are currently sponsored by [Overlook InfraTech](https://overlookinfratech.com).
-Following Perforce's suggestions, these are straight rebuilds of the original packages with no branding or name changes.
-Be aware that this will change as soon as the OpenVox pipelines are running.
+As of release 8.11, OpenVox is functionally equivalent to Puppet; the command names are the same, the configuration file paths are the same, etc.
+The major differences are in help text output, man pages, and so on.
+This means that you can continue to use all the commands, modules, tooling, etc that you're used to, but at this time *you cannot install both Puppet and OpenVox on the same system*.
 
-🚨 Before you enable and install the packages, be forewarned that these are preliminary kick-the-tires packages only.
-We do not yet have a fully robust test pipeline, although with the community interest that will be forthcoming.
+🚨 Before you enable and install the packages, be forewarned that these are still experimental packages only.
+We do not yet have a fully robust test pipeline, although that is our next priority.
+
+
+## Uninstalling Puppet
+
+We encourage you to try out OpenVox on a fresh test system, the way you would for any major system package.
+If you'd rather try it on an existing system or develop a migration process, then you will first have to uninstall Puppet.
+
+* If you're migrating from Puppet Enterprise you can use the `puppet-enterprise-uninstaller` script on each node as described in [their docs](https://www.puppet.com/docs/pe/latest/uninstalling.html).
+* If you're using the all-in-one packages such as `puppet-agent` or `puppetserver` from the `[apt|yum].puppet.com` repos, simply remove these packages.
+* If you're using distro provided packages, then you might have a bigger job.
+  For example, if you're using Debian packages, you may have several Puppet modules packaged as `.deb` packages that you'll have to move to your `Puppetfile`.
+  You might consider waiting until your distro packages OpenVox.
+    * If you do want to migrate now, then remove any puppet packages and dependencies you have installed using your distro tools.
+        * Debian family
+          * `apt autoremove <packagename>`
+        * RedHat family
+          * `yum autoremove <packagename>`
+    * You might also consider (carefully) cleaning up unused dependencies afterwards by running `apt` or `yum` autoremove without a package name.
+
+You do not need to purge the configuration files because OpenVox will continue to use them unchanged.
+However, you should consider making backups.
+Likewise, you do not need to remove the `[apt|yum].puppet.com` repositories although the only thing you'll be able to use them for going forward is installing historical Puppet releases.
+
 
 ## Installation
 
 First enable the repository, based on your Linux distribution.
-Choose the appropriate repo package from either of these locations and install it.
+Choose the appropriate `openvox8-release` repo package from either of these locations and install it.
 
 * Debian family:
   * [https://apt.overlookinfratech.com](https://apt.overlookinfratech.com)
@@ -23,14 +47,15 @@ Choose the appropriate repo package from either of these locations and install i
 
 Then install the packages you want.
 
-* Debian
-  * `apt install puppet-agent`
-  * `apt install puppetserver`
-  * `apt install puppetdb`
-* RedHat
-  * `yum install puppet-agent`
-  * `yum install puppetserver`
-  * `yum install puppetdb`
+* Debian family
+  * `apt install openvox-agent`
+  * `apt install openvox-server`
+  * `apt install openvox-db`
+* RedHat family
+  * `yum install openvox-agent`
+  * `yum install openvox-server`
+  * `yum install openvox-db`
+
 
 ### Sponsorship
 
