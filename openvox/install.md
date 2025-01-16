@@ -51,11 +51,11 @@ Then install the packages you want.
 * Debian family
   * `apt install openvox-agent`
   * `apt install openvox-server`
-  * `apt install openvox-db`
+  * `apt install openvoxdb`
 * RedHat family
   * `yum install openvox-agent`
   * `yum install openvox-server`
-  * `yum install openvox-db`
+  * `yum install openvoxdb`
 
 If you have backed up config files, then restore them now.
 
