@@ -21,7 +21,7 @@ Please don’t use these packages on critical production infrastructures yet, un
 We consider OpenVox a soft-fork because we intend to maintain downstream compatibility for as long as we are able.
 As such, Vox Pupuli is working with Perforce to create a Puppet™️ Standards Steering Committee to set the direction of features and language evolutions.
 
-The OpenVox project goals are pretty straightforward and aim to alleviate pain points observed by the community over the last few years.
+The OpenVox project goals are pretty straightforward and aim to alleviate pain points observed by the community over the last few years:
 
 1. Modernizing the OpenVox codebase and ecosystem, including supporting current operating systems.
 2. Recentering and focusing on community requirements; user needs will drive development.
