@@ -19,18 +19,13 @@ Please don’t use these packages on critical production infrastructures yet, un
 > *If you’d like professional assistance in the migration, check out the [support page](/openvox/support/) for companies who provide migration services.*
 
 We consider OpenVox a soft-fork because we intend to maintain downstream compatibility for as long as we are able.
-As such, Vox Pupuli is working to create a Puppet™️ Standards Steering Committee to set the direction of features and language evolutions and have invited Perforce to participate.
+As such, Vox Pupuli is working with Perforce to create a Puppet™️ Standards Steering Committee to set the direction of features and language evolutions.
 
-The OpenVox project goals are pretty straightforward.
-You probably already know them from participating in community conversations over the last few years.
+The OpenVox project goals are pretty straightforward and aim to alleviate pain points observed by the community over the last few years:
 
-1. Modernize the OpenVox codebase and ecosystem.
-    Support current operating systems and Ruby versions rather than relying on fifteen year old unmaintained rubygems.
-2. Recentering and focusing on community requirements.
-    Actual usage patterns will drive development rather than which customer has the deepest pockets at the moment.
-3. Democratizing platform support.
-    Rather than waiting a year for Puppet to get around to supporting the current release of Ubuntu, community members can contribute it themselves.
-4. Maintaining an active and responsive open source community.
-    Yes; your pull request will finally get reviewed.
+1. Modernizing the OpenVox codebase and ecosystem, including supporting current operating systems.
+2. Recentering and focusing on community requirements; user needs will drive development.
+3. Democratizing platform support by allowing community members to contribute what they need instead of waiting for business requirements to align.
+4. Maintaining an active and responsive open source community like the rest of Vox Pupuli's namespace.
 
 Find out more or get involved at [our GitHub namespace](https://github.com/openvoxproject).
