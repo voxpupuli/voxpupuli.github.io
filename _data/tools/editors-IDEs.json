@@ -30,7 +30,7 @@
     },
     {
       "name": "Visual Studio Code Extension for Puppet",
-      "url": "https://marketplace.visualstudio.com/items?itemName=jpogran.puppet-vscode",
+      "url": "https://marketplace.visualstudio.com/items?itemName=puppet.puppet-vscode",
       "description": "This extension provides full Puppet Language support for Visual Studio Code, including syntax highlighting, inline linting, autocomplete, PDK integration and compile debugging"
     },
     {
