@@ -5,13 +5,31 @@ date: 2016-01-01
 summary: How to perform a complete version release, including modulesync and publication.
 ---
 
-Creating a release is a two step process:
+Creating a release is a three step process:
 
-1. Create a Fork and set the remotes accordingly
-2. Prepare the release — setup everything so that peer review can happen and when everything is ready…
+1. Create a release PR
+2. Review it
 3. Do the actual release
 
-## Prepare your Fork
+## Preparing a release
+
+Run [modulesync](https://voxpupuli.org/docs/updating-files-managed-with-modulesync/) to ensure the dotfiles are up-to-date.
+
+### As a Vox Pupuli member
+
+To automatically create a "release PR", you need to be a member of the `voxpupuli` GitHub organisation.
+Then you can browse to a module -> Actions -> "Prepare Release".
+This is a GitHub workflow.
+It can automatically:
+
+* bump the metadata.json to the next patchlevel
+* Or you provide the desired version number, then metadata.json will be bumped to it
+* Afterwards the CHANGELOG.md will be updated
+* REFERENCE.md will be updated if required
+* A pull request will be created
+* GitHub attaches the `skip-changelog` label
+
+### As an outside collaborator
 
 Go to the GitHub project on which you want to generate a new release.
 Klick on "fork" and create a local fork.
@@ -36,12 +54,6 @@ git switch master
 git pull origin master
 git push local master
 ```
-
-## Preparing a release
-
-This should be done on a __*personal*__ fork.
-
-Run modulesync to ensure the dotfiles are up-to-date.
 
 Create a 'release pr'. This pull request updates the changelog and bumps the
 version number to the target version, removing all release candidate
@@ -83,16 +95,16 @@ We can now generate the changelog after updating the metadata.json with a rake t
 CHANGELOG_GITHUB_TOKEN='mytoken' bundle exec rake release:prepare
 ```
 
-The changelog generator checks for certain labels on closed issues and PRs since
-the last release and groups them together. If the changes were neither
-backwards-incompatible nor only bug fixes, make a minor release. Check the
-generated diff for the CHANGELOG.md. If your chosen release version doesn't
-match the generated changelog, update metadata.json and run the changelog task again.
+## Reviewing the release PR
+
+The changelog generator checks for certain labels on closed issues and PRs since the last release and groups them together.
+If the changes were neither backwards-incompatible nor only bug fixes, make a minor release.
+Check the generated diff for the CHANGELOG.md.
+If your chosen release version doesn't match the generated changelog, update metadata.json and run the changelog task again.
 
 Get community feedback on the release pr, label it with `skip-changelog`, get it merged.
 
-If a REFERENCE.md is present and outdated, the `release:prepare` task will
-regenerate it.
+If a REFERENCE.md is present and outdated, the `release:prepare` task will regenerate it.
 
 Now the changes can be committed and pushed.
 The rake task will output the commands you need to run.
@@ -143,7 +155,5 @@ Run the rake target `release`. This will:
 bundle exec rake release
 ```
 
-GitHub Actions (.github/workflows/release.yml in every module) will then kick
-off a build against the new tag created and deploy that build to the forge.
-*Caution: The Vox Pupuli repo has to be the configured default branch in your
-local clone. Otherwise, you will try to release to your fork.*
+GitHub Actions (.github/workflows/release.yml in every module) will then kick off a build against the new tag created and deploy that build to the forge.
+*Caution: The Vox Pupuli repo has to be the configured default branch in your local clone. Otherwise, you will try to release to your fork.*
