@@ -60,7 +60,7 @@ version number to the target version, removing all release candidate
 identifiers, i.e. from `0.10.7-rc0` to `0.10.7`. Here's an example:
 [puppet-extlib's 0.10.7 release](https://github.com/voxpupuli/puppet-extlib/pull/43).
 
-It is sufficient to update metadata.json and then the `release:prepare` rake task.
+It is sufficient to update metadata.json and then run the `release:prepare` rake task.
 This will be explained in detail below.
 We try to respect [semantic versioning](http://semver.org/).
 We decided that dropping support for a puppet version or ruby is a major change and requires a major version bump for the module.
