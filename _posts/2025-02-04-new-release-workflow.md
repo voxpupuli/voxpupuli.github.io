@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Vox Pupuli Changelog - New Release process
-date: 2024-02-04
+date: 2025-02-04
 github_username: bastelfreak
 category: changelog
 ---
