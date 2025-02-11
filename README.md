@@ -81,15 +81,16 @@ you do a talk about Vox Pupuli that you would like to link to? Do you want to
 write a plog post?
 
 Feel free to send us a pull request with your changes or raise an [issue](https://github.com/voxpupuli/voxpupuli.github.io/issues/new).
-We currently require all commits in this repo to be signed with gpg, so
+We currently require all commits in this repo to be signed, so
 please configure your git client properly. Let us know if you need some help. We're also
 reachable via our IRC channel [#voxpupuli](ircs://irc.libera.chat:6697/voxpupuli) on
 [Libera.Chat](https://libera.chat/) ([webchat](https://web.libera.chat/?#voxpupuli))
 and [`#voxpupuli`](http://puppetcommunity.slack.com/messages/voxpupuli/) on the
 [Puppet Community Slack](http://slack.puppet.com).
 
-We test if the pages still build properly via travis, You can run this locally
-by running `bundle exec rake test`.
+We test if the pages still build properly via github actions, and generate a preview zip
+bundle that reviewers can use to verify changes. You can run this locally
+by running `bundle exec rake test` and `bundle exec rake build`.
 
 ## Writing docs
 
