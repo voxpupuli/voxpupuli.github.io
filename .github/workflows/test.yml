@@ -1,5 +1,9 @@
 name: Test
 
+# Required to allow sticky-pull-request-comment to work
+permissions:
+  pull-requests: write
+
 on:
   - pull_request
   - push
@@ -19,6 +23,7 @@ jobs:
       - name: Build jekyll html
         run: bundle exec rake build
       - uses: actions/upload-artifact@v4
+        id: upload-preview
         with:
           name: preview
           path: _site/
@@ -26,3 +31,7 @@ jobs:
           overwrite: true
           compression-level: 9
           if-no-files-found: error
+      - uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          message: |
+            Download / Review a preview of this change at, ${{ steps.upload-preview.outputs.artifact-url }} (for the next 7 days.)
