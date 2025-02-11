@@ -7,4 +7,4 @@ channels for projects and community organization.
 
 There is also a `#voxpupuli` channel on the
 [Puppet Community Slack](https://puppetcommunity.slack.com) (You may need
-someone else to invite you) you can additionally find a `#voxpupuli` channel.
+someone else to invite you.)
