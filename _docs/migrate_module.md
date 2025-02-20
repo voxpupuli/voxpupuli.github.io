@@ -7,7 +7,6 @@ summary: Complete directions for migrating a module to Vox Pupuli, including the
 
 You will have someone by your side in this process. The general flow is to…
 
-* Ask one of the Administrators to add you to the `incoming-migrations` team.
 * Prepare your repo for transfer
     * If this module was created with PDK delete .sync.yaml.
     * Ensure that the module has a correct `LICENSE` file in the docroot that matches the mentioned license in the `metadata.json`.
