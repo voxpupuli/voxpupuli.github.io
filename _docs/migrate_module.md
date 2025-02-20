@@ -21,7 +21,7 @@ You will have someone by your side in this process. The general flow is to…
 * Execute [modulesync][msync] for this module.
 * Our modulesync will delete a `CONTRIBUTING.md` in the root directory and place one at `.github/CONTRIBUTING.md`. Please enhance [our existing template][template] if the version in the docroot contains useful parts.
 * [Release][release] the first version under Vox Pupuli.
-* Creata a GitHub issue for the [FORGE][forge] project and ask to deprecate the old module (and approve the new one if the old one was approved as well).
+* Create a GitHub issue for the [FORGE][forge] project and ask to deprecate the old module (and approve the new one if the old one was approved as well).
 * Do you think the module qualifies to be approved? Wait until it is released, then raise a [GitHub Issue][approve] in the Puppetlabs organisation.
 * Write a very short blog post about the migration([example][example]). Write to our [mailinglist](mailto:voxpupuli@groups.io) about the migration/new blogpost.
 
