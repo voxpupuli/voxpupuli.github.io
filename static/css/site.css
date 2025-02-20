@@ -122,3 +122,9 @@ section.content {
 .w-33 {
     width: 33%!important;
 }
+
+div.highlighter-rouge {
+    background-color: white;
+    padding: 1em;
+    text-wrap: wrap;
+}
