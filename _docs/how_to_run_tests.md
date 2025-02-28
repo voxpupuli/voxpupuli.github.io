@@ -88,7 +88,7 @@ bundle exec rake rubocop:autocorrect_all
 ### Unit tests
 
 The unit test suite covers most of the code, as mentioned above please add tests if you're adding new functionality.
-If you've not used [rspec-puppet](http://rspec-puppet.com/) before then feel free to ask about how best to test your new feature.
+If you've not used [rspec-puppet](https://puppetlabs.github.io/rspec-puppet/) before then feel free to ask about how best to test your new feature.
 
 To run the linter, the syntax checker and the unit tests:
 
