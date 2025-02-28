@@ -2,7 +2,7 @@
 layout: post
 title: How to run the test suite
 date: 2021-10-20
-summary: A very short description of how to run the vox pupuli test suite.
+summary: A very short description of how to run the vox pupuli test suite for puppet modules.
 ---
 
 - [Running the tests in a local ruby environment](#running-the-tests-in-a-local-ruby-environment)
