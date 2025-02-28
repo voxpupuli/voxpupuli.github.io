@@ -259,6 +259,12 @@ puppet query 'inventory[certname] { ! certname in inventory[certname] {  facts.m
 puppet query 'fact_contents { path ~> ["first_level",".*","third_level"] and value = "Y" }'
 ```
 
+### Get a list of nodes with a structured fact value matching a value in a list
+
+```shell
+puppet query 'fact_contents[certname] { path ~> ["dmi", "product", "name"] and value in ["HP Z230 SFF Workstation", "HP Z420 Workstation"] }'
+```
+
 ### Get all values for a fact
 
 This fetches a specified fact from all nodes and groups them by value. The
