@@ -211,6 +211,15 @@ puppet query 'inventory[certname] {facts.os.name = "AlmaLinux" and facts.os.rele
 puppet query 'inventory[certname,facts.virtual]{ resources { type="Class" and title ~ "CapitalizedClassname" }}'
 ```
 
+### Get a list of nodes with a specific array element value in a fact value
+
+For example, all nodes with `/tmp` mounted with the `noexec` option:
+
+```shell
+puppet query 'inventory[certname, facts.mountpoints."/tmp".options] { facts.mountpoints."/tmp".options is not null }' |
+jq '.[] | select(."facts.mountpoints.\"/tmp\".options" | index("noexec")) | .certname'
+```
+
 ### Get all nodes and their Puppet Agent version except for version X
 
 This is helpful if you did a Puppet Upgrade and want to identify all nodes that are on a different version than your primary
