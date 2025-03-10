@@ -45,6 +45,7 @@ Choose the appropriate `openvox8-release` repo package from either of these loca
   * [https://apt.overlookinfratech.com](https://apt.overlookinfratech.com)
 * RedHat family:
   * [https://yum.overlookinfratech.com](https://yum.overlookinfratech.com)
+ 
 
 Then install the packages you want.
 
@@ -59,7 +60,14 @@ Then install the packages you want.
 
 If you have backed up config files, then restore them now.
 
-### Sponsorship
+### Example (Yum)
+```
+curl -LO https://s3.osuosl.org/openvox-yum/GPG-KEY-openvox.pub
+rpm -Uvh https://s3.osuosl.org/openvox-yum/openvox8-release-el-10.noarch.rpm
+yum install openvox-server
+```
+
+## Sponsorship
 
 Many thanks to Lance and the [OSU Open Source Lab](https://osuosl.org).
 They do so much for the open source world and deserve far far more recognition for it.
