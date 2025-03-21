@@ -5,7 +5,8 @@ date: 2025-03-21
 github_username: rwaffen
 ---
 
-You may have heared about our (now deprecated) `puppetserver`/`puppetdb` container images? But did you know that we have a lot more containers available?
+You may have heared about our (now deprecated) `puppetserver`/`puppetdb` container images?
+But did you know that we have a lot more containers available?
 We have the brand new OpenVox containers, which replace the old puppetserver and puppetdb containers, and even some more.
 
 ## OpenVox containers
@@ -26,7 +27,8 @@ We have the brand new OpenVox containers, which replace the old puppetserver and
 
 ### voxbox
 
-[`voxbox`](https://github.com/voxpupuli/container-voxbox) is a container that contains a lot of tools that are useful for OpenVox/Puppet development and testing. It includes tools like `puppet-lint`, `modulesync`, `onceover`, `facter`, `yamllint`, `rubocop` and the Vox Pupuli testing gems.
+[`voxbox`](https://github.com/voxpupuli/container-voxbox) is a container that contains a lot of tools that are useful for OpenVox/Puppet development and testing.
+It includes tools like `puppet-lint`, `modulesync`, `onceover`, `facter`, `yamllint`, `rubocop` and the Vox Pupuli testing gems.
 
 ### r10k
 
@@ -54,8 +56,9 @@ See also: [commitlint](https://commitlint.js.org/) and [conventional commits](ht
 
 [`puppetboard`](https://github.com/voxpupuli/puppetboard) is a container that contains the `puppetboard` tool, which is a web interface for OpenVoxDB/PuppetDB.
 
-# Conclusion
+## Conclusion
 
-So you see, we have a lot of containers available. If you have any questions or suggestions, feel free to reach out to us on [GitHub](https://github.com/voxpupuli) or on our [Slack](https://voxpupuli.slack.com/).
+So you see, we have a lot of containers available.
+If you have any questions or suggestions, feel free to reach out to us on [GitHub](https://github.com/voxpupuli) or on our [Slack](https://short.voxpupu.li/puppetcommunity_slack_signup).
 If you need help with any of the containers, feel free to open an issue on the respective GitHub repository.
 Some examples of how to use the containers can be found in the [CRAFTY](https://github.com/voxpupuli/crafty) repository.
