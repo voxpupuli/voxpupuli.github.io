@@ -59,6 +59,6 @@ See also: [commitlint](https://commitlint.js.org/) and [conventional commits](ht
 ## Conclusion
 
 So you see, we have a lot of containers available.
-If you have any questions or suggestions, feel free to reach out to us on [GitHub](https://github.com/voxpupuli) or on our [Slack](https://short.voxpupu.li/puppetcommunity_slack_signup).
+If you have any questions or suggestions, feel free to reach out to us on [GitHub](https://github.com/voxpupuli) or on our [Slack](https://short.voxpupu.li/puppetcommunity_slack_signup) or [#voxpupuli](ircs://irc.libera.chat:6697/voxpupuli) on [Libera.Chat](https://libera.chat/).
 If you need help with any of the containers, feel free to open an issue on the respective GitHub repository.
 Some examples of how to use the containers can be found in the [CRAFTY](https://github.com/voxpupuli/crafty) repository.
