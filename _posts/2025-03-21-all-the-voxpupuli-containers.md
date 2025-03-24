@@ -5,7 +5,7 @@ date: 2025-03-21
 github_username: rwaffen
 ---
 
-You may have heared about our (now deprecated) `puppetserver`/`puppetdb` container images?
+You may have heard about our (now deprecated) `puppetserver`/`puppetdb` container images?
 But did you know that we have a lot more containers available?
 We have the brand new OpenVox containers, which replace the old puppetserver and puppetdb containers, and even some more.
 
