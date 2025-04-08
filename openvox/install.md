@@ -9,10 +9,6 @@ As of release 8.11, OpenVox is functionally equivalent to Puppet; the command na
 The major differences are in help text output, man pages, and so on.
 This means that you can continue to use all the commands, modules, tooling, etc that you're used to, but at this time *you cannot install both Puppet and OpenVox on the same system*.
 
-🚨 Before you enable and install the packages, be forewarned that these are still experimental packages only.
-We do not yet have a fully robust test pipeline, although that is our next priority.
-
-
 ## Uninstalling Puppet
 
 We encourage you to try out OpenVox on a fresh test system, the way you would for any major system package.
@@ -42,9 +38,11 @@ First enable the repository, based on your Linux distribution.
 Choose the appropriate `openvox8-release` repo package from either of these locations and install it.
 
 * Debian family:
-  * [https://apt.overlookinfratech.com](https://apt.overlookinfratech.com)
+  * [apt.voxpupuli.org](https://apt.voxpupuli.org/)
 * RedHat family:
-  * [https://yum.overlookinfratech.com](https://yum.overlookinfratech.com)
+  * [yum.voxpupuli.org](https://yum.voxpupuli.org/)
+
+(There are experimental builds for Windows at [artifacts.voxpupuli.org/downloads/](https://artifacts.voxpupuli.org/downloads/), and stable macOS builds at [downloads.voxpupuli.org/mac](https://downloads.voxpupuli.org/mac/))
 
 Then install the packages you want.
 
