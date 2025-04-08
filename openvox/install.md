@@ -59,12 +59,36 @@ If you have backed up config files, then restore them now.
 
 ### Managing OpenVox with OpenVox
 
+### Repositories
+
+You can add the APT or YUM repositories with OpenVox - this should do the same thing as using the release packages:
+
+```pp
+include apt
+
+$os_name = downcase($facts['os']['name'])
+apt::source { 'openvox8-release':
+  comment  => "OpenVox 8 ${os_name}${$facts['os']['release']['major']} Repository",
+  location => 'https://apt.voxpupuli.org',
+  release  => "${os_name}${$facts['os']['release']['major']}",
+  repos    => 'openvox8',
+  key      => {
+    'name'   => 'openvox-keyring.gpg',
+    'source' => 'https://apt.voxpupuli.org/openvox-keyring.gpg',
+  },
+}
+```
+
+### Server/Client
+
 You can manage OpenVox with several existing modules:
 
 * [`puppet-puppet` from `theforeman`](https://github.com/theforeman/puppet-puppet)
 * [`puppetlabs-puppetdb`](https://github.com/puppetlabs/puppetlabs-puppetdb)
 
-To prevent the modules from trying to install Puppet, you can use this `hiera` data:
+These modules currently default to installing packages named `puppet*`, so they will cause `openvox*` packages to be removed.
+
+To install OpenVox, you can use this `hiera` data:
 
 ```yaml
 puppet::client_package: openvox-agent
@@ -72,6 +96,9 @@ puppet::server::package: openvox-server
 puppetdb::puppetdb_package: openvoxdb
 puppetdb::master::config::terminus_package: openvoxdb-termini
 ```
+
+Note that this will cause errors if the OpenVox repositories are not available (using one of the methods above).
+If the OpenVox repositories are available, this will cause Puppet to be removed and OpenVox to be install.
 
 ## Sponsorship
 
