@@ -63,7 +63,7 @@ If you have backed up config files, then restore them now.
 
 You can add the APT or YUM repositories with OpenVox - this should do the same thing as using the release packages:
 
-```pp
+```puppet
 include apt
 
 $os_name = downcase($facts['os']['name'])
