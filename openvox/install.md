@@ -38,9 +38,11 @@ First enable the repository, based on your Linux distribution.
 Choose the appropriate `openvox8-release` repo package from either of these locations and install it.
 
 * Debian family:
-  * [https://apt.overlookinfratech.com](https://apt.overlookinfratech.com)
+  * [apt.voxpupuli.org](https://apt.voxpupuli.org/)
 * RedHat family:
-  * [https://yum.overlookinfratech.com](https://yum.overlookinfratech.com)
+  * [yum.voxpupuli.org](https://yum.voxpupuli.org/)
+
+(There are experimental builds for Windows at [artifacts.voxpupuli.org/downloads/](https://artifacts.voxpupuli.org/downloads/), and stable macOS builds at [downloads.voxpupuli.org/mac](https://downloads.voxpupuli.org/mac/))
 
 Then install the packages you want.
 
