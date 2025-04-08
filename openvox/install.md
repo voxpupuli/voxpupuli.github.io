@@ -57,7 +57,23 @@ Then install the packages you want.
 
 If you have backed up config files, then restore them now.
 
-### Sponsorship
+### Managing OpenVox with OpenVox
+
+You can manage OpenVox with several existing modules:
+
+* [`puppet-puppet` from `theforeman`](https://github.com/theforeman/puppet-puppet)
+* [`puppetlabs-puppetdb`](https://github.com/puppetlabs/puppetlabs-puppetdb)
+
+To prevent the modules from trying to install Puppet, you can use this `hiera` data:
+
+```yaml
+puppet::client_package: openvox-agent
+puppet::server::package: openvox-server
+puppetdb::puppetdb_package: openvoxdb
+puppetdb::master::config::terminus_package: openvoxdb-termini
+```
+
+## Sponsorship
 
 Many thanks to Lance and the [OSU Open Source Lab](https://osuosl.org).
 They do so much for the open source world and deserve far far more recognition for it.
