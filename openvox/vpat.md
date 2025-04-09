@@ -44,7 +44,7 @@ OpenVox is an open-source command-line utility and does not meet the requirement
 
 ### Section 1194.26 - Desktop and Portable Computers
 
-OpenVox is a command-line utility and does not include a graphical user interface (GUI) that could be used with assistive technologies. This section does not apply.
+OpenVox is a command-line utility and does not include a graphical user interface (GUI or TUI) that could be used with assistive technologies. This section does not apply.
 
 ### Section 1194.31 - Functional Performance Criteria
 
