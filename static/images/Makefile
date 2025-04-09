@@ -1,4 +1,4 @@
-all: sponsor-github.png sponsor-hetzner.png sponsor-betadots.png sponsor-babiel.png sponsor-enterprise-modules.png sponsor-docker.png sponsor-puppet.png sponsor-deubert.png sponsor-microsoft.png sponsor-macarne.png sponsor-cern.png sponsor-geant.png sponsor-tiger-computing.png sponsor-arnes.png
+all: sponsor-github.png sponsor-hetzner.png sponsor-betadots.png sponsor-babiel.png sponsor-enterprise-modules.png sponsor-docker.png sponsor-puppet.png sponsor-deubert.png sponsor-microsoft.png sponsor-macarne.png sponsor-cern.png sponsor-geant.png sponsor-tiger-computing.png sponsor-arnes.png logo-atix.png
 
 SPONSOR_LOGO=	300x150
 SPONSOR_CANVAS=	320x170
@@ -6,6 +6,8 @@ SPONSOR_CANVAS=	320x170
 sponsor-%.png:
 	convert "$<" -background transparent -resize ${SPONSOR_LOGO} -gravity center -extent ${SPONSOR_CANVAS} "$@"
 
+logo-%.png:
+	convert "$<" -background transparent -resize ${SPONSOR_LOGO} -gravity center -extent ${SPONSOR_CANVAS} "$@"
 .SUFFIXES: .png .svg
 
 %.png: %.svg
@@ -40,3 +42,5 @@ sponsor-geant.png: GEANT_logo_2015.jpg
 sponsor-tiger-computing.png: logo-tiger-computing.png
 
 sponsor-arnes.png: Arnes_logo.svg
+
+logo-atix.png: ATIX-Logo_original.png
