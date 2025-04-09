@@ -31,9 +31,3 @@ jobs:
           overwrite: true
           compression-level: 9
           if-no-files-found: error
-      - name: Post comment to PR with download link
-        if: github.repository == 'voxpupuli/voxpupuli.github.io'
-        uses: marocchino/sticky-pull-request-comment@v2
-        with:
-          message: |
-            Download / Review a preview of this change at, ${{ steps.upload-preview.outputs.artifact-url }} (for the next 7 days.)
