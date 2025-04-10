@@ -4,7 +4,8 @@ title: Voluntary Product Accessibility Template
 subsection: openvox
 ---
 
-The Voluntary Product Accessibility Template (VPAT) is a document that describes how an information technology (IT) product, such as software, hardware, or web-based applications, meets the accessibility standards defined by Section 508 of the Rehabilitation Act. This VPAT describes the accessibility features of the OpenVox open-source project.
+The Voluntary Product Accessibility Template (VPAT) is a document that describes how an information technology (IT) product, such as software, hardware, or web-based applications, meets the accessibility standards defined by Section 508 of the Rehabilitation Act.
+This VPAT describes the accessibility features of the OpenVox open-source project.
 
 * Product Name: OpenVox
 * Version: (all versions)
