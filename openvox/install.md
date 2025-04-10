@@ -98,7 +98,7 @@ puppetdb::master::config::terminus_package: openvoxdb-termini
 ```
 
 Note that this will cause errors if the OpenVox repositories are not available (using one of the methods above).
-If the OpenVox repositories are available, this will cause Puppet to be removed and OpenVox to be install.
+If the OpenVox repositories are available, this will cause Puppet to be removed and OpenVox to be installed.
 
 ## Sponsorship
 
