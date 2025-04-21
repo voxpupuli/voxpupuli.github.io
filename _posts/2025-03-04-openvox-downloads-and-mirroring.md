@@ -16,7 +16,7 @@ I am happy to announce that Vox Pupuli's OpenVox packages and repositories are n
 Additionally, two rsync modules are defined that allow people to mirror the files presented at the URLs above:
 
 - `rsync://rsync.voxpupuli.org/all` - same as <https://rsync.voxpupuli.org>
-- `rsync://rsync.voxpupuli.org/packages` - all packages, which currently means the same as <https://rsync.voxpupuli.org> minus the `archives/` directory
+- `rsync://rsync.voxpupuli.org/packages` - all packages, which currently means the same as <https://rsync.voxpupuli.org> minus the `artifacts/` directory
 
 If you'd like to see the technical details on how this was setup, feel free to check out <https://github.com/voxpupuli/controlrepo/pull/100>.
 
