@@ -68,9 +68,9 @@ include apt
 
 $os_name = downcase($facts['os']['name'])
 apt::source { 'openvox8-release':
-  comment  => "OpenVox 8 ${os_name}${$facts['os']['release']['major']} Repository",
+  comment  => "OpenVox 8 ${os_name}${facts['os']['release']['major']} Repository",
   location => 'https://apt.voxpupuli.org',
-  release  => "${os_name}${$facts['os']['release']['major']}",
+  release  => "${os_name}${facts['os']['release']['major']}",
   repos    => 'openvox8',
   key      => {
     'name'   => 'openvox-keyring.gpg',
