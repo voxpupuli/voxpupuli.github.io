@@ -100,6 +100,29 @@ puppetdb::master::config::terminus_package: openvoxdb-termini
 Note that this will cause errors if the OpenVox repositories are not available (using one of the methods above).
 If the OpenVox repositories are available, this will cause Puppet to be removed and OpenVox to be installed.
 
+
+### Foreman integration
+
+Foreman installs the package puppet-agent-oauth.
+It provides the (oauth)[https://rubygems.org/gems/oauth] gem for the Puppet Agent Ruby.
+The package depends on `puppet-agent`.
+The OpenVox packages don't have a `provides puppet-agent` flag yet.
+As a workaround, tell the foreman module to not install the package:
+
+```yaml
+---
+foreman::providers::oauth: false
+```
+
+And manage the gem directly:
+
+```puppet
+package { 'oauth':
+  ensure   => 'installed',
+  provider => 'puppet_gem',
+}
+```
+
 ## Sponsorship
 
 Many thanks to Lance and the [OSU Open Source Lab](https://osuosl.org).
