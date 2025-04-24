@@ -79,6 +79,21 @@ apt::source { 'openvox8-release':
 }
 ```
 
+```puppet
+include yum
+$release=8
+$os_name = $facts['os']['name'] ? {
+  "Fedora" => "fedora",
+  "Amazon" => "amazon"
+  default  => "el",
+}
+
+yum::install { "openvox${release}-release":
+  ensure => 'present',
+  source => "https://yum.voxpupuli.org/openvox${release}-release-${os_name}-${$facts['os']['release']['major']}.noarch.rpm"
+}
+```
+
 ### Server/Client
 
 You can manage OpenVox with several existing modules:
