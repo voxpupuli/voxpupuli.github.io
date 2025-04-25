@@ -119,7 +119,7 @@ If the OpenVox repositories are available, this will cause Puppet to be removed 
 ### Foreman integration
 
 Foreman installs the package puppet-agent-oauth.
-It provides the (oauth)[https://rubygems.org/gems/oauth] gem for the Puppet Agent Ruby.
+It provides the [oauth](https://rubygems.org/gems/oauth) gem for the Puppet Agent Ruby.
 The package depends on `puppet-agent`.
 The OpenVox packages don't have a `provides puppet-agent` flag yet.
 As a workaround, tell the foreman module to not install the package:
