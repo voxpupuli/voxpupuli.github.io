@@ -90,7 +90,7 @@ $os_name = $facts['os']['name'] ? {
 
 yum::install { "openvox${release}-release":
   ensure => 'present',
-  source => "https://yum.voxpupuli.org/openvox${release}-release-${os_name}-${$facts['os']['release']['major']}.noarch.rpm"
+  source => "https://yum.voxpupuli.org/openvox${release}-release-${os_name}-${facts['os']['release']['major']}.noarch.rpm"
 }
 ```
 
