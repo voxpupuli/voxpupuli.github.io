@@ -31,4 +31,4 @@ However, with the current crisis in academic funding in the USA, they are in
 critical need of funding and without your help, they may cease to exist. See
 [this blog post for more information](https://osuosl.org/blog/osl-future/) and
 go talk to your boss today! Don't hesitate to
-[drop them some cash yourself if you can spare it](https://osuosl.org/donate/),
+[drop them some cash yourself if you can spare it](https://osuosl.org/donate/).
