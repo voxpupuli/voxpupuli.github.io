@@ -9,7 +9,7 @@ category: community
 Have you been looking at the OpenVox project and wondered what you could do to
 help out? What if I told you about an opportunity to help us, and also hundreds
 of other OSS projects that you probably rely on? The [OSU Open Source
-Lab](https://osuosl.org) is our primary package host and helped us get off the
+Lab](https://osuosl.org) is OpenVox's primary package host and helped us get off the
 ground right from the start. They help hundreds of open source projects with
 critical infrastructure needs that many projects (like us) would not have been
 able to afford on their own.
