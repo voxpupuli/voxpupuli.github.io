@@ -12,7 +12,7 @@ This means that you can continue to use all the commands, modules, tooling, etc 
 ## Uninstalling Puppet
 
 We encourage you to try out OpenVox on a fresh test system, the way you would for any major system package.
-If you'd rather try it on an existing system or develop a migration process, then you will first have to uninstall Puppet.
+If you'd rather try it on an existing system or develop a migration process, then simply installing OpenVox will uninstall Puppet.
 
 You do not need to purge configuration files because OpenVox will continue to use them as they are.
 However, **before getting started on the migration you should strongly consider backing up the entire `/etc/puppetlabs/` tree** in case of accidents.
