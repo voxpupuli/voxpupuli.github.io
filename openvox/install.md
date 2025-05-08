@@ -9,13 +9,20 @@ As of release 8.11, OpenVox is functionally equivalent to Puppet; the command na
 The major differences are in help text output, man pages, and so on.
 This means that you can continue to use all the commands, modules, tooling, etc that you're used to, but at this time *you cannot install both Puppet and OpenVox on the same system*.
 
+> 🔔 Tip: If you want to use Puppet code to manage your systems, if you have strange dependencies, if you're migrating from Puppet Enterprise, or if you have Puppet modules installed as system packages then see the [advanced options](#advanced-options) sections below.
+>
+> * [Alternative Puppet uninstallation options](#alternative-puppet-uninstallation-options)
+> * [Managing OpenVox with OpenVox](#managing-openvox-with-openvox)
+>     * [Managing Repositories](#managing-repositories)
+>     * [Managing the Server/Client](#managing-the-serverclient)
+>     * [Foreman Integration](#foreman-integration)
+{: class="alert alert-primary callout" }
+
 We encourage you to try out OpenVox on a fresh test system, the way you would for any major system package.
 If you'd rather try it on an existing system or develop a migration process, then the new OpenVox packages will uninstall and replace the existing legacy Puppet packages.
 
 You do not need to purge configuration files because OpenVox will continue to use them as they are.
 However, **before getting started on the migration you should strongly consider backing up the entire `/etc/puppetlabs/` tree** in case of accidents.
-
-*🔔 Tip: If you have strange dependencies, you're migrating from Puppet Enterprise, or if you have Puppet modules installed as system packages then see the [advanced options](#advanced-options) sections below.*
 
 First enable the repository, based on your Linux distribution.
 Choose the appropriate `openvox8-release` repo package from either of these locations and install it.

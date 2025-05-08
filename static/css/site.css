@@ -118,6 +118,12 @@ section.content {
   margin: 1em 0;
 }
 
+.callout {
+  width: 45%;
+  float: right;
+  font-style: italic;
+}
+
 /* bootstrap customizations */
 .w-33 {
     width: 33%!important;
