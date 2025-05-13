@@ -1,19 +1,17 @@
 ---
 layout: architecture
 title: Single Server
-date: 2023-08-06
-version: v0.0.2
+date: 2025-05-13
+version: v1.0.0
 summary: A simple server/agent architecture with all services running on a single machine.
 ---
 
 ## Intended Audience
 
-This architecture is intended for small to medium static infrastructures and is
-easier to set up and maintain than a load balanced compiler farm. Generally speaking,
-redundancy and HA are most useful for dynamic environments. A stopped Puppet
-server doesn't prevent the existing configuration from being enforced but it will
-halt any new deployments or configuration updates. If those constraints fit your
-needs, then this architecture is suggested.
+This architecture is intended for small to medium static infrastructures and is easier to set up and maintain than a load balanced compiler farm.
+Generally speaking, redundancy and HA are most useful for dynamic environments.
+A stopped Puppet server doesn't prevent the existing configuration from being enforced but it will halt any new deployments or configuration updates.
+If those constraints fit your needs, then this architecture is suggested.
 
 
 <div class="mermaid">
