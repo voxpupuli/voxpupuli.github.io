@@ -13,6 +13,7 @@ Generally speaking, redundancy and HA are most useful for dynamic environments.
 A stopped Puppet server doesn't prevent the existing configuration from being enforced but it will halt any new deployments or configuration updates.
 If those constraints fit your needs, then this architecture is suggested.
 
+The simple service view (the more complex firewall view is at the bottom):
 
 <div class="mermaid">
 flowchart LR
@@ -123,3 +124,47 @@ We recommend managing each of these components with the supported module.
 * Vox Pupuli also has containers for [Puppetboard](https://github.com/voxpupuli/puppetboard/pkgs/container/puppetboard) and [HDM](https://github.com/betadots/hdm/pkgs/container/hdm)
 * There's also a container for [r10k](https://github.com/voxpupuli/container-r10k) and for [webhook-go](https://github.com/voxpupuli/container-r10k-webhook)
 * [crafty](https://github.com/voxpupuli/crafty) (Containerized Resources And Funky Tools in YAML) pulls all the images together
+
+## Firewalling and network access
+
+Below is a flowchart for the network traffic between all those services.
+It's currently work in progress.
+
+<div class="mermaid">
+flowchart LR
+ subgraph server["OpenVoxServer node"]
+        Foreman("The Foreman")
+        Webhook("webhook-go")
+        OpenVoxDB["OpenVoxDB"]
+        OpenVoxServer{"OpenVoxServer"}
+        HDM("Hiera Data Manager")
+        Puppetboard["Puppetboard"]
+        Postgres_foreman["PostgreSQL DB Foreman"]
+        Postgres_openvoxdb["PostgreSQL DB OpenVoxDB"]
+  end
+    git("Git Repository") -- HTTPS Port 4000 --> Webhook
+    Webhook -- r10k code deploy --- OpenVoxServer
+    OpenVoxServer -- HTTPS Port 443 --> Foreman
+    OpenVoxServer -- TCP Port 5432 --> Postgres_openvoxdb
+    Foreman -- TCP Port 5432 --> Postgres_foreman
+    OpenVoxDB -- TCP Port 5432 --> Postgres_openvoxdb
+    HDM --- OpenVoxServer
+    HDM -- HTTPS Port 8081 --> OpenVoxDB
+    Puppetboard -- HTTPS Port 8081 --> OpenVoxDB
+    OpenVoxServer -- HTTPS Port 8081 --> OpenVoxDB
+    Agent1("Agent 1") & Agent2("Agent 2") & Agent_n("Agent n") -- HTTPS Port 8140--> OpenVoxServer
+    User["User"] --> git
+    User -- HTTPS --> HDM & Puppetboard & Foreman
+
+    Postgres_foreman@{ shape: cyl}
+    Postgres_openvoxdb@{ shape: cyl}
+    click Foreman "https://www.theforeman.org/"
+    click Webhook "https://github.com/voxpupuli/webhook-go?tab=readme-ov-file#webhook-go"
+    click OpenVoxDB "https://github.com/OpenVoxProject/openvoxdb"
+    click OpenVoxServer "https://github.com/OpenVoxProject/openvox-server?tab=readme-ov-file#puppet-server"
+    click HDM "https://github.com/betadots/hdm?tab=readme-ov-file#hdm---hiera-data-manager"
+    click Puppetboard "https://github.com/voxpupuli/puppetboard?tab=readme-ov-file#puppetboard"
+    click Agent1 "https://github.com/OpenVoxProject/openvox-agent?tab=readme-ov-file#the-puppet-agent"
+    click Agent2 "https://github.com/OpenVoxProject/openvox-agent?tab=readme-ov-file#the-puppet-agent"
+    click Agent_n "https://github.com/OpenVoxProject/openvox-agent?tab=readme-ov-file#the-puppet-agent"
+</div>
