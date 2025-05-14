@@ -15,7 +15,7 @@ If those constraints fit your needs, then this architecture is suggested.
 
 The simple service view (the more complex firewall view is at the bottom):
 
-<div class="mermaid">
+```mermaid
 flowchart LR
 subgraph server["OpenVoxServer node"]
     Foreman("The Foreman")
@@ -43,7 +43,7 @@ click OpenVoxServer "https://github.com/OpenVoxProject/openvox-server?tab=readme
 click Agent1 "https://github.com/OpenVoxProject/openvox-agent?tab=readme-ov-file#the-puppet-agent"
 click Agent2 "https://github.com/OpenVoxProject/openvox-agent?tab=readme-ov-file#the-puppet-agent"
 click Agent_n "https://github.com/OpenVoxProject/openvox-agent?tab=readme-ov-file#the-puppet-agent"
-</div>
+```
 
 ## Setup and Usage
 
@@ -130,7 +130,7 @@ We recommend managing each of these components with the supported module.
 Below is a flowchart for the network traffic between all those services.
 It's currently work in progress.
 
-<div class="mermaid">
+```mermaid
 flowchart LR
  subgraph server["OpenVoxServer node"]
         Foreman("The Foreman")
@@ -167,4 +167,4 @@ flowchart LR
     click Agent1 "https://github.com/OpenVoxProject/openvox-agent?tab=readme-ov-file#the-puppet-agent"
     click Agent2 "https://github.com/OpenVoxProject/openvox-agent?tab=readme-ov-file#the-puppet-agent"
     click Agent_n "https://github.com/OpenVoxProject/openvox-agent?tab=readme-ov-file#the-puppet-agent"
-</div>
+```
