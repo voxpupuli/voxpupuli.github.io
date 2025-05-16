@@ -18,5 +18,5 @@ The restrictions placed on usage prevent effective testing and distribution of m
 Unfortunately, this means that Vox Pupuli modules are not tested against Puppet Core, so please use them at your own risk.
 We are still interested in working together with Perforce, but their current EULA doesn't allow it.
 
-Vox Pupuli will continue to test all of our modules against the [Open Vox packges](https://voxpupuli.org/openvox/).
+Vox Pupuli will continue to test all of our modules against the [Open Vox packeges](https://voxpupuli.org/openvox/).
 All provided tooling from Vox Pupuli has an open source license and doesn't require a EULA to use it, nor a CLA to participate.
