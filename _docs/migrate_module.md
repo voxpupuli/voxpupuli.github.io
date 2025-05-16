@@ -13,7 +13,7 @@ You will have someone by your side in this process. The general flow is to…
     * Ensure github issues are enabled.
     * If this module was created with PDK delete .sync.yaml.
     * Ensure that the module has a correct `LICENSE` file in the docroot that matches the mentioned license in the `metadata.json`.
-* At this point you can transfer your own repository.
+* At this point you can [transfer your own repository](https://docs.github.com/repositories/creating-and-managing-repositories/transferring-a-repository).
 * Ask an admin to
     * Verify that all webhooks are disabled.
     * Enable `Automatically delete head branches` in the repository settings.
