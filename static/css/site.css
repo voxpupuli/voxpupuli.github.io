@@ -124,6 +124,11 @@ section.content {
   font-style: italic;
 }
 
+blockquote {
+  border-left: 4px solid #c1c1c1;
+  padding-left: .5em;
+}
+
 /* bootstrap customizations */
 .w-33 {
     width: 33%!important;
