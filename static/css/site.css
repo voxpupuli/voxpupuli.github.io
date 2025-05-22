@@ -129,6 +129,17 @@ blockquote {
   padding-left: .5em;
 }
 
+.overlaytable {
+  position: absolute;
+  top: 40cqw;
+  left: 20cqw;
+  max-width: 60cqw;
+  padding: 1em;
+  border-spacing: 0.25em 0;
+  border-collapse: separate;
+  border-radius: 1em;
+}
+
 /* bootstrap customizations */
 .w-33 {
     width: 33%!important;
