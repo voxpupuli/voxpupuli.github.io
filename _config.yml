@@ -67,6 +67,9 @@ navigation:
       - title: Other Channels
         url: /connect/
         icon: fas fa-comments
+      - title: VoxConf
+        url: /voxconf/
+        icon: fas fa-person-chalkboard
       - title: Code of Conduct
         url: /coc/
         icon: fas fa-users
