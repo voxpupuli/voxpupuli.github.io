@@ -99,7 +99,7 @@ include yum
 $release=8
 $os_name = $facts['os']['name'] ? {
   "Fedora" => "fedora",
-  "Amazon" => "amazon"
+  "Amazon" => "amazon",
   default  => "el",
 }
 
