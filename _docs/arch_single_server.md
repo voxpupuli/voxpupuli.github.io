@@ -13,7 +13,7 @@ Generally speaking, redundancy and HA are most useful for dynamic environments.
 A stopped Puppet server doesn't prevent the existing configuration from being enforced but it will halt any new deployments or configuration updates.
 If those constraints fit your needs, then this architecture is suggested.
 
-The simple service view (the more complex firewall view is at the bottom):
+The simple service view (the more complex firewall view, with monitoring connections, is at the bottom):
 
 <div class="mermaid">
 flowchart LR
@@ -103,14 +103,14 @@ We recommend managing each of these components with the supported module.
     * The default PostgreSQL database is recommended.
 * OpenVoxServer and agents
     * [theforeman/puppet](https://forge.puppet.com/modules/theforeman/puppet)
-* Puppet Metrics Dashboard
-    * [puppetlabs/puppet_metrics_dashboard](https://forge.puppet.com/puppetlabs/puppet_metrics_dashboard)
 * Hiera Data Manager (HDM)
     * [puppet/hdm](https://forge.puppet.com/modules/puppet/hdm)
 * r10k & webhook-go
     * [puppet/r10k](https://forge.puppet.com/modules/puppet/r10k/readme)
 * nftables firewalling
     * [puppet/nftables](https://forge.puppet.com/modules/puppet/nftables/readme)
+* [InfluxDB](https://www.influxdata.com/products/influxdb/), [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/) & [Grafana](https://grafana.com/oss/grafana/) for monitoring
+    * [puppetlabs/puppet_operational_dashboards](https://forge.puppet.com/modules/puppetlabs/puppet_operational_dashboards/readme) (ships ready to use dashboards)
 
 ## Scaleout options
 
@@ -141,6 +141,11 @@ flowchart LR
         Puppetboard["Puppetboard"]
         Postgres_foreman["PostgreSQL DB Foreman"]
         Postgres_openvoxdb["PostgreSQL DB OpenVoxDB"]
+        Telegraf
+  end
+  subgraph monitoring["Central Monitoring Stack"]
+    Grafana
+    InfluxDB
   end
     git("Git Repository") -- HTTPS Port 4000 --> Webhook
     Webhook -- r10k code deploy --- OpenVoxServer
@@ -156,6 +161,13 @@ flowchart LR
     User["User"] --> git
     User -- HTTPS --> HDM & Puppetboard & Foreman
 
+    User -- HTTPS --> Grafana
+    Grafana -- HTTPS Port 8086 ---> InfluxDB
+    Telegraf -- HTTPS Port 8140 ---> OpenVoxServer
+    Telegraf -- TCP Port 5432 ---> Postgres_openvoxdb
+    Telegraf -- TCP Port 8081 ---> OpenVoxDB
+    Telegraf -- HTTPS Port 8086 ---> InfluxDB
+
     Postgres_foreman@{ shape: cyl}
     Postgres_openvoxdb@{ shape: cyl}
     click Foreman "https://www.theforeman.org/"
@@ -168,3 +180,10 @@ flowchart LR
     click Agent2 "https://github.com/OpenVoxProject/openvox-agent?tab=readme-ov-file#the-puppet-agent"
     click Agent_n "https://github.com/OpenVoxProject/openvox-agent?tab=readme-ov-file#the-puppet-agent"
 </div>
+
+Notes:
+
+* webhook-go has no network connection to the puppetserver, it just deploys code that puppetserver needs
+* Telegraf can run on each OpenVoxServer system, pull metrics locally and push them into InfluxDB
+* If you prefer, you can run a central Telegraf on the monitoring node and let it pull metrics from the remote APIs (default behaviour for puppetlabs/puppet_operational_dashboards)
+* Running Telegraf on each VM allows it to also collect local system metrics (disk/network/memory/CPU util etc)
