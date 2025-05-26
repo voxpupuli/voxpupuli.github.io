@@ -4,7 +4,7 @@ title: VoxConf '25
 ---
 
 <div class="card bg-dark text-white border-0 rounded-3" style="background-image: url('/static/images/blue-skies.jpg'); background-size: contain; aspect-ratio: 1274/684">
-		<div class="row h-100 m-0">
+		<div class="row m-0" style="min-height: 100% !important;">
 			<div class="alert alert-primary col-md-4 p-0 mx-auto align-self-end" style="border-radius: 25px;" role="alert">
 				<table class="table table-sm table-borderless">
   <thead>
