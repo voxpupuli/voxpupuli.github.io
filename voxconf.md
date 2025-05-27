@@ -20,7 +20,7 @@ title: VoxConf '25
     </tr>
     <tr>
       <th scope="row">When:</th>
-      <td>17th of July (Thursday), 2025<br/>08:00 - 12:00</td>
+      <td>17th of July (Thursday), 2025<br/>09:00 - 12:00</td>
     </tr>
     <tr>
       <th scope="row">Cost:</th>
