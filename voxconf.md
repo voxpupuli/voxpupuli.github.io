@@ -64,4 +64,20 @@ The entrance will be free.
 Vox Pupuli will sponsor a get-together in the evening of the 16th of July, the evening before the conference.
 We will also provide a travel fund with a total of € 5000.
 Please write to the PMC until the 20th of June at midnight, if (and how much) you require travel funding.
-
+<div class="container">
+	<div class="px-4 pt-5 mt-5 text-center">
+		<h1 class="display-5">Sponsors</h1>
+	</div>
+	<div class="row align-items-center justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm h-100">
+			  <img src="{{ site.url }}{{ site.baseurl }}/static/images/netways.svg">
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm h-100">
+            <img src="{{ site.url }}{{ site.baseurl }}/static/images/betadots.png">
+          </div>
+        </div>
+	</div>
+</div>
