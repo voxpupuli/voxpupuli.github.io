@@ -28,7 +28,7 @@ title: VoxConf '25
     </tr>
     <tr>
       <th scope="row">Register:</th>
-      <td><a href="https://tickets.netways.de/NES/foremanbirthday/">click here!</a></td>
+      <td><p class="fst-italic"><a href="https://tickets.netways.de/NES/foremanbirthday/">click here!</a><br/>👇Scroll down for more information ⬇️</p></td>
     </tr>
   </tbody>
 </table>
