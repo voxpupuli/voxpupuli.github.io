@@ -28,7 +28,7 @@ title: VoxConf '25
     </tr>
     <tr>
       <th scope="row">Register:</th>
-      <td><p class="fst-italic">coming soon!<br/>👇Scroll down for more information⬇️</p></td>
+      <td><a href="https://tickets.netways.de/NES/foremanbirthday/">click here!</a></td>
     </tr>
   </tbody>
 </table>
@@ -45,6 +45,8 @@ We will do our first conference this July, thanks to Netways generously sponsori
 This will be a single-track half-day conference.
 We are sharing the space with the awesome Foreman people celebrating their birthday!
 [Their event](https://community.theforeman.org/t/foreman-birthday-event-2025/42996) takes place in the same location at 1pm so you can attend all their talks as well.
+
+<a href="https://tickets.netways.de/NES/foremanbirthday/">click here</a> to sign up for our dinner on the 16th, for VoxConf *and* for the Foreman birthday party!
 
 **Please submit your talk proposal** until the [20th of June at midnight](https://www.timeanddate.com/worldclock/converter.html?iso=20250620T215900&p1=tz_cest) to [pmc@voxpupuli.org](mailto:pmc@voxpupuli.org).
 
@@ -65,19 +67,19 @@ Vox Pupuli will sponsor a get-together in the evening of the 16th of July, the e
 We will also provide a travel fund with a total of € 5000.
 Please write to the PMC until the 20th of June at midnight, if (and how much) you require travel funding.
 <div class="container">
-    <div class="px-4 pt-5 mt-5 text-center">
-        <h1 class="display-5">Sponsors</h1>
+  <div class="px-4 pt-5 mt-5 text-center">
+    <h1 class="display-5">Sponsors</h1>
+  </div>
+  <div class="row align-items-center justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="col">
+      <div class="card shadow-sm h-100">
+        <img src="{{ site.url }}{{ site.baseurl }}/static/images/netways.svg">
+      </div>
     </div>
-    <div class="row align-items-center justify-content-center row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col">
-          <div class="card shadow-sm h-100">
-              <img src="{{ site.url }}{{ site.baseurl }}/static/images/netways.svg">
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm h-100">
-            <img src="{{ site.url }}{{ site.baseurl }}/static/images/betadots.png">
-          </div>
-        </div>
+    <div class="col">
+      <div class="card shadow-sm h-100">
+        <img src="{{ site.url }}{{ site.baseurl }}/static/images/betadots.png">
+      </div>
     </div>
+  </div>
 </div>
