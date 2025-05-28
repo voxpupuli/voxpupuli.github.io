@@ -7,7 +7,7 @@ github_username: bastelfreak
 
 The first VoxConf is happening!
 We will do our first cozy conference this summer.
-[Netways](https://netways.de/) is generous and sponsors the location, the event will take place at [Deutschherrnstraße 15 - 19, 90429 Nürnberg (Germany)](https://www.openstreetmap.org/?#map=19/49.453932/11.063257), on the 17th of July (Thursday), 2025.
+[NETWAYS](https://netways.de/) is generous and sponsors the location, the event will take place at [Deutschherrnstraße 15 - 19, 90429 Nürnberg (Germany)](https://www.openstreetmap.org/?#map=19/49.453932/11.063257), on the 17th of July (Thursday), 2025.
 The event will start in the morning and finish at noon.
 It will be a single-track conference.
 
@@ -20,7 +20,7 @@ We're organizing the events after each other, so you have the ability to attend 
 
 You can find more information about the Foreman event [in their forum](https://community.theforeman.org/t/foreman-birthday-event-2025/42996).
 
-Netways will soon provide a registration website for both events, and there won't be any fees.
+NETWAYS will soon provide a registration website for both events, and there won't be any fees.
 The entrance will be free.
 
 Vox Pupuli will sponsor a gettogether in the evening of the 16th of July, the evening before the conference.

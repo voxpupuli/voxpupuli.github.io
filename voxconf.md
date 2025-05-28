@@ -20,7 +20,7 @@ title: VoxConf '25
     </tr>
     <tr>
       <th scope="row">When:</th>
-      <td>17th of July (Thursday), 2025<br/>09:00 - 12:00</td>
+      <td>17th of July (Thursday), 2025<br/>9am - 12pm</td>
     </tr>
     <tr>
       <th scope="row">Cost:</th>
@@ -41,7 +41,7 @@ title: VoxConf '25
 💡Watch this space for more information soon.
 {: class="alert alert-success w-25 callout ms-3"  }
 
-We will do our first conference this July, thanks to Netways generously sponsoring the location.
+We will do our first conference this July, thanks to NETWAYS generously sponsoring the location.
 This will be a single-track half-day conference.
 We are sharing the space with the awesome Foreman people celebrating their birthday!
 [Their event](https://community.theforeman.org/t/foreman-birthday-event-2025/42996) takes place in the same location at 1pm so you can attend all their talks as well.
@@ -60,12 +60,14 @@ Time slots available:
 - 25 min
 - 45 min
 
-Netways will soon provide a registration website for both events, and there won’t be any fees.
-The entrance will be free.
-
-Vox Pupuli will sponsor a get-together in the evening of the 16th of July, the evening before the conference.
 We will also provide a travel fund with a total of € 5000.
-Please write to the PMC until the 20th of June at midnight, if (and how much) you require travel funding.
+Please write to the [PMC](mailto:pmc@voxpupuli.org) until the 20th of June at midnight, if (and how much) you require travel funding.
+
+### Hotel recommendations
+
+In the past we had a good experience in the [Park Inn Hotel](https://www.radissonhotels.com/de-de/hotels/park-inn-nuernberg).
+It's roughly in the middle between the event location and the main train station.
+
 <div class="container">
   <div class="px-4 pt-5 mt-5 text-center">
     <h1 class="display-5">Sponsors</h1>
