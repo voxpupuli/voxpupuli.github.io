@@ -12,6 +12,7 @@ The following IRC / Slack channels are bridged:
 | sig-infrastructure | #voxpupuli-sig-infrastructure |
 | sig-documentation  | #voxpupuli-sig-documentation  |
 | sig-container      | #voxpupuli-sig-container      |
+| sig-social-media   | #voxpupuli-sig-social-media   |
 | openvox            | #voxpupuli-openvox            |
 | puppet             | #voxpupuli-puppet             |
 
@@ -22,3 +23,23 @@ Please ping in the sig-infrastructure room when you create new rooms and require
 The bridge/IRC doesn't support threads.
 IRC will display all messages, sorted by date.
 Please avoid threads in the slack channels.
+
+### Admin notes
+
+List people with admin permissions for `#voxpupuli*`
+
+```
+/msg chanserv flags #voxpupuli
+```
+
+Register a channel
+
+```
+/msg chanserv register #voxpupuli-sig-social-media
+```
+
+Mark the channel discoverable
+
+```
+/mode #voxpupuli-sig-social-media -s
+```
