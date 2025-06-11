@@ -3,6 +3,7 @@ layout: post
 title: Releasing a new version of a module
 date: 2016-01-01
 summary: How to perform a complete version release, including modulesync and publication.
+last_modified_at: 2025-06-10
 ---
 
 Creating a release is a three step process:
@@ -11,23 +12,83 @@ Creating a release is a three step process:
 2. Review it
 3. Do the actual release
 
-## Preparing a release
+## Before Preparing a release
 
 Run [modulesync](https://voxpupuli.org/docs/updating-files-managed-with-modulesync/) to ensure the dotfiles are up-to-date.
 
-### As a Vox Pupuli member
+## Standard Release
 
-To automatically create a "release PR", you need to be a member of the `voxpupuli` GitHub organisation.
-Then you can browse to a module -> Actions -> "Prepare Release".
+### Create Release PR
+
+To automatically create a "release PR", you need to be a member of the `voxpupuli` GitHub organization.
+Then you can browse to a module -> Actions -> `Prepare Release`.
 This is a GitHub workflow.
-It can automatically:
+It will automatically:
 
-* bump the metadata.json to the next patchlevel
+* bump the metadata.json to the next patch level
 * Or you provide the desired version number, then metadata.json will be bumped to it
 * Afterwards the CHANGELOG.md will be updated
 * REFERENCE.md will be updated if required
 * A pull request will be created
 * GitHub attaches the `skip-changelog` label
+
+### Review the Release PR
+
+This will have generated updates to the CHANGELOG.md, review each PR in the CHANGELOG to make sure they're labeled properly so that the CHANGELOG is correct:
+
+* backwards-incompatible
+* enhancement
+* bug/bugfix
+* docs/documentation
+* dependencies
+
+Make sure that the version updated as expected.
+Anything labeled backwards-incompatible should require a major version bump.
+For voxpupuli this includes _removing Ruby/Puppet/OS versions for EOL_.
+
+If you relabeled anything or the version is wrong, rerun the `Prepare Release` action.
+Request feedback from the Vox Pupuli Community via the methods listed in the [Contact page](https://voxpupuli.org/connect/).
+
+All commentary should be reviewed, but specifically looking for concensus around:
+* Are there other changes that should get merged first?
+* Are there discussions about the tagging of any of the changes in the CHANGELOG.md?
+* Have you missed something needed for release?
+
+The person who does the merge of the PR is expected to do the release below.
+
+### Do the Release
+
+*Please note that in order to execute this rake task you must be in the __Collaborators__ group on GitHub for the module in question.*
+
+*Please also note that the task requires a configured gpg or ssh key in your local git settings to sign the git tag*
+
+This step must be done by a voxpupuli maintainer!
+
+This has to be done on the __*upstream*__ repo itself.
+
+Checkout an updated copy of master
+
+```bash
+git checkout master; git fetch origin; git pull origin master
+```
+
+Run the rake target `release`. This will:
+
+* create a new tag using the current version
+* bump the current version to the next PATCH version and add `-rc0` to the end
+* commit the change,
+* and push it to origin.
+
+```bash
+bundle exec rake release
+```
+
+GitHub Actions (.github/workflows/release.yml in every module) will then kick off a build against the new tag created and deploy that build to the forge.
+*Caution: The Vox Pupuli repo has to be the configured default branch in your local clone. Otherwise, you will try to release to your fork.*
+
+## Manual Steps
+
+If github actions breaks for some reason, and we need a release done, here are the manual steps.
 
 ### As an outside collaborator
 
@@ -95,7 +156,7 @@ We can now generate the changelog after updating the metadata.json with a rake t
 CHANGELOG_GITHUB_TOKEN='mytoken' bundle exec rake release:prepare
 ```
 
-## Reviewing the release PR
+### Reviewing the release PR
 
 The changelog generator checks for certain labels on closed issues and PRs since the last release and groups them together.
 If the changes were neither backwards-incompatible nor only bug fixes, make a minor release.
@@ -128,7 +189,7 @@ git push --set-upstream local release-v1.2.3
 
 The person who does the merge is expected to do the release below.
 
-## Doing the release
+### Doing the release
 
 *Please note that in order to execute this rake task you must be in the __Collaborators__ group on GitHub for the module in question.*
 
