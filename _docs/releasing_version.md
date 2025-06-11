@@ -47,7 +47,12 @@ Anything labeled backwards-incompatible should require a major version bump.
 For voxpupuli this includes _removing Ruby/Puppet/OS versions for EOL_.
 
 If you relabeled anything or the version is wrong, rerun the `Prepare Release` action.
-Request feedback from IRC/Mailing List (are there other changes that should get merged first?)
+Request feedback from the Vox Pupuli Community via the methods listed in the [Contact page](https://voxpupuli.org/connect/).
+
+All commentary should be reviewed, but specifically looking for concensus around:
+* Are there other changes that should get merged first?
+* Are there discussions about the tagging of any of the changes in the CHANGELOG.md?
+* Have you missed something needed for release?
 
 The person who does the merge of the PR is expected to do the release below.
 
