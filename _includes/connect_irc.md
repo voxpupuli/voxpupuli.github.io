@@ -8,7 +8,7 @@ The following IRC / Slack channels are bridged:
 | ------------------ | ----------------------------- |
 | voxpupuli          | #voxpupuli                    |
 | sig-security       | #voxpupuli-sig-security       |
-| openvox-builds     | #voxpupuli-sig-openvox-builds |
+| sig-openvox-builds | #voxpupuli-sig-openvox-builds |
 | sig-infrastructure | #voxpupuli-sig-infrastructure |
 | sig-documentation  | #voxpupuli-sig-documentation  |
 | sig-container      | #voxpupuli-sig-container      |
