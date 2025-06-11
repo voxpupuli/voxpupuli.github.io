@@ -42,9 +42,12 @@ This will have generated updates to the CHANGELOG.md, review each PR in the CHAN
 * docs/documentation
 * dependencies
 
-Make sure that the version updated as expected.  Anything labeled backward-incompatible should require a major version bump.  For voxpupuli this includes _removing Ruby/Puppet/OS versions for EOL_.
+Make sure that the version updated as expected.
+Anything labeled backwards-incompatible should require a major version bump.
+For voxpupuli this includes _removing Ruby/Puppet/OS versions for EOL_.
 
-If you relabeled anything or the version is wrong, rerun the `Prepare Release` action.  Request feedback from IRC/Mailing List (are there other changes that should get merged first?)
+If you relabeled anything or the version is wrong, rerun the `Prepare Release` action.
+Request feedback from IRC/Mailing List (are there other changes that should get merged first?)
 
 The person who does the merge of the PR is expected to do the release below.
 
