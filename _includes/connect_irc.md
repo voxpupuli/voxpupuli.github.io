@@ -15,6 +15,7 @@ The following IRC / Slack channels are bridged:
 | sig-social-media   | #voxpupuli-sig-social-media   |
 | sig-release        | #voxpupuli-sig-release        |
 | sig-devkit         | #voxpupuli-sig-devkit         |
+| sig-facter         | #voxpupuli-sig-facter         |
 | openvox            | #voxpupuli-openvox            |
 | puppet             | #voxpupuli-puppet             |
 
