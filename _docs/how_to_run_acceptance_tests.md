@@ -24,9 +24,9 @@ The tests use the latest version of Puppet.
 ### Runtime Environment
 
 Beaker uses a local hypervisor or container stack to build required OS/Distributions to test.
-By default this is docker, but vagrant via VirtualBox and libvirt as well as VMWare vSphere.
+By default this is docker, but vagrant via VirtualBox and libvirt as well as VMWare vSphere are available.
 
-In general, docker is preferred for modules, and is what the Vox Pupuli CI systems use, making it the best option.
+In general, docker is preferred for modules, and is what the Vox Pupuli CI systems use by default, making it the best option.
 
 Follow the instructions from [Docker](https://docs.docker.com/engine/install/) or your preferred/known working method to install.
 
@@ -36,7 +36,7 @@ _Remember to add your user to the group that allows access to docker/libvirt._
 
 ### Bundle/Ruby
 
-Beaker is installed as a gem via bundler, it will run in ruby 2.7 to 3.3 (as of time of writing.)
+Beaker is installed as a gem via bundler, it will run in ruby 2.7 to 3.4 (as of time of writing).
 It should be trivial to install via your package manager or gem.
 
 #### Debian/Ubuntu
@@ -45,6 +45,7 @@ It should be trivial to install via your package manager or gem.
 ```
 
 #### RedHat (and similar)
+As of el9, dnf replaces yum.  Use the appropriate package manager to get it installed.
 ```shell
 # yum install rubygem-bundler
 # dnf install rubygem-bundler
@@ -76,7 +77,8 @@ If your bundle stops working for some reason, you can run `bundle update && bund
 
 ## Setting up to run a test suite
 
-At this point bundler and beaker are installed and ready for use.  For Voxpupuli's acceptance testing suite, beaker is managed by a set of environment variables.
+At this point bundler and beaker are installed and ready for use.
+For Vox Pupuli's acceptance testing suite, beaker is managed by a set of environment variables.
 
 
 * `BEAKER_HYPERVISOR` Sets the Hypervisor, `vagrant` or `vagrant_libvirt` for VM based testing
@@ -157,7 +159,8 @@ Because everything is an environment variable, there are some options on running
 
 ## Adding data to a run
 
-So far this process runs a default set of tests, with whatever data is already in the configuration, but some modules need to test different versions of the software as well, usually based on a fact.  To test with a specific fact passed to the tests or add the ability to test various versions of a piece of software in a module you can use variables in the form `BEAKER_FACTER_*`.
+So far this process runs a default set of tests, with whatever data is already in the configuration, but some modules need to test different versions of the software as well, usually based on a fact.
+To test with a specific fact passed to the tests or add the ability to test various versions of a piece of software in a module you can use variables in the form `BEAKER_FACTER_*`.
 
 *For example:* `BEAKER_FACTER_sudoversion` would set the sudoversion fact to whatever the environment variable is set to.
 
@@ -166,4 +169,4 @@ So far this process runs a default set of tests, with whatever data is already i
 * [voxpupuli-acceptance](https://github.com/voxpupuli/voxpupuli-acceptance) for acceptance testing
 * [beaker](https://github.com/voxpupuli/beaker) for the beaker software
 * [voxpupuli-release](https://github.com/voxpupuli/voxpupuli-release) for bundling a release
-* [puppet\_metadata](https://github.com/voxpupuli/puppet_metadata) how metadata.json becomes test data
+* [puppet\_metadata](https://github.com/voxpupuli/puppet_metadata) how `metadata.json` becomes test data
