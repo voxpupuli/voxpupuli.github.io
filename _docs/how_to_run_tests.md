@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to run the test suite
-summary: A very short description of how to run the vox pupuli test suite for puppet modules.
+summary: A description of how to run the Vox Pupuli test suite for Puppet modules.
 ---
 
 - [Running the tests in a local ruby environment](#running-the-tests-in-a-local-ruby-environment)
@@ -70,7 +70,7 @@ You can install all needed gems for spec tests into the modules directory by run
 ```shell
 bundle config set --local path '.vendor/bundle'
 bundle config set --local without 'development system_tests release'
-BUNDLE_JOBS="$(nproc)" bundle install
+bundle install
 ```
 **If you also want to run acceptance tests, don't exclude the `system_tests` group.**
 
@@ -164,7 +164,7 @@ export SPEC_FACTS_OS=centos-7
 ### Running Acceptance Tests
 
 The unit tests just check the code runs, not that it does exactly what we want on a real machine.
-For that we're using [beaker](https://github.com/voxpupuli/beaker).
+For that we're using [Beaker](https://github.com/voxpupuli/beaker).
 
 This fires up a new virtual machine or container and runs a series of simple tests against it after applying the module.
 
@@ -191,7 +191,7 @@ _Remember to add your user to the group that allows access to docker/libvirt._
 
 #### Environment Variables and hostnames
 
-For Vox Pupuli's acceptance testing suite, beaker is managed by a set of environment variables.
+For Vox Pupuli's acceptance testing suite, Beaker is managed by a set of environment variables.
 
 * `BEAKER_HYPERVISOR` Sets the Hypervisor, `vagrant` or `vagrant_libvirt` for VM based testing
   It is a good idea to export the `BEAKER_HYPERVISOR` variable in your shell configuration.
@@ -204,7 +204,7 @@ For Vox Pupuli's acceptance testing suite, beaker is managed by a set of environ
   * If `BEAKER_DESTROY` is set to no, `BEAKER_PROVISION=no` will run the test suite against the system anyways, which may cause environmental issues if the test suite doesn't perfectly put things to a default state.
 
 * `BEAKER_SETFILE` What should we be testing.  Beaker will call beaker-hostgenerator to create a defaultconfiguration based on this, using the known configurations for Vox Pupuli.
-* `BEAKER_PUPPET_COLLECTION` What implementation and version of puppet are we testing against
+* `BEAKER_PUPPET_COLLECTION` What implementation and version of Puppet are we testing against
 
 These are all defined in [voxpupuli-acceptance](https://github.com/voxpupuli/voxpupuli-acceptance/#running-tests) to review how they are used and more specialized features.
 
@@ -250,12 +250,12 @@ $ bundle exec metadata2gha | tail -n 1 | cut -d= -f2- | jq
 ]
 ```
 
-This returns names that show puppet implementation (openvox or puppet) / language version, and operating system / version.
-It also provides the environment variables needed to be applied to run beaker for this combination.
+This returns names that show Puppet implementation (OpenVox or Puppet) / language version, and operating system / version.
+It also provides the environment variables needed to be applied to run Beaker for this combination.
 
 #### Running Beaker
 
-Running beaker is handled via a rake task `bundle exec rake beaker`, and either exporting variables or setting them for a single run are both supported:
+Running Beaker is handled via a rake task `bundle exec rake beaker`, and either exporting variables or setting them for a single run are both supported:
 
 1. export variables, then run `bundle exec rake beaker`
    ```shell
