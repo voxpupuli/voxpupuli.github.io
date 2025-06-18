@@ -1,7 +1,6 @@
 ---
 layout: post
 title: How to run the test suite
-date: 2021-10-20
 summary: A very short description of how to run the vox pupuli test suite for puppet modules.
 ---
 
@@ -11,7 +10,10 @@ summary: A very short description of how to run the vox pupuli test suite for pu
    * [Linting](#linting)
    * [Unit tests](#unit-tests)
       + [Detailed sub tasks](#detailed-sub-tasks)
-   * [Acceptance tests](#acceptance-tests)
+   * [Acceptance tests quickstart](#acceptance-tests-quickstart)
+      + [Beaker Hypervisors](#beaker-hypervisors)
+      + [Environment Variables](#environment-variables)
+      + [Run a specific test](#run-a-specific-test)
    * [REFERENCE.md update](#referencemd-update)
 - [Running the tests in the VoxBox container](#running-the-tests-in-the-voxbox-container)
    * [Installation](#installation)
@@ -36,7 +38,7 @@ export PUPPET_VERSION="~> 8.8.1"
 You can install all needed gems for spec tests into the modules directory by running:
 
 ```shell
-bundle config set --local path 'vendor'
+bundle config set --local path '.vendor/bundle'
 bundle config set --local without 'development system_tests release'
 BUNDLE_JOBS="$(nproc)" bundle install
 ```
@@ -121,20 +123,55 @@ export SPEC_FACTS_OS=centos
 export SPEC_FACTS_OS=centos-7
 ```
 
-### Acceptance tests
+### Acceptance tests quickstart
 
 The unit tests just check the code runs, not that it does exactly what we want on a real machine.
 For that we're using [beaker](https://github.com/voxpupuli/beaker).
 
 This fires up a new virtual machine or container and runs a series of simple tests against it after applying the module.
-You can run this on your own with:
+
+You can run beaker on your own with:
 
 ```shell
 BEAKER_SETFILE=centos9-64 bundle exec rake beaker
 ```
 
+**Note**: You will need the `system_tests` gem group, check it has not been excluded when installing requirements (eg. use `bundle config set --local without 'development release'`).
+
 How to run the acceptance tests is described more in detail on this page:
 [voxpupuli-acceptance](https://github.com/voxpupuli/voxpupuli-acceptance/#running-tests)
+
+#### Beaker Hypervisors
+
+By default it uses [Docker](https://docs.docker.com/) but it [supports different hypervisors](https://github.com/voxpupuli/beaker/blob/master/docs/how_to/hypervisors/README.md)
+
+**Note**: it also works with [Podman](https://podman.io/) but you need to point it to the appropriate socket, for example with `systemctl start --user podman.socket && export DOCKER_HOST=unix:///run/user/$(id -u)/podman/podman.sock`
+
+#### Environment Variables and hostnames
+
+You will probably need to set other environment variables such as `BEAKER_DESTROY` or `BEAKER_PUPPET_COLLECTION`, see [voxpupuli-acceptance](https://github.com/voxpupuli/voxpupuli-acceptance/#running-tests) for more details.
+
+Projects migh also have custom facts that can be set through environment variables, for example [puppet-zabbix](https://github.com/voxpupuli/puppet-zabbix) tests against a specific Zabbix version setting `BEAKER_FACTER_zabbix_version`:
+
+```shell
+BEAKER_SETFILE="almalinux9-64" BEAKER_FACTER_zabbix_version="6.0" bundle exec rake beaker
+```
+
+For these cases refer to the project's documentation and/or on GitHub CIs check the env for `bundle exec rake beaker` in tests.
+
+Some softwares might also need to have an hostname set on the VM, to be used as FQDN, it is possible to set is through `BEAKER_SETFILE`:
+
+```shell
+BEAKER_SETFILE="almalinux9-64{hostname=almalinux9-64-puppet8.example.com}" bundle exec rake beaker
+```
+
+#### Run a specific test
+
+As with unit tests, it is possible to run only a specific acceptance test, for example:
+
+```shell
+bundle exec rspec spec/acceptance/foo.rb
+```
 
 ### REFERENCE.md update
 
