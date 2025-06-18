@@ -5,26 +5,26 @@ summary: A description of how to run the Vox Pupuli test suite for Puppet module
 ---
 
 - [Running the tests in a local ruby environment](#running-the-tests-in-a-local-ruby-environment)
-   * [Installing dependencies](#installing-dependencies)
-   * [Vox Pupuli helpers](#vox-pupuli-helpers)
-   * [Linting](#linting)
-   * [REFERENCE.md update](#referencemd-update)
-   * [Unit tests](#unit-tests)
-      + [Detailed sub tasks](#detailed-sub-tasks)
-   * [Running Acceptance Tests](#running-acceptance-tests)
-      + [Beaker hypervisors](#beaker-hypervisors)
-      + [Environment variables and hostnames](#environment-variables-and-hostnames)
-      + [Getting setfiles for a module](#getting-setfiles-for-a-module)
-      + [Running Beaker](#running-beaker)
-      + [Custom Facts](#custom-facts)
-      + [Run a specific test](#run-a-specific-test)
+  * [Installing dependencies](#installing-dependencies)
+  * [Vox Pupuli helpers](#vox-pupuli-helpers)
+  * [Linting](#linting)
+  * [REFERENCE.md update](#referencemd-update)
+  * [Unit tests](#unit-tests)
+    + [Detailed sub tasks](#detailed-sub-tasks)
+  * [Running Acceptance Tests](#running-acceptance-tests)
+    + [Beaker hypervisors](#beaker-hypervisors)
+    + [Environment variables and hostnames](#environment-variables-and-hostnames)
+    + [Getting setfiles for a module](#getting-setfiles-for-a-module)
+    + [Running Beaker](#running-beaker)
+    + [Custom Facts](#custom-facts)
+    + [Run a specific test](#run-a-specific-test)
 - [Running the tests in the VoxBox container](#running-the-tests-in-the-voxbox-container)
-   * [Installation](#installation)
-   * [Linting](#linting-1)
-   * [Rubocop](#rubocop)
-   * [Unit tests](#unit-tests-1)
-   * [REFERENCE.md update](#referencemd-update-1)
-   * [Puppetfile](#puppetfile)
+  * [Installation](#installation)
+  * [Linting](#linting-in-voxbox)
+  * [Rubocop](#rubocop)
+  * [Unit tests](#unit-tests-in-voxbox)
+  * [REFERENCE.md update](#referencemd-update-in-voxbox)
+  * [Puppetfile](#puppetfile)
 
 The testing and development tools have a bunch of dependencies, all managed by [bundler](http://bundler.io/).
 By default the tests use the latest version of Puppet.
@@ -42,23 +42,28 @@ Dependencies for running tests are installed as gems via bundler and will run in
 It should be trivial to install via your package manager or gem.
 
 #### Debian/Ubuntu
+
 ```shell
 # apt install ruby-bundler
 ```
 
 #### RedHat (and similar)
+
 As of el9, dnf replaces yum.  Use the appropriate package manager to get it installed.
+
 ```shell
 # yum install rubygem-bundler
 # dnf install rubygem-bundler
 ```
 
 #### ArchLinux
+
 ```shell
 # pacman -Sy extra/ruby-bundler
 ```
 
 #### By Gem (Last Option)
+
 ```shell
 # gem install bundler
 ```
@@ -72,6 +77,7 @@ bundle config set --local path '.vendor/bundle'
 bundle config set --local without 'development system_tests release'
 bundle install
 ```
+
 **If you also want to run acceptance tests, don't exclude the `system_tests` group.**
 
 If you don't know if you need to install or update gems, you can just add `bundle update && bundle clean` as an additional command.
@@ -83,7 +89,7 @@ to learn more about the Vox Pupuli test helpers:
 
 * [voxpupuli-test](https://github.com/voxpupuli/voxpupuli-test) for unit testing
 * [voxpupuli-acceptance](https://github.com/voxpupuli/voxpupuli-acceptance) for acceptance testing
-* [voxpupuli-release](https://github.com/voxpupuli/voxpupuli-release) for bundling a release
+* [voxpupuli-release](https://github.com/voxpupuli/voxpupuli-release) for creating a release
 
 ### Linting
 
@@ -135,6 +141,7 @@ To run the linter, the syntax checker and the unit tests:
 ```shell
 bundle exec rake test
 ```
+
 #### Detailed sub tasks
 
 ```shell
@@ -214,7 +221,7 @@ Installed as part of the voxpupuli test suite is `metadata2gha`, which as its na
 
 ```shell
 # From the base directory of the module
-$ bundle exec metadata2gha | tail -n 1 | cut -d= -f2- | jq
+$ bundle exec metadata2gha | grep puppet_beaker_test_matrix | cut -d= -f2- | jq
 [
 # ... truncated for length
   {
@@ -258,15 +265,30 @@ It also provides the environment variables needed to be applied to run Beaker fo
 Running Beaker is handled via a rake task `bundle exec rake beaker`, and either exporting variables or setting them for a single run are both supported:
 
 1. export variables, then run `bundle exec rake beaker`
+
    ```shell
-   export BEAKER_PUPPET_COLLECTION="openvox8"
-   export BEAKER_SETFILE="ubuntu2404-64{hostname=ubuntu2404-64-openvox8}"
+   export BEAKER_SETFILE="ubuntu2404-64"
    bundle exec rake beaker
    ```
+
 1. run `bundle exec rake beaker` with inline shell variables
+
    ```shell
-   BEAKER_PUPPET_COLLECTION="openvox8" BEAKER_SETFILE="ubuntu2404-64{hostname=ubuntu2404-64-openvox8}" bundle exec rake beaker
+   BEAKER_SETFILE="ubuntu2404-64" bundle exec rake beaker
    ```
+
+Some softwares might also need to have an hostname set on the VM, to be used as FQDN, it is possible to set is through `BEAKER_SETFILE`:
+
+```shell
+BEAKER_SETFILE="almalinux9-64{hostname=almalinux9-64-puppet8.example.com}" bundle exec rake beaker
+```
+
+If you need to run tests against a different version or implementation of OpenVox (or Puppet) you can either `export BEAKER_PUPPET_COLLECTION="openvox7"` or add `BEAKER_PUPPET_COLLECTION="openvox7"` to your command line.
+
+
+```shell
+BEAKER_PUPPET_COLLECTION="openvox7" BEAKER_SETFILE="ubuntu2404-64" bundle exec rake beaker
+```
 
 #### Custom Facts
 
@@ -278,11 +300,7 @@ BEAKER_SETFILE="almalinux9-64" BEAKER_FACTER_zabbix_version="6.0" bundle exec ra
 
 For these cases refer to the module's documentation and/or on GitHub CIs check the env for `bundle exec rake beaker` in tests.
 
-Some softwares might also need to have an hostname set on the VM, to be used as FQDN, it is possible to set is through `BEAKER_SETFILE`:
-
-```shell
-BEAKER_SETFILE="almalinux9-64{hostname=almalinux9-64-puppet8.example.com}" bundle exec rake beaker
-```
+For additional information, you can review [voxpupuli-acceptance](https://github.com/voxpupuli/voxpupuli-acceptance?tab=readme-ov-file#environment-variables-to-facts).
 
 #### Run a specific test
 
@@ -291,7 +309,6 @@ As with unit tests, it is possible to run only a specific acceptance test, for e
 ```shell
 bundle exec rspec spec/acceptance/foo.rb
 ```
-
 
 ## Running the tests in the VoxBox container
 
@@ -303,7 +320,7 @@ Struggling with Ruby installations or dependency issues? [VoxBox](https://github
 podman pull ghcr.io/voxpupuli/voxbox:8
 ```
 
-### Linting
+### Linting in VoxBox
 
 ```shell
 cd my/module
@@ -321,7 +338,7 @@ podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f /Rakefile rubo
 podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f /Rakefile rubocop:autocorrect
 ```
 
-### Unit tests
+### Unit tests in VoxBox
 
 ```shell
 podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f /Rakefile spec
@@ -329,7 +346,7 @@ podman run -it --rm -e "SPEC_FACTS_OS=centos" -v $PWD:/repo:Z ghcr.io/voxpupuli/
 podman run -it --rm -e "SPEC=spec/classes/myclass_spec.rb" -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f /Rakefile spec
 ```
 
-### REFERENCE.md update
+### REFERENCE.md update in VoxBox
 
 ```shell
 podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f /Rakefile strings:generate:reference
