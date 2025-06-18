@@ -5,16 +5,19 @@ summary: A very short description of how to run the vox pupuli test suite for pu
 ---
 
 - [Running the tests in a local ruby environment](#running-the-tests-in-a-local-ruby-environment)
-   * [Installing requirements](#installing-requirements)
+   * [Installing dependencies](#installing-dependencies)
    * [Vox Pupuli helpers](#vox-pupuli-helpers)
    * [Linting](#linting)
+   * [REFERENCE.md update](#referencemd-update)
    * [Unit tests](#unit-tests)
       + [Detailed sub tasks](#detailed-sub-tasks)
-   * [Acceptance tests quickstart](#acceptance-tests-quickstart)
-      + [Beaker Hypervisors](#beaker-hypervisors)
-      + [Environment Variables](#environment-variables)
+   * [Running Acceptance Tests](#running-acceptance-tests)
+      + [Beaker hypervisors](#beaker-hypervisors)
+      + [Environment variables and hostnames](#environment-variables-and-hostnames)
+      + [Getting setfiles for a module](#getting-setfiles-for-a-module)
+      + [Running Beaker](#running-beaker)
+      + [Custom Facts](#custom-facts)
       + [Run a specific test](#run-a-specific-test)
-   * [REFERENCE.md update](#referencemd-update)
 - [Running the tests in the VoxBox container](#running-the-tests-in-the-voxbox-container)
    * [Installation](#installation)
    * [Linting](#linting-1)
@@ -33,7 +36,34 @@ export PUPPET_VERSION="~> 8.8.1"
 
 ## Running the tests in a local ruby environment
 
-### Installing requirements
+### Installing Dependencies
+
+Dependencies for running tests are installed as gems via bundler and will run in ruby 2.7 to 3.4 (as of time of writing).
+It should be trivial to install via your package manager or gem.
+
+#### Debian/Ubuntu
+```shell
+# apt install ruby-bundler
+```
+
+#### RedHat (and similar)
+As of el9, dnf replaces yum.  Use the appropriate package manager to get it installed.
+```shell
+# yum install rubygem-bundler
+# dnf install rubygem-bundler
+```
+
+#### ArchLinux
+```shell
+# pacman -Sy extra/ruby-bundler
+```
+
+#### By Gem (Last Option)
+```shell
+# gem install bundler
+```
+
+### Configuring Bundler
 
 You can install all needed gems for spec tests into the modules directory by running:
 
@@ -42,7 +72,7 @@ bundle config set --local path '.vendor/bundle'
 bundle config set --local without 'development system_tests release'
 BUNDLE_JOBS="$(nproc)" bundle install
 ```
-If you also want to run acceptance tests, don't exclude the `system_tests` group.
+**If you also want to run acceptance tests, don't exclude the `system_tests` group.**
 
 If you don't know if you need to install or update gems, you can just add `bundle update && bundle clean` as an additional command.
 
@@ -87,6 +117,14 @@ And another autofix option that can fix more, but might break your code:
 bundle exec rake rubocop:autocorrect_all
 ```
 
+### REFERENCE.md update
+
+If REFERENCE.md is now out of date you can fix it with:
+
+```shell
+bundle exec rake strings:generate:reference
+```
+
 ### Unit tests
 
 The unit test suite covers most of the code, as mentioned above please add tests if you're adding new functionality.
@@ -123,41 +161,122 @@ export SPEC_FACTS_OS=centos
 export SPEC_FACTS_OS=centos-7
 ```
 
-### Acceptance tests quickstart
+### Running Acceptance Tests
 
 The unit tests just check the code runs, not that it does exactly what we want on a real machine.
 For that we're using [beaker](https://github.com/voxpupuli/beaker).
 
 This fires up a new virtual machine or container and runs a series of simple tests against it after applying the module.
 
-You can run beaker on your own with:
+#### Installing Dependencies for Acceptance Tests
+
+Follow the steps in [Installing Dependencies](#installing-dependencies) making sure to install the system\_tests group of dependencies.
 
 ```shell
-BEAKER_SETFILE=centos9-64 bundle exec rake beaker
+bundle config set --local without 'development release'
 ```
-
-**Note**: You will need the `system_tests` gem group, check it has not been excluded when installing requirements (eg. use `bundle config set --local without 'development release'`).
-
-How to run the acceptance tests is described more in detail on this page:
-[voxpupuli-acceptance](https://github.com/voxpupuli/voxpupuli-acceptance/#running-tests)
 
 #### Beaker Hypervisors
 
-By default it uses [Docker](https://docs.docker.com/) but it [supports different hypervisors](https://github.com/voxpupuli/beaker/blob/master/docs/how_to/hypervisors/README.md)
+Beaker uses a local hypervisor or container stack to build required OS/Distributions to test.
+By default this is Docker, but it [supports different hypervisors](https://github.com/voxpupuli/beaker/blob/master/docs/how_to/hypervisors/README.md) via additional gems.
 
 **Note**: it also works with [Podman](https://podman.io/) but you need to point it to the appropriate socket, for example with `systemctl start --user podman.socket && export DOCKER_HOST=unix:///run/user/$(id -u)/podman/podman.sock`
 
+Follow the instructions from [Docker](https://docs.docker.com/engine/install/) or your preferred/known working method to install.
+
+For libvirt / vagrant, use the distribution's packages to configure.
+
+_Remember to add your user to the group that allows access to docker/libvirt._
+
 #### Environment Variables and hostnames
 
-You will probably need to set other environment variables such as `BEAKER_DESTROY` or `BEAKER_PUPPET_COLLECTION`, see [voxpupuli-acceptance](https://github.com/voxpupuli/voxpupuli-acceptance/#running-tests) for more details.
+For Vox Pupuli's acceptance testing suite, beaker is managed by a set of environment variables.
 
-Projects migh also have custom facts that can be set through environment variables, for example [puppet-zabbix](https://github.com/voxpupuli/puppet-zabbix) tests against a specific Zabbix version setting `BEAKER_FACTER_zabbix_version`:
+* `BEAKER_HYPERVISOR` Sets the Hypervisor, `vagrant` or `vagrant_libvirt` for VM based testing
+  It is a good idea to export the `BEAKER_HYPERVISOR` variable in your shell configuration.
+* `BEAKER_DESTROY` Should the test environment be removed at the end of a test
+  * `BEAKER_DESTROY=onpass` Only removes the environment if everything passes, allowing review of the system in the state it was in when the test suite failed.
+  * `BEAKER_DESTROY=no` Always leave an artifact, which likely will break future runs without cleanup.
+  * `BEAKER_DESTROY=yes` _(DEFAULT)_ always clean up.
+* `BEAKER_PROVISION` Should we ensure a clean system is built to run the suite.
+  * If `BEAKER_DESTROY` is set to no, `BEAKER_PROVISION=yes` will fail the run (because of the existing box/container)
+  * If `BEAKER_DESTROY` is set to no, `BEAKER_PROVISION=no` will run the test suite against the system anyways, which may cause environmental issues if the test suite doesn't perfectly put things to a default state.
+
+* `BEAKER_SETFILE` What should we be testing.  Beaker will call beaker-hostgenerator to create a defaultconfiguration based on this, using the known configurations for Vox Pupuli.
+* `BEAKER_PUPPET_COLLECTION` What implementation and version of puppet are we testing against
+
+These are all defined in [voxpupuli-acceptance](https://github.com/voxpupuli/voxpupuli-acceptance/#running-tests) to review how they are used and more specialized features.
+
+#### Getting setfiles for a module
+
+Installed as part of the voxpupuli test suite is `metadata2gha`, which as its name suggests, is a helper to generate a json blob containing the variables for all supported oses.
+
+```shell
+# From the base directory of the module
+$ bundle exec metadata2gha | tail -n 1 | cut -d= -f2- | jq
+[
+# ... truncated for length
+  {
+    "name": "Puppet 8 - Debian 12",
+    "env": {
+      "BEAKER_PUPPET_COLLECTION": "puppet8",
+      "BEAKER_SETFILE": "debian12-64{hostname=debian12-64-puppet8}"
+    }
+  },
+  {
+    "name": "Puppet 7 - Debian 12",
+    "env": {
+      "BEAKER_PUPPET_COLLECTION": "puppet7",
+      "BEAKER_SETFILE": "debian12-64{hostname=debian12-64-puppet7}"
+    }
+  },
+# ... truncated for length
+  {
+    "name": "OpenVox 8 - Rocky 9",
+    "env": {
+      "BEAKER_PUPPET_COLLECTION": "openvox8",
+      "BEAKER_SETFILE": "rocky9-64{hostname=rocky9-64-openvox8}"
+    }
+  },
+  {
+    "name": "OpenVox 7 - Rocky 9",
+    "env": {
+      "BEAKER_PUPPET_COLLECTION": "openvox7",
+      "BEAKER_SETFILE": "rocky9-64{hostname=rocky9-64-openvox7}"
+    }
+  },
+# ... truncated for length
+]
+```
+
+This returns names that show puppet implementation (openvox or puppet) / language version, and operating system / version.
+It also provides the environment variables needed to be applied to run beaker for this combination.
+
+#### Running Beaker
+
+Running beaker is handled via a rake task `bundle exec rake beaker`, and either exporting variables or setting them for a single run are both supported:
+
+1. export variables, then run `bundle exec rake beaker`
+   ```shell
+   export BEAKER_PUPPET_COLLECTION="openvox8"
+   export BEAKER_SETFILE="ubuntu2404-64{hostname=ubuntu2404-64-openvox8}"
+   bundle exec rake beaker
+   ```
+1. run `bundle exec rake beaker` with inline shell variables
+   ```shell
+   BEAKER_PUPPET_COLLECTION="openvox8" BEAKER_SETFILE="ubuntu2404-64{hostname=ubuntu2404-64-openvox8}" bundle exec rake beaker
+   ```
+
+#### Custom Facts
+
+Projects might also have custom facts that can be set through environment variables, for example [puppet-zabbix](https://github.com/voxpupuli/puppet-zabbix) tests against a specific Zabbix version setting `BEAKER_FACTER_zabbix_version` which will pass a custom fact to the system of zabbix\_version:
 
 ```shell
 BEAKER_SETFILE="almalinux9-64" BEAKER_FACTER_zabbix_version="6.0" bundle exec rake beaker
 ```
 
-For these cases refer to the project's documentation and/or on GitHub CIs check the env for `bundle exec rake beaker` in tests.
+For these cases refer to the module's documentation and/or on GitHub CIs check the env for `bundle exec rake beaker` in tests.
 
 Some softwares might also need to have an hostname set on the VM, to be used as FQDN, it is possible to set is through `BEAKER_SETFILE`:
 
@@ -173,13 +292,6 @@ As with unit tests, it is possible to run only a specific acceptance test, for e
 bundle exec rspec spec/acceptance/foo.rb
 ```
 
-### REFERENCE.md update
-
-If REFERENCE.md is now out of date you can fix it with:
-
-```shell
-bundle exec rake strings:generate:reference
-```
 
 ## Running the tests in the VoxBox container
 
