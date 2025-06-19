@@ -38,7 +38,7 @@ You can install all needed gems for spec tests into the modules directory by run
 ```shell
 bundle config set --local path 'vendor'
 bundle config set --local without 'development system_tests release'
-BUNDLE_JOBS="$(nproc)" bundle install
+bundle install
 ```
 If you also want to run acceptance tests, don't exclude the `system_tests` group.
 
