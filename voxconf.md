@@ -48,20 +48,19 @@ We are sharing the space with the awesome Foreman people celebrating their birth
 
 <a href="https://tickets.netways.de/NES/foremanbirthday/">click here</a> to sign up for our dinner on the 16th, for VoxConf *and* for the Foreman birthday party!
 
-**Please submit your talk proposal** until the [20th of June at midnight](https://www.timeanddate.com/worldclock/converter.html?iso=20250620T215900&p1=tz_cest) to [pmc@voxpupuli.org](mailto:pmc@voxpupuli.org).
+### Talks
 
-Suggested topics:
-- Vox Pupuli
-- OpenVox
-- the Puppet ecosystem
-- _anything related_
+| Speaker | Title | Begin | End |
+| ------- | ----- | ----- | --- |
+| Tim Meusel | Opening | 8:45 | 9:00 |
+| Martin Alfke | OpenVox – The new Puppet Open Source | 9:00 | 9:30 |
+| Robert Waffen | What is VoxBox and how to test your Puppet Code with it? | 9:35 | 10:05 |
+| Break | | 10:05 | 10:25 |
+| Lennart Betz | OpenVox Container & automatic deployment with Terraform and Bolt for development environments | 10:25 | 10:55 |
+| Sebastian Rakel | OpenVox View - OpenVoxDB dashboard with some nice features (inspired by PuppetBoard) | 11:00 | 11:30 |
+| Simon Hönscheid | What Your Infrastructure Can Learn from Accidents & how Open Vox can help prevent incidents | 11:35 | 12:05 |
 
-Time slots available:
-- 25 min
-- 45 min
-
-We will also provide a travel fund with a total of € 5000.
-Please write to the [PMC](mailto:pmc@voxpupuli.org) until the 20th of June at midnight, if (and how much) you require travel funding.
+<br/>
 
 ### Hotel recommendations
 
