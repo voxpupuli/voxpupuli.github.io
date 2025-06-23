@@ -46,6 +46,8 @@ This will be a single-track half-day conference.
 We are sharing the space with the awesome Foreman people celebrating their birthday!
 [Their event](https://community.theforeman.org/t/foreman-birthday-event-2025/42996) takes place in the same location at 1pm so you can attend all their talks as well.
 
+VoxConf is also Hybrid! Grab a ticket [here](https://tickets.netways.de/NES/foremanbirthday/) for VoxConf Online to get a link to the stream.
+
 <a href="https://tickets.netways.de/NES/foremanbirthday/">click here</a> to sign up for our dinner on the 16th, for VoxConf *and* for the Foreman birthday party!
 
 ### Talks
