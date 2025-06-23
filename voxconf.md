@@ -59,7 +59,7 @@ We are sharing the space with the awesome Foreman people celebrating their birth
 | Lennart Betz | OpenVox Container & automatic deployment with Terraform and Bolt for development environments | 10:25 | 10:55 |
 | Sebastian Rakel | OpenVox View - OpenVoxDB dashboard with some nice features (inspired by PuppetBoard) | 11:00 | 11:30 |
 | Simon Hönscheid | What Your Infrastructure Can Learn from Accidents & how Open Vox can help prevent incidents | 11:35 | 12:05 |
-
+{: class="table" }
 <br/>
 
 ### Hotel recommendations
