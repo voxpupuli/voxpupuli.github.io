@@ -49,7 +49,8 @@ It should be trivial to install via your package manager or gem.
 
 #### RedHat (and similar)
 
-As of el9, dnf replaces yum.  Use the appropriate package manager to get it installed.
+As of el9, dnf replaces yum.
+Use the appropriate package manager to get it installed.
 
 ```shell
 # yum install rubygem-bundler
@@ -59,7 +60,7 @@ As of el9, dnf replaces yum.  Use the appropriate package manager to get it inst
 #### ArchLinux
 
 ```shell
-# pacman -Sy extra/ruby-bundler
+# pacman -Syu extra/ruby-bundler
 ```
 
 #### By Gem (Last Option)
