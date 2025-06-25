@@ -101,6 +101,9 @@ subsections:
     - title: Support
       url: /openvox/support/
       icon: fas fa-headset
+    - title: VPAT
+      url: /openvox/vpat/
+      icon: fas fa-landmark
 
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "CNAME", "vendor"]
 
