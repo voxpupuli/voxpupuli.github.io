@@ -50,6 +50,17 @@ VoxConf is also Hybrid! Grab a ticket [here](https://tickets.netways.de/NES/fore
 
 <a href="https://tickets.netways.de/NES/foremanbirthday/">click here</a> to sign up for our dinner on the 16th, for VoxConf *and* for the Foreman birthday party!
 
+### Community Meet & Eat by Vox Pupuli
+
+Vox Pupuli will sponsor a Meet & Eat event on the 16th (the evening before the talks).
+This will take place at 7PM in the Restaurant [im keller](https://alte-kuechn.de/en/im-keller/).
+The address is [Albrecht-Dürer-Straße 3, 90403 Nürnberg](https://maps.app.goo.gl/jW3F7pnyeJgEeGnL8).
+
+Nürnberg is a beautiful medieval historic city.
+Because of that, we organized an historian who does an exclusive guided city tour.
+The tour will start at 5:30PM at [Park Inn Hotel](https://maps.app.goo.gl/GzN7oJqAx6gfNSgW8) and end at 7PM at the restaurant (it's basically a long walk through the city).
+The city tour is in English, by foot, and free.
+
 ### Talks
 
 | Speaker | Title | Begin | End |
