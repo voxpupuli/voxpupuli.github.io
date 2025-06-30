@@ -58,7 +58,8 @@ The address is [Albrecht-Dürer-Straße 3, 90403 Nürnberg](https://maps.app.goo
 
 Nürnberg is a beautiful medieval historic city.
 Because of that, we organized a historian who does an exclusive guided city tour.
-The tour will start at 5:30PM at [Park Inn Hotel](https://maps.app.goo.gl/GzN7oJqAx6gfNSgW8) and end at 7PM at the restaurant (it's basically a long walk through the city).
+The tour will start at 5:30PM at [Park Inn Hotel](https://maps.app.goo.gl/GzN7oJqAx6gfNSgW8) and end at 7PM at the restaurant.
+It's a long walk through the city so bring appropriate footwear.
 The city tour is in English, by foot, and free.
 
 ### Talks
