@@ -47,4 +47,4 @@ logo-atix.png: ATIX-Logo_original.png
 
 logo-blendbyte.png: logo_horizontal.svg
 
-sscg_logo.png: sscg-logo.png
+sscg_logo.png: sscg_logo.png
