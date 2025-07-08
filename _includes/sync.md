@@ -1,4 +1,4 @@
-## Monthly Vox/Perforce Sync
+## Monthly Vox Pupuli Sync
 
 We have a monthly sync meeting where we discuss the state of the project and what we want to do in the future.
 You can find the [meeting board](https://github.com/orgs/voxpupuli/projects/10/) here.
