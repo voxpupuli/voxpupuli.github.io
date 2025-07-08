@@ -1,5 +1,5 @@
 ---
-logo: sscg_logo.png
+logo: logo-sscg.png
 website: https://ssconsultinggroup.net
 button: S & S Consulting Group
 ---
