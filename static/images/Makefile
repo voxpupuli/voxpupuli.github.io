@@ -1,4 +1,4 @@
-all: sponsor-github.png sponsor-hetzner.png sponsor-betadots.png sponsor-babiel.png sponsor-enterprise-modules.png sponsor-docker.png sponsor-puppet.png sponsor-deubert.png sponsor-microsoft.png sponsor-macarne.png sponsor-cern.png sponsor-geant.png sponsor-tiger-computing.png sponsor-arnes.png logo-atix.png logo-blendbyte.png
+all: sponsor-github.png sponsor-hetzner.png sponsor-betadots.png sponsor-babiel.png sponsor-enterprise-modules.png sponsor-docker.png sponsor-puppet.png sponsor-deubert.png sponsor-microsoft.png sponsor-macarne.png sponsor-cern.png sponsor-geant.png sponsor-tiger-computing.png sponsor-arnes.png logo-atix.png logo-blendbyte.png logo-sscg.png
 
 SPONSOR_LOGO=	300x150
 SPONSOR_CANVAS=	320x170
@@ -46,3 +46,5 @@ sponsor-arnes.png: Arnes_logo.svg
 logo-atix.png: ATIX-Logo_original.png
 
 logo-blendbyte.png: logo_horizontal.svg
+
+logo-sscg.png: sscg_logo.png
