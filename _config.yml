@@ -70,6 +70,9 @@ navigation:
       - title: VoxConf
         url: /voxconf/
         icon: fas fa-person-chalkboard
+      - title: Map of Contributors # note that this is served via another application
+        url: /map/                 # and will not exist when previewing the site locally
+        icon: fas fa-globe
       - title: Code of Conduct
         url: /coc/
         icon: fas fa-users
