@@ -62,6 +62,8 @@ The tour will start at 5:30PM at [Park Inn Hotel](https://maps.app.goo.gl/GzN7oJ
 It's a long walk through the city so bring appropriate footwear.
 The city tour is in English, by foot, and free.
 
+Connect with us on our Slack in #voxconf2025 and/or on IRC in #voxpupuli-voxconf2025 .
+
 ### Talks
 
 | Speaker | Title | Begin | End |
