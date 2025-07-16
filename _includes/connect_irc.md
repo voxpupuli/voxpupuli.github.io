@@ -4,22 +4,24 @@
 
 The following IRC / Slack channels are bridged:
 
+{: .table .table-striped .table-hover .w-50}
+
 | Slack              | IRC                           |
 | ------------------ | ----------------------------- |
-| openvox            | #voxpupuli-openvox            |
-| puppet             | #voxpupuli-puppet             |
-| sig-container      | #voxpupuli-sig-container      |
-| sig-devkit         | #voxpupuli-sig-devkit         |
-| sig-documentation  | #voxpupuli-sig-documentation  |
-| sig-facter         | #voxpupuli-sig-facter         |
-| sig-infrastructure | #voxpupuli-sig-infrastructure |
-| sig-openbolt       | #voxpupuli-sig-openbolt       |
-| sig-openvox-builds | #voxpupuli-sig-openvox-builds |
-| sig-release        | #voxpupuli-sig-release        |
-| sig-security       | #voxpupuli-sig-security       |
-| sig-social-media   | #voxpupuli-sig-social-media   |
-| voxconf2025        | #voxpupuli-voxconf2025        |
-| voxpupuli          | #voxpupuli                    |
+| openvox            | `#voxpupuli-openvox`            |
+| puppet             | `#voxpupuli-puppet`             |
+| sig-container      | `#voxpupuli-sig-container`      |
+| sig-devkit         | `#voxpupuli-sig-devkit`         |
+| sig-documentation  | `#voxpupuli-sig-documentation`  |
+| sig-facter         | `#voxpupuli-sig-facter`         |
+| sig-infrastructure | `#voxpupuli-sig-infrastructure` |
+| sig-openbolt       | `#voxpupuli-sig-openbolt`       |
+| sig-openvox-builds | `#voxpupuli-sig-openvox-builds` |
+| sig-release        | `#voxpupuli-sig-release`        |
+| sig-security       | `#voxpupuli-sig-security`       |
+| sig-social-media   | `#voxpupuli-sig-social-media`   |
+| voxconf2025        | `#voxpupuli-voxconf2025`        |
+| voxpupuli          | `#voxpupuli`                    |
 
 The voxpupuli channel is a bit special.
 It's synced in a three way between IRC, old Slack and new Slack.
