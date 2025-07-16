@@ -122,7 +122,7 @@ To install OpenVox, you can use this `hiera` data:
 
 ```yaml
 puppet::client_package: openvox-agent
-puppet::server::package: openvox-server
+puppet::server_package: openvox-server
 puppetdb::puppetdb_package: openvoxdb
 puppetdb::master::config::terminus_package: openvoxdb-termini
 ```
