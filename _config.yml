@@ -26,6 +26,13 @@ collections:
   support:
     output: false
 
+defaults:
+    -
+      scope:
+        path: "_sponsors"
+      values:
+        status: current
+
 # See https://fontawesome.com/search for the icon syntax
 navigation:
   - title: About

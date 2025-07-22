@@ -27,8 +27,24 @@ If you're interested in these options, please get in touch and email the Project
 At the moment we've multiple sponsors via GitHub. In addition to that, multiple
 companies sponsor our cloud/CI resources.
 
+## Current Sponsors
+
 <div class="row">
-  {% for sponsor in site.sponsors %}
+  {% for sponsor in site.sponsors -%}
+    {% if sponsor.status == "current" -%}
     {% include sponsor-card.html width=4 vendor=sponsor %}
-  {% endfor %}
+    {% endif -%}
+  {% endfor -%}
+</div>
+
+---
+
+## Former Sponsors
+
+<div class="row former">
+  {% for sponsor in site.sponsors -%}
+    {% if sponsor.status == "former" -%}
+    {% include sponsor-card.html width=3 vendor=sponsor %}
+    {% endif -%}
+  {% endfor -%}
 </div>
