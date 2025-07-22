@@ -1,4 +1,4 @@
-## IRC
+## <i class="fa-regular fa-circle-user"></i> IRC
 
 [#voxpupuli](ircs://irc.libera.chat:6697/voxpupuli) on [Libera.Chat](https://libera.chat/) ([webchat](https://web.libera.chat/?#voxpupuli)) (Bridged to `#voxpupuli` on Puppet Community Slack)
 
@@ -25,28 +25,17 @@ The following IRC / Slack channels are bridged:
 
 The voxpupuli channel is a bit special.
 It's synced in a three way between IRC, old Slack and new Slack.
-Please ping in the sig-infrastructure room when you create new rooms and require a new bridge.
+Please ping in the `#sig-infrastructure` room when you create new rooms and require a new bridge.
 
-The bridge/IRC doesn't support threads.
-IRC will display all messages, sorted by date.
-Please avoid threads in the slack channels.
+<details class="card" >
+  <summary class="card-header">Admin notes</summary>
 
-### Admin notes
+  <p>List people with admin permissions for <code>#voxpupuli*</code></p>
+  <blockquote><code>/msg chanserv flags #voxpupuli</code></blockquote>
 
-List people with admin permissions for `#voxpupuli*`
+  <p>Register a channel</p>
+  <blockquote><code>/msg chanserv register #voxpupuli-sig-social-media</code></blockquote>
 
-```
-/msg chanserv flags #voxpupuli
-```
-
-Register a channel
-
-```
-/msg chanserv register #voxpupuli-sig-social-media
-```
-
-Mark the channel discoverable
-
-```
-/mode #voxpupuli-sig-social-media -s
-```
+  <p>Mark the channel discoverable</p>
+  <blockquote><code>/mode #voxpupuli-sig-social-media -s</code></blockquote>
+</details>

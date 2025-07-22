@@ -145,6 +145,11 @@ blockquote {
     width: 33%!important;
 }
 
+/* match <p> styling */
+table {
+  margin-bottom: 1rem;
+}
+
 div.highlighter-rouge {
     background-color: white;
     padding: 1em;
