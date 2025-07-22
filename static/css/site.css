@@ -118,6 +118,11 @@ section.content {
   margin: 1em 0;
 }
 
+.former .card {
+  zoom: 0.65;
+  width: 20em;
+}
+
 .callout {
   width: 45%;
   float: right;
