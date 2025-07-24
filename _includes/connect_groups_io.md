@@ -1,4 +1,4 @@
-## Mailing List
+## <i class="fa-solid fa-envelopes-bulk"></i> Mailing List
 
 The [`voxpupuli@groups.io` mailing list](https://groups.io/g/voxpupuli/topics)
 is where you'll see announcements, blog notifications, official decision threads,
