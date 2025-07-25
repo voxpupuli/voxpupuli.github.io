@@ -20,6 +20,7 @@ The following IRC / Slack channels are bridged:
 | sig-release        | `#voxpupuli-sig-release`        |
 | sig-security       | `#voxpupuli-sig-security`       |
 | sig-social-media   | `#voxpupuli-sig-social-media`   |
+| social             | `#voxpupuli-social`             |
 | voxconf2025        | `#voxpupuli-voxconf2025`        |
 | voxpupuli          | `#voxpupuli`                    |
 
