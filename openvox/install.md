@@ -44,6 +44,7 @@ Then install the packages you want.
   * `yum install openvox-agent`
   * `yum install openvox-server`
   * `yum install openvoxdb`
+  * `yum install openvoxdb-termini`
 
 If you have backed up config files, then restore them now.
 
