@@ -40,6 +40,7 @@ Then install the packages you want.
   * `apt install openvox-agent`
   * `apt install openvox-server`
   * `apt install openvoxdb`
+  * `apt install openvoxdb-termini`
 * RedHat family
   * `yum install openvox-agent`
   * `yum install openvox-server`
