@@ -71,7 +71,7 @@ Now examine `/tmp/foo` and see that it meets all the specifications you describe
 ## Go forth and experiment!
 
 As the OpenVox project matures, we will create more documentation, guides, and tutorials.
-For the time being though, now you'll want to hop over to Puppet's own [documentation](http://puppet.com/docs) and go from there.
+For the time being though, now you'll want to hop over to Puppet's own [documentation](https://help.puppet.com/core/current/Content/PuppetCore/puppet_index.htm) and go from there.
 
 Please use the *Connect* resources in the menubar to engage with us and share any questions or thoughts you have!
 
