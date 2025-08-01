@@ -21,11 +21,7 @@ participation, orchestrated by github teams.
 
 ## Where you can find us
 
-We have a number of communication channels:
-
-* IRC: [#voxpupuli](ircs://irc.libera.chat:6697/#voxpupuli) on [Libera.Chat](https://libera.chat/) ([webchat](https://web.libera.chat/?#voxpupuli))
-* [#voxpupuli](http://puppetcommunity.slack.com/messages/voxpupuli/) on [Puppet Community Slack](http://puppetcommunity.slack.com)
-* [Mailing List](https://groups.io/g/voxpupuli/)
+We have a number of communication channels, they are all listed on a [dedicated page](https://voxpupuli.org/connect/).
 
 IRC still counts as the preferred point of contact for many of us but we tend
 to be available and reachable through both. If you need to reach out to a
