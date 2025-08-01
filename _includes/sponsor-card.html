@@ -1,6 +1,10 @@
 <div class="col-md-{{include.width}} d-flex align-items-stretch">
   <div class="card">
+    {% if {{include.vendor.logo}} %}
     <img class="card-img-top" src="{{ site.url }}{{ site.baseurl }}/static/images/{{include.vendor.logo}}" alt="Sponsored by {{include.vendor.name}}">
+    {% else %}
+    <div class="card-img-top" style="width: 320px; height: 170px;"></div>
+    {% endif %}
     <div class="card-body d-flex flex-column">
       {% if include.vendor.name %}
       <h5 class="card-title">{{include.vendor.name}}</h5>
