@@ -1,6 +1,5 @@
 ---
 name: CERN
-logo: sponsor-cern.png
 website: https://home.cern/
 button: home.cern
 ---
