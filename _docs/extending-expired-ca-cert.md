@@ -48,6 +48,20 @@ systemctl restart puppetserver
 
 # OpenVox agents
 
+The following assumes the CA certificate is stored in the default location:
+`/etc/puppetlabs/puppet/ssl/certs/ca.pem`.
+
+## If the CA cert has expired
+
+The new certificate can be downloaded via the HTTP API using the following
+command:
+
+```
+curl https://<PUPPET-CA-HOST>:8140/puppet-ca/v1/certificate/ca --insecure > /etc/puppetlabs/puppet/ssl/certs/ca.pem
+```
+
+A command similar to the above would need to be orchestrated across all of your agents.
+
 ## OpenVox agents on version 8 and newer
 Agents running Puppet 8+ will automatically fetch the updated CA certificate according to the [ca_refresh_interval](https://github.com/OpenVoxProject/openvox/blob/main/references/configuration.md#ca_refresh_interval) setting.
 
