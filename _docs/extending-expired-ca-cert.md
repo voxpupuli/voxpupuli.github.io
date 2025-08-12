@@ -32,7 +32,7 @@ The new file will be named using the format: `ca_crt-expires-<NEW_END_DATE>.pem`
 1. Examine the end date of the new certificate by executing:
 
 ```
-openssl x509 -in <PATH_TO_NEW_KEY> -noout -text
+openssl x509 -in <PATH_TO_NEW_KEY> -noout -noout -subject -issuer -enddate
 ```
 
 Confirm the issuer matches your existing CA and that the expiration date is 15 years in the future.
