@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Extending Expired Puppet CA Certificate
+title: Extending Expired CA Certificate
 date: 2025-08-06
 summary: How to extend the expiration date of the Puppet CA certificate
 ---
