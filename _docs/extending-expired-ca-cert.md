@@ -5,9 +5,9 @@ date: 2025-08-06
 summary: How to extend the expiration date of the Puppet CA certificate
 ---
 
-## Using a Bolt Module
+## Using an OpenBolt Module
 
-If you're using Bolt in your environment, there's a [ca_extend](https://github.com/puppetlabs/ca_extend) module designed for this task. Follow the module’s documentation to perform the extension in a supported and automated way.
+If you're using OpenBolt in your environment, there's a [ca_extend](https://github.com/puppetlabs/ca_extend) module designed for this task. Follow the module’s documentation to perform the extension in a supported and automated way.
 
 ## Manual Process
 
@@ -41,19 +41,19 @@ Confirm the issuer matches your existing CA and that the expiration date is 15 y
 mv /etc/puppetlabs/puppet/ssl/ca/ca_crt.pem /etc/puppetlabs/puppet/ssl/ca/ca_crt.pem.bak.$(date +%F)
 mv <PATH_TO_NEW_KEY> /etc/puppetlabs/puppet/ssl/ca/ca_crt.pem
 ```
-3. Restart the puppet server.
+3. Restart the OpenVox server.
 ```
 systemctl restart puppetserver
 ```
 
-# Puppet agents
+# OpenVox agents
 
-## Agents on Puppet 8 or newer
-Agents running Puppet 8+ will automatically fetch the updated CA certificate according to the [ca_refresh_interval](https://help.puppet.com/core/current/Content/PuppetCore/Markdown/configuration.htm#ca_refresh_interval) setting.
+## OpenVox agents on version 8 and newer
+Agents running Puppet 8+ will automatically fetch the updated CA certificate according to the [ca_refresh_interval](https://github.com/OpenVoxProject/openvox/blob/main/references/configuration.md#ca_refresh_interval) setting.
 
 ## Older Agents
 
 For older agents:
 
 * Distribute the new CA certificate using your configuration management/orchestration tool (e.g., SaltStack, Ansible).
-* Alternatively, use a Puppet file resource to deploy the new certificate — this only works if the current CA certificate has not yet expired and agents can still check in.
+* Alternatively, use an OpenVox file resource to deploy the new certificate — this only works if the current CA certificate has not yet expired and agents can still check in.
