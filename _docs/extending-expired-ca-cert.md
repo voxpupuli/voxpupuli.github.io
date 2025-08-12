@@ -7,10 +7,7 @@ summary: How to extend the expiration date of the Puppet CA certificate
 
 ## Using a Bolt Module
 
-If you're using Bolt in your environment, there's a
-[ca_extend](https://github.com/puppetlabs/ca_extend) module designed for this
-task. Follow the module’s documentation to perform the extension in a supported
-and automated way.
+If you're using Bolt in your environment, there's a [ca_extend](https://github.com/puppetlabs/ca_extend) module designed for this task. Follow the module’s documentation to perform the extension in a supported and automated way.
 
 ## Manual Process
 
