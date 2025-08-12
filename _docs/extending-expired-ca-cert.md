@@ -37,11 +37,12 @@ openssl x509 -in <PATH_TO_NEW_KEY> -noout -text
 
 Confirm the issuer matches your existing CA and that the expiration date is 15 years in the future.
 
-2. Back up the current certificate:
+2. Back up the current certificate and install the new one:
 
 ```
 # Assuming the directory where the CA is stored is /etc/puppetlabs/puppet/ssl/ca
-cp /etc/puppetlabs/puppet/ssl/ca/ca_crt.pem /etc/puppetlabs/puppet/ssl/ca/ca_crt.pem.bak.$(date +%F)
+mv /etc/puppetlabs/puppet/ssl/ca/ca_crt.pem /etc/puppetlabs/puppet/ssl/ca/ca_crt.pem.bak.$(date +%F)
+mv <PATH_TO_NEW_KEY> /etc/puppetlabs/puppet/ssl/ca/ca_crt.pem
 ```
 3. Restart the puppet server.
 ```
