@@ -5,11 +5,11 @@ date: 2025-08-06
 summary: How to extend the expiration date of the Puppet CA certificate
 ---
 
-## Using an OpenBolt Module
+## Using an OpenBolt module
 
 If you're using OpenBolt in your environment, there's a [ca_extend](https://github.com/puppetlabs/ca_extend) module designed for this task. Follow the module’s documentation to perform the extension in a supported and automated way.
 
-## Manual Process
+## Manual process
 
 The [ca_extend repository](https://github.com/puppetlabs/ca_extend) also includes a standalone [extend.sh](https://github.com/puppetlabs/ca_extend/blob/main/files/extend.sh) script that can be run manually to generate a new CA certificate with an extended expiration date.
 
@@ -24,18 +24,14 @@ The script performs the following steps:
 
 The new file will be named using the format: `ca_crt-expires-<NEW_END_DATE>.pem`. This allows you to distinguish it from the currently active certificate without overwriting anything by default.
 
-## Steps After Running the Script
+## Steps after running the script
 
 1. Examine the end date of the new certificate by executing:
-
 ```
-openssl x509 -in <PATH_TO_NEW_KEY> -noout -noout -subject -issuer -enddate
+openssl x509 -in <PATH_TO_NEW_KEY> -noout -subject -issuer -enddate
 ```
-
 Confirm the issuer matches your existing CA and that the expiration date is 15 years in the future.
-
 2. Back up the current certificate and install the new one:
-
 ```
 # Assuming the directory where the CA is stored is /etc/puppetlabs/puppet/ssl/ca
 mv /etc/puppetlabs/puppet/ssl/ca/ca_crt.pem /etc/puppetlabs/puppet/ssl/ca/ca_crt.pem.bak.$(date +%F)
@@ -65,7 +61,7 @@ A command similar to the above would need to be orchestrated across all of your 
 ## OpenVox agents on version 8 and newer
 Agents running Puppet 8+ will automatically fetch the updated CA certificate according to the [ca_refresh_interval](https://github.com/OpenVoxProject/openvox/blob/main/references/configuration.md#ca_refresh_interval) setting.
 
-## Older Agents
+## Older agents
 
 For older agents:
 
