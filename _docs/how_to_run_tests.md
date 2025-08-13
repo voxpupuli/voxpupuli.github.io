@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to run the test suite
+title: How to run the Vox Pupuli test suite
 summary: A description of how to run the Vox Pupuli test suite for Puppet modules.
 ---
 
