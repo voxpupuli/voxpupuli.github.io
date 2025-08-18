@@ -89,7 +89,7 @@ Then manually install the `oauth` gem into OpenVox's gempath.
 
 And finally, use [Foreman's Quickstart Guide](https://theforeman.org/manuals/3.15/quickstart_guide.html) to install Foreman.
 
-#### Using the `foreman-foreman` module
+#### Using the `theforeman-foreman` module
 
 1. Ensure that OpenVox is installed, then follow the instructions in the [Managing OpenVox with OpenVox](#managing-openvox-with-openvox) sections to configure Hiera properly.
 1. Add `theforeman-foreman` to your `Puppetfile` and deploy it.
