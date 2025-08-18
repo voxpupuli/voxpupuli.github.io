@@ -99,9 +99,9 @@ While we implemented the new release- and testing-pipelines, some releases were 
 * We added Ruby 3.3 & 3.4 testing to all projects
 * With [openbolt](https://github.com/OpenVoxProject/openbolt/blob/main/CHANGELOG.md), we now have an open source successor of bolt. We already released a beta version to rubygems and want to release the first packages soon
 
-**openvox-agent 8.21.1 cannot be installed with openvox-server 8.8.1 or older.**
+**openvox-agent 8.21.1 cannot be installed together with openvox-server 8.8.1 or older on the same system.**
 
-**openvox-server 8.10.0 cannot be installed with openvox-agent 8.19.2 or older.**
+**openvox-server 8.10.0 cannot be installed together with openvox-agent 8.19.2 or older on the same system.**
 
 Please test the releases and provide feedback!
 Let us know if you have any feature requests, find bugs, want to participate, or are interested in a support contract.
