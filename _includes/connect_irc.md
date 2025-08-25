@@ -23,6 +23,7 @@ The following IRC / Slack channels are bridged:
 | social             | `#voxpupuli-social`             |
 | voxconf2025        | `#voxpupuli-voxconf2025`        |
 | voxpupuli          | `#voxpupuli`                    |
+| voxpupuli-github-notifications | `#voxpupuli-github-notifications` |
 
 Until 2025-07-30 we synced the `voxpupuli` Slack and IRC channel also to the Perforce-owned `puppet-community.slack.com`.
 This link was shut down.
