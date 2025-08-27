@@ -17,8 +17,8 @@ want your PR merged, it'll need to be up to par.
 
 This means:
 
- * It doesn't break current tests (yes this happens, often);
- * It introduces tests for the new/fixed behaviour (so we don't regress).
+* It doesn't break current tests (yes this happens, often);
+* It introduces tests for the new/fixed behaviour (so we don't regress).
 
 We need to write and maintain modules that work for everyone and don't
 accidentally break on people reaping havoc across their machines.
@@ -32,14 +32,14 @@ but those are optional.
 In the end, the golden rules for contributing (to any opensource project really)
 are:
 
- * Submit PR's with tests. If you don't know how to write tests, put that in
+* Submit PR's with tests. If you don't know how to write tests, put that in
    the PR too, so we know how to help you;
- * Work with us and we'll work with you. It's okay if you PR is not perfect or
+* Work with us and we'll work with you. It's okay if you PR is not perfect or
    if you're unfamiliar with writing tests. As long as you're willing to put in
    the work we're willing to coach you. Perhaps you can have a look at this
    [post](https://voxpupuli.org/blog/2014/04/22/modern-testing-of-modules/) to
    get you going;
- * Don't ride off into the sunset. If you submit a PR we expect you to stick
+* Don't ride off into the sunset. If you submit a PR we expect you to stick
    around for the follow-ups. If not then it'll simply not get merged. Not
    because we're mean, but because we too have a thousand other things to do
    too.

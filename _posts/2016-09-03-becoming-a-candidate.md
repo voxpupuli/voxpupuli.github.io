@@ -38,7 +38,6 @@ the list of candidates will be available on the website.
 
 Vox Pupuli needs candidates like you!
 
-
 [g]:https://github.com/voxpupuli/plumbing/blob/master/share/governance.md
 [n]:https://github.com/voxpupuli
 [r1]:https://github.com/voxpupuli/puppet-selinux

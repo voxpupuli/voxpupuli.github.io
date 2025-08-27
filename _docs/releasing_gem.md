@@ -19,7 +19,7 @@ This can be done from a fork.
 
 Now you can install the changelog generator:
 
-```bash
+```shell
 bundle config set --local path '.vendor/'
 bundle config set --local with 'release'
 bundle install
@@ -27,13 +27,13 @@ bundle install
 
 And in case you installed the gems before:
 
-```bash
+```shell
 bundle install; bundle update; bundle clean
 ```
 
 We can generate the changelog (in most cases, this requires a [GitHub access token (docs on how to create one)](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line): the changelog generator expects the token in the environment variable `CHANGELOG_GITHUB_TOKEN`).
 
-```bash
+```shell
 CHANGELOG_GITHUB_TOKEN='mytoken' bundle exec rake changelog
 ```
 
@@ -52,13 +52,13 @@ Or add voxpupuli as a additional remote to your fork.
 
 with the main repo
 
-```bash
+```shell
 git switch master; git pull origin master
 ```
 
 with a fork
 
-```bash
+```shell
 git remote add voxpupuli git@github.com:voxpupuli/$my_repo.git
 git fetch voxpupuli --tags
 git switch master
@@ -74,13 +74,13 @@ Push the git tag:
 
 with main repo:
 
-```bash
+```shell
 git push origin $version
 ```
 
 with a fork:
 
-```bash
+```shell
 git push voxpupuli $version
 ```
 

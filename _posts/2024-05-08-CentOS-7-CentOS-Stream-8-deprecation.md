@@ -22,6 +22,6 @@ to do a major module release anyways.
 Dropping support means:
 
 * The Operating system version will be removed from metadata.json
-    * This will stop automatic unit/acceptance testing for this OS release
+  * This will stop automatic unit/acceptance testing for this OS release
 * Drop OS release specific puppet code
 * If hiera-in-modules is used, this will also be cleaned up

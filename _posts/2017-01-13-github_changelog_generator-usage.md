@@ -26,7 +26,7 @@ To see how this works, let's look at [puppet/r10k's](https://github.com/voxpupul
 
 To generate a changelog for a Vox Pupuli module, first you need an API token. Follow [these directions](https://github.com/skywinder/github-changelog-generator/#github-token) to generate a token and add it to your profile or environment. With the token in place, all you need to do is run a single command at the top level of the repo:
 
-```
+```shell
 bundle exec rake changelog
 ```
 

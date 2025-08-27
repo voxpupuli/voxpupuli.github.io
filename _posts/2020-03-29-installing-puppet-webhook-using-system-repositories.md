@@ -22,7 +22,7 @@ Now that the announcement is out of the way, let's get into the meat of the blog
 
 ## Setting up the repository
 
-#### Ubuntu/Debian
+### Ubuntu/Debian
 
 Add the GPG public key:
 
@@ -31,13 +31,14 @@ wget -q -O - "https://bintray.com/user/downloadSubjectPublicKey?username=voxpupu
 ```
 
 Add the APT repository and install
+
 ```shell
 echo "deb https://dl.bintray.com/voxpupuli/deb $(awk -F= '/VERSION_CODENAME=/ {print $2}' /etc/os-release) main" | sudo tee -a /etc/apt/sources.list.d/voxpupuli.list
 sudo apt update
 sudo apt install puppet-webhook
 ```
 
-#### RedHat/CentOS/Oracle
+### RedHat/CentOS/Oracle
 
 Add the EPEL repository (RedHat/CentOS/Oracle 7 only):
 
@@ -53,15 +54,14 @@ sudo mv voxpupuli.repo /etc/yum.repos.d/voxpupuli.repo
 sudo yum install puppet-webhook
 ```
 
-#### Grabbing the package directly
+### Grabbing the package directly
 
 You can also download the packages themselves directly from the Puppet Webhook [Releases](https://github.com/voxpupuli/puppet_webhook/releases) page. Though note that for EL7 you still have to have the EPEL repository enabled and you won't receive updates through the package manager.
 
-#### Starting the application for the first time
+### Starting the application for the first time
 
 The packages come with a SystemD service and you can simply start by running `sudo systemctl start puppet-webhook`. The application should work out of the box with no configuration, but if you want more strict authentication or any other environment-specific configuration, check out the documentation in the [README](https://github.com/voxpupuli/puppet_webhook/blob/master/README.md) file.
 
 ## Conclusion
 
 That's it. Pretty simple setup. Now nothing is perfect and so we're looking for any feedback we can get! If you find an issue or something missing, please file an [Issue](https://github.com/voxpupuli/puppet_webhook/issues) on the Github project.
-

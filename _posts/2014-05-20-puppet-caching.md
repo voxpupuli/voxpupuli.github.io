@@ -57,6 +57,7 @@ end
 ```
 
 ## Nginx cache
+
 The second thing I wanted to do is cache a few more things at the nginx level.
 If you drill down a bit into Puppet you'll notice that one of the things the
 agent does frequently is request things from the following endpoints:
@@ -212,6 +213,7 @@ alter it to include `--cacert` and point that to
 `/var/lib/puppet/ssl/certs/ca.pem` instead.
 
 ## Apache cache
+
 The cache configuration for nginx is inspired based on what [Erik Dalén][dalen]
 has been doing at Spotify and decided to share:
 
@@ -223,7 +225,6 @@ up to 1GB.
 
 I'm familiar enough with Apache to be able to tell you that this stores the
 cache in RAM but I have no idea how to invalidate it at deploy time.
-
 
 [kbarber]: https://github.com/kbarber "Github - Ken Barber"
 [plabs]: http://www.puppetlabs.com "Puppet Labs"

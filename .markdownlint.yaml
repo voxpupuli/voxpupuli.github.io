@@ -13,5 +13,9 @@ MD033:
     - p
     - script
     - summary
+    - iframe
+    - strong
+    - a
 MD013: false
   # line_length: 210
+MD059: false

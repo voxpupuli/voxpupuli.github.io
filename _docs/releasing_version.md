@@ -68,7 +68,7 @@ This has to be done on the __*upstream*__ repo itself.
 
 Checkout an updated copy of master
 
-```bash
+```shell
 git checkout master; git fetch origin; git pull origin master
 ```
 
@@ -79,7 +79,7 @@ Run the rake target `release`. This will:
 * commit the change,
 * and push it to origin.
 
-```bash
+```shell
 bundle exec rake release
 ```
 
@@ -97,19 +97,19 @@ Klick on "fork" and create a local fork.
 
 Clone the original upstream repo to your workstation:
 
-```bash
+```shell
 git clone git@github.com:voxpupuli/<project>.git
 ```
 
 We usually recommend to always also set the remote for your fork:
 
-```bash
+```shell
 git remote add local git@github.com:<name>/<project>.git
 ```
 
 Ensure that your local fork is in sync with upstream:
 
-```bash
+```shell
 git fetch --all --prune
 git switch master
 git pull origin master
@@ -129,7 +129,7 @@ We decided that dropping support for a puppet version or ruby is a major change 
 
 If necessary, run `bundle install` before continuing. If you want you can also only install the needed gems:
 
-```bash
+```shell
 bundle config set --local path 'vendor'
 bundle config set --local without 'development system_tests'
 bundle install
@@ -137,7 +137,7 @@ bundle install
 
 And in case you installed the gems before:
 
-```bash
+```shell
 bundle config set --local path 'vendor'
 bundle config set --local without 'development system_tests'
 bundle install; bundle update; bundle clean
@@ -153,7 +153,7 @@ We can now generate the changelog after updating the metadata.json with a rake t
 >
 > The changelog generator expects the token in the environment variable `CHANGELOG_GITHUB_TOKEN`
 
-```bash
+```shell
 CHANGELOG_GITHUB_TOKEN='mytoken' bundle exec rake release:prepare
 ```
 
@@ -173,7 +173,7 @@ The rake task will output the commands you need to run.
 
 It will look like this:
 
-```bash
+```shell
 Please review these changes and commit them to a new branch:
 
   git checkout -b release-v1.2.3
@@ -184,7 +184,7 @@ Then open a Pull-Request and wait for it to be reviewed and merged).
 
 Afterwards you can push to your fork and create a PR via the Web UI (or use the `gh` CLI tool if you like):
 
-```bash
+```shell
 git push --set-upstream local release-v1.2.3
 ```
 
@@ -201,7 +201,7 @@ This has to be done on the __*upstream*__ repo itself.
 
 Checkout an updated copy of master
 
-```bash
+```shell
 git checkout master; git fetch origin; git pull origin master
 ```
 
@@ -212,7 +212,7 @@ Run the rake target `release`. This will:
 * commit the change,
 * and push it to origin.
 
-```bash
+```shell
 bundle exec rake release
 ```
 

@@ -91,7 +91,7 @@ The release process is basically:
 * after that's approved and merged, a maintainer creates a gpg-signed git tag and pushes that to GitHub
 * the Release action posed above will build the gem on Ruby 3.0 and publishes it to rubygems and to GitHub packages
 
-**secrets.GITHUB_TOKEN is available within the action by default, secrets.RUBYGEMS_AUTH_TOKEN is a custom secret defined on the GitHub org level**
+**secrets.GITHUB_TOKEN is available within the action by default, secrets.RUBYGEMS_AUTH_TOKEN is a custom secret defined on the GitHub org level** <!-- markdownlint-disable-line MD036 -->
 
 Besides creating the yaml file and the `secrets.RUBYGEMS_AUTH_TOKEN` secret, no additional configuration is required to publich to RubyGems/GitHub packages.
 

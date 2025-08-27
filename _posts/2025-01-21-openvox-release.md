@@ -15,7 +15,6 @@ You’ll notice that they’re still using the `apt|yum.overlookinfratech.com` r
 As we get our infrastructure built out, these will probably be moved to the voxpupuli.org namespace.
 Please don’t use these packages on critical production infrastructures yet, unless you’re comfortable with troubleshooting and reporting back on the silly errors we’ve made while rebranding and rebuilding.
 
-
 > *If you’d like professional assistance in the migration, check out the [support page](/openvox/support/) for companies who provide migration services.*
 
 We consider OpenVox a soft-fork because we intend to maintain downstream compatibility for as long as we are able.
