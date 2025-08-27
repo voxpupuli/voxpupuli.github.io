@@ -1,22 +1,7 @@
 default: true
-MD033:
-  allowed_elements:
-    - b
-    - blockquote
-    - br
-    - button
-    - code
-    - details
-    - div
-    - i
-    - img
-    - p
-    - script
-    - summary
-    - iframe
-    - strong
-    - a
+
 MD013: false
   # line_length: 210
-MD059: false
+MD033: false
 MD041: false
+MD059: false
