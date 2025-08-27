@@ -89,7 +89,7 @@ Then manually install the `oauth` gem into OpenVox's gempath.
 
 And finally, use [Foreman's Quickstart Guide](https://theforeman.org/manuals/3.15/quickstart_guide.html) to install Foreman.
 
-#### Using the `foreman-foreman` module
+#### Using the `theforeman-foreman` module
 
 1. Ensure that OpenVox is installed, then follow the instructions in the [Managing OpenVox with OpenVox](#managing-openvox-with-openvox) sections to configure Hiera properly.
 1. Add `theforeman-foreman` to your `Puppetfile` and deploy it.
@@ -99,15 +99,28 @@ And finally, use [Foreman's Quickstart Guide](https://theforeman.org/manuals/3.1
 
 If you're already running Foreman and you want to switch it to be backed by OpenVox then you have a little bit of housekeeping to do first.
 First, use your system package manager to remove the `puppet-agent-oauth` package.
-If you use the `foreman-installer` to manage and upgrade your setup, then ensure that you remove the cached scenario file, or it will continue to use old package names.
+If you use the `foreman-installer` to manage and upgrade your setup, then ensure that you restore the cached answers file to the default values, or it will continue to use old paths.
 
-```
-# rm /etc/foreman-installer/scenarios.d/last_scenario.yaml
-```
+<details class="card" >
+<summary class="card-header">Debian Family</summary>
+<pre><code># rm /etc/foreman-installer/scenarios.d/foreman-answers.yaml
+# apt install --reinstall -o Dpkg::Options::="--force-confmiss" foreman-installer</code></pre>
+</details>
+<details class="card" >
+<summary class="card-header">RedHat Family</summary>
+<pre><code># rm /etc/foreman-installer/scenarios.d/foreman-answers.yaml
+# yum reinstall foreman-installer</code></pre>
+</details>
+<details class="card" >
+<summary class="card-header">Others</summary>
+<pre><code># curl https://raw.githubusercontent.com/theforeman/foreman-installer/refs/heads/develop/config/foreman-answers.yaml \
+    -o /etc/foreman-installer/scenarios.d/foreman-answers.yaml</code></pre>
+</details>
 
 If you're porting from system installed Puppet, then you may have to purge package configuration or remove legacy directory structures.
-Ensure that the `aio_agent_version` fact returns the appropriate version before continuing.
+For example, you might `rm -rf /etc/puppet`
 
+Ensure that the `aio_agent_version` fact returns the appropriate version before continuing.
 Then follow the [installation instructions](#installing-foreman-with-openvox) above to update your infrastructure.
 
 
