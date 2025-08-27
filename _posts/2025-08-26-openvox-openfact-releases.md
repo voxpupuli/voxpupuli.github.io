@@ -7,7 +7,7 @@ github_username: nmburgan
 
 In our last blog post, we mentioned some new beta releases that include [OpenFact](https://github.com/OpenVoxProject/openfact/blob/main/CHANGELOG.md). At the same time, we've been hard at work refactoring some of the build tooling to make it much easier to maintain and understand. As we've been working through these changes, we found some issues preventing us from doing releases of the whole stack.
 
-While the new openvox-agent packages that include OpenFact will work communicating with older openvox-server or puppetserver installations, you cannot install the new openvox-agent packages on the same node as an older openvox-server or puppetserver package due to conflicts between OpenFact and Facter. On the server node, you will need to upgrade both openvox-agent to 8.21+ and openvox-server and openvoxdb to 8.11+.
+While the new openvox-agent packages that include OpenFact will work for communicating with older openvox-server or puppetserver installations, you cannot install the new openvox-agent packages on the same node as an older openvox-server or puppetserver package due to conflicts between OpenFact and Facter. On the server node, you will need to upgrade both openvox-agent to 8.21+ and openvox-server and openvoxdb to 8.11+.
 
 However, we never did a final release of anything past openvox-agent 8.19.2, openvox-server 8.8.1, or openvoxdb 8.9.1. These versions all still contain Facter. In order to get everyone past the OpenFact threshold, we've decided to do a release using the old version of the ezbake tooling for server/db.
 
