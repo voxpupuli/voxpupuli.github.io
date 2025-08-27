@@ -21,21 +21,21 @@ sees your system.
 This command will show you how OpenVox represents the current state of a specific kind of resource, in this case the `user` resources.
 The output will be your first view of the Puppet™️ DSL (domain specific language).
 
-```
-# puppet resource user
+```shell
+puppet resource user
 ```
 
 Pick the name of one of your user resources and run again.
 This shows the same output, but scoped to a single user.
 
-```
-# puppet resource user binford2k
+```shell
+puppet resource user binford2k
 ```
 
 Try a similar command with the `file` resource and the name of a file on your computer, maybe `/etc/hosts`.
 
-```
-# puppet resource file /etc/hosts
+```shell
+puppet resource file /etc/hosts
 ```
 
 Now you see how OpenVox sees resources as the *type* and *title* of the resource and then a list of *attributes* of that resource.
@@ -52,7 +52,7 @@ When you write Puppet™️ code, you only need to describe the things you *do* 
 
 Let's try that now. Create a *manifest*, or a source file of Puppet™️ code.
 
-``` puppet
+```puppet
 # hello.pp
 file { '/tmp/foo':
   ensure  => file,
@@ -62,13 +62,13 @@ file { '/tmp/foo':
 }
 ```
 
-```
-$ puppet apply hello.pp
+```shell
+puppet apply hello.pp
 ```
 
 Now examine `/tmp/foo` and see that it meets all the specifications you described in your manifest, including the string of content.
 
-## Go forth and experiment!
+## Go forth and experiment
 
 As the OpenVox project matures, we will create more documentation, guides, and tutorials.
 For the time being though, now you'll want to hop over to Puppet's own [documentation](https://help.puppet.com/core/current/Content/PuppetCore/puppet_index.htm) and go from there.
