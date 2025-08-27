@@ -25,4 +25,3 @@ If you have any questions, don't hesitate to ask. We are happy to help you.
 - If you have question about security, please follow our [security policy](https://voxpupuli.org/security/).
 - General and more specific documentation can be found on our [docs](https://voxpupuli.org/docs/).
 - In the project you want to work on, check their own contribution guidelines most often found in the README.md or CONTRIBUTING.md file.
-
