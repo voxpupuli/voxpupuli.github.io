@@ -28,7 +28,6 @@ Here is a list of topics where the security officer can help you:
 * Report compromised user accounts
 * Any other security and Vox Pupuli related problem
 
-
 ## Good practices regarding security
 
 For our contributors, here are some good practices that we highly recommend.
