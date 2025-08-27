@@ -14,10 +14,8 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - uses: DavidAnson/markdownlint-cli2-action@v20
-        continue-on-error: true
         with:
           globs: '**/*.md'
-
       - name: Install Ruby 3
         uses: ruby/setup-ruby@v1
         with:
