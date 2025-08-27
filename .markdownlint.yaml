@@ -2,5 +2,7 @@ default: true
 MD033:
   allowed_elements:
     - br
-MD013:
-  line_length: 210
+    - img
+    - div
+MD013: false
+  # line_length: 210

@@ -7,7 +7,6 @@ summary: Steps to do to enable publication of a new gem
 
 Those are the steps you have to take to publish a new gem:
 
-
 ## Setup GitHub workflow
 
 Right now we don't have a way to sync workflows for each gem.
@@ -20,14 +19,12 @@ This workflow will take care of:
 * Creating the changelog for the GitHub release
 * Waits until the new version is present on the rubygems.org cache
 
-### Configure rubygems.org
-
-**This needs to be done by a PMC member**
+### Configure rubygems.org (needs to be done by a PMC member)
 
 Before the first release, trusted publishing needs to be configured on rubygems.org
 
 * login to rubygems.org with the voxpupui or openvoxproject account from gopass
-* go to https://rubygems.org/profile/oidc/pending_trusted_publishers
+* go to <https://rubygems.org/profile/oidc/pending_trusted_publishers>
 * click "create"
 * add gem name, repo owner ("voxpupuli" or "OpenVoxProject"), repo name (usually same as gem name), workflow name (`release.yml`)
 * Set environment to `release` ([configured in our workflow](https://github.com/voxpupuli/gem-workflow-test/blob/96a29ada7ddea2ba0f27cbe0efd2194c7b9e7213/.github/workflows/release.yml#L71))

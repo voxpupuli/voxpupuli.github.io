@@ -10,24 +10,25 @@ You will have someone by your side in this process. The general flow is to…
 * Ensure you have been added as a member of the voxpupuli org on github.
 * Create an issue with the [checklist](#checklist) below.
 * Prepare your repo for transfer
-    * Ensure github issues are enabled.
-    * If this module was created with PDK delete .sync.yaml.
-    * Ensure that the module has a correct `LICENSE` file in the docroot that matches the mentioned license in the `metadata.json`.
-    * If the repo is a fork, to ensure pull requests go to the correct repo, [detach it from the fork network](https://docs.github.com/pull-requests/collaborating-with-pull-requests/working-with-forks/detaching-a-fork).
+  * Ensure github issues are enabled.
+  * If this module was created with PDK delete .sync.yaml.
+  * Ensure that the module has a correct `LICENSE` file in the docroot that matches the mentioned license in the `metadata.json`.
+  * If the repo is a fork, to ensure pull requests go to the correct repo, [detach it from the fork network](https://docs.github.com/pull-requests/collaborating-with-pull-requests/working-with-forks/detaching-a-fork).
 * At this point you can [transfer your own repository](https://docs.github.com/repositories/creating-and-managing-repositories/transferring-a-repository).
 * Ask an admin to
-    * Verify that all webhooks are disabled.
-    * Enable `Automatically delete head branches` in the repository settings.
-    * Add the `collaborators` team to the module's `Collaborators & Teams` 'Teams' list with `Write` permissions (e.g. [https://github.com/voxpupuli/puppet-gitlab/settings/collaboration](https://github.com/voxpupuli/puppet-gitlab/settings/collaboration) (that link works only for admins).
-    * Update the [access permissions](https://github.com/organizations/voxpupuli/settings/secrets/actions) (that link works only for admins) for forge.puppet.com secrets so releases can be published.
+  * Verify that all webhooks are disabled.
+  * Enable `Automatically delete head branches` in the repository settings.
+  * Add the `collaborators` team to the module's `Collaborators & Teams` 'Teams' list with `Write` permissions (e.g. [https://github.com/voxpupuli/puppet-gitlab/settings/collaboration](https://github.com/voxpupuli/puppet-gitlab/settings/collaboration) (that link works only for admins).
+  * Update the [access permissions](https://github.com/organizations/voxpupuli/settings/secrets/actions) (that link works only for admins) for forge.puppet.com secrets so releases can be published.
 * Add the module to our [modulesync setup][managed_modules].
 * Execute [modulesync][msync] for this module.
 * Our modulesync will delete a `CONTRIBUTING.md` in the root directory and use the global organization version in voxpupuli/.github.  Please enhance [the global version][contrib] if the version in the docroot contains useful parts.
 * [Release][release] the first version under Vox Pupuli.
-* Create a GitHub issue for the [FORGE][forge] project and ask to deprecate the old module (and approve the new one if the old one was approved as well).
+* Create a GitHub issue for the [FORGE][forge] project and ask to deprecate the old module (and [approve][approve] the new one if the old one was approved as well).
 * Write a very short blog post about the migration([example][example]). Write to our [mailinglist](mailto:voxpupuli@groups.io) about the migration/new blogpost.
 
 ## Checklist
+
 ```markdown
 Reference: https://voxpupuli.org/docs/migrate_module/
 

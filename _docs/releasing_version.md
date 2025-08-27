@@ -50,6 +50,7 @@ If you relabeled anything or the version is wrong, rerun the `Prepare Release` a
 Request feedback from the Vox Pupuli Community via the methods listed in the [Contact page](https://voxpupuli.org/connect/).
 
 All commentary should be reviewed, but specifically looking for concensus around:
+
 * Are there other changes that should get merged first?
 * Are there discussions about the tagging of any of the changes in the CHANGELOG.md?
 * Have you missed something needed for release?
@@ -58,9 +59,8 @@ The person who does the merge of the PR is expected to do the release below.
 
 ### Do the Release
 
-*Please note that in order to execute this rake task you must be in the __Collaborators__ group on GitHub for the module in question.*
-
-*Please also note that the task requires a configured gpg or ssh key in your local git settings to sign the git tag*
+* _Please note that in order to execute this rake task you must be in the __Collaborators__ group on GitHub for the module in question._
+* _Please also note that the task requires a configured gpg or ssh key in your local git settings to sign the git tag_
 
 This step must be done by a voxpupuli maintainer!
 
@@ -84,7 +84,7 @@ bundle exec rake release
 ```
 
 GitHub Actions (.github/workflows/release.yml in every module) will then kick off a build against the new tag created and deploy that build to the forge.
-*Caution: The Vox Pupuli repo has to be the configured default branch in your local clone. Otherwise, you will try to release to your fork.*
+_Caution: The Vox Pupuli repo has to be the configured default branch in your local clone. Otherwise, you will try to release to your fork._
 
 ## Manual Steps
 
@@ -146,6 +146,7 @@ bundle install; bundle update; bundle clean
 We can now generate the changelog after updating the metadata.json with a rake task.
 
 > 🔔 In most cases, this requires a [GitHub fine-grained access token](https://github.com/settings/tokens?type=beta).
+>
 > * Resource owner: you
 > * Expiration: one year or less
 > * Repository access: Public Repositories (read-only)
@@ -191,9 +192,8 @@ The person who does the merge is expected to do the release below.
 
 ### Doing the release
 
-*Please note that in order to execute this rake task you must be in the __Collaborators__ group on GitHub for the module in question.*
-
-*Please also note that the task requires a configured gpg or ssh key in your local git settings to sign the git tag*
+* _Please note that in order to execute this rake task you must be in the __Collaborators__ group on GitHub for the module in question._
+* _Please also note that the task requires a configured gpg or ssh key in your local git settings to sign the git tag_
 
 This step must be done by a voxpupuli maintainer!
 
@@ -217,4 +217,4 @@ bundle exec rake release
 ```
 
 GitHub Actions (.github/workflows/release.yml in every module) will then kick off a build against the new tag created and deploy that build to the forge.
-*Caution: The Vox Pupuli repo has to be the configured default branch in your local clone. Otherwise, you will try to release to your fork.*
+_Caution: The Vox Pupuli repo has to be the configured default branch in your local clone. Otherwise, you will try to release to your fork._
