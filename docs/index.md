@@ -27,4 +27,3 @@ started. If you have any questions, [reach out to us](/connect/).
   </li>
 {% endfor %}
 </ul>
-

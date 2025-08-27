@@ -5,26 +5,26 @@ summary: A description of how to run the Vox Pupuli test suite for Puppet module
 ---
 
 - [Running the tests in a local ruby environment](#running-the-tests-in-a-local-ruby-environment)
-  * [Installing dependencies](#installing-dependencies)
-  * [Vox Pupuli helpers](#vox-pupuli-helpers)
-  * [Linting](#linting)
-  * [REFERENCE.md update](#referencemd-update)
-  * [Unit tests](#unit-tests)
-    + [Detailed sub tasks](#detailed-sub-tasks)
-  * [Running Acceptance Tests](#running-acceptance-tests)
-    + [Beaker hypervisors](#beaker-hypervisors)
-    + [Environment variables and hostnames](#environment-variables-and-hostnames)
-    + [Getting setfiles for a module](#getting-setfiles-for-a-module)
-    + [Running Beaker](#running-beaker)
-    + [Custom Facts](#custom-facts)
-    + [Run a specific test](#run-a-specific-test)
+  - [Installing dependencies](#installing-dependencies)
+  - [Vox Pupuli helpers](#vox-pupuli-helpers)
+  - [Linting](#linting)
+  - [REFERENCE.md update](#referencemd-update)
+  - [Unit tests](#unit-tests)
+    - [Detailed sub tasks](#detailed-sub-tasks)
+  - [Running Acceptance Tests](#running-acceptance-tests)
+    - [Beaker hypervisors](#beaker-hypervisors)
+    - [Environment variables and hostnames](#environment-variables-and-hostnames)
+    - [Getting setfiles for a module](#getting-setfiles-for-a-module)
+    - [Running Beaker](#running-beaker)
+    - [Custom Facts](#custom-facts)
+    - [Run a specific test](#run-a-specific-test)
 - [Running the tests in the VoxBox container](#running-the-tests-in-the-voxbox-container)
-  * [Installation](#installation)
-  * [Linting](#linting-in-voxbox)
-  * [Rubocop](#rubocop)
-  * [Unit tests](#unit-tests-in-voxbox)
-  * [REFERENCE.md update](#referencemd-update-in-voxbox)
-  * [Puppetfile](#puppetfile)
+  - [Installation](#installation)
+  - [Linting](#linting-in-voxbox)
+  - [Rubocop](#rubocop)
+  - [Unit tests](#unit-tests-in-voxbox)
+  - [REFERENCE.md update](#referencemd-update-in-voxbox)
+  - [Puppetfile](#puppetfile)
 
 The testing and development tools have a bunch of dependencies, all managed by [bundler](http://bundler.io/).
 By default the tests use the latest version of Puppet.
@@ -88,9 +88,9 @@ If you don't know if you need to install or update gems, you can just add `bundl
 Check out the following page if you want to add a test suite to your module or want
 to learn more about the Vox Pupuli test helpers:
 
-* [voxpupuli-test](https://github.com/voxpupuli/voxpupuli-test) for unit testing
-* [voxpupuli-acceptance](https://github.com/voxpupuli/voxpupuli-acceptance) for acceptance testing
-* [voxpupuli-release](https://github.com/voxpupuli/voxpupuli-release) for creating a release
+- [voxpupuli-test](https://github.com/voxpupuli/voxpupuli-test) for unit testing
+- [voxpupuli-acceptance](https://github.com/voxpupuli/voxpupuli-acceptance) for acceptance testing
+- [voxpupuli-release](https://github.com/voxpupuli/voxpupuli-release) for creating a release
 
 ### Linting
 
@@ -201,18 +201,18 @@ _Remember to add your user to the group that allows access to docker/libvirt._
 
 For Vox Pupuli's acceptance testing suite, Beaker is managed by a set of environment variables.
 
-* `BEAKER_HYPERVISOR` Sets the Hypervisor, `vagrant` or `vagrant_libvirt` for VM based testing
+- `BEAKER_HYPERVISOR` Sets the Hypervisor, `vagrant` or `vagrant_libvirt` for VM based testing
   It is a good idea to export the `BEAKER_HYPERVISOR` variable in your shell configuration.
-* `BEAKER_DESTROY` Should the test environment be removed at the end of a test
-  * `BEAKER_DESTROY=onpass` Only removes the environment if everything passes, allowing review of the system in the state it was in when the test suite failed.
-  * `BEAKER_DESTROY=no` Always leave an artifact, which likely will break future runs without cleanup.
-  * `BEAKER_DESTROY=yes` _(DEFAULT)_ always clean up.
-* `BEAKER_PROVISION` Should we ensure a clean system is built to run the suite.
-  * If `BEAKER_DESTROY` is set to no, `BEAKER_PROVISION=yes` will fail the run (because of the existing box/container)
-  * If `BEAKER_DESTROY` is set to no, `BEAKER_PROVISION=no` will run the test suite against the system anyways, which may cause environmental issues if the test suite doesn't perfectly put things to a default state.
+- `BEAKER_DESTROY` Should the test environment be removed at the end of a test
+  - `BEAKER_DESTROY=onpass` Only removes the environment if everything passes, allowing review of the system in the state it was in when the test suite failed.
+  - `BEAKER_DESTROY=no` Always leave an artifact, which likely will break future runs without cleanup.
+  - `BEAKER_DESTROY=yes` _(DEFAULT)_ always clean up.
+- `BEAKER_PROVISION` Should we ensure a clean system is built to run the suite.
+  - If `BEAKER_DESTROY` is set to no, `BEAKER_PROVISION=yes` will fail the run (because of the existing box/container)
+  - If `BEAKER_DESTROY` is set to no, `BEAKER_PROVISION=no` will run the test suite against the system anyways, which may cause environmental issues if the test suite doesn't perfectly put things to a default state.
 
-* `BEAKER_SETFILE` What should we be testing.  Beaker will call beaker-hostgenerator to create a defaultconfiguration based on this, using the known configurations for Vox Pupuli.
-* `BEAKER_PUPPET_COLLECTION` What implementation and version of Puppet are we testing against
+- `BEAKER_SETFILE` What should we be testing.  Beaker will call beaker-hostgenerator to create a defaultconfiguration based on this, using the known configurations for Vox Pupuli.
+- `BEAKER_PUPPET_COLLECTION` What implementation and version of Puppet are we testing against
 
 These are all defined in [voxpupuli-acceptance](https://github.com/voxpupuli/voxpupuli-acceptance/#running-tests) to review how they are used and more specialized features.
 
@@ -285,7 +285,6 @@ BEAKER_SETFILE="almalinux9-64{hostname=almalinux9-64-puppet8.example.com}" bundl
 ```
 
 If you need to run tests against a different version or implementation of OpenVox (or Puppet) you can either `export BEAKER_PUPPET_COLLECTION="openvox7"` or add `BEAKER_PUPPET_COLLECTION="openvox7"` to your command line.
-
 
 ```shell
 BEAKER_PUPPET_COLLECTION="openvox7" BEAKER_SETFILE="ubuntu2404-64" bundle exec rake beaker

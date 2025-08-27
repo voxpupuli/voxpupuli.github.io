@@ -12,4 +12,3 @@ Other spaces you might find interesting:
 
 | <i class="fa fa-brands fa-reddit"></i>       | [`/r/Puppet`](https://www.reddit.com/r/Puppet/)               |
 | <i class="fa fa-solid fa-network-wired"></i> | [Fediwall mastodon posts](https://short.voxpupu.li/fediwall)  |
-

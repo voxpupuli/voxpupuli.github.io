@@ -27,7 +27,7 @@ Now a few months later we can say: What the hell?!
 
 People are sending us roughly $200 per month!
 
-*insert party.gif here*
+*insert party.gif here* <!-- markdownlint-disable-line MD036 -->
 
 It's amazing to see the support from so many individuals and companies. We want
 to point out [Steffen 'saz' Zieger](https://github.com/saz), he was our first

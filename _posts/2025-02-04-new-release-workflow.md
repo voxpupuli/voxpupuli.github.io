@@ -19,4 +19,4 @@ It can automatically:
 So people don't have to use a local container or Ruby installation to prepare a release.
 However, it's still possible to generate everything locally and we intend to keep it that way.
 
-The new workflow is documented at https://voxpupuli.org/docs/releasing_version/
+The new workflow is documented at <https://voxpupuli.org/docs/releasing_version/>

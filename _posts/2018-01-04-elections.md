@@ -19,7 +19,6 @@ TL;DR The Committees members are elected by the community for 1 year. They take 
 
 Open-Source Communities nowadays gain a lot from having a structure that can take action when bad things happens, and also when improvement is needed. We already have a [Code of Conduct][coc] in place, but we obviously need to ensure it is respected.
 
-
 The PMC has set [Spencer Krum][sk] to be the Election Officer and to run the elections, as stated in the [Governance Document][gd]. Spencer is not running for PMC re-election.
 
 You can find more information [here][e], including how to become a candidate.
@@ -33,9 +32,6 @@ during the whole election process! Provide feedback in the #voxpupuli channel on
 
 [e]:https://github.com/voxpupuli/plumbing/blob/master/share/elections/2018-01.md
 [sk]:https://github.com/nibalizer/
-[daenney]:https://github.com/daenney
-[me]:https://github.com/roidelapluie
-[d]:https://github.com/voxpupuli/plumbing/pull/45
 [gd]:https://github.com/voxpupuli/plumbing/blob/master/share/governance.md
 [coc]:https://voxpupuli.org/coc/
 [g]:https://github.com/voxpupuli/plumbing/blob/master/share/governance.md

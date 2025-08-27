@@ -25,12 +25,12 @@ If your changes do not apply to *all* modules managed by Vox Pupuli, add a toggl
 
 For a complete example, see this commit to the [modulesync_config repository] which manage a few files and introduce 3 tunables:
 
-* https://github.com/voxpupuli/modulesync_config/commit/758366479d9d65a7cf14b2f5f757eff154bfbd8b
+* <https://github.com/voxpupuli/modulesync_config/commit/758366479d9d65a7cf14b2f5f757eff154bfbd8b>
 
 After this commit got merged, the tunables were updated in the appropriate repository, for example:
 
-* https://github.com/voxpupuli/puppet-jenkins/commit/e25d6bf3fe047659f3375fe069c151cb5171a7ce#diff-b1bbc4d50c1c098ca18224cbc9519ad646dcc5e3dd912edf55610ab5bba3566e
-* https://github.com/voxpupuli/puppet-zabbix/commit/2d2fd20b3ceb036cd8a44747bc9c537e27022b82#diff-b1bbc4d50c1c098ca18224cbc9519ad646dcc5e3dd912edf55610ab5bba3566e
+* <https://github.com/voxpupuli/puppet-jenkins/commit/e25d6bf3fe047659f3375fe069c151cb5171a7ce#diff-b1bbc4d50c1c098ca18224cbc9519ad646dcc5e3dd912edf55610ab5bba3566e>
+* <https://github.com/voxpupuli/puppet-zabbix/commit/2d2fd20b3ceb036cd8a44747bc9c537e27022b82#diff-b1bbc4d50c1c098ca18224cbc9519ad646dcc5e3dd912edf55610ab5bba3566e>
 
 [ModuleSync]: https://github.com/voxpupuli/modulesync
 [modulesync_config repository]: https://github.com/voxpupuli/modulesync_config

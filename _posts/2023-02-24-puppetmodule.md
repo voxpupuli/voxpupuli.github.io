@@ -20,9 +20,10 @@ You want to use puppetmodule.info for your own modules? Just publish to the
 forge! We scrape the forge API on a regular basis to import new releases
 automatically. You can also add a badge to your README.md:
 
-```
+```markdown
 [![puppetmodule.info docs](http://www.puppetmodule.info/images/badge.png)](http://www.puppetmodule.info/m/puppet-borg)
 ```
+
 Which will look like this:
 
 [![puppetmodule.info docs](https://www.puppetmodule.info/images/badge.png)](https://www.puppetmodule.info/m/puppet-borg)
@@ -34,7 +35,6 @@ You want to participate in the development? Checkout the sourcecode!
 You like Ops work and want to help run the server? Ping us on Slack or IRC (links in the footer).
 
 You love Vox Pupuli? You can now sponsor us! Check [opencollective.com/vox-pupuli](https://opencollective.com/vox-pupuli) or [github.com/sponsors/voxpupuli](https://github.com/sponsors/voxpupuli)
-
 
 Thanks Hetzner Online for sponsoring the cloud resources to host puppetmodule.info!
 [![Sponsored by Hetzner Online GmbH]({{ site.url }}{{ site.baseurl }}/static/images/hetzner_cloud_logo.svg)](https://www.hetzner.com)

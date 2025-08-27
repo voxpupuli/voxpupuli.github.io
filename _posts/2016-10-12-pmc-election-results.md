@@ -17,11 +17,11 @@ As put forth by our governance section the PMC is elected for a term of 1 year
 so October 2017 we'll have a new round. Right now our current, and first, PMC
 members are:
 
-  * Tim Meusel (bastelfreak)
-  * Spencer Krum (nibalizer)
-  * Hunter Haugen (hunner)
-  * Ben Briggs (bbriggs/fraq)
-  * Dennis Hoppe (dhoppe)
+* Tim Meusel (bastelfreak)
+* Spencer Krum (nibalizer)
+* Hunter Haugen (hunner)
+* Ben Briggs (bbriggs/fraq)
+* Dennis Hoppe (dhoppe)
 
 We've got a nice mix of long time contributors to Puppet, and the ecosystem in
 general, and people that are much newer to the community. It will hopefully
@@ -30,5 +30,3 @@ precedent to what they should do or how.
 
 Thank you all for participating in the elections and we'll hopefully see even
 more people participating next time!
-
-

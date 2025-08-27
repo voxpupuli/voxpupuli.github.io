@@ -5,7 +5,7 @@ date: 2025-07-31
 github_username: bastelfreak
 ---
 
-## New OpenVoxProject 8 releases!
+## New OpenVoxProject 8 releases
 
 After lots of development, we have a new round of releases available!
 
@@ -20,7 +20,6 @@ Our new releases:
 * openvox-agent [8.21.1](https://github.com/OpenVoxProject/openvox-agent/releases/tag/8.21.1)
 * openvox-server [8.10.0](https://github.com/OpenVoxProject/openvox-server/releases/tag/8.10.0)
 * openvoxdb will soon follow
-
 
 ## Where are the releases?
 

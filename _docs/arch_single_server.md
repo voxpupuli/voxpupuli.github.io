@@ -34,15 +34,15 @@ HDM --- OpenVoxServer
 Puppetboard --- OpenVoxDB
 OpenVoxServer --- Agent1("Agent 1") & Agent2("Agent 2") & Agent_n("Agent n")
 
-click Foreman "https://www.theforeman.org/"
-click Webhook "https://github.com/voxpupuli/webhook-go?tab=readme-ov-file#webhook-go"
-click OpenVoxDB "https://github.com/OpenVoxProject/openvoxdb"
-click HDM "https://github.com/betadots/hdm?tab=readme-ov-file#hdm---hiera-data-manager"
-click Puppetboard "https://github.com/voxpupuli/puppetboard?tab=readme-ov-file#puppetboard"
-click OpenVoxServer "https://github.com/OpenVoxProject/openvox-server?tab=readme-ov-file#puppet-server"
-click Agent1 "https://github.com/OpenVoxProject/openvox-agent?tab=readme-ov-file#the-puppet-agent"
-click Agent2 "https://github.com/OpenVoxProject/openvox-agent?tab=readme-ov-file#the-puppet-agent"
-click Agent_n "https://github.com/OpenVoxProject/openvox-agent?tab=readme-ov-file#the-puppet-agent"
+click Foreman "<https://www.theforeman.org/>"
+click Webhook "<https://github.com/voxpupuli/webhook-go?tab=readme-ov-file#webhook-go>"
+click OpenVoxDB "<https://github.com/OpenVoxProject/openvoxdb>"
+click HDM "<https://github.com/betadots/hdm?tab=readme-ov-file#hdm---hiera-data-manager>"
+click Puppetboard "<https://github.com/voxpupuli/puppetboard?tab=readme-ov-file#puppetboard>"
+click OpenVoxServer "<https://github.com/OpenVoxProject/openvox-server?tab=readme-ov-file#puppet-server>"
+click Agent1 "<https://github.com/OpenVoxProject/openvox-agent?tab=readme-ov-file#the-puppet-agent>"
+click Agent2 "<https://github.com/OpenVoxProject/openvox-agent?tab=readme-ov-file#the-puppet-agent>"
+click Agent_n "<https://github.com/OpenVoxProject/openvox-agent?tab=readme-ov-file#the-puppet-agent>"
 </div>
 
 ## Setup and Usage
@@ -59,7 +59,6 @@ We recommend organizing your code as a Control Repository with branches for
 environments. See the [reference repository](https://github.com/puppetlabs/control-repo)
 for an example.
 
-
 ### Foreman
 
 [Foreman](https://www.theforeman.org) is a complete lifecycle management tool
@@ -67,7 +66,6 @@ for physical and virtual servers. It will provide you with a graphical
 classifier, a Hiera data source, and report monitoring. It also includes the
 power to easily automate repetitive tasks, quickly deploy applications, and
 proactively manage servers, on-premise or in the cloud.
-
 
 ### Puppet Webhook
 
@@ -93,24 +91,23 @@ Install it on your server in your infrastructure and use it to deploy your contr
 
 If you're a Golang shop, you might consider [g10k](https://github.com/xorpaul/g10k) as well.
 
-
 ### OpenVox Stack
 
 We recommend managing each of these components with the supported module.
 
 * OpenVoxDB
-    * [puppetlabs/puppetdb](https://forge.puppet.com/puppetlabs/puppetdb)
-    * The default PostgreSQL database is recommended.
+  * [puppetlabs/puppetdb](https://forge.puppet.com/puppetlabs/puppetdb)
+  * The default PostgreSQL database is recommended.
 * OpenVoxServer and agents
-    * [theforeman/puppet](https://forge.puppet.com/modules/theforeman/puppet)
+  * [theforeman/puppet](https://forge.puppet.com/modules/theforeman/puppet)
 * Hiera Data Manager (HDM)
-    * [puppet/hdm](https://forge.puppet.com/modules/puppet/hdm)
+  * [puppet/hdm](https://forge.puppet.com/modules/puppet/hdm)
 * r10k & webhook-go
-    * [puppet/r10k](https://forge.puppet.com/modules/puppet/r10k/readme)
+  * [puppet/r10k](https://forge.puppet.com/modules/puppet/r10k/readme)
 * nftables firewalling
-    * [puppet/nftables](https://forge.puppet.com/modules/puppet/nftables/readme)
+  * [puppet/nftables](https://forge.puppet.com/modules/puppet/nftables/readme)
 * [InfluxDB](https://www.influxdata.com/products/influxdb/), [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/) & [Grafana](https://grafana.com/oss/grafana/) for monitoring
-    * [puppetlabs/puppet_operational_dashboards](https://forge.puppet.com/modules/puppetlabs/puppet_operational_dashboards/readme) (ships ready to use dashboards)
+  * [puppetlabs/puppet_operational_dashboards](https://forge.puppet.com/modules/puppetlabs/puppet_operational_dashboards/readme) (ships ready to use dashboards)
 
 ## Scaleout options
 

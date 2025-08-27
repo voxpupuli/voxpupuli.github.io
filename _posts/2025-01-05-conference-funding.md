@@ -5,7 +5,7 @@ date: 2025-01-05
 github_username: bastelfreak
 ---
 
-# Vox Pupuli Travel fund for Config Management Camp 2024
+## Vox Pupuli Travel fund for Config Management Camp 2024
 
 Puppet's position in the community is at a crucial point and the PMC believes we need to come together. Literally.
 
@@ -14,7 +14,7 @@ So far we received over 10,000USD.
 
 We would like to use a part of that to enable people to attend [Config Management Camp](https://cfgmgmtcamp.org/ghent2025/) in Ghent.
 
-## About the conference
+### About the conference
 
 The conference itself is free.
 But please sign up, and select the talks you would like to see, to make the room planning easier.
@@ -29,7 +29,7 @@ Most of the attendees stay in this location and there's also a tram line to the 
 
 [cfgmgmtcamp.org/ghent2025/guide/](https://cfgmgmtcamp.org/ghent2025/guide/) also has a good overview for people that are new to the conference.
 
-## Sponsoring
+### Sponsoring
 
 We recognize not everyone is able to make it to an in person conference but we want to enable as many people as possible to attend the conference.
 If we can help you attend, please send a short motivation letter, by the end of 2025-01-10 (UTC), with a rough cost estimation.

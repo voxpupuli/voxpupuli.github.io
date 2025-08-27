@@ -16,9 +16,9 @@ Vim/Neovim have plugins that enable Language Server support. Specifically, [ale]
 
 While setting up Language Server support in Vim and Neovim are fairly easy, there are some dependencies that will need to be installed first. First step will be to install `nodejs` and `yarn`. `coc.vim` uses these to execute it's language server client calls (among other things). I would recommend using your package manager (Linux), [Homebrew](https://brew.sh/), or a Version Manager like [asdf](https://github.com/asdf-vm/asdf) to manage `node-js` installations, but if you want a simple install:
 
-```
-$ curl -sL install-node.now.sh/lts | sh
-$ curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+```shell
+curl -sL install-node.now.sh/lts | sh
+curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
 ```
 
 Next you need to install the plugins you will need for Puppet Development. Use your favorite plugin manager or manually manage them if you know how, but I personally use [Vim-Plug](https://github.com/junegunn/vim-plug).
@@ -45,7 +45,7 @@ noremap <Leader>/ :FZF<CR> " Set FZF to <LEADER>/, which for me is `,/`
 
 **Note: The above configuration assumes you use `Vim-Plug` to manage plugins. If you don't, you'll need to run `coc#util#install()` from Vim NORMAL mode**
 
-Once your `.vimrc` or `init.vim` are set up, open vim/neovim and execute `PlugInstall` from command mode. This will install the plugins and run any additional tasks they require. 
+Once your `.vimrc` or `init.vim` are set up, open vim/neovim and execute `PlugInstall` from command mode. This will install the plugins and run any additional tasks they require.
 
 ## Installing the Language Servers
 
@@ -55,28 +55,28 @@ This is not required for Puppet Development, but can be useful if debugging Core
 
 First you need to install the `solargraph` gem:
 
-```
-$ gem install solargraph
+```shell
+gem install solargraph
 ```
 
 Then enter into vim/neovim and execute `CocInstall coc-solargraph` from command mode. This will install and configure everything needed for Ruby Language Server support.
 
-### Puppet Language Server support.
+### Puppet Language Server support
 
-For Puppet language server support, we have to do a extra work. 
+For Puppet language server support, we have to do a extra work.
 
 First we need to download the language server from the Github page. Place this wherever you feel most comfortable, but you will need ruby installed to run the language server.
 
-```
-$ git clone https://github.com/lingua-pupuli/puppet-editor-services.git
-$ cd puppet-editor-services
-$ bundle install
+```shell
+git clone https://github.com/lingua-pupuli/puppet-editor-services.git
+cd puppet-editor-services
+bundle install
 ```
 
 Once that is complete, you will need open the `coc.vim` configuration file:
 
-```
-$ vim +CocConfig
+```shell
+vim +CocConfig
 ```
 
 and add the following configuration to the file:
@@ -104,6 +104,7 @@ Now simply open a Puppet manifest and you should start seeing results. Example:
 That's all there is to it. There is a lot more tweaking you can do to your hearts content.
 
 Resources:
+
 - [coc.vim](https://github.com/neoclide/coc.nvim)
 - [coc-solargraph](https://github.com/neoclide/coc-solargraph)
 - [Puppet Language Server](https://github.com/lingua-pupuli/puppet-editor-services)

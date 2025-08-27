@@ -45,7 +45,7 @@ one of our modules:
 ### Approving and Merging
 
 * You can merge your own PR if it was approved by a collaborator with merge permissions and CI is green. Don't merge if either one of those conditions are not true
-  * Modulesync PRs are an exception (a PR based on changes that the msync tool did, NOT PRs on [modulesync_config][ms_docs]). We agreed some time ago that it's ok to merge your own modulesync PR if CI is green, without separate approval. This is okay because changes to [modulesync_config][ms_docs] were [reviewed and tested][ms_guid]
+  * Modulesync PRs are an exception (a PR based on changes that the msync tool did, NOT PRs on [modulesync_config][ms_docs]). We agreed some time ago that it's ok to merge your own modulesync PR if CI is green, without separate approval. This is okay because changes to [modulesync_config][ms_docs] were [reviewed and tested][ms_guide]
   * If your PR is non-trivial or perhaps has only been approved by a work colleague etc, please consider allowing reasonable extra time for other 3rd parties to leave their reviews before merging.
     There is no prescribed minimum review period, or definition of 'reasonable time'. Vox Pupuli trusts collaborators to use their own judgement here.
 * It's okay to approve code regardless if CI is still running or not. The code won't be merged if CI fails after the PR got approved
@@ -55,10 +55,9 @@ A green checkmark indicates that the review was done by someone with merge permi
 
 <img alt="8bit vox" src="{{ site.url }}{{ site.baseurl }}/static/images/approved_pr_by_collaborator.png"/>
 
-
 If you want to merge:
 
-GitHub provides [multiple merge methods](methods):
+GitHub provides [multiple merge methods][methods]:
 
 <img alt="8bit vox" src="{{ site.url }}{{ site.baseurl }}/static/images/merge_methods.png"/>
 
@@ -83,7 +82,7 @@ git push origin master
 git branch -d temp
 ```
 
-GitHub has some [docs available](gpg) to help you configuring GPG for git.
+GitHub has some [docs available][gpg] to help you configuring GPG for git.
 It's also good practice to automatically sign every commit. You can enable that
 with:
 

@@ -5,7 +5,7 @@ date: 2025-07-21
 github_username: bastelfreak
 ---
 
-### January first, 2016.
+### January first, 2016
 
 After a voting period the community formerly known as puppet-community changed their name to [Vox Pupuli](https://voxpupuli.org/blog/2016/01/01/voxpupuli/).
 There isn't a formal date when puppet-community was founded.

@@ -17,4 +17,3 @@ everyone.
 We've now settled on Vox Pupuli, "voice of puppets" and as we enter 2016
 the big rename is ongoing. IRC has already been moved over and soon our
 website and Github namespace will change too.
-

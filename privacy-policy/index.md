@@ -3,7 +3,7 @@ layout: page
 title: Privacy Policy
 ---
 
-# Vox Pupuli Privacy Policy
+## Vox Pupuli Privacy Policy
 
 This document details the data the Vox Pupuli collects about you, why it is
 collected, what is done with it, and your options for how it's processed.
@@ -12,7 +12,7 @@ The Vox Pupuli project does not share data with 3rd parties, except for hosting
 requirements (e.g. GitHub, YouTube) as detailed below, or when required to by
 law.
 
-# Types of data we collect
+## Types of data we collect
 
 * Contact details
   * Name
@@ -21,9 +21,9 @@ law.
   * Some third party tools use Cookies
   * Some third party tools use GitHub user data
 
-# How and why we use your data
+## How and why we use your data
 
-## The website
+### The website
 
 The Vox Pupuli website is a static site that does not track, collect, or store
 infromation or set cookies. There is no account needed or required to access
@@ -38,7 +38,7 @@ author's name be visible in the blog post indefinitely.
 
 * Legal basis for this data usage: Legitimate interest
 
-## The codebases
+### The codebases
 
 The Vox Pupuli community uses [GitHub](https://github.com) to manage the code
 that comprises the various Puppet modules, plugins, tools, and RubyGems the
@@ -80,7 +80,7 @@ to those services. All possible events are documented at [GitHub.com](https://de
 
 * Legal basis for this data usage: Legitimate interest, Consent
 
-## Communication
+### Communication
 
 The Vox Pupuli project maintains two public IRC channels on
 [Libera](https://libera.chat), refer to [Libera's privacy policy](https://libera.chat/privacy)
@@ -100,27 +100,27 @@ any additional data usage relating to your account.
 
 * Legal basis for this data usage: Legitimate interest, Consent
 
-# Your rights regarding your data
+## Your rights regarding your data
 
-## Your choices
+### Your choices
 
-### You can choose not to provide us with personal data
+#### You can choose not to provide us with personal data
 
 Using a VPN, or other IP/UserAgent masking servers will not affect your
 use of the project website as it is entirely static, however Tor may not work
 due to [CloudFlare](https://cloudflare.com) blocking Tor communication.
 
-### Your accounts on our services
+#### Your accounts on our services
 
 Your Groups.io account contains options to control what emails are sent to you. 3rd
 party services, such as [GitHub](https://github.com) retain their own policies
 and privacy options.
 
-### Your name and email in our codebases
+#### Your name and email in our codebases
 
 ***As part of ANY contribution to a Vox Pupuli project, you are acknowledging and agreeing that your name and email address will become embedded and part of the source code repository, which are all publicly available. You understand that the removal of this information would be impermissibly destructive to the project and the overall interests of those who contribute, utilize, and benefit from it. Therefore, in consideration of your participation in any project, you understand that retaining your name and email address, as described above, does not require your consent and that the right of erasure, as spelled out in the GDPR Article 17(1)b does not apply.***
 
-## Your rights
+### Your rights
 
 Where the EU General Data Protection Regulation (GDPR) applies to the
 processing of your personal data, you have the following rights, subject
@@ -139,26 +139,13 @@ the Vox Pupuli Project Management Committee on [IRC](https://web.libera.chat/?#v
 or via email at [pmc@voxpupuli.org](mailto:pmc@voxpupuli.org). Please understand
 that the rights above are not absolute in all instances.
 
-# Contacting us
+## Contacting us
 
 If you have any questions about this policy or our use of your data, please
 contact us via [E-Mail](mailto:pmc@voxpupuli.org) or on [IRC](https://web.libera.chat/?#voxpupuli-pmc)
 
-# Changes to this Privacy Statement
+## Changes to this Privacy Statement
 
 Vox Pupuli reserves the right to update this policy periodically. Material
 changes will be posted to the [Blog](https://voxpupuli.org/posts). This policy
 was last updated on 4th August 2019.
-
-[GitHub]: https://help.github.com/articles/global-privacy-practices
-[Groups.io]: https://groups.io/static/privacy
-[CloudFlare]: https://www.cloudflare.com/privacypolicy/
-[Travis CI]: https://docs.travis-ci.com/legal/privacy-policy/
-[AppVeyor]: https://www.appveyor.com/privacy-policy/
-[Codacy]: https://www.codacy.com/privacy
-[Code Climate]: https://codeclimate.com/legal/privacy
-[Coveralls]: https://coveralls.io/legal
-[ZenHub]: https://www.zenhub.com/privacy-policy
-[Zube]: https://zube.io/privacy
-[Octobox]: https://octobox.io/privacy
-[Read the Docs]: https://docs.readthedocs.io/en/latest/privacy-policy.html

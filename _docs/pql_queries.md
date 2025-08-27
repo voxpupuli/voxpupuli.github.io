@@ -74,7 +74,7 @@ file { '/etc/puppetlabs/client-tools/puppetdb.conf':
 }
 ```
 
-## Contribute?!
+## Contribute?
 
 You can submit your own Queries by editing [voxpupuli.github.io/_docs/pql_queries.md](https://github.com/voxpupuli/voxpupuli.github.io/blob/master/_docs/pql_queries.md) on GitHub or by pressing the edit button in the upper right corner.
 
@@ -169,7 +169,7 @@ hours. PuppetDB uses [partitioning](https://www.postgresql.org/docs/current/ddl-
 and saves reports on a per-day partition. By filtering for the current day we
 avoid scans on other partitions.
 
-```
+```shell
 puppet query "events[certname]{corrective_change = true and report_receive_time > \"$(date -u --date='1 day ago' +%Y-%m-%dT%H:%M:%S.000Z)\" group by certname}"
 ```
 
@@ -330,7 +330,7 @@ puppet query 'inventory[certname,facts.networking.ip]{ trusted.extensions.pp_rol
 
 The facts endpoint doesn't support structured facts :(
 
-```
+```shell
 puppet query 'inventory[facts.networking.ip]{ group by facts.networking.ip }'
 ```
 

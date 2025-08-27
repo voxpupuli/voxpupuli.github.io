@@ -42,7 +42,7 @@ following best practices the key data is populated from a Hiera lookup.
 
 Now when we run Puppet on our clients we can see unmanaged keys getting removed.
 
-```bash
+```shell
 (/Stage[main]/site::Sysadmin/Ssh_authorized_key[root@old_bastion1]/ensure) removed
 (/Stage[main]/site::Sysadmin/Ssh_authorized_key[root@old_bastion2]/ensure) removed
 ```
@@ -58,7 +58,6 @@ with the concat module for a backend.
 Now you are all set to go deploy this in your infrastructure.
 
 Happy puppeting!
-
 
 [ssh_keys]: https://forge.puppetlabs.com/nightfly/ssh_keys
 [PUP-1174]: https://tickets.puppetlabs.com/browse/PUP-1174

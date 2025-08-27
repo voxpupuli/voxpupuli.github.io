@@ -13,7 +13,6 @@ During that process, we created a legacy branch, called `puppet3`. Puppet 3 is
 end of life since a long time. We will purge those branches during the next
 cleanup phase.
 
-
 Sales pitch: We've a cool new blog series where we honour cool contributions,
 [check it out!](https://voxpupuli.org/blog/2019/01/14/code-of-the-week/). Did
 you spot some cool code as well? Write a

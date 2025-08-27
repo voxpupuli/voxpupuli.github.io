@@ -24,7 +24,7 @@ If you'd like to see the technical details on how this was setup, feel free to c
 
 On the mirrors, downloads, and repositories front, the next few things are:
 
-- Applying to Fastly's CDN sponsorship (<https://github.com/OpenVoxProject/planning/issues/50>) 
+- Applying to Fastly's CDN sponsorship (<https://github.com/OpenVoxProject/planning/issues/50>)
 - Adding a page to this website to document known mirrors (<https://github.com/OpenVoxProject/planning/issues/41>)
   - If you do mirror us publicly, or are open to doing so, please add a comment to this issue on GitHub
 - Updating our [install page](https://voxpupuli.org/openvox/install/) with the new information

@@ -31,4 +31,3 @@ if (nextMeeting.isBefore(moment.tz(eventTimeZone).subtract(1, 'hour'))) {
 document.getElementById('nextmeeting').innerHTML += nextMeeting.tz(myTimeZone).calendar() + " (" +
  nextMeeting.tz(myTimeZone).format() + ")";
 </script>
-

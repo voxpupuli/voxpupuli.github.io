@@ -17,8 +17,7 @@ right direction. [Read more about their roles][leadership].
 Please read about the candidates below, and then [visit the poll][vote] to rank
 them to your preference. The polls will remain open until *December 15 2018 23:59UTC*
 
-
-# Candidates list
+## Candidates list
 
 | Candidate                          | Presentation       |
 | ---------------------------------- | ------------------ |
@@ -47,8 +46,7 @@ them to your preference. The polls will remain open until *December 15 2018 23:5
 
 This list is sourced from the election [metadata][e].
 
-
-# Important Dates:
+## Important Dates
 
 * Between *December 1 2019 12:00UTC* and *December 15 2018 23:59UTC*: [Vote][vote]
 * Terms begin *January 1 2019 00:00 UTC*
