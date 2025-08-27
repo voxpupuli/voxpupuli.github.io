@@ -97,11 +97,15 @@ And finally, use [Foreman's Quickstart Guide](https://theforeman.org/manuals/3.1
 
 ### Porting a Foreman infra to OpenVox
 
+> 🚨 Tip: Resetting the Foreman answers file will remove any customization you're currently using, so you'll need to specify all your desired options again.
+> We suggest backing up the file and then diffing it against the new version to see what changed.
+{: class="alert alert-warning callout" }
+
 If you're already running Foreman and you want to switch it to be backed by OpenVox then you have a little bit of housekeeping to do first.
 First, use your system package manager to remove the `puppet-agent-oauth` package.
 If you use the `foreman-installer` to manage and upgrade your setup, then ensure that you restore the cached answers file to the default values, or it will continue to use old paths.
 
-<details class="card" >
+<details class="card" style="clear: both;">
 <summary class="card-header">Debian Family</summary>
 <pre><code># rm /etc/foreman-installer/scenarios.d/foreman-answers.yaml
 # apt install --reinstall -o Dpkg::Options::="--force-confmiss" foreman-installer</code></pre>
@@ -118,7 +122,11 @@ If you use the `foreman-installer` to manage and upgrade your setup, then ensure
 </details>
 
 If you're porting from system installed Puppet, then you may have to purge package configuration or remove legacy directory structures.
-For example, you might `rm -rf /etc/puppet`
+For example, you might `rm -rf /etc/puppet`, making sure to back up or move critical configuration files to new locations.
+Make sure you ensure that files like `puppet.conf` don't reference legacy locations.
+Note that in most cases, paths don't actually need to be specified because the defaults are correct.
+
+Double check that you have no `puppet`, `puppet-agent`, or any other Puppet related packages installed and that at least `openvox-agent` is installed as per the instructions at the top of the page.
 
 Ensure that the `aio_agent_version` fact returns the appropriate version before continuing.
 Then follow the [installation instructions](#installing-foreman-with-openvox) above to update your infrastructure.
