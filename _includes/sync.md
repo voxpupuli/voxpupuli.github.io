@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD041 -->
 ## <i class="fa-solid fa-calendar-days"></i> Monthly Vox Pupuli Sync
 
 We have a monthly sync meeting where we discuss the state of the project and what we want to do in the future.
@@ -31,4 +32,3 @@ if (nextMeeting.isBefore(moment.tz(eventTimeZone).subtract(1, 'hour'))) {
 document.getElementById('nextmeeting').innerHTML += nextMeeting.tz(myTimeZone).calendar() + " (" +
  nextMeeting.tz(myTimeZone).format() + ")";
 </script>
-

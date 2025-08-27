@@ -1,8 +1,17 @@
 default: true
 MD033:
   allowed_elements:
+    - b
+    - blockquote
     - br
-    - img
+    - button
+    - code
+    - details
     - div
+    - i
+    - img
+    - p
+    - script
+    - summary
 MD013: false
   # line_length: 210

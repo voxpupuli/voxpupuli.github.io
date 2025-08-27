@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD041 -->
 ## <i class="fa-regular fa-circle-user"></i> IRC
 
 [#voxpupuli](ircs://irc.libera.chat:6697/voxpupuli) on [Libera.Chat](https://libera.chat/) ([webchat](https://web.libera.chat/?#voxpupuli))
