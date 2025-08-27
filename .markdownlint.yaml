@@ -1,7 +1,7 @@
 default: true
 
-MD013: false
-MD033: false
-MD041: false
-MD045: false
-MD059: false
+line-length: false
+no-inline-html: false
+first-line-heading: false
+no-alt-text: false
+descriptive-link-text: false
