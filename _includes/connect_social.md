@@ -1,4 +1,3 @@
-<!-- markdownlint-disable MD041 -->
 ## <i class="fa-solid fa-tower-broadcast"></i> Social Media
 
 Vox Pupuli maintains several social media presences where we share news, thoughts, upcoming events and so on.

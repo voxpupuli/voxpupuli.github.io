@@ -1,4 +1,3 @@
-<!-- markdownlint-disable MD041 -->
 ## <i class="fa-solid fa-envelopes-bulk"></i> Mailing List
 
 The [`voxpupuli@groups.io` mailing list](https://groups.io/g/voxpupuli/topics)

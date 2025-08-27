@@ -1,4 +1,3 @@
-<!-- markdownlint-disable MD041 -->
 ## <i class="fa-brands fa-slack"></i> Slack
 
 Vox Pupuli has our own [Slack space](https://voxpupuli.slack.com) with
