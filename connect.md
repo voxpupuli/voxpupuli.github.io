@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Connect with us!
+# Connect with us
 
 You can get involved in the Vox Pupuli community by connecting at events,
 getting or giving help in any of our many channels, sharing modules on the
@@ -22,9 +22,4 @@ advance our ecosystem.
 
 {% include connect_irc.md %}
 
-
-
 {% include sync.md %}
-
-
-

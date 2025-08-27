@@ -1,7 +1,6 @@
 default: true
 
 MD013: false
-  # line_length: 210
 MD033: false
 MD041: false
 MD045: false

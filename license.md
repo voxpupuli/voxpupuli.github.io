@@ -12,7 +12,7 @@ use. The underlying scripts and code of our website use the
 
 The CC BY-SA 4.0 license:
 
-```
+```text
 Attribution-ShareAlike 4.0 International
 
 =======================================================================
@@ -445,7 +445,7 @@ Creative Commons may be contacted at creativecommons.org.
 
 The Apache 2 license:
 
-```
+```text
 
                                  Apache License
                            Version 2.0, January 2004
