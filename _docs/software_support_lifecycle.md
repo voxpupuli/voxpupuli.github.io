@@ -31,31 +31,10 @@ An Operating System is no longer considered supported once it reaches an EOL dat
 
 *maintainers include, but are not limited to, the community, company, or organization that maintains ownership over a specific piece of software or project.
 
-##### Support Table
-
-|      OS Name       | Support Begins |         EOL         |   Notification PR   | End of Support | Removal of Code |
-| :----------------: | :------------: | :-----------------: | :-----------------: | :------------: | :-------------: |
-|   CentOS/RHEL 6    |   2011/07/10   |     2020/11/30      |         N/A         |   2020/11/30   |   2020/11/30    |
-|   CentOS/RHEL 7    |   2014/07/07   |     2024/06/30      |     2024/03/31      |   2024/06/30   |   2024/06/30    |
-|      CentOS 8      |   2019/09/24   |     2021/12/31      |     2021/09/30      |   2021/12/31   |   2021/12/31    |
-|       RHEL 8       |   2019/05/01   |     2029/05/31      |     2029/02/28      |   2029/05/31   |   2029/05/31    |
-|  CentOS Stream 8   |   2022/01/01   |     2024/05/31      |     2024/02/28      |   2024/05/31   |   2024/05/31    |
-|    Ubuntu 16.04    |   2016/04/21   |     2021/04/30      |     2021/01/31      |   2021/04/30   |   2021/04/30    |
-|    Ubuntu 18.04    |   2018/04/26   |     2023/04/30      |     2023/01/31      |   2023/04/30   |   2023/04/30    |
-|    Ubuntu 20.04    |   2020/04/23   |     2025/04/30      |     2025/01/31      |   2025/04/30   |   2025/04/30    |
-|      Debian 9      |   2017/06/17   |     2022/01/31      |     2021/10/31      |   2022/01/31   |   2022/01/31    |
-|     Debian 10      |   2019/07/06   | 2024/01/31 (approx) |     2023/10/31      |   2024/01/31   |   2024/01/31    |
-|     Fedora 31      |   2019/10/29   |     2020/11/24      |         N/A         |   2020/11/24   |   2020/11/24    |
-|     Fedora 32      |   2020/04/21   | 2021/05/31 (approx) | 2021/02/28 (approx) |   2021/05/31   |   2021/05/31    |
-| OpenSUSE Leap 15.1 |   2019/05/22   |     2021/01/31      |     2020/12/31      |   2021/01/31   |   2021/01/31    |
-| OpenSUSE Leap 15.2 |   2020/07/02   |     2021/12/31      |     2020/09/30      |   2021/12/31   |   2021/12/31    |
-
-NOTE: *\*All Dates subject to change based on upstream project*
-
-Sources:
+Sources for end-of-life dates:
 
 * OpenSUSE - [OpenSUSE Documentation](https://en.opensuse.org/Lifetime)
-* All others - [EndOfLife.software](https://endoflife.software/operating-systems)
+* All others - [EndOfLife.software](https://endoflife.software/operating-systems) or [EndOfLife.date](https://endoflife.date/tags/os)
 
 #### Puppet Versions
 
