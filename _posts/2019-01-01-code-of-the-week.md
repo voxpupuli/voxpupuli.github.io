@@ -51,7 +51,6 @@ regular expression. In Puppet, you can also evaluate against a datatype like
 exept for `Undef`. This type is rarely used and not well known, but still
 super helpful!
 
-
 Thank you Paul for this cool contribution!
 
 Did you spot some cool code as well? Write a

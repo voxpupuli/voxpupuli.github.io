@@ -18,14 +18,14 @@ what this is all about.
 
 ## Building this site
 
-* `bundle install`
-* `bundle exec jekyll serve -w --config _config.yml,_config-dev.yml`
+- `bundle install`
+- `bundle exec jekyll serve -w --config _config.yml,_config-dev.yml`
 
 You can also use the rake tasks defined in the `Rakefile`:
 
-* `build`: `jekyll build`
-* `validate`: uses html-proofer to check the generated site
-* `clean`: removes the `./_site` directory Jekyll generated
+- `build`: `jekyll build`
+- `validate`: uses html-proofer to check the generated site
+- `clean`: removes the `./_site` directory Jekyll generated
 
 ## Puppet Plugins
 
@@ -93,7 +93,7 @@ by running `bundle exec rake test` and `bundle exec rake build`.
 
 Docs can have the following header:
 
-```
+```markdown
 ---
 layout: post
 title: Deprecated and Archived Modules
@@ -104,11 +104,11 @@ last_updater: bastelfreak
 ---
 ```
 
-* `title` will be used in the URL + in the header
-* `date` is assumed as the date of publishing
-* `summary` is a short roundup used on the navigation page
-* `github_username` the GitHub username of the original author, optional attribute
-* `last_update` the GitHub username of the author from the last update, optional attribute (if it was updated is determined by Jekyll automatically)
+- `title` will be used in the URL + in the header
+- `date` is assumed as the date of publishing
+- `summary` is a short roundup used on the navigation page
+- `github_username` the GitHub username of the original author, optional attribute
+- `last_update` the GitHub username of the author from the last update, optional attribute (if it was updated is determined by Jekyll automatically)
 
 ## License
 

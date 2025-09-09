@@ -16,10 +16,12 @@ We intend to do some fast-follow releases after this, addressing a slew of depen
 ## Platform additions/removals
 
 ### Added
+
 * Ubuntu 25.04 (agent, server, db)
 * Debian 13 (server, db)
 
 ### Removed
+
 * Ubuntu 18.04 (agent, server, db)
 * Ubuntu 20.04 (agent, server, db)
 * Fedora 36 (agent)

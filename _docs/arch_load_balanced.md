@@ -11,7 +11,6 @@ summary: A complete server/agent architecture with multiple compilers and load b
 This architecture is intended for large infrastructures or dynamic infrastructures
 that require the redundancy of multiple compilers.
 
-
 <div class="mermaid">
   graph LR;
   git(Git Repository)
@@ -34,9 +33,9 @@ that require the redundancy of multiple compilers.
   Agent2(Agent 2)
   Agent_n(Agent n)
 
-  click HDM "https://github.com/betadots/hdm" "HDM is a web interface for analyzing and managing hiera data."
-  click Foreman "https://www.theforeman.org" "Foreman is a complete lifecycle management tool for physical and virtual servers."
-  click Webhook "https://github.com/voxpupuli/puppet_webhook" "A webhook service that can trigger code deploys from source code repository updates."
+  click HDM "<https://github.com/betadots/hdm>" "HDM is a web interface for analyzing and managing hiera data."
+  click Foreman "<https://www.theforeman.org>" "Foreman is a complete lifecycle management tool for physical and virtual servers."
+  click Webhook "<https://github.com/voxpupuli/puppet_webhook>" "A webhook service that can trigger code deploys from source code repository updates."
 
   git --webhook--> Webhook
   Webhook --r10k code deploy--> MainPuppetServer
@@ -65,13 +64,11 @@ that require the redundancy of multiple compilers.
 
 {write a guide on how to deploy, configure, and use this architecture}
 
-
 ### Git Repository
 
 We recommend organizing your code as a Control Repository with branches for
 environments. See the [reference repository](https://github.com/puppetlabs/control-repo)
 for an example.
-
 
 ### Foreman
 
@@ -80,7 +77,6 @@ for physical and virtual servers. It will provide you with a graphical
 classifier, a Hiera data source, and report monitoring. It also includes the
 power to easily automate repetitive tasks, quickly deploy applications, and
 proactively manage servers, on-premise or in the cloud.
-
 
 ### Puppet Webhook
 
@@ -91,7 +87,6 @@ using the Bolt task from the [puppet-r10k module](https://github.com/voxpupuli/p
 to trigger code deployments on each compiler, or you can also install
 Puppet Webhook on each.
 
-
 ### Code Deployment
 
 [r10k](https://github.com/puppetlabs/r10k) is considered the default Puppet code
@@ -100,28 +95,26 @@ infrastructure and use it to deploy your control repository as needed.
 
 If you're a Golang shop, you might consider [g10k](https://github.com/xorpaul/g10k) as well.
 
-
 ### Load Balancer
 
 Puppet Agent Server connections are connections with long duration. Therfore it is highly recommended to use `least_connection` algorithm.
 
 Any kind of load-balancer is sufficient. [HAProxy](https://www.haproxy.org/) is well supported and allows flexibility.
 
-
 ### Puppet Stack
 
 We recommend managing each of these components with the supported module.
 
 * PuppetDB
-    * [puppetlabs/puppetdb](https://forge.puppet.com/puppetlabs/puppetdb)
-    * The default PostgreSQL database is recommended.
+  * [puppetlabs/puppetdb](https://forge.puppet.com/puppetlabs/puppetdb)
+  * The default PostgreSQL database is recommended.
 * Puppet Server
-    * [theforeman/puppet](https://forge.puppet.com/modules/theforeman/puppet)
+  * [theforeman/puppet](https://forge.puppet.com/modules/theforeman/puppet)
 * Puppet Agents
-    * [puppetlabs/puppet_agent](https://forge.puppet.com/puppetlabs/puppet_agent)
+  * [puppetlabs/puppet_agent](https://forge.puppet.com/puppetlabs/puppet_agent)
 * Puppet Metrics Dashboard
-    * [puppetlabs/puppet_metrics_dashboard](https://forge.puppet.com/puppetlabs/puppet_metrics_dashboard)
+  * [puppetlabs/puppet_metrics_dashboard](https://forge.puppet.com/puppetlabs/puppet_metrics_dashboard)
 * Hiera Data Manager (HDM)
-    * [puppet/hdm](https://forge.puppet.com/modules/puppet/hdm)
+  * [puppet/hdm](https://forge.puppet.com/modules/puppet/hdm)
 * HAproxy LoadBalancer
-    * [puppetlabs/haproxy](https://forge.puppet.com/modules/puppetlabs/haproxy)
+  * [puppetlabs/haproxy](https://forge.puppet.com/modules/puppetlabs/haproxy)

@@ -41,6 +41,7 @@ best practices](https://voxpupuli.org/docs/#reviewing-a-module-pr).
 
 Some of these guidelines are:
 
+<!-- markdownlint-disable MD028 -->
 > Are new parameters introduced? They must have datatypes
 
 > Are datatypes from stdlib used? Ensure that lowest supported stdlib version is 4.13.1. Check if a newer version introduced the used datatype
@@ -52,6 +53,7 @@ Some of these guidelines are:
 > Does a new param map to an option in a config file of a service? The Parameter should accept the possible values that the service allows. For example `'on'` and `'off'`. Don’t accept a boolean that will be converted to `'on'` or `'off'`
 
 > If you can supply one or multiple values for an attribute it’s common practice to enforce the datatype for one value and an array of that datatype. An example for string is `Variant[String[1],Array[String[1]]]`. This can be used in the Puppet code as `[$var].flatten()`
+<!-- markdownlint-enable MD028 -->
 
 **The summary: Datatypes are useful and important. Always using them for each
 exposed parameter will help you catch bugs earlier, and the more detailed
@@ -102,6 +104,7 @@ based on multiple scalar types. One very detailed example is this
    'ratelimit.burst'    => Optional[Integer],
  }]
 ```
+
 The rsyslog configuration has so many options, many of them can be nested. In
 the beginning of datatypes in Puppet, we would have used `Hash` for the above
 requirement.  At this level the type is already better than the old

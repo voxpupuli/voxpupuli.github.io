@@ -25,6 +25,7 @@ plugins defined for that tool.
 </div>
 
 ## Tools
+
 Useful tools when writing Puppet.
 
 <table class="table">
@@ -53,7 +54,9 @@ Useful tools when writing Puppet.
 
 {% for tool in site.data.tools %}
 {% if tool[1].plugins %}
+
 ## {{ tool[1].display_name }}
+
 {% if tool[1].description %}{{tool[1].description}}{%endif%}
 <table class="table">
   <thead>

@@ -148,7 +148,7 @@ Once this is done we need to create some framework for Beaker.  We'll start
 by creating a very simple "nodeset", a yaml file that lists out a virtual
 machine to test against.  We'll put this in spec/acceptance/nodesets/default.yml.
 
-```
+```yaml
 HOSTS:
   centos-65-x64:
     roles:
@@ -291,8 +291,9 @@ end
 Then putting all this together we just need to run a single command, if things
 worked, to see the output of all these tests.
 
-```
+```shell
 $ rspec spec/acceptance/
+
 Hypervisor for centos-64-x64 is vagrant
 Beaker::Hypervisor, found some vagrant boxes to create
 created Vagrantfile for VagrantHost centos-64-x64

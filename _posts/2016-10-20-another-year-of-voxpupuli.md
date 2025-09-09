@@ -24,7 +24,6 @@ Thanks everyone who has been a part of this!
 
 We'd like to give a special thanks to Daenney and Roidelap1uie for stepping up to run our election.
 
-
 Raw data:
 
 * VoxPupuli contributions [by repo by user](https://gist.github.com/nibalizer/b29b24d41c653f0424268ff5e0d71402)

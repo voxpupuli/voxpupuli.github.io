@@ -50,6 +50,7 @@ If you relabeled anything or the version is wrong, rerun the `Prepare Release` a
 Request feedback from the Vox Pupuli Community via the methods listed in the [Contact page](https://voxpupuli.org/connect/).
 
 All commentary should be reviewed, but specifically looking for concensus around:
+
 * Are there other changes that should get merged first?
 * Are there discussions about the tagging of any of the changes in the CHANGELOG.md?
 * Have you missed something needed for release?
@@ -58,9 +59,8 @@ The person who does the merge of the PR is expected to do the release below.
 
 ### Do the Release
 
-*Please note that in order to execute this rake task you must be in the __Collaborators__ group on GitHub for the module in question.*
-
-*Please also note that the task requires a configured gpg or ssh key in your local git settings to sign the git tag*
+* _Please note that in order to execute this rake task you must be in the __Collaborators__ group on GitHub for the module in question._
+* _Please also note that the task requires a configured gpg or ssh key in your local git settings to sign the git tag_
 
 This step must be done by a voxpupuli maintainer!
 
@@ -68,7 +68,7 @@ This has to be done on the __*upstream*__ repo itself.
 
 Checkout an updated copy of master
 
-```bash
+```shell
 git checkout master; git fetch origin; git pull origin master
 ```
 
@@ -79,12 +79,12 @@ Run the rake target `release`. This will:
 * commit the change,
 * and push it to origin.
 
-```bash
+```shell
 bundle exec rake release
 ```
 
 GitHub Actions (.github/workflows/release.yml in every module) will then kick off a build against the new tag created and deploy that build to the forge.
-*Caution: The Vox Pupuli repo has to be the configured default branch in your local clone. Otherwise, you will try to release to your fork.*
+_Caution: The Vox Pupuli repo has to be the configured default branch in your local clone. Otherwise, you will try to release to your fork._
 
 ## Manual Steps
 
@@ -97,19 +97,19 @@ Klick on "fork" and create a local fork.
 
 Clone the original upstream repo to your workstation:
 
-```bash
+```shell
 git clone git@github.com:voxpupuli/<project>.git
 ```
 
 We usually recommend to always also set the remote for your fork:
 
-```bash
+```shell
 git remote add local git@github.com:<name>/<project>.git
 ```
 
 Ensure that your local fork is in sync with upstream:
 
-```bash
+```shell
 git fetch --all --prune
 git switch master
 git pull origin master
@@ -129,7 +129,7 @@ We decided that dropping support for a puppet version or ruby is a major change 
 
 If necessary, run `bundle install` before continuing. If you want you can also only install the needed gems:
 
-```bash
+```shell
 bundle config set --local path 'vendor'
 bundle config set --local without 'development system_tests'
 bundle install
@@ -137,7 +137,7 @@ bundle install
 
 And in case you installed the gems before:
 
-```bash
+```shell
 bundle config set --local path 'vendor'
 bundle config set --local without 'development system_tests'
 bundle install; bundle update; bundle clean
@@ -146,13 +146,14 @@ bundle install; bundle update; bundle clean
 We can now generate the changelog after updating the metadata.json with a rake task.
 
 > 🔔 In most cases, this requires a [GitHub fine-grained access token](https://github.com/settings/tokens?type=beta).
+>
 > * Resource owner: you
 > * Expiration: one year or less
 > * Repository access: Public Repositories (read-only)
 >
 > The changelog generator expects the token in the environment variable `CHANGELOG_GITHUB_TOKEN`
 
-```bash
+```shell
 CHANGELOG_GITHUB_TOKEN='mytoken' bundle exec rake release:prepare
 ```
 
@@ -172,7 +173,7 @@ The rake task will output the commands you need to run.
 
 It will look like this:
 
-```bash
+```shell
 Please review these changes and commit them to a new branch:
 
   git checkout -b release-v1.2.3
@@ -183,7 +184,7 @@ Then open a Pull-Request and wait for it to be reviewed and merged).
 
 Afterwards you can push to your fork and create a PR via the Web UI (or use the `gh` CLI tool if you like):
 
-```bash
+```shell
 git push --set-upstream local release-v1.2.3
 ```
 
@@ -191,9 +192,8 @@ The person who does the merge is expected to do the release below.
 
 ### Doing the release
 
-*Please note that in order to execute this rake task you must be in the __Collaborators__ group on GitHub for the module in question.*
-
-*Please also note that the task requires a configured gpg or ssh key in your local git settings to sign the git tag*
+* _Please note that in order to execute this rake task you must be in the __Collaborators__ group on GitHub for the module in question._
+* _Please also note that the task requires a configured gpg or ssh key in your local git settings to sign the git tag_
 
 This step must be done by a voxpupuli maintainer!
 
@@ -201,7 +201,7 @@ This has to be done on the __*upstream*__ repo itself.
 
 Checkout an updated copy of master
 
-```bash
+```shell
 git checkout master; git fetch origin; git pull origin master
 ```
 
@@ -212,9 +212,9 @@ Run the rake target `release`. This will:
 * commit the change,
 * and push it to origin.
 
-```bash
+```shell
 bundle exec rake release
 ```
 
 GitHub Actions (.github/workflows/release.yml in every module) will then kick off a build against the new tag created and deploy that build to the forge.
-*Caution: The Vox Pupuli repo has to be the configured default branch in your local clone. Otherwise, you will try to release to your fork.*
+_Caution: The Vox Pupuli repo has to be the configured default branch in your local clone. Otherwise, you will try to release to your fork._

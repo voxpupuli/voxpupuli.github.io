@@ -6,7 +6,6 @@ Hi folks, and welcome to Tim Meusel's talk on Vox Pupuli's journey as a communit
 
 ## $ whoami not
 
-
 Unfortunately, Tim couldn't make it due to a work-trip. So it's a great honour to return to this stage, and this community, however briefly. Especially because I'm taking Tim's place, who's done so much for us here.
 
 ## $ whoami
@@ -22,7 +21,6 @@ or, if you wanna be more specific, genderqueer, and bisexual, which I try to men
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">genders are like shoes. if they don&#39;t fit well, it looks a bit weird, and feels uncomfortable.<br><br>(and that&#39;s why i like to walk barefoot)</p>&mdash; igor (@hirojin) <a href="https://twitter.com/hirojin/status/646652627581829120?ref_src=twsrc%5Etfw">September 23, 2015</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 
 but enough about me, let's talk about
 
@@ -144,12 +142,11 @@ These days Travis also runs beaker acceptance tests for us.
 
 And, finally, it handles the release process of modules to the Forge:
 
-
 ## Release task
 
 For our release process we use a gem called `voxpupuli-release`. It's essentially a wrapper around `puppet-blacksmith`, and provides rake task to bump + tag a module — after doing the appropriate sanity checks.
 
-The push to the Forge is handled in a `deploy` task on Travis. 
+The push to the Forge is handled in a `deploy` task on Travis.
 So, in theory everybody can start it, each collaborator can approve it.
 They do have to `tag && push --tags` however, so Travis can react to it.
 What's still missing is to also create a github release.
@@ -160,19 +157,19 @@ So I hope you can see we try hard to encourage users to contribute by providing 
 
 Here's all (most? some??) of our auxiliary tooling summarized:
 
-* https://github.com/underscorgan/community_management
+* <https://github.com/underscorgan/community_management>
 
   * Open Issues and PRs sorted in different ways
 
-* https://voxpupuli-open-prs.herokuapp.com/
+* <https://voxpupuli-open-prs.herokuapp.com/>
 
   * Also open PRs
 
-* https://github.com/voxpupuli/thevoxfox
+* <https://github.com/voxpupuli/thevoxfox>
 
   * IRC bot, allows us to merge stuff + trigger modulesync (soon, maybe)
 
-* https://github.com/bastelfreak/contributorstats
+* <https://github.com/bastelfreak/contributorstats>
 
   * count contributions
 
@@ -183,15 +180,15 @@ Our own docs look a little bit lacking for love, but they do contain everything 
 
 On the other hand, we have automatically (💜`puppet-strings`💜) generated html docs for a bunch of modules:
 
-* https://voxpupuli.org/puppet-selinux
+* <https://voxpupuli.org/puppet-selinux>
 
-* https://voxpupuli.org/puppet-autofs
+* <https://voxpupuli.org/puppet-autofs>
 
-* https://voxpupuli.org/puppet-mumble
+* <https://voxpupuli.org/puppet-mumble>
 
-* https://voxpupuli.org/puppet-cassandra (in the making)
+* <https://voxpupuli.org/puppet-cassandra> (in the making)
 
-* https://voxpupuli.org/puppet-rabbitmq (in the making)
+* <https://voxpupuli.org/puppet-rabbitmq> (in the making)
 
 Which are automagically published under our domain.
 
@@ -202,13 +199,13 @@ The PMC enforces CoC, and has lately tasked itself to bring bring Vox Pupuli int
 
 The current members are
 
-  * Tim ‘bastelfreak’ Meusel (reelected)
-  * David ‘dhollinger’ Hollinger
-  * Hunter ‘Hunner’ Haugen (works for Puppet Inc., reelected)
-  * Alex ‘afisher’ Fisher
-  * Eric ‘eputnam’ Putnam (works for Puppet Inc.)
+* Tim ‘bastelfreak’ Meusel (reelected)
+* David ‘dhollinger’ Hollinger
+* Hunter ‘Hunner’ Haugen (works for Puppet Inc., reelected)
+* Alex ‘afisher’ Fisher
+* Eric ‘eputnam’ Putnam (works for Puppet Inc.)
 
-Our PMC guidelines are created by the community https://tinyurl.com/voxpupuli-governance-md
+Our PMC guidelines are created by the community <https://tinyurl.com/voxpupuli-governance-md>
 and given the latest election turnout, we might have to consider amending them…
 
 ## Collaborators
@@ -238,7 +235,6 @@ A project admin can do this in the travis UI, but outside-contributors can't.
 close/reopen can be triggered by the PR author, however.
 
 ![Please add Spec Tests]({{ site.url }}{{ site.baseurl }}/static/images/spectests.png)
-
 
 We try to get at least a unit test for all new features.
 
@@ -285,7 +281,6 @@ So long as you promise to send back cute selfies!
 ## Daily Business Automation
 
 What if I told you that a lot of this daily business could be automated?
-
 
 ![Danger JS logo]({{ site.url }}{{ site.baseurl }}/static/images/danger-logo-hero@2x-73a8464a.png)
 
@@ -355,10 +350,10 @@ Contact:
 
 * Slack: #voxpupuli on [slack.puppet.com](http://slack.puppet.com/)
 
-* voxpupuli@groups.io
+* <voxpupuli@groups.io>
 
-* pmc@voxpupuli.org
+* <pmc@voxpupuli.org>
 
-* tim@bastelfreak.de
+* <tim@bastelfreak.de>
 
 ### Thank you for your attention💜

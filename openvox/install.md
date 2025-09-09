@@ -13,9 +13,9 @@ This means that you can continue to use all the commands, modules, tooling, etc 
 >
 > * [Alternative Puppet uninstallation options](#alternative-puppet-uninstallation-options)
 > * [Managing OpenVox with OpenVox](#managing-openvox-with-openvox)
->     * [Managing Repositories](#managing-repositories)
->     * [Managing the Server/Client](#managing-the-serverclient)
->     * [Foreman Integration](#foreman-integration)
+>   * [Managing Repositories](#managing-repositories)
+>   * [Managing the Server/Client](#managing-the-serverclient)
+>   * [Foreman Integration](#foreman-integration)
 {: class="alert alert-primary callout" }
 
 We encourage you to try out OpenVox on a fresh test system, the way you would for any major system package.
@@ -49,7 +49,8 @@ Then install the packages you want.
 
 If you have backed up config files, then restore them now.
 
-### 🎉 That's it! You're done!
+### 🎉 That's it! You're done
+
 Feel free to read the rest of the page for more options.
 
 -----
@@ -64,15 +65,14 @@ There are some cases in which you might have to take more steps to safely remove
 * If you're using distro provided packages, then you might have a bigger job.
   For example, if you're using Debian packages, you may have several Puppet modules packaged as `.deb` packages that you'll have to move to your `Puppetfile`.
   You might consider waiting until your distro packages OpenVox.
-    * If you do want to migrate now, then remove any puppet packages and dependencies you have installed using your distro tools.
-        * Debian family
-          * `apt autoremove <packagename>`
-        * RedHat family
-          * `yum autoremove <packagename>`
-    * You might also consider (carefully) cleaning up unused dependencies afterwards by running `apt` or `yum` autoremove without a package name.
+  * If you do want to migrate now, then remove any puppet packages and dependencies you have installed using your distro tools.
+    * Debian family
+      * `apt autoremove <packagename>`
+    * RedHat family
+      * `yum autoremove <packagename>`
+  * You might also consider (carefully) cleaning up unused dependencies afterwards by running `apt` or `yum` autoremove without a package name.
 
 You do not need to remove the `[apt|yum].puppet.com` repositories although the only thing you'll be able to use them for going forward is installing historical Puppet releases.
-
 
 ### Managing OpenVox with OpenVox
 
@@ -131,7 +131,6 @@ puppetdb::master::config::terminus_package: openvoxdb-termini
 
 Note that you will need to have the OpenVox repositories available (using one of the methods above) for this to work properly.
 If the OpenVox repositories are available, this will cause Puppet to be removed and OpenVox to be installed.
-
 
 #### Foreman integration
 

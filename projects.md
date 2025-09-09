@@ -35,7 +35,6 @@ easiest projects to get involved with.
   * [OpenBSD]({% include github-repo-search.html topic="openbsd-puppet-module" %})
 * [Windows]({% include github-repo-search.html topic="windows-puppet-module" %})
 
-
 ## Infrastructure tools
 
 We host other projects you may wish to run in your infrastructure as well.
@@ -44,14 +43,12 @@ We host other projects you may wish to run in your infrastructure as well.
 * [Monitoring]({% include github-repo-search.html topic="monitoring" %})
 * [Reporting tools]({% include github-repo-search.html topic="reporting" %})
 
-
 ## Development tools
 
 Many of our projects are built to help developers and to run in testing pipelines.
 
 * [Puppet lint plugins]({% include github-repo-search.html topic="puppet-lint" %})
 * [Ruby Gems]({% include github-repo-search.html topic="ruby-gems" %})
-
 
 ## Hacktoberfest
 
@@ -62,7 +59,6 @@ the ways you can engage with us and work through your contributions. Read more a
 the [Hacktoberfest](https://hacktoberfest.com) project to see how it works.
 
 * [See all projects participating in Hacktoberfest]({% include github-repo-search.html topic="hacktoberfest" %})
-
 
 ## OpenVox project
 
