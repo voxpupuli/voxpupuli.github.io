@@ -5,4 +5,4 @@ website: https://www.tiger-computing.co.uk/
 button: tiger-computing.co.uk
 ---
 
-Thanks to [Tiger Computing](https://www.tiger-computing.co.uk/) for sponsoring us 50$/month via GitHub sponsors!
+Thanks to [Tiger Computing](https://www.tiger-computing.co.uk/) for sponsoring us $50/month via GitHub sponsors!
