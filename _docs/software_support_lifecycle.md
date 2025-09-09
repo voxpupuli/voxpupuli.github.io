@@ -49,6 +49,7 @@ An Operating System is no longer considered supported once it reaches an EOL dat
 |     Fedora 32      |   2020/04/21   | 2021/05/31 (approx) | 2021/02/28 (approx) |   2021/05/31   |   2021/05/31    |
 | OpenSUSE Leap 15.1 |   2019/05/22   |     2021/01/31      |     2020/12/31      |   2021/01/31   |   2021/01/31    |
 | OpenSUSE Leap 15.2 |   2020/07/02   |     2021/12/31      |     2020/09/30      |   2021/12/31   |   2021/12/31    |
+{: .table .table-striped .table-hover }
 
 NOTE: *\*All Dates subject to change based on upstream project*
 
