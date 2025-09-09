@@ -31,6 +31,9 @@ An Operating System is no longer considered supported once it reaches an EOL dat
 
 *maintainers include, but are not limited to, the community, company, or organization that maintains ownership over a specific piece of software or project.
 
+The [puppet_metadata](https://github.com/voxpupuli/puppet_metadata/) gem is the authoritative source for EOL data used in the Vox Pupuli testing framework.
+Tests will only run for operating systems that are still supported according to the puppet_metadata gem.
+
 Sources for end-of-life dates:
 
 * OpenSUSE - [OpenSUSE Documentation](https://en.opensuse.org/Lifetime)
