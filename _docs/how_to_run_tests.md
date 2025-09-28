@@ -38,7 +38,7 @@ export PUPPET_VERSION="~> 8.8.1"
 
 ### Installing Dependencies
 
-Dependencies for running tests are installed as gems via bundler and will run in ruby 2.7 to 3.4 (as of time of writing).
+Dependencies for running tests are installed as gems via bundler and will run in ruby 3.2 and newer (as of time of writing).
 It should be trivial to install via your package manager or gem.
 
 #### Debian/Ubuntu
