@@ -20,6 +20,11 @@ This can be done from a fork.
 Now you can install the changelog generator:
 
 ```bash
+export RELEASE_VERSION="X.Y.Z"
+git switch master
+git pull --rebase
+git switch -c release-v$RELEASE_VERSION
+
 bundle config set --local path '.vendor/'
 bundle config set --local with 'release'
 bundle install
@@ -35,6 +40,9 @@ We can generate the changelog (in most cases, this requires a [GitHub access tok
 
 ```bash
 CHANGELOG_GITHUB_TOKEN='mytoken' bundle exec rake changelog
+
+git commit --all --message "Release v${RELEASE_VERSION}"
+git push --set-upstream origin HEAD
 ```
 
 The changelog generator checks for certain labels on closed issues and PRs since the last release and groups them together.
@@ -53,6 +61,7 @@ Or add voxpupuli as a additional remote to your fork.
 with the main repo
 
 ```bash
+export RELEASE_VERSION="X.Y.Z"
 git switch master; git pull origin master
 ```
 
@@ -68,20 +77,26 @@ git pull --rebase voxpupuli master
 Check with `git tag -l` if the git tags are prefixed with a v or not.
 This varies by project (we often adopt gems from other people and don't want to change the versioning scheme in a project).
 
-Create a new git tag with the new version: `git tag -s $version`
+Create a new git tag with the new version:
+
+```bash
+git tag -s -a -m "${RELEASE_VERSION}" $RELEASE_VERSION
+# or
+git tag -s -a -m "v${RELEASE_VERSION}" v$RELEASE_VERSION
+```
 
 Push the git tag:
 
 with main repo:
 
 ```bash
-git push origin $version
+git push origin HEAD --tags
 ```
 
 with a fork:
 
 ```bash
-git push voxpupuli $version
+git push voxpupuli HEAD --tags
 ```
 
 Then a GitHub action will start to build the gem and publish it to GitHub Packages and RubyGems.org
