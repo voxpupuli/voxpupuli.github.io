@@ -1,5 +1,5 @@
 ---
-logo: example42.png
+logo: logo-example42.png
 website: https://www.example42.com/
 button: example42.com
 ---
