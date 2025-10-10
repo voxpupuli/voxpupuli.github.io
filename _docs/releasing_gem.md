@@ -90,13 +90,13 @@ Push the git tag:
 with main repo:
 
 ```bash
-git push origin HEAD --tags
+git push origin --tags
 ```
 
 with a fork:
 
 ```bash
-git push voxpupuli HEAD --tags
+git push voxpupuli --tags
 ```
 
 Then a GitHub action will start to build the gem and publish it to GitHub Packages and RubyGems.org
