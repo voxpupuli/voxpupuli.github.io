@@ -3,6 +3,9 @@ layout: page
 title: Vox Pupuli Leadership
 ---
 
+* TOC
+{:toc}
+
 ## Project Management Committee
 
 Open-Source Communities nowadays gain a lot from having a structure that can take action when bad things happens, and also when improvement is needed.
@@ -23,7 +26,7 @@ You need to be part of the Vox Pupuli GitHub organisation *and logged in at GitH
 Those are the current people in the 2025 PMC.
 The elections started with the announcement at [config management camp in Ghent, on 2025-02-05][2025].
 
-### Alex Fisher (alexjfisher)
+#### Alex Fisher (alexjfisher)
 
 My name is Alex Fisher.
 I've been a Linux system administrator, network, and DevOps engineer for over 20 years.
@@ -33,7 +36,7 @@ Originally working for myself as a freelance Puppet engineer, I later took a ful
 Luckily, I still get to do plenty of Puppet work—even if it's sometimes on older operating systems.
 I know I'm not alone in this, and I believe this experience enables me to provide value to the community by representing those in similar situations.
 
-### Tim Meusel (bastelfreak)
+#### Tim Meusel (bastelfreak)
 
 My name is Tim Meusel, also known as bastelfreak.
 I am a Vox Pupuli collaborator since 2014 and a PMC member since the beginning.
@@ -41,7 +44,7 @@ Puppet is my preferred automation toolkit since 2012.
 In the past decade I contributed to all major modules and tools within the Puppet ecosystem.
 I had the pleasure to get to know many other contributors and companies that use Vox Pupuli projects and I want to continue this journey.
 
-### Ben Ford (binford2k)
+#### Ben Ford (binford2k)
 
 Ben is a software engineer and community leader with extensive knowledge and expertise in the Puppet ecosystem.
 He's honored to call many of you friend and learn from you every day.
@@ -51,14 +54,14 @@ Before coming to Puppet, he taught Anthropology grad students how to code in Jav
 He has been in this community for ages and has always played a very active role.
 In a past life, he was in charge of community at Puppet Labs / Puppet / Puppet by Perforce and, as a result, couldn't really be on the PMC due to a conflict of interest... that is no longer the case.
 
-### Ewoud Kohl van Wijngaarden (ewoud)
+#### Ewoud Kohl van Wijngaarden (ewoud)
 
 My name is Ewoud Kohl van Wijngaarden, more commonly known as ekohl on GitHub.
 I've been around in the Vox Pupuli community since 2016 and a PMC member for the past 2 years.
 I was going to say not a lot has changed since my 2023 & 2024 nominations but then we forget the OpenVox situation.
 In my next term OpenVox and the increased demands it puts on Vox Pupuli will have my focus.
 
-### Garrett Honeycutt
+#### Garrett Honeycutt
 
 Garrett Honeycutt is a contributor to the Puppet ecosystem since 2007.
 He authored the first style guide and helped create the first certification.
@@ -67,7 +70,7 @@ Recognized as a Puppet Champion, he is invested in our community and wants to se
 He is an organizer of Configuration Management Camp and led a session on Vox Pupuli's governance.
 With Vox Pupuli taking on OpenVox, he would like to join the PMC to ensure we have a well-designed and effective governance structure to support these new responsibilities and ensure the success of OpenVox and our community.
 
-### Robert Waffen
+#### Robert Waffen
 
 My Name is Robert Waffen.
 I'm a german Automation Engineer @ betadots.
@@ -75,7 +78,7 @@ I often code for customers but also do some codeing for myself.
 Next to Puppet I also like to write some Ruby code.
 In my free time I like to play pc games, watch every scifi available to me, or read manags and comics.
 
-### Sebastian Rakel (Spritzgebaeck)
+#### Sebastian Rakel (Spritzgebaeck)
 
 My name is Sebastian Rakel, I'm a german cloud engineer/devops dude in a small company named ServiceERP and love to automate things.
 In my free time I'm chairman of a hackerspace (Forschung und Technik e.V.), husband of a beautiful wife and father of an awesome daughter.
