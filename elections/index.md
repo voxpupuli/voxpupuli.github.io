@@ -84,7 +84,8 @@ I was a PMC Member for the last two years, my work was mostly to review things a
 
 ## Terms and Dates
 
-Terms begin each year on *January 1st*.
+Terms begin each year and start with the election anouncement.
+Usually during config management camp.
 
 The nomination and voting periods will be held during the months of November and December, with each lasting for approximately two weeks.
 Precise dates will be announced each year by the Election Officer.
