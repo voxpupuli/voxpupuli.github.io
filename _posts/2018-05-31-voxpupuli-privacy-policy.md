@@ -16,7 +16,7 @@ Well, because of the new European Union's General Data Protection Regulation tha
 
 ## What data is stored?
 
-In short, we don't actively store any data about our "Customers" or those that simply just fork or use our projects and code. However, we _do_ have the name and email address of Contributors that add commits and open Pull Requests within Vox Pupupli projects stored within the git commit history of the project. We also have access to any public data that is stored in your Github account. All that said, there is no other data that Vox Pupuli, as a community, stores about their users and contributors.
+In short, we don't actively store any data about our "Customers" or those that simply just fork or use our projects and code. However, we _do_ have the name and email address of Contributors that add commits and open Pull Requests within Vox Pupuli projects stored within the git commit history of the project. We also have access to any public data that is stored in your Github account. All that said, there is no other data that Vox Pupuli, as a community, stores about their users and contributors.
 
 ## What is that data used for?
 

@@ -11,7 +11,7 @@ This is the conference where most of us meet once a year.
 The conference itself is free.
 But please sign up, and select the talks you would like to see, to make the room planning easier.
 The conference is where most of us meet each other every year.
-It's the best place to discuss the future of [OpenVoxProject](https://voxpupuli.org/blog/2025/06/14/an-unsupportable-path/) and Vox Pupupli.
+It's the best place to discuss the future of [OpenVoxProject](https://voxpupuli.org/blog/2025/06/14/an-unsupportable-path/) and Vox Pupuli.
 
 Ghent is easy to reach by train, the station is [Gent-Sint-Pieters](https://maps.app.goo.gl/rsatG69CJ5Sy6Lyp7).
 The next airport is Brussels Airport, which has a direct train connection to Ghent (different options available, intercity is the fastest).
@@ -23,7 +23,7 @@ Most of the attendees stay in this location and there's also a tram line to the 
 [cfgmgmtcamp.org/ghent2025/guide/](https://cfgmgmtcamp.org/ghent2025/guide/) also has a good overview for people that are new to the conference.
 
 The call for papers is also still open!
-You want to do an ignite or a regular talk about OpenVoxProject, Vox Pupupuli, a cool project you worked on or a migration story from Perforce to OpenVoxProject?
+You want to do an ignite or a regular talk about OpenVoxProject, Vox Pupuli, a cool project you worked on or a migration story from Perforce to OpenVoxProject?
 [Please submit](https://cfp.cfgmgmtcamp.org/ghent2026/cfp) the proposal until 2025-10-15 23:59 CET.
 
 ## Vox Pupuli Travel fund for Config Management Camp 2026

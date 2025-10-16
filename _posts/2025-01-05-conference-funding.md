@@ -19,7 +19,7 @@ We would like to use a part of that to enable people to attend [Config Managemen
 The conference itself is free.
 But please sign up, and select the talks you would like to see, to make the room planning easier.
 The conference is where most of us meet each other every year.
-It's the best place to discuss the future of Puppet and Vox Pupupli (For more details, see [puppet.com/blog/open-source-puppet-updates-2025](https://www.puppet.com/blog/open-source-puppet-updates-2025) and [github.com/voxpupuli/plumbing/issues/294](https://github.com/voxpupuli/plumbing/issues/294)).
+It's the best place to discuss the future of Puppet and Vox Pupuli (For more details, see [puppet.com/blog/open-source-puppet-updates-2025](https://www.puppet.com/blog/open-source-puppet-updates-2025) and [github.com/voxpupuli/plumbing/issues/294](https://github.com/voxpupuli/plumbing/issues/294)).
 
 Ghent is easy to reach by train, the station is [Gent-Sint-Pieters](https://maps.app.goo.gl/rsatG69CJ5Sy6Lyp7).
 The next airport is Brussels Airport, which has a direct train connection to Ghent (different options available, intercity is the fastest).
