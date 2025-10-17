@@ -6,7 +6,7 @@ title: How to Contribute
 ## Getting involved
 
 Contributions are very welcome! We have hundreds of modules to care about, so any help is appreciated.
-If you want to contribute, you can start by looking at the [list of issues](https://github.com/issues?q=is%3Aopen+is%3Aissue+user%3Avoxpupuli+archived%3Afalse+sort%3Acreated-desc) and see if there is something you can help with.
+If you want to contribute, you can start by looking at the [list of issues](https://github.com/search?q=is%3Aopen+org%3Avoxpupuli&type=issues&s=updated&o=desc) and see if there is something you can help with.
 
 {% include connect_groups_io.md %}
 
