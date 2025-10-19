@@ -13,7 +13,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ### 📊 Summary
 - 🏢 Organizations: **voxpupuli, OpenVoxProject, theforeman**
 - 🚀 Releases: **1009**
-- 🔖 Tags: **20475**
+- 🔖 Tags: **21347**
 
 ---
 
@@ -6080,6 +6080,9 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2022-03-31
 - **OpenVoxProject/openvox** – [🔖 7.16.0](https://github.com/OpenVoxProject/openvox/tree/7.16.0)
 - **OpenVoxProject/pxp-agent-vanagon** – [🔖 202203310](https://github.com/OpenVoxProject/pxp-agent-vanagon/tree/202203310)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.15.0](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.15.0)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.15.1](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.15.1)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.15.2](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.15.2)
 - **theforeman/foreman_remote_execution** – [🔖 v6.1.0](https://github.com/theforeman/foreman_remote_execution/tree/v6.1.0)
 - **theforeman/smart_proxy_ansible** – [🔖 v3.4.0](https://github.com/theforeman/smart_proxy_ansible/tree/v3.4.0)
 
@@ -6101,6 +6104,14 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2022-03-28
 - **OpenVoxProject/bolt-vanagon** – [🔖 3.22.0](https://github.com/OpenVoxProject/bolt-vanagon/tree/3.22.0)
 - **OpenVoxProject/openbolt** – [🔖 3.22.0](https://github.com/OpenVoxProject/openbolt/tree/3.22.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.27.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.27.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.27.1](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.27.1)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.28.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.28.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.16.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.16.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.17.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.17.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.18.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.18.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.19.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.19.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.20.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.20.0)
 - **theforeman/smart_proxy_dynflow** – [🔖 v0.6.3](https://github.com/theforeman/smart_proxy_dynflow/tree/v0.6.3)
 - **voxpupuli/puppet-openvpn** – [🔖 v10.1.0](https://github.com/voxpupuli/puppet-openvpn/tree/v10.1.0)
 - **voxpupuli/puppet-rabbitmq** – [🔖 v12.0.0](https://github.com/voxpupuli/puppet-rabbitmq/tree/v12.0.0)
@@ -6396,6 +6407,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/modulesync_config** – [🔖 5.2.0](https://github.com/voxpupuli/modulesync_config/tree/5.2.0)
 
 ## 📅 2022-01-27
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.14.1](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.14.1)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.14.2](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.14.2)
 - **voxpupuli/beaker** – [🔖 4.34.0](https://github.com/voxpupuli/beaker/tree/4.34.0)
 - **voxpupuli/beaker-docker** – [🔖 1.1.0](https://github.com/voxpupuli/beaker-docker/tree/1.1.0)
 - **voxpupuli/beaker-hostgenerator** – [🔖 1.11.0](https://github.com/voxpupuli/beaker-hostgenerator/tree/1.11.0)
@@ -7676,6 +7689,16 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openbolt** – [🔖 3.9.1](https://github.com/OpenVoxProject/openbolt/tree/3.9.1)
 - **OpenVoxProject/puppet-runtime** – [🔖 202106070](https://github.com/OpenVoxProject/puppet-runtime/tree/202106070)
 - **OpenVoxProject/vanagon** – [🔖 0.21.1](https://github.com/OpenVoxProject/vanagon/tree/0.21.1)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.10.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.10.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.11.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.11.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.12.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.12.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.12.1](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.12.1)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.13.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.13.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.13.1](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.13.1)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.14.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.14.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.15.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.15.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.8.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.8.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.9.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.9.0)
 - **theforeman/foreman_remote_execution** – [🔖 core-v1.5.0](https://github.com/theforeman/foreman_remote_execution/tree/core-v1.5.0)
 - **theforeman/foreman_remote_execution** – [🔖 v4.6.0](https://github.com/theforeman/foreman_remote_execution/tree/v4.6.0)
 - **theforeman/smart_proxy_dynflow** – [🔖 core-v0.4.0](https://github.com/theforeman/smart_proxy_dynflow/tree/core-v0.4.0)
@@ -7900,6 +7923,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2021-04-29
 - **OpenVoxProject/pxp-agent-vanagon** – [🔖 202104290](https://github.com/OpenVoxProject/pxp-agent-vanagon/tree/202104290)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.7.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.7.0)
 - **voxpupuli/puppet-python** – [🔖 v6.0.1](https://github.com/voxpupuli/puppet-python/tree/v6.0.1)
 
 ## 📅 2021-04-28
@@ -7911,6 +7935,11 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2021-04-27
 - **OpenVoxProject/puppet-runtime** – [🔖 202104270](https://github.com/OpenVoxProject/puppet-runtime/tree/202104270)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.23.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.23.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.24.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.24.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.25.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.25.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.25.1](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.25.1)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.26.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.26.0)
 - **theforeman/foreman_bootdisk** – [🔖 v17.1.0](https://github.com/theforeman/foreman_bootdisk/tree/v17.1.0)
 - **theforeman/foreman_discovery** – [🔖 16.3.5](https://github.com/theforeman/foreman_discovery/tree/16.3.5)
 - **theforeman/puppet-certs** – [🔖 12.0.0](https://github.com/theforeman/puppet-certs/tree/12.0.0)
@@ -8016,6 +8045,19 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/puppet-runtime** – [🔖 202104140](https://github.com/OpenVoxProject/puppet-runtime/tree/202104140)
 - **OpenVoxProject/pxp-agent-vanagon** – [🔖 202104131](https://github.com/OpenVoxProject/pxp-agent-vanagon/tree/202104131)
 - **OpenVoxProject/pxp-agent-vanagon** – [🔖 202104140](https://github.com/OpenVoxProject/pxp-agent-vanagon/tree/202104140)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.6.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.6.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.6.1](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.6.1)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.10.0](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.10.0)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.11.0](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.11.0)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.12.0](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.12.0)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.12.1](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.12.1)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.13.0](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.13.0)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.14.0](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.14.0)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.9.0](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.9.0)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.9.1](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.9.1)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.9.2](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.9.2)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.9.3](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.9.3)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.9.4](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.9.4)
 - **voxpupuli/container-puppetserver** – [🔖 6.15.3](https://github.com/voxpupuli/container-puppetserver/tree/6.15.3)
 - **voxpupuli/container-puppetserver** – [🔖 6.16.0](https://github.com/voxpupuli/container-puppetserver/tree/6.16.0)
 
@@ -8041,6 +8083,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2021-04-08
 - **voxpupuli/onceover** – [Added support for external data](https://github.com/voxpupuli/onceover/releases/tag/v3.20.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.22.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.22.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.22.1](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.22.1)
 - **voxpupuli/librarian-puppet** – [🔖 v3.0.1](https://github.com/voxpupuli/librarian-puppet/tree/v3.0.1)
 
 ## 📅 2021-04-07
@@ -8418,6 +8462,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/puppet-puppet** – [🔖 14.2.1](https://github.com/theforeman/puppet-puppet/tree/14.2.1)
 
 ## 📅 2021-01-25
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.4.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.4.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.4.1](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.4.1)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.5.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.5.0)
 - **theforeman/puppetlabs-apache** – [🔖 v5.9.0](https://github.com/theforeman/puppetlabs-apache/tree/v5.9.0)
 - **voxpupuli/puppet-nftables** – [🔖 v1.1.0](https://github.com/voxpupuli/puppet-nftables/tree/v1.1.0)
 - **voxpupuli/puppet-nginx** – [🔖 v3.0.0](https://github.com/voxpupuli/puppet-nginx/tree/v3.0.0)
@@ -8429,6 +8476,8 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2021-01-21
 - **OpenVoxProject/clj-parent** – [🔖 4.6.11](https://github.com/OpenVoxProject/clj-parent/tree/4.6.11)
 - **OpenVoxProject/pxp-agent-vanagon** – [🔖 202101202](https://github.com/OpenVoxProject/pxp-agent-vanagon/tree/202101202)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.21.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.21.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.21.1](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.21.1)
 - **theforeman/foreman-discovery-image** – [🔖 3.7.3](https://github.com/theforeman/foreman-discovery-image/tree/3.7.3)
 - **theforeman/foreman-discovery-image** – [🔖 3.7.4](https://github.com/theforeman/foreman-discovery-image/tree/3.7.4)
 - **theforeman/puppet-pulpcore** – [🔖 2.2.2](https://github.com/theforeman/puppet-pulpcore/tree/2.2.2)
@@ -8477,6 +8526,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openvox-server** – [🔖 6.15.0](https://github.com/OpenVoxProject/openvox-server/tree/6.15.0)
 - **OpenVoxProject/openvox-server** – [🔖 7.0.2](https://github.com/OpenVoxProject/openvox-server/tree/7.0.2)
 - **OpenVoxProject/puppet-runtime** – [🔖 202101150](https://github.com/OpenVoxProject/puppet-runtime/tree/202101150)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.2.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.2.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.3.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.3.0)
 
 ## 📅 2021-01-14
 - **theforeman/puppet-foreman_proxy_content** – [🔖 14.2.0](https://github.com/theforeman/puppet-foreman_proxy_content/tree/14.2.0)
@@ -8487,6 +8538,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/puppet-runtime** – [🔖 202101130](https://github.com/OpenVoxProject/puppet-runtime/tree/202101130)
 - **OpenVoxProject/pxp-agent-vanagon** – [🔖 202101130](https://github.com/OpenVoxProject/pxp-agent-vanagon/tree/202101130)
 - **OpenVoxProject/vanagon** – [🔖 0.19.1](https://github.com/OpenVoxProject/vanagon/tree/0.19.1)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.20.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.20.0)
 - **theforeman/foreman-js** – [🔖 v7.2.10](https://github.com/theforeman/foreman-js/tree/v7.2.10)
 - **theforeman/foreman_remote_execution** – [🔖 v4.2.2](https://github.com/theforeman/foreman_remote_execution/tree/v4.2.2)
 - **voxpupuli/puppet-github_actions_runner** – [🔖 0.2.4](https://github.com/voxpupuli/puppet-github_actions_runner/tree/0.2.4)
@@ -8675,6 +8727,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/bolt-vanagon** – [🔖 2.36.0](https://github.com/OpenVoxProject/bolt-vanagon/tree/2.36.0)
 - **OpenVoxProject/openbolt** – [🔖 2.36.0](https://github.com/OpenVoxProject/openbolt/tree/2.36.0)
 - **OpenVoxProject/pxp-agent-vanagon** – [🔖 202011300](https://github.com/OpenVoxProject/pxp-agent-vanagon/tree/202011300)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.1.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.1.0)
 - **theforeman/puppet-qpid** – [🔖 6.2.0](https://github.com/theforeman/puppet-qpid/tree/6.2.0)
 - **theforeman/theforeman-rubocop** – [🔖 v0.0.6](https://github.com/theforeman/theforeman-rubocop/tree/v0.0.6)
 
@@ -9097,6 +9150,9 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2020-09-15
 - **OpenVoxProject/clj-parent** – [🔖 4.6.5](https://github.com/OpenVoxProject/clj-parent/tree/4.6.5)
 - **OpenVoxProject/pxp-agent-vanagon** – [🔖 202009150](https://github.com/OpenVoxProject/pxp-agent-vanagon/tree/202009150)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.6.0](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.6.0)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.7.0](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.7.0)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.8.0](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.8.0)
 - **voxpupuli/puppet-gitlab_ci_runner** – [🔖 v3.0.0](https://github.com/voxpupuli/puppet-gitlab_ci_runner/tree/v3.0.0)
 
 ## 📅 2020-09-14
@@ -9179,6 +9235,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/clj-kitchensink** – [🔖 2.6.0](https://github.com/OpenVoxProject/clj-kitchensink/tree/2.6.0)
 - **OpenVoxProject/clj-parent** – [🔖 1.7.38](https://github.com/OpenVoxProject/clj-parent/tree/1.7.38)
 - **OpenVoxProject/puppet-runtime** – [🔖 202008270](https://github.com/OpenVoxProject/puppet-runtime/tree/202008270)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 7.0.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/7.0.0)
 - **theforeman/puppet-foreman_proxy_content** – [🔖 11.1.1](https://github.com/theforeman/puppet-foreman_proxy_content/tree/11.1.1)
 
 ## 📅 2020-08-26
@@ -9461,10 +9518,13 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2020-07-08
 - **voxpupuli/onceover** – [Fixed tabular output](https://github.com/voxpupuli/onceover/releases/tag/v3.17.2)
 - **OpenVoxProject/openvox** – [🔖 6.17.0](https://github.com/OpenVoxProject/openvox/tree/6.17.0)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.9.7.2](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.9.7.2)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.9.9.0](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.9.9.0)
 
 ## 📅 2020-07-07
 - **OpenVoxProject/bolt-vanagon** – [🔖 2.17.0](https://github.com/OpenVoxProject/bolt-vanagon/tree/2.17.0)
 - **OpenVoxProject/openbolt** – [🔖 2.17.0](https://github.com/OpenVoxProject/openbolt/tree/2.17.0)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.9.9](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.9.9)
 
 ## 📅 2020-07-06
 - **voxpupuli/puppet-icingaweb2** – [🔖 v2.4.0](https://github.com/voxpupuli/puppet-icingaweb2/tree/v2.4.0)
@@ -9696,6 +9756,8 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2020-05-28
 - **OpenVoxProject/bolt-vanagon** – [🔖 2.11.1](https://github.com/OpenVoxProject/bolt-vanagon/tree/2.11.1)
 - **OpenVoxProject/openbolt** – [🔖 2.11.1](https://github.com/OpenVoxProject/openbolt/tree/2.11.1)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.5.1](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.5.1)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.5.2](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.5.2)
 
 ## 📅 2020-05-27
 - **OpenVoxProject/bolt-vanagon** – [🔖 2.11.0](https://github.com/OpenVoxProject/bolt-vanagon/tree/2.11.0)
@@ -9819,6 +9881,11 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2020-05-11
 - **OpenVoxProject/bolt-vanagon** – [🔖 2.9.0](https://github.com/OpenVoxProject/bolt-vanagon/tree/2.9.0)
 - **OpenVoxProject/openbolt** – [🔖 2.9.0](https://github.com/OpenVoxProject/openbolt/tree/2.9.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.16.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.16.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.17.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.17.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.18.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.18.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.19.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.19.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.19.1](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.19.1)
 - **theforeman/foreman_leapp** – [🔖 v0.1.1](https://github.com/theforeman/foreman_leapp/tree/v0.1.1)
 - **voxpupuli/container-puppetserver** – [🔖 6.12.0](https://github.com/voxpupuli/container-puppetserver/tree/6.12.0)
 - **voxpupuli/container-puppetserver** – [🔖 6.12.1](https://github.com/voxpupuli/container-puppetserver/tree/6.12.1)
@@ -9932,6 +9999,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openvox-agent** – [🔖 6.15.0](https://github.com/OpenVoxProject/openvox-agent/tree/6.15.0)
 - **OpenVoxProject/vanagon** – [🔖 0.15.35](https://github.com/OpenVoxProject/vanagon/tree/0.15.35)
 - **OpenVoxProject/vanagon** – [🔖 0.15.36](https://github.com/OpenVoxProject/vanagon/tree/0.15.36)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.5.0](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.5.0)
 - **theforeman/puppet-foreman** – [🔖 14.0.1](https://github.com/theforeman/puppet-foreman/tree/14.0.1)
 - **voxpupuli/puppet-rkhunter** – [🔖 v2.1.0](https://github.com/voxpupuli/puppet-rkhunter/tree/v2.1.0)
 - **voxpupuli/voxpupuli-acceptance** – [🔖 0.2.0](https://github.com/voxpupuli/voxpupuli-acceptance/tree/0.2.0)
@@ -9967,6 +10035,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2020-04-24
 - **OpenVoxProject/openfact** – [🔖 4.0.18](https://github.com/OpenVoxProject/openfact/tree/4.0.18)
 - **OpenVoxProject/openvox** – [🔖 5.5.20](https://github.com/OpenVoxProject/openvox/tree/5.5.20)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.9.8](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.9.8)
 - **voxpupuli/puppet-blacksmith** – [🔖 v6.0.0](https://github.com/voxpupuli/puppet-blacksmith/tree/v6.0.0)
 - **voxpupuli/puppet-caddy** – [🔖 v1.0.0](https://github.com/voxpupuli/puppet-caddy/tree/v1.0.0)
 - **voxpupuli/voxpupuli-test** – [🔖 v1.4.0](https://github.com/voxpupuli/voxpupuli-test/tree/v1.4.0)
@@ -10020,6 +10089,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2020-04-17
 - **OpenVoxProject/cpp-pcp-client** – [🔖 1.6.2](https://github.com/OpenVoxProject/cpp-pcp-client/tree/1.6.2)
 - **OpenVoxProject/cpp-pcp-client** – [🔖 1.7.0](https://github.com/OpenVoxProject/cpp-pcp-client/tree/1.7.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.15.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.15.0)
 - **theforeman/foreman-tasks** – [🔖 v1.1.0](https://github.com/theforeman/foreman-tasks/tree/v1.1.0)
 - **voxpupuli/librarian** – [🔖 v1.0.0](https://github.com/voxpupuli/librarian/tree/v1.0.0)
 - **voxpupuli/puppet-borg** – [🔖 v1.3.1](https://github.com/voxpupuli/puppet-borg/tree/v1.3.1)
@@ -10172,6 +10242,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/bolt-vanagon** – [🔖 2.3.0](https://github.com/OpenVoxProject/bolt-vanagon/tree/2.3.0)
 - **OpenVoxProject/jruby-utils** – [🔖 3.1.0](https://github.com/OpenVoxProject/jruby-utils/tree/3.1.0)
 - **OpenVoxProject/openbolt** – [🔖 2.3.0](https://github.com/OpenVoxProject/openbolt/tree/2.3.0)
+- **puppetlabs-toy-chest/puppetlabs-translate** – [🔖 v2.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-translate/tree/v2.2.0)
 
 ## 📅 2020-03-21
 - **OpenVoxProject/openvox-helm-chart** – [🔖 v1.8.1](https://github.com/OpenVoxProject/openvox-helm-chart/tree/v1.8.1)
@@ -10257,6 +10328,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openvox-agent** – [🔖 5.5.19](https://github.com/OpenVoxProject/openvox-agent/tree/5.5.19)
 - **OpenVoxProject/openvoxdb** – [🔖 5.2.13](https://github.com/OpenVoxProject/openvoxdb/tree/5.2.13)
 - **OpenVoxProject/openvoxdb** – [🔖 6.9.1](https://github.com/OpenVoxProject/openvoxdb/tree/6.9.1)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.9.7.1](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.9.7.1)
 - **theforeman/foreman-ansible-modules** – [🔖 v0.6.0](https://github.com/theforeman/foreman-ansible-modules/tree/v0.6.0)
 - **theforeman/foreman_ansible** – [🔖 v4.0.3.1](https://github.com/theforeman/foreman_ansible/tree/v4.0.3.1)
 - **voxpupuli/puppet-blacksmith** – [🔖 v5.1.0](https://github.com/voxpupuli/puppet-blacksmith/tree/v5.1.0)
@@ -10481,6 +10553,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2020-01-30
 - **voxpupuli/beaker** – [beaker 4.15.0](https://github.com/voxpupuli/beaker/releases/tag/4.15.0)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.9.7](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.9.7)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.9.7.0](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.9.7.0)
 - **voxpupuli/beaker-hostgenerator** – [🔖 1.2.2](https://github.com/voxpupuli/beaker-hostgenerator/tree/1.2.2)
 - **voxpupuli/puppet-posix_acl** – [🔖 v1.0.1](https://github.com/voxpupuli/puppet-posix_acl/tree/v1.0.1)
 - **voxpupuli/puppet-winlogbeat** – [🔖 v1.0.0](https://github.com/voxpupuli/puppet-winlogbeat/tree/v1.0.0)
@@ -10601,6 +10675,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openvox-server** – [🔖 6.3.3](https://github.com/OpenVoxProject/openvox-server/tree/6.3.3)
 - **OpenVoxProject/openvoxdb** – [🔖 5.2.12](https://github.com/OpenVoxProject/openvoxdb/tree/5.2.12)
 - **OpenVoxProject/openvoxdb** – [🔖 6.3.7](https://github.com/OpenVoxProject/openvoxdb/tree/6.3.7)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.12.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.12.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.13.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.13.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.14.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.14.0)
 - **theforeman/foreman_remote_execution** – [🔖 v2.0.7](https://github.com/theforeman/foreman_remote_execution/tree/v2.0.7)
 - **voxpupuli/puppet-check_mk** – [🔖 v0.9.0](https://github.com/voxpupuli/puppet-check_mk/tree/v0.9.0)
 
@@ -10619,6 +10696,10 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openbolt** – [🔖 1.44.0](https://github.com/OpenVoxProject/openbolt/tree/1.44.0)
 - **OpenVoxProject/openvox** – [🔖 5.5.18](https://github.com/OpenVoxProject/openvox/tree/5.5.18)
 - **OpenVoxProject/openvox** – [🔖 6.4.5](https://github.com/OpenVoxProject/openvox/tree/6.4.5)
+- **puppetlabs-toy-chest/bolt-train-runner** – [🔖 v0.3.3](https://github.com/puppetlabs-toy-chest/bolt-train-runner/tree/v0.3.3)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.4.5](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.4.5)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.4.0](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.4.0)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.4.1](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.4.1)
 - **theforeman/foreman** – [🔖 1.24.1](https://github.com/theforeman/foreman/tree/1.24.1)
 - **theforeman/foreman-installer** – [🔖 1.24.1](https://github.com/theforeman/foreman-installer/tree/1.24.1)
 - **theforeman/foreman-selinux** – [🔖 1.24.1](https://github.com/theforeman/foreman-selinux/tree/1.24.1)
@@ -10699,6 +10780,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/puppet-runtime** – [🔖 201912181](https://github.com/OpenVoxProject/puppet-runtime/tree/201912181)
 - **OpenVoxProject/puppet-runtime** – [🔖 201912182](https://github.com/OpenVoxProject/puppet-runtime/tree/201912182)
 - **OpenVoxProject/puppetlabs-yumrepo_core** – [🔖 1.0.5](https://github.com/OpenVoxProject/puppetlabs-yumrepo_core/tree/1.0.5)
+- **puppetlabs-toy-chest/puppetlabs-windows_puppet_certificates** – [🔖 v0.2.1](https://github.com/puppetlabs-toy-chest/puppetlabs-windows_puppet_certificates/tree/v0.2.1)
 - **theforeman/puppetlabs-postgresql** – [🔖 v6.3.0](https://github.com/theforeman/puppetlabs-postgresql/tree/v6.3.0)
 - **voxpupuli/puppet-prometheus** – [🔖 v8.1.0](https://github.com/voxpupuli/puppet-prometheus/tree/v8.1.0)
 - **voxpupuli/puppet-proxysql** – [🔖 v5.0.0](https://github.com/voxpupuli/puppet-proxysql/tree/v5.0.0)
@@ -10706,9 +10788,11 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2019-12-17
 - **OpenVoxProject/packaging** – [🔖 0.99.52](https://github.com/OpenVoxProject/packaging/tree/0.99.52)
 - **OpenVoxProject/puppet-runtime** – [🔖 201912170](https://github.com/OpenVoxProject/puppet-runtime/tree/201912170)
+- **puppetlabs-toy-chest/puppetlabs-windows_puppet_certificates** – [🔖 v0.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-windows_puppet_certificates/tree/v0.2.0)
 - **voxpupuli/beaker-vagrant** – [🔖 0.6.3](https://github.com/voxpupuli/beaker-vagrant/tree/0.6.3)
 
 ## 📅 2019-12-16
+- **puppetlabs-toy-chest/bolt-train-runner** – [🔖 v0.3.2](https://github.com/puppetlabs-toy-chest/bolt-train-runner/tree/v0.3.2)
 - **voxpupuli/puppet-puppet_run_scheduler** – [🔖 0.4.1](https://github.com/voxpupuli/puppet-puppet_run_scheduler/tree/0.4.1)
 
 ## 📅 2019-12-14
@@ -10737,6 +10821,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2019-12-11
 - **OpenVoxProject/packaging** – [🔖 0.99.50](https://github.com/OpenVoxProject/packaging/tree/0.99.50)
 - **OpenVoxProject/packaging** – [🔖 0.99.51](https://github.com/OpenVoxProject/packaging/tree/0.99.51)
+- **puppetlabs-toy-chest/puppetlabs-dsc** – [🔖 1.9.4](https://github.com/puppetlabs-toy-chest/puppetlabs-dsc/tree/1.9.4)
 - **theforeman/foreman_templates** – [🔖 v7.0.5](https://github.com/theforeman/foreman_templates/tree/v7.0.5)
 - **theforeman/puppetlabs-apache** – [🔖 v5.3.0](https://github.com/theforeman/puppetlabs-apache/tree/v5.3.0)
 - **voxpupuli/puppet-patroni** – [🔖 0.1.3](https://github.com/voxpupuli/puppet-patroni/tree/0.1.3)
@@ -10754,6 +10839,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openbolt** – [🔖 1.42.0](https://github.com/OpenVoxProject/openbolt/tree/1.42.0)
 - **OpenVoxProject/puppet-runtime** – [🔖 201912090](https://github.com/OpenVoxProject/puppet-runtime/tree/201912090)
 - **OpenVoxProject/puppet-runtime** – [🔖 201912091](https://github.com/OpenVoxProject/puppet-runtime/tree/201912091)
+- **puppetlabs-toy-chest/puppetlabs-resource** – [🔖 v1.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-resource/tree/v1.1.0)
 - **theforeman/foreman** – [🔖 1.24.0](https://github.com/theforeman/foreman/tree/1.24.0)
 - **theforeman/foreman-installer** – [🔖 1.24.0](https://github.com/theforeman/foreman-installer/tree/1.24.0)
 - **theforeman/foreman-selinux** – [🔖 1.24.0](https://github.com/theforeman/foreman-selinux/tree/1.24.0)
@@ -10793,6 +10879,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/bolt-vanagon** – [🔖 1.40.0](https://github.com/OpenVoxProject/bolt-vanagon/tree/1.40.0)
 - **OpenVoxProject/openbolt** – [🔖 1.40.0](https://github.com/OpenVoxProject/openbolt/tree/1.40.0)
 - **OpenVoxProject/openvoxserver-ca** – [🔖 1.5.0](https://github.com/OpenVoxProject/openvoxserver-ca/tree/1.5.0)
+- **puppetlabs-toy-chest/puppetlabs-resource** – [🔖 v1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-resource/tree/v1.0.0)
 - **voxpupuli/puppet-rabbitmq** – [🔖 v10.0.0](https://github.com/voxpupuli/puppet-rabbitmq/tree/v10.0.0)
 
 ## 📅 2019-12-01
@@ -10803,6 +10890,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2019-11-29
 - **OpenVoxProject/openfact** – [🔖 v0.0.11](https://github.com/OpenVoxProject/openfact/tree/v0.0.11)
+- **puppetlabs-toy-chest/puppetlabs-translate** – [🔖 v2.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-translate/tree/v2.1.0)
 - **theforeman/foreman_remote_execution** – [🔖 v2.0.4](https://github.com/theforeman/foreman_remote_execution/tree/v2.0.4)
 
 ## 📅 2019-11-28
@@ -10818,6 +10906,8 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2019-11-26
 - **OpenVoxProject/leatherman** – [🔖 1.6.3](https://github.com/OpenVoxProject/leatherman/tree/1.6.3)
 - **OpenVoxProject/puppet-runtime** – [🔖 201911260](https://github.com/OpenVoxProject/puppet-runtime/tree/201911260)
+- **puppetlabs-toy-chest/bolt-train-runner** – [🔖 v0.3.0](https://github.com/puppetlabs-toy-chest/bolt-train-runner/tree/v0.3.0)
+- **puppetlabs-toy-chest/bolt-train-runner** – [🔖 v0.3.1](https://github.com/puppetlabs-toy-chest/bolt-train-runner/tree/v0.3.1)
 - **theforeman/foreman** – [🔖 1.24.0-RC3](https://github.com/theforeman/foreman/tree/1.24.0-RC3)
 - **theforeman/foreman-installer** – [🔖 1.24.0-RC3](https://github.com/theforeman/foreman-installer/tree/1.24.0-RC3)
 - **theforeman/foreman-selinux** – [🔖 1.24.0-RC3](https://github.com/theforeman/foreman-selinux/tree/1.24.0-RC3)
@@ -10839,6 +10929,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2019-11-23
 - **OpenVoxProject/openvox-helm-chart** – [🔖 v1.3.0](https://github.com/OpenVoxProject/openvox-helm-chart/tree/v1.3.0)
+- **puppetlabs-toy-chest/bolt-train-runner** – [🔖 v0.2.2](https://github.com/puppetlabs-toy-chest/bolt-train-runner/tree/v0.2.2)
 
 ## 📅 2019-11-22
 - **OpenVoxProject/bolt-vanagon** – [🔖 1.39.0](https://github.com/OpenVoxProject/bolt-vanagon/tree/1.39.0)
@@ -10875,6 +10966,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/beaker** – [beaker 4.14.1](https://github.com/voxpupuli/beaker/releases/tag/4.14.1)
 - **OpenVoxProject/openvox-agent** – [🔖 6.11.0](https://github.com/OpenVoxProject/openvox-agent/tree/6.11.0)
 - **OpenVoxProject/openvox-server** – [🔖 6.7.2](https://github.com/OpenVoxProject/openvox-server/tree/6.7.2)
+- **puppetlabs-toy-chest/bolt-train-runner** – [🔖 v0.2.0](https://github.com/puppetlabs-toy-chest/bolt-train-runner/tree/v0.2.0)
+- **puppetlabs-toy-chest/bolt-train-runner** – [🔖 v0.2.1](https://github.com/puppetlabs-toy-chest/bolt-train-runner/tree/v0.2.1)
 - **voxpupuli/puppet-ipset** – [🔖 v1.2.0](https://github.com/voxpupuli/puppet-ipset/tree/v1.2.0)
 - **voxpupuli/puppet-mrepo** – [🔖 v4.1.0](https://github.com/voxpupuli/puppet-mrepo/tree/v4.1.0)
 
@@ -10890,6 +10983,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/bolt-vanagon** – [🔖 1.38.0](https://github.com/OpenVoxProject/bolt-vanagon/tree/1.38.0)
 - **OpenVoxProject/openbolt** – [🔖 1.38.0](https://github.com/OpenVoxProject/openbolt/tree/1.38.0)
 - **OpenVoxProject/openvox-helm-chart** – [🔖 v1.1.0](https://github.com/OpenVoxProject/openvox-helm-chart/tree/v1.1.0)
+- **puppetlabs-toy-chest/bolt-train-runner** – [🔖 v0.1.0](https://github.com/puppetlabs-toy-chest/bolt-train-runner/tree/v0.1.0)
+- **puppetlabs-toy-chest/bolt-train-runner** – [🔖 v0.1.1](https://github.com/puppetlabs-toy-chest/bolt-train-runner/tree/v0.1.1)
 - **theforeman/foreman_openscap** – [🔖 v2.0.2](https://github.com/theforeman/foreman_openscap/tree/v2.0.2)
 - **theforeman/smart_proxy_dynflow** – [🔖 core-v0.2.4](https://github.com/theforeman/smart_proxy_dynflow/tree/core-v0.2.4)
 - **voxpupuli/beaker-hostgenerator** – [🔖 1.1.44](https://github.com/voxpupuli/beaker-hostgenerator/tree/1.1.44)
@@ -10997,6 +11092,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/puppetlabs-host_core** – [🔖 1.0.3](https://github.com/OpenVoxProject/puppetlabs-host_core/tree/1.0.3)
 - **OpenVoxProject/puppetlabs-sshkeys_core** – [🔖 1.0.3](https://github.com/OpenVoxProject/puppetlabs-sshkeys_core/tree/1.0.3)
 - **OpenVoxProject/puppetlabs-yumrepo_core** – [🔖 1.0.4](https://github.com/OpenVoxProject/puppetlabs-yumrepo_core/tree/1.0.4)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.9.6.1](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.9.6.1)
 - **theforeman/foreman** – [🔖 1.24.0-RC1](https://github.com/theforeman/foreman/tree/1.24.0-RC1)
 - **theforeman/foreman-installer** – [🔖 1.24.0-RC1](https://github.com/theforeman/foreman-installer/tree/1.24.0-RC1)
 - **theforeman/foreman-selinux** – [🔖 1.24.0-RC1](https://github.com/theforeman/foreman-selinux/tree/1.24.0-RC1)
@@ -11036,6 +11132,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2019-10-27
 - **OpenVoxProject/openvox-helm-chart** – [🔖 v0.3.4](https://github.com/OpenVoxProject/openvox-helm-chart/tree/v0.3.4)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.11.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.11.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.11.1](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.11.1)
 - **voxpupuli/container-puppetserver** – [🔖 6.7.2](https://github.com/voxpupuli/container-puppetserver/tree/6.7.2)
 
 ## 📅 2019-10-26
@@ -11128,6 +11226,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openvox-agent** – [🔖 6.10.1](https://github.com/OpenVoxProject/openvox-agent/tree/6.10.1)
 - **OpenVoxProject/openvoxdb** – [🔖 6.7.1](https://github.com/OpenVoxProject/openvoxdb/tree/6.7.1)
 - **OpenVoxProject/packaging** – [🔖 0.99.46](https://github.com/OpenVoxProject/packaging/tree/0.99.46)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.3.3](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.3.3)
 - **voxpupuli/beaker-hostgenerator** – [🔖 1.1.42](https://github.com/voxpupuli/beaker-hostgenerator/tree/1.1.42)
 - **voxpupuli/puppet-firewalld** – [🔖 v4.0.0](https://github.com/voxpupuli/puppet-firewalld/tree/v4.0.0)
 
@@ -11191,6 +11290,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2019-10-04
 - **OpenVoxProject/clj-parent** – [🔖 4.2.4](https://github.com/OpenVoxProject/clj-parent/tree/4.2.4)
 - **OpenVoxProject/puppet-runtime** – [🔖 201910040](https://github.com/OpenVoxProject/puppet-runtime/tree/201910040)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.10.1](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.10.1)
 - **theforeman/foreman-js** – [🔖 v2.15.0](https://github.com/theforeman/foreman-js/tree/v2.15.0)
 - **theforeman/foreman_remote_execution** – [🔖 core-v1.3.0](https://github.com/theforeman/foreman_remote_execution/tree/core-v1.3.0)
 - **theforeman/foreman_remote_execution** – [🔖 v2.0.0](https://github.com/theforeman/foreman_remote_execution/tree/v2.0.0)
@@ -11251,6 +11351,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/pxp-agent** – [🔖 1.11.4](https://github.com/OpenVoxProject/pxp-agent/tree/1.11.4)
 - **OpenVoxProject/pxp-agent** – [🔖 1.13.0](https://github.com/OpenVoxProject/pxp-agent/tree/1.13.0)
 - **OpenVoxProject/pxp-agent** – [🔖 1.9.11](https://github.com/OpenVoxProject/pxp-agent/tree/1.9.11)
+- **puppetlabs-toy-chest/puppetlabs-resource** – [🔖 v0.4.0](https://github.com/puppetlabs-toy-chest/puppetlabs-resource/tree/v0.4.0)
 - **voxpupuli/container-puppetdb** – [🔖 6.7.0](https://github.com/voxpupuli/container-puppetdb/tree/6.7.0)
 - **voxpupuli/container-puppetserver** – [🔖 6.7.0](https://github.com/voxpupuli/container-puppetserver/tree/6.7.0)
 
@@ -11318,6 +11419,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2019-09-16
 - **voxpupuli/beaker** – [beaker 4.13.0](https://github.com/voxpupuli/beaker/releases/tag/4.13.0)
 - **OpenVoxProject/openvoxdb** – [🔖 6.6.0](https://github.com/OpenVoxProject/openvoxdb/tree/6.6.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.10.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.10.0)
 - **theforeman/foreman-js** – [🔖 v1.6.0](https://github.com/theforeman/foreman-js/tree/v1.6.0)
 - **theforeman/puppet-certs** – [🔖 6.0.2](https://github.com/theforeman/puppet-certs/tree/6.0.2)
 - **voxpupuli/puppet-graylog_api** – [🔖 v0.1.3](https://github.com/voxpupuli/puppet-graylog_api/tree/v0.1.3)
@@ -11377,6 +11479,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/bolt-vanagon** – [🔖 1.30.0](https://github.com/OpenVoxProject/bolt-vanagon/tree/1.30.0)
 - **OpenVoxProject/openbolt** – [🔖 1.30.0](https://github.com/OpenVoxProject/openbolt/tree/1.30.0)
 - **OpenVoxProject/openfact** – [🔖 3.14.4](https://github.com/OpenVoxProject/openfact/tree/3.14.4)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.4.4](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.4.4)
+- **puppetlabs-toy-chest/puppetlabs-dsc** – [🔖 v1.9.3](https://github.com/puppetlabs-toy-chest/puppetlabs-dsc/tree/v1.9.3)
 - **theforeman/foreman-tasks** – [🔖 v0.15.9](https://github.com/theforeman/foreman-tasks/tree/v0.15.9)
 - **theforeman/foreman-tasks** – [🔖 v0.16.1](https://github.com/theforeman/foreman-tasks/tree/v0.16.1)
 - **theforeman/foreman-tasks** – [🔖 v0.17.0](https://github.com/theforeman/foreman-tasks/tree/v0.17.0)
@@ -11407,11 +11511,15 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/hiera** – [🔖 3.6.0](https://github.com/OpenVoxProject/hiera/tree/3.6.0)
 - **OpenVoxProject/pdk-vanagon** – [🔖 1.14.0.0.pre](https://github.com/OpenVoxProject/pdk-vanagon/tree/1.14.0.0.pre)
 - **OpenVoxProject/pxp-agent** – [🔖 1.12.4](https://github.com/OpenVoxProject/pxp-agent/tree/1.12.4)
+- **puppetlabs-toy-chest/razor-client** – [🔖 1.9.6](https://github.com/puppetlabs-toy-chest/razor-client/tree/1.9.6)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.9.6.0](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.9.6.0)
 - **theforeman/foreman_expire_hosts** – [🔖 6.0.2](https://github.com/theforeman/foreman_expire_hosts/tree/6.0.2)
 - **theforeman/smart_proxy_dhcp_infoblox** – [🔖 v0.0.15](https://github.com/theforeman/smart_proxy_dhcp_infoblox/tree/v0.0.15)
 
 ## 📅 2019-08-29
 - **OpenVoxProject/pdk-vanagon** – [🔖 1.13.0.0](https://github.com/OpenVoxProject/pdk-vanagon/tree/1.13.0.0)
+- **puppetlabs-toy-chest/razor-client** – [🔖 1.9.5](https://github.com/puppetlabs-toy-chest/razor-client/tree/1.9.5)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.9.6](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.9.6)
 - **theforeman/foreman** – [🔖 1.22.1](https://github.com/theforeman/foreman/tree/1.22.1)
 - **theforeman/foreman-installer** – [🔖 1.22.1](https://github.com/theforeman/foreman-installer/tree/1.22.1)
 - **theforeman/foreman-selinux** – [🔖 1.22.1](https://github.com/theforeman/foreman-selinux/tree/1.22.1)
@@ -11424,6 +11532,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/packaging** – [🔖 0.99.40](https://github.com/OpenVoxProject/packaging/tree/0.99.40)
 - **OpenVoxProject/pdk-vanagon** – [🔖 1.13.0.0-rc.1](https://github.com/OpenVoxProject/pdk-vanagon/tree/1.13.0.0-rc.1)
 - **OpenVoxProject/puppet-runtime** – [🔖 201908280](https://github.com/OpenVoxProject/puppet-runtime/tree/201908280)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.9.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.9.0)
 - **voxpupuli/facterdb** – [🔖 0.8.2](https://github.com/voxpupuli/facterdb/tree/0.8.2)
 - **voxpupuli/puppet-elasticsearch** – [🔖 6.4.0](https://github.com/voxpupuli/puppet-elasticsearch/tree/6.4.0)
 
@@ -11434,11 +11543,14 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/puppet-runtime** – [🔖 201908270](https://github.com/OpenVoxProject/puppet-runtime/tree/201908270)
 - **OpenVoxProject/puppet-runtime** – [🔖 201908271](https://github.com/OpenVoxProject/puppet-runtime/tree/201908271)
 - **OpenVoxProject/puppet-runtime** – [🔖 201908272](https://github.com/OpenVoxProject/puppet-runtime/tree/201908272)
+- **puppetlabs-toy-chest/action-litmus_parallel** – [🔖 v0.1.0](https://github.com/puppetlabs-toy-chest/action-litmus_parallel/tree/v0.1.0)
+- **puppetlabs-toy-chest/action-litmus_parallel** – [🔖 v0.6.0](https://github.com/puppetlabs-toy-chest/action-litmus_parallel/tree/v0.6.0)
 
 ## 📅 2019-08-26
 - **OpenVoxProject/ezbake** – [🔖 2.1.2](https://github.com/OpenVoxProject/ezbake/tree/2.1.2)
 - **OpenVoxProject/jruby-utils** – [🔖 2.1.3](https://github.com/OpenVoxProject/jruby-utils/tree/2.1.3)
 - **OpenVoxProject/openfact** – [🔖 2.5.6](https://github.com/OpenVoxProject/openfact/tree/2.5.6)
+- **puppetlabs-toy-chest/razor-client** – [🔖 1.9.4](https://github.com/puppetlabs-toy-chest/razor-client/tree/1.9.4)
 - **voxpupuli/pdk-templates** – [🔖 1.13.0](https://github.com/voxpupuli/pdk-templates/tree/1.13.0)
 - **voxpupuli/ra10ke** – [🔖 v0.6.2](https://github.com/voxpupuli/ra10ke/tree/v0.6.2)
 
@@ -11483,6 +11595,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2019-08-16
 - **OpenVoxProject/clj-parent** – [🔖 4.0.4](https://github.com/OpenVoxProject/clj-parent/tree/4.0.4)
 - **OpenVoxProject/openvox-agent** – [🔖 6.8.0](https://github.com/OpenVoxProject/openvox-agent/tree/6.8.0)
+- **puppetlabs-toy-chest/razor-client** – [🔖 1.9.3](https://github.com/puppetlabs-toy-chest/razor-client/tree/1.9.3)
 
 ## 📅 2019-08-15
 - **OpenVoxProject/bolt-vanagon** – [🔖 1.29.0](https://github.com/OpenVoxProject/bolt-vanagon/tree/1.29.0)
@@ -11502,6 +11615,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openfact** – [🔖 V0.0.1](https://github.com/OpenVoxProject/openfact/tree/V0.0.1)
 - **OpenVoxProject/openvoxdb** – [🔖 6.5.0](https://github.com/OpenVoxProject/openvoxdb/tree/6.5.0)
 - **OpenVoxProject/puppet-runtime** – [🔖 201908130](https://github.com/OpenVoxProject/puppet-runtime/tree/201908130)
+- **puppetlabs-toy-chest/razor-client** – [🔖 1.9.2](https://github.com/puppetlabs-toy-chest/razor-client/tree/1.9.2)
 - **theforeman/foreman-js** – [🔖 v1.4.0](https://github.com/theforeman/foreman-js/tree/v1.4.0)
 - **voxpupuli/beaker-hostgenerator** – [🔖 1.1.36](https://github.com/voxpupuli/beaker-hostgenerator/tree/1.1.36)
 - **voxpupuli/container-puppetdb** – [🔖 6.5.0](https://github.com/voxpupuli/container-puppetdb/tree/6.5.0)
@@ -11524,6 +11638,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-elastic_stack** – [🔖 7.0.0](https://github.com/voxpupuli/puppet-elastic_stack/tree/7.0.0)
 
 ## 📅 2019-08-12
+- **puppetlabs-toy-chest/puppetlabs-windows_puppet_certificates** – [🔖 v0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-windows_puppet_certificates/tree/v0.1.0)
 - **theforeman/foreman-js** – [🔖 v1.3.1](https://github.com/theforeman/foreman-js/tree/v1.3.1)
 - **theforeman/foreman_bootdisk** – [🔖 v15.1.0](https://github.com/theforeman/foreman_bootdisk/tree/v15.1.0)
 
@@ -11564,6 +11679,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/jruby-utils** – [🔖 2.1.2](https://github.com/OpenVoxProject/jruby-utils/tree/2.1.2)
 - **OpenVoxProject/puppet-runtime** – [🔖 201908070](https://github.com/OpenVoxProject/puppet-runtime/tree/201908070)
 - **OpenVoxProject/puppet-runtime** – [🔖 201908071](https://github.com/OpenVoxProject/puppet-runtime/tree/201908071)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.8.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.8.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.8.1](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.8.1)
 - **theforeman/foreman-discovery-image** – [🔖 3.5.6](https://github.com/theforeman/foreman-discovery-image/tree/3.5.6)
 - **theforeman/foreman-js** – [🔖 @theforeman/vendor-core@0.4.0](https://github.com/theforeman/foreman-js/tree/@theforeman/vendor-core@0.4.0)
 - **theforeman/foreman-js** – [🔖 @theforeman/vendor-dev@0.4.0](https://github.com/theforeman/foreman-js/tree/@theforeman/vendor-dev@0.4.0)
@@ -11617,6 +11734,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/pdk-vanagon** – [🔖 1.12.0.0-rc.1](https://github.com/OpenVoxProject/pdk-vanagon/tree/1.12.0.0-rc.1)
 - **OpenVoxProject/pdk-vanagon** – [🔖 1.12.0.0-rc.2](https://github.com/OpenVoxProject/pdk-vanagon/tree/1.12.0.0-rc.2)
 - **OpenVoxProject/puppetlabs-cron_core** – [🔖 1.0.2](https://github.com/OpenVoxProject/puppetlabs-cron_core/tree/1.0.2)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.3.1](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.3.1)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.3.2](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.3.2)
 - **theforeman/foreman** – [🔖 1.23.0-RC1](https://github.com/theforeman/foreman/tree/1.23.0-RC1)
 - **theforeman/foreman-installer** – [🔖 1.23.0-RC1](https://github.com/theforeman/foreman-installer/tree/1.23.0-RC1)
 - **theforeman/foreman-selinux** – [🔖 1.23.0-RC1](https://github.com/theforeman/foreman-selinux/tree/1.23.0-RC1)
@@ -11707,6 +11826,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppetlabs-docker** – [🔖 v3.7.0](https://github.com/voxpupuli/puppetlabs-docker/tree/v3.7.0)
 
 ## 📅 2019-07-17
+- **puppetlabs-toy-chest/puppetlabs-pipelines** – [🔖 1.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-pipelines/tree/1.0.1)
 - **voxpupuli/openvox-strings** – [🔖 v2.3.0](https://github.com/voxpupuli/openvox-strings/tree/v2.3.0)
 - **voxpupuli/puppet-proxysql** – [🔖 v3.1.0](https://github.com/voxpupuli/puppet-proxysql/tree/v3.1.0)
 - **voxpupuli/r10k** – [🔖 3.2.1](https://github.com/voxpupuli/r10k/tree/3.2.1)
@@ -11759,6 +11879,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2019-07-10
 - **OpenVoxProject/openvox** – [🔖 6.4.3](https://github.com/OpenVoxProject/openvox/tree/6.4.3)
 - **OpenVoxProject/pxp-agent** – [🔖 1.12.2](https://github.com/OpenVoxProject/pxp-agent/tree/1.12.2)
+- **puppetlabs-toy-chest/razor-el-mk** – [🔖 release-009](https://github.com/puppetlabs-toy-chest/razor-el-mk/tree/release-009)
 - **theforeman/foreman_openscap** – [🔖 v1.0.4](https://github.com/theforeman/foreman_openscap/tree/v1.0.4)
 - **theforeman/hammer-cli-foreman** – [🔖 0.17.0.3](https://github.com/theforeman/hammer-cli-foreman/tree/0.17.0.3)
 - **theforeman/hammer-cli-foreman** – [🔖 0.17.1](https://github.com/theforeman/hammer-cli-foreman/tree/0.17.1)
@@ -11806,6 +11927,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/pdk-vanagon** – [🔖 1.11.2.0.pre](https://github.com/OpenVoxProject/pdk-vanagon/tree/1.11.2.0.pre)
 - **OpenVoxProject/puppet-runtime** – [🔖 201907030](https://github.com/OpenVoxProject/puppet-runtime/tree/201907030)
 - **OpenVoxProject/puppet-runtime** – [🔖 201907031](https://github.com/OpenVoxProject/puppet-runtime/tree/201907031)
+- **puppetlabs-toy-chest/chloride** – [🔖 0.4.2](https://github.com/puppetlabs-toy-chest/chloride/tree/0.4.2)
 - **voxpupuli/container-puppetdb** – [🔖 6.4.0](https://github.com/voxpupuli/container-puppetdb/tree/6.4.0)
 
 ## 📅 2019-07-02
@@ -11814,6 +11936,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/leatherman** – [🔖 1.5.5](https://github.com/OpenVoxProject/leatherman/tree/1.5.5)
 - **OpenVoxProject/openfact** – [🔖 2.5.2](https://github.com/OpenVoxProject/openfact/tree/2.5.2)
 - **OpenVoxProject/openfact** – [🔖 3.14.2](https://github.com/OpenVoxProject/openfact/tree/3.14.2)
+- **puppetlabs-toy-chest/puppetlabs-puppetserver_gem** – [🔖 1.1.1](https://github.com/puppetlabs-toy-chest/puppetlabs-puppetserver_gem/tree/1.1.1)
 - **theforeman/foreman** – [🔖 1.20.3](https://github.com/theforeman/foreman/tree/1.20.3)
 - **theforeman/foreman-installer** – [🔖 1.20.3](https://github.com/theforeman/foreman-installer/tree/1.20.3)
 - **theforeman/foreman-selinux** – [🔖 1.20.3](https://github.com/theforeman/foreman-selinux/tree/1.20.3)
@@ -11848,6 +11971,10 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/clj-parent** – [🔖 3.0.0](https://github.com/OpenVoxProject/clj-parent/tree/3.0.0)
 - **OpenVoxProject/openbolt** – [🔖 1.25.0](https://github.com/OpenVoxProject/openbolt/tree/1.25.0)
 - **OpenVoxProject/pdk-vanagon** – [🔖 1.11.0.0](https://github.com/OpenVoxProject/pdk-vanagon/tree/1.11.0.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.4.3](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.4.3)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.7.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.7.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.7.1](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.7.1)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.7.2](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.7.2)
 - **theforeman/foreman-js** – [🔖 @theforeman/vendor-core@0.1.0-alpha.7](https://github.com/theforeman/foreman-js/tree/@theforeman/vendor-core@0.1.0-alpha.7)
 - **theforeman/foreman-js** – [🔖 @theforeman/vendor-dev@0.1.0-alpha.7](https://github.com/theforeman/foreman-js/tree/@theforeman/vendor-dev@0.1.0-alpha.7)
 - **theforeman/foreman-js** – [🔖 @theforeman/vendor@0.1.0-alpha.7](https://github.com/theforeman/foreman-js/tree/@theforeman/vendor@0.1.0-alpha.7)
@@ -11856,6 +11983,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2019-06-26
 - **OpenVoxProject/openvox-agent** – [🔖 6.6.0](https://github.com/OpenVoxProject/openvox-agent/tree/6.6.0)
 - **OpenVoxProject/pdk-vanagon** – [🔖 1.11.0.0-rc.1](https://github.com/OpenVoxProject/pdk-vanagon/tree/1.11.0.0-rc.1)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.0.10](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.0.10)
 - **theforeman/foreman_openscap** – [🔖 v1.0.2](https://github.com/theforeman/foreman_openscap/tree/v1.0.2)
 - **theforeman/foreman_openscap** – [🔖 v1.0.3](https://github.com/theforeman/foreman_openscap/tree/v1.0.3)
 - **voxpupuli/pdk-templates** – [🔖 1.11.0](https://github.com/voxpupuli/pdk-templates/tree/1.11.0)
@@ -11915,6 +12043,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-r10k** – [🔖 v7.0.0](https://github.com/voxpupuli/puppet-r10k/tree/v7.0.0)
 
 ## 📅 2019-06-17
+- **puppetlabs-toy-chest/horsehead** – [🔖 v1.2.0](https://github.com/puppetlabs-toy-chest/horsehead/tree/v1.2.0)
+- **puppetlabs-toy-chest/puppetlabs-ruby** – [🔖 v1.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-ruby/tree/v1.0.1)
 - **voxpupuli/beaker-openstack** – [🔖 0.3.0](https://github.com/voxpupuli/beaker-openstack/tree/0.3.0)
 - **voxpupuli/puppet-borg** – [🔖 v1.0.0](https://github.com/voxpupuli/puppet-borg/tree/v1.0.0)
 - **voxpupuli/puppet-selinux** – [🔖 v3.0.0](https://github.com/voxpupuli/puppet-selinux/tree/v3.0.0)
@@ -11935,6 +12065,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2019-06-13
 - **OpenVoxProject/openvoxdb** – [🔖 6.3.3](https://github.com/OpenVoxProject/openvoxdb/tree/6.3.3)
+- **puppetlabs-toy-chest/puppetlabs-translate** – [🔖 v2.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-translate/tree/v2.0.0)
 - **theforeman/puppet-candlepin** – [🔖 7.0.1](https://github.com/theforeman/puppet-candlepin/tree/7.0.1)
 - **theforeman/puppet-certs** – [🔖 6.0.1](https://github.com/theforeman/puppet-certs/tree/6.0.1)
 - **theforeman/puppet-foreman_proxy** – [🔖 11.1.0](https://github.com/theforeman/puppet-foreman_proxy/tree/11.1.0)
@@ -12024,6 +12155,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/ezbake** – [🔖 2.0.3](https://github.com/OpenVoxProject/ezbake/tree/2.0.3)
 - **OpenVoxProject/openbolt** – [🔖 1.21.0](https://github.com/OpenVoxProject/openbolt/tree/1.21.0)
 - **OpenVoxProject/packaging** – [🔖 0.99.33](https://github.com/OpenVoxProject/packaging/tree/0.99.33)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.5.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.5.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.6.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.6.0)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.3.0](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.3.0)
 - **voxpupuli/onceover-codequality** – [🔖 v0.5.2](https://github.com/voxpupuli/onceover-codequality/tree/v0.5.2)
 - **voxpupuli/onceover-codequality** – [🔖 v0.5.3](https://github.com/voxpupuli/onceover-codequality/tree/v0.5.3)
 - **voxpupuli/puppet-archive** – [🔖 v4.0.0](https://github.com/voxpupuli/puppet-archive/tree/v4.0.0)
@@ -12219,6 +12353,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openvox-agent** – [🔖 6.4.2](https://github.com/OpenVoxProject/openvox-agent/tree/6.4.2)
 - **OpenVoxProject/puppet-runtime** – [🔖 201904240](https://github.com/OpenVoxProject/puppet-runtime/tree/201904240)
 - **OpenVoxProject/pxp-agent** – [🔖 1.11.1](https://github.com/OpenVoxProject/pxp-agent/tree/1.11.1)
+- **puppetlabs-toy-chest/puppetlabs-dsc** – [🔖 1.9.2](https://github.com/puppetlabs-toy-chest/puppetlabs-dsc/tree/1.9.2)
 - **theforeman/foreman** – [🔖 1.22.0-RC1](https://github.com/theforeman/foreman/tree/1.22.0-RC1)
 - **theforeman/foreman-installer** – [🔖 1.22.0-RC1](https://github.com/theforeman/foreman-installer/tree/1.22.0-RC1)
 - **theforeman/foreman-selinux** – [🔖 1.22.0-RC1](https://github.com/theforeman/foreman-selinux/tree/1.22.0-RC1)
@@ -12248,6 +12383,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2019-04-18
 - **OpenVoxProject/packaging** – [🔖 0.99.29](https://github.com/OpenVoxProject/packaging/tree/0.99.29)
 - **OpenVoxProject/puppet-runtime** – [🔖 201904180](https://github.com/OpenVoxProject/puppet-runtime/tree/201904180)
+- **puppetlabs-toy-chest/puppetlabs-dsc** – [🔖 v1.9.1](https://github.com/puppetlabs-toy-chest/puppetlabs-dsc/tree/v1.9.1)
 - **theforeman/foreman** – [🔖 1.21.3](https://github.com/theforeman/foreman/tree/1.21.3)
 - **theforeman/foreman-installer** – [🔖 1.21.3](https://github.com/theforeman/foreman-installer/tree/1.21.3)
 - **theforeman/foreman-selinux** – [🔖 1.21.3](https://github.com/theforeman/foreman-selinux/tree/1.21.3)
@@ -12274,6 +12410,9 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2019-04-16
 - **OpenVoxProject/openvox** – [🔖 5.5.14](https://github.com/OpenVoxProject/openvox/tree/5.5.14)
 - **OpenVoxProject/openvoxdb** – [🔖 6.3.2](https://github.com/OpenVoxProject/openvoxdb/tree/6.3.2)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.9.5](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.9.5)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.9.5.0](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.9.5.0)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.9.5.1](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.9.5.1)
 - **theforeman/puppet-certs** – [🔖 6.0.0](https://github.com/theforeman/puppet-certs/tree/6.0.0)
 - **voxpupuli/r10k** – [🔖 3.2.0](https://github.com/voxpupuli/r10k/tree/3.2.0)
 
@@ -12339,6 +12478,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2019-04-05
 - **OpenVoxProject/openvox** – [🔖 6.0.8](https://github.com/OpenVoxProject/openvox/tree/6.0.8)
+- **puppetlabs-toy-chest/puppetlabs-resource** – [🔖 0.3.1](https://github.com/puppetlabs-toy-chest/puppetlabs-resource/tree/0.3.1)
 - **theforeman/foreman** – [🔖 1.21.2](https://github.com/theforeman/foreman/tree/1.21.2)
 - **theforeman/foreman-installer** – [🔖 1.21.2](https://github.com/theforeman/foreman-installer/tree/1.21.2)
 - **theforeman/foreman-selinux** – [🔖 1.21.2](https://github.com/theforeman/foreman-selinux/tree/1.21.2)
@@ -12351,6 +12491,9 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2019-04-04
 - **OpenVoxProject/vanagon** – [🔖 0.15.22](https://github.com/OpenVoxProject/vanagon/tree/0.15.22)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.2.0](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.2.0)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.2.1](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.2.1)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.2.3](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.2.3)
 - **theforeman/foreman-discovery-image** – [🔖 3.5.5](https://github.com/theforeman/foreman-discovery-image/tree/3.5.5)
 - **theforeman/katello-selinux** – [🔖 3.1.1](https://github.com/theforeman/katello-selinux/tree/3.1.1)
 
@@ -12388,6 +12531,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2019-03-28
 - **OpenVoxProject/clj-parent** – [🔖 1.7.23](https://github.com/OpenVoxProject/clj-parent/tree/1.7.23)
 - **OpenVoxProject/puppet-runtime** – [🔖 201903280](https://github.com/OpenVoxProject/puppet-runtime/tree/201903280)
+- **puppetlabs-toy-chest/puppetlabs-dsc** – [🔖 1.9.0](https://github.com/puppetlabs-toy-chest/puppetlabs-dsc/tree/1.9.0)
 - **theforeman/foreman** – [🔖 1.21.1](https://github.com/theforeman/foreman/tree/1.21.1)
 - **theforeman/foreman-selinux** – [🔖 1.21.1](https://github.com/theforeman/foreman-selinux/tree/1.21.1)
 - **theforeman/foreman_virt_who_configure** – [🔖 v0.3.3](https://github.com/theforeman/foreman_virt_who_configure/tree/v0.3.3)
@@ -12395,6 +12539,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2019-03-27
 - **voxpupuli/onceover** – [Suppress ruby warnings](https://github.com/voxpupuli/onceover/releases/tag/v3.12.3)
+- **puppetlabs-toy-chest/puppetlabs-mount_providers** – [🔖 2.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-mount_providers/tree/2.0.1)
 - **theforeman/foreman_ansible** – [🔖 v2.2.14](https://github.com/theforeman/foreman_ansible/tree/v2.2.14)
 - **voxpupuli/rundeck** – [🔖 v3.0.19](https://github.com/voxpupuli/rundeck/tree/v3.0.19)
 
@@ -12456,6 +12601,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/puppet-runtime** – [🔖 201903190](https://github.com/OpenVoxProject/puppet-runtime/tree/201903190)
 - **OpenVoxProject/puppet-runtime** – [🔖 201903191](https://github.com/OpenVoxProject/puppet-runtime/tree/201903191)
 - **OpenVoxProject/puppet-runtime** – [🔖 201903192](https://github.com/OpenVoxProject/puppet-runtime/tree/201903192)
+- **puppetlabs-toy-chest/puppetlabs-mount_providers** – [🔖 2.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-mount_providers/tree/2.0.0)
 - **theforeman/foreman_openscap** – [🔖 v0.12.1](https://github.com/theforeman/foreman_openscap/tree/v0.12.1)
 - **theforeman/hammer_cli_foreman_openscap** – [🔖 v0.1.7](https://github.com/theforeman/hammer_cli_foreman_openscap/tree/v0.1.7)
 - **voxpupuli/puppet-aptly** – [🔖 v1.0.0](https://github.com/voxpupuli/puppet-aptly/tree/v1.0.0)
@@ -12605,6 +12751,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/bolt-vanagon** – [🔖 1.13.0](https://github.com/OpenVoxProject/bolt-vanagon/tree/1.13.0)
 - **OpenVoxProject/clj-parent** – [🔖 2.6.4](https://github.com/OpenVoxProject/clj-parent/tree/2.6.4)
 - **OpenVoxProject/openbolt** – [🔖 1.13.0](https://github.com/OpenVoxProject/openbolt/tree/1.13.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.4.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.4.0)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.4.1](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.4.1)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.4.2](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.4.2)
 - **theforeman/foreman_virt_who_configure** – [🔖 v0.4.0](https://github.com/theforeman/foreman_virt_who_configure/tree/v0.4.0)
 - **voxpupuli/puppet-bacula** – [🔖 5.5.1](https://github.com/voxpupuli/puppet-bacula/tree/5.5.1)
 - **voxpupuli/puppet-ldapquery** – [🔖 1.0.3](https://github.com/voxpupuli/puppet-ldapquery/tree/1.0.3)
@@ -12704,6 +12853,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2019-02-11
 - **OpenVoxProject/puppetlabs-cron_core** – [🔖 1.0.1](https://github.com/OpenVoxProject/puppetlabs-cron_core/tree/1.0.1)
 - **OpenVoxProject/puppetlabs-zone_core** – [🔖 1.0.2](https://github.com/OpenVoxProject/puppetlabs-zone_core/tree/1.0.2)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.3.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.3.0)
 - **voxpupuli/beaker-docker** – [🔖 0.5.2](https://github.com/voxpupuli/beaker-docker/tree/0.5.2)
 - **voxpupuli/beaker-vagrant** – [🔖 0.6.2](https://github.com/voxpupuli/beaker-vagrant/tree/0.6.2)
 - **voxpupuli/container-puppetdb** – [🔖 5.1.6](https://github.com/voxpupuli/container-puppetdb/tree/5.1.6)
@@ -12726,6 +12876,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-consul** – [🔖 v5.0.4](https://github.com/voxpupuli/puppet-consul/tree/v5.0.4)
 
 ## 📅 2019-02-09
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.0.7](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.0.7)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.0.8](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.0.8)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.0.9](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.0.9)
 - **voxpupuli/container-puppetserver** – [🔖 6.0.4](https://github.com/voxpupuli/container-puppetserver/tree/6.0.4)
 - **voxpupuli/container-puppetserver** – [🔖 6.0.5](https://github.com/voxpupuli/container-puppetserver/tree/6.0.5)
 - **voxpupuli/puppet-lint-absolute_classname-check** – [🔖 1.0.0](https://github.com/voxpupuli/puppet-lint-absolute_classname-check/tree/1.0.0)
@@ -12736,6 +12889,13 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/bolt-vanagon** – [🔖 1.11.0](https://github.com/OpenVoxProject/bolt-vanagon/tree/1.11.0)
 - **OpenVoxProject/openbolt** – [🔖 1.11.0](https://github.com/OpenVoxProject/openbolt/tree/1.11.0)
 - **OpenVoxProject/pxp-agent** – [🔖 1.10.5](https://github.com/OpenVoxProject/pxp-agent/tree/1.10.5)
+- **puppetlabs-toy-chest/horsehead** – [🔖 v1.1.1](https://github.com/puppetlabs-toy-chest/horsehead/tree/v1.1.1)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 2.6.6](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/2.6.6)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 2.6.7](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/2.6.7)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 2.6.8](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/2.6.8)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 2.6.9](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/2.6.9)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.0.4](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.0.4)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.1.1](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.1.1)
 - **theforeman/foreman-tasks** – [🔖 core-v0.3.0](https://github.com/theforeman/foreman-tasks/tree/core-v0.3.0)
 - **theforeman/foreman-tasks** – [🔖 v0.15.0](https://github.com/theforeman/foreman-tasks/tree/v0.15.0)
 - **theforeman/foreman-tasks** – [🔖 v0.3.0](https://github.com/theforeman/foreman-tasks/tree/v0.3.0)
@@ -12767,10 +12927,13 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/puppet-runtime** – [🔖 201902050](https://github.com/OpenVoxProject/puppet-runtime/tree/201902050)
 - **OpenVoxProject/puppet-runtime** – [🔖 201902051](https://github.com/OpenVoxProject/puppet-runtime/tree/201902051)
 - **OpenVoxProject/puppet-runtime** – [🔖 201902052](https://github.com/OpenVoxProject/puppet-runtime/tree/201902052)
+- **puppetlabs-toy-chest/horsehead** – [🔖 v1.1.0](https://github.com/puppetlabs-toy-chest/horsehead/tree/v1.1.0)
 
 ## 📅 2019-02-04
 - **OpenVoxProject/puppet-runtime** – [🔖 201902040](https://github.com/OpenVoxProject/puppet-runtime/tree/201902040)
 - **OpenVoxProject/pxp-agent** – [🔖 1.9.7](https://github.com/OpenVoxProject/pxp-agent/tree/1.9.7)
+- **puppetlabs-toy-chest/horsehead** – [🔖 v1.0.0](https://github.com/puppetlabs-toy-chest/horsehead/tree/v1.0.0)
+- **puppetlabs-toy-chest/horsehead** – [🔖 v1.0.1](https://github.com/puppetlabs-toy-chest/horsehead/tree/v1.0.1)
 
 ## 📅 2019-02-03
 - **voxpupuli/puppet-openvpn** – [🔖 v8.1.0](https://github.com/voxpupuli/puppet-openvpn/tree/v8.1.0)
@@ -12840,6 +13003,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2019-01-22
 - **OpenVoxProject/openvox** – [🔖 6.2.0](https://github.com/OpenVoxProject/openvox/tree/6.2.0)
 - **OpenVoxProject/openvox-server** – [🔖 6.2.0](https://github.com/OpenVoxProject/openvox-server/tree/6.2.0)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.9.4.0](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.9.4.0)
 - **theforeman/foreman** – [🔖 1.21.0-RC2](https://github.com/theforeman/foreman/tree/1.21.0-RC2)
 - **theforeman/foreman-installer** – [🔖 1.21.0-RC2](https://github.com/theforeman/foreman-installer/tree/1.21.0-RC2)
 - **theforeman/foreman-selinux** – [🔖 1.21.0-RC2](https://github.com/theforeman/foreman-selinux/tree/1.21.0-RC2)
@@ -12904,6 +13068,13 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/puppetlabs-host_core** – [🔖 1.0.2](https://github.com/OpenVoxProject/puppetlabs-host_core/tree/1.0.2)
 - **OpenVoxProject/puppetlabs-sshkeys_core** – [🔖 1.0.2](https://github.com/OpenVoxProject/puppetlabs-sshkeys_core/tree/1.0.2)
 - **OpenVoxProject/puppetlabs-yumrepo_core** – [🔖 1.0.3](https://github.com/OpenVoxProject/puppetlabs-yumrepo_core/tree/1.0.3)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.2.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.2.0)
+- **puppetlabs-toy-chest/puppetlabs-dsc** – [🔖 1.8.0](https://github.com/puppetlabs-toy-chest/puppetlabs-dsc/tree/1.8.0)
+- **puppetlabs-toy-chest/puppetlabs-k5login_core** – [🔖 1.0.2](https://github.com/puppetlabs-toy-chest/puppetlabs-k5login_core/tree/1.0.2)
+- **puppetlabs-toy-chest/puppetlabs-macdslocal_core** – [🔖 1.0.3](https://github.com/puppetlabs-toy-chest/puppetlabs-macdslocal_core/tree/1.0.3)
+- **puppetlabs-toy-chest/puppetlabs-maillist_core** – [🔖 1.0.3](https://github.com/puppetlabs-toy-chest/puppetlabs-maillist_core/tree/1.0.3)
+- **puppetlabs-toy-chest/puppetlabs-nagios_core** – [🔖 1.0.3](https://github.com/puppetlabs-toy-chest/puppetlabs-nagios_core/tree/1.0.3)
+- **puppetlabs-toy-chest/puppetlabs-network_device_core** – [🔖 1.0.3](https://github.com/puppetlabs-toy-chest/puppetlabs-network_device_core/tree/1.0.3)
 - **theforeman/puppet-certs** – [🔖 5.0.0](https://github.com/theforeman/puppet-certs/tree/5.0.0)
 - **theforeman/puppet-qpid** – [🔖 4.4.0](https://github.com/theforeman/puppet-qpid/tree/4.4.0)
 - **voxpupuli/puppet-lint-param-docs** – [🔖 v1.5.0](https://github.com/voxpupuli/puppet-lint-param-docs/tree/v1.5.0)
@@ -13006,6 +13177,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/puppet-runtime** – [🔖 201812200](https://github.com/OpenVoxProject/puppet-runtime/tree/201812200)
 - **OpenVoxProject/puppet-runtime** – [🔖 201812201](https://github.com/OpenVoxProject/puppet-runtime/tree/201812201)
 - **OpenVoxProject/vanagon** – [🔖 0.15.19](https://github.com/OpenVoxProject/vanagon/tree/0.15.19)
+- **puppetlabs-toy-chest/puppetlabs-puppetserver_gem** – [🔖 1.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-puppetserver_gem/tree/1.1.0)
 - **voxpupuli/puppet-ferm** – [🔖 v1.4.0](https://github.com/voxpupuli/puppet-ferm/tree/v1.4.0)
 - **voxpupuli/rundeck** – [🔖 v3.0.10](https://github.com/voxpupuli/rundeck/tree/v3.0.10)
 
@@ -13039,6 +13211,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openvox** – [🔖 6.1.0](https://github.com/OpenVoxProject/openvox/tree/6.1.0)
 - **OpenVoxProject/openvoxserver-ca** – [🔖 1.2.1](https://github.com/OpenVoxProject/openvoxserver-ca/tree/1.2.1)
 - **OpenVoxProject/puppet-runtime** – [🔖 201812140](https://github.com/OpenVoxProject/puppet-runtime/tree/201812140)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.1.0](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.1.0)
 - **theforeman/obal** – [🔖 obal-0.2.0](https://github.com/theforeman/obal/tree/obal-0.2.0)
 
 ## 📅 2018-12-13
@@ -13064,6 +13237,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2018-12-11
 - **OpenVoxProject/openvoxserver-ca** – [🔖 1.2.0](https://github.com/OpenVoxProject/openvoxserver-ca/tree/1.2.0)
 - **OpenVoxProject/puppet-resource_api** – [🔖 v1.6.3](https://github.com/OpenVoxProject/puppet-resource_api/tree/v1.6.3)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.0.5](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.0.5)
 - **theforeman/foreman-tasks** – [🔖 v0.14.4](https://github.com/theforeman/foreman-tasks/tree/v0.14.4)
 
 ## 📅 2018-12-10
@@ -13087,6 +13261,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2018-12-06
 - **OpenVoxProject/bolt-vanagon** – [🔖 1.5.0](https://github.com/OpenVoxProject/bolt-vanagon/tree/1.5.0)
 - **OpenVoxProject/openbolt** – [🔖 1.5.0](https://github.com/OpenVoxProject/openbolt/tree/1.5.0)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.1.0](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.1.0)
 - **theforeman/foreman** – [🔖 1.20.1](https://github.com/theforeman/foreman/tree/1.20.1)
 - **theforeman/foreman-installer** – [🔖 1.20.1](https://github.com/theforeman/foreman-installer/tree/1.20.1)
 - **theforeman/foreman-selinux** – [🔖 1.20.1](https://github.com/theforeman/foreman-selinux/tree/1.20.1)
@@ -13126,6 +13301,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/puppet-runtime** – [🔖 201811280](https://github.com/OpenVoxProject/puppet-runtime/tree/201811280)
 - **OpenVoxProject/puppetlabs-yumrepo_core** – [🔖 1.0.2](https://github.com/OpenVoxProject/puppetlabs-yumrepo_core/tree/1.0.2)
 - **OpenVoxProject/pxp-agent** – [🔖 1.9.6](https://github.com/OpenVoxProject/pxp-agent/tree/1.9.6)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.9.4](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.9.4)
 - **theforeman/foreman_omaha** – [🔖 3.0.0](https://github.com/theforeman/foreman_omaha/tree/3.0.0)
 - **theforeman/puppet-certs** – [🔖 4.4.2](https://github.com/theforeman/puppet-certs/tree/4.4.2)
 - **theforeman/puppet-katello** – [🔖 8.2.1](https://github.com/theforeman/puppet-katello/tree/8.2.1)
@@ -13234,6 +13410,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2018-11-01
 - **OpenVoxProject/vanagon** – [🔖 0.15.16](https://github.com/OpenVoxProject/vanagon/tree/0.15.16)
+- **puppetlabs-toy-chest/puppetlabs-dism** – [🔖 1.3.1](https://github.com/puppetlabs-toy-chest/puppetlabs-dism/tree/1.3.1)
 - **voxpupuli/puppet-postfix** – [🔖 1.7.0](https://github.com/voxpupuli/puppet-postfix/tree/1.7.0)
 
 ## 📅 2018-10-31
@@ -13271,6 +13448,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/clj-parent** – [🔖 2.4.0](https://github.com/OpenVoxProject/clj-parent/tree/2.4.0)
 - **OpenVoxProject/puppet-resource_api** – [🔖 v1.6.1](https://github.com/OpenVoxProject/puppet-resource_api/tree/v1.6.1)
 - **OpenVoxProject/puppet-resource_api** – [🔖 v1.6.2](https://github.com/OpenVoxProject/puppet-resource_api/tree/v1.6.2)
+- **puppetlabs-toy-chest/puppetlabs-dism** – [🔖 1.3.0](https://github.com/puppetlabs-toy-chest/puppetlabs-dism/tree/1.3.0)
 - **theforeman/foreman-installer** – [🔖 1.20.0-RC1.1](https://github.com/theforeman/foreman-installer/tree/1.20.0-RC1.1)
 - **voxpupuli/puppet-safe_roles** – [🔖 v1.2.2](https://github.com/voxpupuli/puppet-safe_roles/tree/v1.2.2)
 
@@ -13355,6 +13533,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/clj-parent** – [🔖 1.7.17](https://github.com/OpenVoxProject/clj-parent/tree/1.7.17)
 - **OpenVoxProject/openfact** – [🔖 3.11.5](https://github.com/OpenVoxProject/openfact/tree/3.11.5)
 - **OpenVoxProject/packaging** – [🔖 0.99.16](https://github.com/OpenVoxProject/packaging/tree/0.99.16)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.0.3](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.0.3)
+- **puppetlabs-toy-chest/puppet-agent-docker** – [🔖 6.0.4](https://github.com/puppetlabs-toy-chest/puppet-agent-docker/tree/6.0.4)
 - **theforeman/foreman** – [🔖 1.20.0-RC1](https://github.com/theforeman/foreman/tree/1.20.0-RC1)
 - **theforeman/foreman-selinux** – [🔖 1.20.0-RC1](https://github.com/theforeman/foreman-selinux/tree/1.20.0-RC1)
 - **theforeman/smart-proxy** – [🔖 1.20.0-RC1](https://github.com/theforeman/smart-proxy/tree/1.20.0-RC1)
@@ -13374,6 +13554,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/bolt-vanagon** – [🔖 1.1.0](https://github.com/OpenVoxProject/bolt-vanagon/tree/1.1.0)
 - **OpenVoxProject/openbolt** – [🔖 1.1.0](https://github.com/OpenVoxProject/openbolt/tree/1.1.0)
 - **OpenVoxProject/pxp-agent** – [🔖 1.10.3](https://github.com/OpenVoxProject/pxp-agent/tree/1.10.3)
+- **puppetlabs-toy-chest/puppetlabs-pipelines** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-pipelines/tree/1.0.0)
 - **theforeman/puppet-puppet** – [🔖 10.0.0](https://github.com/theforeman/puppet-puppet/tree/10.0.0)
 - **voxpupuli/puppet-openvpn** – [🔖 v7.4.0](https://github.com/voxpupuli/puppet-openvpn/tree/v7.4.0)
 - **voxpupuli/puppet-vault_lookup** – [🔖 v0.1.1](https://github.com/voxpupuli/puppet-vault_lookup/tree/v0.1.1)
@@ -13427,9 +13608,12 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/leatherman** – [🔖 1.4.4](https://github.com/OpenVoxProject/leatherman/tree/1.4.4)
 - **OpenVoxProject/leatherman** – [🔖 1.5.2](https://github.com/OpenVoxProject/leatherman/tree/1.5.2)
 - **OpenVoxProject/puppet-runtime** – [🔖 201810110](https://github.com/OpenVoxProject/puppet-runtime/tree/201810110)
+- **puppetlabs-toy-chest/puppetlabs-dsc** – [🔖 1.7.0](https://github.com/puppetlabs-toy-chest/puppetlabs-dsc/tree/1.7.0)
 - **theforeman/foreman_openscap** – [🔖 v0.10.4](https://github.com/theforeman/foreman_openscap/tree/v0.10.4)
 
 ## 📅 2018-10-10
+- **puppetlabs-toy-chest/puppetlabs-pipelines** – [🔖 0.1.1](https://github.com/puppetlabs-toy-chest/puppetlabs-pipelines/tree/0.1.1)
+- **puppetlabs-toy-chest/puppetlabs-pipelines** – [🔖 0.1.2](https://github.com/puppetlabs-toy-chest/puppetlabs-pipelines/tree/0.1.2)
 - **voxpupuli/beaker-hostgenerator** – [🔖 1.1.18](https://github.com/voxpupuli/beaker-hostgenerator/tree/1.1.18)
 - **voxpupuli/puppet-augeasproviders_core** – [🔖 2.2.0](https://github.com/voxpupuli/puppet-augeasproviders_core/tree/2.2.0)
 - **voxpupuli/puppet-vault_lookup** – [🔖 v0.1.0](https://github.com/voxpupuli/puppet-vault_lookup/tree/v0.1.0)
@@ -13495,6 +13679,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2018-10-03
 - **OpenVoxProject/openvox** – [🔖 6.0.2](https://github.com/OpenVoxProject/openvox/tree/6.0.2)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 2.6.5](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/2.6.5)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.0.3](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.0.3)
 - **voxpupuli/puppet-consul** – [🔖 v3.4.1](https://github.com/voxpupuli/puppet-consul/tree/v3.4.1)
 - **voxpupuli/puppet-consul** – [🔖 v3.4.2](https://github.com/voxpupuli/puppet-consul/tree/v3.4.2)
 - **voxpupuli/puppet-make** – [🔖 v2.1.1](https://github.com/voxpupuli/puppet-make/tree/v2.1.1)
@@ -13504,6 +13690,9 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2018-10-02
 - **OpenVoxProject/puppetlabs-augeas_core** – [🔖 1.0.3](https://github.com/OpenVoxProject/puppetlabs-augeas_core/tree/1.0.3)
+- **puppetlabs-toy-chest/puppetlabs-nagios_core** – [🔖 1.0.2](https://github.com/puppetlabs-toy-chest/puppetlabs-nagios_core/tree/1.0.2)
+- **puppetlabs-toy-chest/puppetlabs-network_device_core** – [🔖 1.0.2](https://github.com/puppetlabs-toy-chest/puppetlabs-network_device_core/tree/1.0.2)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.9.3.0](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.9.3.0)
 - **voxpupuli/puppet-openvoxdb** – [🔖 7.1.0](https://github.com/voxpupuli/puppet-openvoxdb/tree/7.1.0)
 - **voxpupuli/puppet-os_patching** – [🔖 0.6.0](https://github.com/voxpupuli/puppet-os_patching/tree/0.6.0)
 - **voxpupuli/puppet-os_patching** – [🔖 0.6.1](https://github.com/voxpupuli/puppet-os_patching/tree/0.6.1)
@@ -13523,6 +13712,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2018-09-28
 - **OpenVoxProject/openvoxdb-cli** – [🔖 1.2.5](https://github.com/OpenVoxProject/openvoxdb-cli/tree/1.2.5)
 - **OpenVoxProject/pxp-agent** – [🔖 1.10.2](https://github.com/OpenVoxProject/pxp-agent/tree/1.10.2)
+- **puppetlabs-toy-chest/puppetlabs-resource** – [🔖 0.3.0](https://github.com/puppetlabs-toy-chest/puppetlabs-resource/tree/0.3.0)
 - **voxpupuli/puppet-extlib** – [🔖 v3.0.0](https://github.com/voxpupuli/puppet-extlib/tree/v3.0.0)
 - **voxpupuli/r10k** – [🔖 3.0.2](https://github.com/voxpupuli/r10k/tree/3.0.2)
 
@@ -13531,6 +13721,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/leatherman** – [🔖 1.4.3](https://github.com/OpenVoxProject/leatherman/tree/1.4.3)
 - **OpenVoxProject/openbolt** – [🔖 0.24.0](https://github.com/OpenVoxProject/openbolt/tree/0.24.0)
 - **OpenVoxProject/pxp-agent** – [🔖 1.9.5](https://github.com/OpenVoxProject/pxp-agent/tree/1.9.5)
+- **puppetlabs-toy-chest/puppetlabs-translate** – [🔖 1.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-translate/tree/1.2.0)
 - **theforeman/foreman_hooks** – [🔖 v0.3.16](https://github.com/theforeman/foreman_hooks/tree/v0.3.16)
 - **theforeman/puppetlabs-apache** – [🔖 3.4.0](https://github.com/theforeman/puppetlabs-apache/tree/3.4.0)
 - **theforeman/puppetlabs-postgresql** – [🔖 5.10.0](https://github.com/theforeman/puppetlabs-postgresql/tree/5.10.0)
@@ -13708,6 +13899,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/onceover** – [Added details to `onceover show puppetfile`](https://github.com/voxpupuli/onceover/releases/tag/v3.8.0)
 - **OpenVoxProject/bolt-vanagon** – [🔖 0.22.0](https://github.com/OpenVoxProject/bolt-vanagon/tree/0.22.0)
 - **OpenVoxProject/openbolt** – [🔖 0.22.0](https://github.com/OpenVoxProject/openbolt/tree/0.22.0)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.9.3](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.9.3)
 - **voxpupuli/modulesync_config** – [🔖 2.0.0](https://github.com/voxpupuli/modulesync_config/tree/2.0.0)
 - **voxpupuli/puppet-rabbitmq** – [🔖 v8.3.0](https://github.com/voxpupuli/puppet-rabbitmq/tree/v8.3.0)
 - **voxpupuli/rundeck** – [🔖 v2.11.6](https://github.com/voxpupuli/rundeck/tree/v2.11.6)
@@ -13767,6 +13959,9 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2018-08-27
 - **OpenVoxProject/openvoxserver-ca** – [🔖 0.4.2](https://github.com/OpenVoxProject/openvoxserver-ca/tree/0.4.2)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.0.0](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.0.0)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.0.1](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.0.1)
+- **puppetlabs-toy-chest/r10k-docker** – [🔖 3.0.2](https://github.com/puppetlabs-toy-chest/r10k-docker/tree/3.0.2)
 - **voxpupuli/beaker-aws** – [🔖 0.7.0](https://github.com/voxpupuli/beaker-aws/tree/0.7.0)
 - **voxpupuli/onceover-codequality** – [🔖 v0.3.0](https://github.com/voxpupuli/onceover-codequality/tree/v0.3.0)
 - **voxpupuli/puppet-elastic_stack** – [🔖 6.2.2](https://github.com/voxpupuli/puppet-elastic_stack/tree/6.2.2)
@@ -13806,6 +14001,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/puppetlabs-mount_core** – [🔖 1.0.2](https://github.com/OpenVoxProject/puppetlabs-mount_core/tree/1.0.2)
 - **OpenVoxProject/puppetlabs-zfs_core** – [🔖 1.0.1](https://github.com/OpenVoxProject/puppetlabs-zfs_core/tree/1.0.1)
 - **OpenVoxProject/puppetlabs-zone_core** – [🔖 1.0.1](https://github.com/OpenVoxProject/puppetlabs-zone_core/tree/1.0.1)
+- **puppetlabs-toy-chest/puppetlabs-macdslocal_core** – [🔖 1.0.2](https://github.com/puppetlabs-toy-chest/puppetlabs-macdslocal_core/tree/1.0.2)
+- **puppetlabs-toy-chest/puppetlabs-nagios_core** – [🔖 1.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-nagios_core/tree/1.0.1)
 - **theforeman/foreman** – [🔖 1.19.0-RC3](https://github.com/theforeman/foreman/tree/1.19.0-RC3)
 - **theforeman/foreman-installer** – [🔖 1.19.0-RC3](https://github.com/theforeman/foreman-installer/tree/1.19.0-RC3)
 - **theforeman/foreman-selinux** – [🔖 1.19.0-RC3](https://github.com/theforeman/foreman-selinux/tree/1.19.0-RC3)
@@ -13831,6 +14028,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/puppetlabs-selinux_core** – [🔖 1.0.1](https://github.com/OpenVoxProject/puppetlabs-selinux_core/tree/1.0.1)
 - **OpenVoxProject/puppetlabs-sshkeys_core** – [🔖 1.0.1](https://github.com/OpenVoxProject/puppetlabs-sshkeys_core/tree/1.0.1)
 - **OpenVoxProject/puppetlabs-yumrepo_core** – [🔖 1.0.1](https://github.com/OpenVoxProject/puppetlabs-yumrepo_core/tree/1.0.1)
+- **puppetlabs-toy-chest/puppetlabs-k5login_core** – [🔖 1.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-k5login_core/tree/1.0.1)
+- **puppetlabs-toy-chest/puppetlabs-maillist_core** – [🔖 1.0.2](https://github.com/puppetlabs-toy-chest/puppetlabs-maillist_core/tree/1.0.2)
+- **puppetlabs-toy-chest/puppetlabs-network_device_core** – [🔖 1.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-network_device_core/tree/1.0.1)
 
 ## 📅 2018-08-16
 - **OpenVoxProject/bolt-vanagon** – [🔖 0.21.7](https://github.com/OpenVoxProject/bolt-vanagon/tree/0.21.7)
@@ -14020,6 +14220,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openvox-agent** – [🔖 5.99.2](https://github.com/OpenVoxProject/openvox-agent/tree/5.99.2)
 - **OpenVoxProject/openvoxserver-ca** – [🔖 0.1.0](https://github.com/OpenVoxProject/openvoxserver-ca/tree/0.1.0)
 - **OpenVoxProject/pdk-vanagon** – [🔖 1.6.1.0-rc.3](https://github.com/OpenVoxProject/pdk-vanagon/tree/1.6.1.0-rc.3)
+- **puppetlabs-toy-chest/puppetlabs-k5login_core** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-k5login_core/tree/1.0.0)
+- **puppetlabs-toy-chest/puppetlabs-network_device_core** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-network_device_core/tree/1.0.0)
 - **theforeman/foreman** – [🔖 1.19.0-RC1](https://github.com/theforeman/foreman/tree/1.19.0-RC1)
 - **theforeman/foreman-installer** – [🔖 1.19.0-RC1](https://github.com/theforeman/foreman-installer/tree/1.19.0-RC1)
 - **theforeman/foreman-selinux** – [🔖 1.19.0-RC1](https://github.com/theforeman/foreman-selinux/tree/1.19.0-RC1)
@@ -14042,6 +14244,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/pdk-vanagon** – [🔖 1.6.1.0-rc.1](https://github.com/OpenVoxProject/pdk-vanagon/tree/1.6.1.0-rc.1)
 - **OpenVoxProject/pdk-vanagon** – [🔖 1.6.1.0-rc.2](https://github.com/OpenVoxProject/pdk-vanagon/tree/1.6.1.0-rc.2)
 - **OpenVoxProject/puppetlabs-sshkeys_core** – [🔖 1.0.0](https://github.com/OpenVoxProject/puppetlabs-sshkeys_core/tree/1.0.0)
+- **puppetlabs-toy-chest/beaker-testmode_switcher** – [🔖 v0.4.1](https://github.com/puppetlabs-toy-chest/beaker-testmode_switcher/tree/v0.4.1)
 - **voxpupuli/pdk-templates** – [🔖 1.6.1](https://github.com/voxpupuli/pdk-templates/tree/1.6.1)
 - **voxpupuli/puppet-elastic_stack** – [🔖 6.2.0](https://github.com/voxpupuli/puppet-elastic_stack/tree/6.2.0)
 
@@ -14149,6 +14352,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-safe_roles** – [🔖 v1.0.0](https://github.com/voxpupuli/puppet-safe_roles/tree/v1.0.0)
 
 ## 📅 2018-07-03
+- **puppetlabs-toy-chest/puppetlabs-macdslocal_core** – [🔖 1.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-macdslocal_core/tree/1.0.1)
 - **voxpupuli/puppet-rclocal** – [🔖 v3.0.0](https://github.com/voxpupuli/puppet-rclocal/tree/v3.0.0)
 - **voxpupuli/puppet-safe_roles** – [🔖 v0.2.0](https://github.com/voxpupuli/puppet-safe_roles/tree/v0.2.0)
 
@@ -14158,6 +14362,8 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2018-06-29
 - **OpenVoxProject/clj-parent** – [🔖 1.7.7](https://github.com/OpenVoxProject/clj-parent/tree/1.7.7)
 - **OpenVoxProject/clj-parent** – [🔖 2.0.2](https://github.com/OpenVoxProject/clj-parent/tree/2.0.2)
+- **puppetlabs-toy-chest/puppetlabs-macdslocal_core** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-macdslocal_core/tree/1.0.0)
+- **puppetlabs-toy-chest/puppetlabs-mco_rpc** – [🔖 0.1.1](https://github.com/puppetlabs-toy-chest/puppetlabs-mco_rpc/tree/0.1.1)
 - **theforeman/foreman_omaha** – [🔖 2.0.0](https://github.com/theforeman/foreman_omaha/tree/2.0.0)
 
 ## 📅 2018-06-28
@@ -14177,6 +14383,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/rundeck** – [🔖 v3.0.0-alpha4](https://github.com/voxpupuli/rundeck/tree/v3.0.0-alpha4)
 
 ## 📅 2018-06-26
+- **puppetlabs-toy-chest/pltraining-bootstrap** – [🔖 v0.5.13](https://github.com/puppetlabs-toy-chest/pltraining-bootstrap/tree/v0.5.13)
 - **theforeman/foreman_discovery** – [🔖 12.0.1](https://github.com/theforeman/foreman_discovery/tree/12.0.1)
 - **theforeman/puppetlabs-apache** – [🔖 3.2.0](https://github.com/theforeman/puppetlabs-apache/tree/3.2.0)
 - **voxpupuli/openvox-strings** – [🔖 v2.1.0](https://github.com/voxpupuli/openvox-strings/tree/v2.1.0)
@@ -14302,6 +14509,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2018-06-12
 - **OpenVoxProject/clj-parent** – [🔖 1.7.6](https://github.com/OpenVoxProject/clj-parent/tree/1.7.6)
+- **puppetlabs-toy-chest/cljs-dashboard-widgets** – [🔖 0.1.1](https://github.com/puppetlabs-toy-chest/cljs-dashboard-widgets/tree/0.1.1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_openscap-0.9.3-1.fm1_17](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_openscap-0.9.3-1.fm1_17)
 - **theforeman/foreman_memcache** – [🔖 0.1.1](https://github.com/theforeman/foreman_memcache/tree/0.1.1)
 - **theforeman/smart_proxy_monitoring** – [🔖 0.1.2](https://github.com/theforeman/smart_proxy_monitoring/tree/0.1.2)
@@ -14333,6 +14541,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2018-06-07
 - **OpenVoxProject/bolt-vanagon** – [🔖 0.20.6](https://github.com/OpenVoxProject/bolt-vanagon/tree/0.20.6)
 - **OpenVoxProject/openbolt** – [🔖 0.20.6](https://github.com/OpenVoxProject/openbolt/tree/0.20.6)
+- **puppetlabs-toy-chest/razor-client** – [🔖 1.9.1](https://github.com/puppetlabs-toy-chest/razor-client/tree/1.9.1)
 - **theforeman/foreman** – [🔖 1.18.0-RC1](https://github.com/theforeman/foreman/tree/1.18.0-RC1)
 - **theforeman/foreman-installer** – [🔖 1.18.0-RC1](https://github.com/theforeman/foreman-installer/tree/1.18.0-RC1)
 - **theforeman/foreman-selinux** – [🔖 1.18.0-RC1](https://github.com/theforeman/foreman-selinux/tree/1.18.0-RC1)
@@ -14383,6 +14592,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openbolt** – [🔖 0.20.4](https://github.com/OpenVoxProject/openbolt/tree/0.20.4)
 - **OpenVoxProject/openbolt** – [🔖 0.20.5](https://github.com/OpenVoxProject/openbolt/tree/0.20.5)
 - **OpenVoxProject/puppet-runtime** – [🔖 201805310](https://github.com/OpenVoxProject/puppet-runtime/tree/201805310)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.9.2.0](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.9.2.0)
 - **theforeman/foreman_openscap** – [🔖 v0.10.0](https://github.com/theforeman/foreman_openscap/tree/v0.10.0)
 - **theforeman/foreman_openscap** – [🔖 v0.9.3](https://github.com/theforeman/foreman_openscap/tree/v0.9.3)
 - **theforeman/obal** – [🔖 obal-0.0.4](https://github.com/theforeman/obal/tree/obal-0.0.4)
@@ -14396,6 +14606,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/puppet-runtime** – [🔖 201805291](https://github.com/OpenVoxProject/puppet-runtime/tree/201805291)
 - **OpenVoxProject/puppet-runtime** – [🔖 201805300](https://github.com/OpenVoxProject/puppet-runtime/tree/201805300)
 - **OpenVoxProject/puppet-runtime** – [🔖 201805301](https://github.com/OpenVoxProject/puppet-runtime/tree/201805301)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.9.2](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.9.2)
 - **theforeman/foreman_virt_who_configure** – [🔖 v0.2.1](https://github.com/theforeman/foreman_virt_who_configure/tree/v0.2.1)
 - **theforeman/puppet-foreman_proxy** – [🔖 7.2.1](https://github.com/theforeman/puppet-foreman_proxy/tree/7.2.1)
 - **theforeman/puppet-foreman_proxy_content** – [🔖 7.1.1](https://github.com/theforeman/puppet-foreman_proxy_content/tree/7.1.1)
@@ -14410,6 +14621,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openvox-server** – [🔖 5.3.3](https://github.com/OpenVoxProject/openvox-server/tree/5.3.3)
 - **OpenVoxProject/puppet-runtime** – [🔖 201805290](https://github.com/OpenVoxProject/puppet-runtime/tree/201805290)
 - **OpenVoxProject/vanagon** – [🔖 0.15.10](https://github.com/OpenVoxProject/vanagon/tree/0.15.10)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.9.1](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.9.1)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.9.1.0](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.9.1.0)
 - **theforeman/foreman_bootdisk** – [🔖 v12.0.0](https://github.com/theforeman/foreman_bootdisk/tree/v12.0.0)
 - **theforeman/puppet-certs** – [🔖 4.1.0](https://github.com/theforeman/puppet-certs/tree/4.1.0)
 - **theforeman/puppet-foreman** – [🔖 9.1.0](https://github.com/theforeman/puppet-foreman/tree/9.1.0)
@@ -14446,6 +14659,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2018-05-24
 - **OpenVoxProject/openvox** – [🔖 5.5.2](https://github.com/OpenVoxProject/openvox/tree/5.5.2)
 - **OpenVoxProject/puppet-resource_api** – [🔖 v1.3.0](https://github.com/OpenVoxProject/puppet-resource_api/tree/v1.3.0)
+- **puppetlabs-toy-chest/puppetlabs-nagios_core** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-nagios_core/tree/1.0.0)
 - **voxpupuli/puppet-powerdns** – [🔖 1.3.0](https://github.com/voxpupuli/puppet-powerdns/tree/1.3.0)
 
 ## 📅 2018-05-23
@@ -14459,11 +14673,13 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2018-05-22
 - **OpenVoxProject/puppet-runtime** – [🔖 201805220](https://github.com/OpenVoxProject/puppet-runtime/tree/201805220)
 - **OpenVoxProject/puppetlabs-zfs_core** – [🔖 1.0.0](https://github.com/OpenVoxProject/puppetlabs-zfs_core/tree/1.0.0)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.9.0.0](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.9.0.0)
 - **theforeman/hammer-cli-foreman** – [🔖 0.11.0.6](https://github.com/theforeman/hammer-cli-foreman/tree/0.11.0.6)
 - **theforeman/puppet-dns** – [🔖 5.2.0](https://github.com/theforeman/puppet-dns/tree/5.2.0)
 
 ## 📅 2018-05-21
 - **OpenVoxProject/puppet-runtime** – [🔖 201805210](https://github.com/OpenVoxProject/puppet-runtime/tree/201805210)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.9.0](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.9.0)
 - **theforeman/foreman_default_hostgroup** – [🔖 5.0.0](https://github.com/theforeman/foreman_default_hostgroup/tree/5.0.0)
 - **voxpupuli/puppet-collectd** – [🔖 v9.0.1](https://github.com/voxpupuli/puppet-collectd/tree/v9.0.1)
 - **voxpupuli/puppet-unbound** – [🔖 2.2.0](https://github.com/voxpupuli/puppet-unbound/tree/2.2.0)
@@ -14546,6 +14762,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-augeasproviders_ssh** – [Release of 3.0.0](https://github.com/voxpupuli/puppet-augeasproviders_ssh/releases/tag/3.0.0)
 - **OpenVoxProject/puppet-runtime** – [🔖 201805090](https://github.com/OpenVoxProject/puppet-runtime/tree/201805090)
 - **OpenVoxProject/puppet-runtime** – [🔖 201805091](https://github.com/OpenVoxProject/puppet-runtime/tree/201805091)
+- **puppetlabs-toy-chest/puppetlabs-dsc** – [🔖 1.6.0](https://github.com/puppetlabs-toy-chest/puppetlabs-dsc/tree/1.6.0)
 - **voxpupuli/puppet-augeasproviders_grub** – [🔖 simp6.0.0-3.0.1](https://github.com/voxpupuli/puppet-augeasproviders_grub/tree/simp6.0.0-3.0.1)
 
 ## 📅 2018-05-08
@@ -14590,6 +14807,8 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2018-05-02
 - **OpenVoxProject/pdk-vanagon** – [🔖 1.6.0.0.pre](https://github.com/OpenVoxProject/pdk-vanagon/tree/1.6.0.0.pre)
 - **OpenVoxProject/puppet-runtime** – [🔖 201805020](https://github.com/OpenVoxProject/puppet-runtime/tree/201805020)
+- **puppetlabs-toy-chest/puppetlabs-maillist_core** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-maillist_core/tree/1.0.0)
+- **puppetlabs-toy-chest/puppetlabs-maillist_core** – [🔖 1.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-maillist_core/tree/1.0.1)
 - **theforeman/puppet-tftp** – [🔖 4.1.0](https://github.com/theforeman/puppet-tftp/tree/4.1.0)
 - **voxpupuli/puppet_webhook** – [🔖 v1.4.0](https://github.com/voxpupuli/puppet_webhook/tree/v1.4.0)
 
@@ -14621,6 +14840,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2018-04-26
 - **OpenVoxProject/puppet-runtime** – [🔖 201804260](https://github.com/OpenVoxProject/puppet-runtime/tree/201804260)
+- **puppetlabs-toy-chest/razor-client** – [🔖 1.9.0](https://github.com/puppetlabs-toy-chest/razor-client/tree/1.9.0)
 - **theforeman/foreman_expire_hosts** – [🔖 5.1.0](https://github.com/theforeman/foreman_expire_hosts/tree/5.1.0)
 - **theforeman/foreman_memcache** – [🔖 0.1.0](https://github.com/theforeman/foreman_memcache/tree/0.1.0)
 
@@ -14630,11 +14850,15 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2018-04-24
 - **OpenVoxProject/clj-parent** – [🔖 2.0.0](https://github.com/OpenVoxProject/clj-parent/tree/2.0.0)
+- **puppetlabs-toy-chest/razor-client** – [🔖 1.8.1](https://github.com/puppetlabs-toy-chest/razor-client/tree/1.8.1)
 - **voxpupuli/beaker-hostgenerator** – [🔖 1.1.12](https://github.com/voxpupuli/beaker-hostgenerator/tree/1.1.12)
 - **voxpupuli/puppet_webhook** – [🔖 v1.3.0](https://github.com/voxpupuli/puppet_webhook/tree/v1.3.0)
 
 ## 📅 2018-04-23
 - **OpenVoxProject/openvox-server** – [🔖 5.3.2](https://github.com/OpenVoxProject/openvox-server/tree/5.3.2)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.8.1](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.8.1)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.8.1](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.8.1)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.8.1.0](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.8.1.0)
 - **voxpupuli/beaker-hostgenerator** – [🔖 1.1.11](https://github.com/voxpupuli/beaker-hostgenerator/tree/1.1.11)
 
 ## 📅 2018-04-21
@@ -14646,6 +14870,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-powerdns** – [🔖 1.2.2](https://github.com/voxpupuli/puppet-powerdns/tree/1.2.2)
 
 ## 📅 2018-04-19
+- **puppetlabs-toy-chest/razor-client** – [🔖 1.8.0](https://github.com/puppetlabs-toy-chest/razor-client/tree/1.8.0)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.8.0](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.8.0)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.8.0](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.8.0)
 - **voxpupuli/puppet-powerdns** – [🔖 1.2.0](https://github.com/voxpupuli/puppet-powerdns/tree/1.2.0)
 - **voxpupuli/puppet-powerdns** – [🔖 1.2.1](https://github.com/voxpupuli/puppet-powerdns/tree/1.2.1)
 
@@ -14689,6 +14916,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openvoxdb** – [🔖 5.1.5](https://github.com/OpenVoxProject/openvoxdb/tree/5.1.5)
 - **OpenVoxProject/openvoxdb** – [🔖 5.2.2](https://github.com/OpenVoxProject/openvoxdb/tree/5.2.2)
 - **OpenVoxProject/puppet-resource_api** – [🔖 v1.1.0](https://github.com/OpenVoxProject/puppet-resource_api/tree/v1.1.0)
+- **puppetlabs-toy-chest/learndot_api** – [🔖 v0.3.1](https://github.com/puppetlabs-toy-chest/learndot_api/tree/v0.3.1)
 - **theforeman/foreman-packaging** – [🔖 katello-3.6.0-3.fm1_17](https://github.com/theforeman/foreman-packaging/tree/katello-3.6.0-3.fm1_17)
 - **theforeman/foreman-packaging** – [🔖 katello-installer-base-3.6.0-2.fm1_17](https://github.com/theforeman/foreman-packaging/tree/katello-installer-base-3.6.0-2.fm1_17)
 - **theforeman/foreman-packaging** – [🔖 katello-repos-3.6.0-4.fm1_17](https://github.com/theforeman/foreman-packaging/tree/katello-repos-3.6.0-4.fm1_17)
@@ -14725,6 +14953,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2018-04-06
 - **OpenVoxProject/puppet-resource_api** – [🔖 v1.0.3](https://github.com/OpenVoxProject/puppet-resource_api/tree/v1.0.3)
 - **OpenVoxProject/pxp-agent** – [🔖 1.9.1](https://github.com/OpenVoxProject/pxp-agent/tree/1.9.1)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v2.0.2](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v2.0.2)
 - **theforeman/foreman_ansible** – [🔖 2.0.2](https://github.com/theforeman/foreman_ansible/tree/2.0.2)
 - **theforeman/foreman_ansible** – [🔖 2.0.3](https://github.com/theforeman/foreman_ansible/tree/2.0.3)
 - **theforeman/foreman_ansible** – [🔖 2.0.4](https://github.com/theforeman/foreman_ansible/tree/2.0.4)
@@ -14865,6 +15094,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2018-03-22
 - **OpenVoxProject/bolt-vanagon** – [🔖 0.18.0](https://github.com/OpenVoxProject/bolt-vanagon/tree/0.18.0)
 - **OpenVoxProject/openbolt** – [🔖 0.18.0](https://github.com/OpenVoxProject/openbolt/tree/0.18.0)
+- **puppetlabs-toy-chest/gcr-sdk-java** – [🔖 gcr-sdk-java-2.1.3](https://github.com/puppetlabs-toy-chest/gcr-sdk-java/tree/gcr-sdk-java-2.1.3)
 - **theforeman/puppetlabs-postgresql** – [🔖 5.4.0](https://github.com/theforeman/puppetlabs-postgresql/tree/5.4.0)
 - **voxpupuli/beaker-hostgenerator** – [🔖 1.1.8](https://github.com/voxpupuli/beaker-hostgenerator/tree/1.1.8)
 - **voxpupuli/puppet-rsyslog** – [🔖 v3.1.0](https://github.com/voxpupuli/puppet-rsyslog/tree/v3.1.0)
@@ -14938,6 +15168,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2018-03-12
 - **OpenVoxProject/puppet-runtime** – [🔖 201803120](https://github.com/OpenVoxProject/puppet-runtime/tree/201803120)
+- **puppetlabs-toy-chest/pltraining-showoff** – [🔖 v0.0.2](https://github.com/puppetlabs-toy-chest/pltraining-showoff/tree/v0.0.2)
 - **theforeman/foreman-installer** – [🔖 1.17.0-RC2](https://github.com/theforeman/foreman-installer/tree/1.17.0-RC2)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_ansible_core-2.0.2-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_ansible_core-2.0.2-1.fm1_16)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_dhcp_browser-0.0.8-1.fm1_17](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_dhcp_browser-0.0.8-1.fm1_17)
@@ -14967,6 +15198,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/ezbake** – [🔖 1.8.1](https://github.com/OpenVoxProject/ezbake/tree/1.8.1)
 - **OpenVoxProject/leatherman** – [🔖 0.12.4](https://github.com/OpenVoxProject/leatherman/tree/0.12.4)
 - **OpenVoxProject/puppet-runtime** – [🔖 201803080](https://github.com/OpenVoxProject/puppet-runtime/tree/201803080)
+- **puppetlabs-toy-chest/beaker-testmode_switcher** – [🔖 v0.4.0](https://github.com/puppetlabs-toy-chest/beaker-testmode_switcher/tree/v0.4.0)
 - **theforeman/foreman_ansible** – [🔖 1.5.0](https://github.com/theforeman/foreman_ansible/tree/1.5.0)
 - **theforeman/foreman_ansible** – [🔖 1.5.1](https://github.com/theforeman/foreman_ansible/tree/1.5.1)
 - **theforeman/foreman_ansible** – [🔖 2.1.0](https://github.com/theforeman/foreman_ansible/tree/2.1.0)
@@ -14978,6 +15210,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openbolt** – [🔖 0.17.0](https://github.com/OpenVoxProject/openbolt/tree/0.17.0)
 - **OpenVoxProject/openbolt** – [🔖 0.17.1](https://github.com/OpenVoxProject/openbolt/tree/0.17.1)
 - **OpenVoxProject/puppet-runtime** – [🔖 201803070](https://github.com/OpenVoxProject/puppet-runtime/tree/201803070)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v2.0.1](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v2.0.1)
+- **puppetlabs-toy-chest/puppetlabs-resource** – [🔖 0.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-resource/tree/0.2.0)
 - **theforeman/smart-proxy** – [🔖 1.17.0-RC2](https://github.com/theforeman/smart-proxy/tree/1.17.0-RC2)
 
 ## 📅 2018-03-06
@@ -15019,6 +15253,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/jruby-utils** – [🔖 1.1.0](https://github.com/OpenVoxProject/jruby-utils/tree/1.1.0)
 - **OpenVoxProject/pdk-vanagon** – [🔖 1.4.1.1](https://github.com/OpenVoxProject/pdk-vanagon/tree/1.4.1.1)
 - **OpenVoxProject/puppet-runtime** – [🔖 201802270](https://github.com/OpenVoxProject/puppet-runtime/tree/201802270)
+- **puppetlabs-toy-chest/pltraining-puppetfactory** – [🔖 v0.5.13](https://github.com/puppetlabs-toy-chest/pltraining-puppetfactory/tree/v0.5.13)
+- **puppetlabs-toy-chest/pltraining-puppetfactory** – [🔖 v0.5.14](https://github.com/puppetlabs-toy-chest/pltraining-puppetfactory/tree/v0.5.14)
 - **theforeman/foreman-tasks** – [🔖 v0.12.0](https://github.com/theforeman/foreman-tasks/tree/v0.12.0)
 - **voxpupuli/puppet-mongodb** – [🔖 v2.1.0](https://github.com/voxpupuli/puppet-mongodb/tree/v2.1.0)
 
@@ -15097,6 +15333,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/pxp-agent** – [🔖 1.9.0](https://github.com/OpenVoxProject/pxp-agent/tree/1.9.0)
 
 ## 📅 2018-02-16
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v2.0.0](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v2.0.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_digitalocean-1.3.0-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_digitalocean-1.3.0-1.fm1_16)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_digitalocean-1.3.0-1.fm1_17](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_digitalocean-1.3.0-1.fm1_17)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_digitalocean-1.3.0-1.fm1_18](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_digitalocean-1.3.0-1.fm1_18)
@@ -15107,6 +15344,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-augeasproviders_mounttab** – [2.0.3 Release](https://github.com/voxpupuli/puppet-augeasproviders_mounttab/releases/tag/2.0.3)
 - **OpenVoxProject/bolt-vanagon** – [🔖 0.2](https://github.com/OpenVoxProject/bolt-vanagon/tree/0.2)
 - **OpenVoxProject/clj-parent** – [🔖 1.7.1](https://github.com/OpenVoxProject/clj-parent/tree/1.7.1)
+- **puppetlabs-toy-chest/puppetlabs-dsc** – [🔖 1.5.0](https://github.com/puppetlabs-toy-chest/puppetlabs-dsc/tree/1.5.0)
 - **theforeman/foreman-digitalocean** – [🔖 1.3.0](https://github.com/theforeman/foreman-digitalocean/tree/1.3.0)
 - **theforeman/puppetlabs-apache** – [🔖 3.0.0](https://github.com/theforeman/puppetlabs-apache/tree/3.0.0)
 - **voxpupuli/metadata-json-lint** – [🔖 2.1.0](https://github.com/voxpupuli/metadata-json-lint/tree/2.1.0)
@@ -15172,6 +15410,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-elasticsearch** – [🔖 6.2.0](https://github.com/voxpupuli/puppet-elasticsearch/tree/6.2.0)
 
 ## 📅 2018-02-08
+- **puppetlabs-toy-chest/learndot_api** – [🔖 v0.3.0](https://github.com/puppetlabs-toy-chest/learndot_api/tree/v0.3.0)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.17.0-0.3.RC1.fm1_17](https://github.com/theforeman/foreman-packaging/tree/foreman-1.17.0-0.3.RC1.fm1_17)
 - **theforeman/foreman-packaging** – [🔖 katello-3.6.0-2.rc1.fm1_17](https://github.com/theforeman/foreman-packaging/tree/katello-3.6.0-2.rc1.fm1_17)
 - **theforeman/foreman-packaging** – [🔖 katello-installer-base-3.6.0-1.rc1.fm1_17](https://github.com/theforeman/foreman-packaging/tree/katello-installer-base-3.6.0-1.rc1.fm1_17)
@@ -15181,6 +15420,8 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2018-02-07
 - **voxpupuli/puppet-gitlab** – [Release v1.16.0 - First release to Vox Pupuli](https://github.com/voxpupuli/puppet-gitlab/releases/tag/v1.16.0)
 - **voxpupuli/puppet-gitlab** – [Release v1.16.1 - Tweks for Vox Pupuli](https://github.com/voxpupuli/puppet-gitlab/releases/tag/v1.16.1)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.7.1](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.7.1)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.7.1](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.7.1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-bastion-6.1.8-1.fm1_17](https://github.com/theforeman/foreman-packaging/tree/rubygem-bastion-6.1.8-1.fm1_17)
 - **theforeman/foreman-packaging** – [🔖 rubygem-bastion-6.1.8-1.fm1_18](https://github.com/theforeman/foreman-packaging/tree/rubygem-bastion-6.1.8-1.fm1_18)
 
@@ -15312,6 +15553,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/puppet-resource_api** – [🔖 v0.2.1](https://github.com/OpenVoxProject/puppet-resource_api/tree/v0.2.1)
 - **OpenVoxProject/pxp-agent** – [🔖 1.8.1](https://github.com/OpenVoxProject/pxp-agent/tree/1.8.1)
 - **OpenVoxProject/vanagon** – [🔖 0.15.2](https://github.com/OpenVoxProject/vanagon/tree/0.15.2)
+- **puppetlabs-toy-chest/mcollective-package-agent** – [🔖 4.7.0](https://github.com/puppetlabs-toy-chest/mcollective-package-agent/tree/4.7.0)
 - **theforeman/foreman-packaging** – [🔖 katello-client-bootstrap-1.5.1-1.fm1_18](https://github.com/theforeman/foreman-packaging/tree/katello-client-bootstrap-1.5.1-1.fm1_18)
 - **voxpupuli/puppet-cvmfs** – [🔖 5.0.0](https://github.com/voxpupuli/puppet-cvmfs/tree/5.0.0)
 - **voxpupuli/puppet-rsyslog** – [🔖 v2.3.0](https://github.com/voxpupuli/puppet-rsyslog/tree/v2.3.0)
@@ -15390,6 +15632,10 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2018-01-17
 - **voxpupuli/puppet-cups** – [Bugfix release 2.0.3](https://github.com/voxpupuli/puppet-cups/releases/tag/2.0.3)
 - **OpenVoxProject/pdk-vanagon** – [🔖 1.3.2.0](https://github.com/OpenVoxProject/pdk-vanagon/tree/1.3.2.0)
+- **puppetlabs-toy-chest/learndot_api** – [🔖 v0.2.5](https://github.com/puppetlabs-toy-chest/learndot_api/tree/v0.2.5)
+- **puppetlabs-toy-chest/razor-client** – [🔖 1.7.0](https://github.com/puppetlabs-toy-chest/razor-client/tree/1.7.0)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.7.0](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.7.0)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.7.0](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.7.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman-tasks-0.11.0-2.fm1_18](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman-tasks-0.11.0-2.fm1_18)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_maintain-0.1.2-1.fm1_18](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_maintain-0.1.2-1.fm1_18)
 - **theforeman/foreman-packaging** – [🔖 rubygem-sexp_processor-4.10.0-4.fm1_18](https://github.com/theforeman/foreman-packaging/tree/rubygem-sexp_processor-4.10.0-4.fm1_18)
@@ -15466,6 +15712,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/beaker** – [beaker 3.30.0](https://github.com/voxpupuli/beaker/releases/tag/3.30.0)
 - **OpenVoxProject/jruby-utils** – [🔖 1.0.0](https://github.com/OpenVoxProject/jruby-utils/tree/1.0.0)
 - **OpenVoxProject/packaging** – [🔖 0.6.2](https://github.com/OpenVoxProject/packaging/tree/0.6.2)
+- **puppetlabs-toy-chest/puppetlabs-azure** – [🔖 1.3.1](https://github.com/puppetlabs-toy-chest/puppetlabs-azure/tree/1.3.1)
+- **puppetlabs-toy-chest/puppetlabs-tftp** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-tftp/tree/1.0.0)
 - **theforeman/foreman-packaging** – [🔖 katello-host-tools-3.1.0-2.fm1_17](https://github.com/theforeman/foreman-packaging/tree/katello-host-tools-3.1.0-2.fm1_17)
 - **theforeman/foreman-packaging** – [🔖 rubygem-anemone-0.7.2-15.fm1_17](https://github.com/theforeman/foreman-packaging/tree/rubygem-anemone-0.7.2-15.fm1_17)
 - **theforeman/foreman-packaging** – [🔖 rubygem-apipie-bindings-0.2.2-1.fm1_17](https://github.com/theforeman/foreman-packaging/tree/rubygem-apipie-bindings-0.2.2-1.fm1_17)
@@ -15514,6 +15762,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/beaker-openstack** – [beaker-openstack 0.2.0](https://github.com/voxpupuli/beaker-openstack/releases/tag/0.2.0)
 - **OpenVoxProject/ezbake** – [🔖 1.7.5](https://github.com/OpenVoxProject/ezbake/tree/1.7.5)
 - **OpenVoxProject/vanagon** – [🔖 0.15.0](https://github.com/OpenVoxProject/vanagon/tree/0.15.0)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.8.4](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.8.4)
 - **theforeman/foreman-packaging** – [🔖 rubygem-angular-rails-templates-1.0.2-2.fm1_17](https://github.com/theforeman/foreman-packaging/tree/rubygem-angular-rails-templates-1.0.2-2.fm1_17)
 - **theforeman/foreman-packaging** – [🔖 rubygem-azure-0.7.7-2.fm1_17](https://github.com/theforeman/foreman-packaging/tree/rubygem-azure-0.7.7-2.fm1_17)
 - **theforeman/foreman-packaging** – [🔖 rubygem-azure-core-0.1.1-2.fm1_17](https://github.com/theforeman/foreman-packaging/tree/rubygem-azure-core-0.1.1-2.fm1_17)
@@ -15571,6 +15820,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/onceover** – [Add support for :control_branch](https://github.com/voxpupuli/onceover/releases/tag/v3.3.0)
 - **voxpupuli/onceover** – [Fixed modulepath delimiter on Windows](https://github.com/voxpupuli/onceover/releases/tag/v3.3.1)
 - **OpenVoxProject/openbolt** – [🔖 0.13.0](https://github.com/OpenVoxProject/openbolt/tree/0.13.0)
+- **puppetlabs-toy-chest/puppetlabs-dsc** – [🔖 1.4.1](https://github.com/puppetlabs-toy-chest/puppetlabs-dsc/tree/1.4.1)
 - **theforeman/foreman-packaging** – [🔖 foreman-release-scl-4-1.fm1_17](https://github.com/theforeman/foreman-packaging/tree/foreman-release-scl-4-1.fm1_17)
 - **theforeman/foreman-packaging** – [🔖 nodejs-babel-plugin-lodash-3.3.2-1.fm1_17](https://github.com/theforeman/foreman-packaging/tree/nodejs-babel-plugin-lodash-3.3.2-1.fm1_17)
 - **theforeman/foreman-packaging** – [🔖 nodejs-react-ellipsis-with-tooltip-1.0.6-1.fm1_17](https://github.com/theforeman/foreman-packaging/tree/nodejs-react-ellipsis-with-tooltip-1.0.6-1.fm1_17)
@@ -15727,6 +15977,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2018-01-03
 - **OpenVoxProject/clj-parent** – [🔖 1.5.1](https://github.com/OpenVoxProject/clj-parent/tree/1.5.1)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.9.1](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.9.1)
 - **theforeman/foreman-packaging** – [🔖 nodejs-babel-plugin-lodash-3.3.2.fm1_17-1](https://github.com/theforeman/foreman-packaging/tree/nodejs-babel-plugin-lodash-3.3.2.fm1_17-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-radcli-1.0.0-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-radcli-1.0.0-1.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 rubygem-radcli-1.0.0-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/rubygem-radcli-1.0.0-1.fm1_16)
@@ -15775,6 +16026,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-puppetserver** – [🔖 v3.0.0](https://github.com/voxpupuli/puppet-puppetserver/tree/v3.0.0)
 
 ## 📅 2017-12-19
+- **puppetlabs-toy-chest/learndot_api** – [🔖 v0.2.4](https://github.com/puppetlabs-toy-chest/learndot_api/tree/v0.2.4)
 - **theforeman/foreman-packaging** – [🔖 nodejs-change-emitter-0.1.6-1.fm1_17](https://github.com/theforeman/foreman-packaging/tree/nodejs-change-emitter-0.1.6-1.fm1_17)
 - **theforeman/foreman-packaging** – [🔖 nodejs-hoist-non-react-statics-2.3.1-1.fm1_17](https://github.com/theforeman/foreman-packaging/tree/nodejs-hoist-non-react-statics-2.3.1-1.fm1_17)
 - **theforeman/foreman-packaging** – [🔖 nodejs-patternfly-react-0.19.2-1.fm1_17](https://github.com/theforeman/foreman-packaging/tree/nodejs-patternfly-react-0.19.2-1.fm1_17)
@@ -15820,6 +16072,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/jruby-utils** – [🔖 0.11.1](https://github.com/OpenVoxProject/jruby-utils/tree/0.11.1)
 - **OpenVoxProject/openbolt** – [🔖 0.11.0](https://github.com/OpenVoxProject/openbolt/tree/0.11.0)
 - **OpenVoxProject/vanagon** – [🔖 0.14.3](https://github.com/OpenVoxProject/vanagon/tree/0.14.3)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.9.0](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.9.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-apipie-rails-0.5.6-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/rubygem-apipie-rails-0.5.6-1.fm1_16)
 - **theforeman/foreman-packaging** – [🔖 rubygem-apipie-rails-0.5.6-1.fm1_17](https://github.com/theforeman/foreman-packaging/tree/rubygem-apipie-rails-0.5.6-1.fm1_17)
 - **theforeman/foreman-packaging** – [🔖 rubygem-fog-ovirt-0.1.2-1.fm1_17](https://github.com/theforeman/foreman-packaging/tree/rubygem-fog-ovirt-0.1.2-1.fm1_17)
@@ -15888,6 +16141,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-consul** – [🔖 v3.2.4](https://github.com/voxpupuli/puppet-consul/tree/v3.2.4)
 
 ## 📅 2017-12-04
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.8.4](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.8.4)
 - **voxpupuli/puppet-blacksmith** – [🔖 v4.1.0](https://github.com/voxpupuli/puppet-blacksmith/tree/v4.1.0)
 
 ## 📅 2017-12-01
@@ -16059,6 +16313,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2017-11-09
 - **voxpupuli/puppet-cups** – [Service release 2.0.1](https://github.com/voxpupuli/puppet-cups/releases/tag/2.0.1)
 - **OpenVoxProject/ezbake** – [🔖 1.6.4](https://github.com/OpenVoxProject/ezbake/tree/1.6.4)
+- **puppetlabs-toy-chest/puppetlabs-sqlite** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-sqlite/tree/0.1.0)
 
 ## 📅 2017-11-08
 - **voxpupuli/modulesync** – [0.8.2](https://github.com/voxpupuli/modulesync/releases/tag/0.8.2)
@@ -16088,6 +16343,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-openvoxdb** – [🔖 6.0.2](https://github.com/voxpupuli/puppet-openvoxdb/tree/6.0.2)
 
 ## 📅 2017-11-03
+- **puppetlabs-toy-chest/puppetlabs-mco_rpc** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-mco_rpc/tree/0.1.0)
 - **voxpupuli/puppet-blacksmith** – [🔖 v4.0.1](https://github.com/voxpupuli/puppet-blacksmith/tree/v4.0.1)
 
 ## 📅 2017-11-02
@@ -16107,6 +16363,8 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2017-11-01
 - **voxpupuli/beaker** – [beaker 3.28.0](https://github.com/voxpupuli/beaker/releases/tag/3.28.0)
 - **voxpupuli/puppet-cups** – [Release 2.0.0](https://github.com/voxpupuli/puppet-cups/releases/tag/2.0.0)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.8.3](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.8.3)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.8.3](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.8.3)
 - **theforeman/foreman-packaging** – [🔖 nodejs-babel-core-6.26.0-1.fm1_17](https://github.com/theforeman/foreman-packaging/tree/nodejs-babel-core-6.26.0-1.fm1_17)
 - **theforeman/foreman-tasks** – [🔖 v0.10.6](https://github.com/theforeman/foreman-tasks/tree/v0.10.6)
 
@@ -16287,6 +16545,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/rundeck** – [🔖 v2.9.4](https://github.com/voxpupuli/rundeck/tree/v2.9.4)
 
 ## 📅 2017-10-12
+- **puppetlabs-toy-chest/puppetlabs-pe_bulk_agent_install** – [🔖 v1.1.1](https://github.com/puppetlabs-toy-chest/puppetlabs-pe_bulk_agent_install/tree/v1.1.1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_openscap-0.7.9-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_openscap-0.7.9-1.fm1_15)
 - **theforeman/foreman_openscap** – [🔖 v0.7.9](https://github.com/theforeman/foreman_openscap/tree/v0.7.9)
 - **theforeman/foreman_virt_who_configure** – [🔖 v0.1.8](https://github.com/theforeman/foreman_virt_who_configure/tree/v0.1.8)
@@ -16311,6 +16570,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2017-10-10
 - **OpenVoxProject/openbolt** – [🔖 0.5.0](https://github.com/OpenVoxProject/openbolt/tree/0.5.0)
+- **puppetlabs-toy-chest/puppetlabs-azure** – [🔖 1.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-azure/tree/1.2.0)
+- **puppetlabs-toy-chest/puppetlabs-pipelines** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-pipelines/tree/0.1.0)
 - **theforeman/foreman** – [🔖 1.15.6](https://github.com/theforeman/foreman/tree/1.15.6)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.15.6-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/foreman-1.15.6-1.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 foreman-installer-1.15.6-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/foreman-installer-1.15.6-1.fm1_15)
@@ -16333,6 +16594,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-yum** – [🔖 v2.0.2](https://github.com/voxpupuli/puppet-yum/tree/v2.0.2)
 
 ## 📅 2017-10-09
+- **puppetlabs-toy-chest/puppetlabs-resource** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-resource/tree/0.1.0)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.15.5-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/foreman-1.15.5-1.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 foreman-installer-1.15.5-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/foreman-installer-1.15.5-1.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 foreman-proxy-1.15.5-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/foreman-proxy-1.15.5-1.fm1_15)
@@ -16345,6 +16607,8 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2017-10-08
 - **voxpupuli/ra10ke** – [Version 0.2.0](https://github.com/voxpupuli/ra10ke/releases/tag/v0.2.0)
 - **voxpupuli/ra10ke** – [Version 0.3.0](https://github.com/voxpupuli/ra10ke/releases/tag/v0.3.0)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.8.2](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.8.2)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.8.2](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.8.2)
 
 ## 📅 2017-10-07
 - **voxpupuli/puppet-openvpn** – [🔖 v4.1.1](https://github.com/voxpupuli/puppet-openvpn/tree/v4.1.1)
@@ -16392,6 +16656,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2017-10-03
 - **voxpupuli/beaker-rspec** – [beaker-rspec 6.2.1](https://github.com/voxpupuli/beaker-rspec/releases/tag/6.2.1)
+- **puppetlabs-toy-chest/puppetlabs-translate** – [🔖 1.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-translate/tree/1.1.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-bastion-6.0.0-1.fm1_17](https://github.com/theforeman/foreman-packaging/tree/rubygem-bastion-6.0.0-1.fm1_17)
 - **theforeman/puppet-foreman_proxy** – [🔖 5.1.2](https://github.com/theforeman/puppet-foreman_proxy/tree/5.1.2)
 - **theforeman/puppet-puppet** – [🔖 7.1.3](https://github.com/theforeman/puppet-puppet/tree/7.1.3)
@@ -16431,6 +16696,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-gitlab** – [v1.15.2](https://github.com/voxpupuli/puppet-gitlab/releases/tag/v1.15.2)
 - **OpenVoxProject/clj-parent** – [🔖 1.4.3](https://github.com/OpenVoxProject/clj-parent/tree/1.4.3)
 - **OpenVoxProject/openbolt** – [🔖 0.3.0](https://github.com/OpenVoxProject/openbolt/tree/0.3.0)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.8.1](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.8.1)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.8.1](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.8.1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-activerecord-session_store-1.1.0-2.fm1_17](https://github.com/theforeman/foreman-packaging/tree/rubygem-activerecord-session_store-1.1.0-2.fm1_17)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman-tasks-0.9.6-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman-tasks-0.9.6-1.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman-tasks-core-0.1.8-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman-tasks-core-0.1.8-1.fm1_15)
@@ -16459,6 +16726,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/clj-kitchensink** – [🔖 2.5.0](https://github.com/OpenVoxProject/clj-kitchensink/tree/2.5.0)
 - **OpenVoxProject/clj-kitchensink** – [🔖 2.5.1](https://github.com/OpenVoxProject/clj-kitchensink/tree/2.5.1)
 - **OpenVoxProject/trapperkeeper** – [🔖 1.5.3](https://github.com/OpenVoxProject/trapperkeeper/tree/1.5.3)
+- **puppetlabs-toy-chest/pltraining-puppetfactory** – [🔖 v0.5.12](https://github.com/puppetlabs-toy-chest/pltraining-puppetfactory/tree/v0.5.12)
 - **theforeman/foreman-packaging** – [🔖 rubygem-concurrent-ruby-1.0.3-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/rubygem-concurrent-ruby-1.0.3-1.fm1_16)
 - **theforeman/foreman-packaging** – [🔖 rubygem-dynflow-0.8.30-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-dynflow-0.8.30-1.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 rubygem-dynflow-0.8.30-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/rubygem-dynflow-0.8.30-1.fm1_16)
@@ -16474,6 +16742,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/ezbake** – [🔖 1.6.2](https://github.com/OpenVoxProject/ezbake/tree/1.6.2)
 - **OpenVoxProject/openvox-agent** – [🔖 5.3.0](https://github.com/OpenVoxProject/openvox-agent/tree/5.3.0)
 - **OpenVoxProject/openvox-server** – [🔖 5.1.1](https://github.com/OpenVoxProject/openvox-server/tree/5.1.1)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.8.0](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.8.0)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.8.0](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.8.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-gssapi-1.2.0-1.fm1_17](https://github.com/theforeman/foreman-packaging/tree/rubygem-gssapi-1.2.0-1.fm1_17)
 - **theforeman/foreman-packaging** – [🔖 rubygem-net-ssh-krb-0.4.0-1.fm1_17](https://github.com/theforeman/foreman-packaging/tree/rubygem-net-ssh-krb-0.4.0-1.fm1_17)
 - **voxpupuli/puppet-splunk** – [🔖 v6.3.0](https://github.com/voxpupuli/puppet-splunk/tree/v6.3.0)
@@ -16511,6 +16781,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2017-09-20
 - **OpenVoxProject/hiera** – [🔖 3.4.2](https://github.com/OpenVoxProject/hiera/tree/3.4.2)
 - **OpenVoxProject/openvox** – [🔖 5.3.0](https://github.com/OpenVoxProject/openvox/tree/5.3.0)
+- **puppetlabs-toy-chest/puppetlabs-netapp** – [🔖 1.3.0](https://github.com/puppetlabs-toy-chest/puppetlabs-netapp/tree/1.3.0)
 - **theforeman/foreman** – [🔖 1.16.0-RC1](https://github.com/theforeman/foreman/tree/1.16.0-RC1)
 - **theforeman/foreman-installer** – [🔖 1.16.0-RC1](https://github.com/theforeman/foreman-installer/tree/1.16.0-RC1)
 - **theforeman/smart-proxy** – [🔖 1.16.0-RC1](https://github.com/theforeman/smart-proxy/tree/1.16.0-RC1)
@@ -16521,6 +16792,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openfact** – [🔖 3.9.1](https://github.com/OpenVoxProject/openfact/tree/3.9.1)
 - **OpenVoxProject/openvoxdb** – [🔖 4.2.3.7](https://github.com/OpenVoxProject/openvoxdb/tree/4.2.3.7)
 - **OpenVoxProject/pxp-agent** – [🔖 1.8.0](https://github.com/OpenVoxProject/pxp-agent/tree/1.8.0)
+- **puppetlabs-toy-chest/mcollective-package-agent** – [🔖 4.6.0](https://github.com/puppetlabs-toy-chest/mcollective-package-agent/tree/4.6.0)
 - **theforeman/foreman-tasks** – [🔖 core-v0.1.7](https://github.com/theforeman/foreman-tasks/tree/core-v0.1.7)
 - **theforeman/foreman-tasks** – [🔖 core-v0.2.4](https://github.com/theforeman/foreman-tasks/tree/core-v0.2.4)
 - **theforeman/foreman-tasks** – [🔖 v0.10.2](https://github.com/theforeman/foreman-tasks/tree/v0.10.2)
@@ -16551,6 +16823,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openvoxdb** – [🔖 4.2.3.6](https://github.com/OpenVoxProject/openvoxdb/tree/4.2.3.6)
 - **OpenVoxProject/openvoxdb** – [🔖 4.4.2](https://github.com/OpenVoxProject/openvoxdb/tree/4.4.2)
 - **OpenVoxProject/puppet-ca-bundle** – [🔖 1.0.8](https://github.com/OpenVoxProject/puppet-ca-bundle/tree/1.0.8)
+- **puppetlabs-toy-chest/puppetlabs-image_build** – [🔖 v0.7.0](https://github.com/puppetlabs-toy-chest/puppetlabs-image_build/tree/v0.7.0)
 - **theforeman/foreman** – [🔖 1.15.4](https://github.com/theforeman/foreman/tree/1.15.4)
 - **theforeman/foreman-installer** – [🔖 1.15.4](https://github.com/theforeman/foreman-installer/tree/1.15.4)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.15.4-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/foreman-1.15.4-1.fm1_15)
@@ -16633,6 +16906,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openbolt** – [🔖 0.0.7](https://github.com/OpenVoxProject/openbolt/tree/0.0.7)
 - **OpenVoxProject/openbolt** – [🔖 0.1.0](https://github.com/OpenVoxProject/openbolt/tree/0.1.0)
 - **OpenVoxProject/pxp-agent** – [🔖 1.7.0](https://github.com/OpenVoxProject/pxp-agent/tree/1.7.0)
+- **puppetlabs-toy-chest/puppetlabs-translate** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-translate/tree/1.0.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_openscap-0.7.5-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_openscap-0.7.5-1.fm1_15)
 - **theforeman/foreman_openscap** – [🔖 v0.7.5](https://github.com/theforeman/foreman_openscap/tree/v0.7.5)
 - **theforeman/foreman_openscap** – [🔖 v0.8.1](https://github.com/theforeman/foreman_openscap/tree/v0.8.1)
@@ -16698,6 +16972,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/ezbake** – [🔖 1.1.11](https://github.com/OpenVoxProject/ezbake/tree/1.1.11)
 - **OpenVoxProject/ezbake** – [🔖 1.5.2](https://github.com/OpenVoxProject/ezbake/tree/1.5.2)
 - **OpenVoxProject/openvox-server** – [🔖 2.8.0](https://github.com/OpenVoxProject/openvox-server/tree/2.8.0)
+- **puppetlabs-toy-chest/lock_manager** – [🔖 0.1.5](https://github.com/puppetlabs-toy-chest/lock_manager/tree/0.1.5)
+- **puppetlabs-toy-chest/puppetlabs-dsc** – [🔖 1.4.0](https://github.com/puppetlabs-toy-chest/puppetlabs-dsc/tree/1.4.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-rbovirt-0.1.4-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/rubygem-rbovirt-0.1.4-1.fm1_16)
 - **voxpupuli/puppet-usbguard** – [🔖 v0.1.0](https://github.com/voxpupuli/puppet-usbguard/tree/v0.1.0)
 - **voxpupuli/puppet-usbguard** – [🔖 v0.2.0](https://github.com/voxpupuli/puppet-usbguard/tree/v0.2.0)
@@ -16712,6 +16988,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2017-08-25
 - **OpenVoxProject/leatherman** – [🔖 1.1.2](https://github.com/OpenVoxProject/leatherman/tree/1.1.2)
+- **puppetlabs-toy-chest/puppetlabs-dsc** – [🔖 1.3.1](https://github.com/puppetlabs-toy-chest/puppetlabs-dsc/tree/1.3.1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-fog-1.41.0-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/rubygem-fog-1.41.0-1.fm1_16)
 - **voxpupuli/puppet-archive** – [🔖 v2.0.0](https://github.com/voxpupuli/puppet-archive/tree/v2.0.0)
 - **voxpupuli/puppet-postfix** – [🔖 1.6.0](https://github.com/voxpupuli/puppet-postfix/tree/1.6.0)
@@ -16737,6 +17014,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/leatherman** – [🔖 1.1.1](https://github.com/OpenVoxProject/leatherman/tree/1.1.1)
 - **OpenVoxProject/openbolt** – [🔖 0.0.4](https://github.com/OpenVoxProject/openbolt/tree/0.0.4)
 - **OpenVoxProject/openbolt** – [🔖 0.0.5](https://github.com/OpenVoxProject/openbolt/tree/0.0.5)
+- **puppetlabs-toy-chest/learndot_api** – [🔖 v0.2.3](https://github.com/puppetlabs-toy-chest/learndot_api/tree/v0.2.3)
 - **theforeman/foreman-packaging** – [🔖 rubygem-bastion-5.0.10-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-bastion-5.0.10-1.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 rubygem-bastion-5.0.10-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/rubygem-bastion-5.0.10-1.fm1_16)
 - **theforeman/puppet-puppet** – [🔖 8.0.2](https://github.com/theforeman/puppet-puppet/tree/8.0.2)
@@ -16858,6 +17136,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2017-08-04
 - **voxpupuli/puppet-telegraf** – [Version 1.5.0](https://github.com/voxpupuli/puppet-telegraf/releases/tag/1.5.0)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.7.7](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.7.7)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.7.7](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.7.7)
 - **theforeman/foreman-packaging** – [🔖 rubygem-kafo-2.0.2-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-kafo-2.0.2-1.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 rubygem-kafo-2.0.2-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/rubygem-kafo-2.0.2-1.fm1_16)
 - **voxpupuli/puppet-firewalld** – [🔖 3.3.2](https://github.com/voxpupuli/puppet-firewalld/tree/3.3.2)
@@ -16873,6 +17153,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/rundeck** – [🔖 v2.9.0](https://github.com/voxpupuli/rundeck/tree/v2.9.0)
 
 ## 📅 2017-08-02
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.7.6](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.7.6)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.7.6](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.7.6)
 - **voxpupuli/beaker-aws** – [🔖 0.3.0](https://github.com/voxpupuli/beaker-aws/tree/0.3.0)
 - **voxpupuli/puppetdb-ruby** – [🔖 1.0.0](https://github.com/voxpupuli/puppetdb-ruby/tree/1.0.0)
 
@@ -16911,6 +17193,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/beaker** – [beaker 3.21.0](https://github.com/voxpupuli/beaker/releases/tag/3.21.0)
 - **voxpupuli/beaker** – [beaker 3.21.1](https://github.com/voxpupuli/beaker/releases/tag/3.21.1)
 - **OpenVoxProject/openvox-agent** – [🔖 1.10.5](https://github.com/OpenVoxProject/openvox-agent/tree/1.10.5)
+- **puppetlabs-toy-chest/puppetlabs-image_build** – [🔖 v0.6.0](https://github.com/puppetlabs-toy-chest/puppetlabs-image_build/tree/v0.6.0)
 - **theforeman/foreman-packaging** – [🔖 nodejs-extract-text-webpack-plugin-3.0.0-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/nodejs-extract-text-webpack-plugin-3.0.0-1.fm1_16)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_remote_execution-1.3.3-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_remote_execution-1.3.3-1.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_remote_execution-1.3.3-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_remote_execution-1.3.3-1.fm1_16)
@@ -16922,6 +17205,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2017-07-25
 - **OpenVoxProject/clj-parent** – [🔖 1.3.0](https://github.com/OpenVoxProject/clj-parent/tree/1.3.0)
+- **puppetlabs-toy-chest/puppetlabs-image_build** – [🔖 v0.4.0](https://github.com/puppetlabs-toy-chest/puppetlabs-image_build/tree/v0.4.0)
+- **puppetlabs-toy-chest/puppetlabs-image_build** – [🔖 v0.5.0](https://github.com/puppetlabs-toy-chest/puppetlabs-image_build/tree/v0.5.0)
 - **theforeman/foreman-packaging** – [🔖 nodejs-babel-loader-7.1.1-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/nodejs-babel-loader-7.1.1-1.fm1_16)
 - **theforeman/foreman-packaging** – [🔖 nodejs-babel-loader-7.1.1-2.fm1_16](https://github.com/theforeman/foreman-packaging/tree/nodejs-babel-loader-7.1.1-2.fm1_16)
 
@@ -16997,6 +17282,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/ezbake** – [🔖 1.1.10](https://github.com/OpenVoxProject/ezbake/tree/1.1.10)
 - **OpenVoxProject/ezbake** – [🔖 1.5.1](https://github.com/OpenVoxProject/ezbake/tree/1.5.1)
 - **OpenVoxProject/pxp-agent** – [🔖 1.6.1](https://github.com/OpenVoxProject/pxp-agent/tree/1.6.1)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.7.5](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.7.5)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.7.5](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.7.5)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman-tasks-0.9.4-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman-tasks-0.9.4-1.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman-tasks-0.9.4-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman-tasks-0.9.4-1.fm1_16)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman-tasks-core-0.1.4-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman-tasks-core-0.1.4-1.fm1_15)
@@ -17144,6 +17431,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openvox-server** – [🔖 5.0.0](https://github.com/OpenVoxProject/openvox-server/tree/5.0.0)
 - **OpenVoxProject/pdk-vanagon** – [🔖 0.2.0.0](https://github.com/OpenVoxProject/pdk-vanagon/tree/0.2.0.0)
 - **OpenVoxProject/pxp-agent** – [🔖 1.6.0](https://github.com/OpenVoxProject/pxp-agent/tree/1.6.0)
+- **puppetlabs-toy-chest/puppetlabs-ruby** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-ruby/tree/1.0.0)
 - **voxpupuli/puppet-letsencrypt** – [🔖 v2.0.0](https://github.com/voxpupuli/puppet-letsencrypt/tree/v2.0.0)
 
 ## 📅 2017-06-21
@@ -17221,6 +17509,9 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2017-06-08
 - **OpenVoxProject/pdk-vanagon** – [🔖 0.1.0.3](https://github.com/OpenVoxProject/pdk-vanagon/tree/0.1.0.3)
+- **puppetlabs-toy-chest/beaker-testmode_switcher** – [🔖 v0.3.0](https://github.com/puppetlabs-toy-chest/beaker-testmode_switcher/tree/v0.3.0)
+- **puppetlabs-toy-chest/puppet-quest-guide** – [🔖 v1.3.0](https://github.com/puppetlabs-toy-chest/puppet-quest-guide/tree/v1.3.0)
+- **puppetlabs-toy-chest/puppetlabs-certregen** – [🔖 v0.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-certregen/tree/v0.2.0)
 - **theforeman/foreman-installer** – [🔖 1.15.1](https://github.com/theforeman/foreman-installer/tree/1.15.1)
 - **theforeman/foreman-selinux** – [🔖 1.15.1](https://github.com/theforeman/foreman-selinux/tree/1.15.1)
 - **voxpupuli/puppet-zabbix** – [🔖 v4.1.0](https://github.com/voxpupuli/puppet-zabbix/tree/v4.1.0)
@@ -17247,6 +17538,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2017-06-02
 - **voxpupuli/metadata-json-lint** – [1.2.2](https://github.com/voxpupuli/metadata-json-lint/releases/tag/1.2.2)
+- **puppetlabs-toy-chest/beaker-testmode_switcher** – [🔖 v0.2.1](https://github.com/puppetlabs-toy-chest/beaker-testmode_switcher/tree/v0.2.1)
 - **theforeman/foreman_virt_who_configure** – [🔖 v0.1.2](https://github.com/theforeman/foreman_virt_who_configure/tree/v0.1.2)
 - **theforeman/hammer-cli-foreman-virt-who-configure** – [🔖 0.0.2](https://github.com/theforeman/hammer-cli-foreman-virt-who-configure/tree/0.0.2)
 - **voxpupuli/r10k** – [🔖 2.5.5](https://github.com/voxpupuli/r10k/tree/2.5.5)
@@ -17254,6 +17546,9 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2017-06-01
 - **voxpupuli/metadata-json-lint** – [1.2.0](https://github.com/voxpupuli/metadata-json-lint/releases/tag/1.2.0)
 - **voxpupuli/metadata-json-lint** – [1.2.1](https://github.com/voxpupuli/metadata-json-lint/releases/tag/1.2.1)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.7.4](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.7.4)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.7.4](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.7.4)
+- **puppetlabs-toy-chest/puppetlabs-docker_ddc** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-docker_ddc/tree/1.0.0)
 - **theforeman/hammer-cli-foreman-virt-who-configure** – [🔖 0.0.1](https://github.com/theforeman/hammer-cli-foreman-virt-who-configure/tree/0.0.1)
 - **theforeman/puppet-certs** – [🔖 2.0.1](https://github.com/theforeman/puppet-certs/tree/2.0.1)
 - **theforeman/puppet-service_wait** – [🔖 1.0.1](https://github.com/theforeman/puppet-service_wait/tree/1.0.1)
@@ -17296,6 +17591,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/jruby-utils** – [🔖 0.10.0](https://github.com/OpenVoxProject/jruby-utils/tree/0.10.0)
 
 ## 📅 2017-05-25
+- **puppetlabs-toy-chest/puppetlabs-docker_ucp** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-docker_ucp/tree/1.0.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-ancestry-3.0.0-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/rubygem-ancestry-3.0.0-1.fm1_16)
 - **theforeman/foreman-packaging** – [🔖 rubygem-rsec-0.4.2-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/rubygem-rsec-0.4.2-1.fm1_16)
 - **theforeman/foreman_virt_who_configure** – [🔖 v0.1.1](https://github.com/theforeman/foreman_virt_who_configure/tree/v0.1.1)
@@ -17303,6 +17599,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-splunk** – [🔖 v6.0.0](https://github.com/voxpupuli/puppet-splunk/tree/v6.0.0)
 
 ## 📅 2017-05-24
+- **puppetlabs-toy-chest/lumogon** – [🔖 0.3.0](https://github.com/puppetlabs-toy-chest/lumogon/tree/0.3.0)
 - **theforeman/foreman-bootloaders** – [🔖 201705231433](https://github.com/theforeman/foreman-bootloaders/tree/201705231433)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_xen-0.5.2-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_xen-0.5.2-1.fm1_14)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_xen-0.5.2-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_xen-0.5.2-1.fm1_15)
@@ -17313,6 +17610,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-zabbix** – [🔖 v4.0.0](https://github.com/voxpupuli/puppet-zabbix/tree/v4.0.0)
 
 ## 📅 2017-05-23
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.7.3](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.7.3)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.7.3](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.7.3)
 - **theforeman/foreman-xen** – [🔖 v0.5.2](https://github.com/theforeman/foreman-xen/tree/v0.5.2)
 - **voxpupuli/modulesync_config** – [🔖 0.21.3](https://github.com/voxpupuli/modulesync_config/tree/0.21.3)
 
@@ -17341,6 +17640,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/foreman_hooks** – [🔖 v0.3.14](https://github.com/theforeman/foreman_hooks/tree/v0.3.14)
 
 ## 📅 2017-05-16
+- **puppetlabs-toy-chest/pltraining-puppetfactory** – [🔖 v0.5.9](https://github.com/puppetlabs-toy-chest/pltraining-puppetfactory/tree/v0.5.9)
 - **theforeman/foreman-packaging** – [🔖 rubygem-fog-libvirt-0.4.0-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/rubygem-fog-libvirt-0.4.0-1.fm1_16)
 - **theforeman/foreman-packaging** – [🔖 rubygem-ruby-libvirt-0.7.0-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/rubygem-ruby-libvirt-0.7.0-1.fm1_16)
 - **theforeman/foreman_maintain** – [🔖 v0.0.3](https://github.com/theforeman/foreman_maintain/tree/v0.0.3)
@@ -17356,11 +17656,15 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-zypprepo** – [🔖 v2.0.0](https://github.com/voxpupuli/puppet-zypprepo/tree/v2.0.0)
 
 ## 📅 2017-05-12
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.7.2](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.7.2)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.7.2](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.7.2)
 - **theforeman/foreman-packaging** – [🔖 rubygem-fog-vsphere-1.9.2-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/rubygem-fog-vsphere-1.9.2-1.fm1_16)
 
 ## 📅 2017-05-11
 - **voxpupuli/beaker** – [beaker 3.16.0](https://github.com/voxpupuli/beaker/releases/tag/3.16.0)
 - **OpenVoxProject/clj-parent** – [🔖 0.8.1](https://github.com/OpenVoxProject/clj-parent/tree/0.8.1)
+- **puppetlabs-toy-chest/lumogon** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/lumogon/tree/0.1.0)
+- **puppetlabs-toy-chest/puppetlabs-azure** – [🔖 1.1.1](https://github.com/puppetlabs-toy-chest/puppetlabs-azure/tree/1.1.1)
 - **theforeman/foreman-packaging** – [🔖 nodejs-prop-types-15.5.9-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/nodejs-prop-types-15.5.9-1.fm1_16)
 - **theforeman/foreman-packaging** – [🔖 nodejs-react-bootstrap-0.31.0-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/nodejs-react-bootstrap-0.31.0-1.fm1_16)
 - **voxpupuli/puppet-autofs** – [🔖 v3.0.2](https://github.com/voxpupuli/puppet-autofs/tree/v3.0.2)
@@ -17368,6 +17672,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-redis** – [🔖 v3.0.0](https://github.com/voxpupuli/puppet-redis/tree/v3.0.0)
 
 ## 📅 2017-05-10
+- **puppetlabs-toy-chest/puppetlabs-aws** – [🔖 2.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-aws/tree/2.0.0)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.15.0-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/foreman-1.15.0-1.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 foreman-installer-1.15.0-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/foreman-installer-1.15.0-1.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 foreman-proxy-1.15.0-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/foreman-proxy-1.15.0-1.fm1_15)
@@ -17398,6 +17703,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2017-05-05
 - **voxpupuli/modulesync** – [0.8.0](https://github.com/voxpupuli/modulesync/releases/tag/0.8.0)
+- **puppetlabs-toy-chest/pltraining-puppetfactory** – [🔖 v0.5.8](https://github.com/puppetlabs-toy-chest/pltraining-puppetfactory/tree/v0.5.8)
+- **puppetlabs-toy-chest/puppetlabs-stunnel** – [🔖 0.3.0](https://github.com/puppetlabs-toy-chest/puppetlabs-stunnel/tree/0.3.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-hammer_cli-0.10.2-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/rubygem-hammer_cli-0.10.2-1.fm1_16)
 - **theforeman/foreman-packaging** – [🔖 rubygem-hammer_cli_foreman-0.10.2-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/rubygem-hammer_cli_foreman-0.10.2-1.fm1_16)
 - **voxpupuli/puppet-elasticsearch** – [🔖 5.2.0](https://github.com/voxpupuli/puppet-elasticsearch/tree/5.2.0)
@@ -17413,6 +17720,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/jruby-utils** – [🔖 0.9.0](https://github.com/OpenVoxProject/jruby-utils/tree/0.9.0)
 - **OpenVoxProject/leatherman** – [🔖 0.99.0](https://github.com/OpenVoxProject/leatherman/tree/0.99.0)
 - **OpenVoxProject/openvox-agent** – [🔖 4.99.0](https://github.com/OpenVoxProject/openvox-agent/tree/4.99.0)
+- **puppetlabs-toy-chest/puppetlabs-puppetserver_gem** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-puppetserver_gem/tree/1.0.0)
 - **voxpupuli/puppet-logstash** – [🔖 5.2.0](https://github.com/voxpupuli/puppet-logstash/tree/5.2.0)
 
 ## 📅 2017-05-02
@@ -17479,6 +17787,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-snmp** – [🔖 3.7.0](https://github.com/voxpupuli/puppet-snmp/tree/3.7.0)
 
 ## 📅 2017-04-21
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.7.1](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.7.1)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.7.1](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.7.1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_templates-4.0.2-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_templates-4.0.2-1.fm1_14)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_templates-4.0.2-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_templates-4.0.2-1.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_templates-4.0.2-1.fm1_16](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_templates-4.0.2-1.fm1_16)
@@ -17491,6 +17801,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/clj-parent** – [🔖 0.7.1](https://github.com/OpenVoxProject/clj-parent/tree/0.7.1)
 - **OpenVoxProject/cpp-pcp-client** – [🔖 1.5.2](https://github.com/OpenVoxProject/cpp-pcp-client/tree/1.5.2)
 - **OpenVoxProject/ezbake** – [🔖 1.2.1](https://github.com/OpenVoxProject/ezbake/tree/1.2.1)
+- **puppetlabs-toy-chest/puppetlabs-dsc** – [🔖 1.3.0](https://github.com/puppetlabs-toy-chest/puppetlabs-dsc/tree/1.3.0)
 
 ## 📅 2017-04-19
 - **voxpupuli/beaker** – [beaker 3.15.0](https://github.com/voxpupuli/beaker/releases/tag/3.15.0)
@@ -17506,6 +17817,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2017-04-17
 - **OpenVoxProject/openvoxdb** – [🔖 4.2.3.2](https://github.com/OpenVoxProject/openvoxdb/tree/4.2.3.2)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.7.0](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.7.0)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.7.0](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.7.0)
 - **voxpupuli/puppet-bacula** – [🔖 5.0.0](https://github.com/voxpupuli/puppet-bacula/tree/5.0.0)
 - **voxpupuli/rundeck** – [🔖 v2.8.1](https://github.com/voxpupuli/rundeck/tree/v2.8.1)
 
@@ -17598,6 +17911,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-gitlab** – [v1.13.3 [2017-04-04]](https://github.com/voxpupuli/puppet-gitlab/releases/tag/v1.13.3)
 - **OpenVoxProject/openvoxdb** – [🔖 4.4.0](https://github.com/OpenVoxProject/openvoxdb/tree/4.4.0)
 - **OpenVoxProject/vanagon** – [🔖 0.11.2](https://github.com/OpenVoxProject/vanagon/tree/0.11.2)
+- **puppetlabs-toy-chest/learndot_api** – [🔖 v0.2.2](https://github.com/puppetlabs-toy-chest/learndot_api/tree/v0.2.2)
 - **voxpupuli/puppet-cvmfs** – [🔖 4.1.0](https://github.com/voxpupuli/puppet-cvmfs/tree/4.1.0)
 
 ## 📅 2017-04-03
@@ -17666,6 +17980,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-lint-param-docs** – [🔖 v1.4.2](https://github.com/voxpupuli/puppet-lint-param-docs/tree/v1.4.2)
 
 ## 📅 2017-03-28
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.6.14](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.6.14)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.6.14](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.6.14)
 - **theforeman/foreman-packaging** – [🔖 rubygem-apipie-bindings-0.1.0-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-apipie-bindings-0.1.0-1.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 rubygem-dynflow-0.8.23-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-dynflow-0.8.23-1.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 rubygem-smart_proxy_dhcp_remote_isc-0.0.2-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-smart_proxy_dhcp_remote_isc-0.0.2-1.fm1_15)
@@ -17798,17 +18114,26 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2017-03-09
 - **OpenVoxProject/openvox-agent** – [🔖 1.9.3](https://github.com/OpenVoxProject/openvox-agent/tree/1.9.3)
+- **puppetlabs-toy-chest/puppetlabs-pdb_3323_workaround** – [🔖 1.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-pdb_3323_workaround/tree/1.0.1)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.6.1](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.6.1)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.6.1](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.6.1)
 - **voxpupuli/puppet-nfs** – [🔖 2.0.0](https://github.com/voxpupuli/puppet-nfs/tree/2.0.0)
 - **voxpupuli/puppet-nfs** – [🔖 2.0.1](https://github.com/voxpupuli/puppet-nfs/tree/2.0.1)
 - **voxpupuli/puppet-nfs** – [🔖 2.0.2](https://github.com/voxpupuli/puppet-nfs/tree/2.0.2)
 
 ## 📅 2017-03-08
 - **OpenVoxProject/openvoxdb** – [🔖 4.3.2](https://github.com/OpenVoxProject/openvoxdb/tree/4.3.2)
+- **puppetlabs-toy-chest/puppetlabs-pdb_3323_workaround** – [🔖 0.5.0](https://github.com/puppetlabs-toy-chest/puppetlabs-pdb_3323_workaround/tree/0.5.0)
+- **puppetlabs-toy-chest/puppetlabs-pdb_3323_workaround** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-pdb_3323_workaround/tree/1.0.0)
 - **theforeman/puppetlabs-postgresql** – [🔖 4.9.0](https://github.com/theforeman/puppetlabs-postgresql/tree/4.9.0)
 - **voxpupuli/facterdb** – [🔖 0.3.10](https://github.com/voxpupuli/facterdb/tree/0.3.10)
 - **voxpupuli/puppet-kibana** – [🔖 0.1.0](https://github.com/voxpupuli/puppet-kibana/tree/0.1.0)
 
 ## 📅 2017-03-07
+- **puppetlabs-toy-chest/razor-client** – [🔖 1.4.0](https://github.com/puppetlabs-toy-chest/razor-client/tree/1.4.0)
+- **puppetlabs-toy-chest/razor-client** – [🔖 1.6.0](https://github.com/puppetlabs-toy-chest/razor-client/tree/1.6.0)
+- **puppetlabs-toy-chest/razor-client** – [🔖 1.6.1](https://github.com/puppetlabs-toy-chest/razor-client/tree/1.6.1)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.6.0](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.6.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_hooks-0.3.13-2.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_hooks-0.3.13-2.fm1_15)
 - **voxpupuli/puppet-r10k** – [🔖 v5.0.0](https://github.com/voxpupuli/puppet-r10k/tree/v5.0.0)
 
@@ -17827,6 +18152,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2017-03-03
 - **OpenVoxProject/hiera** – [🔖 3.3.1](https://github.com/OpenVoxProject/hiera/tree/3.3.1)
+- **puppetlabs-toy-chest/beaker-testmode_switcher** – [🔖 v0.2.0](https://github.com/puppetlabs-toy-chest/beaker-testmode_switcher/tree/v0.2.0)
 - **theforeman/foreman-packaging** – [🔖 nodejs-node-gyp-3.3.1-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/nodejs-node-gyp-3.3.1-1.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 nodejs-node-sass-4.5.0-2.fm1_15](https://github.com/theforeman/foreman-packaging/tree/nodejs-node-sass-4.5.0-2.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_xen-0.5.1-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_xen-0.5.1-1.fm1_14)
@@ -17862,6 +18188,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-firewalld** – [🔖 3.2.0](https://github.com/voxpupuli/puppet-firewalld/tree/3.2.0)
 
 ## 📅 2017-02-27
+- **puppetlabs-toy-chest/puppetlabs-pe_bulk_agent_install** – [🔖 v1.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-pe_bulk_agent_install/tree/v1.1.0)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.6.0](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.6.0)
 - **voxpupuli/beaker-module_install_helper** – [🔖 0.1.4](https://github.com/voxpupuli/beaker-module_install_helper/tree/0.1.4)
 
 ## 📅 2017-02-26
@@ -17889,6 +18217,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2017-02-21
 - **OpenVoxProject/vanagon** – [🔖 0.10.0](https://github.com/OpenVoxProject/vanagon/tree/0.10.0)
+- **puppetlabs-toy-chest/puppetlabs-image_build** – [🔖 v0.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-image_build/tree/v0.2.0)
 - **theforeman/foreman-packaging** – [🔖 puppet-foreman_scap_client-0.3.13-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/puppet-foreman_scap_client-0.3.13-1.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 rubygem-apipie-rails-0.4.0-2.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-apipie-rails-0.4.0-2.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_openscap-0.6.4-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_openscap-0.6.4-1.fm1_14)
@@ -17915,6 +18244,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/cpp-hocon** – [🔖 0.1.5](https://github.com/OpenVoxProject/cpp-hocon/tree/0.1.5)
 
 ## 📅 2017-02-16
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.6.13](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.6.13)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.6.13](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.6.13)
 - **theforeman/foreman-packaging** – [🔖 nodejs-react-redux-5.0.2-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/nodejs-react-redux-5.0.2-1.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 nodejs-react-redux-5.0.2-2.fm1_15](https://github.com/theforeman/foreman-packaging/tree/nodejs-react-redux-5.0.2-2.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 nodejs-redux-3.6.0-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/nodejs-redux-3.6.0-1.fm1_15)
@@ -18011,6 +18342,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/clj-parent** – [🔖 0.4.0](https://github.com/OpenVoxProject/clj-parent/tree/0.4.0)
 - **OpenVoxProject/openvox-agent** – [🔖 1.9.1](https://github.com/OpenVoxProject/openvox-agent/tree/1.9.1)
 - **OpenVoxProject/pxp-agent** – [🔖 1.4.1](https://github.com/OpenVoxProject/pxp-agent/tree/1.4.1)
+- **puppetlabs-toy-chest/gcr-sdk-java** – [🔖 gcr-sdk-java-2.1.1](https://github.com/puppetlabs-toy-chest/gcr-sdk-java/tree/gcr-sdk-java-2.1.1)
+- **puppetlabs-toy-chest/gcr-sdk-java** – [🔖 gcr-sdk-java-2.1.2](https://github.com/puppetlabs-toy-chest/gcr-sdk-java/tree/gcr-sdk-java-2.1.2)
 - **theforeman/foreman-packaging** – [🔖 rubygem-addressable-2.3.6-4.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-addressable-2.3.6-4.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 rubygem-highline-1.7.8-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-highline-1.7.8-1.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 rubygem-net-ssh-4.0.1-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-net-ssh-4.0.1-1.fm1_15)
@@ -18025,6 +18358,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2017-02-08
 - **OpenVoxProject/openvox** – [🔖 4.9.2](https://github.com/OpenVoxProject/openvox/tree/4.9.2)
+- **puppetlabs-toy-chest/gcr-sdk-java** – [🔖 gcr-sdk-java-2.0.0](https://github.com/puppetlabs-toy-chest/gcr-sdk-java/tree/gcr-sdk-java-2.0.0)
+- **puppetlabs-toy-chest/gcr-sdk-java** – [🔖 gcr-sdk-java-2.1.0](https://github.com/puppetlabs-toy-chest/gcr-sdk-java/tree/gcr-sdk-java-2.1.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_memcache-0.0.6-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_memcache-0.0.6-1.fm1_13)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_memcache-0.0.6-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_memcache-0.0.6-1.fm1_14)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_memcache-0.0.6-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_memcache-0.0.6-1.fm1_15)
@@ -18047,6 +18382,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/clj-kitchensink** – [🔖 2.2.0](https://github.com/OpenVoxProject/clj-kitchensink/tree/2.2.0)
 - **OpenVoxProject/jruby-utils** – [🔖 0.7.0](https://github.com/OpenVoxProject/jruby-utils/tree/0.7.0)
 - **OpenVoxProject/openvox** – [🔖 4.9.1](https://github.com/OpenVoxProject/openvox/tree/4.9.1)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.6.12](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.6.12)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.6.12](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.6.12)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_chef-0.5.0-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_chef-0.5.0-1.fm1_14)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_chef-0.5.0-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_chef-0.5.0-1.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_templates-4.0.1-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_templates-4.0.1-1.fm1_14)
@@ -18058,6 +18395,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2017-02-02
 - **OpenVoxProject/clj-kitchensink** – [🔖 2.1.1](https://github.com/OpenVoxProject/clj-kitchensink/tree/2.1.1)
 - **OpenVoxProject/openfact** – [🔖 3.6.1](https://github.com/OpenVoxProject/openfact/tree/3.6.1)
+- **puppetlabs-toy-chest/gcr-sdk-java** – [🔖 gcr-sdk-java-1.1.0](https://github.com/puppetlabs-toy-chest/gcr-sdk-java/tree/gcr-sdk-java-1.1.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-route53-0.4.0-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-route53-0.4.0-1.fm1_15)
 - **theforeman/foreman_chef** – [🔖 v0.5.0](https://github.com/theforeman/foreman_chef/tree/v0.5.0)
 - **theforeman/puppet-squid3** – [🔖 1.0.2](https://github.com/theforeman/puppet-squid3/tree/1.0.2)
@@ -18065,6 +18403,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2017-02-01
 - **voxpupuli/puppet-syntax** – [v2.3.0](https://github.com/voxpupuli/puppet-syntax/releases/tag/v2.3.0)
+- **puppetlabs-toy-chest/pltraining-bootstrap** – [🔖 5.12](https://github.com/puppetlabs-toy-chest/pltraining-bootstrap/tree/5.12)
+- **puppetlabs-toy-chest/razor-el-mk** – [🔖 release-008](https://github.com/puppetlabs-toy-chest/razor-el-mk/tree/release-008)
 - **theforeman/foreman** – [🔖 1.14.1](https://github.com/theforeman/foreman/tree/1.14.1)
 - **theforeman/foreman-installer** – [🔖 1.14.1](https://github.com/theforeman/foreman-installer/tree/1.14.1)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.14.1-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/foreman-1.14.1-1.fm1_14)
@@ -18108,6 +18448,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/leatherman** – [🔖 0.10.2](https://github.com/OpenVoxProject/leatherman/tree/0.10.2)
 - **OpenVoxProject/openvox** – [🔖 4.9.0](https://github.com/OpenVoxProject/openvox/tree/4.9.0)
 - **OpenVoxProject/openvoxdb** – [🔖 4.3.1](https://github.com/OpenVoxProject/openvoxdb/tree/4.3.1)
+- **puppetlabs-toy-chest/puppetlabs-mount_providers** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-mount_providers/tree/1.0.0)
 - **theforeman/chef-handler-foreman** – [🔖 v0.1.3](https://github.com/theforeman/chef-handler-foreman/tree/v0.1.3)
 - **theforeman/chef-handler-foreman** – [🔖 v0.2.0](https://github.com/theforeman/chef-handler-foreman/tree/v0.2.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-bastion-4.2.2-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-bastion-4.2.2-1.fm1_14)
@@ -18155,11 +18496,15 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/safemode** – [🔖 v1.2.5](https://github.com/theforeman/safemode/tree/v1.2.5)
 - **voxpupuli/puppet-caddy** – [🔖 v0.1.2](https://github.com/voxpupuli/puppet-caddy/tree/v0.1.2)
 
+## 📅 2017-01-23
+- **puppetlabs-toy-chest/puppetlabs-certregen** – [🔖 v0.1.1](https://github.com/puppetlabs-toy-chest/puppetlabs-certregen/tree/v0.1.1)
+
 ## 📅 2017-01-21
 - **voxpupuli/puppet-cassandra** – [🔖 2.3.0](https://github.com/voxpupuli/puppet-cassandra/tree/2.3.0)
 
 ## 📅 2017-01-20
 - **OpenVoxProject/openfact** – [🔖 3.6.0](https://github.com/OpenVoxProject/openfact/tree/3.6.0)
+- **puppetlabs-toy-chest/mcollective-package-agent** – [🔖 4.5.0](https://github.com/puppetlabs-toy-chest/mcollective-package-agent/tree/4.5.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_ansible-1.4.1-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_ansible-1.4.1-1.fm1_13)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_ansible-1.4.1-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_ansible-1.4.1-1.fm1_14)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_ansible-1.4.1-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_ansible-1.4.1-1.fm1_15)
@@ -18172,6 +18517,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-vault** – [🔖 v1.1.6](https://github.com/voxpupuli/puppet-vault/tree/v1.1.6)
 
 ## 📅 2017-01-19
+- **puppetlabs-toy-chest/beaker-testmode_switcher** – [🔖 v0.1.1](https://github.com/puppetlabs-toy-chest/beaker-testmode_switcher/tree/v0.1.1)
 - **theforeman/foreman_ansible** – [🔖 1.4.0](https://github.com/theforeman/foreman_ansible/tree/1.4.0)
 - **theforeman/foreman_ansible** – [🔖 1.4.1](https://github.com/theforeman/foreman_ansible/tree/1.4.1)
 - **theforeman/foreman_memcache** – [🔖 v0.0.5](https://github.com/theforeman/foreman_memcache/tree/v0.0.5)
@@ -18253,6 +18599,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/ezbake** – [🔖 1.1.6](https://github.com/OpenVoxProject/ezbake/tree/1.1.6)
 - **OpenVoxProject/openfact** – [🔖 3.4.2](https://github.com/OpenVoxProject/openfact/tree/3.4.2)
 - **OpenVoxProject/pxp-agent** – [🔖 1.2.3](https://github.com/OpenVoxProject/pxp-agent/tree/1.2.3)
+- **puppetlabs-toy-chest/puppetlabs-pe_bulk_agent_install** – [🔖 v1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-pe_bulk_agent_install/tree/v1.0.0)
 - **theforeman/puppetdb_foreman** – [🔖 2.0.0](https://github.com/theforeman/puppetdb_foreman/tree/2.0.0)
 - **voxpupuli/modulesync_config** – [🔖 0.18.0](https://github.com/voxpupuli/modulesync_config/tree/0.18.0)
 - **voxpupuli/modulesync_config** – [🔖 0.19.0](https://github.com/voxpupuli/modulesync_config/tree/0.19.0)
@@ -18294,6 +18641,8 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2017-01-06
 - **OpenVoxProject/clj-parent** – [🔖 0.3.1](https://github.com/OpenVoxProject/clj-parent/tree/0.3.1)
 - **OpenVoxProject/vanagon** – [🔖 0.9.0](https://github.com/OpenVoxProject/vanagon/tree/0.9.0)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.6.10](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.6.10)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.6.10](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.6.10)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_discovery-8.0.0-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_discovery-8.0.0-1.fm1_14)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_discovery-8.0.0-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_discovery-8.0.0-1.fm1_15)
 - **theforeman/foreman_discovery** – [🔖 8.0.0](https://github.com/theforeman/foreman_discovery/tree/8.0.0)
@@ -18357,6 +18706,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-autofs** – [🔖 v2.0.0](https://github.com/voxpupuli/puppet-autofs/tree/v2.0.0)
 
 ## 📅 2016-12-29
+- **puppetlabs-toy-chest/gcr-sdk-java** – [🔖 gcr-sdk-java-1.0.1](https://github.com/puppetlabs-toy-chest/gcr-sdk-java/tree/gcr-sdk-java-1.0.1)
+- **puppetlabs-toy-chest/gcr-sdk-java** – [🔖 gcr-sdk-java-1.0.2](https://github.com/puppetlabs-toy-chest/gcr-sdk-java/tree/gcr-sdk-java-1.0.2)
 - **theforeman/puppet-certs** – [🔖 1.0.0](https://github.com/theforeman/puppet-certs/tree/1.0.0)
 - **voxpupuli/puppet-consul** – [🔖 v2.0.0](https://github.com/voxpupuli/puppet-consul/tree/v2.0.0)
 - **voxpupuli/puppet-pxe** – [🔖 0.2.0](https://github.com/voxpupuli/puppet-pxe/tree/0.2.0)
@@ -18364,9 +18715,11 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2016-12-28
 - **voxpupuli/beaker** – [beaker 3.7.0](https://github.com/voxpupuli/beaker/releases/tag/3.7.0)
+- **puppetlabs-toy-chest/lock_manager** – [🔖 0.1.4](https://github.com/puppetlabs-toy-chest/lock_manager/tree/0.1.4)
 - **voxpupuli/puppet-selinux** – [🔖 v0.7.1](https://github.com/voxpupuli/puppet-selinux/tree/v0.7.1)
 
 ## 📅 2016-12-27
+- **puppetlabs-toy-chest/gcr-sdk-java** – [🔖 gcr-sdk-java-1.0.0](https://github.com/puppetlabs-toy-chest/gcr-sdk-java/tree/gcr-sdk-java-1.0.0)
 - **voxpupuli/puppet-prometheus** – [🔖 v0.2.0](https://github.com/voxpupuli/puppet-prometheus/tree/v0.2.0)
 
 ## 📅 2016-12-26
@@ -18440,6 +18793,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-report_hipchat** – [🔖 v1.0.0](https://github.com/voxpupuli/puppet-report_hipchat/tree/v1.0.0)
 
 ## 📅 2016-12-20
+- **puppetlabs-toy-chest/puppetlabs-ruby** – [🔖 0.6.0](https://github.com/puppetlabs-toy-chest/puppetlabs-ruby/tree/0.6.0)
 - **theforeman/foreman** – [🔖 1.13.3](https://github.com/theforeman/foreman/tree/1.13.3)
 - **theforeman/foreman-installer** – [🔖 1.13.3](https://github.com/theforeman/foreman-installer/tree/1.13.3)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.13.3-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/foreman-1.13.3-1.fm1_13)
@@ -18472,6 +18826,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2016-12-14
 - **voxpupuli/beaker** – [beaker 3.6.0](https://github.com/voxpupuli/beaker/releases/tag/3.6.0)
+- **puppetlabs-toy-chest/puppetlabs-netapp** – [🔖 1.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-netapp/tree/1.2.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-apipie-bindings-0.0.19-1.fm1_15](https://github.com/theforeman/foreman-packaging/tree/rubygem-apipie-bindings-0.0.19-1.fm1_15)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_bootdisk-8.1.0-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_bootdisk-8.1.0-1.fm1_13)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_bootdisk-8.1.0-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_bootdisk-8.1.0-1.fm1_14)
@@ -18518,12 +18873,14 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2016-12-07
 - **OpenVoxProject/clj-parent** – [🔖 0.2.5](https://github.com/OpenVoxProject/clj-parent/tree/0.2.5)
+- **puppetlabs-toy-chest/learndot_api** – [🔖 v0.2.1](https://github.com/puppetlabs-toy-chest/learndot_api/tree/v0.2.1)
 - **voxpupuli/puppet-filemapper** – [🔖 v2.0.1](https://github.com/voxpupuli/puppet-filemapper/tree/v2.0.1)
 - **voxpupuli/puppet-vault** – [🔖 v1.1.4](https://github.com/voxpupuli/puppet-vault/tree/v1.1.4)
 - **voxpupuli/puppet-zabbix** – [🔖 v2.6.1](https://github.com/voxpupuli/puppet-zabbix/tree/v2.6.1)
 
 ## 📅 2016-12-06
 - **OpenVoxProject/leatherman** – [🔖 0.10.1](https://github.com/OpenVoxProject/leatherman/tree/0.10.1)
+- **puppetlabs-toy-chest/pltraining-classroomdemo** – [🔖 v0.0.4](https://github.com/puppetlabs-toy-chest/pltraining-classroomdemo/tree/v0.0.4)
 - **theforeman/puppet-dhcp** – [🔖 3.0.0](https://github.com/theforeman/puppet-dhcp/tree/3.0.0)
 - **theforeman/puppet-dns** – [🔖 4.0.0](https://github.com/theforeman/puppet-dns/tree/4.0.0)
 - **theforeman/puppet-git** – [🔖 2.0.0](https://github.com/theforeman/puppet-git/tree/2.0.0)
@@ -18582,6 +18939,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2016-11-29
 - **OpenVoxProject/ezbake** – [🔖 1.1.5](https://github.com/OpenVoxProject/ezbake/tree/1.1.5)
 - **OpenVoxProject/openvoxdb** – [🔖 4.2.5](https://github.com/OpenVoxProject/openvoxdb/tree/4.2.5)
+- **puppetlabs-toy-chest/maintainers** – [🔖 v0.3.0](https://github.com/puppetlabs-toy-chest/maintainers/tree/v0.3.0)
 
 ## 📅 2016-11-28
 - **voxpupuli/openvox-strings** – [🔖 1.0.0](https://github.com/voxpupuli/openvox-strings/tree/1.0.0)
@@ -18627,6 +18985,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2016-11-22
 - **voxpupuli/puppet-cron** – [Added cron service management](https://github.com/voxpupuli/puppet-cron/releases/tag/v0.2.0)
 - **OpenVoxProject/openvoxdb-cli** – [🔖 1.2.0](https://github.com/OpenVoxProject/openvoxdb-cli/tree/1.2.0)
+- **puppetlabs-toy-chest/puppetlabs-certregen** – [🔖 v0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-certregen/tree/v0.1.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_salt-6.0.1-1.fm1_12](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_salt-6.0.1-1.fm1_12)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_salt-7.0.1-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_salt-7.0.1-1.fm1_13)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_salt-7.0.1-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_salt-7.0.1-1.fm1_14)
@@ -18675,6 +19034,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2016-11-15
 - **OpenVoxProject/openvox** – [🔖 4.8.1](https://github.com/OpenVoxProject/openvox/tree/4.8.1)
+- **puppetlabs-toy-chest/puppetlabs-azure** – [🔖 1.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-azure/tree/1.1.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-azure-0.7.7-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-azure-0.7.7-1.fm1_14)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_azure-1.1.1-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_azure-1.1.1-1.fm1_11)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_azure-1.1.1-1.fm1_12](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_azure-1.1.1-1.fm1_12)
@@ -18712,12 +19072,16 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/clj-parent** – [🔖 0.2.1](https://github.com/OpenVoxProject/clj-parent/tree/0.2.1)
 - **OpenVoxProject/clj-parent** – [🔖 0.2.2](https://github.com/OpenVoxProject/clj-parent/tree/0.2.2)
 - **OpenVoxProject/clj-parent** – [🔖 0.2.3](https://github.com/OpenVoxProject/clj-parent/tree/0.2.3)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.6.9](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.6.9)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.6.9](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.6.9)
+- **puppetlabs-toy-chest/puppetlabs-dsc** – [🔖 1.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-dsc/tree/1.2.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_noenv-0.0.7-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_noenv-0.0.7-1.fm1_13)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_noenv-0.0.7-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_noenv-0.0.7-1.fm1_14)
 - **theforeman/foreman-packaging** – [🔖 rubygem-kafo-1.0.4-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-kafo-1.0.4-1.fm1_14)
 
 ## 📅 2016-11-07
 - **voxpupuli/beaker** – [beaker 3.3.0](https://github.com/voxpupuli/beaker/releases/tag/3.3.0)
+- **puppetlabs-toy-chest/puppetlabs-image_build** – [🔖 v0.1.2](https://github.com/puppetlabs-toy-chest/puppetlabs-image_build/tree/v0.1.2)
 - **voxpupuli/puppet-autofs** – [🔖 v1.4.4](https://github.com/voxpupuli/puppet-autofs/tree/v1.4.4)
 - **voxpupuli/puppet-fail2ban** – [🔖 1.3.0](https://github.com/voxpupuli/puppet-fail2ban/tree/1.3.0)
 - **voxpupuli/puppet-fail2ban** – [🔖 1.3.1](https://github.com/voxpupuli/puppet-fail2ban/tree/1.3.1)
@@ -18738,6 +19102,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/clj-kitchensink** – [🔖 2.1.0](https://github.com/OpenVoxProject/clj-kitchensink/tree/2.1.0)
 - **OpenVoxProject/clj-parent** – [🔖 0.1.9](https://github.com/OpenVoxProject/clj-parent/tree/0.1.9)
 - **OpenVoxProject/openvox-server** – [🔖 2.7.0](https://github.com/OpenVoxProject/openvox-server/tree/2.7.0)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.6.8](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.6.8)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.6.8](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.6.8)
 - **theforeman/kafo** – [🔖 v1.0.4](https://github.com/theforeman/kafo/tree/v1.0.4)
 - **voxpupuli/puppet-jira** – [🔖 v3.0.0](https://github.com/voxpupuli/puppet-jira/tree/v3.0.0)
 - **voxpupuli/puppet-powerdns** – [🔖 0.0.6](https://github.com/voxpupuli/puppet-powerdns/tree/0.0.6)
@@ -18747,8 +19113,11 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2016-11-03
 - **OpenVoxProject/jruby-utils** – [🔖 0.4.1](https://github.com/OpenVoxProject/jruby-utils/tree/0.4.1)
 - **OpenVoxProject/openvoxdb** – [🔖 4.3.0](https://github.com/OpenVoxProject/openvoxdb/tree/4.3.0)
+- **puppetlabs-toy-chest/chloride** – [🔖 0.2.1](https://github.com/puppetlabs-toy-chest/chloride/tree/0.2.1)
+- **puppetlabs-toy-chest/chloride** – [🔖 0.2.2](https://github.com/puppetlabs-toy-chest/chloride/tree/0.2.2)
 
 ## 📅 2016-11-02
+- **puppetlabs-toy-chest/puppetlabs-package_updates** – [🔖 v1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-package_updates/tree/v1.0.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_xen-0.4.0-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_xen-0.4.0-1.fm1_13)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_xen-0.4.0-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_xen-0.4.0-1.fm1_14)
 - **voxpupuli/modulesync_config** – [🔖 0.15.0](https://github.com/voxpupuli/modulesync_config/tree/0.15.0)
@@ -18831,6 +19200,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2016-10-21
 - **OpenVoxProject/openfact** – [🔖 3.5.0](https://github.com/OpenVoxProject/openfact/tree/3.5.0)
+- **puppetlabs-toy-chest/chloride** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/chloride/tree/0.1.0)
+- **puppetlabs-toy-chest/chloride** – [🔖 0.2.0](https://github.com/puppetlabs-toy-chest/chloride/tree/0.2.0)
 - **theforeman/foreman** – [🔖 1.12.4](https://github.com/theforeman/foreman/tree/1.12.4)
 - **theforeman/foreman-installer** – [🔖 1.12.4](https://github.com/theforeman/foreman-installer/tree/1.12.4)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.12.4-1.fm1_12](https://github.com/theforeman/foreman-packaging/tree/foreman-1.12.4-1.fm1_12)
@@ -18845,6 +19216,10 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-syntax** – [🔖 v2.1.1](https://github.com/voxpupuli/puppet-syntax/tree/v2.1.1)
 
 ## 📅 2016-10-20
+- **puppetlabs-toy-chest/puppetlabs-image_build** – [🔖 v0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-image_build/tree/v0.1.0)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.5.0](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.5.0)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.5.0-rc1](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.5.0-rc1)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.5.0](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.5.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_expire_hosts-2.1.0-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_expire_hosts-2.1.0-1.fm1_13)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_expire_hosts-2.1.0-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_expire_hosts-2.1.0-1.fm1_14)
 - **theforeman/foreman_expire_hosts** – [🔖 2.1.0](https://github.com/theforeman/foreman_expire_hosts/tree/2.1.0)
@@ -18889,6 +19264,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/puppet-pulp** – [🔖 3.5.0](https://github.com/theforeman/puppet-pulp/tree/3.5.0)
 
 ## 📅 2016-10-15
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.6.6](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.6.6)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.6.6](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.6.6)
 - **voxpupuli/facterdb** – [🔖 0.3.8](https://github.com/voxpupuli/facterdb/tree/0.3.8)
 - **voxpupuli/onceover** – [🔖 v3.0.8](https://github.com/voxpupuli/onceover/tree/v3.0.8)
 
@@ -18918,6 +19295,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2016-10-12
 - **OpenVoxProject/openvox-agent** – [🔖 1.7.1](https://github.com/OpenVoxProject/openvox-agent/tree/1.7.1)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.6.5](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.6.5)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.6.5](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.6.5)
 - **theforeman/kafo** – [🔖 v0.9.8](https://github.com/theforeman/kafo/tree/v0.9.8)
 - **theforeman/kafo** – [🔖 v1.0.3](https://github.com/theforeman/kafo/tree/v1.0.3)
 - **voxpupuli/puppet-cassandra** – [🔖 2.0.2](https://github.com/voxpupuli/puppet-cassandra/tree/2.0.2)
@@ -18934,6 +19313,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/modulesync_config** – [🔖 0.13.1](https://github.com/voxpupuli/modulesync_config/tree/0.13.1)
 
 ## 📅 2016-10-10
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.6.4](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.6.4)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.6.4](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.6.4)
 - **theforeman/foreman-packaging** – [🔖 rubygem-bootstrap-sass-3.3.7-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-bootstrap-sass-3.3.7-1.fm1_14)
 - **theforeman/foreman-packaging** – [🔖 rubygem-deep_cloneable-2.2.2-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-deep_cloneable-2.2.2-1.fm1_14)
 - **theforeman/foreman-packaging** – [🔖 rubygem-smart_proxy_salt-2.1.7-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-smart_proxy_salt-2.1.7-1.fm1_14)
@@ -18944,10 +19325,14 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-powerdns** – [🔖 0.0.4](https://github.com/voxpupuli/puppet-powerdns/tree/0.0.4)
 
 ## 📅 2016-10-08
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.6.3](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.6.3)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.6.3](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.6.3)
 - **voxpupuli/puppet-cassandra** – [🔖 1.26.0](https://github.com/voxpupuli/puppet-cassandra/tree/1.26.0)
 
 ## 📅 2016-10-07
 - **OpenVoxProject/clj-parent** – [🔖 0.1.4](https://github.com/OpenVoxProject/clj-parent/tree/0.1.4)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.6.2](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.6.2)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.6.2](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.6.2)
 - **theforeman/foreman_datacenter** – [🔖 v0.1.9](https://github.com/theforeman/foreman_datacenter/tree/v0.1.9)
 - **theforeman/smart_proxy_salt** – [🔖 2.1.7](https://github.com/theforeman/smart_proxy_salt/tree/2.1.7)
 - **voxpupuli/openvox-strings** – [🔖 0.99.0](https://github.com/voxpupuli/openvox-strings/tree/0.99.0)
@@ -18998,6 +19383,10 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2016-10-03
 - **voxpupuli/beaker** – [beaker 3.1.0](https://github.com/voxpupuli/beaker/releases/tag/3.1.0)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.6.1](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.6.1)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.6.1](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.6.1)
+- **puppetlabs-toy-chest/pltraining-puppetfactory** – [🔖 v0.5.1](https://github.com/puppetlabs-toy-chest/pltraining-puppetfactory/tree/v0.5.1)
+- **puppetlabs-toy-chest/puppetlabs-inventory** – [🔖 v0.4.0](https://github.com/puppetlabs-toy-chest/puppetlabs-inventory/tree/v0.4.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_ansible-1.2.1-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_ansible-1.2.1-1.fm1_13)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_ansible-1.2.1-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_ansible-1.2.1-1.fm1_14)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_ansible_core-0.0.1-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_ansible_core-0.0.1-1.fm1_13)
@@ -19045,11 +19434,13 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-powerdns** – [🔖 0.0.3](https://github.com/voxpupuli/puppet-powerdns/tree/0.0.3)
 
 ## 📅 2016-09-27
+- **puppetlabs-toy-chest/puppetlabs-stunnel** – [🔖 0.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-stunnel/tree/0.2.0)
 - **voxpupuli/puppet-network** – [🔖 v0.6.1](https://github.com/voxpupuli/puppet-network/tree/v0.6.1)
 - **voxpupuli/puppet-sftp_jail** – [🔖 v1.0.0](https://github.com/voxpupuli/puppet-sftp_jail/tree/v1.0.0)
 
 ## 📅 2016-09-26
 - **voxpupuli/beaker** – [beaker 3.0.0](https://github.com/voxpupuli/beaker/releases/tag/3.0.0)
+- **puppetlabs-toy-chest/pltraining-puppetfactory** – [🔖 gem-v0.5.1](https://github.com/puppetlabs-toy-chest/pltraining-puppetfactory/tree/gem-v0.5.1)
 - **theforeman/foreman** – [🔖 1.13.0-RC2](https://github.com/theforeman/foreman/tree/1.13.0-RC2)
 - **theforeman/foreman-installer** – [🔖 1.13.0-RC2](https://github.com/theforeman/foreman-installer/tree/1.13.0-RC2)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.13.0-0.1.RC2.fm1_13](https://github.com/theforeman/foreman-packaging/tree/foreman-1.13.0-0.1.RC2.fm1_13)
@@ -19095,6 +19486,10 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2016-09-23
 - **OpenVoxProject/cpp-hocon** – [🔖 0.1.4](https://github.com/OpenVoxProject/cpp-hocon/tree/0.1.4)
 - **OpenVoxProject/openvoxdb** – [🔖 4.1.2-hotfix-3059](https://github.com/OpenVoxProject/openvoxdb/tree/4.1.2-hotfix-3059)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.6.0](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.6.0)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.6.0](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.6.0)
+- **puppetlabs-toy-chest/pltraining-puppetfactory** – [🔖 gem-v0.5.0](https://github.com/puppetlabs-toy-chest/pltraining-puppetfactory/tree/gem-v0.5.0)
+- **puppetlabs-toy-chest/pltraining-puppetfactory** – [🔖 v0.5.0](https://github.com/puppetlabs-toy-chest/pltraining-puppetfactory/tree/v0.5.0)
 - **theforeman/foreman-packaging** – [🔖 nodejs-multiselect-0.9.12-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/nodejs-multiselect-0.9.12-1.fm1_14)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_ansible_core-0.0.1-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_ansible_core-0.0.1-1.fm1_14)
 - **theforeman/foreman-packaging** – [🔖 rubygem-will_paginate-3.1.3-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-will_paginate-3.1.3-1.fm1_14)
@@ -19118,6 +19513,9 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2016-09-20
 - **OpenVoxProject/openvox** – [🔖 4.7.0](https://github.com/OpenVoxProject/openvox/tree/4.7.0)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.31](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.31)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.31](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.31)
+- **puppetlabs-toy-chest/pltraining-puppetfactory** – [🔖 v0.4.16](https://github.com/puppetlabs-toy-chest/pltraining-puppetfactory/tree/v0.4.16)
 - **theforeman/foreman** – [🔖 1.12.3](https://github.com/theforeman/foreman/tree/1.12.3)
 - **theforeman/foreman-installer** – [🔖 1.12.3](https://github.com/theforeman/foreman-installer/tree/1.12.3)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.12.3-1.fm1_12](https://github.com/theforeman/foreman-packaging/tree/foreman-1.12.3-1.fm1_12)
@@ -19149,6 +19547,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-corosync** – [5.0.0 - LTS release](https://github.com/voxpupuli/puppet-corosync/releases/tag/v5.0.0)
 
 ## 📅 2016-09-16
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.30](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.30)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.30](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.30)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman-tasks-0.8.2-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman-tasks-0.8.2-1.fm1_13)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman-tasks-0.8.2-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman-tasks-0.8.2-1.fm1_14)
 - **theforeman/foreman-packaging** – [🔖 rubygem-kafo-1.0.1-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-kafo-1.0.1-1.fm1_14)
@@ -19174,6 +19574,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/cpp-hocon** – [🔖 0.1.3](https://github.com/OpenVoxProject/cpp-hocon/tree/0.1.3)
 - **OpenVoxProject/ezbake** – [🔖 0.2.14](https://github.com/OpenVoxProject/ezbake/tree/0.2.14)
 - **OpenVoxProject/ezbake** – [🔖 0.5.1](https://github.com/OpenVoxProject/ezbake/tree/0.5.1)
+- **puppetlabs-toy-chest/maintainers** – [🔖 v0.2.3](https://github.com/puppetlabs-toy-chest/maintainers/tree/v0.2.3)
 - **theforeman/foreman-packaging** – [🔖 rubygem-bastion-3.3.4-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-bastion-3.3.4-1.fm1_13)
 - **theforeman/foreman-packaging** – [🔖 rubygem-dynflow-0.8.15-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-dynflow-0.8.15-1.fm1_13)
 - **theforeman/foreman-packaging** – [🔖 rubygem-dynflow-0.8.15-1.fm1_14](https://github.com/theforeman/foreman-packaging/tree/rubygem-dynflow-0.8.15-1.fm1_14)
@@ -19225,10 +19626,13 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/smart_proxy_ansible** – [🔖 v1.0.0](https://github.com/theforeman/smart_proxy_ansible/tree/v1.0.0)
 
 ## 📅 2016-09-10
+- **puppetlabs-toy-chest/maintainers** – [🔖 v0.2.2](https://github.com/puppetlabs-toy-chest/maintainers/tree/v0.2.2)
 - **voxpupuli/puppet-mcollective** – [🔖 v2.3.0](https://github.com/voxpupuli/puppet-mcollective/tree/v2.3.0)
 - **voxpupuli/puppet-python** – [🔖 1.16.0](https://github.com/voxpupuli/puppet-python/tree/1.16.0)
 
 ## 📅 2016-09-09
+- **puppetlabs-toy-chest/maintainers** – [🔖 v0.2.1](https://github.com/puppetlabs-toy-chest/maintainers/tree/v0.2.1)
+- **puppetlabs-toy-chest/pltraining-puppetfactory** – [🔖 gem-v0.4.0](https://github.com/puppetlabs-toy-chest/pltraining-puppetfactory/tree/gem-v0.4.0)
 - **theforeman/kafo** – [🔖 v0.9.6](https://github.com/theforeman/kafo/tree/v0.9.6)
 - **theforeman/puppet-foreman_proxy** – [🔖 4.0.0](https://github.com/theforeman/puppet-foreman_proxy/tree/4.0.0)
 - **theforeman/puppet-foreman_scap_client** – [🔖 v0.3.11](https://github.com/theforeman/puppet-foreman_scap_client/tree/v0.3.11)
@@ -19285,6 +19689,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2016-09-05
 - **voxpupuli/puppet-corosync** – [5.0.0-beta1](https://github.com/voxpupuli/puppet-corosync/releases/tag/5.0.0-beta1)
+- **puppetlabs-toy-chest/maintainers** – [🔖 0.2.0](https://github.com/puppetlabs-toy-chest/maintainers/tree/0.2.0)
+- **puppetlabs-toy-chest/puppetlabs-inventory** – [🔖 v0.3.0](https://github.com/puppetlabs-toy-chest/puppetlabs-inventory/tree/v0.3.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-fog-openstack-0.1.12-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-fog-openstack-0.1.12-1.fm1_13)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_hooks-0.3.12-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_hooks-0.3.12-1.fm1_13)
 - **theforeman/foreman_hooks** – [🔖 v0.3.12](https://github.com/theforeman/foreman_hooks/tree/v0.3.12)
@@ -19296,6 +19702,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2016-09-02
 - **voxpupuli/puppet-corosync** – [4.0.1](https://github.com/voxpupuli/puppet-corosync/releases/tag/v4.0.1)
+- **puppetlabs-toy-chest/maintainers** – [🔖 0.1.1](https://github.com/puppetlabs-toy-chest/maintainers/tree/0.1.1)
+- **puppetlabs-toy-chest/maintainers** – [🔖 0.1.2](https://github.com/puppetlabs-toy-chest/maintainers/tree/0.1.2)
 - **theforeman/foreman-packaging** – [🔖 nodejs-datatables.net-1.10.12-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/nodejs-datatables.net-1.10.12-1.fm1_13)
 - **theforeman/foreman-packaging** – [🔖 nodejs-datatables.net-bs-1.10.12-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/nodejs-datatables.net-bs-1.10.12-1.fm1_13)
 - **theforeman/foreman-packaging** – [🔖 nodejs-lodash-4.15.0-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/nodejs-lodash-4.15.0-1.fm1_13)
@@ -19309,6 +19717,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/ezbake** – [🔖 0.5.0](https://github.com/OpenVoxProject/ezbake/tree/0.5.0)
 - **OpenVoxProject/openvox-agent** – [🔖 1.6.2](https://github.com/OpenVoxProject/openvox-agent/tree/1.6.2)
 - **OpenVoxProject/trapperkeeper** – [🔖 1.5.0](https://github.com/OpenVoxProject/trapperkeeper/tree/1.5.0)
+- **puppetlabs-toy-chest/maintainers** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/maintainers/tree/0.1.0)
 - **theforeman/foreman-packaging** – [🔖 nodejs-css-loader-0.23.1-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/nodejs-css-loader-0.23.1-1.fm1_13)
 - **theforeman/foreman-packaging** – [🔖 nodejs-file-loader-0.9.0-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/nodejs-file-loader-0.9.0-1.fm1_13)
 - **theforeman/foreman-packaging** – [🔖 nodejs-select2-3.5.2-2.fm1_13](https://github.com/theforeman/foreman-packaging/tree/nodejs-select2-3.5.2-2.fm1_13)
@@ -19345,6 +19754,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2016-08-30
 - **voxpupuli/puppet-corosync** – [4.0.0](https://github.com/voxpupuli/puppet-corosync/releases/tag/v4.0.0)
+- **puppetlabs-toy-chest/puppetlabs-package_updates** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-package_updates/tree/1.0.0)
 - **theforeman/foreman-xen** – [🔖 v0.3.1](https://github.com/theforeman/foreman-xen/tree/v0.3.1)
 - **theforeman/foreman_discovery** – [🔖 7.0.0](https://github.com/theforeman/foreman_discovery/tree/7.0.0)
 - **voxpupuli/modulesync_config** – [🔖 0.12.4](https://github.com/voxpupuli/modulesync_config/tree/0.12.4)
@@ -19374,6 +19784,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2016-08-24
 - **OpenVoxProject/openvoxdb** – [🔖 4.2.2](https://github.com/OpenVoxProject/openvoxdb/tree/4.2.2)
+- **puppetlabs-toy-chest/puppetlabs-rkt** – [🔖 v0.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-rkt/tree/v0.2.0)
+- **puppetlabs-toy-chest/puppetlabs-rkt** – [🔖 v0.2.1](https://github.com/puppetlabs-toy-chest/puppetlabs-rkt/tree/v0.2.1)
 - **theforeman/foreman** – [🔖 1.12.2](https://github.com/theforeman/foreman/tree/1.12.2)
 - **theforeman/foreman-installer** – [🔖 1.12.2](https://github.com/theforeman/foreman-installer/tree/1.12.2)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.12.2-1.fm1_12](https://github.com/theforeman/foreman-packaging/tree/foreman-1.12.2-1.fm1_12)
@@ -19392,6 +19804,10 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2016-08-23
 - **OpenVoxProject/openvox-agent** – [🔖 1.6.1](https://github.com/OpenVoxProject/openvox-agent/tree/1.6.1)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.28](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.28)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.29](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.29)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.28](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.28)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.29](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.29)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_monitoring-0.0.3-1.fm1_12](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_monitoring-0.0.3-1.fm1_12)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_monitoring-0.0.3-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_monitoring-0.0.3-1.fm1_13)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_remote_execution-1.1.0-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_remote_execution-1.1.0-1.fm1_13)
@@ -19477,6 +19893,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-firewalld** – [🔖 3.1.1](https://github.com/voxpupuli/puppet-firewalld/tree/3.1.1)
 
 ## 📅 2016-08-15
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.27](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.27)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.27](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.27)
 - **theforeman/foreman-packaging** – [🔖 nodejs-jquery-flot-0.8.3-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/nodejs-jquery-flot-0.8.3-1.fm1_13)
 - **theforeman/foreman-packaging** – [🔖 nodejs-jquery-flot-0.8.3-2.fm1_13](https://github.com/theforeman/foreman-packaging/tree/nodejs-jquery-flot-0.8.3-2.fm1_13)
 - **theforeman/foreman-packaging** – [🔖 tfm-3.1-5.fm1_13](https://github.com/theforeman/foreman-packaging/tree/tfm-3.1-5.fm1_13)
@@ -19543,6 +19961,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2016-08-08
 - **OpenVoxProject/cpp-pcp-client** – [🔖 1.2.0](https://github.com/OpenVoxProject/cpp-pcp-client/tree/1.2.0)
+- **puppetlabs-toy-chest/pltraining-puppetfactory** – [🔖 v0.4.14](https://github.com/puppetlabs-toy-chest/pltraining-puppetfactory/tree/v0.4.14)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_noenv-0.0.6-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_noenv-0.0.6-1.fm1_11)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_noenv-0.0.6-1.fm1_12](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_noenv-0.0.6-1.fm1_12)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_noenv-0.0.6-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_noenv-0.0.6-1.fm1_13)
@@ -19574,9 +19993,11 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/hiera** – [🔖 3.2.1](https://github.com/OpenVoxProject/hiera/tree/3.2.1)
 - **OpenVoxProject/openfact** – [🔖 3.4.0](https://github.com/OpenVoxProject/openfact/tree/3.4.0)
 - **OpenVoxProject/pxp-agent** – [🔖 1.2.0](https://github.com/OpenVoxProject/pxp-agent/tree/1.2.0)
+- **puppetlabs-toy-chest/puppetlabs-dsc** – [🔖 1.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-dsc/tree/1.1.0)
 - **voxpupuli/rundeck** – [🔖 v2.6.9](https://github.com/voxpupuli/rundeck/tree/v2.6.9)
 
 ## 📅 2016-08-02
+- **puppetlabs-toy-chest/puppetlabs-catalog_preview** – [🔖 2.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-catalog_preview/tree/2.2.0)
 - **voxpupuli/modulesync_config** – [🔖 0.11.1](https://github.com/voxpupuli/modulesync_config/tree/0.11.1)
 - **voxpupuli/puppet-community_kickstarts** – [🔖 v0.3.3](https://github.com/voxpupuli/puppet-community_kickstarts/tree/v0.3.3)
 - **voxpupuli/puppet-community_kickstarts** – [🔖 v0.3.4](https://github.com/voxpupuli/puppet-community_kickstarts/tree/v0.3.4)
@@ -19588,6 +20009,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/leatherman** – [🔖 0.8.0](https://github.com/OpenVoxProject/leatherman/tree/0.8.0)
 - **OpenVoxProject/leatherman** – [🔖 0.8.1](https://github.com/OpenVoxProject/leatherman/tree/0.8.1)
 - **OpenVoxProject/vanagon** – [🔖 0.7.1](https://github.com/OpenVoxProject/vanagon/tree/0.7.1)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.26](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.26)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.26](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.26)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_docker-3.0.0-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_docker-3.0.0-1.fm1_13)
 - **theforeman/foreman_docker** – [🔖 3.0.0](https://github.com/theforeman/foreman_docker/tree/3.0.0)
 - **voxpupuli/puppet-community_kickstarts** – [🔖 v0.3.2](https://github.com/voxpupuli/puppet-community_kickstarts/tree/v0.3.2)
@@ -19611,6 +20034,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-bacula** – [🔖 4.0.0](https://github.com/voxpupuli/puppet-bacula/tree/4.0.0)
 
 ## 📅 2016-07-28
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.25](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.25)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.25](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.25)
+- **puppetlabs-toy-chest/puppetlabs-apk** – [🔖 v0.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-apk/tree/v0.2.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_salt-6.0.0-1.fm1_12](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_salt-6.0.0-1.fm1_12)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_salt-6.0.0-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_salt-6.0.0-1.fm1_13)
 - **theforeman/foreman_salt** – [🔖 6.0.0](https://github.com/theforeman/foreman_salt/tree/6.0.0)
@@ -19621,6 +20047,10 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/beaker** – [2.48.0](https://github.com/voxpupuli/beaker/releases/tag/2.48.0)
 - **OpenVoxProject/vanagon** – [🔖 0.7.0](https://github.com/OpenVoxProject/vanagon/tree/0.7.0)
 - **voxpupuli/puppet-varnish** – [🔖 1.0.0](https://github.com/voxpupuli/puppet-varnish/tree/1.0.0)
+
+## 📅 2016-07-26
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.24](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.24)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.24](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.24)
 
 ## 📅 2016-07-25
 - **OpenVoxProject/openvoxdb** – [🔖 4.1.4](https://github.com/OpenVoxProject/openvoxdb/tree/4.1.4)
@@ -19652,6 +20082,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-autofs** – [🔖 v1.4.2](https://github.com/voxpupuli/puppet-autofs/tree/v1.4.2)
 
 ## 📅 2016-07-21
+- **puppetlabs-toy-chest/puppetlabs-inventory** – [🔖 v0.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-inventory/tree/v0.2.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-apipie-params-0.0.5-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-apipie-params-0.0.5-1.fm1_13)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_host_extra_validator-0.0.4-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_host_extra_validator-0.0.4-1.fm1_11)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_host_extra_validator-0.0.4-1.fm1_12](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_host_extra_validator-0.0.4-1.fm1_12)
@@ -19694,12 +20125,15 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/smart_proxy_pulp** – [🔖 v1.2.2](https://github.com/theforeman/smart_proxy_pulp/tree/v1.2.2)
 
 ## 📅 2016-07-14
+- **puppetlabs-toy-chest/puppetlabs-inventory** – [🔖 v0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-inventory/tree/v0.1.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-ipaddrjs-rails-1.1.1-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-ipaddrjs-rails-1.1.1-1.fm1_13)
 - **voxpupuli/puppet-archive** – [🔖 v1.0.0](https://github.com/voxpupuli/puppet-archive/tree/v1.0.0)
 
 ## 📅 2016-07-13
 - **voxpupuli/beaker** – [beaker 2.47.0](https://github.com/voxpupuli/beaker/releases/tag/2.47.0)
 - **OpenVoxProject/openvox** – [🔖 4.5.3](https://github.com/OpenVoxProject/openvox/tree/4.5.3)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.23](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.23)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.23](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.23)
 - **voxpupuli/beaker-hostgenerator** – [🔖 0.7.2](https://github.com/voxpupuli/beaker-hostgenerator/tree/0.7.2)
 
 ## 📅 2016-07-12
@@ -19747,6 +20181,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2016-07-05
 - **OpenVoxProject/openfact** – [🔖 3.3.0](https://github.com/OpenVoxProject/openfact/tree/3.3.0)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.4.0](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.4.0)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.4.0](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.4.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-rails-i18n-4.0.9-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-rails-i18n-4.0.9-1.fm1_13)
 
 ## 📅 2016-07-04
@@ -19758,6 +20194,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/redmine_lightbox2** – [🔖 v0.3.0](https://github.com/theforeman/redmine_lightbox2/tree/v0.3.0)
 
 ## 📅 2016-07-01
+- **puppetlabs-toy-chest/puppetlabs-azure** – [🔖 1.0.3](https://github.com/puppetlabs-toy-chest/puppetlabs-azure/tree/1.0.3)
 - **theforeman/foreman** – [🔖 1.12.0-RC3](https://github.com/theforeman/foreman/tree/1.12.0-RC3)
 - **theforeman/foreman-installer** – [🔖 1.12.0-RC3](https://github.com/theforeman/foreman-installer/tree/1.12.0-RC3)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.12.0-0.1.RC3.fm1_12](https://github.com/theforeman/foreman-packaging/tree/foreman-1.12.0-0.1.RC3.fm1_12)
@@ -19770,6 +20207,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/foreman_setup** – [🔖 v4.0.0](https://github.com/theforeman/foreman_setup/tree/v4.0.0)
 - **theforeman/puppet-foreman** – [🔖 5.2.1](https://github.com/theforeman/puppet-foreman/tree/5.2.1)
 - **theforeman/smart-proxy** – [🔖 1.12.0-RC3](https://github.com/theforeman/smart-proxy/tree/1.12.0-RC3)
+
+## 📅 2016-06-30
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.22](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.22)
 
 ## 📅 2016-06-29
 - **voxpupuli/beaker** – [beaker 2.45.0](https://github.com/voxpupuli/beaker/releases/tag/2.45.0)
@@ -19785,6 +20225,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-corosync** – [2.0.1](https://github.com/voxpupuli/puppet-corosync/releases/tag/v2.0.1)
 - **OpenVoxProject/openvoxdb-cli** – [🔖 1.0.1](https://github.com/OpenVoxProject/openvoxdb-cli/tree/1.0.1)
 - **OpenVoxProject/vanagon** – [🔖 0.6.2](https://github.com/OpenVoxProject/vanagon/tree/0.6.2)
+- **puppetlabs-toy-chest/puppetlabs-git** – [🔖 0.5.0](https://github.com/puppetlabs-toy-chest/puppetlabs-git/tree/0.5.0)
 - **theforeman/foreman-tasks** – [🔖 v0.7.19](https://github.com/theforeman/foreman-tasks/tree/v0.7.19)
 - **theforeman/puppet-dhcp** – [🔖 2.3.2](https://github.com/theforeman/puppet-dhcp/tree/2.3.2)
 - **voxpupuli/puppet-autofs** – [🔖 v1.4.0](https://github.com/voxpupuli/puppet-autofs/tree/v1.4.0)
@@ -19837,6 +20278,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-lint-undef_in_function-check** – [0.2.1](https://github.com/voxpupuli/puppet-lint-undef_in_function-check/releases/tag/0.2.1)
 - **voxpupuli/puppet-lint-unquoted_string-check** – [0.3.0](https://github.com/voxpupuli/puppet-lint-unquoted_string-check/releases/tag/0.3.0)
 - **voxpupuli/puppet-lint-version_comparison-check** – [0.2.1](https://github.com/voxpupuli/puppet-lint-version_comparison-check/releases/tag/0.2.1)
+- **puppetlabs-toy-chest/pltraining-bootstrap** – [🔖 v0.0.12](https://github.com/puppetlabs-toy-chest/pltraining-bootstrap/tree/v0.0.12)
 - **theforeman/foreman-packaging** – [🔖 rubygem-chef-api-0.6.0-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-chef-api-0.6.0-1.fm1_13)
 - **theforeman/foreman-packaging** – [🔖 rubygem-kafo-0.7.5-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-kafo-0.7.5-1.fm1_11)
 - **theforeman/foreman-packaging** – [🔖 rubygem-smart_proxy_chef-0.1.8-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-smart_proxy_chef-0.1.8-1.fm1_13)
@@ -19902,6 +20344,9 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2016-06-16
 - **voxpupuli/puppet-corosync** – [1.1.1](https://github.com/voxpupuli/puppet-corosync/releases/tag/v1.1.1)
 - **voxpupuli/puppet-corosync** – [1.2.1](https://github.com/voxpupuli/puppet-corosync/releases/tag/v1.2.1)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.21](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.21)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.21](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.21)
+- **puppetlabs-toy-chest/pltraining-puppetfactory** – [🔖 v0.4.13](https://github.com/puppetlabs-toy-chest/pltraining-puppetfactory/tree/v0.4.13)
 - **theforeman/foreman-packaging** – [🔖 rubygem-fog-vsphere-0.8.0-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-fog-vsphere-0.8.0-1.fm1_13)
 - **voxpupuli/puppet-vault** – [🔖 v0.2.3](https://github.com/voxpupuli/puppet-vault/tree/v0.2.3)
 - **voxpupuli/puppet-windowsfeature** – [🔖 v2.0.0](https://github.com/voxpupuli/puppet-windowsfeature/tree/v2.0.0)
@@ -19953,6 +20398,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-jenkins_job_builder** – [🔖 v2.0.0](https://github.com/voxpupuli/puppet-jenkins_job_builder/tree/v2.0.0)
 
 ## 📅 2016-06-10
+- **puppetlabs-toy-chest/puppetlabs-docker_ucp** – [🔖 v0.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-docker_ucp/tree/v0.2.0)
+- **puppetlabs-toy-chest/puppetlabs-rancher** – [🔖 v0.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-rancher/tree/v0.2.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-bootstrap-datepicker-rails-1.6.1.1-0.9.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-bootstrap-datepicker-rails-1.6.1.1-0.9.fm1_11)
 - **theforeman/foreman-packaging** – [🔖 rubygem-bootstrap-datepicker-rails-1.6.1.1-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-bootstrap-datepicker-rails-1.6.1.1-1.fm1_13)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_expire_hosts-2.0.0-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_expire_hosts-2.0.0-1.fm1_11)
@@ -19987,6 +20434,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-nrpe** – [🔖 v2.1.0](https://github.com/voxpupuli/puppet-nrpe/tree/v2.1.0)
 
 ## 📅 2016-06-07
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.20](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.20)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.20](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.20)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_bootdisk-8.0.1-1.fm1_12](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_bootdisk-8.0.1-1.fm1_12)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_bootdisk-8.0.1-1.fm1_13](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_bootdisk-8.0.1-1.fm1_13)
 - **theforeman/foreman_bootdisk** – [🔖 v8.0.1](https://github.com/theforeman/foreman_bootdisk/tree/v8.0.1)
@@ -20107,6 +20556,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-cups** – [Maintenance release 1.2.2](https://github.com/voxpupuli/puppet-cups/releases/tag/1.2.2)
 - **OpenVoxProject/openfact** – [🔖 3.1.8](https://github.com/OpenVoxProject/openfact/tree/3.1.8)
 - **OpenVoxProject/openvoxdb** – [🔖 4.1.1](https://github.com/OpenVoxProject/openvoxdb/tree/4.1.1)
+- **puppetlabs-toy-chest/puppetlabs-ruby** – [🔖 0.5.0](https://github.com/puppetlabs-toy-chest/puppetlabs-ruby/tree/0.5.0)
 - **theforeman/hammer-cli-foreman** – [🔖 0.5.1.8](https://github.com/theforeman/hammer-cli-foreman/tree/0.5.1.8)
 - **theforeman/puppet-puppet** – [🔖 4.3.2](https://github.com/theforeman/puppet-puppet/tree/4.3.2)
 - **voxpupuli/onceover** – [🔖 v3.0.6](https://github.com/voxpupuli/onceover/tree/v3.0.6)
@@ -20158,6 +20608,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2016-05-18
 - **OpenVoxProject/leatherman** – [🔖 0.7.0](https://github.com/OpenVoxProject/leatherman/tree/0.7.0)
+- **puppetlabs-toy-chest/razor-client** – [🔖 1.3.0](https://github.com/puppetlabs-toy-chest/razor-client/tree/1.3.0)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.3.0](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.3.0)
 - **theforeman/foreman** – [🔖 1.11.2](https://github.com/theforeman/foreman/tree/1.11.2)
 - **theforeman/foreman-installer** – [🔖 1.11.2](https://github.com/theforeman/foreman-installer/tree/1.11.2)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.11.2-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/foreman-1.11.2-1.fm1_11)
@@ -20205,6 +20657,9 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2016-05-13
 - **OpenVoxProject/ezbake** – [🔖 0.4.1](https://github.com/OpenVoxProject/ezbake/tree/0.4.1)
 - **OpenVoxProject/openvox** – [🔖 4.5.0](https://github.com/OpenVoxProject/openvox/tree/4.5.0)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.19](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.19)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.19](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.19)
+- **puppetlabs-toy-chest/pltraining-puppetfactory** – [🔖 v0.4.10](https://github.com/puppetlabs-toy-chest/pltraining-puppetfactory/tree/v0.4.10)
 - **voxpupuli/json-schema** – [🔖 v2.6.2](https://github.com/voxpupuli/json-schema/tree/v2.6.2)
 - **voxpupuli/puppet-logstash** – [🔖 0.6.1](https://github.com/voxpupuli/puppet-logstash/tree/0.6.1)
 
@@ -20238,6 +20693,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-ghostbuster** – [🔖 0.5.0](https://github.com/voxpupuli/puppet-ghostbuster/tree/0.5.0)
 
 ## 📅 2016-05-09
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.18](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.18)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.18](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.18)
 - **theforeman/foreman-packaging** – [🔖 rubygem-hirb-unicode-steakknife-0.0.7-1.fm1_12](https://github.com/theforeman/foreman-packaging/tree/rubygem-hirb-unicode-steakknife-0.0.7-1.fm1_12)
 - **theforeman/foreman-packaging** – [🔖 rubygem-unicode-display_width-1.0.5-1.fm1_12](https://github.com/theforeman/foreman-packaging/tree/rubygem-unicode-display_width-1.0.5-1.fm1_12)
 - **theforeman/foreman-packaging** – [🔖 tfm-3.1-2.fm1_12](https://github.com/theforeman/foreman-packaging/tree/tfm-3.1-2.fm1_12)
@@ -20331,6 +20788,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/hiera** – [🔖 3.2.0](https://github.com/OpenVoxProject/hiera/tree/3.2.0)
 - **OpenVoxProject/trapperkeeper** – [🔖 1.3.2](https://github.com/OpenVoxProject/trapperkeeper/tree/1.3.2)
 - **OpenVoxProject/trapperkeeper** – [🔖 1.4.0](https://github.com/OpenVoxProject/trapperkeeper/tree/1.4.0)
+- **puppetlabs-toy-chest/razor-vanagon** – [🔖 1.3.0](https://github.com/puppetlabs-toy-chest/razor-vanagon/tree/1.3.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-kafo-0.8.0-1.fm1_12](https://github.com/theforeman/foreman-packaging/tree/rubygem-kafo-0.8.0-1.fm1_12)
 - **theforeman/kafo** – [🔖 v0.8.0](https://github.com/theforeman/kafo/tree/v0.8.0)
 - **voxpupuli/puppet-augeasproviders_grub** – [🔖 2.4.0](https://github.com/voxpupuli/puppet-augeasproviders_grub/tree/2.4.0)
@@ -20476,6 +20934,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/ezbake** – [🔖 0.3.24](https://github.com/OpenVoxProject/ezbake/tree/0.3.24)
 - **OpenVoxProject/openvox-release** – [🔖 1.0.12](https://github.com/OpenVoxProject/openvox-release/tree/1.0.12)
 - **OpenVoxProject/pxp-agent** – [🔖 1.1.2](https://github.com/OpenVoxProject/pxp-agent/tree/1.1.2)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.17](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.17)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.17](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.17)
 - **theforeman/foreman-packaging** – [🔖 tfm-3.0-1.fm1_12](https://github.com/theforeman/foreman-packaging/tree/tfm-3.0-1.fm1_12)
 - **voxpupuli/puppet-cassandra** – [🔖 1.21.0](https://github.com/voxpupuli/puppet-cassandra/tree/1.21.0)
 - **voxpupuli/puppet-rsyslog** – [🔖 0.1.0](https://github.com/voxpupuli/puppet-rsyslog/tree/0.1.0)
@@ -20544,6 +21004,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-corosync** – [0.5.0](https://github.com/voxpupuli/puppet-corosync/releases/tag/0.5.0)
 - **voxpupuli/puppet-corosync** – [0.6.0](https://github.com/voxpupuli/puppet-corosync/releases/tag/0.6.0)
 - **voxpupuli/puppet-corosync** – [0.7.0](https://github.com/voxpupuli/puppet-corosync/releases/tag/0.7.0)
+- **puppetlabs-toy-chest/trapperkeeper-lein-template** – [🔖 1.3.0](https://github.com/puppetlabs-toy-chest/trapperkeeper-lein-template/tree/1.3.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-hammer_cli_foreman_discovery-0.0.3-1.fm1_12](https://github.com/theforeman/foreman-packaging/tree/rubygem-hammer_cli_foreman_discovery-0.0.3-1.fm1_12)
 - **theforeman/foreman_memcache** – [🔖 v0.0.4](https://github.com/theforeman/foreman_memcache/tree/v0.0.4)
 - **theforeman/safemode** – [🔖 v1.2.4](https://github.com/theforeman/safemode/tree/v1.2.4)
@@ -20581,6 +21042,11 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-cups** – [Release 1.1.0](https://github.com/voxpupuli/puppet-cups/releases/tag/1.1.0)
 
 ## 📅 2016-04-09
+- **puppetlabs-toy-chest/pltraining-bootstrap** – [🔖 v0.0.10](https://github.com/puppetlabs-toy-chest/pltraining-bootstrap/tree/v0.0.10)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.15](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.15)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.16](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.16)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.15](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.15)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.16](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.16)
 - **voxpupuli/librarian-puppet** – [🔖 v2.2.3](https://github.com/voxpupuli/librarian-puppet/tree/v2.2.3)
 - **voxpupuli/puppet-autofs** – [🔖 v1.3.0](https://github.com/voxpupuli/puppet-autofs/tree/v1.3.0)
 - **voxpupuli/puppet-unbound** – [🔖 1.3.3](https://github.com/voxpupuli/puppet-unbound/tree/1.3.3)
@@ -20594,11 +21060,17 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/vagrant-librarian-puppet** – [🔖 v0.9.2](https://github.com/voxpupuli/vagrant-librarian-puppet/tree/v0.9.2)
 
 ## 📅 2016-04-07
+- **puppetlabs-toy-chest/lock_manager** – [🔖 0.1.3](https://github.com/puppetlabs-toy-chest/lock_manager/tree/0.1.3)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.14](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.14)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.14](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.14)
+- **puppetlabs-toy-chest/pltraining-puppetfactory** – [🔖 v0.4.9](https://github.com/puppetlabs-toy-chest/pltraining-puppetfactory/tree/v0.4.9)
 - **theforeman/smart_proxy_vault** – [🔖 v0.2.0](https://github.com/theforeman/smart_proxy_vault/tree/v0.2.0)
 - **voxpupuli/puppet-virtualbox** – [🔖 v1.7.0](https://github.com/voxpupuli/puppet-virtualbox/tree/v1.7.0)
 
 ## 📅 2016-04-06
 - **voxpupuli/beaker** – [beaker 2.39.0](https://github.com/voxpupuli/beaker/releases/tag/2.39.0)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.13](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.13)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.13](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.13)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_bootdisk-7.0.0-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_bootdisk-7.0.0-1.fm1_11)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_bootdisk-7.0.0-1.fm1_12](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_bootdisk-7.0.0-1.fm1_12)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_noenv-0.0.5-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_noenv-0.0.5-1.fm1_11)
@@ -20608,6 +21080,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-cassandra** – [🔖 1.19.0](https://github.com/voxpupuli/puppet-cassandra/tree/1.19.0)
 
 ## 📅 2016-04-05
+- **puppetlabs-toy-chest/puppetlabs-rancher** – [🔖 v0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-rancher/tree/v0.1.0)
 - **theforeman/foreman-packaging** – [🔖 foreman-release-scl-3-1.fm1_12](https://github.com/theforeman/foreman-packaging/tree/foreman-release-scl-3-1.fm1_12)
 - **theforeman/smart_proxy_vault** – [🔖 v0.1.0](https://github.com/theforeman/smart_proxy_vault/tree/v0.1.0)
 - **voxpupuli/puppet-groupmembership** – [🔖 0.0.10](https://github.com/voxpupuli/puppet-groupmembership/tree/0.0.10)
@@ -20635,6 +21108,9 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2016-03-31
 - **voxpupuli/beaker** – [beaker 2.38.1](https://github.com/voxpupuli/beaker/releases/tag/2.38.1)
 - **OpenVoxProject/vanagon** – [🔖 0.5.9](https://github.com/OpenVoxProject/vanagon/tree/0.5.9)
+- **puppetlabs-toy-chest/lock_manager** – [🔖 0.1.2](https://github.com/puppetlabs-toy-chest/lock_manager/tree/0.1.2)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.12](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.12)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.12](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.12)
 - **theforeman/foreman** – [🔖 1.11.0](https://github.com/theforeman/foreman/tree/1.11.0)
 - **theforeman/foreman-installer** – [🔖 1.11.0](https://github.com/theforeman/foreman-installer/tree/1.11.0)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.11.0-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/foreman-1.11.0-1.fm1_11)
@@ -20653,6 +21129,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2016-03-30
 - **voxpupuli/beaker** – [beaker 2.38.0](https://github.com/voxpupuli/beaker/releases/tag/2.38.0)
+- **puppetlabs-toy-chest/pltraining-puppetfactory** – [🔖 0.4.8](https://github.com/puppetlabs-toy-chest/pltraining-puppetfactory/tree/0.4.8)
 - **theforeman/foreman** – [🔖 1.10.3](https://github.com/theforeman/foreman/tree/1.10.3)
 - **theforeman/foreman-installer** – [🔖 1.10.3](https://github.com/theforeman/foreman-installer/tree/1.10.3)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.10.3-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/foreman-1.10.3-1.fm1_10)
@@ -20752,6 +21229,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2016-03-17
 - **OpenVoxProject/hiera** – [🔖 3.1.1](https://github.com/OpenVoxProject/hiera/tree/3.1.1)
 - **OpenVoxProject/openvoxdb** – [🔖 4.0.0](https://github.com/OpenVoxProject/openvoxdb/tree/4.0.0)
+- **puppetlabs-toy-chest/puppetlabs-dsc** – [🔖 1.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-dsc/tree/1.0.1)
 - **theforeman/puppet-foreman_proxy_content** – [🔖 2.0.1](https://github.com/theforeman/puppet-foreman_proxy_content/tree/2.0.1)
 - **voxpupuli/puppet-lint-resource_reference_syntax** – [🔖 1.0.8](https://github.com/voxpupuli/puppet-lint-resource_reference_syntax/tree/1.0.8)
 - **voxpupuli/puppet-redis** – [🔖 1.2.2](https://github.com/voxpupuli/puppet-redis/tree/1.2.2)
@@ -20760,6 +21238,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openvox-server** – [🔖 puppet-server-2.3.0](https://github.com/OpenVoxProject/openvox-server/tree/puppet-server-2.3.0)
 - **OpenVoxProject/openvoxdb-cli** – [🔖 1.0.0](https://github.com/OpenVoxProject/openvoxdb-cli/tree/1.0.0)
 - **OpenVoxProject/puppet-specifications** – [🔖 4.4.0](https://github.com/OpenVoxProject/puppet-specifications/tree/4.4.0)
+- **puppetlabs-toy-chest/puppetlabs-azure** – [🔖 1.0.2](https://github.com/puppetlabs-toy-chest/puppetlabs-azure/tree/1.0.2)
 - **theforeman/foreman-packaging** – [🔖 rubygem-hammer_cli_foreman_docker-0.0.4-1.fm1_12](https://github.com/theforeman/foreman-packaging/tree/rubygem-hammer_cli_foreman_docker-0.0.4-1.fm1_12)
 - **theforeman/puppet-certs** – [🔖 0.5.0](https://github.com/theforeman/puppet-certs/tree/0.5.0)
 - **theforeman/puppet-pulp** – [🔖 3.2.0](https://github.com/theforeman/puppet-pulp/tree/3.2.0)
@@ -20785,6 +21264,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-vault** – [🔖 v0.1.9](https://github.com/voxpupuli/puppet-vault/tree/v0.1.9)
 
 ## 📅 2016-03-14
+- **puppetlabs-toy-chest/puppetlabs-aws** – [🔖 1.4.0](https://github.com/puppetlabs-toy-chest/puppetlabs-aws/tree/1.4.0)
 - **voxpupuli/puppet-check_mk** – [🔖 v0.7.1](https://github.com/voxpupuli/puppet-check_mk/tree/v0.7.1)
 - **voxpupuli/puppet-cvmfs** – [🔖 puppet-cvmfs-1.0.3](https://github.com/voxpupuli/puppet-cvmfs/tree/puppet-cvmfs-1.0.3)
 - **voxpupuli/puppet-googleauthenticator** – [🔖 1.1.11](https://github.com/voxpupuli/puppet-googleauthenticator/tree/1.1.11)
@@ -20803,6 +21283,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-gitlab** – [v1.8.0](https://github.com/voxpupuli/puppet-gitlab/releases/tag/v1.8.0)
 - **voxpupuli/puppet-telegraf** – [Version 1.1.2](https://github.com/voxpupuli/puppet-telegraf/releases/tag/1.1.2)
 - **OpenVoxProject/openvox-agent** – [🔖 1.3.6](https://github.com/OpenVoxProject/openvox-agent/tree/1.3.6)
+- **puppetlabs-toy-chest/puppetlabs-puppetserver_gem** – [🔖 0.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-puppetserver_gem/tree/0.2.0)
 - **theforeman/foreman** – [🔖 1.11.0-RC2](https://github.com/theforeman/foreman/tree/1.11.0-RC2)
 - **theforeman/foreman-installer** – [🔖 1.11.0-RC2](https://github.com/theforeman/foreman-installer/tree/1.11.0-RC2)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.11.0-0.1.RC2.fm1_11](https://github.com/theforeman/foreman-packaging/tree/foreman-1.11.0-0.1.RC2.fm1_11)
@@ -20844,6 +21325,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/cpp-pcp-client** – [🔖 1.1.1](https://github.com/OpenVoxProject/cpp-pcp-client/tree/1.1.1)
 - **OpenVoxProject/pxp-agent** – [🔖 1.0.3](https://github.com/OpenVoxProject/pxp-agent/tree/1.0.3)
 - **OpenVoxProject/vanagon** – [🔖 0.5.2](https://github.com/OpenVoxProject/vanagon/tree/0.5.2)
+- **puppetlabs-toy-chest/pltraining-puppetfactory** – [🔖 0.4.7](https://github.com/puppetlabs-toy-chest/pltraining-puppetfactory/tree/0.4.7)
 - **theforeman/safemode** – [🔖 v1.2.3](https://github.com/theforeman/safemode/tree/v1.2.3)
 - **voxpupuli/puppet-check_mk** – [🔖 v0.7.0](https://github.com/voxpupuli/puppet-check_mk/tree/v0.7.0)
 - **voxpupuli/puppet-jail** – [🔖 2.0.5](https://github.com/voxpupuli/puppet-jail/tree/2.0.5)
@@ -20881,6 +21363,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/rundeck** – [🔖 v2.6.4](https://github.com/voxpupuli/rundeck/tree/v2.6.4)
 
 ## 📅 2016-03-03
+- **puppetlabs-toy-chest/pltraining-puppetfactory** – [🔖 v0.4.5](https://github.com/puppetlabs-toy-chest/pltraining-puppetfactory/tree/v0.4.5)
 - **theforeman/foreman-packaging** – [🔖 rubygem-ldap_fluff-0.4.1-1.fm1_12](https://github.com/theforeman/foreman-packaging/tree/rubygem-ldap_fluff-0.4.1-1.fm1_12)
 - **theforeman/foreman-packaging** – [🔖 rubygem-puppetdb_foreman-1.0.2-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-puppetdb_foreman-1.0.2-1.fm1_11)
 - **theforeman/foreman-packaging** – [🔖 rubygem-puppetdb_foreman-1.0.2-1.fm1_12](https://github.com/theforeman/foreman-packaging/tree/rubygem-puppetdb_foreman-1.0.2-1.fm1_12)
@@ -20927,6 +21410,8 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2016-02-26
 - **OpenVoxProject/cpp-pcp-client** – [🔖 1.1.0](https://github.com/OpenVoxProject/cpp-pcp-client/tree/1.1.0)
 - **OpenVoxProject/pxp-agent** – [🔖 1.1.0](https://github.com/OpenVoxProject/pxp-agent/tree/1.1.0)
+- **puppetlabs-toy-chest/razor-client** – [🔖 1.2.0](https://github.com/puppetlabs-toy-chest/razor-client/tree/1.2.0)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.2.0](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.2.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-ace-rails-ap-4.0.2-1.fm1_12](https://github.com/theforeman/foreman-packaging/tree/rubygem-ace-rails-ap-4.0.2-1.fm1_12)
 - **theforeman/foreman-packaging** – [🔖 rubygem-apipie-rails-0.3.6-1.fm1_12](https://github.com/theforeman/foreman-packaging/tree/rubygem-apipie-rails-0.3.6-1.fm1_12)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_discovery-5.0.1-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_discovery-5.0.1-1.fm1_11)
@@ -20941,6 +21426,8 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2016-02-25
 - **OpenVoxProject/hiera** – [🔖 3.1.0](https://github.com/OpenVoxProject/hiera/tree/3.1.0)
 - **OpenVoxProject/leatherman** – [🔖 0.4.0](https://github.com/OpenVoxProject/leatherman/tree/0.4.0)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.11](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.11)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.11](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.11)
 - **theforeman/foreman-discovery-image** – [🔖 3.1.0](https://github.com/theforeman/foreman-discovery-image/tree/3.1.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_chef-0.2.2-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_chef-0.2.2-1.fm1_10)
 - **theforeman/foreman-packaging** – [🔖 rubygem-hammer_cli_foreman_tasks-0.0.10-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-hammer_cli_foreman_tasks-0.0.10-1.fm1_11)
@@ -20957,6 +21444,8 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2016-02-24
 - **voxpupuli/beaker** – [beaker 2.35.0](https://github.com/voxpupuli/beaker/releases/tag/2.35.0)
 - **OpenVoxProject/openvoxdb** – [🔖 3.2.4](https://github.com/OpenVoxProject/openvoxdb/tree/3.2.4)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.10](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.10)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.10](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.10)
 - **theforeman/foreman** – [🔖 1.11.0-RC1](https://github.com/theforeman/foreman/tree/1.11.0-RC1)
 - **theforeman/foreman-installer** – [🔖 1.11.0-RC1](https://github.com/theforeman/foreman-installer/tree/1.11.0-RC1)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.11.0-0.1.RC1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/foreman-1.11.0-0.1.RC1.fm1_11)
@@ -21054,6 +21543,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-wget** – [🔖 v1.7.2](https://github.com/voxpupuli/puppet-wget/tree/v1.7.2)
 
 ## 📅 2016-02-16
+- **puppetlabs-toy-chest/pltraining-classroomdemo** – [🔖 v0.0.3](https://github.com/puppetlabs-toy-chest/pltraining-classroomdemo/tree/v0.0.3)
 - **theforeman/foreman-packaging** – [🔖 rubygem-dynflow-0.8.10-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/rubygem-dynflow-0.8.10-1.fm1_10)
 - **theforeman/foreman-packaging** – [🔖 rubygem-dynflow-0.8.10-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-dynflow-0.8.10-1.fm1_11)
 - **theforeman/foreman-packaging** – [🔖 rubygem-validates_lengths_from_database-0.5.0-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-validates_lengths_from_database-0.5.0-1.fm1_11)
@@ -21142,6 +21632,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2016-02-03
 - **OpenVoxProject/openvox** – [🔖 3.8.6](https://github.com/OpenVoxProject/openvox/tree/3.8.6)
+- **puppetlabs-toy-chest/puppetlabs-netscaler** – [🔖 1.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-netscaler/tree/1.2.0)
 - **voxpupuli/beaker-hostgenerator** – [🔖 0.3.3](https://github.com/voxpupuli/beaker-hostgenerator/tree/0.3.3)
 
 ## 📅 2016-02-02
@@ -21176,6 +21667,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2016-01-27
 - **voxpupuli/beaker** – [beaker 2.33.0](https://github.com/voxpupuli/beaker/releases/tag/2.33.0)
+- **puppetlabs-toy-chest/puppetlabs-netapp** – [🔖 1.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-netapp/tree/1.1.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_salt-5.0.0-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_salt-5.0.0-1.fm1_11)
 - **theforeman/foreman-packaging** – [🔖 rubygem-smart_proxy_pulp-1.2.0-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-smart_proxy_pulp-1.2.0-1.fm1_11)
 - **theforeman/foreman_salt** – [🔖 5.0.0](https://github.com/theforeman/foreman_salt/tree/5.0.0)
@@ -21231,6 +21723,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-autofs** – [🔖 v1.1.8](https://github.com/voxpupuli/puppet-autofs/tree/v1.1.8)
 
 ## 📅 2016-01-20
+- **puppetlabs-toy-chest/puppetlabs-policy_engine** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-policy_engine/tree/0.1.0)
 - **theforeman/foreman** – [🔖 1.10.1](https://github.com/theforeman/foreman/tree/1.10.1)
 - **theforeman/foreman-installer** – [🔖 1.10.1](https://github.com/theforeman/foreman-installer/tree/1.10.1)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.10.1-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/foreman-1.10.1-1.fm1_10)
@@ -21248,6 +21741,9 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2016-01-19
 - **OpenVoxProject/openvox** – [🔖 4.3.2](https://github.com/OpenVoxProject/openvox/tree/4.3.2)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.9](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.9)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.9](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.9)
+- **puppetlabs-toy-chest/puppetlabs-dsc** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-dsc/tree/1.0.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-fog-1.37.0-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-fog-1.37.0-1.fm1_11)
 - **theforeman/foreman-packaging** – [🔖 rubygem-fog-core-1.35.0-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-fog-core-1.35.0-1.fm1_11)
 - **theforeman/foreman-packaging** – [🔖 rubygem-fog-vsphere-0.5.0-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-fog-vsphere-0.5.0-1.fm1_11)
@@ -21279,6 +21775,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openfact** – [🔖 2.4.5](https://github.com/OpenVoxProject/openfact/tree/2.4.5)
 - **OpenVoxProject/openfact** – [🔖 3.1.4](https://github.com/OpenVoxProject/openfact/tree/3.1.4)
 - **OpenVoxProject/puppet-specifications** – [🔖 4.3.2](https://github.com/OpenVoxProject/puppet-specifications/tree/4.3.2)
+- **puppetlabs-toy-chest/puppetlabs-package_updates** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-package_updates/tree/0.1.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-autoprefixer-rails-5.2.1.3-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-autoprefixer-rails-5.2.1.3-1.fm1_11)
 - **theforeman/foreman-packaging** – [🔖 tfm-2.0-2.fm1_11](https://github.com/theforeman/foreman-packaging/tree/tfm-2.0-2.fm1_11)
 - **theforeman/redmine_lightbox2** – [🔖 v0.2.5](https://github.com/theforeman/redmine_lightbox2/tree/v0.2.5)
@@ -21308,10 +21805,14 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-openldap** – [🔖 1.13.0](https://github.com/voxpupuli/puppet-openldap/tree/1.13.0)
 - **voxpupuli/puppet-unattended_upgrades** – [🔖 v1.1.1](https://github.com/voxpupuli/puppet-unattended_upgrades/tree/v1.1.1)
 
+## 📅 2016-01-10
+- **puppetlabs-toy-chest/cljs-dashboard-widgets** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/cljs-dashboard-widgets/tree/0.1.0)
+
 ## 📅 2016-01-09
 - **voxpupuli/puppet-unattended_upgrades** – [🔖 v1.1.0](https://github.com/voxpupuli/puppet-unattended_upgrades/tree/v1.1.0)
 
 ## 📅 2016-01-08
+- **puppetlabs-toy-chest/pltraining-puppetfactory** – [🔖 v0.4.1](https://github.com/puppetlabs-toy-chest/pltraining-puppetfactory/tree/v0.4.1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman-tasks-0.7.10-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman-tasks-0.7.10-1.fm1_10)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman-tasks-0.7.10-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman-tasks-0.7.10-1.fm1_11)
 - **voxpupuli/json-schema** – [🔖 v2.6.0](https://github.com/voxpupuli/json-schema/tree/v2.6.0)
@@ -21330,6 +21831,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2016-01-06
 - **OpenVoxProject/trapperkeeper** – [🔖 1.1.3](https://github.com/OpenVoxProject/trapperkeeper/tree/1.1.3)
 - **OpenVoxProject/vanagon** – [🔖 0.5.0](https://github.com/OpenVoxProject/vanagon/tree/0.5.0)
+- **puppetlabs-toy-chest/pltraining-showoff** – [🔖 v0.0.1](https://github.com/puppetlabs-toy-chest/pltraining-showoff/tree/v0.0.1)
 - **theforeman/foreman-packaging** – [🔖 foreman-release-scl-2-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/foreman-release-scl-2-1.fm1_11)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman-tasks-0.7.8-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman-tasks-0.7.8-1.fm1_10)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_docker-2.0.0-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_docker-2.0.0-1.fm1_11)
@@ -21351,6 +21853,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-hiera** – [🔖 1.4.0](https://github.com/voxpupuli/puppet-hiera/tree/1.4.0)
 
 ## 📅 2016-01-05
+- **puppetlabs-toy-chest/beaker-testmode_switcher** – [🔖 v0.1.0](https://github.com/puppetlabs-toy-chest/beaker-testmode_switcher/tree/v0.1.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-concurrent-ruby-1.0.0-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/rubygem-concurrent-ruby-1.0.0-1.fm1_10)
 - **theforeman/foreman-packaging** – [🔖 rubygem-concurrent-ruby-1.0.0-2.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-concurrent-ruby-1.0.0-2.fm1_11)
 - **theforeman/foreman-packaging** – [🔖 rubygem-concurrent-ruby-edge-0.2.0-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/rubygem-concurrent-ruby-edge-0.2.0-1.fm1_10)
@@ -21610,6 +22113,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2015-12-17
 - **OpenVoxProject/leatherman** – [🔖 0.3.2](https://github.com/OpenVoxProject/leatherman/tree/0.3.2)
+- **puppetlabs-toy-chest/lock_manager** – [🔖 0.1.1](https://github.com/puppetlabs-toy-chest/lock_manager/tree/0.1.1)
 - **theforeman/foreman_remote_execution** – [🔖 v0.1.2](https://github.com/theforeman/foreman_remote_execution/tree/v0.1.2)
 - **theforeman/hammer_cli_foreman_remote_execution** – [🔖 v0.0.2](https://github.com/theforeman/hammer_cli_foreman_remote_execution/tree/v0.0.2)
 - **voxpupuli/puppet-elasticsearch** – [🔖 0.10.1](https://github.com/voxpupuli/puppet-elasticsearch/tree/0.10.1)
@@ -21618,6 +22122,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/beaker** – [beaker 2.31.0](https://github.com/voxpupuli/beaker/releases/tag/2.31.0)
 - **OpenVoxProject/leatherman** – [🔖 0.3.0](https://github.com/OpenVoxProject/leatherman/tree/0.3.0)
 - **OpenVoxProject/leatherman** – [🔖 0.3.1](https://github.com/OpenVoxProject/leatherman/tree/0.3.1)
+- **puppetlabs-toy-chest/lock_manager** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/lock_manager/tree/0.1.0)
+- **puppetlabs-toy-chest/pltraining-puppetfactory** – [🔖 v0.4.0](https://github.com/puppetlabs-toy-chest/pltraining-puppetfactory/tree/v0.4.0)
 - **theforeman/smart_proxy_remote_execution_ssh** – [🔖 v0.0.9](https://github.com/theforeman/smart_proxy_remote_execution_ssh/tree/v0.0.9)
 - **voxpupuli/puppet-r10k** – [🔖 v3.2.0](https://github.com/voxpupuli/puppet-r10k/tree/v3.2.0)
 
@@ -21643,6 +22149,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2015-12-11
 - **voxpupuli/puppet-smokeping** – [[1.7.1] - 2015-11-12](https://github.com/voxpupuli/puppet-smokeping/releases/tag/v1.7.1)
+- **puppetlabs-toy-chest/pe-razor-vagrant-stack** – [🔖 vPE3.8](https://github.com/puppetlabs-toy-chest/pe-razor-vagrant-stack/tree/vPE3.8)
 - **theforeman/hammer-cli** – [🔖 0.5.0](https://github.com/theforeman/hammer-cli/tree/0.5.0)
 - **theforeman/hammer_cli_foreman_remote_execution** – [🔖 v0.0.1](https://github.com/theforeman/hammer_cli_foreman_remote_execution/tree/v0.0.1)
 - **voxpupuli/puppet-kafka** – [🔖 v1.0.2](https://github.com/voxpupuli/puppet-kafka/tree/v1.0.2)
@@ -21654,6 +22161,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-mcollective** – [🔖 v2.1.3](https://github.com/voxpupuli/puppet-mcollective/tree/v2.1.3)
 
 ## 📅 2015-12-09
+- **puppetlabs-toy-chest/puppetlabs-aws** – [🔖 1.3.0](https://github.com/puppetlabs-toy-chest/puppetlabs-aws/tree/1.3.0)
 - **theforeman/foreman_openscap** – [🔖 v0.5.1](https://github.com/theforeman/foreman_openscap/tree/v0.5.1)
 - **theforeman/foreman_openscap** – [🔖 v0.5.2](https://github.com/theforeman/foreman_openscap/tree/v0.5.2)
 - **theforeman/smart_proxy_openscap** – [🔖 v0.5.1](https://github.com/theforeman/smart_proxy_openscap/tree/v0.5.1)
@@ -21661,6 +22169,11 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-redis** – [🔖 1.2.1](https://github.com/voxpupuli/puppet-redis/tree/1.2.1)
 
 ## 📅 2015-12-08
+- **puppetlabs-toy-chest/puppetlabs-azure** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-azure/tree/1.0.0)
+- **puppetlabs-toy-chest/puppetlabs-azure** – [🔖 1.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-azure/tree/1.0.1)
+- **puppetlabs-toy-chest/puppetlabs-azure_agent** – [🔖 0.0.4](https://github.com/puppetlabs-toy-chest/puppetlabs-azure_agent/tree/0.0.4)
+- **puppetlabs-toy-chest/puppetlabs-azure_agent** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-azure_agent/tree/0.1.0)
+- **puppetlabs-toy-chest/puppetlabs-catalog_preview** – [🔖 2.0.3](https://github.com/puppetlabs-toy-chest/puppetlabs-catalog_preview/tree/2.0.3)
 - **theforeman/puppet-letsencrypt** – [🔖 v0.3.0](https://github.com/theforeman/puppet-letsencrypt/tree/v0.3.0)
 - **theforeman/puppet-letsencrypt** – [🔖 v0.3.1](https://github.com/theforeman/puppet-letsencrypt/tree/v0.3.1)
 - **voxpupuli/puppet-letsencrypt** – [🔖 v0.3.0](https://github.com/voxpupuli/puppet-letsencrypt/tree/v0.3.0)
@@ -21709,6 +22222,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-pkgng** – [🔖 0.3.2](https://github.com/voxpupuli/puppet-pkgng/tree/0.3.2)
 
 ## 📅 2015-11-27
+- **puppetlabs-toy-chest/puppetlabs-netscaler** – [🔖 1.1.2](https://github.com/puppetlabs-toy-chest/puppetlabs-netscaler/tree/1.1.2)
 - **theforeman/puppetlabs-apache** – [🔖 1.7.1](https://github.com/theforeman/puppetlabs-apache/tree/1.7.1)
 - **voxpupuli/puppet-check_mk** – [🔖 v0.6.1](https://github.com/voxpupuli/puppet-check_mk/tree/v0.6.1)
 
@@ -21725,6 +22239,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2015-11-24
 - **OpenVoxProject/puppet-ca-bundle** – [🔖 1.0.7](https://github.com/OpenVoxProject/puppet-ca-bundle/tree/1.0.7)
+- **puppetlabs-toy-chest/lock_manager** – [🔖 0.0.1](https://github.com/puppetlabs-toy-chest/lock_manager/tree/0.0.1)
 - **voxpupuli/json-schema** – [🔖 v2.5.2](https://github.com/voxpupuli/json-schema/tree/v2.5.2)
 
 ## 📅 2015-11-23
@@ -21746,6 +22261,9 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2015-11-20
 - **OpenVoxProject/puppet-ca-bundle** – [🔖 1.0.5](https://github.com/OpenVoxProject/puppet-ca-bundle/tree/1.0.5)
 - **OpenVoxProject/pxp-agent** – [🔖 1.0.1](https://github.com/OpenVoxProject/pxp-agent/tree/1.0.1)
+- **puppetlabs-toy-chest/lock_manager** – [🔖 0.0.0](https://github.com/puppetlabs-toy-chest/lock_manager/tree/0.0.0)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.7](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.7)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.7](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.7)
 - **theforeman/foreman-packaging** – [🔖 rubygem-fog-1.36.0-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-fog-1.36.0-1.fm1_11)
 - **theforeman/foreman-packaging** – [🔖 rubygem-fog-core-1.34.0-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-fog-core-1.34.0-1.fm1_11)
 - **theforeman/foreman-packaging** – [🔖 rubygem-fog-xenserver-0.2.2-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-fog-xenserver-0.2.2-1.fm1_11)
@@ -21812,6 +22330,8 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2015-11-12
 - **OpenVoxProject/pxp-agent** – [🔖 1.0.0](https://github.com/OpenVoxProject/pxp-agent/tree/1.0.0)
 - **OpenVoxProject/vanagon** – [🔖 0.4.1](https://github.com/OpenVoxProject/vanagon/tree/0.4.1)
+- **puppetlabs-toy-chest/pltraining-puppetfactory** – [🔖 v0.3.7](https://github.com/puppetlabs-toy-chest/pltraining-puppetfactory/tree/v0.3.7)
+- **puppetlabs-toy-chest/pltraining-puppetfactory** – [🔖 v0.3.8](https://github.com/puppetlabs-toy-chest/pltraining-puppetfactory/tree/v0.3.8)
 - **theforeman/foreman-packaging** – [🔖 rubygem-gridster-rails-0.5.6-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-gridster-rails-0.5.6-1.fm1_11)
 - **theforeman/foreman_remote_execution** – [🔖 v0.1.1](https://github.com/theforeman/foreman_remote_execution/tree/v0.1.1)
 - **theforeman/smart_proxy_remote_execution_ssh** – [🔖 v0.0.8](https://github.com/theforeman/smart_proxy_remote_execution_ssh/tree/v0.0.8)
@@ -21831,6 +22351,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/cpp-pcp-client** – [🔖 1.0.1](https://github.com/OpenVoxProject/cpp-pcp-client/tree/1.0.1)
 - **OpenVoxProject/ezbake** – [🔖 0.3.21](https://github.com/OpenVoxProject/ezbake/tree/0.3.21)
 - **OpenVoxProject/openvox** – [🔖 4.3.0](https://github.com/OpenVoxProject/openvox/tree/4.3.0)
+- **puppetlabs-toy-chest/razor-client** – [🔖 1.1.0](https://github.com/puppetlabs-toy-chest/razor-client/tree/1.1.0)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.1.0](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.1.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_xen-0.1.6-1.fm1_9](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_xen-0.1.6-1.fm1_9)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_xen-0.2.2-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_xen-0.2.2-1.fm1_10)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_xen-0.2.2-1.fm1_11](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_xen-0.2.2-1.fm1_11)
@@ -22010,6 +22532,8 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2015-10-16
 - **OpenVoxProject/vanagon** – [🔖 0.3.18](https://github.com/OpenVoxProject/vanagon/tree/0.3.18)
 - **OpenVoxProject/vanagon** – [🔖 0.3.19](https://github.com/OpenVoxProject/vanagon/tree/0.3.19)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.5](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.5)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.5](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.5)
 - **voxpupuli/puppet-bacula** – [🔖 1.2.10](https://github.com/voxpupuli/puppet-bacula/tree/1.2.10)
 - **voxpupuli/puppet-bacula** – [🔖 2.0.0](https://github.com/voxpupuli/puppet-bacula/tree/2.0.0)
 
@@ -22083,6 +22607,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/rundeck** – [🔖 v2.6.0](https://github.com/voxpupuli/rundeck/tree/v2.6.0)
 
 ## 📅 2015-10-07
+- **puppetlabs-toy-chest/puppetlabs-logentries** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-logentries/tree/0.1.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-bastion-2.0.3-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/rubygem-bastion-2.0.3-1.fm1_10)
 - **theforeman/foreman-packaging** – [🔖 rubygem-hammer_cli-0.4.0-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/rubygem-hammer_cli-0.4.0-1.fm1_10)
 - **theforeman/foreman-packaging** – [🔖 rubygem-hammer_cli_foreman-0.4.0-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/rubygem-hammer_cli_foreman-0.4.0-1.fm1_10)
@@ -22123,6 +22648,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/vanagon** – [🔖 0.3.17](https://github.com/OpenVoxProject/vanagon/tree/0.3.17)
 
 ## 📅 2015-10-02
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.4](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.4)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.4](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.4)
 - **theforeman/foreman_chef** – [🔖 v0.2.0](https://github.com/theforeman/foreman_chef/tree/v0.2.0)
 - **theforeman/smart_proxy_chef** – [🔖 v0.1.5](https://github.com/theforeman/smart_proxy_chef/tree/v0.1.5)
 
@@ -22142,6 +22669,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/onceover** – [🔖 0.2.0](https://github.com/voxpupuli/onceover/tree/0.2.0)
 
 ## 📅 2015-09-28
+- **puppetlabs-toy-chest/pltraining-classroomdemo** – [🔖 v0.0.1](https://github.com/puppetlabs-toy-chest/pltraining-classroomdemo/tree/v0.0.1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-hammer_cli_foreman_tasks-0.0.8-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/rubygem-hammer_cli_foreman_tasks-0.0.8-1.fm1_10)
 - **voxpupuli/onceover** – [🔖 0.1.1](https://github.com/voxpupuli/onceover/tree/0.1.1)
 - **voxpupuli/puppet-git_resource** – [🔖 0.2.0](https://github.com/voxpupuli/puppet-git_resource/tree/0.2.0)
@@ -22218,6 +22746,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openvox-agent** – [🔖 1.2.5](https://github.com/OpenVoxProject/openvox-agent/tree/1.2.5)
 - **OpenVoxProject/openvox-release** – [🔖 0.9.4](https://github.com/OpenVoxProject/openvox-release/tree/0.9.4)
 - **OpenVoxProject/vanagon** – [🔖 0.3.14](https://github.com/OpenVoxProject/vanagon/tree/0.3.14)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.1](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.1)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.1](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.1)
 - **theforeman/foreman** – [🔖 1.8.4](https://github.com/theforeman/foreman/tree/1.8.4)
 - **theforeman/foreman-installer** – [🔖 1.8.4](https://github.com/theforeman/foreman-installer/tree/1.8.4)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.8.4-1](https://github.com/theforeman/foreman-packaging/tree/foreman-1.8.4-1)
@@ -22239,6 +22769,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2015-09-14
 - **OpenVoxProject/vanagon** – [🔖 0.3.13](https://github.com/OpenVoxProject/vanagon/tree/0.3.13)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.5.0](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.5.0)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.5.0](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.5.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_remote_execution-0.0.6-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_remote_execution-0.0.6-1.fm1_10)
 - **theforeman/foreman_remote_execution** – [🔖 v0.0.6](https://github.com/theforeman/foreman_remote_execution/tree/v0.0.6)
 - **voxpupuli/puppet-ghostbuster** – [🔖 0.1.4](https://github.com/voxpupuli/puppet-ghostbuster/tree/0.1.4)
@@ -22302,6 +22834,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2015-09-04
 - **OpenVoxProject/puppet-ca-bundle** – [🔖 1.0.1](https://github.com/OpenVoxProject/puppet-ca-bundle/tree/1.0.1)
+- **puppetlabs-toy-chest/puppetlabs-aws** – [🔖 1.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-aws/tree/1.2.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-ace-rails-ap-3.0.3-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/rubygem-ace-rails-ap-3.0.3-1.fm1_10)
 - **voxpupuli/puppet-collectd** – [🔖 v4.2.0](https://github.com/voxpupuli/puppet-collectd/tree/v4.2.0)
 
@@ -22316,6 +22849,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/beaker** – [Beaker 1.21.0 release](https://github.com/voxpupuli/beaker/releases/tag/1.21.0)
 - **OpenVoxProject/puppet-ca-bundle** – [🔖 1.0.0](https://github.com/OpenVoxProject/puppet-ca-bundle/tree/1.0.0)
 - **OpenVoxProject/vanagon** – [🔖 0.3.11](https://github.com/OpenVoxProject/vanagon/tree/0.3.11)
+- **puppetlabs-toy-chest/puppetlabs-dsc** – [🔖 0.8.1](https://github.com/puppetlabs-toy-chest/puppetlabs-dsc/tree/0.8.1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_remote_execution-0.0.5-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_remote_execution-0.0.5-1.fm1_10)
 - **theforeman/foreman-packaging** – [🔖 rubygem-smart_proxy_remote_execution_ssh-0.0.5-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/rubygem-smart_proxy_remote_execution_ssh-0.0.5-1.fm1_10)
 - **voxpupuli/puppet-groupmembership** – [🔖 0.0.6](https://github.com/voxpupuli/puppet-groupmembership/tree/0.0.6)
@@ -22323,6 +22857,9 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2015-09-01
 - **voxpupuli/beaker** – [Beaker 2.22.0](https://github.com/voxpupuli/beaker/releases/tag/2.22.0)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.3.4](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.3.4)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.3.4](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.3.4)
+- **puppetlabs-toy-chest/puppetlabs-dsc** – [🔖 0.8.0](https://github.com/puppetlabs-toy-chest/puppetlabs-dsc/tree/0.8.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-smart_proxy_salt-2.1.5-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/rubygem-smart_proxy_salt-2.1.5-1.fm1_10)
 - **theforeman/foreman_remote_execution** – [🔖 v0.0.5](https://github.com/theforeman/foreman_remote_execution/tree/v0.0.5)
 - **theforeman/smart_proxy_remote_execution_ssh** – [🔖 v0.0.5](https://github.com/theforeman/smart_proxy_remote_execution_ssh/tree/v0.0.5)
@@ -22625,6 +23162,9 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2015-08-18
 - **OpenVoxProject/openvox-agent** – [🔖 1.2.3](https://github.com/OpenVoxProject/openvox-agent/tree/1.2.3)
 - **OpenVoxProject/vanagon** – [🔖 0.3.8](https://github.com/OpenVoxProject/vanagon/tree/0.3.8)
+- **puppetlabs-toy-chest/puppetlabs-netapp** – [🔖 0.6.0](https://github.com/puppetlabs-toy-chest/puppetlabs-netapp/tree/0.6.0)
+- **puppetlabs-toy-chest/puppetlabs-netapp** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-netapp/tree/1.0.0)
+- **puppetlabs-toy-chest/puppetlabs-netscaler** – [🔖 1.1.1](https://github.com/puppetlabs-toy-chest/puppetlabs-netscaler/tree/1.1.1)
 - **theforeman/foreman** – [🔖 1.9.0](https://github.com/theforeman/foreman/tree/1.9.0)
 - **theforeman/foreman-installer** – [🔖 1.9.0](https://github.com/theforeman/foreman-installer/tree/1.9.0)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.9.0-1.fm1_9](https://github.com/theforeman/foreman-packaging/tree/foreman-1.9.0-1.fm1_9)
@@ -22666,6 +23206,8 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2015-08-13
 - **voxpupuli/puppet-cron** – [Convert to new style of Puppet modules](https://github.com/voxpupuli/puppet-cron/releases/tag/v0.1.2)
 - **OpenVoxProject/hiera** – [🔖 3.0.2](https://github.com/OpenVoxProject/hiera/tree/3.0.2)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.3.3](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.3.3)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.3.3](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.3.3)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_discovery-4.0.0-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_discovery-4.0.0-1.fm1_10)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_discovery-4.0.0-1.fm1_9](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_discovery-4.0.0-1.fm1_9)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_noenv-0.0.4-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_noenv-0.0.4-1.fm1_10)
@@ -22766,6 +23308,9 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2015-08-03
 - **OpenVoxProject/openvox** – [🔖 3.8.2](https://github.com/OpenVoxProject/openvox/tree/3.8.2)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.3.2](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.3.2)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.3.2](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.3.2)
+- **puppetlabs-toy-chest/puppetlabs-catalog_preview** – [🔖 2.0.2](https://github.com/puppetlabs-toy-chest/puppetlabs-catalog_preview/tree/2.0.2)
 - **theforeman/foreman-packaging** – [🔖 rubygem-concurrent-ruby-0.9.0-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/rubygem-concurrent-ruby-0.9.0-1.fm1_10)
 - **theforeman/foreman-packaging** – [🔖 rubygem-concurrent-ruby-edge-0.1.0-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/rubygem-concurrent-ruby-edge-0.1.0-1.fm1_10)
 - **theforeman/foreman-packaging** – [🔖 rubygem-dynflow-0.8.2-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/rubygem-dynflow-0.8.2-1.fm1_10)
@@ -22795,6 +23340,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/puppetlabs-apache** – [🔖 1.6.0](https://github.com/theforeman/puppetlabs-apache/tree/1.6.0)
 
 ## 📅 2015-07-29
+- **puppetlabs-toy-chest/puppetlabs-gce_compute** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-gce_compute/tree/1.0.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-rails-i18n-3.0.1-1.fm1_10](https://github.com/theforeman/foreman-packaging/tree/rubygem-rails-i18n-3.0.1-1.fm1_10)
 - **theforeman/hammer-cli** – [🔖 0.3.0](https://github.com/theforeman/hammer-cli/tree/0.3.0)
 - **theforeman/hammer-cli-foreman** – [🔖 0.3.0](https://github.com/theforeman/hammer-cli-foreman/tree/0.3.0)
@@ -22826,6 +23372,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-vault** – [🔖 v0.1.0](https://github.com/voxpupuli/puppet-vault/tree/v0.1.0)
 
 ## 📅 2015-07-27
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.3.0](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.3.0)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.3.0](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.3.0)
+- **puppetlabs-toy-chest/puppetlabs-netscaler** – [🔖 1.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-netscaler/tree/1.1.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-ldap_fluff-0.3.6-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-ldap_fluff-0.3.6-1)
 - **theforeman/ldap_fluff** – [🔖 v0.3.6](https://github.com/theforeman/ldap_fluff/tree/v0.3.6)
 - **theforeman/puppetlabs-mysql** – [🔖 3.5.0](https://github.com/theforeman/puppetlabs-mysql/tree/3.5.0)
@@ -22852,6 +23401,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-hiera** – [🔖 1.3.0](https://github.com/voxpupuli/puppet-hiera/tree/1.3.0)
 
 ## 📅 2015-07-22
+- **puppetlabs-toy-chest/puppetlabs-aws** – [🔖 1.1.1](https://github.com/puppetlabs-toy-chest/puppetlabs-aws/tree/1.1.1)
 - **theforeman/puppet-common** – [🔖 0.1.1](https://github.com/theforeman/puppet-common/tree/0.1.1)
 - **theforeman/puppet-service_wait** – [🔖 0.1.1](https://github.com/theforeman/puppet-service_wait/tree/0.1.1)
 - **theforeman/puppet-service_wait** – [🔖 0.1.2](https://github.com/theforeman/puppet-service_wait/tree/0.1.2)
@@ -22907,6 +23457,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-cassandra** – [🔖 0.4.2](https://github.com/voxpupuli/puppet-cassandra/tree/0.4.2)
 
 ## 📅 2015-07-15
+- **puppetlabs-toy-chest/trapperkeeper-webserver-jetty7** – [🔖 0.3.4](https://github.com/puppetlabs-toy-chest/trapperkeeper-webserver-jetty7/tree/0.3.4)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_chef-0.1.6-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_chef-0.1.6-1)
 - **theforeman/foreman_chef** – [🔖 v0.1.6](https://github.com/theforeman/foreman_chef/tree/v0.1.6)
 - **voxpupuli/beaker-rspec** – [🔖 5.2.0](https://github.com/voxpupuli/beaker-rspec/tree/5.2.0)
@@ -22933,6 +23484,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2015-07-10
 - **OpenVoxProject/ezbake** – [🔖 0.3.14](https://github.com/OpenVoxProject/ezbake/tree/0.3.14)
+- **puppetlabs-toy-chest/puppetlabs-catalog_preview** – [🔖 2.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-catalog_preview/tree/2.0.1)
 - **theforeman/smart_proxy_dns_route53** – [🔖 v1.0.0](https://github.com/theforeman/smart_proxy_dns_route53/tree/v1.0.0)
 - **voxpupuli/beaker** – [🔖 2.17.0](https://github.com/voxpupuli/beaker/tree/2.17.0)
 
@@ -23014,12 +23566,15 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2015-07-01
 - **OpenVoxProject/ezbake** – [🔖 0.3.12](https://github.com/OpenVoxProject/ezbake/tree/0.3.12)
+- **puppetlabs-toy-chest/puppetlabs-chronos** – [🔖 v0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-chronos/tree/v0.1.0)
+- **puppetlabs-toy-chest/telly** – [🔖 0.2.0](https://github.com/puppetlabs-toy-chest/telly/tree/0.2.0)
 - **theforeman/puppetlabs-postgresql** – [🔖 4.4.1](https://github.com/theforeman/puppetlabs-postgresql/tree/4.4.1)
 - **voxpupuli/beaker** – [🔖 2.15.0](https://github.com/voxpupuli/beaker/tree/2.15.0)
 - **voxpupuli/beaker** – [🔖 2.15.1](https://github.com/voxpupuli/beaker/tree/2.15.1)
 - **voxpupuli/puppet-virtualbox** – [🔖 v1.4.0](https://github.com/voxpupuli/puppet-virtualbox/tree/v1.4.0)
 
 ## 📅 2015-06-30
+- **puppetlabs-toy-chest/puppetlabs-catalog_preview** – [🔖 2.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-catalog_preview/tree/2.0.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman-tasks-0.6.14-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman-tasks-0.6.14-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-newt-0.9.4-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-newt-0.9.4-1)
 - **theforeman/foreman-tasks** – [🔖 v0.6.14](https://github.com/theforeman/foreman-tasks/tree/v0.6.14)
@@ -23028,6 +23583,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-postfix** – [🔖 1.2.13](https://github.com/voxpupuli/puppet-postfix/tree/1.2.13)
 
 ## 📅 2015-06-29
+- **puppetlabs-toy-chest/puppetlabs-aws** – [🔖 1.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-aws/tree/1.1.0)
 - **theforeman/puppet-dhcp** – [🔖 2.0.0](https://github.com/theforeman/puppet-dhcp/tree/2.0.0)
 - **theforeman/puppet-dns** – [🔖 3.0.0](https://github.com/theforeman/puppet-dns/tree/3.0.0)
 - **voxpupuli/puppet-gitlab** – [🔖 v1.2.1](https://github.com/voxpupuli/puppet-gitlab/tree/v1.2.1)
@@ -23041,6 +23597,8 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2015-06-26
 - **OpenVoxProject/ezbake** – [🔖 0.3.11](https://github.com/OpenVoxProject/ezbake/tree/0.3.11)
 - **OpenVoxProject/openvox-agent** – [🔖 1.2.1](https://github.com/OpenVoxProject/openvox-agent/tree/1.2.1)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.2.12](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.2.12)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.2.12](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.2.12)
 - **theforeman/foreman-packaging** – [🔖 rubygem-smart_proxy_salt-2.1.3-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-smart_proxy_salt-2.1.3-1)
 - **voxpupuli/puppet-augeas** – [🔖 1.2.13](https://github.com/voxpupuli/puppet-augeas/tree/1.2.13)
 - **voxpupuli/puppet-googleauthenticator** – [🔖 1.1.9](https://github.com/voxpupuli/puppet-googleauthenticator/tree/1.1.9)
@@ -23076,6 +23634,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/hiera** – [🔖 3.0.1](https://github.com/OpenVoxProject/hiera/tree/3.0.1)
 - **OpenVoxProject/openvox-agent** – [🔖 1.2.0](https://github.com/OpenVoxProject/openvox-agent/tree/1.2.0)
 - **OpenVoxProject/vanagon** – [🔖 0.3.4](https://github.com/OpenVoxProject/vanagon/tree/0.3.4)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 classroom-v1.2.12](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/classroom-v1.2.12)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 classroom-v1.2.12](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/classroom-v1.2.12)
+- **puppetlabs-toy-chest/puppetlabs-mount_providers** – [🔖 0.0.3](https://github.com/puppetlabs-toy-chest/puppetlabs-mount_providers/tree/0.0.3)
 - **theforeman/foreman-packaging** – [🔖 rubygem-fog-aws-0.5.0-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-fog-aws-0.5.0-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-select2-rails-3.5.9.3-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-select2-rails-3.5.9.3-1)
 - **theforeman/ruby-newt** – [🔖 0.9.4](https://github.com/theforeman/ruby-newt/tree/0.9.4)
@@ -23154,6 +23715,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2015-06-11
 - **OpenVoxProject/openvox-server** – [🔖 puppet-server-1.1.1](https://github.com/OpenVoxProject/openvox-server/tree/puppet-server-1.1.1)
 - **OpenVoxProject/vanagon** – [🔖 0.3.2](https://github.com/OpenVoxProject/vanagon/tree/0.3.2)
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.0.1](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.0.1)
 - **theforeman/kafo** – [🔖 rubygem-kafo-0.6.11-1](https://github.com/theforeman/kafo/tree/rubygem-kafo-0.6.11-1)
 - **theforeman/kafo** – [🔖 v0.6.11](https://github.com/theforeman/kafo/tree/v0.6.11)
 - **theforeman/puppetlabs-apache** – [🔖 1.5.0](https://github.com/theforeman/puppetlabs-apache/tree/1.5.0)
@@ -23166,6 +23728,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2015-06-09
 - **OpenVoxProject/packaging** – [🔖 0.4.3](https://github.com/OpenVoxProject/packaging/tree/0.4.3)
+- **puppetlabs-toy-chest/puppetlabs-netscaler** – [🔖 1.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-netscaler/tree/1.0.1)
 - **voxpupuli/puppet-rabbitmq** – [🔖 5.2.2](https://github.com/voxpupuli/puppet-rabbitmq/tree/5.2.2)
 - **voxpupuli/r10k** – [🔖 2.0.0](https://github.com/voxpupuli/r10k/tree/2.0.0)
 - **voxpupuli/r10k** – [🔖 2.0.1](https://github.com/voxpupuli/r10k/tree/2.0.1)
@@ -23179,9 +23742,13 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2015-06-05
 - **OpenVoxProject/ezbake** – [🔖 0.3.8](https://github.com/OpenVoxProject/ezbake/tree/0.3.8)
+- **puppetlabs-toy-chest/razor-client** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/razor-client/tree/1.0.0)
 - **voxpupuli/beaker** – [🔖 2.14.0](https://github.com/voxpupuli/beaker/tree/2.14.0)
 - **voxpupuli/beaker** – [🔖 2.14.1](https://github.com/voxpupuli/beaker/tree/2.14.1)
 - **voxpupuli/beaker-rspec** – [🔖 5.1.0](https://github.com/voxpupuli/beaker-rspec/tree/5.1.0)
+
+## 📅 2015-06-04
+- **puppetlabs-toy-chest/razor-server** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/razor-server/tree/1.0.0)
 
 ## 📅 2015-06-03
 - **OpenVoxProject/openvoxdb** – [🔖 2.3.5](https://github.com/OpenVoxProject/openvoxdb/tree/2.3.5)
@@ -23197,6 +23764,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2015-06-02
 - **OpenVoxProject/openvox-server** – [🔖 puppet-server-1.1.0](https://github.com/OpenVoxProject/openvox-server/tree/puppet-server-1.1.0)
+- **puppetlabs-toy-chest/puppetlabs-limits** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-limits/tree/0.1.0)
 - **theforeman/hammer-cli-foreman** – [🔖 rubygem-hammer_cli_foreman-0.1.4.13-1](https://github.com/theforeman/hammer-cli-foreman/tree/rubygem-hammer_cli_foreman-0.1.4.13-1)
 - **voxpupuli/puppet-redis** – [🔖 1.0.7](https://github.com/voxpupuli/puppet-redis/tree/1.0.7)
 
@@ -23210,6 +23778,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2015-05-29
 - **OpenVoxProject/ezbake** – [🔖 0.3.7](https://github.com/OpenVoxProject/ezbake/tree/0.3.7)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 v1.2.11](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/v1.2.11)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 v1.2.11](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/v1.2.11)
 - **theforeman/foreman-packaging** – [🔖 rubygem-bastion-1.0.2-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-bastion-1.0.2-1)
 - **voxpupuli/beaker** – [🔖 2.13.0](https://github.com/voxpupuli/beaker/tree/2.13.0)
 - **voxpupuli/facterdb** – [🔖 0.0.1](https://github.com/voxpupuli/facterdb/tree/0.0.1)
@@ -23221,6 +23791,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-unbound** – [🔖 1.1.4](https://github.com/voxpupuli/puppet-unbound/tree/1.1.4)
 
 ## 📅 2015-05-28
+- **puppetlabs-toy-chest/puppetlabs-puppetserver_gem** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-puppetserver_gem/tree/0.1.0)
 - **theforeman/kafo** – [🔖 rubygem-kafo-0.6.10-1](https://github.com/theforeman/kafo/tree/rubygem-kafo-0.6.10-1)
 - **theforeman/kafo** – [🔖 v0.6.10](https://github.com/theforeman/kafo/tree/v0.6.10)
 - **theforeman/redmine_omniauth_github** – [🔖 v0.0.1](https://github.com/theforeman/redmine_omniauth_github/tree/v0.0.1)
@@ -23238,11 +23809,13 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-systemd** – [🔖 0.1.14](https://github.com/voxpupuli/puppet-systemd/tree/0.1.14)
 
 ## 📅 2015-05-27
+- **puppetlabs-toy-chest/puppetlabs-netscaler** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-netscaler/tree/1.0.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_xen-0.1.1-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_xen-0.1.1-1)
 - **theforeman/hammer-cli-foreman** – [🔖 rubygem-hammer_cli_foreman-0.1.4.12-1](https://github.com/theforeman/hammer-cli-foreman/tree/rubygem-hammer_cli_foreman-0.1.4.12-1)
 - **voxpupuli/rspec-puppet-facts** – [🔖 0.10.0](https://github.com/voxpupuli/rspec-puppet-facts/tree/0.10.0)
 
 ## 📅 2015-05-26
+- **puppetlabs-toy-chest/puppetlabs-git** – [🔖 0.4.0](https://github.com/puppetlabs-toy-chest/puppetlabs-git/tree/0.4.0)
 - **voxpupuli/github-changelog-generator** – [🔖 1.5.0](https://github.com/voxpupuli/github-changelog-generator/tree/1.5.0)
 - **voxpupuli/puppet-augeas** – [🔖 1.2.10](https://github.com/voxpupuli/puppet-augeas/tree/1.2.10)
 - **voxpupuli/puppet-augeas** – [🔖 1.2.9](https://github.com/voxpupuli/puppet-augeas/tree/1.2.9)
@@ -23269,6 +23842,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/rspec-puppet-facts** – [🔖 0.9.0](https://github.com/voxpupuli/rspec-puppet-facts/tree/0.9.0)
 
 ## 📅 2015-05-25
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 classroom-v1.2.10](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/classroom-v1.2.10)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 classroom-v1.2.10](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/classroom-v1.2.10)
 - **theforeman/foreman-discovery-image** – [🔖 2.1.1](https://github.com/theforeman/foreman-discovery-image/tree/2.1.1)
 - **voxpupuli/puppet-augeas** – [🔖 1.2.8](https://github.com/voxpupuli/puppet-augeas/tree/1.2.8)
 - **voxpupuli/puppet-augeasproviders_ssh** – [🔖 2.4.0](https://github.com/voxpupuli/puppet-augeasproviders_ssh/tree/2.4.0)
@@ -23286,6 +23861,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/librarian-puppet** – [🔖 v2.2.0](https://github.com/voxpupuli/librarian-puppet/tree/v2.2.0)
 
 ## 📅 2015-05-22
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 classroom-v1.2.9](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/classroom-v1.2.9)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 classroom-v1.2.9](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/classroom-v1.2.9)
 - **voxpupuli/librarian-puppet** – [🔖 v2.1.1](https://github.com/voxpupuli/librarian-puppet/tree/v2.1.1)
 - **voxpupuli/puppet-iis** – [🔖 v1.4.1](https://github.com/voxpupuli/puppet-iis/tree/v1.4.1)
 - **voxpupuli/puppet-rundeck** – [🔖 v1.2.0](https://github.com/voxpupuli/puppet-rundeck/tree/v1.2.0)
@@ -23335,6 +23912,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-rvm** – [🔖 v1.12.0](https://github.com/voxpupuli/puppet-rvm/tree/v1.12.0)
 
 ## 📅 2015-05-15
+- **puppetlabs-toy-chest/libpuppetdb** – [🔖 0.2.0](https://github.com/puppetlabs-toy-chest/libpuppetdb/tree/0.2.0)
 - **voxpupuli/rundeck** – [🔖 v2.5.1](https://github.com/voxpupuli/rundeck/tree/v2.5.1)
 
 ## 📅 2015-05-13
@@ -23357,6 +23935,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-systemd** – [🔖 0.1.10](https://github.com/voxpupuli/puppet-systemd/tree/0.1.10)
 
 ## 📅 2015-05-12
+- **puppetlabs-toy-chest/puppetlabs-netapp** – [🔖 0.5.0](https://github.com/puppetlabs-toy-chest/puppetlabs-netapp/tree/0.5.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-daemons-1.2.2-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-daemons-1.2.2-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_openscap-0.4.1-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_openscap-0.4.1-1)
 - **theforeman/ldap_fluff** – [🔖 v0.3.5](https://github.com/theforeman/ldap_fluff/tree/v0.3.5)
@@ -23417,6 +23996,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-logrotate** – [🔖 v1.2.7](https://github.com/voxpupuli/puppet-logrotate/tree/v1.2.7)
 
 ## 📅 2015-05-05
+- **puppetlabs-toy-chest/puppetlabs-catalog_preview** – [🔖 1.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-catalog_preview/tree/1.0.1)
 - **theforeman/hammer-cli-foreman** – [🔖 rubygem-hammer_cli_foreman-0.1.4.11-1](https://github.com/theforeman/hammer-cli-foreman/tree/rubygem-hammer_cli_foreman-0.1.4.11-1)
 - **voxpupuli/puppet-redis** – [🔖 1.0.6](https://github.com/voxpupuli/puppet-redis/tree/1.0.6)
 - **voxpupuli/puppet-wildfly** – [🔖 v0.3.3](https://github.com/voxpupuli/puppet-wildfly/tree/v0.3.3)
@@ -23427,11 +24007,14 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2015-05-01
 - **OpenVoxProject/vanagon** – [🔖 0.3.0](https://github.com/OpenVoxProject/vanagon/tree/0.3.0)
+- **puppetlabs-toy-chest/libpuppetdb** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/libpuppetdb/tree/0.1.0)
 - **voxpupuli/puppet-iis** – [🔖 v1.4.0](https://github.com/voxpupuli/puppet-iis/tree/v1.4.0)
 - **voxpupuli/puppet-wget** – [🔖 v1.7.0](https://github.com/voxpupuli/puppet-wget/tree/v1.7.0)
 - **voxpupuli/puppet-windowsfeature** – [🔖 v1.1.0](https://github.com/voxpupuli/puppet-windowsfeature/tree/v1.1.0)
 
 ## 📅 2015-04-30
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 classroom-v1.2.8](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/classroom-v1.2.8)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 classroom-v1.2.8](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/classroom-v1.2.8)
 - **voxpupuli/puppet-consul** – [🔖 v1.0.0](https://github.com/voxpupuli/puppet-consul/tree/v1.0.0)
 - **voxpupuli/puppet-cvmfs** – [🔖 puppet-cvmfs-0.4.2](https://github.com/voxpupuli/puppet-cvmfs/tree/puppet-cvmfs-0.4.2)
 - **voxpupuli/puppet-cvmfs** – [🔖 puppet-cvmfs-0.4.3](https://github.com/voxpupuli/puppet-cvmfs/tree/puppet-cvmfs-0.4.3)
@@ -23509,6 +24092,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2015-04-23
 - **OpenVoxProject/openvox-release** – [🔖 0.9.3](https://github.com/OpenVoxProject/openvox-release/tree/0.9.3)
+- **puppetlabs-toy-chest/puppetlabs-catalog_preview** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-catalog_preview/tree/1.0.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-apipie-bindings-0.0.13-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-apipie-bindings-0.0.13-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_docker-1.2.4-2.fm1_9](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_docker-1.2.4-2.fm1_9)
 - **theforeman/hammer-cli** – [🔖 0.2.0](https://github.com/theforeman/hammer-cli/tree/0.2.0)
@@ -23607,6 +24191,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-php** – [3.1.0](https://github.com/voxpupuli/puppet-php/releases/tag/3.1.0)
 - **voxpupuli/puppet-php** – [3.2.0](https://github.com/voxpupuli/puppet-php/releases/tag/3.2.0)
 - **OpenVoxProject/leatherman** – [🔖 0.1.0](https://github.com/OpenVoxProject/leatherman/tree/0.1.0)
+- **puppetlabs-toy-chest/puppet-module-opencsw** – [🔖 0.2.1](https://github.com/puppetlabs-toy-chest/puppet-module-opencsw/tree/0.2.1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-bastion-0.3.2-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-bastion-0.3.2-1)
 
 ## 📅 2015-04-09
@@ -23659,6 +24244,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/hiera** – [🔖 2.0.1](https://github.com/OpenVoxProject/hiera/tree/2.0.1)
 - **OpenVoxProject/openfact** – [🔖 2.4.3](https://github.com/OpenVoxProject/openfact/tree/2.4.3)
 - **OpenVoxProject/openvox** – [🔖 4.0.0-rc3](https://github.com/OpenVoxProject/openvox/tree/4.0.0-rc3)
+- **puppetlabs-toy-chest/puppet-module-opencsw** – [🔖 0.2.0](https://github.com/puppetlabs-toy-chest/puppet-module-opencsw/tree/0.2.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-passenger-4.0.18-9.8](https://github.com/theforeman/foreman-packaging/tree/rubygem-passenger-4.0.18-9.8)
 - **voxpupuli/puppet-monit** – [🔖 v0.4.0](https://github.com/voxpupuli/puppet-monit/tree/v0.4.0)
 - **voxpupuli/puppet-nginx** – [🔖 v0.2.5](https://github.com/voxpupuli/puppet-nginx/tree/v0.2.5)
@@ -23666,6 +24252,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2015-04-01
 - **OpenVoxProject/openvoxdb** – [🔖 2.3.2](https://github.com/OpenVoxProject/openvoxdb/tree/2.3.2)
+- **puppetlabs-toy-chest/trapperkeeper-rpc** – [🔖 trapperkeeper-rpc-1.0.0](https://github.com/puppetlabs-toy-chest/trapperkeeper-rpc/tree/trapperkeeper-rpc-1.0.0)
 - **theforeman/staypuft** – [🔖 v0.5.22](https://github.com/theforeman/staypuft/tree/v0.5.22)
 - **voxpupuli/puppet-monit** – [🔖 v0.3.0](https://github.com/voxpupuli/puppet-monit/tree/v0.3.0)
 - **voxpupuli/puppet-openvmtools** – [🔖 0.2.0](https://github.com/voxpupuli/puppet-openvmtools/tree/0.2.0)
@@ -23702,6 +24289,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-wget** – [🔖 v1.6.0](https://github.com/voxpupuli/puppet-wget/tree/v1.6.0)
 
 ## 📅 2015-03-26
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 classroom-v1.2.7](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/classroom-v1.2.7)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 classroom-v1.2.7](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/classroom-v1.2.7)
 - **theforeman/foreman** – [🔖 1.8.0-RC2](https://github.com/theforeman/foreman/tree/1.8.0-RC2)
 - **theforeman/foreman-installer** – [🔖 1.8.0-RC2](https://github.com/theforeman/foreman-installer/tree/1.8.0-RC2)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.8.0-0.1.RC2](https://github.com/theforeman/foreman-packaging/tree/foreman-1.8.0-0.1.RC2)
@@ -23804,6 +24393,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2015-03-19
 - **OpenVoxProject/clj-kitchensink** – [🔖 1.1.0](https://github.com/OpenVoxProject/clj-kitchensink/tree/1.1.0)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 classroom-v1.2.6](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/classroom-v1.2.6)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 classroom-v1.2.6](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/classroom-v1.2.6)
 - **theforeman/chef-handler-foreman** – [🔖 v0.0.8](https://github.com/theforeman/chef-handler-foreman/tree/v0.0.8)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_openscap-0.3.3-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_openscap-0.3.3-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-hammer_cli_foreman_discovery-0.0.2-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-hammer_cli_foreman_discovery-0.0.2-1)
@@ -23820,6 +24411,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2015-03-18
 - **OpenVoxProject/ezbake** – [🔖 0.1.3](https://github.com/OpenVoxProject/ezbake/tree/0.1.3)
 - **OpenVoxProject/openvoxdb** – [🔖 2.3.0](https://github.com/OpenVoxProject/openvoxdb/tree/2.3.0)
+- **puppetlabs-toy-chest/mcollective-package-agent** – [🔖 4.4.0](https://github.com/puppetlabs-toy-chest/mcollective-package-agent/tree/4.4.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_salt-2.0.2-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_salt-2.0.2-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_templates-1.5.0-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_templates-1.5.0-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-git-1.2.5-5](https://github.com/theforeman/foreman-packaging/tree/rubygem-git-1.2.5-5)
@@ -24072,6 +24664,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2015-02-17
 - **OpenVoxProject/ezbake** – [🔖 0.2.2](https://github.com/OpenVoxProject/ezbake/tree/0.2.2)
 - **OpenVoxProject/ezbake** – [🔖 jenkins-enterprise_ezbake_release-clj_master-1](https://github.com/OpenVoxProject/ezbake/tree/jenkins-enterprise_ezbake_release-clj_master-1)
+- **puppetlabs-toy-chest/telly** – [🔖 0.1.2](https://github.com/puppetlabs-toy-chest/telly/tree/0.1.2)
 - **theforeman/foreman-packaging** – [🔖 rubygem-fog-1.27.0-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-fog-1.27.0-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-fog-aws-0.0.8-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-fog-aws-0.0.8-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-fog-core-1.27.4-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-fog-core-1.27.4-1)
@@ -24147,6 +24740,8 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2015-02-05
 - **OpenVoxProject/ezbake** – [🔖 0.1.2](https://github.com/OpenVoxProject/ezbake/tree/0.1.2)
 - **OpenVoxProject/ezbake** – [🔖 0.2.1](https://github.com/OpenVoxProject/ezbake/tree/0.2.1)
+- **puppetlabs-toy-chest/razor-el-mk** – [🔖 release-006](https://github.com/puppetlabs-toy-chest/razor-el-mk/tree/release-006)
+- **puppetlabs-toy-chest/razor-el-mk** – [🔖 release-007](https://github.com/puppetlabs-toy-chest/razor-el-mk/tree/release-007)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_docker-1.0.1-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_docker-1.0.1-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_scap_client-0.1.0-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_scap_client-0.1.0-1)
 - **theforeman/foreman_docker** – [🔖 1.0.1](https://github.com/theforeman/foreman_docker/tree/1.0.1)
@@ -24169,6 +24764,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-r10k** – [🔖 v2.5.4](https://github.com/voxpupuli/puppet-r10k/tree/v2.5.4)
 
 ## 📅 2015-02-02
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 classroom-v1.2.5](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/classroom-v1.2.5)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 classroom-v1.2.5](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/classroom-v1.2.5)
 - **voxpupuli/puppet-elasticsearch** – [🔖 0.9.0](https://github.com/voxpupuli/puppet-elasticsearch/tree/0.9.0)
 - **voxpupuli/puppet-lint-undef_in_function-check** – [🔖 0.1.0](https://github.com/voxpupuli/puppet-lint-undef_in_function-check/tree/0.1.0)
 
@@ -24190,6 +24787,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2015-01-29
 - **OpenVoxProject/openvox-server** – [🔖 puppet-server-1.0.3](https://github.com/OpenVoxProject/openvox-server/tree/puppet-server-1.0.3)
+- **puppetlabs-toy-chest/puppetlabs-passenger** – [🔖 0.4.1](https://github.com/puppetlabs-toy-chest/puppetlabs-passenger/tree/0.4.1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_chef-0.1.1-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_chef-0.1.1-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_openscap-0.3.0-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_openscap-0.3.0-1)
 - **theforeman/puppet-staging** – [🔖 1.0.4](https://github.com/theforeman/puppet-staging/tree/1.0.4)
@@ -24210,6 +24808,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/puppet-tftp** – [🔖 1.5.0](https://github.com/theforeman/puppet-tftp/tree/1.5.0)
 
 ## 📅 2015-01-27
+- **puppetlabs-toy-chest/puppetlabs-openstack** – [🔖 5.0.2](https://github.com/puppetlabs-toy-chest/puppetlabs-openstack/tree/5.0.2)
+- **puppetlabs-toy-chest/puppetlabs-passenger** – [🔖 0.4.0](https://github.com/puppetlabs-toy-chest/puppetlabs-passenger/tree/0.4.0)
+- **puppetlabs-toy-chest/puppetlabs-tftp** – [🔖 0.2.3](https://github.com/puppetlabs-toy-chest/puppetlabs-tftp/tree/0.2.3)
 - **theforeman/foreman** – [🔖 1.7.2](https://github.com/theforeman/foreman/tree/1.7.2)
 - **theforeman/foreman-installer** – [🔖 1.7.2](https://github.com/theforeman/foreman-installer/tree/1.7.2)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.7.2-1](https://github.com/theforeman/foreman-packaging/tree/foreman-1.7.2-1)
@@ -24226,6 +24827,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2015-01-26
 - **OpenVoxProject/openvox** – [🔖 3.7.4](https://github.com/OpenVoxProject/openvox/tree/3.7.4)
 - **OpenVoxProject/openvox-agent** – [🔖 0.2.0](https://github.com/OpenVoxProject/openvox-agent/tree/0.2.0)
+- **puppetlabs-toy-chest/telly** – [🔖 0.1.1](https://github.com/puppetlabs-toy-chest/telly/tree/0.1.1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-scaptimony-0.3.0-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-scaptimony-0.3.0-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-staypuft-0.5.16-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-staypuft-0.5.16-1)
 - **theforeman/staypuft** – [🔖 v0.5.17](https://github.com/theforeman/staypuft/tree/v0.5.17)
@@ -24258,6 +24860,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/foreman-packaging** – [🔖 rubygem-staypuft-0.5.14-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-staypuft-0.5.14-1)
 
 ## 📅 2015-01-21
+- **puppetlabs-toy-chest/trapperkeeper-rpc** – [🔖 trapperkeeper-rpc-0.1.0](https://github.com/puppetlabs-toy-chest/trapperkeeper-rpc/tree/trapperkeeper-rpc-0.1.0)
+- **puppetlabs-toy-chest/trapperkeeper-rpc** – [🔖 trapperkeeper-rpc-0.1.1](https://github.com/puppetlabs-toy-chest/trapperkeeper-rpc/tree/trapperkeeper-rpc-0.1.1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_discovery-2.0.0-0.1.rc1](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_discovery-2.0.0-0.1.rc1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-staypuft-0.5.13-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-staypuft-0.5.13-1)
 - **theforeman/puppet-nodejs** – [🔖 0.7.0](https://github.com/theforeman/puppet-nodejs/tree/0.7.0)
@@ -24270,6 +24874,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-zypprepo** – [🔖 v1.0.2](https://github.com/voxpupuli/puppet-zypprepo/tree/v1.0.2)
 
 ## 📅 2015-01-20
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 classroom-v1.2.4](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/classroom-v1.2.4)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 classroom-v1.2.4](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/classroom-v1.2.4)
 - **theforeman/foreman_discovery** – [🔖 2.0.0.rc1](https://github.com/theforeman/foreman_discovery/tree/2.0.0.rc1)
 - **theforeman/foreman_scap_client** – [🔖 v0.0.1](https://github.com/theforeman/foreman_scap_client/tree/v0.0.1)
 - **theforeman/hammer-cli-foreman** – [🔖 rubygem-hammer_cli_foreman-0.1.4.1-1](https://github.com/theforeman/hammer-cli-foreman/tree/rubygem-hammer_cli_foreman-0.1.4.1-1)
@@ -24278,6 +24884,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/vagrant-librarian-puppet** – [🔖 v0.8.0](https://github.com/voxpupuli/vagrant-librarian-puppet/tree/v0.8.0)
 
 ## 📅 2015-01-19
+- **puppetlabs-toy-chest/geppetto** – [🔖 geppetto-4.3.1](https://github.com/puppetlabs-toy-chest/geppetto/tree/geppetto-4.3.1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-rack-jsonp-1.3.1-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-rack-jsonp-1.3.1-1)
 - **voxpupuli/puppet-augeas** – [🔖 1.1.6](https://github.com/voxpupuli/puppet-augeas/tree/1.1.6)
 - **voxpupuli/puppet-keepalived** – [🔖 1.1.0](https://github.com/voxpupuli/puppet-keepalived/tree/1.1.0)
@@ -24316,6 +24923,10 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2015-01-14
 - **OpenVoxProject/openvox-server** – [🔖 puppet-server-1.0.1](https://github.com/OpenVoxProject/openvox-server/tree/puppet-server-1.0.1)
 - **OpenVoxProject/openvox-server** – [🔖 puppet-server-1.0.2](https://github.com/OpenVoxProject/openvox-server/tree/puppet-server-1.0.2)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 userprefs-v1.0.2](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/userprefs-v1.0.2)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 userprefs-v1.0.2](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/userprefs-v1.0.2)
+- **puppetlabs-toy-chest/puppetlabs-openstack** – [🔖 5.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-openstack/tree/5.0.0)
+- **puppetlabs-toy-chest/puppetlabs-openstack** – [🔖 5.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-openstack/tree/5.0.1)
 - **theforeman/foreman-discovery-image** – [🔖 2.1.0](https://github.com/theforeman/foreman-discovery-image/tree/2.1.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_chef-0.1.0-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_chef-0.1.0-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_graphite-0.0.2-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_graphite-0.0.2-1)
@@ -24334,6 +24945,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2015-01-13
 - **OpenVoxProject/ezbake** – [🔖 0.1.0](https://github.com/OpenVoxProject/ezbake/tree/0.1.0)
+- **puppetlabs-toy-chest/razor-server** – [🔖 0.16.1](https://github.com/puppetlabs-toy-chest/razor-server/tree/0.16.1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-bastion-0.1.13-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-bastion-0.1.13-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-docker-api-1.17.0-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-docker-api-1.17.0-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_docker-1.0.0-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_docker-1.0.0-1)
@@ -24416,6 +25028,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2015-01-05
 - **OpenVoxProject/openvox-agent** – [🔖 0.1.3](https://github.com/OpenVoxProject/openvox-agent/tree/0.1.3)
+- **puppetlabs-toy-chest/razor-client** – [🔖 0.16.0](https://github.com/puppetlabs-toy-chest/razor-client/tree/0.16.0)
+- **puppetlabs-toy-chest/razor-server** – [🔖 0.16.0](https://github.com/puppetlabs-toy-chest/razor-server/tree/0.16.0)
 - **voxpupuli/puppet-googleauthenticator** – [🔖 1.0.3](https://github.com/voxpupuli/puppet-googleauthenticator/tree/1.0.3)
 - **voxpupuli/puppet-keepalived** – [🔖 1.0.4](https://github.com/voxpupuli/puppet-keepalived/tree/1.0.4)
 - **voxpupuli/puppet-openldap** – [🔖 1.2.2](https://github.com/voxpupuli/puppet-openldap/tree/1.2.2)
@@ -24584,6 +25198,10 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-augeasproviders_nagios** – [🔖 2.0.1](https://github.com/voxpupuli/puppet-augeasproviders_nagios/tree/2.0.1)
 
 ## 📅 2014-12-09
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 classroom-v1.2.3](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/classroom-v1.2.3)
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 userprefs-v1.0.1](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/userprefs-v1.0.1)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 classroom-v1.2.3](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/classroom-v1.2.3)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 userprefs-v1.0.1](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/userprefs-v1.0.1)
 - **theforeman/foreman-installer-staypuft** – [🔖 foreman-installer-staypuft-0.5.2-1](https://github.com/theforeman/foreman-installer-staypuft/tree/foreman-installer-staypuft-0.5.2-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-bastion-0.1.12-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-bastion-0.1.12-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-staypuft-0.5.3-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-staypuft-0.5.3-1)
@@ -24635,6 +25253,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-epel** – [🔖 1.0.1](https://github.com/voxpupuli/puppet-epel/tree/1.0.1)
 
 ## 📅 2014-12-03
+- **puppetlabs-toy-chest/puppetlabs-policy_engine** – [🔖 0.0.2](https://github.com/puppetlabs-toy-chest/puppetlabs-policy_engine/tree/0.0.2)
 - **theforeman/staypuft** – [🔖 v0.5.2](https://github.com/theforeman/staypuft/tree/v0.5.2)
 - **voxpupuli/json-schema** – [🔖 v2.5.0](https://github.com/voxpupuli/json-schema/tree/v2.5.0)
 - **voxpupuli/puppet-blacksmith** – [🔖 v3.1.0](https://github.com/voxpupuli/puppet-blacksmith/tree/v3.1.0)
@@ -24645,6 +25264,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/r10k** – [🔖 1.4.0](https://github.com/voxpupuli/r10k/tree/1.4.0)
 
 ## 📅 2014-12-02
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 classroom-v1.2.2](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/classroom-v1.2.2)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 classroom-v1.2.2](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/classroom-v1.2.2)
 - **theforeman/foreman** – [🔖 1.7.0](https://github.com/theforeman/foreman/tree/1.7.0)
 - **theforeman/foreman** – [🔖 foreman-1.7.0-1](https://github.com/theforeman/foreman/tree/foreman-1.7.0-1)
 - **theforeman/foreman-installer** – [🔖 1.7.0](https://github.com/theforeman/foreman-installer/tree/1.7.0)
@@ -24663,6 +25284,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-python** – [🔖 1.8.1](https://github.com/voxpupuli/puppet-python/tree/1.8.1)
 
 ## 📅 2014-12-01
+- **puppetlabs-toy-chest/pltraining-classroom** – [🔖 classroom-v1.2.1](https://github.com/puppetlabs-toy-chest/pltraining-classroom/tree/classroom-v1.2.1)
+- **puppetlabs-toy-chest/pltraining-classroom_legacy** – [🔖 classroom-v1.2.1](https://github.com/puppetlabs-toy-chest/pltraining-classroom_legacy/tree/classroom-v1.2.1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-bastion-0.1.10-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-bastion-0.1.10-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreigner-1.7.0-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreigner-1.7.0-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-ovirt_provision_plugin-1.0.1-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-ovirt_provision_plugin-1.0.1-1)
@@ -24682,6 +25305,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2014-11-26
 - **OpenVoxProject/openvox-server** – [🔖 puppet-server-0.4.1](https://github.com/OpenVoxProject/openvox-server/tree/puppet-server-0.4.1)
+- **puppetlabs-toy-chest/puppetlabs-policy_engine** – [🔖 0.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-policy_engine/tree/0.0.1)
 - **theforeman/foreman-installer-staypuft** – [🔖 foreman-installer-staypuft-0.5.1-1](https://github.com/theforeman/foreman-installer-staypuft/tree/foreman-installer-staypuft-0.5.1-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-fog-1.25.0-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-fog-1.25.0-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-fog-core-1.25.0-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-fog-core-1.25.0-1)
@@ -24728,6 +25352,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-r10k** – [🔖 v2.4.3](https://github.com/voxpupuli/puppet-r10k/tree/v2.4.3)
 
 ## 📅 2014-11-21
+- **puppetlabs-toy-chest/puppetlabs-activemq** – [🔖 0.4.0](https://github.com/puppetlabs-toy-chest/puppetlabs-activemq/tree/0.4.0)
+- **puppetlabs-toy-chest/puppetlabs-dism** – [🔖 1.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-dism/tree/1.1.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_xen-0.0.4.1-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_xen-0.0.4.1-1)
 - **voxpupuli/puppet-hiera** – [🔖 1.1.1](https://github.com/voxpupuli/puppet-hiera/tree/1.1.1)
 - **voxpupuli/puppet-keepalived** – [🔖 1.0.2](https://github.com/voxpupuli/puppet-keepalived/tree/1.0.2)
@@ -24753,6 +25379,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2014-11-19
 - **OpenVoxProject/trapperkeeper** – [🔖 trapperkeeper-1.0.0](https://github.com/OpenVoxProject/trapperkeeper/tree/trapperkeeper-1.0.0)
+- **puppetlabs-toy-chest/trapperkeeper-lein-template** – [🔖 trapperkeeper-lein-template-1.0.0](https://github.com/puppetlabs-toy-chest/trapperkeeper-lein-template/tree/trapperkeeper-lein-template-1.0.0)
 - **theforeman/foreman-installer-staypuft** – [🔖 foreman-installer-staypuft-0.5.0-2](https://github.com/theforeman/foreman-installer-staypuft/tree/foreman-installer-staypuft-0.5.0-2)
 - **theforeman/foreman-packaging** – [🔖 rubygem-fog-1.24.0-2](https://github.com/theforeman/foreman-packaging/tree/rubygem-fog-1.24.0-2)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_salt-1.1.0-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_salt-1.1.0-1)
@@ -24767,6 +25394,8 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2014-11-18
 - **OpenVoxProject/clj-kitchensink** – [🔖 kitchensink-0.7.3](https://github.com/OpenVoxProject/clj-kitchensink/tree/kitchensink-0.7.3)
 - **OpenVoxProject/clj-kitchensink** – [🔖 kitchensink-1.0.0](https://github.com/OpenVoxProject/clj-kitchensink/tree/kitchensink-1.0.0)
+- **puppetlabs-toy-chest/puppetlabs-git** – [🔖 0.3.0](https://github.com/puppetlabs-toy-chest/puppetlabs-git/tree/0.3.0)
+- **puppetlabs-toy-chest/puppetlabs-ruby** – [🔖 0.4.0](https://github.com/puppetlabs-toy-chest/puppetlabs-ruby/tree/0.4.0)
 - **theforeman/fog** – [🔖 v1.25.0](https://github.com/theforeman/fog/tree/v1.25.0)
 - **theforeman/foreman** – [🔖 1.6.3](https://github.com/theforeman/foreman/tree/1.6.3)
 - **theforeman/foreman-installer** – [🔖 1.6.3](https://github.com/theforeman/foreman-installer/tree/1.6.3)
@@ -24964,6 +25593,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-dnsquery** – [🔖 2.0.0](https://github.com/voxpupuli/puppet-dnsquery/tree/2.0.0)
 
 ## 📅 2014-10-22
+- **puppetlabs-toy-chest/puppetlabs-openstack** – [🔖 4.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-openstack/tree/4.2.0)
 - **theforeman/foreman-discovery-image** – [🔖 1.9.90](https://github.com/theforeman/foreman-discovery-image/tree/1.9.90)
 - **theforeman/foreman-packaging** – [🔖 rubygem-bastion-0.1.5-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-bastion-0.1.5-1)
 - **voxpupuli/puppet-python** – [🔖 1.7.13](https://github.com/voxpupuli/puppet-python/tree/1.7.13)
@@ -25105,6 +25735,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/staypuft** – [🔖 v0.4.1](https://github.com/theforeman/staypuft/tree/v0.4.1)
 
 ## 📅 2014-10-07
+- **puppetlabs-toy-chest/trapperkeeper-lein-template** – [🔖 0.1.2](https://github.com/puppetlabs-toy-chest/trapperkeeper-lein-template/tree/0.1.2)
 - **theforeman/foreman** – [🔖 1.6.1](https://github.com/theforeman/foreman/tree/1.6.1)
 - **theforeman/foreman-packaging** – [🔖 foreman-1.6.1-1](https://github.com/theforeman/foreman-packaging/tree/foreman-1.6.1-1)
 - **theforeman/foreman-packaging** – [🔖 foreman-proxy-1.6.1-1](https://github.com/theforeman/foreman-packaging/tree/foreman-proxy-1.6.1-1)
@@ -25147,6 +25778,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-archive** – [🔖 0.1.1](https://github.com/voxpupuli/puppet-archive/tree/0.1.1)
 
 ## 📅 2014-09-30
+- **puppetlabs-toy-chest/puppetlabs-gce_compute** – [🔖 0.5.0](https://github.com/puppetlabs-toy-chest/puppetlabs-gce_compute/tree/0.5.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_abrt-0.0.3-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_abrt-0.0.3-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-smart_proxy_abrt-0.0.3-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-smart_proxy_abrt-0.0.3-1)
 - **theforeman/foreman_abrt** – [🔖 0.0.3](https://github.com/theforeman/foreman_abrt/tree/0.0.3)
@@ -25204,6 +25836,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2014-09-19
 - **OpenVoxProject/openvox-server** – [🔖 puppet-server-0.2.0](https://github.com/OpenVoxProject/openvox-server/tree/puppet-server-0.2.0)
+- **puppetlabs-toy-chest/puppetlabs-dsc** – [🔖 v0.1.1](https://github.com/puppetlabs-toy-chest/puppetlabs-dsc/tree/v0.1.1)
 - **theforeman/foreman-installer-staypuft** – [🔖 foreman-installer-staypuft-0.4.0-1](https://github.com/theforeman/foreman-installer-staypuft/tree/foreman-installer-staypuft-0.4.0-1)
 - **theforeman/staypuft** – [🔖 v0.3.7](https://github.com/theforeman/staypuft/tree/v0.3.7)
 - **voxpupuli/beaker** – [🔖 beaker1.19.0](https://github.com/voxpupuli/beaker/tree/beaker1.19.0)
@@ -25212,6 +25845,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/rundeck** – [🔖 v2.2.2](https://github.com/voxpupuli/rundeck/tree/v2.2.2)
 
 ## 📅 2014-09-18
+- **puppetlabs-toy-chest/geppetto** – [🔖 geppetto-4.3.0](https://github.com/puppetlabs-toy-chest/geppetto/tree/geppetto-4.3.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-apipie-bindings-0.0.10-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-apipie-bindings-0.0.10-1)
 - **voxpupuli/beaker** – [🔖 beaker1.18.0](https://github.com/voxpupuli/beaker/tree/beaker1.18.0)
 - **voxpupuli/puppet-blacksmith** – [🔖 v3.0.0](https://github.com/voxpupuli/puppet-blacksmith/tree/v3.0.0)
@@ -25224,10 +25858,12 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-archive** – [🔖 0.0.2](https://github.com/voxpupuli/puppet-archive/tree/0.0.2)
 
 ## 📅 2014-09-16
+- **puppetlabs-toy-chest/puppetlabs-ruby** – [🔖 0.3.0](https://github.com/puppetlabs-toy-chest/puppetlabs-ruby/tree/0.3.0)
 - **theforeman/staypuft** – [🔖 v0.3.5](https://github.com/theforeman/staypuft/tree/v0.3.5)
 - **voxpupuli/puppet-openvoxdb** – [🔖 4.0.0](https://github.com/voxpupuli/puppet-openvoxdb/tree/4.0.0)
 
 ## 📅 2014-09-15
+- **puppetlabs-toy-chest/puppetlabs-dsc** – [🔖 v0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-dsc/tree/v0.1.0)
 - **theforeman/foreman-installer-staypuft** – [🔖 foreman-installer-staypuft-0.3.5-1](https://github.com/theforeman/foreman-installer-staypuft/tree/foreman-installer-staypuft-0.3.5-1)
 - **voxpupuli/puppet-monit** – [🔖 v0.1.1](https://github.com/voxpupuli/puppet-monit/tree/v0.1.1)
 - **voxpupuli/puppet-prosody** – [🔖 0.2.0](https://github.com/voxpupuli/puppet-prosody/tree/0.2.0)
@@ -25289,6 +25925,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-openldap** – [🔖 0.5.1](https://github.com/voxpupuli/puppet-openldap/tree/0.5.1)
 
 ## 📅 2014-09-04
+- **puppetlabs-toy-chest/puppetlabs-cloud_provisioner** – [🔖 1.1.7](https://github.com/puppetlabs-toy-chest/puppetlabs-cloud_provisioner/tree/1.1.7)
 - **theforeman/foreman** – [🔖 1.5.3](https://github.com/theforeman/foreman/tree/1.5.3)
 - **theforeman/foreman-installer-staypuft** – [🔖 foreman-installer-staypuft-0.3.4-1](https://github.com/theforeman/foreman-installer-staypuft/tree/foreman-installer-staypuft-0.3.4-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-staypuft-0.3.1-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-staypuft-0.3.1-1)
@@ -25401,6 +26038,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2014-08-20
 - **OpenVoxProject/openvox-server** – [🔖 puppet-server-0.1.7](https://github.com/OpenVoxProject/openvox-server/tree/puppet-server-0.1.7)
+- **puppetlabs-toy-chest/puppetlabs-stunnel** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-stunnel/tree/0.1.0)
+- **puppetlabs-toy-chest/puppetlabs-tftp** – [🔖 0.2.2](https://github.com/puppetlabs-toy-chest/puppetlabs-tftp/tree/0.2.2)
 - **theforeman/foreman-installer-staypuft** – [🔖 foreman-installer-staypuft-0.3.0-1](https://github.com/theforeman/foreman-installer-staypuft/tree/foreman-installer-staypuft-0.3.0-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-foreman_bootdisk-3.1.1-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-foreman_bootdisk-3.1.1-1)
 - **theforeman/foreman_bootdisk** – [🔖 v3.1.1](https://github.com/theforeman/foreman_bootdisk/tree/v3.1.1)
@@ -25420,6 +26059,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/librarian-puppet** – [🔖 v1.3.2](https://github.com/voxpupuli/librarian-puppet/tree/v1.3.2)
 - **voxpupuli/puppet-rvm** – [🔖 v1.6.3](https://github.com/voxpupuli/puppet-rvm/tree/v1.6.3)
 - **voxpupuli/puppet-wget** – [🔖 v1.5.1](https://github.com/voxpupuli/puppet-wget/tree/v1.5.1)
+
+## 📅 2014-08-17
+- **puppetlabs-toy-chest/geppetto** – [🔖 geppetto-4.2.1](https://github.com/puppetlabs-toy-chest/geppetto/tree/geppetto-4.2.1)
 
 ## 📅 2014-08-15
 - **theforeman/foreman_abrt** – [🔖 0.0.1](https://github.com/theforeman/foreman_abrt/tree/0.0.1)
@@ -25500,6 +26142,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/staypuft** – [🔖 v0.2.2](https://github.com/theforeman/staypuft/tree/v0.2.2)
 
 ## 📅 2014-08-07
+- **puppetlabs-toy-chest/puppetlabs-dism** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-dism/tree/1.0.0)
 - **theforeman/foreman-installer-staypuft** – [🔖 foreman-installer-staypuft-0.1.8-1](https://github.com/theforeman/foreman-installer-staypuft/tree/foreman-installer-staypuft-0.1.8-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-smart_proxy_pulp-1.0.1-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-smart_proxy_pulp-1.0.1-1)
 - **theforeman/staypuft** – [🔖 v0.2.1](https://github.com/theforeman/staypuft/tree/v0.2.1)
@@ -25564,6 +26207,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2014-07-25
 - **OpenVoxProject/trapperkeeper** – [🔖 trapperkeeper-0.4.3](https://github.com/OpenVoxProject/trapperkeeper/tree/trapperkeeper-0.4.3)
+- **puppetlabs-toy-chest/geppetto** – [🔖 geppetto-4.2.0](https://github.com/puppetlabs-toy-chest/geppetto/tree/geppetto-4.2.0)
 - **theforeman/foreman-installer-staypuft** – [🔖 foreman-installer-staypuft-0.1.7-1](https://github.com/theforeman/foreman-installer-staypuft/tree/foreman-installer-staypuft-0.1.7-1)
 - **theforeman/puppet-foreman_scap_client** – [🔖 0.3.0](https://github.com/theforeman/puppet-foreman_scap_client/tree/0.3.0)
 - **theforeman/puppet-foreman_scap_client** – [🔖 0.3.1](https://github.com/theforeman/puppet-foreman_scap_client/tree/0.3.1)
@@ -25586,6 +26230,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-wget** – [🔖 v1.4.5](https://github.com/voxpupuli/puppet-wget/tree/v1.4.5)
 
 ## 📅 2014-07-22
+- **puppetlabs-toy-chest/puppetdb-javaclient** – [🔖 com.puppetlabs.puppetdb.javaclient-0.1.6](https://github.com/puppetlabs-toy-chest/puppetdb-javaclient/tree/com.puppetlabs.puppetdb.javaclient-0.1.6)
 - **theforeman/foreman-installer-staypuft** – [🔖 foreman-installer-staypuft-0.1.4-1](https://github.com/theforeman/foreman-installer-staypuft/tree/foreman-installer-staypuft-0.1.4-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-excon-0.38.0-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-excon-0.38.0-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-fog-1.23.0-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-fog-1.23.0-1)
@@ -25629,6 +26274,10 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/r10k** – [🔖 1.3.1](https://github.com/voxpupuli/r10k/tree/1.3.1)
 
 ## 📅 2014-07-15
+- **puppetlabs-toy-chest/puppetlabs-activemq** – [🔖 0.3.1](https://github.com/puppetlabs-toy-chest/puppetlabs-activemq/tree/0.3.1)
+- **puppetlabs-toy-chest/puppetlabs-dism** – [🔖 0.2.1](https://github.com/puppetlabs-toy-chest/puppetlabs-dism/tree/0.2.1)
+- **puppetlabs-toy-chest/puppetlabs-git** – [🔖 0.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-git/tree/0.2.0)
+- **puppetlabs-toy-chest/puppetlabs-ruby** – [🔖 0.2.1](https://github.com/puppetlabs-toy-chest/puppetlabs-ruby/tree/0.2.1)
 - **theforeman/hammer-cli-foreman** – [🔖 rubygem-hammer_cli_foreman-0.1.1-12](https://github.com/theforeman/hammer-cli-foreman/tree/rubygem-hammer_cli_foreman-0.1.1-12)
 - **theforeman/puppet-nodejs** – [🔖 0.6.1](https://github.com/theforeman/puppet-nodejs/tree/0.6.1)
 - **theforeman/puppet-squid3** – [🔖 0.2.3](https://github.com/theforeman/puppet-squid3/tree/0.2.3)
@@ -25673,11 +26322,14 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-r10k** – [🔖 v2.2.4](https://github.com/voxpupuli/puppet-r10k/tree/v2.2.4)
 
 ## 📅 2014-07-04
+- **puppetlabs-toy-chest/puppetlabs-passenger** – [🔖 0.3.0](https://github.com/puppetlabs-toy-chest/puppetlabs-passenger/tree/0.3.0)
+- **puppetlabs-toy-chest/puppetlabs-ruby** – [🔖 0.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-ruby/tree/0.2.0)
 - **voxpupuli/beaker** – [🔖 beaker1.14.1](https://github.com/voxpupuli/beaker/tree/beaker1.14.1)
 - **voxpupuli/puppet-grafana** – [🔖 v0.1.3](https://github.com/voxpupuli/puppet-grafana/tree/v0.1.3)
 - **voxpupuli/puppet-openssl** – [🔖 0.3.1](https://github.com/voxpupuli/puppet-openssl/tree/0.3.1)
 
 ## 📅 2014-07-03
+- **puppetlabs-toy-chest/trapperkeeper-lein-template** – [🔖 0.1.1](https://github.com/puppetlabs-toy-chest/trapperkeeper-lein-template/tree/0.1.1)
 - **theforeman/foreman-installer-staypuft** – [🔖 foreman-installer-staypuft-0.1.0-1](https://github.com/theforeman/foreman-installer-staypuft/tree/foreman-installer-staypuft-0.1.0-1)
 - **theforeman/puppetlabs-postgresql** – [🔖 3.4.0](https://github.com/theforeman/puppetlabs-postgresql/tree/3.4.0)
 - **theforeman/staypuft** – [🔖 v0.1.6](https://github.com/theforeman/staypuft/tree/v0.1.6)
@@ -25723,6 +26375,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/staypuft** – [🔖 v0.1.5](https://github.com/theforeman/staypuft/tree/v0.1.5)
 
 ## 📅 2014-06-25
+- **puppetlabs-toy-chest/puppetlabs-git** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-git/tree/0.1.0)
 - **theforeman/foreman-installer-staypuft** – [🔖 foreman-installer-staypuft-0.0.24-1](https://github.com/theforeman/foreman-installer-staypuft/tree/foreman-installer-staypuft-0.0.24-1)
 - **theforeman/foreman-installer-staypuft** – [🔖 foreman-installer-staypuft-0.0.25-1](https://github.com/theforeman/foreman-installer-staypuft/tree/foreman-installer-staypuft-0.0.25-1)
 - **voxpupuli/librarian-puppet** – [🔖 v1.0.4](https://github.com/voxpupuli/librarian-puppet/tree/v1.0.4)
@@ -25754,6 +26407,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-dnsquery** – [🔖 0.1.1](https://github.com/voxpupuli/puppet-dnsquery/tree/0.1.1)
 
 ## 📅 2014-06-18
+- **puppetlabs-toy-chest/mcollective-package-agent** – [🔖 4.3.1](https://github.com/puppetlabs-toy-chest/mcollective-package-agent/tree/4.3.1)
+- **puppetlabs-toy-chest/puppetlabs-dism** – [🔖 0.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-dism/tree/0.2.0)
 - **theforeman/foreman** – [🔖 1.4.5](https://github.com/theforeman/foreman/tree/1.4.5)
 - **theforeman/foreman** – [🔖 1.5.1](https://github.com/theforeman/foreman/tree/1.5.1)
 - **theforeman/puppet-nodejs** – [🔖 0.6.0](https://github.com/theforeman/puppet-nodejs/tree/0.6.0)
@@ -25780,6 +26435,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/staypuft** – [🔖 v0.1.3](https://github.com/theforeman/staypuft/tree/v0.1.3)
 - **voxpupuli/puppet-keepalived** – [🔖 0.0.14](https://github.com/voxpupuli/puppet-keepalived/tree/0.0.14)
 - **voxpupuli/puppet-openldap** – [🔖 0.3.0](https://github.com/voxpupuli/puppet-openldap/tree/0.3.0)
+
+## 📅 2014-06-14
+- **puppetlabs-toy-chest/razor-client** – [🔖 0.15.1](https://github.com/puppetlabs-toy-chest/razor-client/tree/0.15.1)
 
 ## 📅 2014-06-13
 - **OpenVoxProject/openfact** – [🔖 1.7.6](https://github.com/OpenVoxProject/openfact/tree/1.7.6)
@@ -25876,6 +26534,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-r10k** – [🔖 v2.2.1](https://github.com/voxpupuli/puppet-r10k/tree/v2.2.1)
 
 ## 📅 2014-06-03
+- **puppetlabs-toy-chest/crossfader** – [🔖 0.11.0](https://github.com/puppetlabs-toy-chest/crossfader/tree/0.11.0)
 - **voxpupuli/puppet-blacksmith** – [🔖 v2.1.0](https://github.com/voxpupuli/puppet-blacksmith/tree/v2.1.0)
 - **voxpupuli/puppet-r10k** – [🔖 v2.0.0](https://github.com/voxpupuli/puppet-r10k/tree/v2.0.0)
 - **voxpupuli/puppet-r10k** – [🔖 v2.1.0](https://github.com/voxpupuli/puppet-r10k/tree/v2.1.0)
@@ -25995,6 +26654,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-puppetboard** – [🔖 2.4.0](https://github.com/voxpupuli/puppet-puppetboard/tree/2.4.0)
 
 ## 📅 2014-05-28
+- **puppetlabs-toy-chest/puppetlabs-activemq** – [🔖 0.3.0](https://github.com/puppetlabs-toy-chest/puppetlabs-activemq/tree/0.3.0)
+- **puppetlabs-toy-chest/razor-client** – [🔖 0.15.0](https://github.com/puppetlabs-toy-chest/razor-client/tree/0.15.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-bundler_ext-0.3.0-6](https://github.com/theforeman/foreman-packaging/tree/rubygem-bundler_ext-0.3.0-6)
 - **theforeman/hammer-cli-foreman** – [🔖 rubygem-hammer_cli_foreman-0.1.1-3](https://github.com/theforeman/hammer-cli-foreman/tree/rubygem-hammer_cli_foreman-0.1.1-3)
 - **theforeman/hammer-cli-foreman** – [🔖 rubygem-hammer_cli_foreman-0.1.1-4](https://github.com/theforeman/hammer-cli-foreman/tree/rubygem-hammer_cli_foreman-0.1.1-4)
@@ -26007,6 +26668,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2014-05-27
 - **OpenVoxProject/hiera** – [🔖 1.3.4](https://github.com/OpenVoxProject/hiera/tree/1.3.4)
 - **OpenVoxProject/openfact** – [🔖 2.0.2](https://github.com/OpenVoxProject/openfact/tree/2.0.2)
+- **puppetlabs-toy-chest/puppetlabs-gce_compute** – [🔖 0.4.0](https://github.com/puppetlabs-toy-chest/puppetlabs-gce_compute/tree/0.4.0)
 - **theforeman/foreman-packaging** – [🔖 rubygem-netrc-0.7.7-5](https://github.com/theforeman/foreman-packaging/tree/rubygem-netrc-0.7.7-5)
 - **theforeman/foreman-packaging** – [🔖 rubygem-rest-client-1.6.7-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-rest-client-1.6.7-1)
 - **theforeman/foreman-packaging** – [🔖 rubygem-rest-client-1.6.7-2](https://github.com/theforeman/foreman-packaging/tree/rubygem-rest-client-1.6.7-2)
@@ -26027,6 +26689,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2014-05-22
 - **OpenVoxProject/openvox** – [🔖 3.6.1](https://github.com/OpenVoxProject/openvox/tree/3.6.1)
+- **puppetlabs-toy-chest/razor-server** – [🔖 0.15.0](https://github.com/puppetlabs-toy-chest/razor-server/tree/0.15.0)
 - **theforeman/foreman_bootdisk** – [🔖 v2.0.7](https://github.com/theforeman/foreman_bootdisk/tree/v2.0.7)
 - **theforeman/hammer-cli-foreman** – [🔖 rubygem-hammer_cli_foreman-0.1.0-14](https://github.com/theforeman/hammer-cli-foreman/tree/rubygem-hammer_cli_foreman-0.1.0-14)
 - **theforeman/hammer-cli-foreman** – [🔖 rubygem-hammer_cli_foreman-0.1.1-1](https://github.com/theforeman/hammer-cli-foreman/tree/rubygem-hammer_cli_foreman-0.1.1-1)
@@ -26045,6 +26708,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/beaker** – [🔖 beaker1.12.0](https://github.com/voxpupuli/beaker/tree/beaker1.12.0)
 
 ## 📅 2014-05-20
+- **puppetlabs-toy-chest/razor-el-mk** – [🔖 release-005](https://github.com/puppetlabs-toy-chest/razor-el-mk/tree/release-005)
 - **theforeman/foreman-installer-staypuft** – [🔖 foreman-installer-staypuft-0.0.13-2](https://github.com/theforeman/foreman-installer-staypuft/tree/foreman-installer-staypuft-0.0.13-2)
 - **theforeman/foreman-packaging** – [🔖 rubygem-gridster-rails-0.1.5-1](https://github.com/theforeman/foreman-packaging/tree/rubygem-gridster-rails-0.1.5-1)
 - **theforeman/hammer-cli** – [🔖 0.1.1](https://github.com/theforeman/hammer-cli/tree/0.1.1)
@@ -26094,6 +26758,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-rvm** – [🔖 v1.5.6](https://github.com/voxpupuli/puppet-rvm/tree/v1.5.6)
 
 ## 📅 2014-05-12
+- **puppetlabs-toy-chest/mc0d** – [🔖 0.0.1](https://github.com/puppetlabs-toy-chest/mc0d/tree/0.0.1)
+- **puppetlabs-toy-chest/mcollective-zeromq-connector** – [🔖 0.0.1](https://github.com/puppetlabs-toy-chest/mcollective-zeromq-connector/tree/0.0.1)
+- **puppetlabs-toy-chest/puppetlabs-auth_conf** – [🔖 0.2.2](https://github.com/puppetlabs-toy-chest/puppetlabs-auth_conf/tree/0.2.2)
 - **theforeman/puppet-squid3** – [🔖 0.2.2](https://github.com/theforeman/puppet-squid3/tree/0.2.2)
 
 ## 📅 2014-05-11
@@ -26110,6 +26777,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2014-05-08
 - **OpenVoxProject/openvox-server** – [🔖 jvm-puppet-0.1.3](https://github.com/OpenVoxProject/openvox-server/tree/jvm-puppet-0.1.3)
+- **puppetlabs-toy-chest/puppetlabs-denyhosts** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-denyhosts/tree/0.1.0)
 - **theforeman/foreman** – [🔖 1.4.4](https://github.com/theforeman/foreman/tree/1.4.4)
 - **theforeman/foreman_setup** – [🔖 v2.0.4](https://github.com/theforeman/foreman_setup/tree/v2.0.4)
 - **theforeman/smart-proxy** – [🔖 1.4.4](https://github.com/theforeman/smart-proxy/tree/1.4.4)
@@ -26167,6 +26835,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2014-04-30
 - **OpenVoxProject/openvoxdb** – [🔖 2.0.0](https://github.com/OpenVoxProject/openvoxdb/tree/2.0.0)
 - **OpenVoxProject/openvoxdb** – [🔖 2.0.0-rc1](https://github.com/OpenVoxProject/openvoxdb/tree/2.0.0-rc1)
+- **puppetlabs-toy-chest/crossfader** – [🔖 0.10.0](https://github.com/puppetlabs-toy-chest/crossfader/tree/0.10.0)
 - **theforeman/foreman-installer-staypuft** – [🔖 foreman-installer-staypuft-0.0.1-0](https://github.com/theforeman/foreman-installer-staypuft/tree/foreman-installer-staypuft-0.0.1-0)
 - **theforeman/foreman-installer-staypuft** – [🔖 foreman-installer-staypuft-0.0.2-1](https://github.com/theforeman/foreman-installer-staypuft/tree/foreman-installer-staypuft-0.0.2-1)
 - **theforeman/foreman-installer-staypuft** – [🔖 foreman-installer-staypuft-0.0.3-1](https://github.com/theforeman/foreman-installer-staypuft/tree/foreman-installer-staypuft-0.0.3-1)
@@ -26196,6 +26865,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-jenkins** – [🔖 v1.1.0](https://github.com/voxpupuli/puppet-jenkins/tree/v1.1.0)
 
 ## 📅 2014-04-25
+- **puppetlabs-toy-chest/lein-ubersource** – [🔖 lein-ubersource-0.1.1](https://github.com/puppetlabs-toy-chest/lein-ubersource/tree/lein-ubersource-0.1.1)
 - **voxpupuli/puppet-nsclient** – [🔖 v1.1.0](https://github.com/voxpupuli/puppet-nsclient/tree/v1.1.0)
 - **voxpupuli/puppet-pxe** – [🔖 0.0.8](https://github.com/voxpupuli/puppet-pxe/tree/0.0.8)
 
@@ -26274,6 +26944,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/staypuft** – [🔖 v0.0.5](https://github.com/theforeman/staypuft/tree/v0.0.5)
 
 ## 📅 2014-04-08
+- **puppetlabs-toy-chest/crossfader** – [🔖 0.9.0](https://github.com/puppetlabs-toy-chest/crossfader/tree/0.9.0)
+- **puppetlabs-toy-chest/crossfader** – [🔖 0.9.1](https://github.com/puppetlabs-toy-chest/crossfader/tree/0.9.1)
 - **theforeman/kafo** – [🔖 rubygem-kafo-0.3.17-1](https://github.com/theforeman/kafo/tree/rubygem-kafo-0.3.17-1)
 - **theforeman/kafo** – [🔖 rubygem-kafo-0.5.2-1](https://github.com/theforeman/kafo/tree/rubygem-kafo-0.5.2-1)
 - **theforeman/kafo** – [🔖 v0.3.17](https://github.com/theforeman/kafo/tree/v0.3.17)
@@ -26424,6 +27096,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/kafo** – [🔖 v0.4.0](https://github.com/theforeman/kafo/tree/v0.4.0)
 
 ## 📅 2014-03-10
+- **puppetlabs-toy-chest/mcollective-package-agent** – [🔖 4.3.0](https://github.com/puppetlabs-toy-chest/mcollective-package-agent/tree/4.3.0)
 - **theforeman/foreman_setup** – [🔖 v2.0.1](https://github.com/theforeman/foreman_setup/tree/v2.0.1)
 - **theforeman/kafo_parsers** – [🔖 rubygem-kafo_parsers-0.0.1-1](https://github.com/theforeman/kafo_parsers/tree/rubygem-kafo_parsers-0.0.1-1)
 - **theforeman/kafo_parsers** – [🔖 v0.0.1](https://github.com/theforeman/kafo_parsers/tree/v0.0.1)
@@ -26445,6 +27118,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-rvm** – [🔖 v1.4.4](https://github.com/voxpupuli/puppet-rvm/tree/v1.4.4)
 
 ## 📅 2014-03-04
+- **puppetlabs-toy-chest/geppetto** – [🔖 parent-4.1.1](https://github.com/puppetlabs-toy-chest/geppetto/tree/parent-4.1.1)
 - **theforeman/puppetlabs-apache** – [🔖 1.0.1](https://github.com/theforeman/puppetlabs-apache/tree/1.0.1)
 - **theforeman/puppetlabs-mysql** – [🔖 2.2.3](https://github.com/theforeman/puppetlabs-mysql/tree/2.2.3)
 - **theforeman/puppetlabs-postgresql** – [🔖 3.3.3](https://github.com/theforeman/puppetlabs-postgresql/tree/3.3.3)
@@ -26506,6 +27180,8 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2014-02-19
 - **OpenVoxProject/hiera** – [🔖 1.3.2-rc2](https://github.com/OpenVoxProject/hiera/tree/1.3.2-rc2)
 - **OpenVoxProject/trapperkeeper** – [🔖 trapperkeeper-0.3.3](https://github.com/OpenVoxProject/trapperkeeper/tree/trapperkeeper-0.3.3)
+- **puppetlabs-toy-chest/geppetto** – [🔖 parent-4.1.0](https://github.com/puppetlabs-toy-chest/geppetto/tree/parent-4.1.0)
+- **puppetlabs-toy-chest/trapperkeeper-webserver-jetty7** – [🔖 trapperkeeper-webserver-jetty7-0.3.3](https://github.com/puppetlabs-toy-chest/trapperkeeper-webserver-jetty7/tree/trapperkeeper-webserver-jetty7-0.3.3)
 - **theforeman/fog** – [🔖 fog-brightbox_v0.0.1](https://github.com/theforeman/fog/tree/fog-brightbox_v0.0.1)
 - **theforeman/foreman-installer** – [🔖 1.4.1](https://github.com/theforeman/foreman-installer/tree/1.4.1)
 - **theforeman/puppetlabs-mysql** – [🔖 2.2.1](https://github.com/theforeman/puppetlabs-mysql/tree/2.2.1)
@@ -26523,6 +27199,9 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2014-02-17
 - **theforeman/kafo** – [🔖 rubygem-kafo-0.3.14-1](https://github.com/theforeman/kafo/tree/rubygem-kafo-0.3.14-1)
 - **theforeman/kafo** – [🔖 v0.3.14](https://github.com/theforeman/kafo/tree/v0.3.14)
+
+## 📅 2014-02-15
+- **puppetlabs-toy-chest/geppetto** – [🔖 4.1.0](https://github.com/puppetlabs-toy-chest/geppetto/tree/4.1.0)
 
 ## 📅 2014-02-14
 - **theforeman/foreman_hooks** – [🔖 v0.3.6](https://github.com/theforeman/foreman_hooks/tree/v0.3.6)
@@ -26578,6 +27257,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/packaging** – [🔖 0.2.1](https://github.com/OpenVoxProject/packaging/tree/0.2.1)
 - **OpenVoxProject/trapperkeeper** – [🔖 trapperkeeper-0.3.1](https://github.com/OpenVoxProject/trapperkeeper/tree/trapperkeeper-0.3.1)
 - **OpenVoxProject/trapperkeeper** – [🔖 trapperkeeper-0.3.2](https://github.com/OpenVoxProject/trapperkeeper/tree/trapperkeeper-0.3.2)
+- **puppetlabs-toy-chest/razor-server** – [🔖 0.14.1](https://github.com/puppetlabs-toy-chest/razor-server/tree/0.14.1)
+- **puppetlabs-toy-chest/trapperkeeper-webserver-jetty7** – [🔖 trapperkeeper-webserver-jetty7-0.3.2](https://github.com/puppetlabs-toy-chest/trapperkeeper-webserver-jetty7/tree/trapperkeeper-webserver-jetty7-0.3.2)
 
 ## 📅 2014-02-03
 - **OpenVoxProject/openfact** – [🔖 1.7.5-rc2](https://github.com/OpenVoxProject/openfact/tree/1.7.5-rc2)
@@ -26585,6 +27266,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/foreman_dhcp_browser** – [🔖 0.0.4](https://github.com/theforeman/foreman_dhcp_browser/tree/0.0.4)
 
 ## 📅 2014-01-31
+- **puppetlabs-toy-chest/mq** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/mq/tree/0.1.0)
+- **puppetlabs-toy-chest/razor-client** – [🔖 release-0.14.0](https://github.com/puppetlabs-toy-chest/razor-client/tree/release-0.14.0)
+- **puppetlabs-toy-chest/razor-server** – [🔖 0.14.0](https://github.com/puppetlabs-toy-chest/razor-server/tree/0.14.0)
 - **voxpupuli/beaker** – [🔖 beaker1.6.1](https://github.com/voxpupuli/beaker/tree/beaker1.6.1)
 - **voxpupuli/beaker** – [🔖 beaker1.6.2](https://github.com/voxpupuli/beaker/tree/beaker1.6.2)
 - **voxpupuli/puppet-logstash** – [🔖 0.4.2](https://github.com/voxpupuli/puppet-logstash/tree/0.4.2)
@@ -26593,6 +27277,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2014-01-30
 - **voxpupuli/puppet-mongodb** – [Release 0.7.0](https://github.com/voxpupuli/puppet-mongodb/releases/tag/0.7.0)
+- **puppetlabs-toy-chest/razor-el-mk** – [🔖 release-004](https://github.com/puppetlabs-toy-chest/razor-el-mk/tree/release-004)
 - **theforeman/foreman_discovery** – [🔖 1.2.0](https://github.com/theforeman/foreman_discovery/tree/1.2.0)
 - **theforeman/foreman_setup** – [🔖 v1.0.4](https://github.com/theforeman/foreman_setup/tree/v1.0.4)
 - **theforeman/foreman_templates** – [🔖 1.4.0](https://github.com/theforeman/foreman_templates/tree/1.4.0)
@@ -26617,6 +27302,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/beaker-rspec** – [🔖 beaker-rspec2.1.0](https://github.com/voxpupuli/beaker-rspec/tree/beaker-rspec2.1.0)
 
 ## 📅 2014-01-28
+- **puppetlabs-toy-chest/mcollective-package-agent** – [🔖 4.2.2](https://github.com/puppetlabs-toy-chest/mcollective-package-agent/tree/4.2.2)
 - **theforeman/foreman_setup** – [🔖 v1.0.3](https://github.com/theforeman/foreman_setup/tree/v1.0.3)
 - **theforeman/kafo** – [🔖 rubygem-kafo-0.3.10-1](https://github.com/theforeman/kafo/tree/rubygem-kafo-0.3.10-1)
 - **theforeman/kafo** – [🔖 rubygem-kafo-0.3.9-1](https://github.com/theforeman/kafo/tree/rubygem-kafo-0.3.9-1)
@@ -26660,6 +27346,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-puppetboard** – [🔖 1.3.0](https://github.com/voxpupuli/puppet-puppetboard/tree/1.3.0)
 
 ## 📅 2014-01-22
+- **puppetlabs-toy-chest/razor-client** – [🔖 release-0.13.0](https://github.com/puppetlabs-toy-chest/razor-client/tree/release-0.13.0)
+- **puppetlabs-toy-chest/razor-server** – [🔖 release-0.13.0](https://github.com/puppetlabs-toy-chest/razor-server/tree/release-0.13.0)
 - **theforeman/foreman_bootdisk** – [🔖 v2.0.0](https://github.com/theforeman/foreman_bootdisk/tree/v2.0.0)
 - **theforeman/foreman_chef** – [🔖 v0.0.4](https://github.com/theforeman/foreman_chef/tree/v0.0.4)
 - **theforeman/foreman_discovery** – [🔖 1.2.0.rc1](https://github.com/theforeman/foreman_discovery/tree/1.2.0.rc1)
@@ -26723,12 +27411,14 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/json-schema** – [🔖 2.2.1](https://github.com/voxpupuli/json-schema/tree/2.2.1)
 
 ## 📅 2014-01-14
+- **puppetlabs-toy-chest/crossfader** – [🔖 0.8.3](https://github.com/puppetlabs-toy-chest/crossfader/tree/0.8.3)
 - **theforeman/kafo** – [🔖 rubygem-kafo-0.3.7-1](https://github.com/theforeman/kafo/tree/rubygem-kafo-0.3.7-1)
 - **theforeman/kafo** – [🔖 v0.3.7](https://github.com/theforeman/kafo/tree/v0.3.7)
 - **voxpupuli/puppet-rvm** – [🔖 v1.3.0](https://github.com/voxpupuli/puppet-rvm/tree/v1.3.0)
 
 ## 📅 2014-01-13
 - **OpenVoxProject/openvoxdb** – [🔖 1.6.0-rc2](https://github.com/OpenVoxProject/openvoxdb/tree/1.6.0-rc2)
+- **puppetlabs-toy-chest/puppetlabs-cloud_provisioner** – [🔖 1.1.6](https://github.com/puppetlabs-toy-chest/puppetlabs-cloud_provisioner/tree/1.1.6)
 - **voxpupuli/puppet-redis** – [🔖 0.0.7](https://github.com/voxpupuli/puppet-redis/tree/0.0.7)
 - **voxpupuli/pypuppetdb** – [🔖 v0.1.0](https://github.com/voxpupuli/pypuppetdb/tree/v0.1.0)
 
@@ -26747,6 +27437,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2014-01-09
 - **OpenVoxProject/clj-kitchensink** – [🔖 0.5.0](https://github.com/OpenVoxProject/clj-kitchensink/tree/0.5.0)
+- **puppetlabs-toy-chest/crossfader** – [🔖 0.8.2](https://github.com/puppetlabs-toy-chest/crossfader/tree/0.8.2)
 - **voxpupuli/librarian-puppet** – [🔖 maestrodev-v0.9.11.3](https://github.com/voxpupuli/librarian-puppet/tree/maestrodev-v0.9.11.3)
 - **voxpupuli/librarian-puppet** – [🔖 maestrodev-v0.9.11.4](https://github.com/voxpupuli/librarian-puppet/tree/maestrodev-v0.9.11.4)
 - **voxpupuli/rundeck** – [🔖 v2.0.0-beta1](https://github.com/voxpupuli/rundeck/tree/v2.0.0-beta1)
@@ -26754,14 +27445,17 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2014-01-08
 - **OpenVoxProject/clj-kitchensink** – [🔖 0.4.2](https://github.com/OpenVoxProject/clj-kitchensink/tree/0.4.2)
 - **OpenVoxProject/trapperkeeper** – [🔖 0.1.1](https://github.com/OpenVoxProject/trapperkeeper/tree/0.1.1)
+- **puppetlabs-toy-chest/crossfader** – [🔖 0.8.1](https://github.com/puppetlabs-toy-chest/crossfader/tree/0.8.1)
 
 ## 📅 2014-01-07
 - **OpenVoxProject/clj-kitchensink** – [🔖 0.1.1](https://github.com/OpenVoxProject/clj-kitchensink/tree/0.1.1)
+- **puppetlabs-toy-chest/crossfader** – [🔖 0.8.0](https://github.com/puppetlabs-toy-chest/crossfader/tree/0.8.0)
 
 ## 📅 2014-01-06
 - **OpenVoxProject/openvox** – [🔖 2.7.25](https://github.com/OpenVoxProject/openvox/tree/2.7.25)
 - **OpenVoxProject/openvox** – [🔖 3.4.2](https://github.com/OpenVoxProject/openvox/tree/3.4.2)
 - **OpenVoxProject/openvoxdb** – [🔖 1.6.0-rc1](https://github.com/OpenVoxProject/openvoxdb/tree/1.6.0-rc1)
+- **puppetlabs-toy-chest/mcollective-package-agent** – [🔖 4.2.1](https://github.com/puppetlabs-toy-chest/mcollective-package-agent/tree/4.2.1)
 - **voxpupuli/puppet-minecraft** – [🔖 2.0.2](https://github.com/voxpupuli/puppet-minecraft/tree/2.0.2)
 - **voxpupuli/puppet-minecraft** – [🔖 v2.0.1](https://github.com/voxpupuli/puppet-minecraft/tree/v2.0.1)
 - **voxpupuli/r10k** – [🔖 1.1.2](https://github.com/voxpupuli/r10k/tree/1.1.2)
@@ -26772,6 +27466,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/vagrant-librarian-puppet** – [🔖 v0.3.1](https://github.com/voxpupuli/vagrant-librarian-puppet/tree/v0.3.1)
 
 ## 📅 2014-01-04
+- **puppetlabs-toy-chest/razor-client** – [🔖 release-0.12.0](https://github.com/puppetlabs-toy-chest/razor-client/tree/release-0.12.0)
+- **puppetlabs-toy-chest/razor-client** – [🔖 v0.12.0](https://github.com/puppetlabs-toy-chest/razor-client/tree/v0.12.0)
+- **puppetlabs-toy-chest/razor-server** – [🔖 release-0.12.0](https://github.com/puppetlabs-toy-chest/razor-server/tree/release-0.12.0)
 - **voxpupuli/json-schema** – [🔖 2.1.8](https://github.com/voxpupuli/json-schema/tree/2.1.8)
 
 ## 📅 2014-01-03
@@ -26779,6 +27476,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/librarian-puppet** – [🔖 maestrodev-v0.9.11.2](https://github.com/voxpupuli/librarian-puppet/tree/maestrodev-v0.9.11.2)
 
 ## 📅 2014-01-02
+- **puppetlabs-toy-chest/puppetlabs-auth_conf** – [🔖 0.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-auth_conf/tree/0.2.0)
 - **voxpupuli/puppet-nginx** – [🔖 v0.0.7](https://github.com/voxpupuli/puppet-nginx/tree/v0.0.7)
 
 ## 📅 2014-01-01
@@ -26792,10 +27490,14 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/clj-kitchensink** – [🔖 0.4.1](https://github.com/OpenVoxProject/clj-kitchensink/tree/0.4.1)
 
 ## 📅 2013-12-27
+- **puppetlabs-toy-chest/crossfader** – [🔖 0.7.0](https://github.com/puppetlabs-toy-chest/crossfader/tree/0.7.0)
+- **puppetlabs-toy-chest/crossfader** – [🔖 0.7.1](https://github.com/puppetlabs-toy-chest/crossfader/tree/0.7.1)
 - **voxpupuli/puppet-minecraft** – [🔖 v2.0.0](https://github.com/voxpupuli/puppet-minecraft/tree/v2.0.0)
 
 ## 📅 2013-12-26
 - **OpenVoxProject/openvox** – [🔖 3.4.1](https://github.com/OpenVoxProject/openvox/tree/3.4.1)
+- **puppetlabs-toy-chest/crossfader** – [🔖 0.6.0](https://github.com/puppetlabs-toy-chest/crossfader/tree/0.6.0)
+- **puppetlabs-toy-chest/puppetlabs-gce_compute** – [🔖 0.3.0](https://github.com/puppetlabs-toy-chest/puppetlabs-gce_compute/tree/0.3.0)
 
 ## 📅 2013-12-23
 - **theforeman/foreman** – [🔖 1.3.2](https://github.com/theforeman/foreman/tree/1.3.2)
@@ -26828,6 +27530,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2013-12-17
 - **OpenVoxProject/openfact** – [🔖 1.7.4](https://github.com/OpenVoxProject/openfact/tree/1.7.4)
+- **puppetlabs-toy-chest/puppetlabs-razor** – [🔖 0.11.0](https://github.com/puppetlabs-toy-chest/puppetlabs-razor/tree/0.11.0)
 - **voxpupuli/r10k** – [🔖 1.1.1rc1](https://github.com/voxpupuli/r10k/tree/1.1.1rc1)
 
 ## 📅 2013-12-16
@@ -26866,6 +27569,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/beaker-rspec** – [🔖 beaker-rspec2.0.0](https://github.com/voxpupuli/beaker-rspec/tree/beaker-rspec2.0.0)
 
 ## 📅 2013-12-05
+- **puppetlabs-toy-chest/rspec-system-serverspec** – [🔖 2.0.1](https://github.com/puppetlabs-toy-chest/rspec-system-serverspec/tree/2.0.1)
 - **theforeman/hammer-cli** – [🔖 0.0.12](https://github.com/theforeman/hammer-cli/tree/0.0.12)
 - **theforeman/hammer-cli-foreman** – [🔖 0.0.12](https://github.com/theforeman/hammer-cli-foreman/tree/0.0.12)
 - **theforeman/puppetlabs-apache** – [🔖 0.10.0](https://github.com/theforeman/puppetlabs-apache/tree/0.10.0)
@@ -26874,6 +27578,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2013-12-04
 - **voxpupuli/puppet-cvmfs** – [Stratum 0 and Stratum 1 support](https://github.com/voxpupuli/puppet-cvmfs/releases/tag/puppet-cvmfs-0.1.0)
+- **puppetlabs-toy-chest/rspec-system-serverspec** – [🔖 2.0.0](https://github.com/puppetlabs-toy-chest/rspec-system-serverspec/tree/2.0.0)
 
 ## 📅 2013-12-03
 - **OpenVoxProject/clj-kitchensink** – [🔖 0.3.0](https://github.com/OpenVoxProject/clj-kitchensink/tree/0.3.0)
@@ -26893,7 +27598,12 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2013-11-29
 - **voxpupuli/puppet-download_file** – [🔖 v0.0.2](https://github.com/voxpupuli/puppet-download_file/tree/v0.0.2)
 
+## 📅 2013-11-27
+- **puppetlabs-toy-chest/puppetlabs-cloud_provisioner** – [🔖 1.1.5](https://github.com/puppetlabs-toy-chest/puppetlabs-cloud_provisioner/tree/1.1.5)
+
 ## 📅 2013-11-26
+- **puppetlabs-toy-chest/razor-client** – [🔖 release-0.11.0](https://github.com/puppetlabs-toy-chest/razor-client/tree/release-0.11.0)
+- **puppetlabs-toy-chest/razor-server** – [🔖 release-0.11.0](https://github.com/puppetlabs-toy-chest/razor-server/tree/release-0.11.0)
 - **theforeman/hammer-cli** – [🔖 0.0.10](https://github.com/theforeman/hammer-cli/tree/0.0.10)
 - **theforeman/hammer-cli** – [🔖 0.0.11](https://github.com/theforeman/hammer-cli/tree/0.0.11)
 - **theforeman/hammer-cli-foreman** – [🔖 0.0.11](https://github.com/theforeman/hammer-cli-foreman/tree/0.0.11)
@@ -26901,6 +27611,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/hiera-eyaml-gpg** – [🔖 v0.4](https://github.com/voxpupuli/hiera-eyaml-gpg/tree/v0.4)
 
 ## 📅 2013-11-25
+- **puppetlabs-toy-chest/crossfader** – [🔖 0.5.1](https://github.com/puppetlabs-toy-chest/crossfader/tree/0.5.1)
+- **puppetlabs-toy-chest/crossfader** – [🔖 0.5.2](https://github.com/puppetlabs-toy-chest/crossfader/tree/0.5.2)
 - **voxpupuli/beaker** – [🔖 beaker1.0.1](https://github.com/voxpupuli/beaker/tree/beaker1.0.1)
 - **voxpupuli/puppet-puppetboard** – [🔖 1.1.0](https://github.com/voxpupuli/puppet-puppetboard/tree/1.1.0)
 
@@ -26920,10 +27632,14 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2013-11-21
 - **OpenVoxProject/hiera** – [🔖 1.3.0](https://github.com/OpenVoxProject/hiera/tree/1.3.0)
+- **puppetlabs-toy-chest/crossfader** – [🔖 0.4.1](https://github.com/puppetlabs-toy-chest/crossfader/tree/0.4.1)
+- **puppetlabs-toy-chest/crossfader** – [🔖 0.5.0](https://github.com/puppetlabs-toy-chest/crossfader/tree/0.5.0)
+- **puppetlabs-toy-chest/razor-el-mk** – [🔖 release-003](https://github.com/puppetlabs-toy-chest/razor-el-mk/tree/release-003)
 - **theforeman/foreman_setup** – [🔖 v1.0.2](https://github.com/theforeman/foreman_setup/tree/v1.0.2)
 - **voxpupuli/puppet-wget** – [🔖 v1.2.3](https://github.com/voxpupuli/puppet-wget/tree/v1.2.3)
 
 ## 📅 2013-11-20
+- **puppetlabs-toy-chest/puppetlabs-passenger** – [🔖 0.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-passenger/tree/0.2.0)
 - **voxpupuli/beaker** – [🔖 beaker1.0.1pre](https://github.com/voxpupuli/beaker/tree/beaker1.0.1pre)
 
 ## 📅 2013-11-19
@@ -26937,6 +27653,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/hiera-eyaml** – [🔖 v1.3.8](https://github.com/voxpupuli/hiera-eyaml/tree/v1.3.8)
 
 ## 📅 2013-11-17
+- **puppetlabs-toy-chest/geppetto** – [🔖 parent-4.0.0](https://github.com/puppetlabs-toy-chest/geppetto/tree/parent-4.0.0)
 - **theforeman/redmine** – [🔖 2.3.4](https://github.com/theforeman/redmine/tree/2.3.4)
 - **theforeman/redmine** – [🔖 2.4.0](https://github.com/theforeman/redmine/tree/2.4.0)
 - **voxpupuli/puppet-bird** – [🔖 0.0.3](https://github.com/voxpupuli/puppet-bird/tree/0.0.3)
@@ -26948,6 +27665,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/hiera-eyaml** – [🔖 v1.3.7](https://github.com/voxpupuli/hiera-eyaml/tree/v1.3.7)
 
 ## 📅 2013-11-13
+- **puppetlabs-toy-chest/crossfader** – [🔖 0.4.0](https://github.com/puppetlabs-toy-chest/crossfader/tree/0.4.0)
 - **theforeman/puppetlabs-mysql** – [🔖 2.1.0](https://github.com/theforeman/puppetlabs-mysql/tree/2.1.0)
 - **voxpupuli/puppet-jenkins** – [🔖 v0.3.0](https://github.com/voxpupuli/puppet-jenkins/tree/v0.3.0)
 - **voxpupuli/puppet-pkgng** – [🔖 0.0.9](https://github.com/voxpupuli/puppet-pkgng/tree/0.0.9)
@@ -26973,6 +27691,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/beaker** – [🔖 beaker1.0.0](https://github.com/voxpupuli/beaker/tree/beaker1.0.0)
 
 ## 📅 2013-11-07
+- **puppetlabs-toy-chest/puppetdb-javaclient** – [🔖 com.puppetlabs.puppetdb.javaclient-0.1.4](https://github.com/puppetlabs-toy-chest/puppetdb-javaclient/tree/com.puppetlabs.puppetdb.javaclient-0.1.4)
+- **puppetlabs-toy-chest/puppetdb-javaclient** – [🔖 com.puppetlabs.puppetdb.javaclient-0.1.5](https://github.com/puppetlabs-toy-chest/puppetdb-javaclient/tree/com.puppetlabs.puppetdb.javaclient-0.1.5)
 - **voxpupuli/puppet-xmlfile** – [🔖 v0.3.1](https://github.com/voxpupuli/puppet-xmlfile/tree/v0.3.1)
 
 ## 📅 2013-11-06
@@ -26985,6 +27705,11 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2013-11-04
 - **OpenVoxProject/hiera** – [🔖 1.3.0-rc2](https://github.com/OpenVoxProject/hiera/tree/1.3.0-rc2)
+- **puppetlabs-toy-chest/crossfader** – [🔖 0.3.0](https://github.com/puppetlabs-toy-chest/crossfader/tree/0.3.0)
+- **puppetlabs-toy-chest/crossfader** – [🔖 0.3.1](https://github.com/puppetlabs-toy-chest/crossfader/tree/0.3.1)
+
+## 📅 2013-11-03
+- **puppetlabs-toy-chest/crossfader** – [🔖 0.2.0](https://github.com/puppetlabs-toy-chest/crossfader/tree/0.2.0)
 
 ## 📅 2013-11-01
 - **theforeman/foreman_bootdisk** – [🔖 v1.2.3](https://github.com/theforeman/foreman_bootdisk/tree/v1.2.3)
@@ -26996,6 +27721,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/rundeck** – [🔖 v2.0.0-alpha1](https://github.com/voxpupuli/rundeck/tree/v2.0.0-alpha1)
 
 ## 📅 2013-10-29
+- **puppetlabs-toy-chest/razor-el-mk** – [🔖 release-002](https://github.com/puppetlabs-toy-chest/razor-el-mk/tree/release-002)
 - **theforeman/fog** – [🔖 v1.17.0](https://github.com/theforeman/fog/tree/v1.17.0)
 - **theforeman/foreman_setup** – [🔖 v1.0.0](https://github.com/theforeman/foreman_setup/tree/v1.0.0)
 - **theforeman/foreman_setup** – [🔖 v1.0.1](https://github.com/theforeman/foreman_setup/tree/v1.0.1)
@@ -27033,6 +27759,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openvoxdb** – [🔖 1.5.2](https://github.com/OpenVoxProject/openvoxdb/tree/1.5.2)
 
 ## 📅 2013-10-21
+- **puppetlabs-toy-chest/geppetto** – [🔖 4.0.0](https://github.com/puppetlabs-toy-chest/geppetto/tree/4.0.0)
 - **theforeman/foreman_api** – [🔖 0.1.7](https://github.com/theforeman/foreman_api/tree/0.1.7)
 - **voxpupuli/puppet-mcollective** – [🔖 1.1.1](https://github.com/voxpupuli/puppet-mcollective/tree/1.1.1)
 - **voxpupuli/puppet-r10k** – [🔖 v0.0.9](https://github.com/voxpupuli/puppet-r10k/tree/v0.0.9)
@@ -27068,6 +27795,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppetboard** – [v0.0.2](https://github.com/voxpupuli/puppetboard/releases/tag/v0.0.2)
 - **voxpupuli/pypuppetdb** – [v0.0.3](https://github.com/voxpupuli/pypuppetdb/releases/tag/v0.0.3)
 - **voxpupuli/pypuppetdb** – [v0.0.4](https://github.com/voxpupuli/pypuppetdb/releases/tag/v0.0.4)
+- **puppetlabs-toy-chest/puppetlabs-razor** – [🔖 0.10.2](https://github.com/puppetlabs-toy-chest/puppetlabs-razor/tree/0.10.2)
 - **theforeman/foreman** – [🔖 1.3.0](https://github.com/theforeman/foreman/tree/1.3.0)
 - **theforeman/foreman-installer** – [🔖 1.3.0](https://github.com/theforeman/foreman-installer/tree/1.3.0)
 - **theforeman/foreman-selinux** – [🔖 1.3.0](https://github.com/theforeman/foreman-selinux/tree/1.3.0)
@@ -27080,6 +27808,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/mfsbsd** – [🔖 2.1](https://github.com/theforeman/mfsbsd/tree/2.1)
 
 ## 📅 2013-10-11
+- **puppetlabs-toy-chest/puppetlabs-razor** – [🔖 0.10.1](https://github.com/puppetlabs-toy-chest/puppetlabs-razor/tree/0.10.1)
 - **voxpupuli/puppet-mcollective** – [🔖 1.1.0](https://github.com/voxpupuli/puppet-mcollective/tree/1.1.0)
 - **voxpupuli/puppet-rvm** – [🔖 v1.1.9](https://github.com/voxpupuli/puppet-rvm/tree/v1.1.9)
 - **voxpupuli/puppet-xmlfile** – [🔖 v0.3.0](https://github.com/voxpupuli/puppet-xmlfile/tree/v0.3.0)
@@ -27090,12 +27819,16 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-pkgng** – [🔖 0.0.7](https://github.com/voxpupuli/puppet-pkgng/tree/0.0.7)
 
 ## 📅 2013-10-09
+- **puppetlabs-toy-chest/puppetlabs-razor** – [🔖 0.10.0](https://github.com/puppetlabs-toy-chest/puppetlabs-razor/tree/0.10.0)
+- **puppetlabs-toy-chest/puppetlabs-ruby** – [🔖 0.1.1](https://github.com/puppetlabs-toy-chest/puppetlabs-ruby/tree/0.1.1)
+- **puppetlabs-toy-chest/rspec-system-serverspec** – [🔖 1.0.1](https://github.com/puppetlabs-toy-chest/rspec-system-serverspec/tree/1.0.1)
 - **theforeman/hammer-cli** – [🔖 0.0.7](https://github.com/theforeman/hammer-cli/tree/0.0.7)
 - **theforeman/kafo** – [🔖 rubygem-kafo-0.2.1-1](https://github.com/theforeman/kafo/tree/rubygem-kafo-0.2.1-1)
 - **theforeman/kafo** – [🔖 v0.2.1](https://github.com/theforeman/kafo/tree/v0.2.1)
 - **theforeman/puppetlabs-postgresql** – [🔖 3.0.0-rc2](https://github.com/theforeman/puppetlabs-postgresql/tree/3.0.0-rc2)
 
 ## 📅 2013-10-08
+- **puppetlabs-toy-chest/puppetlabs-ruby** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-ruby/tree/0.1.0)
 - **theforeman/foreman** – [🔖 1.3.0-RC4](https://github.com/theforeman/foreman/tree/1.3.0-RC4)
 - **theforeman/foreman-selinux** – [🔖 1.3.0-RC4](https://github.com/theforeman/foreman-selinux/tree/1.3.0-RC4)
 - **theforeman/hammer-cli** – [🔖 0.0.6](https://github.com/theforeman/hammer-cli/tree/0.0.6)
@@ -27156,22 +27889,27 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2013-09-27
 - **OpenVoxProject/openvox** – [🔖 3.3.1-rc2](https://github.com/OpenVoxProject/openvox/tree/3.3.1-rc2)
+- **puppetlabs-toy-chest/puppetlabs-cloud_provisioner** – [🔖 1.1.4](https://github.com/puppetlabs-toy-chest/puppetlabs-cloud_provisioner/tree/1.1.4)
 - **theforeman/kafo** – [🔖 rubygem-kafo-0.0.17-1](https://github.com/theforeman/kafo/tree/rubygem-kafo-0.0.17-1)
 - **theforeman/kafo** – [🔖 v0.0.17](https://github.com/theforeman/kafo/tree/v0.0.17)
 - **voxpupuli/puppet-mcollective** – [🔖 1.0.0](https://github.com/voxpupuli/puppet-mcollective/tree/1.0.0)
 
 ## 📅 2013-09-26
+- **puppetlabs-toy-chest/puppetlabs-activemq** – [🔖 0.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-activemq/tree/0.2.0)
+- **puppetlabs-toy-chest/puppetlabs-cloud_provisioner** – [🔖 1.1.3](https://github.com/puppetlabs-toy-chest/puppetlabs-cloud_provisioner/tree/1.1.3)
 - **theforeman/hammer-cli** – [🔖 0.0.5](https://github.com/theforeman/hammer-cli/tree/0.0.5)
 - **theforeman/hammer-cli-foreman** – [🔖 0.0.5](https://github.com/theforeman/hammer-cli-foreman/tree/0.0.5)
 - **theforeman/kafo** – [🔖 rubygem-kafo-0.0.16-1](https://github.com/theforeman/kafo/tree/rubygem-kafo-0.0.16-1)
 - **theforeman/kafo** – [🔖 v0.0.16](https://github.com/theforeman/kafo/tree/v0.0.16)
 
 ## 📅 2013-09-25
+- **puppetlabs-toy-chest/puppetlabs-cloud_provisioner** – [🔖 1.1.2](https://github.com/puppetlabs-toy-chest/puppetlabs-cloud_provisioner/tree/1.1.2)
 - **voxpupuli/puppet-collectd** – [🔖 0.0.5](https://github.com/voxpupuli/puppet-collectd/tree/0.0.5)
 - **voxpupuli/puppet-mongodb** – [🔖 0.2.0](https://github.com/voxpupuli/puppet-mongodb/tree/0.2.0)
 - **voxpupuli/puppet-nrpe** – [🔖 v0.0.3](https://github.com/voxpupuli/puppet-nrpe/tree/v0.0.3)
 
 ## 📅 2013-09-24
+- **puppetlabs-toy-chest/puppetlabs-cloud_provisioner** – [🔖 1.1.1](https://github.com/puppetlabs-toy-chest/puppetlabs-cloud_provisioner/tree/1.1.1)
 - **theforeman/foreman_bootdisk** – [🔖 v1.2.1](https://github.com/theforeman/foreman_bootdisk/tree/v1.2.1)
 - **voxpupuli/puppet-rclocal** – [🔖 v2.0.2](https://github.com/voxpupuli/puppet-rclocal/tree/v2.0.2)
 - **voxpupuli/vagrant-librarian-puppet** – [🔖 v0.1.3](https://github.com/voxpupuli/vagrant-librarian-puppet/tree/v0.1.3)
@@ -27189,10 +27927,20 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-check_mk** – [🔖 v0.3.1](https://github.com/voxpupuli/puppet-check_mk/tree/v0.3.1)
 - **voxpupuli/puppet-system** – [🔖 v0.7.4](https://github.com/voxpupuli/puppet-system/tree/v0.7.4)
 
+## 📅 2013-09-21
+- **puppetlabs-toy-chest/puppetlabs-cloud_provisioner** – [🔖 1.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-cloud_provisioner/tree/1.1.0)
+
 ## 📅 2013-09-19
+- **puppetlabs-toy-chest/razor-client** – [🔖 release-0.10.0](https://github.com/puppetlabs-toy-chest/razor-client/tree/release-0.10.0)
+- **puppetlabs-toy-chest/razor-server** – [🔖 release-0.10.0](https://github.com/puppetlabs-toy-chest/razor-server/tree/release-0.10.0)
 - **voxpupuli/rundeck** – [🔖 v1.6.2](https://github.com/voxpupuli/rundeck/tree/v1.6.2)
 
+## 📅 2013-09-18
+- **puppetlabs-toy-chest/puppetdb-javaclient** – [🔖 com.puppetlabs.puppetdb.javaclient-0.1.3](https://github.com/puppetlabs-toy-chest/puppetdb-javaclient/tree/com.puppetlabs.puppetdb.javaclient-0.1.3)
+- **puppetlabs-toy-chest/puppetlabs-auth_conf** – [🔖 0.1.7](https://github.com/puppetlabs-toy-chest/puppetlabs-auth_conf/tree/0.1.7)
+
 ## 📅 2013-09-17
+- **puppetlabs-toy-chest/puppetdb-javaclient** – [🔖 com.puppetlabs.puppetdb.javaclient-0.1.2](https://github.com/puppetlabs-toy-chest/puppetdb-javaclient/tree/com.puppetlabs.puppetdb.javaclient-0.1.2)
 - **theforeman/foreman_bootdisk** – [🔖 v1.2.0](https://github.com/theforeman/foreman_bootdisk/tree/v1.2.0)
 - **voxpupuli/puppet-pkgng** – [🔖 0.0.6](https://github.com/voxpupuli/puppet-pkgng/tree/0.0.6)
 
@@ -27217,6 +27965,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2013-09-12
 - **OpenVoxProject/openvox** – [🔖 3.3.0](https://github.com/OpenVoxProject/openvox/tree/3.3.0)
+- **puppetlabs-toy-chest/puppetlabs-cloud_provisioner** – [🔖 1.0.9](https://github.com/puppetlabs-toy-chest/puppetlabs-cloud_provisioner/tree/1.0.9)
 - **theforeman/foreman** – [🔖 1.3.0-RC1](https://github.com/theforeman/foreman/tree/1.3.0-RC1)
 - **theforeman/kafo** – [🔖 rubygem-kafo-0.0.13-1](https://github.com/theforeman/kafo/tree/rubygem-kafo-0.0.13-1)
 - **theforeman/kafo** – [🔖 v0.0.13](https://github.com/theforeman/kafo/tree/v0.0.13)
@@ -27226,6 +27975,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/smart-proxy** – [🔖 1.3.0-RC1](https://github.com/theforeman/smart-proxy/tree/1.3.0-RC1)
 
 ## 📅 2013-09-10
+- **puppetlabs-toy-chest/puppetlabs-git** – [🔖 0.0.3](https://github.com/puppetlabs-toy-chest/puppetlabs-git/tree/0.0.3)
 - **voxpupuli/librarian-puppet** – [🔖 maestrodev-v0.9.10.1](https://github.com/voxpupuli/librarian-puppet/tree/maestrodev-v0.9.10.1)
 - **voxpupuli/puppet-r10k** – [🔖 v0.0.7](https://github.com/voxpupuli/puppet-r10k/tree/v0.0.7)
 
@@ -27318,6 +28068,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2013-08-21
 - **OpenVoxProject/openvox** – [🔖 3.3.0-rc1](https://github.com/OpenVoxProject/openvox/tree/3.3.0-rc1)
+- **puppetlabs-toy-chest/razor-el-mk** – [🔖 release-001](https://github.com/puppetlabs-toy-chest/razor-el-mk/tree/release-001)
 - **voxpupuli/librarian-puppet** – [🔖 0.9.10](https://github.com/voxpupuli/librarian-puppet/tree/0.9.10)
 - **voxpupuli/librarian-puppet** – [🔖 v0.9.10](https://github.com/voxpupuli/librarian-puppet/tree/v0.9.10)
 - **voxpupuli/puppet-blacksmith** – [🔖 v2.0.0](https://github.com/voxpupuli/puppet-blacksmith/tree/v2.0.0)
@@ -27357,6 +28108,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2013-08-09
 - **voxpupuli/pypuppetdb** – [v0.0.2](https://github.com/voxpupuli/pypuppetdb/releases/tag/v0.0.2)
+- **puppetlabs-toy-chest/puppetlabs-vswitch** – [🔖 0.1.1](https://github.com/puppetlabs-toy-chest/puppetlabs-vswitch/tree/0.1.1)
 - **voxpupuli/puppet-openvoxdb** – [🔖 1.6.0](https://github.com/voxpupuli/puppet-openvoxdb/tree/1.6.0)
 
 ## 📅 2013-08-07
@@ -27370,6 +28122,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/pypuppetdb** – [0.0.1](https://github.com/voxpupuli/pypuppetdb/releases/tag/0.0.1)
 
 ## 📅 2013-08-05
+- **puppetlabs-toy-chest/puppetlabs-cloud_provisioner** – [🔖 1.0.8](https://github.com/puppetlabs-toy-chest/puppetlabs-cloud_provisioner/tree/1.0.8)
 - **theforeman/foreman** – [🔖 1.2.1](https://github.com/theforeman/foreman/tree/1.2.1)
 - **theforeman/foreman_content** – [🔖 0.2](https://github.com/theforeman/foreman_content/tree/0.2)
 - **theforeman/foreman_discovery** – [🔖 1.0.2](https://github.com/theforeman/foreman_discovery/tree/1.0.2)
@@ -27387,6 +28140,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/rundeck** – [🔖 v1.6.0-rc3](https://github.com/voxpupuli/rundeck/tree/v1.6.0-rc3)
 
 ## 📅 2013-08-01
+- **puppetlabs-toy-chest/puppetdb-javaclient** – [🔖 com.puppetlabs.puppetdb.javaclient-0.1.1](https://github.com/puppetlabs-toy-chest/puppetdb-javaclient/tree/com.puppetlabs.puppetdb.javaclient-0.1.1)
 - **theforeman/foreman_content** – [🔖 v0.1](https://github.com/theforeman/foreman_content/tree/v0.1)
 - **theforeman/puppet-nodejs** – [🔖 0.3.0](https://github.com/theforeman/puppet-nodejs/tree/0.3.0)
 - **theforeman/puppetlabs-postgresql** – [🔖 2.4.1](https://github.com/theforeman/puppetlabs-postgresql/tree/2.4.1)
@@ -27397,6 +28151,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/redmine_backlogs** – [🔖 v1.0.5](https://github.com/theforeman/redmine_backlogs/tree/v1.0.5)
 
 ## 📅 2013-07-30
+- **puppetlabs-toy-chest/puppetdb-javaclient** – [🔖 com.puppetlabs.puppetdb.javaclient-0.1.0](https://github.com/puppetlabs-toy-chest/puppetdb-javaclient/tree/com.puppetlabs.puppetdb.javaclient-0.1.0)
 - **theforeman/foreman_api** – [🔖 v0.1.5](https://github.com/theforeman/foreman_api/tree/v0.1.5)
 
 ## 📅 2013-07-29
@@ -27436,6 +28191,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2013-07-19
 - **OpenVoxProject/openvoxdb** – [🔖 1.3.2-pe](https://github.com/OpenVoxProject/openvoxdb/tree/1.3.2-pe)
 - **OpenVoxProject/openvoxdb** – [🔖 1.3.3](https://github.com/OpenVoxProject/openvoxdb/tree/1.3.3)
+- **puppetlabs-toy-chest/geppetto** – [🔖 parent-3.2.0](https://github.com/puppetlabs-toy-chest/geppetto/tree/parent-3.2.0)
 - **theforeman/fog** – [🔖 v1.13.0](https://github.com/theforeman/fog/tree/v1.13.0)
 - **theforeman/fog** – [🔖 v1.14.0](https://github.com/theforeman/fog/tree/v1.14.0)
 - **theforeman/puppetlabs-postgresql** – [🔖 2.4.0](https://github.com/theforeman/puppetlabs-postgresql/tree/2.4.0)
@@ -27482,6 +28238,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/puppetlabs-apache** – [🔖 0.7.0](https://github.com/theforeman/puppetlabs-apache/tree/0.7.0)
 
 ## 📅 2013-07-08
+- **puppetlabs-toy-chest/rspec-system-serverspec** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/rspec-system-serverspec/tree/1.0.0)
 - **voxpupuli/puppet-redis** – [🔖 0.0.3](https://github.com/voxpupuli/puppet-redis/tree/0.0.3)
 
 ## 📅 2013-07-05
@@ -27571,6 +28328,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-r10k** – [🔖 v0.0.1](https://github.com/voxpupuli/puppet-r10k/tree/v0.0.1)
 
 ## 📅 2013-06-11
+- **puppetlabs-toy-chest/puppetlabs-auth_conf** – [🔖 0.1.6](https://github.com/puppetlabs-toy-chest/puppetlabs-auth_conf/tree/0.1.6)
 - **theforeman/fog** – [🔖 v1.12.0](https://github.com/theforeman/fog/tree/v1.12.0)
 - **theforeman/fog** – [🔖 v1.12.1](https://github.com/theforeman/fog/tree/v1.12.1)
 - **voxpupuli/puppet-syntax** – [🔖 v0.0.3](https://github.com/voxpupuli/puppet-syntax/tree/v0.0.3)
@@ -27583,6 +28341,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-logrotate** – [🔖 1.1.0](https://github.com/voxpupuli/puppet-logrotate/tree/1.1.0)
 
 ## 📅 2013-06-07
+- **puppetlabs-toy-chest/geppetto** – [🔖 parent-3.2.0-rc1](https://github.com/puppetlabs-toy-chest/geppetto/tree/parent-3.2.0-rc1)
 - **theforeman/foreman** – [🔖 1.2.0-RC2](https://github.com/theforeman/foreman/tree/1.2.0-RC2)
 - **theforeman/foreman-installer** – [🔖 1.2.0-RC2](https://github.com/theforeman/foreman-installer/tree/1.2.0-RC2)
 - **theforeman/foreman-selinux** – [🔖 1.2.0-RC2](https://github.com/theforeman/foreman-selinux/tree/1.2.0-RC2)
@@ -27608,6 +28367,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/r10k** – [🔖 1.0.0](https://github.com/voxpupuli/r10k/tree/1.0.0)
 
 ## 📅 2013-05-30
+- **puppetlabs-toy-chest/puppetlabs-cloud_provisioner** – [🔖 1.0.7](https://github.com/puppetlabs-toy-chest/puppetlabs-cloud_provisioner/tree/1.0.7)
 - **theforeman/foreman_hooks** – [🔖 v0.3.2](https://github.com/theforeman/foreman_hooks/tree/v0.3.2)
 - **voxpupuli/puppet-rvm** – [🔖 v1.1.1](https://github.com/voxpupuli/puppet-rvm/tree/v1.1.1)
 - **voxpupuli/rundeck** – [🔖 v1.5.3](https://github.com/voxpupuli/rundeck/tree/v1.5.3)
@@ -27672,6 +28432,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-logstash** – [🔖 0.3.0](https://github.com/voxpupuli/puppet-logstash/tree/0.3.0)
 - **voxpupuli/puppet-mrepo** – [🔖 1.1.1](https://github.com/voxpupuli/puppet-mrepo/tree/1.1.1)
 
+## 📅 2013-05-08
+- **puppetlabs-toy-chest/puppetlabs-cloud_provisioner** – [🔖 1.0.6](https://github.com/puppetlabs-toy-chest/puppetlabs-cloud_provisioner/tree/1.0.6)
+
 ## 📅 2013-05-07
 - **OpenVoxProject/openvox** – [🔖 3.2.0-rc2](https://github.com/OpenVoxProject/openvox/tree/3.2.0-rc2)
 - **theforeman/puppet-staging** – [🔖 0.3.0](https://github.com/theforeman/puppet-staging/tree/0.3.0)
@@ -27699,6 +28462,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-pxe** – [🔖 0.0.6](https://github.com/voxpupuli/puppet-pxe/tree/0.0.6)
 
 ## 📅 2013-05-01
+- **puppetlabs-toy-chest/puppetlabs-azure_agent** – [🔖 0.0.3](https://github.com/puppetlabs-toy-chest/puppetlabs-azure_agent/tree/0.0.3)
+- **puppetlabs-toy-chest/puppetlabs-logentries** – [🔖 0.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-logentries/tree/0.0.1)
 - **theforeman/redmine** – [🔖 2.3.1](https://github.com/theforeman/redmine/tree/2.3.1)
 - **voxpupuli/puppet-windows_firewall** – [🔖 v.0.0.1](https://github.com/voxpupuli/puppet-windows_firewall/tree/v.0.0.1)
 - **voxpupuli/rundeck** – [🔖 v1.5.1](https://github.com/voxpupuli/rundeck/tree/v1.5.1)
@@ -27713,6 +28478,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/puppetlabs-postgresql** – [🔖 2.2.1](https://github.com/theforeman/puppetlabs-postgresql/tree/2.2.1)
 
 ## 📅 2013-04-26
+- **puppetlabs-toy-chest/puppetlabs-auth_conf** – [🔖 0.1.5](https://github.com/puppetlabs-toy-chest/puppetlabs-auth_conf/tree/0.1.5)
 - **theforeman/puppetlabs-postgresql** – [🔖 2.2.0](https://github.com/theforeman/puppetlabs-postgresql/tree/2.2.0)
 
 ## 📅 2013-04-25
@@ -27765,6 +28531,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/r10k** – [🔖 0.0.10](https://github.com/voxpupuli/r10k/tree/0.0.10)
 
 ## 📅 2013-04-06
+- **puppetlabs-toy-chest/geppetto** – [🔖 parent-3.0.3-rc1](https://github.com/puppetlabs-toy-chest/geppetto/tree/parent-3.0.3-rc1)
 - **theforeman/foreman_hooks** – [🔖 v0.3.0](https://github.com/theforeman/foreman_hooks/tree/v0.3.0)
 
 ## 📅 2013-04-05
@@ -27794,6 +28561,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-augeasproviders_syslog** – [🔖 v0.6.0](https://github.com/voxpupuli/puppet-augeasproviders_syslog/tree/v0.6.0)
 
 ## 📅 2013-03-28
+- **puppetlabs-toy-chest/geppetto** – [🔖 parent-3.0.3-beta](https://github.com/puppetlabs-toy-chest/geppetto/tree/parent-3.0.3-beta)
 - **theforeman/puppetlabs-apache** – [🔖 0.6.0](https://github.com/theforeman/puppetlabs-apache/tree/0.6.0)
 
 ## 📅 2013-03-27
@@ -27833,9 +28601,12 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2013-03-13
 - **OpenVoxProject/openfact** – [🔖 1.6.18](https://github.com/OpenVoxProject/openfact/tree/1.6.18)
+- **puppetlabs-toy-chest/geppetto** – [🔖 parent-3.0.3-alpha](https://github.com/puppetlabs-toy-chest/geppetto/tree/parent-3.0.3-alpha)
 
 ## 📅 2013-03-12
 - **OpenVoxProject/hiera** – [🔖 1.2.0-rc2](https://github.com/OpenVoxProject/hiera/tree/1.2.0-rc2)
+- **puppetlabs-toy-chest/puppetlabs-razor** – [🔖 0.6.1](https://github.com/puppetlabs-toy-chest/puppetlabs-razor/tree/0.6.1)
+- **puppetlabs-toy-chest/puppetlabs-razor** – [🔖 0.6.1-rc2](https://github.com/puppetlabs-toy-chest/puppetlabs-razor/tree/0.6.1-rc2)
 
 ## 📅 2013-03-11
 - **OpenVoxProject/openvox** – [🔖 2.6.18](https://github.com/OpenVoxProject/openvox/tree/2.6.18)
@@ -27848,11 +28619,15 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2013-03-08
 - **OpenVoxProject/openvox** – [🔖 3.1.1](https://github.com/OpenVoxProject/openvox/tree/3.1.1)
+- **puppetlabs-toy-chest/puppetlabs-auth_conf** – [🔖 0.1.4](https://github.com/puppetlabs-toy-chest/puppetlabs-auth_conf/tree/0.1.4)
 - **voxpupuli/puppet-rclocal** – [🔖 v2.0.1](https://github.com/voxpupuli/puppet-rclocal/tree/v2.0.1)
 
 ## 📅 2013-03-07
 - **theforeman/foreman_discovery** – [🔖 0.1.1](https://github.com/theforeman/foreman_discovery/tree/0.1.1)
 - **voxpupuli/puppet-logstash** – [🔖 0.0.6](https://github.com/voxpupuli/puppet-logstash/tree/0.0.6)
+
+## 📅 2013-03-06
+- **puppetlabs-toy-chest/puppetlabs-razor** – [🔖 0.6.1-rc1](https://github.com/puppetlabs-toy-chest/puppetlabs-razor/tree/0.6.1-rc1)
 
 ## 📅 2013-03-05
 - **OpenVoxProject/hiera** – [🔖 1.2.0-rc1](https://github.com/OpenVoxProject/hiera/tree/1.2.0-rc1)
@@ -27870,6 +28645,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-logstash** – [🔖 0.0.5](https://github.com/voxpupuli/puppet-logstash/tree/0.0.5)
 
 ## 📅 2013-03-01
+- **puppetlabs-toy-chest/puppetlabs-auth_conf** – [🔖 0.1.3](https://github.com/puppetlabs-toy-chest/puppetlabs-auth_conf/tree/0.1.3)
 - **theforeman/foreman_discovery** – [🔖 0.1.0](https://github.com/theforeman/foreman_discovery/tree/0.1.0)
 
 ## 📅 2013-02-23
@@ -27889,13 +28665,18 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/rundeck** – [🔖 v1.5-1](https://github.com/voxpupuli/rundeck/tree/v1.5-1)
 
 ## 📅 2013-02-20
+- **puppetlabs-toy-chest/puppetlabs-razor** – [🔖 0.6.0](https://github.com/puppetlabs-toy-chest/puppetlabs-razor/tree/0.6.0)
 - **theforeman/foreman-installer** – [🔖 1.1.1](https://github.com/theforeman/foreman-installer/tree/1.1.1)
 - **theforeman/puppetlabs-postgresql** – [🔖 2.1.0](https://github.com/theforeman/puppetlabs-postgresql/tree/2.1.0)
 
 ## 📅 2013-02-16
 - **voxpupuli/puppet-elasticsearch** – [🔖 0.0.2](https://github.com/voxpupuli/puppet-elasticsearch/tree/0.0.2)
 
+## 📅 2013-02-15
+- **puppetlabs-toy-chest/geppetto** – [🔖 3.0.2](https://github.com/puppetlabs-toy-chest/geppetto/tree/3.0.2)
+
 ## 📅 2013-02-13
+- **puppetlabs-toy-chest/puppetlabs-razor** – [🔖 0.5.0](https://github.com/puppetlabs-toy-chest/puppetlabs-razor/tree/0.5.0)
 - **theforeman/foreman** – [🔖 1.1-1](https://github.com/theforeman/foreman/tree/1.1-1)
 - **theforeman/foreman_api** – [🔖 v0.1.1](https://github.com/theforeman/foreman_api/tree/v0.1.1)
 - **theforeman/hammer-cli-foreman** – [🔖 1.1-1](https://github.com/theforeman/hammer-cli-foreman/tree/1.1-1)
@@ -27917,6 +28698,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/librarian-puppet** – [🔖 maestrodev-v0.9.7.5](https://github.com/voxpupuli/librarian-puppet/tree/maestrodev-v0.9.7.5)
 
 ## 📅 2013-02-07
+- **puppetlabs-toy-chest/puppetlabs-razor** – [🔖 0.4.1](https://github.com/puppetlabs-toy-chest/puppetlabs-razor/tree/0.4.1)
 - **voxpupuli/puppet-poudriere** – [🔖 0.0.6](https://github.com/voxpupuli/puppet-poudriere/tree/0.0.6)
 - **voxpupuli/puppet-poudriere** – [🔖 0.0.7](https://github.com/voxpupuli/puppet-poudriere/tree/0.0.7)
 
@@ -27965,6 +28747,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-wget** – [🔖 v1.1.0](https://github.com/voxpupuli/puppet-wget/tree/v1.1.0)
 
 ## 📅 2013-01-24
+- **puppetlabs-toy-chest/puppetlabs-razor** – [🔖 0.4.0](https://github.com/puppetlabs-toy-chest/puppetlabs-razor/tree/0.4.0)
+- **puppetlabs-toy-chest/puppetlabs-vcenter** – [🔖 0.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-vcenter/tree/0.2.0)
 - **theforeman/foreman** – [🔖 1.1RC5](https://github.com/theforeman/foreman/tree/1.1RC5)
 - **theforeman/foreman_api** – [🔖 v0.0.11](https://github.com/theforeman/foreman_api/tree/v0.0.11)
 - **theforeman/hammer-cli-foreman** – [🔖 1.1RC5](https://github.com/theforeman/hammer-cli-foreman/tree/1.1RC5)
@@ -27988,6 +28772,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-logstash** – [🔖 0.0.2](https://github.com/voxpupuli/puppet-logstash/tree/0.0.2)
 
 ## 📅 2013-01-18
+- **puppetlabs-toy-chest/puppetlabs-node_openstack** – [🔖 0.0.4](https://github.com/puppetlabs-toy-chest/puppetlabs-node_openstack/tree/0.0.4)
 - **theforeman/redmine_backlogs** – [🔖 v0.9.34](https://github.com/theforeman/redmine_backlogs/tree/v0.9.34)
 
 ## 📅 2013-01-17
@@ -28016,6 +28801,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/rundeck** – [🔖 v1.5-rc1](https://github.com/voxpupuli/rundeck/tree/v1.5-rc1)
 
 ## 📅 2013-01-10
+- **puppetlabs-toy-chest/puppetlabs-auth_conf** – [🔖 0.1.2](https://github.com/puppetlabs-toy-chest/puppetlabs-auth_conf/tree/0.1.2)
 - **voxpupuli/puppet-alternatives** – [🔖 0.1.0](https://github.com/voxpupuli/puppet-alternatives/tree/0.1.0)
 - **voxpupuli/rundeck** – [🔖 v1.4.5](https://github.com/voxpupuli/rundeck/tree/v1.4.5)
 
@@ -28030,6 +28816,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2013-01-08
 - **OpenVoxProject/openvoxdb** – [🔖 1.1.0-rc3](https://github.com/OpenVoxProject/openvoxdb/tree/1.1.0-rc3)
 - **OpenVoxProject/openvoxdb** – [🔖 1.1.0-rc4](https://github.com/OpenVoxProject/openvoxdb/tree/1.1.0-rc4)
+- **puppetlabs-toy-chest/puppetlabs-auth_conf** – [🔖 0.1.1](https://github.com/puppetlabs-toy-chest/puppetlabs-auth_conf/tree/0.1.1)
 - **voxpupuli/r10k** – [🔖 0.0.7](https://github.com/voxpupuli/r10k/tree/0.0.7)
 
 ## 📅 2013-01-07
@@ -28101,6 +28888,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2012-12-14
 - **OpenVoxProject/openvox** – [🔖 3.0.2-rc3](https://github.com/OpenVoxProject/openvox/tree/3.0.2-rc3)
+- **puppetlabs-toy-chest/puppetlabs-auth_conf** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-auth_conf/tree/0.1.0)
 - **voxpupuli/librarian-puppet** – [🔖 maestrodev-v0.9.7.2](https://github.com/voxpupuli/librarian-puppet/tree/maestrodev-v0.9.7.2)
 
 ## 📅 2012-12-13
@@ -28124,6 +28912,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-ssh_keygen** – [🔖 v1.0.0](https://github.com/voxpupuli/puppet-ssh_keygen/tree/v1.0.0)
 
 ## 📅 2012-12-05
+- **puppetlabs-toy-chest/puppetlabs-auth_conf** – [🔖 0.0.7](https://github.com/puppetlabs-toy-chest/puppetlabs-auth_conf/tree/0.0.7)
 - **theforeman/foreman** – [🔖 1.1RC1](https://github.com/theforeman/foreman/tree/1.1RC1)
 - **theforeman/hammer-cli-foreman** – [🔖 1.1RC1](https://github.com/theforeman/hammer-cli-foreman/tree/1.1RC1)
 
@@ -28161,6 +28950,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openvoxdb** – [🔖 1.0.4](https://github.com/OpenVoxProject/openvoxdb/tree/1.0.4)
 - **voxpupuli/puppet-network** – [🔖 0.1.0-rc1](https://github.com/voxpupuli/puppet-network/tree/0.1.0-rc1)
 
+## 📅 2012-11-26
+- **puppetlabs-toy-chest/puppetlabs-auth_conf** – [🔖 0.0.6](https://github.com/puppetlabs-toy-chest/puppetlabs-auth_conf/tree/0.0.6)
+
 ## 📅 2012-11-24
 - **theforeman/redmine** – [🔖 2.1.4](https://github.com/theforeman/redmine/tree/2.1.4)
 
@@ -28169,6 +28961,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2012-11-21
 - **OpenVoxProject/openfact** – [🔖 1.6.15-rc1](https://github.com/OpenVoxProject/openfact/tree/1.6.15-rc1)
+- **puppetlabs-toy-chest/puppetlabs-razor** – [🔖 0.3.0](https://github.com/puppetlabs-toy-chest/puppetlabs-razor/tree/0.3.0)
 - **theforeman/puppet-staging** – [🔖 0.2.1](https://github.com/theforeman/puppet-staging/tree/0.2.1)
 - **voxpupuli/puppet-fetchcrl** – [🔖 puppet-fetchcrl-0.0.2](https://github.com/voxpupuli/puppet-fetchcrl/tree/puppet-fetchcrl-0.0.2)
 - **voxpupuli/puppet-staging** – [🔖 0.2.1](https://github.com/voxpupuli/puppet-staging/tree/0.2.1)
@@ -28194,6 +28987,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/librarian-puppet** – [🔖 maestrodev-v0.9.7.1](https://github.com/voxpupuli/librarian-puppet/tree/maestrodev-v0.9.7.1)
 
 ## 📅 2012-11-14
+- **puppetlabs-toy-chest/puppetlabs-auth_conf** – [🔖 0.0.5](https://github.com/puppetlabs-toy-chest/puppetlabs-auth_conf/tree/0.0.5)
 - **voxpupuli/librarian-puppet** – [🔖 maestrodev-v0.9.7](https://github.com/voxpupuli/librarian-puppet/tree/maestrodev-v0.9.7)
 
 ## 📅 2012-11-12
@@ -28204,6 +28998,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2012-11-09
 - **OpenVoxProject/openvox** – [🔖 2.7.20-rc1](https://github.com/OpenVoxProject/openvox/tree/2.7.20-rc1)
+- **puppetlabs-toy-chest/puppetlabs-auth_conf** – [🔖 0.0.4](https://github.com/puppetlabs-toy-chest/puppetlabs-auth_conf/tree/0.0.4)
 
 ## 📅 2012-11-08
 - **voxpupuli/puppet-augeasproviders** – [🔖 v0.4.0](https://github.com/voxpupuli/puppet-augeasproviders/tree/v0.4.0)
@@ -28212,6 +29007,9 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2012-11-07
 - **voxpupuli/puppet-system** – [🔖 v0.2.2](https://github.com/voxpupuli/puppet-system/tree/v0.2.2)
+
+## 📅 2012-11-06
+- **puppetlabs-toy-chest/puppetlabs-auth_conf** – [🔖 0.0.3](https://github.com/puppetlabs-toy-chest/puppetlabs-auth_conf/tree/0.0.3)
 
 ## 📅 2012-11-05
 - **voxpupuli/puppet-system** – [🔖 v0.2.1](https://github.com/voxpupuli/puppet-system/tree/v0.2.1)
@@ -28227,6 +29025,12 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2012-10-31
 - **OpenVoxProject/hiera** – [🔖 1.1.1](https://github.com/OpenVoxProject/hiera/tree/1.1.1)
 - **theforeman/ldap_fluff** – [🔖 rubygem-ldap_fluff-0.1.3-1](https://github.com/theforeman/ldap_fluff/tree/rubygem-ldap_fluff-0.1.3-1)
+
+## 📅 2012-10-30
+- **puppetlabs-toy-chest/puppetlabs-auth_conf** – [🔖 0.0.2](https://github.com/puppetlabs-toy-chest/puppetlabs-auth_conf/tree/0.0.2)
+
+## 📅 2012-10-29
+- **puppetlabs-toy-chest/puppetlabs-auth_conf** – [🔖 0.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-auth_conf/tree/0.0.1)
 
 ## 📅 2012-10-28
 - **voxpupuli/puppet-filemapper** – [🔖 1.0.2](https://github.com/voxpupuli/puppet-filemapper/tree/1.0.2)
@@ -28279,12 +29083,14 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2012-10-12
 - **OpenVoxProject/openvox** – [🔖 3.0.1-rc1](https://github.com/OpenVoxProject/openvox/tree/3.0.1-rc1)
+- **puppetlabs-toy-chest/geppetto** – [🔖 3.0.1](https://github.com/puppetlabs-toy-chest/geppetto/tree/3.0.1)
 - **voxpupuli/librarian** – [🔖 v0.0.25](https://github.com/voxpupuli/librarian/tree/v0.0.25)
 
 ## 📅 2012-10-11
 - **voxpupuli/librarian-puppet** – [🔖 v0.9.7](https://github.com/voxpupuli/librarian-puppet/tree/v0.9.7)
 
 ## 📅 2012-10-10
+- **puppetlabs-toy-chest/puppetlabs-mount_providers** – [🔖 0.0.2](https://github.com/puppetlabs-toy-chest/puppetlabs-mount_providers/tree/0.0.2)
 - **voxpupuli/beaker** – [🔖 pe2.6.1](https://github.com/voxpupuli/beaker/tree/pe2.6.1)
 
 ## 📅 2012-10-09
@@ -28321,15 +29127,18 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-augeasproviders_syslog** – [🔖 v0.3.1](https://github.com/voxpupuli/puppet-augeasproviders_syslog/tree/v0.3.1)
 
 ## 📅 2012-09-23
+- **puppetlabs-toy-chest/geppetto** – [🔖 3.0.0](https://github.com/puppetlabs-toy-chest/geppetto/tree/3.0.0)
 - **voxpupuli/puppet-openvoxdb** – [🔖 1.0.3](https://github.com/voxpupuli/puppet-openvoxdb/tree/1.0.3)
 
 ## 📅 2012-09-21
 - **OpenVoxProject/openvox** – [🔖 3.0.0-rc7](https://github.com/OpenVoxProject/openvox/tree/3.0.0-rc7)
+- **puppetlabs-toy-chest/stackhammer-api** – [🔖 api-1.0.4](https://github.com/puppetlabs-toy-chest/stackhammer-api/tree/api-1.0.4)
 - **voxpupuli/puppet-openvoxdb** – [🔖 1.0.1](https://github.com/voxpupuli/puppet-openvoxdb/tree/1.0.1)
 - **voxpupuli/puppet-openvoxdb** – [🔖 1.0.2](https://github.com/voxpupuli/puppet-openvoxdb/tree/1.0.2)
 
 ## 📅 2012-09-20
 - **OpenVoxProject/openvoxdb** – [🔖 1.0.0](https://github.com/OpenVoxProject/openvoxdb/tree/1.0.0)
+- **puppetlabs-toy-chest/stackhammer-api** – [🔖 api-1.0.3](https://github.com/puppetlabs-toy-chest/stackhammer-api/tree/api-1.0.3)
 
 ## 📅 2012-09-19
 - **voxpupuli/puppet-openvoxdb** – [🔖 1.0](https://github.com/voxpupuli/puppet-openvoxdb/tree/1.0)
@@ -28402,6 +29211,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/puppetlabs-apache** – [🔖 0.4.0](https://github.com/theforeman/puppetlabs-apache/tree/0.4.0)
 - **theforeman/puppetlabs-mysql** – [🔖 0.5.0](https://github.com/theforeman/puppetlabs-mysql/tree/0.5.0)
 
+## 📅 2012-08-23
+- **puppetlabs-toy-chest/puppetlabs-denyhosts** – [🔖 0.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-denyhosts/tree/0.0.1)
+
 ## 📅 2012-08-22
 - **theforeman/puppetlabs-apache** – [🔖 0.3.0](https://github.com/theforeman/puppetlabs-apache/tree/0.3.0)
 
@@ -28466,7 +29278,12 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2012-07-28
 - **theforeman/fog** – [🔖 v1.5.0](https://github.com/theforeman/fog/tree/v1.5.0)
 
+## 📅 2012-07-27
+- **puppetlabs-toy-chest/puppetlabs-tftp** – [🔖 0.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-tftp/tree/0.2.0)
+
 ## 📅 2012-07-24
+- **puppetlabs-toy-chest/puppetlabs-razor** – [🔖 0.2.0](https://github.com/puppetlabs-toy-chest/puppetlabs-razor/tree/0.2.0)
+- **puppetlabs-toy-chest/puppetlabs-razor** – [🔖 0.2.1](https://github.com/puppetlabs-toy-chest/puppetlabs-razor/tree/0.2.1)
 - **theforeman/puppetlabs-mysql** – [🔖 0.4.0](https://github.com/theforeman/puppetlabs-mysql/tree/0.4.0)
 
 ## 📅 2012-07-23
@@ -28489,6 +29306,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/smart-proxy** – [🔖 1.0](https://github.com/theforeman/smart-proxy/tree/1.0)
 
 ## 📅 2012-07-18
+- **puppetlabs-toy-chest/geppetto** – [🔖 2.2.1](https://github.com/puppetlabs-toy-chest/geppetto/tree/2.2.1)
+- **puppetlabs-toy-chest/puppetlabs-cloud_provisioner** – [🔖 1.0.5](https://github.com/puppetlabs-toy-chest/puppetlabs-cloud_provisioner/tree/1.0.5)
+- **puppetlabs-toy-chest/puppetlabs-ruby** – [🔖 0.0.2](https://github.com/puppetlabs-toy-chest/puppetlabs-ruby/tree/0.0.2)
 - **theforeman/smart-proxy** – [🔖 1.0RC2](https://github.com/theforeman/smart-proxy/tree/1.0RC2)
 - **voxpupuli/puppet-vmwaretools** – [🔖 4.0.2](https://github.com/voxpupuli/puppet-vmwaretools/tree/4.0.2)
 
@@ -28539,6 +29359,12 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/redmine_backlogs** – [🔖 v0.9.22](https://github.com/theforeman/redmine_backlogs/tree/v0.9.22)
 - **theforeman/redmine_backlogs** – [🔖 v0.9.23](https://github.com/theforeman/redmine_backlogs/tree/v0.9.23)
 
+## 📅 2012-07-03
+- **puppetlabs-toy-chest/puppetlabs-razor** – [🔖 0.1.4](https://github.com/puppetlabs-toy-chest/puppetlabs-razor/tree/0.1.4)
+
+## 📅 2012-07-02
+- **puppetlabs-toy-chest/stackhammer-api** – [🔖 api-1.0.2](https://github.com/puppetlabs-toy-chest/stackhammer-api/tree/api-1.0.2)
+
 ## 📅 2012-07-01
 - **theforeman/redmine_backlogs** – [🔖 v0.9.18](https://github.com/theforeman/redmine_backlogs/tree/v0.9.18)
 - **theforeman/redmine_backlogs** – [🔖 v0.9.19](https://github.com/theforeman/redmine_backlogs/tree/v0.9.19)
@@ -28552,6 +29378,9 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2012-06-29
 - **theforeman/ldap_fluff** – [🔖 rubygem-ldap_fluff-0.0.6-1](https://github.com/theforeman/ldap_fluff/tree/rubygem-ldap_fluff-0.0.6-1)
+
+## 📅 2012-06-28
+- **puppetlabs-toy-chest/stackhammer-api** – [🔖 api-1.0.1](https://github.com/puppetlabs-toy-chest/stackhammer-api/tree/api-1.0.1)
 
 ## 📅 2012-06-27
 - **theforeman/foreman** – [🔖 1.0RC2](https://github.com/theforeman/foreman/tree/1.0RC2)
@@ -28597,12 +29426,18 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2012-06-11
 - **voxpupuli/puppet-dhcp** – [🔖 0.1.0](https://github.com/voxpupuli/puppet-dhcp/tree/0.1.0)
 
+## 📅 2012-06-08
+- **puppetlabs-toy-chest/puppetlabs-ruby** – [🔖 0.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-ruby/tree/0.0.1)
+
 ## 📅 2012-06-07
+- **puppetlabs-toy-chest/stackhammer-api** – [🔖 api-1.0.0](https://github.com/puppetlabs-toy-chest/stackhammer-api/tree/api-1.0.0)
 - **voxpupuli/librarian-puppet** – [🔖 v0.9.0](https://github.com/voxpupuli/librarian-puppet/tree/v0.9.0)
 
 ## 📅 2012-06-06
 - **OpenVoxProject/openfact** – [🔖 1.6.10rc1](https://github.com/OpenVoxProject/openfact/tree/1.6.10rc1)
 - **OpenVoxProject/openvox** – [🔖 2.7.16rc1](https://github.com/OpenVoxProject/openvox/tree/2.7.16rc1)
+- **puppetlabs-toy-chest/puppetlabs-razor** – [🔖 0.1.2](https://github.com/puppetlabs-toy-chest/puppetlabs-razor/tree/0.1.2)
+- **puppetlabs-toy-chest/puppetlabs-razor** – [🔖 0.1.3](https://github.com/puppetlabs-toy-chest/puppetlabs-razor/tree/0.1.3)
 
 ## 📅 2012-06-05
 - **theforeman/redmine** – [🔖 1.4.3](https://github.com/theforeman/redmine/tree/1.4.3)
@@ -28645,6 +29480,8 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2012-05-23
 - **OpenVoxProject/openvox** – [🔖 3.0.0rc2](https://github.com/OpenVoxProject/openvox/tree/3.0.0rc2)
+- **puppetlabs-toy-chest/puppetlabs-razor** – [🔖 0.1.0](https://github.com/puppetlabs-toy-chest/puppetlabs-razor/tree/0.1.0)
+- **puppetlabs-toy-chest/puppetlabs-razor** – [🔖 0.1.1](https://github.com/puppetlabs-toy-chest/puppetlabs-razor/tree/0.1.1)
 
 ## 📅 2012-05-22
 - **OpenVoxProject/hiera** – [🔖 1.0.0rc3](https://github.com/OpenVoxProject/hiera/tree/1.0.0rc3)
@@ -28680,6 +29517,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-amanda** – [🔖 0.1.3](https://github.com/voxpupuli/puppet-amanda/tree/0.1.3)
 
 ## 📅 2012-05-13
+- **puppetlabs-toy-chest/puppetlabs-passenger** – [🔖 0.0.3](https://github.com/puppetlabs-toy-chest/puppetlabs-passenger/tree/0.0.3)
+- **puppetlabs-toy-chest/puppetlabs-passenger** – [🔖 0.0.4](https://github.com/puppetlabs-toy-chest/puppetlabs-passenger/tree/0.0.4)
 - **theforeman/redmine** – [🔖 1.4.2](https://github.com/theforeman/redmine/tree/1.4.2)
 - **theforeman/redmine_backlogs** – [🔖 v0.9.7](https://github.com/theforeman/redmine_backlogs/tree/v0.9.7)
 - **voxpupuli/puppet-amanda** – [🔖 0.1.2](https://github.com/voxpupuli/puppet-amanda/tree/0.1.2)
@@ -28751,16 +29590,21 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-vmwaretools** – [🔖 4.0.0](https://github.com/voxpupuli/puppet-vmwaretools/tree/4.0.0)
 
 ## 📅 2012-04-20
+- **puppetlabs-toy-chest/puppetlabs-cloud_provisioner** – [🔖 1.0.3](https://github.com/puppetlabs-toy-chest/puppetlabs-cloud_provisioner/tree/1.0.3)
+- **puppetlabs-toy-chest/puppetlabs-cloud_provisioner** – [🔖 1.0.4](https://github.com/puppetlabs-toy-chest/puppetlabs-cloud_provisioner/tree/1.0.4)
 - **theforeman/redmine** – [🔖 1.4.1](https://github.com/theforeman/redmine/tree/1.4.1)
 
 ## 📅 2012-04-19
 - **theforeman/mfsbsd** – [🔖 2.0](https://github.com/theforeman/mfsbsd/tree/2.0)
 
 ## 📅 2012-04-18
+- **puppetlabs-toy-chest/puppetlabs-mount_providers** – [🔖 0.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-mount_providers/tree/0.0.1)
 - **voxpupuli/librarian** – [🔖 v0.0.17](https://github.com/voxpupuli/librarian/tree/v0.0.17)
 
 ## 📅 2012-04-16
 - **OpenVoxProject/openvox** – [🔖 2.7.14rc1](https://github.com/OpenVoxProject/openvox/tree/2.7.14rc1)
+- **puppetlabs-toy-chest/puppetlabs-node_openstack** – [🔖 v0.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-node_openstack/tree/v0.0.1)
+- **puppetlabs-toy-chest/puppetlabs-node_openstack** – [🔖 v0.0.2](https://github.com/puppetlabs-toy-chest/puppetlabs-node_openstack/tree/v0.0.2)
 - **voxpupuli/rundeck** – [🔖 v1.4.2.1](https://github.com/voxpupuli/rundeck/tree/v1.4.2.1)
 
 ## 📅 2012-04-14
@@ -28781,6 +29625,7 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2012-04-10
 - **OpenVoxProject/openvox** – [🔖 2.6.15](https://github.com/OpenVoxProject/openvox/tree/2.6.15)
 - **OpenVoxProject/openvox** – [🔖 2.7.13](https://github.com/OpenVoxProject/openvox/tree/2.7.13)
+- **puppetlabs-toy-chest/puppetlabs-cloudformation** – [🔖 0.0.2](https://github.com/puppetlabs-toy-chest/puppetlabs-cloudformation/tree/0.0.2)
 
 ## 📅 2012-04-06
 - **voxpupuli/puppet-bacula** – [🔖 1.0.0](https://github.com/voxpupuli/puppet-bacula/tree/1.0.0)
@@ -28800,6 +29645,9 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2012-03-25
 - **voxpupuli/puppet-unbound** – [🔖 0.0.1](https://github.com/voxpupuli/puppet-unbound/tree/0.0.1)
+
+## 📅 2012-03-23
+- **puppetlabs-toy-chest/puppetlabs-cloud_provisioner** – [🔖 1.0.2](https://github.com/puppetlabs-toy-chest/puppetlabs-cloud_provisioner/tree/1.0.2)
 
 ## 📅 2012-03-22
 - **OpenVoxProject/openfact** – [🔖 1.6.7rc1](https://github.com/OpenVoxProject/openfact/tree/1.6.7rc1)
@@ -28889,6 +29737,10 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2012-02-03
 - **voxpupuli/beaker** – [🔖 pe2.0.2](https://github.com/voxpupuli/beaker/tree/pe2.0.2)
 
+## 📅 2012-02-02
+- **puppetlabs-toy-chest/geppetto** – [🔖 2.1.2](https://github.com/puppetlabs-toy-chest/geppetto/tree/2.1.2)
+- **puppetlabs-toy-chest/geppetto** – [🔖 2.2.0](https://github.com/puppetlabs-toy-chest/geppetto/tree/2.2.0)
+
 ## 📅 2012-02-01
 - **theforeman/redmine_backlogs** – [🔖 v0.8.2](https://github.com/theforeman/redmine_backlogs/tree/v0.8.2)
 - **theforeman/redmine_backlogs** – [🔖 v0.8.3](https://github.com/theforeman/redmine_backlogs/tree/v0.8.3)
@@ -28941,6 +29793,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/foreman** – [🔖 0.4.1](https://github.com/theforeman/foreman/tree/0.4.1)
 - **theforeman/hammer-cli-foreman** – [🔖 0.4.1](https://github.com/theforeman/hammer-cli-foreman/tree/0.4.1)
 
+## 📅 2011-12-20
+- **puppetlabs-toy-chest/puppetlabs-cloudformation** – [🔖 v0.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-cloudformation/tree/v0.0.1)
+
 ## 📅 2011-12-18
 - **theforeman/fog** – [🔖 v1.1.2](https://github.com/theforeman/fog/tree/v1.1.2)
 
@@ -28952,6 +29807,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/rundeck** – [🔖 v1.4.1](https://github.com/voxpupuli/rundeck/tree/v1.4.1)
 
 ## 📅 2011-12-14
+- **puppetlabs-toy-chest/puppetlabs-sqlite** – [🔖 v0.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-sqlite/tree/v0.0.1)
 - **voxpupuli/json-schema** – [🔖 0.9.12](https://github.com/voxpupuli/json-schema/tree/0.9.12)
 - **voxpupuli/puppet-mrepo** – [🔖 v0.1.2](https://github.com/voxpupuli/puppet-mrepo/tree/v0.1.2)
 
@@ -29012,6 +29868,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/beaker** – [🔖 pe2.0](https://github.com/voxpupuli/beaker/tree/pe2.0)
 
 ## 📅 2011-11-11
+- **puppetlabs-toy-chest/puppetlabs-cloud_provisioner** – [🔖 v1.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-cloud_provisioner/tree/v1.0.1)
 - **theforeman/fog** – [🔖 v1.1.0](https://github.com/theforeman/fog/tree/v1.1.0)
 - **theforeman/fog** – [🔖 v1.1.1](https://github.com/theforeman/fog/tree/v1.1.1)
 - **theforeman/redmine** – [🔖 1.2.2](https://github.com/theforeman/redmine/tree/1.2.2)
@@ -29027,6 +29884,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/smart-proxy** – [🔖 0.3](https://github.com/theforeman/smart-proxy/tree/0.3)
 
 ## 📅 2011-11-07
+- **puppetlabs-toy-chest/puppetlabs-cloud_provisioner** – [🔖 v1.0.0](https://github.com/puppetlabs-toy-chest/puppetlabs-cloud_provisioner/tree/v1.0.0)
 - **theforeman/foreman** – [🔖 0.4rc5](https://github.com/theforeman/foreman/tree/0.4rc5)
 - **theforeman/hammer-cli-foreman** – [🔖 0.4rc5](https://github.com/theforeman/hammer-cli-foreman/tree/0.4rc5)
 
@@ -29044,9 +29902,17 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/rundeck** – [🔖 v1.4.0](https://github.com/voxpupuli/rundeck/tree/v1.4.0)
 
 ## 📅 2011-10-25
+- **puppetlabs-toy-chest/geppetto** – [🔖 2.1.0](https://github.com/puppetlabs-toy-chest/geppetto/tree/2.1.0)
+- **puppetlabs-toy-chest/puppetlabs-cve20113872** – [🔖 v0.0.5](https://github.com/puppetlabs-toy-chest/puppetlabs-cve20113872/tree/v0.0.5)
 - **theforeman/foreman** – [🔖 0.4rc4](https://github.com/theforeman/foreman/tree/0.4rc4)
 - **theforeman/hammer-cli-foreman** – [🔖 0.4rc4](https://github.com/theforeman/hammer-cli-foreman/tree/0.4rc4)
 - **voxpupuli/librarian** – [🔖 v0.0.9](https://github.com/voxpupuli/librarian/tree/v0.0.9)
+
+## 📅 2011-10-24
+- **puppetlabs-toy-chest/puppetlabs-cve20113872** – [🔖 v0.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-cve20113872/tree/v0.0.1)
+- **puppetlabs-toy-chest/puppetlabs-cve20113872** – [🔖 v0.0.2](https://github.com/puppetlabs-toy-chest/puppetlabs-cve20113872/tree/v0.0.2)
+- **puppetlabs-toy-chest/puppetlabs-cve20113872** – [🔖 v0.0.3](https://github.com/puppetlabs-toy-chest/puppetlabs-cve20113872/tree/v0.0.3)
+- **puppetlabs-toy-chest/puppetlabs-cve20113872** – [🔖 v0.0.4](https://github.com/puppetlabs-toy-chest/puppetlabs-cve20113872/tree/v0.0.4)
 
 ## 📅 2011-10-22
 - **OpenVoxProject/openvox** – [🔖 0.25.6](https://github.com/OpenVoxProject/openvox/tree/0.25.6)
@@ -29057,11 +29923,17 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/foreman** – [🔖 0.4rc3](https://github.com/theforeman/foreman/tree/0.4rc3)
 - **theforeman/hammer-cli-foreman** – [🔖 0.4rc3](https://github.com/theforeman/hammer-cli-foreman/tree/0.4rc3)
 
+## 📅 2011-10-15
+- **puppetlabs-toy-chest/geppetto** – [🔖 2.0.1](https://github.com/puppetlabs-toy-chest/geppetto/tree/2.0.1)
+
 ## 📅 2011-10-13
 - **OpenVoxProject/openvox** – [🔖 2.7.6rc3](https://github.com/OpenVoxProject/openvox/tree/2.7.6rc3)
 
 ## 📅 2011-10-12
 - **OpenVoxProject/nssm** – [🔖 v2.10](https://github.com/OpenVoxProject/nssm/tree/v2.10)
+
+## 📅 2011-10-11
+- **puppetlabs-toy-chest/puppetlabs-cloud_provisioner** – [🔖 v0.6.0rc2](https://github.com/puppetlabs-toy-chest/puppetlabs-cloud_provisioner/tree/v0.6.0rc2)
 
 ## 📅 2011-10-10
 - **OpenVoxProject/openfact** – [🔖 1.6.2](https://github.com/OpenVoxProject/openfact/tree/1.6.2)
@@ -29100,6 +29972,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openfact** – [🔖 1.6.1rc4](https://github.com/OpenVoxProject/openfact/tree/1.6.1rc4)
 
 ## 📅 2011-09-18
+- **puppetlabs-toy-chest/geppetto** – [🔖 2.0.0](https://github.com/puppetlabs-toy-chest/geppetto/tree/2.0.0)
 - **voxpupuli/librarian** – [🔖 v0.0.6](https://github.com/voxpupuli/librarian/tree/v0.0.6)
 - **voxpupuli/librarian** – [🔖 v0.0.7](https://github.com/voxpupuli/librarian/tree/v0.0.7)
 
@@ -29141,6 +30014,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-mcollective** – [🔖 v0.2.0](https://github.com/voxpupuli/puppet-mcollective/tree/v0.2.0)
 
 ## 📅 2011-08-17
+- **puppetlabs-toy-chest/geppetto** – [🔖 1.0.2](https://github.com/puppetlabs-toy-chest/geppetto/tree/1.0.2)
 - **voxpupuli/librarian** – [🔖 v0.0.5](https://github.com/voxpupuli/librarian/tree/v0.0.5)
 
 ## 📅 2011-08-15
@@ -29148,6 +30022,9 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2011-08-12
 - **voxpupuli/puppet-openvpn** – [🔖 v1.0](https://github.com/voxpupuli/puppet-openvpn/tree/v1.0)
+
+## 📅 2011-08-09
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 v0.3.4](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/v0.3.4)
 
 ## 📅 2011-08-08
 - **voxpupuli/librarian** – [🔖 v0.0.4](https://github.com/voxpupuli/librarian/tree/v0.0.4)
@@ -29171,6 +30048,9 @@ _Generated at 2025-10-19 20:17 UTC_
 - **OpenVoxProject/openvox** – [🔖 2.7.2rc2](https://github.com/OpenVoxProject/openvox/tree/2.7.2rc2)
 - **theforeman/fog** – [🔖 v0.10.0](https://github.com/theforeman/fog/tree/v0.10.0)
 
+## 📅 2011-07-20
+- **puppetlabs-toy-chest/puppetlabs-cloud_provisioner** – [🔖 v0.6.0rc1](https://github.com/puppetlabs-toy-chest/puppetlabs-cloud_provisioner/tree/v0.6.0rc1)
+
 ## 📅 2011-07-15
 - **voxpupuli/rundeck** – [🔖 v1.3](https://github.com/voxpupuli/rundeck/tree/v1.3)
 
@@ -29179,6 +30059,10 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2011-07-06
 - **OpenVoxProject/openvox** – [🔖 2.7.2rc1](https://github.com/OpenVoxProject/openvox/tree/2.7.2rc1)
+
+## 📅 2011-06-29
+- **puppetlabs-toy-chest/geppetto** – [🔖 1.0.1](https://github.com/puppetlabs-toy-chest/geppetto/tree/1.0.1)
+- **puppetlabs-toy-chest/puppetlabs-cloud_provisioner** – [🔖 v0.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-cloud_provisioner/tree/v0.0.1)
 
 ## 📅 2011-06-25
 - **voxpupuli/librarian** – [🔖 v0.0.3](https://github.com/voxpupuli/librarian/tree/v0.0.3)
@@ -29195,6 +30079,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2011-06-21
 - **OpenVoxProject/openvox** – [🔖 2.6.9](https://github.com/OpenVoxProject/openvox/tree/2.6.9)
+- **puppetlabs-toy-chest/puppetlabs-activemq** – [🔖 v0.1.6](https://github.com/puppetlabs-toy-chest/puppetlabs-activemq/tree/v0.1.6)
 
 ## 📅 2011-06-20
 - **voxpupuli/librarian** – [🔖 v0.0.1](https://github.com/voxpupuli/librarian/tree/v0.0.1)
@@ -29202,6 +30087,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2011-06-17
 - **OpenVoxProject/openvox** – [🔖 2.7.0](https://github.com/OpenVoxProject/openvox/tree/2.7.0)
+- **puppetlabs-toy-chest/puppetlabs-activemq** – [🔖 v0.1.5](https://github.com/puppetlabs-toy-chest/puppetlabs-activemq/tree/v0.1.5)
 
 ## 📅 2011-06-16
 - **OpenVoxProject/openfact** – [🔖 1.6.0rc1](https://github.com/OpenVoxProject/openfact/tree/1.6.0rc1)
@@ -29229,6 +30115,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-nginx** – [🔖 v0.0.1](https://github.com/voxpupuli/puppet-nginx/tree/v0.0.1)
 
 ## 📅 2011-06-06
+- **puppetlabs-toy-chest/puppetlabs-git** – [🔖 0.0.2](https://github.com/puppetlabs-toy-chest/puppetlabs-git/tree/0.0.2)
 - **theforeman/smart-proxy** – [🔖 0.2](https://github.com/theforeman/smart-proxy/tree/0.2)
 - **voxpupuli/rundeck** – [🔖 v1.2.1](https://github.com/voxpupuli/rundeck/tree/v1.2.1)
 
@@ -29239,6 +30126,9 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2011-06-04
 - **OpenVoxProject/hiera** – [🔖 v0.0.0](https://github.com/OpenVoxProject/hiera/tree/v0.0.0)
 
+## 📅 2011-06-03
+- **puppetlabs-toy-chest/puppetlabs-git** – [🔖 0.0.1](https://github.com/puppetlabs-toy-chest/puppetlabs-git/tree/0.0.1)
+
 ## 📅 2011-06-02
 - **voxpupuli/puppet-mcollective** – [🔖 0.1.6](https://github.com/voxpupuli/puppet-mcollective/tree/0.1.6)
 
@@ -29247,6 +30137,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-mcollective** – [🔖 0.1.5](https://github.com/voxpupuli/puppet-mcollective/tree/0.1.5)
 
 ## 📅 2011-05-31
+- **puppetlabs-toy-chest/puppetlabs-activemq** – [🔖 0.1.4](https://github.com/puppetlabs-toy-chest/puppetlabs-activemq/tree/0.1.4)
 - **voxpupuli/puppet-mcollective** – [🔖 0.1.3](https://github.com/voxpupuli/puppet-mcollective/tree/0.1.3)
 
 ## 📅 2011-05-30
@@ -29257,6 +30148,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-mcollective** – [🔖 0.1.1](https://github.com/voxpupuli/puppet-mcollective/tree/0.1.1)
 
 ## 📅 2011-05-28
+- **puppetlabs-toy-chest/puppetlabs-activemq** – [🔖 0.1.3](https://github.com/puppetlabs-toy-chest/puppetlabs-activemq/tree/0.1.3)
 - **voxpupuli/puppet-mcollective** – [🔖 0.1.0](https://github.com/voxpupuli/puppet-mcollective/tree/0.1.0)
 
 ## 📅 2011-05-27
@@ -29271,6 +30163,10 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/puppet-mcollective** – [🔖 0.0.4](https://github.com/voxpupuli/puppet-mcollective/tree/0.0.4)
 - **voxpupuli/puppet-mcollective** – [🔖 0.0.5](https://github.com/voxpupuli/puppet-mcollective/tree/0.0.5)
 - **voxpupuli/puppet-mcollective** – [🔖 0.0.6](https://github.com/voxpupuli/puppet-mcollective/tree/0.0.6)
+
+## 📅 2011-05-25
+- **puppetlabs-toy-chest/puppetlabs-activemq** – [🔖 0.1.1](https://github.com/puppetlabs-toy-chest/puppetlabs-activemq/tree/0.1.1)
+- **puppetlabs-toy-chest/puppetlabs-activemq** – [🔖 0.1.2](https://github.com/puppetlabs-toy-chest/puppetlabs-activemq/tree/0.1.2)
 
 ## 📅 2011-05-20
 - **OpenVoxProject/openfact** – [🔖 1.5.9](https://github.com/OpenVoxProject/openfact/tree/1.5.9)
@@ -29289,6 +30185,7 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2011-05-10
 - **OpenVoxProject/openfact** – [🔖 1.5.9rc6](https://github.com/OpenVoxProject/openfact/tree/1.5.9rc6)
+- **puppetlabs-toy-chest/geppetto** – [🔖 1.0.0](https://github.com/puppetlabs-toy-chest/geppetto/tree/1.0.0)
 
 ## 📅 2011-05-08
 - **theforeman/puppet-concat_native** – [🔖 1.0](https://github.com/theforeman/puppet-concat_native/tree/1.0)
@@ -29307,6 +30204,9 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2011-04-21
 - **voxpupuli/json-schema** – [🔖 0.9.3](https://github.com/voxpupuli/json-schema/tree/0.9.3)
+
+## 📅 2011-04-15
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 v0.3.3](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/v0.3.3)
 
 ## 📅 2011-04-14
 - **OpenVoxProject/openvox** – [🔖 2.7.0rc1](https://github.com/OpenVoxProject/openvox/tree/2.7.0rc1)
@@ -29377,6 +30277,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **voxpupuli/json-schema** – [🔖 0.2.0](https://github.com/voxpupuli/json-schema/tree/0.2.0)
 
 ## 📅 2011-03-07
+- **puppetlabs-toy-chest/geppetto** – [🔖 0.1.2](https://github.com/puppetlabs-toy-chest/geppetto/tree/0.1.2)
 - **theforeman/redmine** – [🔖 1.1.2](https://github.com/theforeman/redmine/tree/1.1.2)
 
 ## 📅 2011-03-03
@@ -29444,6 +30345,9 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2011-01-05
 - **theforeman/fog** – [🔖 v0.4.0](https://github.com/theforeman/fog/tree/v0.4.0)
+
+## 📅 2010-12-30
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.3.2](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.3.2)
 
 ## 📅 2010-12-23
 - **OpenVoxProject/openvox** – [🔖 debian/2.6.2-4](https://github.com/OpenVoxProject/openvox/tree/debian/2.6.2-4)
@@ -29648,6 +30552,9 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2010-07-28
 - **OpenVoxProject/openvox** – [🔖 debian/2.6.0-2](https://github.com/OpenVoxProject/openvox/tree/debian/2.6.0-2)
 
+## 📅 2010-07-27
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.1.13](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.1.13)
+
 ## 📅 2010-07-26
 - **OpenVoxProject/openvox** – [🔖 2.6.1rc1](https://github.com/OpenVoxProject/openvox/tree/2.6.1rc1)
 
@@ -29696,6 +30603,7 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/redmine** – [🔖 0.9.6](https://github.com/theforeman/redmine/tree/0.9.6)
 
 ## 📅 2010-07-02
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.1.12](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.1.12)
 - **theforeman/fog** – [🔖 v0.2.10](https://github.com/theforeman/fog/tree/v0.2.10)
 - **theforeman/fog** – [🔖 v0.2.11](https://github.com/theforeman/fog/tree/v0.2.11)
 
@@ -29721,6 +30629,14 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2010-06-25
 - **OpenVoxProject/openvox** – [🔖 debian/0.25.5-1](https://github.com/OpenVoxProject/openvox/tree/debian/0.25.5-1)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.1.11](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.1.11)
+
+## 📅 2010-06-24
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.1.10](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.1.10)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.1.9](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.1.9)
+
+## 📅 2010-06-21
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.1.8](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.1.8)
 
 ## 📅 2010-06-19
 - **theforeman/fog** – [🔖 v0.2.0](https://github.com/theforeman/fog/tree/v0.2.0)
@@ -29731,48 +30647,99 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2010-06-16
 - **theforeman/fog** – [🔖 v0.1.9](https://github.com/theforeman/fog/tree/v0.1.9)
 
+## 📅 2010-06-09
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.1.7](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.1.7)
+
 ## 📅 2010-06-08
 - **theforeman/fog** – [🔖 v0.1.8](https://github.com/theforeman/fog/tree/v0.1.8)
 
 ## 📅 2010-06-07
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.3.1](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.3.1)
 - **theforeman/fog** – [🔖 v0.1.6](https://github.com/theforeman/fog/tree/v0.1.6)
 - **theforeman/fog** – [🔖 v0.1.7](https://github.com/theforeman/fog/tree/v0.1.7)
 - **theforeman/foreman** – [🔖 0.1-5](https://github.com/theforeman/foreman/tree/0.1-5)
 - **theforeman/hammer-cli-foreman** – [🔖 0.1-5](https://github.com/theforeman/hammer-cli-foreman/tree/0.1-5)
 
+## 📅 2010-05-28
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.1.6](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.1.6)
+
 ## 📅 2010-05-27
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.1.3](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.1.3)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.1.4](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.1.4)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.1.5](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.1.5)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.3.0](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.3.0)
 - **theforeman/fog** – [🔖 v0.1.4](https://github.com/theforeman/fog/tree/v0.1.4)
 - **theforeman/fog** – [🔖 v0.1.5](https://github.com/theforeman/fog/tree/v0.1.5)
 
 ## 📅 2010-05-26
 - **theforeman/fog** – [🔖 v0.1.3](https://github.com/theforeman/fog/tree/v0.1.3)
 
+## 📅 2010-05-25
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.1.1](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.1.1)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.1.2](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.1.2)
+
 ## 📅 2010-05-24
 - **theforeman/fog** – [🔖 v0.1.1](https://github.com/theforeman/fog/tree/v0.1.1)
 - **theforeman/fog** – [🔖 v0.1.2](https://github.com/theforeman/fog/tree/v0.1.2)
 
+## 📅 2010-05-23
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.2.9](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.2.9)
+
+## 📅 2010-05-21
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.0.7.7](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.0.7.7)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.2.6](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.2.6)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.2.7](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.2.7)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.2.8](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.2.8)
+
 ## 📅 2010-05-19
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.0.7.4](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.0.7.4)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.0.7.5](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.0.7.5)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.0.7.6](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.0.7.6)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.2.3](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.2.3)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.2.4](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.2.4)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.2.5](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.2.5)
 - **theforeman/fog** – [🔖 v0.1.0](https://github.com/theforeman/fog/tree/v0.1.0)
 
 ## 📅 2010-05-18
 - **OpenVoxProject/openvox** – [🔖 0.25.5](https://github.com/OpenVoxProject/openvox/tree/0.25.5)
 - **OpenVoxProject/openvox** – [🔖 upstream/0.25.5](https://github.com/OpenVoxProject/openvox/tree/upstream/0.25.5)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.0.7.3](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.0.7.3)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.2.2](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.2.2)
 - **theforeman/fog** – [🔖 v0.0.100](https://github.com/theforeman/fog/tree/v0.0.100)
+
+## 📅 2010-05-15
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.0.7](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.0.7)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.0.7.1](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.0.7.1)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.0.7.2](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.0.7.2)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.2.1](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.2.1)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 v0.2.1](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/v0.2.1)
 
 ## 📅 2010-05-14
 - **OpenVoxProject/openvox** – [🔖 0.25.5rc3](https://github.com/OpenVoxProject/openvox/tree/0.25.5rc3)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.0.6.1](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.0.6.1)
 - **theforeman/fog** – [🔖 v0.0.96](https://github.com/theforeman/fog/tree/v0.0.96)
 - **theforeman/fog** – [🔖 v0.0.97](https://github.com/theforeman/fog/tree/v0.0.97)
 - **theforeman/fog** – [🔖 v0.0.98](https://github.com/theforeman/fog/tree/v0.0.98)
 - **theforeman/fog** – [🔖 v0.0.99](https://github.com/theforeman/fog/tree/v0.0.99)
 
 ## 📅 2010-05-13
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.0.6](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.0.6)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.2.0](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.2.0)
 - **theforeman/fog** – [🔖 v0.0.94](https://github.com/theforeman/fog/tree/v0.0.94)
 - **theforeman/fog** – [🔖 v0.0.95](https://github.com/theforeman/fog/tree/v0.0.95)
+
+## 📅 2010-05-11
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.1.0](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.1.0)
 
 ## 📅 2010-05-10
 - **theforeman/fog** – [🔖 v0.0.92](https://github.com/theforeman/fog/tree/v0.0.92)
 - **theforeman/fog** – [🔖 v0.0.93](https://github.com/theforeman/fog/tree/v0.0.93)
+
+## 📅 2010-05-08
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.0.5](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.0.5)
+
+## 📅 2010-05-06
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.0.4](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.0.4)
 
 ## 📅 2010-05-05
 - **theforeman/fog** – [🔖 v0.0.90](https://github.com/theforeman/fog/tree/v0.0.90)
@@ -29791,6 +30758,9 @@ _Generated at 2025-10-19 20:17 UTC_
 ## 📅 2010-05-02
 - **OpenVoxProject/openvox** – [🔖 0.25.5rc2](https://github.com/OpenVoxProject/openvox/tree/0.25.5rc2)
 
+## 📅 2010-05-01
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.0.3](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.0.3)
+
 ## 📅 2010-04-28
 - **theforeman/fog** – [🔖 v0.0.84](https://github.com/theforeman/fog/tree/v0.0.84)
 
@@ -29808,6 +30778,8 @@ _Generated at 2025-10-19 20:17 UTC_
 - **theforeman/fog** – [🔖 v0.0.78](https://github.com/theforeman/fog/tree/v0.0.78)
 
 ## 📅 2010-04-23
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.0.1](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.0.1)
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.0.2](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.0.2)
 - **theforeman/fog** – [🔖 v0.0.77](https://github.com/theforeman/fog/tree/v0.0.77)
 
 ## 📅 2010-04-22
@@ -29826,6 +30798,9 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2010-04-04
 - **OpenVoxProject/nssm** – [🔖 v2.2](https://github.com/OpenVoxProject/nssm/tree/v2.2)
+
+## 📅 2010-04-02
+- **puppetlabs-toy-chest/puppet-module-tool** – [🔖 r0.0.0](https://github.com/puppetlabs-toy-chest/puppet-module-tool/tree/r0.0.0)
 
 ## 📅 2010-04-01
 - **OpenVoxProject/openvox** – [🔖 0.25.5rc1](https://github.com/OpenVoxProject/openvox/tree/0.25.5rc1)
@@ -29928,6 +30903,9 @@ _Generated at 2025-10-19 20:17 UTC_
 
 ## 📅 2009-08-04
 - **OpenVoxProject/openvox** – [🔖 0.25.0rc1](https://github.com/OpenVoxProject/openvox/tree/0.25.0rc1)
+
+## 📅 2009-06-22
+- **puppetlabs-toy-chest/velocity_puppet_workshop_2009** – [🔖 1.0](https://github.com/puppetlabs-toy-chest/velocity_puppet_workshop_2009/tree/1.0)
 
 ## 📅 2009-06-18
 - **OpenVoxProject/openvox** – [🔖 0.25.0beta2](https://github.com/OpenVoxProject/openvox/tree/0.25.0beta2)
