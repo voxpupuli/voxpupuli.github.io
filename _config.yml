@@ -46,6 +46,8 @@ navigation:
       - title: Security
         url: /security/
         icon: fas fa-shield-halved
+      - title: Changelog
+        url: /changelog/
   - title: Projects
     entries:
       - title: Projects Overview
