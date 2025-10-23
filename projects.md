@@ -27,7 +27,6 @@ easiest projects to get involved with.
   * [Gentoo]({% include github-repo-search.html topic="gentoo-puppet-module" %})
   * [Oracle Linux]({% include github-repo-search.html topic="oraclelinux-puppet-module" %})
   * [RedHat]({% include github-repo-search.html topic="redhat-puppet-module" %})
-  * [Scientific Linux]({% include github-repo-search.html topic="scientific-puppet-module" %})
   * [SLES]({% include github-repo-search.html topic="sles-puppet-module" %})
   * [Ubuntu]({% include github-repo-search.html topic="ubuntu-puppet-module" %})
 * [BSD]({% include github-repo-search.html topic="bsd-puppet-module" %})
