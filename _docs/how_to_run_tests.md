@@ -100,6 +100,8 @@ Keep in mind:
 * All gems maintained by Vox Pupuli or the OpenVoxProject are red
 * All gems maintained by Perforce are green
 * The idea is to provide a rough overview of the ecosystem and ownership
+* The listed versions are the latest supported ones
+* We don't resolve dependencies for some transient deps, otherwise the graph would explode
 
 #### voxpupuli-test 13.1.0
 
