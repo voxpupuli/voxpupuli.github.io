@@ -34,11 +34,11 @@ If you want a specific version of Puppet, you must set an environment variable s
 export PUPPET_VERSION="~> 8.8.1"
 ```
 
-## Running the tests in a local ruby environment
+## Running the tests in a local Ruby environment
 
 ### Installing Dependencies
 
-Dependencies for running tests are installed as gems via bundler and will run in ruby 3.2 and newer (as of time of writing).
+Dependencies for running tests are installed as gems via bundler and will run in Ruby 3.2 and newer (as of time of writing).
 It should be trivial to install via your package manager or gem.
 
 #### Debian/Ubuntu
@@ -94,7 +94,8 @@ to learn more about the Vox Pupuli test helpers:
 
 ### Linting
 
-Vox Pupuli uses [puppet-lint](https://github.com/puppetlabs/puppet-lint) for better code quality. To run it:
+Vox Pupuli uses [puppet-lint](https://github.com/puppetlabs/puppet-lint) for better code quality.
+To run it:
 
 ```shell
 bundle exec rake lint
@@ -166,7 +167,7 @@ To limit test execution to a certain os or os release you can set the environmen
 
 ```shell
 export SPEC_FACTS_OS=centos
-export SPEC_FACTS_OS=centos-7
+export SPEC_FACTS_OS=centos-10
 ```
 
 ### Running Acceptance Tests
