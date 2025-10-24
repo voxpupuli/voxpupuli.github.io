@@ -269,13 +269,6 @@ graph TD
   puppet-modulebuilder["puppet-modulebuilder (2.1.0)"] --> minitar["minitar (1.1.0)"]
   puppet-modulebuilder["puppet-modulebuilder (2.1.0)"] --> pathspec["pathspec (2.1.0)"]
   puppet-blacksmith["puppet-blacksmith (9.0.0)"] --> rest-client["rest-client (2.1.0)"]
-  rest-client["rest-client (2.1.0)"] --> ffi["ffi (1.17.2)"]
-  rest-client["rest-client (2.1.0)"] --> http-accept["http-accept (1.7.0)"]
-  rest-client["rest-client (2.1.0)"] --> http-cookie["http-cookie (1.1.0)"]
-  http-cookie["http-cookie (1.1.0)"] --> domain_name["domain_name (0.6.20240107)"]
-  rest-client["rest-client (2.1.0)"] --> mime-types["mime-types (3.7.0)"]
-  mime-types["mime-types (3.7.0)"] --> mime-types-data["mime-types-data (3.2025.0924)"]
-  rest-client["rest-client (2.1.0)"] --> netrc["netrc (0.11.0)"]
   voxpupuli-release["voxpupuli-release (5.0.1)"] --> rake["rake (13.3.0)"]
 
   classDef voxpupuli fill:#ffcccc,stroke:#aa0000,color:#000;
@@ -290,6 +283,7 @@ graph TD
   class puppet-resource_api puppetlabs;
   class semantic_puppet puppetlabs;
   class puppet-blacksmith voxpupuli;
+  class puppet-modulebuilder puppetlabs;
 </div>
 
 ### Linting
