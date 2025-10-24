@@ -115,8 +115,6 @@ graph TD
   facterdb["facterdb (4.1.0)"] --> jgrep["jgrep (1.5.4)"]
   voxpupuli-test["voxpupuli-test (13.1.0)"] --> metadata-json-lint["metadata-json-lint (5.0.0)"]
   metadata-json-lint["metadata-json-lint (5.0.0)"] --> json-schema["json-schema (6.0.0)"]
-  json-schema["json-schema (6.0.0)"] --> addressable["addressable (2.8.7)"]
-  addressable["addressable (2.8.7)"] --> public_suffix["public_suffix (6.0.2)"]
   metadata-json-lint["metadata-json-lint (5.0.0)"] --> semantic_puppet["semantic_puppet (1.1.1)"]
   metadata-json-lint["metadata-json-lint (5.0.0)"] --> spdx-licenses["spdx-licenses (1.3.0)"]
   voxpupuli-test["voxpupuli-test (13.1.0)"] --> openvox-strings["openvox-strings (6.0.0)"]
@@ -131,7 +129,6 @@ graph TD
   openfact["openfact (5.1.0)"] --> thor["thor (1.4.0)"]
   openvox["openvox (8.23.1)"] --> puppet-resource_api["puppet-resource_api (1.9.0)"]
   puppet-resource_api["puppet-resource_api (1.9.0)"] --> hocon["hocon (1.4.0)"]
-  openvox["openvox (8.23.1)"] --> scanf["scanf (1.0.0)"]
   openvox["openvox (8.23.1)"] --> semantic_puppet["semantic_puppet (1.1.1)"]
   openvox-strings["openvox-strings (6.0.0)"] --> rgen["rgen (0.10.2)"]
   openvox-strings["openvox-strings (6.0.0)"] --> yard["yard (0.9.37)"]
@@ -154,6 +151,37 @@ graph TD
   rubocop-rake["rubocop-rake (0.6.0)"] --> rubocop["rubocop (1.81.6)"]
   voxpupuli-test["voxpupuli-test (13.1.0)"] --> rubocop-rspec["rubocop-rspec (2.20.0)"]
   voxpupuli-test["voxpupuli-test (13.1.0)"] --> voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"]
+
+  classDef voxpupuli fill:#ffcccc,stroke:#aa0000,color:#000;
+  classDef puppetlabs fill:#ccffcc,stroke:#009900,color:#000;
+  class puppetlabs puppetlabs;
+  class voxpupuli voxpupuli;
+  class voxpupuli-test voxpupuli;
+  class facterdb voxpupuli;
+  class metadata-json-lint voxpupuli;
+  class semantic_puppet puppetlabs;
+  class openvox-strings voxpupuli;
+  class openvox voxpupuli;
+  class openfact voxpupuli;
+  class hocon puppetlabs;
+  class puppet-resource_api puppetlabs;
+  class puppet_fixtures voxpupuli;
+  class puppet-syntax voxpupuli;
+  class rspec-puppet-facts voxpupuli;
+  class voxpupuli-puppet-lint-plugins voxpupuli;
+</div>
+
+#### voxpupuli-puppet-lint-plugins 7.0.0
+
+This is a dependency from voxpupuli-test.
+We render it in an individual graph to make it more readable.
+
+<div class="mermaid">
+graph LR
+  subgraph Legend
+  puppetlabs["Gems owned by Perforce"]
+  voxpupuli["Gems owned by Vox Pupuli"]
+  end
   voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
   voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint-absolute_classname-check["puppet-lint-absolute_classname-check (5.0.0)"]
   puppet-lint-absolute_classname-check["puppet-lint-absolute_classname-check (5.0.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
@@ -200,19 +228,6 @@ graph TD
   classDef puppetlabs fill:#ccffcc,stroke:#009900,color:#000;
   class puppetlabs puppetlabs;
   class voxpupuli voxpupuli;
-  class voxpupuli-test voxpupuli;
-  class facterdb voxpupuli;
-  class metadata-json-lint voxpupuli;
-  class json-schema voxpupuli;
-  class semantic_puppet puppetlabs;
-  class openvox-strings voxpupuli;
-  class openvox voxpupuli;
-  class openfact voxpupuli;
-  class hocon puppetlabs;
-  class puppet-resource_api puppetlabs;
-  class puppet_fixtures voxpupuli;
-  class puppet-syntax voxpupuli;
-  class rspec-puppet-facts voxpupuli;
   class voxpupuli-puppet-lint-plugins voxpupuli;
   class puppet-lint puppetlabs;
   class puppet-lint-absolute_classname-check voxpupuli;
@@ -284,6 +299,82 @@ graph TD
   class semantic_puppet puppetlabs;
   class puppet-blacksmith voxpupuli;
   class puppet-modulebuilder puppetlabs;
+</div>
+
+#### voxpupuli-acceptance 4.1.0
+
+<div class="mermaid">
+graph TD
+  subgraph Legend
+  puppetlabs["Gems owned by Perforce"]
+  voxpupuli["Gems owned by Vox Pupuli"]
+  end
+  voxpupuli-acceptance["voxpupuli-acceptance (4.1.0)"] --> bcrypt_pbkdf["bcrypt_pbkdf (1.1.2.rc1)"]
+  voxpupuli-acceptance["voxpupuli-acceptance (4.1.0)"] --> beaker["beaker (7.2.0)"]
+  beaker["beaker (7.2.0)"] --> bcrypt_pbkdf["bcrypt_pbkdf (1.1.2.rc1)"]
+  beaker["beaker (7.2.0)"] --> beaker-hostgenerator["beaker-hostgenerator (3.3.0)"]
+  beaker-hostgenerator["beaker-hostgenerator (3.3.0)"] --> deep_merge["deep_merge (1.2.2)"]
+  beaker["beaker (7.2.0)"] --> ed25519["ed25519 (1.4.0)"]
+  beaker["beaker (7.2.0)"] --> hocon["hocon (1.4.0)"]
+  beaker["beaker (7.2.0)"] --> in-parallel["in-parallel (1.0.1)"]
+  beaker["beaker (7.2.0)"] --> minitar["minitar (1.1.0)"]
+  beaker["beaker (7.2.0)"] --> minitest["minitest (5.26.0)"]
+  beaker["beaker (7.2.0)"] --> net-scp["net-scp (4.1.0)"]
+  net-scp["net-scp (4.1.0)"] --> net-ssh["net-ssh (7.3.0)"]
+  beaker["beaker (7.2.0)"] --> net-ssh["net-ssh (7.3.0)"]
+  beaker["beaker (7.2.0)"] --> rexml["rexml (3.4.4)"]
+  beaker["beaker (7.2.0)"] --> rsync["rsync (1.0.9)"]
+  beaker["beaker (7.2.0)"] --> stringify-hash["stringify-hash (0.0.2)"]
+  beaker["beaker (7.2.0)"] --> thor["thor (1.4.0)"]
+  voxpupuli-acceptance["voxpupuli-acceptance (4.1.0)"] --> beaker-docker["beaker-docker (3.0.1)"]
+  beaker-docker["beaker-docker (3.0.1)"] --> beaker["beaker (7.2.0)"]
+  beaker-docker["beaker-docker (3.0.1)"] --> docker-api["docker-api (2.4.0)"]
+  beaker-docker["beaker-docker (3.0.1)"] --> stringify-hash["stringify-hash (0.0.2)"]
+  voxpupuli-acceptance["voxpupuli-acceptance (4.1.0)"] --> beaker-hiera["beaker-hiera (2.0.0)"]
+  beaker-hiera["beaker-hiera (2.0.0)"] --> beaker["beaker (7.2.0)"]
+  voxpupuli-acceptance["voxpupuli-acceptance (4.1.0)"] --> beaker-hostgenerator["beaker-hostgenerator (3.3.0)"]
+  voxpupuli-acceptance["voxpupuli-acceptance (4.1.0)"] --> beaker_puppet_helpers["beaker_puppet_helpers (3.1.1)"]
+  beaker_puppet_helpers["beaker_puppet_helpers (3.1.1)"] --> beaker["beaker (7.2.0)"]
+  beaker_puppet_helpers["beaker_puppet_helpers (3.1.1)"] --> nokogiri["nokogiri (1.18.10)"]
+  beaker_puppet_helpers["beaker_puppet_helpers (3.1.1)"] --> open-uri["open-uri (0.5.0)"]
+  beaker_puppet_helpers["beaker_puppet_helpers (3.1.1)"] --> puppet-modulebuilder["puppet-modulebuilder (2.1.0)"]
+  puppet-modulebuilder["puppet-modulebuilder (2.1.0)"] --> minitar["minitar (1.1.0)"]
+  puppet-modulebuilder["puppet-modulebuilder (2.1.0)"] --> pathspec["pathspec (2.1.0)"]
+  voxpupuli-acceptance["voxpupuli-acceptance (4.1.0)"] --> beaker-rspec["beaker-rspec (9.0.0)"]
+  beaker-rspec["beaker-rspec (9.0.0)"] --> beaker["beaker (7.2.0)"]
+  beaker-rspec["beaker-rspec (9.0.0)"] --> rspec["rspec (3.13.2)"]
+  beaker-rspec["beaker-rspec (9.0.0)"] --> serverspec["serverspec (2.43.0)"]
+  beaker-rspec["beaker-rspec (9.0.0)"] --> specinfra["specinfra (2.94.1)"]
+  specinfra["specinfra (2.94.1)"] --> net-scp["net-scp (4.1.0)"]
+  specinfra["specinfra (2.94.1)"] --> net-ssh["net-ssh (7.3.0)"]
+  specinfra["specinfra (2.94.1)"] --> net-telnet["net-telnet (0.2.0)"]
+  voxpupuli-acceptance["voxpupuli-acceptance (4.1.0)"] --> beaker-vagrant["beaker-vagrant (2.0.0)"]
+  beaker-vagrant["beaker-vagrant (2.0.0)"] --> beaker["beaker (7.2.0)"]
+  voxpupuli-acceptance["voxpupuli-acceptance (4.1.0)"] --> puppet_fixtures["puppet_fixtures (2.0.0)"]
+  puppet_fixtures["puppet_fixtures (2.0.0)"] --> rake["rake (13.3.0)"]
+  voxpupuli-acceptance["voxpupuli-acceptance (4.1.0)"] --> puppet-modulebuilder["puppet-modulebuilder (2.1.0)"]
+  voxpupuli-acceptance["voxpupuli-acceptance (4.1.0)"] --> rake["rake (13.3.0)"]
+  voxpupuli-acceptance["voxpupuli-acceptance (4.1.0)"] --> rspec-github["rspec-github (3.0.0)"]
+  voxpupuli-acceptance["voxpupuli-acceptance (4.1.0)"] --> serverspec["serverspec (2.43.0)"]
+  voxpupuli-acceptance["voxpupuli-acceptance (4.1.0)"] --> winrm["winrm (2.3.9)"]
+
+  classDef voxpupuli fill:#ffcccc,stroke:#aa0000,color:#000;
+  classDef puppetlabs fill:#ccffcc,stroke:#009900,color:#000;
+  class puppetlabs puppetlabs;
+  class voxpupuli voxpupuli;
+  class voxpupuli-acceptance voxpupuli;
+  class beaker-hostgenerator voxpupuli;
+  class hocon puppetlabs;
+  class in-parallel puppetlabs;
+  class stringify-hash puppetlabs;
+  class beaker-docker voxpupuli;
+  class beaker-hiera voxpupuli;
+  class beaker_puppet_helpers voxpupuli;
+  class puppet-modulebuilder puppetlabs;
+  class beaker-rspec voxpupuli;
+  class beaker-vagrant voxpupuli;
+  class puppet_fixtures voxpupuli;
+  class beaker voxpupuli;
 </div>
 
 ### Linting
