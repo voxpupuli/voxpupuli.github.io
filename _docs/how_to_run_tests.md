@@ -92,6 +92,204 @@ to learn more about the Vox Pupuli test helpers:
 * [voxpupuli-acceptance](https://github.com/voxpupuli/voxpupuli-acceptance) for acceptance testing
 * [voxpupuli-release](https://github.com/voxpupuli/voxpupuli-release) for creating a release
 
+To get a rough understanding, we created a dependency graph for each of our meta gem.
+Keep in mind:
+
+* We exclude [std- and default gems](https://stdgems.org/)
+* This graph is created by hand and not updated automatically
+* All gems maintained by Vox Pupuli or the OpenVoxProject are red
+* All gems maintained by Perforce are green
+* The idea is to provide a rough overview of the ecosystem and ownership
+
+#### voxpupuli-test 13.1.0
+
+<div class="mermaid">
+graph TD
+  subgraph Legend
+  puppetlabs["Gems owned by Perforce"]
+  voxpupuli["Gems owned by Vox Pupuli"]
+  end
+  voxpupuli-test["voxpupuli-test (13.1.0)"] --> facterdb["facterdb (4.1.0)"]
+  facterdb["facterdb (4.1.0)"] --> jgrep["jgrep (1.5.4)"]
+  voxpupuli-test["voxpupuli-test (13.1.0)"] --> metadata-json-lint["metadata-json-lint (5.0.0)"]
+  metadata-json-lint["metadata-json-lint (5.0.0)"] --> json-schema["json-schema (6.0.0)"]
+  json-schema["json-schema (6.0.0)"] --> addressable["addressable (2.8.7)"]
+  addressable["addressable (2.8.7)"] --> public_suffix["public_suffix (6.0.2)"]
+  metadata-json-lint["metadata-json-lint (5.0.0)"] --> semantic_puppet["semantic_puppet (1.1.1)"]
+  metadata-json-lint["metadata-json-lint (5.0.0)"] --> spdx-licenses["spdx-licenses (1.3.0)"]
+  voxpupuli-test["voxpupuli-test (13.1.0)"] --> openvox-strings["openvox-strings (6.0.0)"]
+  openvox-strings["openvox-strings (6.0.0)"] --> openvox["openvox (8.23.1)"]
+  openvox["openvox (8.23.1)"] --> concurrent-ruby["concurrent-ruby (1.3.5)"]
+  openvox["openvox (8.23.1)"] --> deep_merge["deep_merge (1.2.2)"]
+  openvox["openvox (8.23.1)"] --> fast_gettext["fast_gettext (4.1.1)"]
+  openvox["openvox (8.23.1)"] --> locale["locale (2.1.4)"]
+  openvox["openvox (8.23.1)"] --> multi_json["multi_json (1.17.0)"]
+  openvox["openvox (8.23.1)"] --> openfact["openfact (5.1.0)"]
+  openfact["openfact (5.1.0)"] --> hocon["hocon (1.4.0)"]
+  openfact["openfact (5.1.0)"] --> thor["thor (1.4.0)"]
+  openvox["openvox (8.23.1)"] --> puppet-resource_api["puppet-resource_api (1.9.0)"]
+  puppet-resource_api["puppet-resource_api (1.9.0)"] --> hocon["hocon (1.4.0)"]
+  openvox["openvox (8.23.1)"] --> scanf["scanf (1.0.0)"]
+  openvox["openvox (8.23.1)"] --> semantic_puppet["semantic_puppet (1.1.1)"]
+  openvox-strings["openvox-strings (6.0.0)"] --> rgen["rgen (0.10.2)"]
+  openvox-strings["openvox-strings (6.0.0)"] --> yard["yard (0.9.37)"]
+  voxpupuli-test["voxpupuli-test (13.1.0)"] --> parallel_tests["parallel_tests (5.4.0)"]
+  parallel_tests["parallel_tests (5.4.0)"] --> parallel["parallel (1.27.0)"]
+  voxpupuli-test["voxpupuli-test (13.1.0)"] --> puppet_fixtures["puppet_fixtures (2.0.0)"]
+  puppet_fixtures["puppet_fixtures (2.0.0)"] --> rake["rake (13.3.0)"]
+  voxpupuli-test["voxpupuli-test (13.1.0)"] --> puppet-syntax["puppet-syntax (7.0.1)"]
+  puppet-syntax["puppet-syntax (7.0.1)"] --> openvox["openvox (8.23.1)"]
+  puppet-syntax["puppet-syntax (7.0.1)"] --> rake["rake (13.3.0)"]
+  voxpupuli-test["voxpupuli-test (13.1.0)"] --> rake["rake (13.3.0)"]
+  voxpupuli-test["voxpupuli-test (13.1.0)"] --> rspec-github["rspec-github (3.0.0)"]
+  voxpupuli-test["voxpupuli-test (13.1.0)"] --> rspec-puppet["rspec-puppet (5.0.0)"]
+  voxpupuli-test["voxpupuli-test (13.1.0)"] --> rspec-puppet-facts["rspec-puppet-facts (6.0.0)"]
+  rspec-puppet-facts["rspec-puppet-facts (6.0.0)"] --> deep_merge["deep_merge (1.2.2)"]
+  rspec-puppet-facts["rspec-puppet-facts (6.0.0)"] --> facterdb["facterdb (4.1.0)"]
+  rspec-puppet-facts["rspec-puppet-facts (6.0.0)"] --> openfact["openfact (5.1.0)"]
+  voxpupuli-test["voxpupuli-test (13.1.0)"] --> rubocop["rubocop (1.50.2)"]
+  voxpupuli-test["voxpupuli-test (13.1.0)"] --> rubocop-rake["rubocop-rake (0.6.0)"]
+  rubocop-rake["rubocop-rake (0.6.0)"] --> rubocop["rubocop (1.81.6)"]
+  voxpupuli-test["voxpupuli-test (13.1.0)"] --> rubocop-rspec["rubocop-rspec (2.20.0)"]
+  voxpupuli-test["voxpupuli-test (13.1.0)"] --> voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"]
+  voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
+  voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint-absolute_classname-check["puppet-lint-absolute_classname-check (5.0.0)"]
+  puppet-lint-absolute_classname-check["puppet-lint-absolute_classname-check (5.0.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
+  voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint-anchor-check["puppet-lint-anchor-check (3.0.0)"]
+  puppet-lint-anchor-check["puppet-lint-anchor-check (3.0.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
+  voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint-exec_idempotency-check["puppet-lint-exec_idempotency-check (2.0.0)"]
+  puppet-lint-exec_idempotency-check["puppet-lint-exec_idempotency-check (2.0.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
+  voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint-file_ensure-check["puppet-lint-file_ensure-check (3.0.0)"]
+  puppet-lint-file_ensure-check["puppet-lint-file_ensure-check (3.0.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
+  voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint-leading_zero-check["puppet-lint-leading_zero-check (3.0.0)"]
+  puppet-lint-leading_zero-check["puppet-lint-leading_zero-check (3.0.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
+  voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint-lookup_in_parameter-check["puppet-lint-lookup_in_parameter-check (3.0.0)"]
+  puppet-lint-lookup_in_parameter-check["puppet-lint-lookup_in_parameter-check (3.0.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
+  voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint-manifest_whitespace-check["puppet-lint-manifest_whitespace-check (2.0.0)"]
+  puppet-lint-manifest_whitespace-check["puppet-lint-manifest_whitespace-check (2.0.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
+  voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint-optional_default-check["puppet-lint-optional_default-check (3.0.0)"]
+  puppet-lint-optional_default-check["puppet-lint-optional_default-check (3.0.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
+  voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint-package_ensure-check["puppet-lint-package_ensure-check (0.2.0)"]
+  puppet-lint-package_ensure-check["puppet-lint-package_ensure-check (0.2.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
+  voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint-param-docs["puppet-lint-param-docs (3.0.0)"]
+  puppet-lint-param-docs["puppet-lint-param-docs (3.0.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
+  voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint-params_empty_string-check["puppet-lint-params_empty_string-check (3.0.0)"]
+  puppet-lint-params_empty_string-check["puppet-lint-params_empty_string-check (3.0.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
+  voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint-params_not_optional_with_undef-check["puppet-lint-params_not_optional_with_undef-check (1.0.0)"]
+  puppet-lint-params_not_optional_with_undef-check["puppet-lint-params_not_optional_with_undef-check (1.0.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
+  voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint-param-types["puppet-lint-param-types (3.0.0)"]
+  puppet-lint-param-types["puppet-lint-param-types (3.0.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
+  voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint-resource_reference_syntax["puppet-lint-resource_reference_syntax (3.0.0)"]
+  puppet-lint-resource_reference_syntax["puppet-lint-resource_reference_syntax (3.0.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
+  voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint-strict_indent-check["puppet-lint-strict_indent-check (5.0.0)"]
+  puppet-lint-strict_indent-check["puppet-lint-strict_indent-check (5.0.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
+  voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint-topscope-variable-check["puppet-lint-topscope-variable-check (3.0.0)"]
+  puppet-lint-topscope-variable-check["puppet-lint-topscope-variable-check (3.0.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
+  voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint-trailing_comma-check["puppet-lint-trailing_comma-check (3.0.0)"]
+  puppet-lint-trailing_comma-check["puppet-lint-trailing_comma-check (3.0.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
+  voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint-unquoted_string-check["puppet-lint-unquoted_string-check (4.1.0)"]
+  puppet-lint-unquoted_string-check["puppet-lint-unquoted_string-check (4.1.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
+  voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint-variable_contains_upcase["puppet-lint-variable_contains_upcase (3.0.0)"]
+  puppet-lint-variable_contains_upcase["puppet-lint-variable_contains_upcase (3.0.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
+  voxpupuli-puppet-lint-plugins["voxpupuli-puppet-lint-plugins (7.0.0)"] --> puppet-lint-version_comparison-check["puppet-lint-version_comparison-check (3.0.0)"]
+  puppet-lint-version_comparison-check["puppet-lint-version_comparison-check (3.0.0)"] --> puppet-lint["puppet-lint (5.1.0)"]
+
+  classDef voxpupuli fill:#ffcccc,stroke:#aa0000,color:#000;
+  classDef puppetlabs fill:#ccffcc,stroke:#009900,color:#000;
+  class puppetlabs puppetlabs;
+  class voxpupuli voxpupuli;
+  class voxpupuli-test voxpupuli;
+  class facterdb voxpupuli;
+  class metadata-json-lint voxpupuli;
+  class json-schema voxpupuli;
+  class semantic_puppet puppetlabs;
+  class openvox-strings voxpupuli;
+  class openvox voxpupuli;
+  class openfact voxpupuli;
+  class hocon puppetlabs;
+  class puppet-resource_api puppetlabs;
+  class puppet_fixtures voxpupuli;
+  class puppet-syntax voxpupuli;
+  class rspec-puppet-facts voxpupuli;
+  class voxpupuli-puppet-lint-plugins voxpupuli;
+  class puppet-lint puppetlabs;
+  class puppet-lint-absolute_classname-check voxpupuli;
+  class puppet-lint-anchor-check voxpupuli;
+  class puppet-lint-exec_idempotency-check voxpupuli;
+  class puppet-lint-file_ensure-check voxpupuli;
+  class puppet-lint-leading_zero-check voxpupuli;
+  class puppet-lint-lookup_in_parameter-check voxpupuli;
+  class puppet-lint-manifest_whitespace-check voxpupuli;
+  class puppet-lint-optional_default-check voxpupuli;
+  class puppet-lint-param-docs voxpupuli;
+  class puppet-lint-params_empty_string-check voxpupuli;
+  class puppet-lint-params_not_optional_with_undef-check voxpupuli;
+  class puppet-lint-param-types voxpupuli;
+  class puppet-lint-resource_reference_syntax voxpupuli;
+  class puppet-lint-strict_indent-check voxpupuli;
+  class puppet-lint-topscope-variable-check voxpupuli;
+  class puppet-lint-trailing_comma-check voxpupuli;
+  class puppet-lint-unquoted_string-check voxpupuli;
+  class puppet-lint-variable_contains_upcase voxpupuli;
+  class puppet-lint-version_comparison-check voxpupuli;
+</div>
+
+#### voxpupuli-release 5.0.1
+
+<div class="mermaid">
+graph TD
+  subgraph Legend
+  puppetlabs["Gems owned by Perforce"]
+  voxpupuli["Gems owned by Vox Pupuli"]
+  end
+  voxpupuli-release["voxpupuli-release (5.0.1)"] --> faraday-retry["faraday-retry (2.3.2)"]
+  faraday-retry["faraday-retry (2.3.2)"] --> faraday["faraday (2.14.0)"]
+  faraday["faraday (2.14.0)"] --> faraday-net_http["faraday-net_http (3.4.1)"]
+  voxpupuli-release["voxpupuli-release (5.0.1)"] --> github_changelog_generator["github_changelog_generator (1.16.4)"]
+  voxpupuli-release["voxpupuli-release (5.0.1)"] --> openvox-strings["openvox-strings (6.0.0)"]
+  openvox-strings["openvox-strings (6.0.0)"] --> openvox["openvox (8.23.1)"]
+  openvox["openvox (8.23.1)"] --> concurrent-ruby["concurrent-ruby (1.3.5)"]
+  openvox["openvox (8.23.1)"] --> deep_merge["deep_merge (1.2.2)"]
+  openvox["openvox (8.23.1)"] --> fast_gettext["fast_gettext (4.1.1)"]
+  openvox["openvox (8.23.1)"] --> locale["locale (2.1.4)"]
+  openvox["openvox (8.23.1)"] --> multi_json["multi_json (1.17.0)"]
+  openvox["openvox (8.23.1)"] --> openfact["openfact (5.1.0)"]
+  openfact["openfact (5.1.0)"] --> hocon["hocon (1.4.0)"]
+  openfact["openfact (5.1.0)"] --> thor["thor (1.4.0)"]
+  openvox["openvox (8.23.1)"] --> puppet-resource_api["puppet-resource_api (1.9.0)"]
+  puppet-resource_api["puppet-resource_api (1.9.0)"] --> hocon["hocon (1.4.0)"]
+  openvox["openvox (8.23.1)"] --> scanf["scanf (1.0.0)"]
+  openvox["openvox (8.23.1)"] --> semantic_puppet["semantic_puppet (1.1.1)"]
+  openvox-strings["openvox-strings (6.0.0)"] --> rgen["rgen (0.10.2)"]
+  openvox-strings["openvox-strings (6.0.0)"] --> yard["yard (0.9.37)"]
+  voxpupuli-release["voxpupuli-release (5.0.1)"] --> puppet-blacksmith["puppet-blacksmith (9.0.0)"]
+  puppet-blacksmith["puppet-blacksmith (9.0.0)"] --> puppet-modulebuilder["puppet-modulebuilder (2.1.0)"]
+  puppet-modulebuilder["puppet-modulebuilder (2.1.0)"] --> minitar["minitar (1.1.0)"]
+  puppet-modulebuilder["puppet-modulebuilder (2.1.0)"] --> pathspec["pathspec (2.1.0)"]
+  puppet-blacksmith["puppet-blacksmith (9.0.0)"] --> rest-client["rest-client (2.1.0)"]
+  rest-client["rest-client (2.1.0)"] --> ffi["ffi (1.17.2)"]
+  rest-client["rest-client (2.1.0)"] --> http-accept["http-accept (1.7.0)"]
+  rest-client["rest-client (2.1.0)"] --> http-cookie["http-cookie (1.1.0)"]
+  http-cookie["http-cookie (1.1.0)"] --> domain_name["domain_name (0.6.20240107)"]
+  rest-client["rest-client (2.1.0)"] --> mime-types["mime-types (3.7.0)"]
+  mime-types["mime-types (3.7.0)"] --> mime-types-data["mime-types-data (3.2025.0924)"]
+  rest-client["rest-client (2.1.0)"] --> netrc["netrc (0.11.0)"]
+  voxpupuli-release["voxpupuli-release (5.0.1)"] --> rake["rake (13.3.0)"]
+
+  classDef voxpupuli fill:#ffcccc,stroke:#aa0000,color:#000;
+  classDef puppetlabs fill:#ccffcc,stroke:#009900,color:#000;
+  class puppetlabs puppetlabs;
+  class voxpupuli voxpupuli;
+  class voxpupuli-release voxpupuli;
+  class openvox-strings voxpupuli;
+  class openvox voxpupuli;
+  class openfact voxpupuli;
+  class hocon puppetlabs;
+  class puppet-resource_api puppetlabs;
+  class semantic_puppet puppetlabs;
+  class puppet-blacksmith voxpupuli;
+</div>
+
 ### Linting
 
 Vox Pupuli uses [puppet-lint](https://github.com/puppetlabs/puppet-lint) for better code quality.
@@ -360,3 +558,6 @@ podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f /Rakefile stri
 podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f /Rakefile r10k:syntax
 podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f /Rakefile r10k:dependencies
 ```
+
+<script src="//cdn.jsdelivr.net/npm/mermaid@11.12.0/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
