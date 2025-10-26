@@ -85,6 +85,7 @@ bundle exec rake release
 
 GitHub Actions (.github/workflows/release.yml in every module) will then kick off a build against the new tag created and deploy that build to the forge.
 *Caution: The Vox Pupuli repo has to be the configured default branch in your local clone. Otherwise, you will try to release to your fork.*
+*This will push all local tags. If you have any, be sure to release from a fresh clone of the module.*
 
 ## Manual Steps
 
@@ -218,3 +219,4 @@ bundle exec rake release
 
 GitHub Actions (.github/workflows/release.yml in every module) will then kick off a build against the new tag created and deploy that build to the forge.
 *Caution: The Vox Pupuli repo has to be the configured default branch in your local clone. Otherwise, you will try to release to your fork.*
+*This will push all local tags. If you have any, be sure to release from a fresh clone of the module.*
