@@ -22,7 +22,7 @@ jobs:
         run: bundle exec rake test
       - name: Build jekyll html
         run: bundle exec rake build
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         id: upload-preview
         with:
           name: preview
