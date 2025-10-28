@@ -92,7 +92,7 @@ to learn more about the Vox Pupuli test helpers:
 * [voxpupuli-acceptance](https://github.com/voxpupuli/voxpupuli-acceptance) for acceptance testing
 * [voxpupuli-release](https://github.com/voxpupuli/voxpupuli-release) for creating a release
 
-To get a rough understanding, we created a dependency graph for each of our meta gem.
+To get a rough understanding, we created a dependency graph for each of our meta gems.
 Keep in mind:
 
 * We exclude [std- and default gems](https://stdgems.org/)
