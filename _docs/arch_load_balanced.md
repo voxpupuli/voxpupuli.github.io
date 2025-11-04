@@ -16,7 +16,7 @@ that require the redundancy of multiple compilers.
   graph LR;
   git(Git Repository)
   Foreman(The Foreman)
-  Webhook(Puppet Webhook Server)
+  Webhook(webhook-go)
   AllCompilers((All Compilers))
   HDM(Hiera Data Manager)
 
@@ -36,7 +36,7 @@ that require the redundancy of multiple compilers.
 
   click HDM "https://github.com/betadots/hdm" "HDM is a web interface for analyzing and managing hiera data."
   click Foreman "https://www.theforeman.org" "Foreman is a complete lifecycle management tool for physical and virtual servers."
-  click Webhook "https://github.com/voxpupuli/puppet_webhook" "A webhook service that can trigger code deploys from source code repository updates."
+  click Webhook "https://github.com/voxpupuli/webhook-go" "A webhook service that can trigger code deploys from source code repository updates."
 
   git --webhook--> Webhook
   Webhook --r10k code deploy--> MainPuppetServer
@@ -84,12 +84,12 @@ proactively manage servers, on-premise or in the cloud.
 
 ### Puppet Webhook
 
-Configure [Puppet Webhook](https://github.com/voxpupuli/puppet_webhook) to receive
+Configure [webhook-go](https://github.com/voxpupuli/webhook-go) to receive
 webhook events from your code repository and automate your code deploys. This
 service should be installed on the main Puppet Server. You might consider
 using the Bolt task from the [puppet-r10k module](https://github.com/voxpupuli/puppet-r10k/blob/master/tasks/deploy.json)
 to trigger code deployments on each compiler, or you can also install
-Puppet Webhook on each.
+webhook-go on each ([puppet-r10k can configure it](https://github.com/voxpupuli/puppet-r10k#webhook-support)).
 
 
 ### Code Deployment
