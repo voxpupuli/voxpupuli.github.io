@@ -20,7 +20,7 @@ that require the redundancy of multiple compilers.
   AllCompilers((All Compilers))
   HDM(Hiera Data Manager)
 
-  MainPuppetServer{Main Puppet Server}
+  MainOpenVoxServer{Main OpenVox Server}
 
   subgraph Compilers[Compilers]
       Compile1[Compile1]
@@ -39,17 +39,17 @@ that require the redundancy of multiple compilers.
   click Webhook "https://github.com/voxpupuli/webhook-go" "A webhook service that can trigger code deploys from source code repository updates."
 
   git --webhook--> Webhook
-  Webhook --r10k code deploy--> MainPuppetServer
+  Webhook --r10k code deploy--> MainOpenVoxServer
   Webhook -.r10k code deploy.-> AllCompilers
 
-  Foreman --> MainPuppetServer
-  MainPuppetServer --> Foreman
-  HDM --> MainPuppetServer
-  MainPuppetServer --> HDM
+  Foreman --> MainOpenVoxServer
+  MainOpenVoxServer --> Foreman
+  HDM --> MainOpenVoxServer
+  MainOpenVoxServer --> HDM
 
-  Compile1 --> MainPuppetServer
-  Compile2 --> MainPuppetServer
-  Compile3 --> MainPuppetServer
+  Compile1 --> MainOpenVoxServer
+  Compile2 --> MainOpenVoxServer
+  Compile3 --> MainOpenVoxServer
 
   LoadBalancer --> Compile1
   LoadBalancer --> Compile2
@@ -86,7 +86,7 @@ proactively manage servers, on-premise or in the cloud.
 
 Configure [webhook-go](https://github.com/voxpupuli/webhook-go) to receive
 webhook events from your code repository and automate your code deploys. This
-service should be installed on the main Puppet Server. You might consider
+service should be installed on the main OpenVox Server. You might consider
 using the Bolt task from the [puppet-r10k module](https://github.com/voxpupuli/puppet-r10k/blob/master/tasks/deploy.json)
 to trigger code deployments on each compiler, or you can also install
 webhook-go on each ([puppet-r10k can configure it](https://github.com/voxpupuli/puppet-r10k#webhook-support)).
@@ -95,7 +95,7 @@ webhook-go on each ([puppet-r10k can configure it](https://github.com/voxpupuli/
 ### Code Deployment
 
 [r10k](https://github.com/puppetlabs/r10k) is considered the default Puppet code
-deployment tool. Install it on the main Puppet Server and each compiler in your
+deployment tool. Install it on the main OpenVox Server and each compiler in your
 infrastructure and use it to deploy your control repository as needed.
 
 If you're a Golang shop, you might consider [g10k](https://github.com/xorpaul/g10k) as well.
@@ -103,22 +103,20 @@ If you're a Golang shop, you might consider [g10k](https://github.com/xorpaul/g1
 
 ### Load Balancer
 
-Puppet Agent Server connections are connections with long duration. Therfore it is highly recommended to use `least_connection` algorithm.
+OpenVox Agent Server connections are connections with long duration. Therfore it is highly recommended to use `least_connection` algorithm.
 
 Any kind of load-balancer is sufficient. [HAProxy](https://www.haproxy.org/) is well supported and allows flexibility.
 
 
-### Puppet Stack
+### OpenVox Stack
 
 We recommend managing each of these components with the supported module.
 
-* PuppetDB
+* OpenVoxDB
     * [puppetlabs/puppetdb](https://forge.puppet.com/puppetlabs/puppetdb)
     * The default PostgreSQL database is recommended.
-* Puppet Server
+* OpenVox Servers and agents
     * [theforeman/puppet](https://forge.puppet.com/modules/theforeman/puppet)
-* Puppet Agents
-    * [puppetlabs/puppet_agent](https://forge.puppet.com/puppetlabs/puppet_agent)
 * Puppet Metrics Dashboard
     * [puppetlabs/puppet_metrics_dashboard](https://forge.puppet.com/puppetlabs/puppet_metrics_dashboard)
 * Hiera Data Manager (HDM)
