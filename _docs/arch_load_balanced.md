@@ -17,7 +17,6 @@ that require the redundancy of multiple compilers.
   git(Git Repository)
   Foreman(The Foreman)
   Webhook(webhook-go)
-  AllCompilers((All Compilers))
   HDM(Hiera Data Manager)
 
   MainOpenVoxServer{Main OpenVox Server}
@@ -40,7 +39,7 @@ that require the redundancy of multiple compilers.
 
   git --webhook--> Webhook
   Webhook --r10k code deploy--> MainOpenVoxServer
-  Webhook -.r10k code deploy.-> AllCompilers
+  Webhook -.r10k code deploy.-> Compilers
 
   Foreman --> MainOpenVoxServer
   MainOpenVoxServer --> Foreman
