@@ -395,6 +395,12 @@ Result:
 ]
 ```
 
+### Get a structured fact but exclude empty hashes
+
+```shell
+puppet query 'inventory[facts.users.root.ssh_public_keys]{facts.users.root.ssh_public_keys !~ "{}" order by certname }'
+```
+
 ### Get a sorted list of all recent event failures
 
 This gives a list of recent event failures from the lastest reports and applies counts to them to show how many
