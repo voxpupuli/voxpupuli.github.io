@@ -397,7 +397,7 @@ Result:
 
 ### Get a structured fact but exclude empty hashes
 
-```
+```shell
 puppet query 'inventory[facts.users.root.ssh_public_keys]{facts.users.root.ssh_public_keys !~ "{}" order by certname }'
 ```
 
