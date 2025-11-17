@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Gopass Secret Stores
 date: 2025-11-17
 summary: How the PMC and various SIGs manage passwords and other secrets.
