@@ -3,23 +3,29 @@ layout: page
 title: Security
 ---
 
-This page describes how to report security vulnerabilities, both external or
-internal. If you have any question, please reach us on #voxpupuli on [Libera](https://web.libera.chat/?#voxpupuli).
+This page describes how to report security vulnerabilities, both external or internal.
+If you have any question, please reach us on `#voxpupuli` on [Libera](https://web.libera.chat/?#voxpupuli).
 
 * TOC
 {:toc}
+{: class="alert alert-primary callout w-33" }
 
 ## Reporting security vulnerabilities
 
-If you want to report any security vulnerability, please contact
-[Julien Pivotto](mailto:roidelapluie@inuits.eu). Julien's GPG key can be
-downloaded [here](0C7F187769D072B93B642BB9E484250533AE92DA.pub).
+If you want to report any security vulnerability, please contact our
+[security team](mailto:security@voxpupuli.org).
+Feel free to encrypt communications using our [gpg key](https://keys.openpgp.org/search?q=security%40voxpupuli.org).
 
-Julien's GPG key fingerprint is `0C7F 1877 69D0 72B9 3B64  2BB9 E484 2505 33AE 92DA`.
+```
+$ gpg --auto-key-locate keyserver --locate-keys security@voxpupuli.org
+```
 
-Here is a list of topics where the security officer can help you:
+Our GPG key fingerprint is `CA4C B6EE 8852 F95F B84B  834B 48A1 C23A FF60 2E9B`.
+
+Here is a list of topics where the security team can help you:
 
 * Report security vulnerabilities in our projects
+    - modules, gems, OpenVox projects, etc
 * Report security vulnerabilities in third party projects we use (Ruby Gems)
 * Report security vulnerabilities in third party projects we are related to
   (projects we manage with our Puppet modules)
@@ -46,7 +52,7 @@ For our contributors, here are some good practices that we highly recommend.
 1. Respect the [Responsible disclosure][m] model.
 
     Vox Pupuli is agile enough to address security vulnerabilities quickly.
-    Still we encourage you to get in touch with the security officer that will
+    Still we encourage you to get in touch with the security team that will
     help you to elaborate a good disclosure schedule and an appropriate answer.
 
 1. Follow Vox Pupuli flows and practices
