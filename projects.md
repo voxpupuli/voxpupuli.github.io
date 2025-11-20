@@ -39,7 +39,7 @@ easiest projects to get involved with.
 
 We host other projects you may wish to run in your infrastructure as well.
 
-* [Dashboards]({% include github-repo-search.html topic="dashboards" %})
+* [Dashboards]({% include github-repo-search.html topic="dashboard" %})
 * [Monitoring]({% include github-repo-search.html topic="monitoring" %})
 * [Reporting tools]({% include github-repo-search.html topic="reporting" %})
 
