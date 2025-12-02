@@ -134,23 +134,20 @@ puppetdb::master::config::terminus_package: openvoxdb-termini
 Note that you will need to have the OpenVox repositories available (using one of the methods above) for this to work properly.
 If the OpenVox repositories are available, this will cause Puppet to be removed and OpenVox to be installed.
 
-
 #### Foreman integration
 
-Foreman installs the package `puppet-agent-oauth` which is a system packaged Ruby gem with native code.
-It provides the [oauth](https://rubygems.org/gems/oauth) gem for the Puppet Agent Ruby environment and depends on `puppet-agent`.
-The OpenVox packages don't have a `provides puppet-agent` flag yet, so this will cause dependency errors.
-As a workaround you'll need to manage the gem directly instead of letting the Foreman module handle it.
-Note that this will require build essentials and ruby development packages.
+Currently no special configuration is required anymore for integrating Foreman and Openvox.
 
-Add this to your Hiera config:
+Previously a workaround for the package `puppet-agent-oauth` was required, but it is not required anymore and can be safely removed.
+
+Remove this from your Hiera config (if it exists):
 
 ```yaml
 ---
 foreman::providers::oauth: false
 ```
 
-And then manage the gem directly in Puppet code:
+Remove the following from the Puppet code (if it exists):
 
 ```puppet
 package { 'oauth':
