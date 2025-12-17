@@ -7,7 +7,7 @@ github_username: smortex
 
 We are happy to announce the availability of the first **OpenBolt** packages!
 
-**OpenBolt** is the community-maintained open-source implementation of **Bolt**.
+**OpenBolt** is the community-maintained open-source implementation of the **Bolt** orchestration tool.
 It is intended to be a drop-in replacement, just like the **OpenVox Agent** is a drop-in replacement for the **Puppet Agent**.
 
 .deb and .rpm packages should already be on a mirror near you.
