@@ -39,11 +39,13 @@ Choose the appropriate `openvox8-release` repo package from either of these loca
 Then install the packages you want.
 
 * Debian family
+  * `apt install openbolt`
   * `apt install openvox-agent`
   * `apt install openvox-server`
   * `apt install openvoxdb`
   * `apt install openvoxdb-termini`
 * RedHat family
+  * `yum install openbolt`
   * `yum install openvox-agent`
   * `yum install openvox-server`
   * `yum install openvoxdb`
