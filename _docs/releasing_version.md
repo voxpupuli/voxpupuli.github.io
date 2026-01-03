@@ -9,7 +9,7 @@ last_modified_at: 2025-06-10
 Creating a release is a three step process:
 
 1. Create a release PR
-2. Review it
+2. Review and merge the release PR
 3. Do the actual release
 
 ## Before Preparing a release
@@ -18,7 +18,7 @@ Run [modulesync](https://voxpupuli.org/docs/updating-files-managed-with-modulesy
 
 ## Standard Release
 
-### Create Release PR
+### Create a Release PR
 
 To automatically create a "release PR", you need to be a member of the `voxpupuli` GitHub organization.
 Then you can browse to a module -> Actions -> `Prepare Release`.
@@ -32,7 +32,7 @@ It will automatically:
 * A pull request will be created
 * GitHub attaches the `skip-changelog` label
 
-### Review the Release PR
+### Review and Merge the Release PR
 
 This will have generated updates to the CHANGELOG.md, review each PR in the CHANGELOG to make sure they're labeled properly so that the CHANGELOG is correct:
 
@@ -54,9 +54,10 @@ All commentary should be reviewed, but specifically looking for concensus around
 * Are there discussions about the tagging of any of the changes in the CHANGELOG.md?
 * Have you missed something needed for release?
 
+Merge the PR when ready.
 The person who does the merge of the PR is expected to do the release below.
 
-### Do the Release
+### Do the Actual Release
 
 *Please note that in order to execute this rake task you must be in the __Collaborators__ group on GitHub for the module in question.*
 
