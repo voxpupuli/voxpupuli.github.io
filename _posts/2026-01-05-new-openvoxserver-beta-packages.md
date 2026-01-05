@@ -17,8 +17,8 @@ The changelog:
 * This version of openvox-server and all related components have now been migrated to the org.openvoxproject namespace and are available on Clojars, with fixed up testing and release workflows.
 * The following third-party components were updated to address CVEs:
     * JRuby 9.4.8.0 -> 9.4.12.1: [CVE-2025-46551](https://nvd.nist.gov/vuln/detail/CVE-2025-46551) / [GHSA-72qj-48g4-5xgx](https://github.com/advisories/GHSA-72qj-48g4-5xgx)
-    * Jetty 10.0.20 -> 10.0.26: [https://nvd.nist.gov/vuln/detail/CVE-2025-5115](CVE-2025-5115) / [GHSA-mmxm-8w33-wc4h](https://github.com/advisories/GHSA-mmxm-8w33-wc4h), [https://nvd.nist.gov/vuln/detail/CVE-2024-8184](CVE-2024-8184) / [GHSA-g8m5-722r-8whq](https://github.com/advisories/GHSA-g8m5-722r-8whq)
-    * jackson-databind 2.14.0 -> 2.15.4: [https://nvd.nist.gov/vuln/detail/CVE-2025-52999](CVE-2025-52999) / [GHSA-h46c-h94j-95f3](https://github.com/advisories/GHSA-h46c-h94j-95f3)
+    * Jetty 10.0.20 -> 10.0.26: [CVE-2025-5115](https://nvd.nist.gov/vuln/detail/CVE-2025-5115) / [GHSA-mmxm-8w33-wc4h](https://github.com/advisories/GHSA-mmxm-8w33-wc4h), [CVE-2024-8184](https://nvd.nist.gov/vuln/detail/CVE-2024-8184) / [GHSA-g8m5-722r-8whq](https://github.com/advisories/GHSA-g8m5-722r-8whq)
+    * jackson-databind 2.14.0 -> 2.15.4: [CVE-2025-52999](https://nvd.nist.gov/vuln/detail/CVE-2025-52999) / [GHSA-h46c-h94j-95f3](https://github.com/advisories/GHSA-h46c-h94j-95f3)
     * logback 1.3.14 -> 1.3.16: [CVE-2024-12798](https://nvd.nist.gov/vuln/detail/CVE-2024-12798), [CVE-2024-12801](https://nvd.nist.gov/vuln/detail/CVE-2024-12801), [CVE-2025-11226](https://nvd.nist.gov/vuln/detail/CVE-2025-11226)
     * commons-beanutils 1.9.4 -> 1.11.0: [CVE-2025-48734](https://nvd.nist.gov/vuln/detail/CVE-2025-48734)
     * Bouncy Castle non-FIPS 1.78.1 -> 1.83: [CVE-2025-8916](https://nvd.nist.gov/vuln/detail/CVE-2025-8916)
