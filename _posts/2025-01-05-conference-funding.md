@@ -24,7 +24,7 @@ It's the best place to discuss the future of Puppet and Vox Pupuli (For more det
 Ghent is easy to reach by train, the station is [Gent-Sint-Pieters](https://maps.app.goo.gl/rsatG69CJ5Sy6Lyp7).
 The next airport is Brussels Airport, which has a direct train connection to Ghent (different options available, intercity is the fastest).
 
-In the past we made had good experiences with the [Novotel Gent Centrum](https://all.accor.com/hotel/0840/index.nl.shtml) and the [ibis Gent Centrum](https://all.accor.com/hotel/0961/index.nl.shtml) hotels. Anything around the [de Abt restaurant](https://maps.app.goo.gl/1jkEUZgHmr45MBXR9) is usually fine.
+In the past we have had good experiences with the [Novotel Gent Centrum](https://all.accor.com/hotel/0840/index.nl.shtml) and the [ibis Gent Centrum](https://all.accor.com/hotel/0961/index.nl.shtml) hotels. Anything around the [de Abt restaurant](https://maps.app.goo.gl/1jkEUZgHmr45MBXR9) is usually fine.
 Most of the attendees stay in this location and there's also a tram line to the conference.
 
 [cfgmgmtcamp.org/ghent2025/guide/](https://cfgmgmtcamp.org/ghent2025/guide/) also has a good overview for people that are new to the conference.

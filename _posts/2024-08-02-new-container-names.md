@@ -6,7 +6,7 @@ github_username: rwaffen
 category: changelog
 ---
 
-Beginning of today we are also releaseing our puppetserver and puppetdb containers with shorter names.
+Beginning of today we are also releasing our puppetserver and puppetdb containers with shorter names.
 
 The current names are: `voxpupuli/container-puppetserver` and `voxpupuli/container-puppetdb`.
 

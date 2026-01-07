@@ -22,7 +22,7 @@ If you have any questions, don't hesitate to ask. We are happy to help you.
 
 - Please follow the [Puppet Community Style Guide](https://puppet.com/docs/puppet/latest/style_guide.html) for your contributions.
 - And also keep our [Code of Conduct](https://voxpupuli.org/coc/) in mind.
-- If you have question about security, please follow our [security policy](https://voxpupuli.org/security/).
+- If you have a question about security, please follow our [security policy](https://voxpupuli.org/security/).
 - General and more specific documentation can be found on our [docs](https://voxpupuli.org/docs/).
 - In the project you want to work on, check their own contribution guidelines most often found in the README.md or CONTRIBUTING.md file.
 

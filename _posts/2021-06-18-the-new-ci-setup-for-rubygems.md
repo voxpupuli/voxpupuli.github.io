@@ -89,10 +89,10 @@ The release process is basically:
 * the changelog is generated with the [GitHub Changelog Generator Rubygem](https://github.com/github-changelog-generator/Github-Changelog-Generator#github-changelog-generator-) based on closed PRs/issues since the last release
 * the changes are provided as a PR
 * after that's approved and merged, a maintainer creates a gpg-signed git tag and pushes that to GitHub
-* the Release action posed above will build the gem on Ruby 3.0 and publishes it to rubygems and to GitHub packages
+* the Release action posted above will build the gem on Ruby 3.0 and publishes it to rubygems and to GitHub packages
 
 **secrets.GITHUB_TOKEN is available within the action by default, secrets.RUBYGEMS_AUTH_TOKEN is a custom secret defined on the GitHub org level**
 
-Besides creating the yaml file and the `secrets.RUBYGEMS_AUTH_TOKEN` secret, no additional configuration is required to publich to RubyGems/GitHub packages.
+Besides creating the yaml file and the `secrets.RUBYGEMS_AUTH_TOKEN` secret, no additional configuration is required to publish to RubyGems/GitHub packages.
 
 For all puppet-lint plugins we have, we sync those actions via [modulesync](https://github.com/voxpupuli/modulesync#modulesync) (take a look at the [template repository](https://github.com/voxpupuli/puppet-lint_modulesync_configs/tree/master/moduleroot/.github/workflows))

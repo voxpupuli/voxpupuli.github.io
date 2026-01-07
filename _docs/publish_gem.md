@@ -32,8 +32,8 @@ Before the first release, trusted publishing needs to be configured on rubygems.
 * add gem name, repo owner ("voxpupuli" or "OpenVoxProject"), repo name (usually same as gem name), workflow name (`release.yml`)
 * Set environment to `release` ([configured in our workflow](https://github.com/voxpupuli/gem-workflow-test/blob/96a29ada7ddea2ba0f27cbe0efd2194c7b9e7213/.github/workflows/release.yml#L71))
 
-This step has to be done at maximum 48h before the first release, or rubygems.org deletes the configuration
-The configuratin can be added again if rubygems.org deleted it.
+This step has to be done at maximum 48h before the first release, or rubygems.org deletes the configuration.
+The configuration can be added again if rubygems.org deleted it.
 
 ## Setup the GitHub Changelog configuration
 

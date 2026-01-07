@@ -5,7 +5,7 @@ date: 2026-01-05
 github_username: bastelfreak
 ---
 
-We have just build new OpenVox Server packages!
+We have just built new OpenVox Server packages!
 
 We want to give people some time to test them before we publish them to our official repositories.  You can download them from [artifacts.voxpupuli.org](https://artifacts.voxpupuli.org/openvox-server/8.12.0-0.1SNAPSHOT.2026.01.04T0557/).
 
