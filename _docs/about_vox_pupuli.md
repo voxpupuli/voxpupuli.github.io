@@ -45,7 +45,7 @@ At the moment Vox Pupuli has two sponsors.
 [Hetzner Cloud](https://www.hetzner.com/cloud) sponsors us cloud instances to
 run [voxpupu.li](https://voxpupu.li/) (our work-in-progress software to
 automate daily tasks with the help of the GitHub API. See
-[github.como/voxpupuli/vox-pupuli-tasks](https://github.com/voxpupuli/vox-pupuli-tasks#vox-pupuli-tasks---the-webapp-for-community-management)
+[github.com/voxpupuli/vox-pupuli-tasks](https://github.com/voxpupuli/vox-pupuli-tasks#vox-pupuli-tasks---the-webapp-for-community-management)
 for details).
 
 GitHub

@@ -29,7 +29,7 @@ one of our modules:
 * Is this a bugfix? Write the Pull Request Title in a way that users can easily identify if they are impacted or not
 * Does a new param map to an option in a config file of a service? The Parameter should accept the possible values that the service allows. For example 'on' and 'off'. Don't accept a boolean that will be converted to 'on' or 'off'
 * Is a new template added? The preferred language is [epp](https://puppet.com/docs/puppet/latest/lang_template_epp.html), not [erb](https://puppet.com/docs/puppet/latest/lang_template_erb.html)
-* Is a new class added? It should have unit tests using [rpsec-puppet-facts](https://github.com/mcanevet/rspec-puppet-facts#rspec-puppet-facts) that at least verify that the new class compiles. It also needs to have [puppet-strings docs](https://puppet.com/docs/puppet/6.17/puppet_strings.html).
+* Is a new class added? It should have unit tests using [rspec-puppet-facts](https://github.com/mcanevet/rspec-puppet-facts#rspec-puppet-facts) that at least verify that the new class compiles. It also needs to have [puppet-strings docs](https://puppet.com/docs/puppet/6.17/puppet_strings.html).
 * Files should always terminate with a newline if possible, with an exception being file or template fragments like those used with concat. This is the [POSIX standard][posix], and some tools don't handle the lack of a terminating newline properly
 * If you can supply one or multiple values for an attribute it's common practice to enforce the datatype for one value and an array of that datatype. An example for string is `Variant[String[1],Array[String[1]]]`. This can be used in the Puppet code as `[$var].flatten()`
 * The parameter section should always be aligned at the `=` char
@@ -45,7 +45,7 @@ one of our modules:
 ### Approving and Merging
 
 * You can merge your own PR if it was approved by a collaborator with merge permissions and CI is green. Don't merge if either one of those conditions are not true
-  * Modulesync PRs are an exception (a PR based on changes that the msync tool did, NOT PRs on [modulesync_config][ms_docs]). We agreed some time ago that it's ok to merge your own modulesync PR if CI is green, without separate approval. This is okay because changes to [modulesync_config][ms_docs] were [reviewed and tested][ms_guid]
+  * Modulesync PRs are an exception (a PR based on changes that the msync tool did, NOT PRs on [modulesync_config][ms_docs]). We agreed some time ago that it's ok to merge your own modulesync PR if CI is green, without separate approval. This is okay because changes to [modulesync_config][ms_docs] were [reviewed and tested][ms_guide]
   * If your PR is non-trivial or perhaps has only been approved by a work colleague etc, please consider allowing reasonable extra time for other 3rd parties to leave their reviews before merging.
     There is no prescribed minimum review period, or definition of 'reasonable time'. Vox Pupuli trusts collaborators to use their own judgement here.
 * It's okay to approve code regardless if CI is still running or not. The code won't be merged if CI fails after the PR got approved

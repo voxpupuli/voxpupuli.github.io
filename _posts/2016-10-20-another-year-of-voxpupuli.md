@@ -15,7 +15,7 @@ Important things we accomplished this year:
 * Elected the first steering [committee](https://voxpupuli.org/blog/2016/10/12/pmc-election-results/)
 * Added 22 modules
 * Released 240 things (modules, gems etc) (this really means we created 240 tags)
-* Added merge commit rights for 44 people (this really means we made 44 unique 'add privleges' actions on github teams)
+* Added merge commit rights for 44 people (this really means we made 44 unique 'add privileges' actions on github teams)
 * Created voxpupuli.org/plugins as a yellow pages for puppet tooling and plugins
 * [Octohatrack](https://github.com/labhr/octohatrack) found 2521 unique contributors to our projects (all time)
 * Began tracing our activity in a [changelog](https://github.com/voxpupuli/plumbing/blob/master/CHANGELOG.md)
