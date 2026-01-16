@@ -32,4 +32,4 @@ That's required because the server package depends on the agent package.
 
 If you find any bugs or want to contribute, please come to our [#openvox](https://voxpupuli.org/connect/) channel on IRC or slack.
 
-~~We plan to move the packages to the official repos on 2026-01-12.~~ -> [See our new post](https://voxpupuli.org/blog/2026/01/12/more-testing-for-new-packages/).
+~~We plan to move the packages to the official repos on 2026-01-12.~~ -> ~~[See our new post about extended testing](https://voxpupuli.org/blog/2026/01/12/more-testing-for-new-packages/).~~ -> [The release is available!](https://voxpupuli.org/blog/2026/01/16/new-openvox-server-release/)

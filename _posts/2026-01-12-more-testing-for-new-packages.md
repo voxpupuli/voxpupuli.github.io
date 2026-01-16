@@ -19,3 +19,5 @@ If you want to try it on a new box, you will have to add our usual repos from [a
 That's required because the server package depends on the agent package.
 
 If you find any bugs or want to contribute, please come to our [#openvox](https://voxpupuli.org/connect/) channel on IRC or slack.
+
+Edit: [The release is available!](https://voxpupuli.org/blog/2026/01/16/new-openvox-server-release/)
