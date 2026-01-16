@@ -15,3 +15,5 @@ We will also provide FIPS-enabled packages for OpenVoxDB & Server in the future.
 If you find any bugs or want to contribute, please come to our [#openvox](https://voxpupuli.org/connect/) channel on IRC or slack.
 
 A big thank you to Nick Burgan and Overlook InfraTech for building the packages!
+
+Edit: [The related OpenVox-Server release is available!](https://voxpupuli.org/blog/2026/01/16/new-openvox-server-release/)
