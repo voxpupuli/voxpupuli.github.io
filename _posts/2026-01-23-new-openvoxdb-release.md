@@ -9,7 +9,7 @@ OpenVoxDB 8.12.1 got released!
 
 After our big [OpenVox-Server release](https://voxpupuli.org/blog/2026/01/16/new-openvox-server-release/), we did the same for OpenVoxDB.
 
-This version represents a significant change in how openvox-server is built. Most of this is under the hood, but should lower the bar to development and allow us to make changes more easily and rapidly.
+This version represents a significant change in how OpenVoxDB is built. Most of this is under the hood, but should lower the bar to development and allow us to make changes more easily and rapidly.
 
 In addition to the standard GitHub release notes, these are the important changes in this version.
 
