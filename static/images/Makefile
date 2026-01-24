@@ -1,4 +1,4 @@
-all: sponsor-github.png sponsor-hetzner.png sponsor-betadots.png sponsor-babiel.png sponsor-enterprise-modules.png sponsor-docker.png sponsor-puppet.png sponsor-deubert.png sponsor-microsoft.png sponsor-macarne.png sponsor-cern.png sponsor-geant.png sponsor-tiger-computing.png sponsor-arnes.png logo-atix.png logo-blendbyte.png logo-sscg.png logo-nine.png logo-datadog.png logo-example42.png
+all: sponsor-github.png sponsor-hetzner.png sponsor-betadots.png sponsor-babiel.png sponsor-enterprise-modules.png sponsor-docker.png sponsor-puppet.png sponsor-deubert.png sponsor-microsoft.png sponsor-macarne.png sponsor-cern.png sponsor-geant.png sponsor-tiger-computing.png sponsor-arnes.png logo-atix.png logo-blendbyte.png logo-sscg.png logo-nine.png logo-datadog.png logo-example42.png logo-osuosl.png
 
 SPONSOR_LOGO=	300x150
 SPONSOR_CANVAS=	320x170
@@ -54,3 +54,5 @@ logo-nine.png: Nine_Logo+Claim_RGB.png
 logo-datadog.png: dd_logo_v_rgb.png
 
 logo-example42.png: example42.png
+
+logo-osuosl.png: osllogo-web_0.png
