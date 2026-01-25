@@ -57,6 +57,6 @@ logo-example42.png: example42.png
 
 logo-osuosl.png: osllogo-web_0.png
 
-logo-campoint.png: cag_logo_white_line_01.png
+logo-campoint.png: 15984327.jpeg
 
 logo-dmtech.png: dmTECH_Logo.jpg
