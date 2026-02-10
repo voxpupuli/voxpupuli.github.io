@@ -36,6 +36,8 @@ Please download them and provide feedback [in the openvox Slack/IRC channel](htt
 
 **Gem Changes:**
 
+{: .table .table-striped .table-hover }
+
 | Component | Old Version | New Version |
 |-----------|-------------|-------------|
 | rubygem-aws-partitions | 1.1188.0 | 1.1213.0 |
@@ -65,6 +67,8 @@ Please download them and provide feedback [in the openvox Slack/IRC channel](htt
 
 
 **Component Changes:**
+
+{: .table .table-striped .table-hover }
 
 | Component | Old Version | New Version |
 |-----------|-------------|-------------|
