@@ -5,5 +5,5 @@ button: overlookinfratech.com
 tier: premier
 ---
 
-Overlook sponsored the original community builds.
+Overlook contributed the original community builds and continues to take a leading role in OpenVox development.
 They are longtime Puppet experts and offer OpenVox support plans and custom development options.
