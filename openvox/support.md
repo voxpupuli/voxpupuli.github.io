@@ -12,9 +12,18 @@ In the spirit of the open source ethos, you will find peer support from others i
 
 If your business needs include enhanced commercial support, then connect with the friendly companies below who offer plans that might fit your needs.
 
-<div class="row">
+<div class="row support-premier">
   {% for sponsor in site.support %}
-    {% include sponsor-card.html width=6 vendor=sponsor %}
+    {%- if sponsor.tier == "premier" -%}
+      {% include sponsor-card.html width=6 vendor=sponsor %}
+    {%- endif -%}
+  {% endfor %}
+</div>
+<div class="row support-standard">
+  {% for sponsor in site.support %}
+    {%- if sponsor.tier != "premier" -%}
+      {% include sponsor-card.html width=3 vendor=sponsor %}
+    {%- endif -%}
   {% endfor %}
 </div>
 

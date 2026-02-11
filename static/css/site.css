@@ -51,6 +51,15 @@ ul.docs-index li:hover {
   padding-top: 30px;
 }
 
+.support-premier .card,
+.support-premier .card .btn {
+
+}
+.support-standard .card,
+.support-standard .card .btn  {
+  font-size: small;
+}
+
 /* The unstyled list actually looks better on mobile. This width matches the
    `navbar-expand-lg` parent class. If you change that, then change this to match.
     See https://getbootstrap.com/docs/5.0/layout/breakpoints/#available-breakpoints
