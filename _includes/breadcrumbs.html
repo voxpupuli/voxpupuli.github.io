@@ -2,9 +2,29 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item"><a href="/">Home</a></li>
-    <li class="breadcrumb-item"><a href="/blog/">Blog</a></li>
-    {% for crumb in crumbs offset: 2 %}
-      <li class="breadcrumb-item active" aria-current="page">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</li>
+    {% for crumb in crumbs offset: 1 %}
+      {% assign stripped = crumb
+      | replace: '0', ''
+      | replace: '1', ''
+      | replace: '2', ''
+      | replace: '3', ''
+      | replace: '4', ''
+      | replace: '5', ''
+      | replace: '6', ''
+      | replace: '7', ''
+      | replace: '8', ''
+      | replace: '9', '' %}
+
+      {%- assign crumb_is_numeric = false -%}
+      {% if crumb != '' and stripped == '' %}
+      {%- assign crumb_is_numeric = true -%}
+      {% endif %}
+
+      {% if forloop.last or crumb_is_numeric %}
+        <li class="breadcrumb-item active" aria-current="page">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</li>
+      {% else %}
+        <li class="breadcrumb-item"><a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a></li>
+      {% endif %}
     {% endfor %}
   </ol>
 </nav>
