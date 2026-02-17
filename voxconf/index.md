@@ -9,6 +9,7 @@ title:
 <h3>🗓️ Upcoming Events</h3>
 <ul>
 <li><a href="2026">VoxConf 2026</a></li>
+<li><a href="2027">VoxConf 2027</a></li>
 </ul>
 </div>
 
