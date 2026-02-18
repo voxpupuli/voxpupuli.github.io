@@ -9,24 +9,85 @@ github_username: bastelfreak
 
 We now have:
 
-* amazon-2-aarch64, amazon-2-x86_64
-* amazon-2023-aarch64, amazon-2023-x86_64
-* debian-11-aarch64, debian-11-amd64
-* debian-12-aarch64, debian-12-amd64
-* debian-13-aarch64, debian-13-amd64, debian-13-armhf
-* el-8-aarch64, el-8-x86_64
-* el-9-aarch64, el-9-x86_64
-* el-10-x86_64, el-10-aarch64
-* fedora-42-x86_64, fedora-42-aarch64
-* fedora-43-x86_64, fedora-43-aarch64
-* macos-all-arm64, macos-all-x86_64
-* sles-15-x86_64
-* sles-16-aarch64, sles-16-x86_64
-* ubuntu-22.04-aarch64, ubuntu-22.04-amd64
-* ubuntu-24.04-aarch64, ubuntu-24.04-amd64, ubuntu-24.04-armhf
-* ubuntu-25.04-amd64, ubuntu-25.04-aarch64, ubuntu-25.04-armhf
-* ubuntu-26.04-amd64, ubuntu-26.04-aarch64, ubuntu-26.04-armhf
-* windows-all-x64
+<div class="card shadow-sm mb-3">
+  <div class="card-header fw-semibold">
+    Amazon
+  </div>
+  <div class="card-body d-flex flex-wrap gap-2">
+    <span class="badge bg-dark">2-aarch64</span>
+    <span class="badge bg-dark">2-x86_64</span>
+    <span class="badge bg-dark">2023-aarch64</span>
+    <span class="badge bg-dark">2023-x86_64</span>
+  </div>
+  <div class="card-header fw-semibold">
+    Ubuntu
+  </div>
+  <div class="card-body d-flex flex-wrap gap-2">
+    <span class="badge bg-dark">22.04-amd64</span>
+    <span class="badge bg-dark">22.04-aarch64</span>
+    <span class="badge bg-dark">24.04-amd64</span>
+    <span class="badge bg-dark">24.04-aarch64</span>
+    <span class="badge bg-dark">24.04-armhf</span>
+    <span class="badge bg-dark">25.04-amd64</span>
+    <span class="badge bg-dark">25.04-aarch64</span>
+    <span class="badge bg-dark">25.04-armhf</span>
+    <span class="badge bg-dark">26.04-amd64</span>
+    <span class="badge bg-dark">26.04-aarch64</span>
+    <span class="badge bg-dark">26.04-armhf</span>
+  </div>
+  <div class="card-header fw-semibold">
+    Debian
+  </div>
+  <div class="card-body d-flex flex-wrap gap-2">
+    <span class="badge bg-dark">11-aarch64</span>
+    <span class="badge bg-dark">11-amd64</span>
+    <span class="badge bg-dark">12-aarch64</span>
+    <span class="badge bg-dark">12-amd64</span>
+    <span class="badge bg-dark">13-aarch64</span>
+    <span class="badge bg-dark">13-amd64</span>
+    <span class="badge bg-dark">13-armhf</span>
+  </div>
+  <div class="card-header fw-semibold">
+    Enterprise Linux
+  </div>
+  <div class="card-body d-flex flex-wrap gap-2">
+    <span class="badge bg-dark">8-aarch64</span>
+    <span class="badge bg-dark">8-x86_64</span>
+    <span class="badge bg-dark">9-x86_64</span>
+    <span class="badge bg-dark">10-x86_64</span>
+    <span class="badge bg-dark">10-aarch64</span>
+  </div>
+  <div class="card-header fw-semibold">
+    Fedora
+  </div>
+  <div class="card-body d-flex flex-wrap gap-2">
+    <span class="badge bg-dark">42-x86_64</span>
+    <span class="badge bg-dark">42-aarch64</span>
+    <span class="badge bg-dark">43-x86_64</span>
+    <span class="badge bg-dark">43-aarch64</span>
+  </div>
+  <div class="card-header fw-semibold">
+    SLES
+  </div>
+  <div class="card-body d-flex flex-wrap gap-2">
+    <span class="badge bg-dark">15-x86_64</span>
+    <span class="badge bg-dark">16-aarch64</span>
+    <span class="badge bg-dark">16-x86_64</span>
+  </div>
+  <div class="card-header fw-semibold">
+    MacOS
+  </div>
+  <div class="card-body d-flex flex-wrap gap-2">
+    <span class="badge bg-dark">all-arm64</span>
+    <span class="badge bg-dark">all-x86_64</span>
+  </div>
+  <div class="card-header fw-semibold">
+    Windows
+  </div>
+  <div class="card-body d-flex flex-wrap gap-2">
+    <span class="badge bg-dark">all-x64</span>
+  </div>
+</div>
 
 [FIPS builds](https://voxpupuli.org/blog/2026/01/13/new-fips-agent-packages/) for EL8 & EL9 are a different build process and will be delivered shortly afterwards.
 The biggest change in the new release is the update from Ruby 3.2.9->3.2.10, also we updated various Ruby gems.
