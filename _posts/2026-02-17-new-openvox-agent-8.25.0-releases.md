@@ -13,80 +13,80 @@ We now have:
   <div class="card-header fw-semibold">
     Amazon
   </div>
-  <div class="card-body d-flex flex-wrap gap-2">
-    <span class="badge bg-dark">2-aarch64</span>
-    <span class="badge bg-dark">2-x86_64</span>
-    <span class="badge bg-dark">2023-aarch64</span>
-    <span class="badge bg-dark">2023-x86_64</span>
-  </div>
+  <ul class="card-body d-flex flex-wrap gap-2">
+    <li class="badge bg-dark">2-aarch64</li>
+    <li class="badge bg-dark">2-x86_64</li>
+    <li class="badge bg-dark">2023-aarch64</li>
+    <li class="badge bg-dark">2023-x86_64</li>
+  </ul>
   <div class="card-header fw-semibold">
     Ubuntu
   </div>
-  <div class="card-body d-flex flex-wrap gap-2">
-    <span class="badge bg-dark">22.04-amd64</span>
-    <span class="badge bg-dark">22.04-aarch64</span>
-    <span class="badge bg-dark">24.04-amd64</span>
-    <span class="badge bg-dark">24.04-aarch64</span>
-    <span class="badge bg-dark">24.04-armhf</span>
-    <span class="badge bg-dark">25.04-amd64</span>
-    <span class="badge bg-dark">25.04-aarch64</span>
-    <span class="badge bg-dark">25.04-armhf</span>
-    <span class="badge bg-dark">26.04-amd64</span>
-    <span class="badge bg-dark">26.04-aarch64</span>
-    <span class="badge bg-dark">26.04-armhf</span>
-  </div>
+  <ul class="card-body d-flex flex-wrap gap-2">
+    <li class="badge bg-dark">22.04-amd64</li>
+    <li class="badge bg-dark">22.04-aarch64</li>
+    <li class="badge bg-dark">24.04-amd64</li>
+    <li class="badge bg-dark">24.04-aarch64</li>
+    <li class="badge bg-dark">24.04-armhf</li>
+    <li class="badge bg-dark">25.04-amd64</li>
+    <li class="badge bg-dark">25.04-aarch64</li>
+    <li class="badge bg-dark">25.04-armhf</li>
+    <li class="badge bg-dark">26.04-amd64</li>
+    <li class="badge bg-dark">26.04-aarch64</li>
+    <li class="badge bg-dark">26.04-armhf</li>
+  </ul>
   <div class="card-header fw-semibold">
     Debian
   </div>
-  <div class="card-body d-flex flex-wrap gap-2">
-    <span class="badge bg-dark">11-aarch64</span>
-    <span class="badge bg-dark">11-amd64</span>
-    <span class="badge bg-dark">12-aarch64</span>
-    <span class="badge bg-dark">12-amd64</span>
-    <span class="badge bg-dark">13-aarch64</span>
-    <span class="badge bg-dark">13-amd64</span>
-    <span class="badge bg-dark">13-armhf</span>
-  </div>
+  <ul class="card-body d-flex flex-wrap gap-2">
+    <li class="badge bg-dark">11-aarch64</li>
+    <li class="badge bg-dark">11-amd64</li>
+    <li class="badge bg-dark">12-aarch64</li>
+    <li class="badge bg-dark">12-amd64</li>
+    <li class="badge bg-dark">13-aarch64</li>
+    <li class="badge bg-dark">13-amd64</li>
+    <li class="badge bg-dark">13-armhf</li>
+  </ul>
   <div class="card-header fw-semibold">
     Enterprise Linux
   </div>
-  <div class="card-body d-flex flex-wrap gap-2">
-    <span class="badge bg-dark">8-aarch64</span>
-    <span class="badge bg-dark">8-x86_64</span>
-    <span class="badge bg-dark">9-x86_64</span>
-    <span class="badge bg-dark">10-x86_64</span>
-    <span class="badge bg-dark">10-aarch64</span>
-  </div>
+  <ul class="card-body d-flex flex-wrap gap-2">
+    <li class="badge bg-dark">8-aarch64</li>
+    <li class="badge bg-dark">8-x86_64</li>
+    <li class="badge bg-dark">9-x86_64</li>
+    <li class="badge bg-dark">10-x86_64</li>
+    <li class="badge bg-dark">10-aarch64</li>
+  </ul>
   <div class="card-header fw-semibold">
     Fedora
   </div>
-  <div class="card-body d-flex flex-wrap gap-2">
-    <span class="badge bg-dark">42-x86_64</span>
-    <span class="badge bg-dark">42-aarch64</span>
-    <span class="badge bg-dark">43-x86_64</span>
-    <span class="badge bg-dark">43-aarch64</span>
-  </div>
+  <ul class="card-body d-flex flex-wrap gap-2">
+    <li class="badge bg-dark">42-x86_64</li>
+    <li class="badge bg-dark">42-aarch64</li>
+    <li class="badge bg-dark">43-x86_64</li>
+    <li class="badge bg-dark">43-aarch64</li>
+  </ul>
   <div class="card-header fw-semibold">
     SLES
   </div>
-  <div class="card-body d-flex flex-wrap gap-2">
-    <span class="badge bg-dark">15-x86_64</span>
-    <span class="badge bg-dark">16-aarch64</span>
-    <span class="badge bg-dark">16-x86_64</span>
-  </div>
+  <ul class="card-body d-flex flex-wrap gap-2">
+    <li class="badge bg-dark">15-x86_64</li>
+    <li class="badge bg-dark">16-aarch64</li>
+    <li class="badge bg-dark">16-x86_64</li>
+  </ul>
   <div class="card-header fw-semibold">
     MacOS
   </div>
-  <div class="card-body d-flex flex-wrap gap-2">
-    <span class="badge bg-dark">all-arm64</span>
-    <span class="badge bg-dark">all-x86_64</span>
-  </div>
+  <ul class="card-body d-flex flex-wrap gap-2">
+    <li class="badge bg-dark">all-arm64</li>
+    <li class="badge bg-dark">all-x86_64</li>
+  </ul>
   <div class="card-header fw-semibold">
     Windows
   </div>
-  <div class="card-body d-flex flex-wrap gap-2">
-    <span class="badge bg-dark">all-x64</span>
-  </div>
+  <ul class="card-body d-flex flex-wrap gap-2">
+    <li class="badge bg-dark">all-x64</li>
+  </ul>
 </div>
 
 [FIPS builds](https://voxpupuli.org/blog/2026/01/13/new-fips-agent-packages/) for EL8 & EL9 are a different build process and will be delivered shortly afterwards.
