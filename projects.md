@@ -1,8 +1,7 @@
 ---
 layout: page
+title: Projects Overview
 ---
-
-# Projects Overview
 
 Vox Pupuli hosts many projects in the Puppet ecosystem. You're probably already
 using several of our modules and our testing pipeline tooling. This page will help
