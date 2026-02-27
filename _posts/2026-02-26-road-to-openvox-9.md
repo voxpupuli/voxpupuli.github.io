@@ -58,7 +58,7 @@ To test ZJIT / YJIT, you can add the commandline option to Ruby:
 +++ a/opt/puppetlabs/puppet/bin/puppet
 @@ -1,4 +1,4 @@
 -#!/opt/puppetlabs/puppet/bin/ruby
-+#!/opt/puppetlabs/puppet/bin/ruby --zjit
++#!/opt/puppetlabs/puppet/bin/ruby --yjit
  # frozen_string_literal: true
 
  begin
