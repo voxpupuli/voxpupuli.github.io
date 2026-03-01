@@ -158,8 +158,14 @@ bundle exec rake parallel_spec
 Single test file could be run by:
 
 ```shell
-bundle exec rspec spec/classes/myclass_spec.rb
 bundle exec rake spec SPEC=spec/classes/myclass_spec.rb
+```
+
+or
+
+```shell
+bundle exec rake fixtures:prep
+bundle exec rspec spec/classes/myclass_spec.rb
 ```
 
 To limit test execution to a certain os or os release you can set the environment variable `SPEC_FACTS_OS`.
