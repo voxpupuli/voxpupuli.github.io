@@ -158,6 +158,24 @@ package { 'oauth':
 }
 ```
 
+In case you encounter issues like:
+
+```shell
+Error: Could not find a suitable provider for foreman_host
+Error: Could not find a suitable provider for foreman_smartproxy
+Error: Could not find a suitable provider for foreman_instance_host
+Error: Could not find a suitable provider for foreman_smartproxy_host
+
+puppet resource foreman_host --debug
+Debug: Runtime environment: puppet_version=8.24.2, ruby_version=3.2.9, run_mode=user, openssl_version='OpenSSL 3.0.18 30 Sep 2025', openssl_fips=false, default_encoding=UTF-8
+Debug: Found in cache :production
+Debug: Could not find library 'oauth' required to enable feature 'oauth'
+Debug: Puppet::Type::Foreman_host::ProviderRest_v3: feature oauth is missing
+Debug: Puppet::Type::Foreman_host::ProviderRest_v3: feature oauth is missing
+```
+
+In that situation you might have to reinstall the package `puppet-agent-oauth`.
+
 -----
 
 ## Sponsorship
