@@ -107,6 +107,19 @@ This is useful if you want to get a list of nodes with a specific profile or rol
 puppet query 'nodes[certname] {resources {type = "Class" and title = "CapitalizedClassname"}}'
 ```
 
+### Get all nodes that have a specific class using a specific parameter value
+
+This query expands on the previous example but filters the results even more by
+requiring the required class to have one of its parameters be set to a
+predetermined value. For example, to obtain all nodes using a specific profile
+with a specific cluster name. Note how `parameters` is a field of the resources
+endpoint, but since it's a hash we need to use the dot-notation for accessing
+sub-elements.
+
+```shell
+puppet query 'nodes[certname] {resources {type = "Class" and title = "CapitalizedClassname" and parameters.cluster_name = "ClusterName"}}'
+```
+
 ### Get a list of all roles / profiles
 
 ```shell
