@@ -31,10 +31,10 @@ Both organisations take a fee for processing funding, so we prefer open-collecti
 
 ### Top five contributors all time GitHub + open-collective
 
-* [betadots GmbH](https://www.betadots.de/) with $7,382 USD since Mar 2025
+* [betadots GmbH](https://www.betadots.de/) with $7,382 USD since Feb 2023
 * Microsoft with a $5,000 onetime donation
 * Anonymous onetime donation of $4,961
-* [Xyntion GmbH](https://www.xyntion.consulting/) $3,649 USD since Feb 2025
+* [Xyntion GmbH](https://www.xyntion.consulting/) $3,649 USD since Feb 2023
 * [Bert Hajee](https://www.enterprisemodules.com/) $3,300 USD since Jul 2023
 
 ### 2025 breakdown
