@@ -99,6 +99,7 @@ changes compared between [Puppet-Runtime-2026.03.04.1 and 2026.02.25.1](https://
 {: .table .table-striped .table-hover }
 
 **Component Changes:**
+
 | Component | Old Version | New Version |
 |-----------|-------------|-------------|
 | rubygem-choria-mcorpc-support |  | 2.26.5 |
