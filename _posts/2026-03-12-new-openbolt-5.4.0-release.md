@@ -102,7 +102,7 @@ changes compared between [Puppet-Runtime-2026.03.04.1 and 2026.02.25.1](https://
 
 | Component | Old Version | New Version |
 |-----------|-------------|-------------|
-| rubygem-choria-mcorpc-support |  | 2.26.5 |
-| rubygem-nats-pure |  | 0.6.2 |
-| rubygem-systemu |  | 2.6.5 |
+| rubygem-choria-mcorpc-support | none | 2.26.5 |
+| rubygem-nats-pure | none | 0.6.2 |
+| rubygem-systemu | none | 2.6.5 |
 
