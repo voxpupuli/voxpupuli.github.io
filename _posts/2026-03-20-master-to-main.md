@@ -7,7 +7,7 @@ github_username: rwaffen
 
 Hi @everyone 👋, we have a large number of repositories, and we want to establish a clear and consistent standard for how we name our default branches across the organization.
 
-This is not only about using inclusive language, but also about improving clarity, reducing confusion, and aligning with current defaults such as main on GitHub.
+The reason for this change is to align with current defaults on GitHub, upcoming changes to Git itself, as well as standardizing language, improving clarity, and reducing confusion of having different repositories with different defaults.
 
 Since this change can involve a fair amount of work, we’d like to approach it collaboratively and involve everyone in the process.
 
