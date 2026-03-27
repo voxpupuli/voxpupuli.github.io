@@ -15,7 +15,7 @@ If you touch any repository and got some extra time to spend, please switch the 
 
 <!-- TODO: Can everyone do this or do we need some special rights to do this? -->
 If you are a repository maintainer you can switch the default branch in the repository settings on GitHub.
-See the GitHub documaentation to this: <https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/renaming-a-branch>
+See the [GitHub documentation](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/renaming-a-branch).
 
 The commands to update your local clone are as follows:
 
