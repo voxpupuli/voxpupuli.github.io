@@ -6,7 +6,8 @@ github_username: binford2k
 ---
 
 Hello friends, we've been talking about the DCO for some time now, and I wanted to give you a heads up on the project's current status.
-*tldr;* the DCO validation check has been enabled for all [`OpenVoxProject`](https://github.com/OpenVoxProject) repositories, but is not yet required for merging.
+
+📝 *tldr;* the DCO validation check has been enabled for all [`OpenVoxProject`](https://github.com/OpenVoxProject) repositories, but is not yet required for merging.
 
 ## Background
 
