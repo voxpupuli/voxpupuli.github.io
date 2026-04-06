@@ -60,4 +60,4 @@ As such, we require *both* GPG commit signing and DCO signed off commits.
 
 ## Roadmap
 
-Over the coming weeks and months, you'll see this propagate to all `voxpupuli`](https://github.com/voxpupuli) repositories and you'll see it becoming a required check.
+Over the coming weeks and months, you'll see this propagate to all [`voxpupuli`](https://github.com/voxpupuli) repositories and you'll see it becoming a required check.
