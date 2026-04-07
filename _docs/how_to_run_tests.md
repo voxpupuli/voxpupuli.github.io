@@ -175,6 +175,12 @@ export SPEC_FACTS_OS=centos
 export SPEC_FACTS_OS=centos-7
 ```
 
+To end tests on first failure you can set `SPEC_OPTS`.
+
+```shell
+export SPEC_OPTS="--fail-fast"
+```
+
 ### Running Acceptance Tests
 
 The unit tests just check the code runs, not that it does exactly what we want on a real machine.
