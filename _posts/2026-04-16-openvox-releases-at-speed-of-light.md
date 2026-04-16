@@ -9,7 +9,9 @@ The community has put lots of effort into automating the OpenVox release process
 
 To give you an example how fast releases are possible, I want to point you to the timing between the last two releases:
 
-Release 8.26.0 was tagged and available on the [GitHub release page](https://github.com/OpenVoxProject/openvox/releases/tag/8.26.0) on April 14 2026 at 6:40 PM CEST.
+Release 8.26.0 was tagged on April 14 2026 at 6:39 PM CEST.
+
+The release was  available on the [GitHub release page](https://github.com/OpenVoxProject/openvox/releases/tag/8.26.0) on April 14 2026 at 6:40 PM CEST.
 
 The packages were available on the repo server on April 14 2026 at 7:02 PM CEST.
 
@@ -29,7 +31,12 @@ from a client agent.
 hiera-eyaml is present on the server:
 ```
 
-The community reacted and fixed the bug.
+The community reacted and fixed the bug with the following commits:
+
+- [hiera-eyaml - April 15 2026 at 7:15 PM CEST](https://github.com/voxpupuli/hiera-eyaml/commit/cd64af6580b9d2e30d6b90bf78c442f4db711b1e)
+- [puppet-runtime - April 15 2026 at 10:32 PM CEST](https://github.com/OpenVoxProject/puppet-runtime/commit/75960a166fe1eb203e2c88c463ce65a9901963ed)
+- [openvox - April 15 2026 at 11:01 PM CEST](https://github.com/OpenVoxProject/openvox/commit/1a4c6ae5006242df50c6d26a94214c7d1f4361fb)
+- [openvox tag - April 16 2026 at 1:08 AM CEST](https://github.com/OpenVoxProject/openvox/commit/06930e46fcad68fa0a6e29afd4fbf36569dddab8)
 
 The new release [8.26.1](https://github.com/OpenVoxProject/openvox/releases/tag/8.26.1) was available on April 15 2026 at 1:11 AM CEST.
 
@@ -39,5 +46,5 @@ That's less than 8 hours from release to bug identification to fixed release.
 
 That is less time compared to the sun being visible in Europe on that day (6:07 AM CEST to 8:07 PM CEST).
 
-The Vox Pupuli community has proven, that automation is the key to success.
+The Vox Pupuli community has proven that automation is the key to success.
 
