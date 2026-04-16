@@ -1,4 +1,4 @@
-all: sponsor-github.png sponsor-hetzner.png sponsor-betadots.png sponsor-babiel.png sponsor-enterprise-modules.png sponsor-docker.png sponsor-puppet.png sponsor-deubert.png sponsor-microsoft.png sponsor-macarne.png sponsor-cern.png sponsor-geant.png sponsor-tiger-computing.png sponsor-arnes.png logo-atix.png logo-blendbyte.png logo-sscg.png logo-nine.png logo-datadog.png logo-example42.png logo-osuosl.png logo-campoint.png logo-dmtech.png logo-dnsb.png logo-otris.png logo-sc.png
+all: sponsor-github.png sponsor-hetzner.png sponsor-betadots.png sponsor-babiel.png sponsor-enterprise-modules.png sponsor-docker.png sponsor-puppet.png sponsor-deubert.png sponsor-microsoft.png sponsor-macarne.png sponsor-cern.png sponsor-geant.png sponsor-tiger-computing.png sponsor-arnes.png logo-atix.png logo-blendbyte.png logo-sscg.png logo-nine.png logo-datadog.png logo-example42.png logo-osuosl.png logo-campoint.png logo-dmtech.png logo-dnsb.png logo-otris.png logo-sc.png logo-bitbone.png
 
 SPONSOR_LOGO=	300x150
 SPONSOR_CANVAS=	320x170
@@ -66,3 +66,5 @@ logo-dnsb.png: DNS-Belgium-Voxpupuli.png
 logo-otris.png: otris-systems-Logo-PANTONE-319-Kopie-800x217.png
 
 logo-sc.png: SC_Logo_-_schwarz_primaer.png
+
+logo-bitbone.png: logo_bitbone_Standard_308px.png
