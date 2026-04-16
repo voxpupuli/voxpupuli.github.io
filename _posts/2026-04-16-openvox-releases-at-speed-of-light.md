@@ -11,7 +11,7 @@ To give you an example how fast releases are possible, I want to point you to th
 
 Release 8.26.0 was tagged on April 14 2026 at 6:39 PM CEST.
 
-The release was  available on the [GitHub release page](https://github.com/OpenVoxProject/openvox/releases/tag/8.26.0) on April 14 2026 at 6:40 PM CEST.
+The release was available on the [GitHub release page](https://github.com/OpenVoxProject/openvox/releases/tag/8.26.0) on April 14 2026 at 6:40 PM CEST.
 
 The packages were available on the repo server on April 14 2026 at 7:02 PM CEST.
 
