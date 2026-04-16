@@ -31,6 +31,8 @@ from a client agent.
 hiera-eyaml is present on the server:
 ```
 
+Bug analysis showed that the base64 dependency declaration is needed for Ruby 3.4/4 because it moved from a default gem to a bundled gem, but 0.3 is too new for the default gem version in Ruby 3.2, so it caused issues in OpenVox 8.
+
 The community reacted and fixed the bug with the following commits:
 
 - [hiera-eyaml - April 15 2026 at 7:15 PM CEST](https://github.com/voxpupuli/hiera-eyaml/commit/cd64af6580b9d2e30d6b90bf78c442f4db711b1e)
