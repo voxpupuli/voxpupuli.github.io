@@ -81,6 +81,7 @@ Run the rake target `release`. This will:
 * and push it to origin.
 
 ```bash
+bundle install --with release
 bundle exec rake release
 ```
 
@@ -134,7 +135,7 @@ If necessary, run `bundle install` before continuing. If you want you can also o
 ```bash
 bundle config set --local path 'vendor'
 bundle config set --local without 'development system_tests'
-bundle install
+bundle install --with release
 ```
 
 And in case you installed the gems before:
