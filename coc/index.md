@@ -20,6 +20,7 @@ Examples of behavior that contributes to a positive environment for our communit
 Examples of unacceptable behavior include:
 
 * Trolling, insulting or derogatory comments, and personal or political attacks
+* Insulting others' code, framework choices, or development tooling. This includes their choice of coding assistants.
 * Public or private harassment
 * Publishing others’ private information, such as a physical or email address, without their explicit permission
 * Conduct which could reasonably be considered inappropriate in a professional setting
