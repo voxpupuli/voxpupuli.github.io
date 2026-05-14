@@ -60,7 +60,7 @@ Use the appropriate package manager to get it installed.
 #### ArchLinux
 
 ```shell
-# pacman -Syu extra/ruby-bundler
+# pacman -S ruby-bundler
 ```
 
 #### By Gem (Last Option)
