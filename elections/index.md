@@ -23,67 +23,27 @@ You need to be part of the Vox Pupuli GitHub organisation *and logged in at GitH
 
 ## Current PMC
 
-Those are the current people in the 2025 PMC.
-The elections started with the announcement at [config management camp in Ghent, on 2025-02-05][2025].
+Those are the current people in the 2026 PMC.
+The elections started with the announcement at [config management camp in Ghent, on 2026-02-05][2026].
 
-#### Alex Fisher (alexjfisher)
+|                  |  Slack Name                     | GitHub Handle                                          |                         |
+|------------------|---------------------------------|--------------------------------------------------------|-------------------------|
+| Tim Meusel       | `bastelfreak`                   | [`@bastelfreak`](https://github.com/bastelfreak)       | [Intro][bastelfreak]    |
+| Ben Ford         | `binford2k`                     | [`@binford2k`](https://github.com/binford2k)           | [Intro][binford2k]      |
+| Kenyon Ralph     | `kenyon`                        | [`@kenyon`](https://github.com/kenyon)                 | [Intro][kenyon]         |
+| Nick Burgan      | `Nick Burgan`                   | [`@nmburgan`](https://github.com/nmburgan)             | [Intro][nmburgan]       |
+| Robert Waffen    | `rwaffen`                       | [`@rwaffen`](https://github.com/rwaffen)               | [Intro][rwaffen]        |
+| Steven Pritchard | `Steven Pritchard`              | [`@silug`](https://github.com/silug)                   | [Intro][silug]          |
+| Romain Tartière  | `smortex`                       | [`@smortex`](https://github.com/smortex)               | [Intro][smortex]        |
+| Sebastian Rakel  | `Sebastian Spritzgebaeck Rakel` | [`@sebastianrakel`](https://github.com/sebastianrakel) | [Intro][sebastianrakel] |
 
-My name is Alex Fisher.
-I've been a Linux system administrator, network, and DevOps engineer for over 20 years.
-I first contributed to Vox Pupuli in 2015 and was re-elected to the PMC last year.
-Originally working for myself as a freelance Puppet engineer, I later took a full-time job during COVID.
-
-Luckily, I still get to do plenty of Puppet work—even if it's sometimes on older operating systems.
-I know I'm not alone in this, and I believe this experience enables me to provide value to the community by representing those in similar situations.
-
-#### Tim Meusel (bastelfreak)
-
-My name is Tim Meusel, also known as bastelfreak.
-I am a Vox Pupuli collaborator since 2014 and a PMC member since the beginning.
-Puppet is my preferred automation toolkit since 2012.
-In the past decade I contributed to all major modules and tools within the Puppet ecosystem.
-I had the pleasure to get to know many other contributors and companies that use Vox Pupuli projects and I want to continue this journey.
-
-#### Ben Ford (binford2k)
-
-Ben is a software engineer and community leader with extensive knowledge and expertise in the Puppet ecosystem.
-He's honored to call many of you friend and learn from you every day.
-He's been organizing Linux Users Groups, run clubs, and roller derby teams for most of his adult life and even a bit before that.
-Before coming to Puppet, he taught Anthropology grad students how to code in Java and then used that experience to introduce Puppet to many of you.
-
-He has been in this community for ages and has always played a very active role.
-In a past life, he was in charge of community at Puppet Labs / Puppet / Puppet by Perforce and, as a result, couldn't really be on the PMC due to a conflict of interest... that is no longer the case.
-
-#### Ewoud Kohl van Wijngaarden (ewoud)
-
-My name is Ewoud Kohl van Wijngaarden, more commonly known as ekohl on GitHub.
-I've been around in the Vox Pupuli community since 2016 and a PMC member for the past 2 years.
-I was going to say not a lot has changed since my 2023 & 2024 nominations but then we forget the OpenVox situation.
-In my next term OpenVox and the increased demands it puts on Vox Pupuli will have my focus.
-
-#### Garrett Honeycutt
-
-Garrett Honeycutt is a contributor to the Puppet ecosystem since 2007.
-He authored the first style guide and helped create the first certification.
-In his time working with Puppet, he has trained thousands and spoken around the globe at various events on the value of Puppet automation tools.
-Recognized as a Puppet Champion, he is invested in our community and wants to see it thrive.
-He is an organizer of Configuration Management Camp and led a session on Vox Pupuli's governance.
-With Vox Pupuli taking on OpenVox, he would like to join the PMC to ensure we have a well-designed and effective governance structure to support these new responsibilities and ensure the success of OpenVox and our community.
-
-#### Robert Waffen
-
-My Name is Robert Waffen.
-I'm a german Automation Engineer @ betadots.
-I often code for customers but also do some codeing for myself.
-Next to Puppet I also like to write some Ruby code.
-In my free time I like to play pc games, watch every scifi available to me, or read manags and comics.
-
-#### Sebastian Rakel (Spritzgebaeck)
-
-My name is Sebastian Rakel, I'm a german cloud engineer/devops dude in a small company named ServiceERP and love to automate things.
-In my free time I'm chairman of a hackerspace (Forschung und Technik e.V.), husband of a beautiful wife and father of an awesome daughter.
-
-I was a PMC Member for the last two years, my work was mostly to review things and do some work on tools/pages.
+[bastelfreak]: https://github.com/voxpupuli/plumbing/blob/master/share/elections/2026-02/bastelfreak.md
+[binford2k]: https://github.com/voxpupuli/plumbing/blob/master/share/elections/2026-02/binford2k.md
+[nmburgan]: https://github.com/voxpupuli/plumbing/blob/master/share/elections/2026-02/nmburgan.md
+[rwaffen]: https://github.com/voxpupuli/plumbing/blob/master/share/elections/2026-02/rwaffen.md
+[silug]: https://github.com/voxpupuli/plumbing/blob/master/share/elections/2026-02/silug.md
+[smortex]: https://github.com/voxpupuli/plumbing/blob/master/share/elections/2026-02/smortex.md
+[sebastianrakel]: https://github.com/voxpupuli/plumbing/blob/master/share/elections/2026-02/sebastianrakel.md
 
 ## Terms and Dates
 
@@ -132,4 +92,4 @@ If the existing PMC term has expired, then the Election Officer will also assume
 [maintainers]: https://github.com/orgs/voxpupuli/teams/project-maintainers/members
 [elections]: https://github.com/voxpupuli/plumbing/tree/master/share/elections
 [civs]: https://civs.cs.cornell.edu/
-[2025]: https://github.com/voxpupuli/plumbing/blob/master/share/elections/2025-02.md#voxpupuli-2025-elections
+[2026]: https://github.com/voxpupuli/plumbing/blob/master/share/elections/2026-02.md
