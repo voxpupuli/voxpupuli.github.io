@@ -39,6 +39,7 @@ The elections started with the announcement at [config management camp in Ghent,
 
 [bastelfreak]: https://github.com/voxpupuli/plumbing/blob/master/share/elections/2026-02/bastelfreak.md
 [binford2k]: https://github.com/voxpupuli/plumbing/blob/master/share/elections/2026-02/binford2k.md
+[kenyon]: https://github.com/voxpupuli/plumbing/blob/master/share/elections/2026-02/kenyon.md
 [nmburgan]: https://github.com/voxpupuli/plumbing/blob/master/share/elections/2026-02/nmburgan.md
 [rwaffen]: https://github.com/voxpupuli/plumbing/blob/master/share/elections/2026-02/rwaffen.md
 [silug]: https://github.com/voxpupuli/plumbing/blob/master/share/elections/2026-02/silug.md
