@@ -96,7 +96,7 @@ If github actions breaks for some reason, and we need a release done, here are t
 ### As an outside collaborator
 
 Go to the GitHub project on which you want to generate a new release.
-Klick on "fork" and create a local fork.
+Click on "fork" and create a local fork.
 
 Clone the original upstream repo to your workstation:
 
