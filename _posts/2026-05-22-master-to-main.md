@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Group Project: Switching from `master` to `main`
-date: 2026-03-20
+date: 2026-05-22
 github_username: rwaffen
 ---
 
