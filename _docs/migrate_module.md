@@ -14,6 +14,7 @@ You will have someone by your side in this process. The general flow is to…
     * If this module was created with PDK delete .sync.yaml.
     * Ensure that the module has a correct `LICENSE` file in the docroot that matches the mentioned license in the `metadata.json`.
     * If the repo is a fork, to ensure pull requests go to the correct repo, [detach it from the fork network](https://docs.github.com/pull-requests/collaborating-with-pull-requests/working-with-forks/detaching-a-fork).
+    * Rename the default branch to `main` if it is not already named `main`.
 * At this point you can [transfer your own repository](https://docs.github.com/repositories/creating-and-managing-repositories/transferring-a-repository).
 * Ask an admin to
     * Verify that all webhooks are disabled.
