@@ -81,7 +81,8 @@ Run the rake target `release`. This will:
 * and push it to origin.
 
 ```bash
-bundle install --with release
+bundle config set --local with 'release'
+bundle install
 bundle exec rake release
 ```
 
@@ -96,7 +97,7 @@ If github actions breaks for some reason, and we need a release done, here are t
 ### As an outside collaborator
 
 Go to the GitHub project on which you want to generate a new release.
-Klick on "fork" and create a local fork.
+Click on "fork" and create a local fork.
 
 Clone the original upstream repo to your workstation:
 
@@ -135,7 +136,8 @@ If necessary, run `bundle install` before continuing. If you want you can also o
 ```bash
 bundle config set --local path 'vendor'
 bundle config set --local without 'development system_tests'
-bundle install --with release
+bundle config set --local with 'release'
+bundle install
 ```
 
 And in case you installed the gems before:
