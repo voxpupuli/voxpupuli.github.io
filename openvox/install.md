@@ -120,7 +120,7 @@ yum::install { "openvox${release}-release":
 You can manage OpenVox with several existing modules:
 
 * [`puppet-puppet` from `theforeman`](https://github.com/theforeman/puppet-puppet)
-* [`puppetlabs-puppetdb`](https://github.com/puppetlabs/puppetlabs-puppetdb)
+* [`puppet-openvoxdb`](https://github.com/voxpupuli/puppet-openvoxdb/)
 
 These modules currently default to installing packages named `puppet*`, so they will cause `openvox*` packages to be removed.
 
@@ -129,8 +129,6 @@ To install OpenVox, you can use this `hiera` data:
 ```yaml
 puppet::client_package: openvox-agent
 puppet::server_package: openvox-server
-puppetdb::puppetdb_package: openvoxdb
-puppetdb::master::config::terminus_package: openvoxdb-termini
 ```
 
 Note that you will need to have the OpenVox repositories available (using one of the methods above) for this to work properly.
