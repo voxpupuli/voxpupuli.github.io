@@ -5,8 +5,6 @@ layout: post
 title: Rowlf, because some dogs do climb trees
 ---
 
-## Rationale
-
 Automating the updating of some source code is often as simple as a
 nicely crafted `sed` one liner. But, for more complex tasks you may need
 a tool that can reason about the code structure a bit more. Migrating
