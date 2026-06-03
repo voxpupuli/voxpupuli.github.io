@@ -1,11 +1,9 @@
 ---
 layout: post
-title: OpenVox View 
+title: OpenVox View
 date: 2026-04-14
 github_username: sebastianrakel
 ---
-
-# Introduction
 
 [OpenVox View](https://github.com/voxpupuli/openvoxview) is a viewer for OpenVoxDB/PuppetDB, heavily inspired by [Puppetboard](https://github.com/voxpupuli/puppetboard).
 
@@ -16,7 +14,7 @@ The idea for OpenVox View emerged from my personal frustrations with [Puppetboar
 - During my development work on Puppetboard, I found the project architecture problematic
   - Mixed rendering approach (mostly HTML with occasional JavaScript/AJAX calls)
 - The query editor was simplistic and lacked some features
-  
+
 I decided to develop OpenVox View with the goal of creating a single binary containing both backend and frontend.
 
 The backend choice was straightforward: **Golang** (my primary development language).
