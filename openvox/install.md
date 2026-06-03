@@ -122,8 +122,6 @@ You can manage OpenVox with several existing modules:
 * [`puppet-puppet` from `theforeman`](https://github.com/theforeman/puppet-puppet)
 * [`puppet-openvoxdb`](https://github.com/voxpupuli/puppet-openvoxdb/)
 
-These modules currently default to installing packages named `puppet*`, so they will cause `openvox*` packages to be removed.
-
 To install OpenVox, you can use this `hiera` data:
 
 ```yaml
