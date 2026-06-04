@@ -40,6 +40,9 @@ subsection: openvox
       <p>
       Find out how to get started with OpenVox <a href="https://voxpupuli.org/openvox/install/">here</a>.
       </p>
+      <p>
+      OpenVox documentation can be found at <a href="https://docs.openvoxproject.org">docs.openvoxproject.org</a>
+      </p>
     </div>
   </div>
   <div class="row">
