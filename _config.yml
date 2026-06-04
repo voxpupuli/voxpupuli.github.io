@@ -102,6 +102,9 @@ subsections:
     - title: Quickstart
       url: /openvox/quickstart/
       icon: fas fa-hourglass-start
+    - title: Documentation
+      url: https://docs.openvoxproject.org
+      icon: fas fa-book
     - title: Install
       url: /openvox/install/
       icon: fas fa-download
