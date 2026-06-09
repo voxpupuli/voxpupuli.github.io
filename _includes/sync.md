@@ -2,7 +2,7 @@
 
 We have a monthly sync meeting where we discuss the state of the project and what we want to do in the future.
 You can find the [meeting board](https://github.com/orgs/voxpupuli/projects/10/) here.
-The [meeting link](https://meet.google.com/jti-ktoz-sfr) has changed a few times, we try to keep the website up-to-date when this happen.
+The [meeting link](https://meet.google.com/qep-pccp-skv) has changed a few times, we try to keep the website up-to-date when this happen.
 We meet every second Tuesday of the month at 16:30 [CET](https://www.timeanddate.com/time/zones/cet)/[CEST](https://www.timeanddate.com/time/zones/cest).
 You can [import this event in your calendar](/contributing/voxpupuli-monthly-sync.ics).
 
