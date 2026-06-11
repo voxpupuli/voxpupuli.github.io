@@ -16,7 +16,7 @@ What does the release contain? Mostly CVE fixes that were released yesterday wit
 {: .table .table-striped .table-hover }
 |                            Identifier                             | CVSS 3.1 Score |             Resolved By             |
 | ----------------------------------------------------------------- | :------------: | ----------------------------------- |
-| [CVE-2026-45447](https://nvd.nist.gov/vuln/detail/CVE-2026-45447) |      9.8       | `pkg:github/openssl/openssl@3.0.21` |
+| [CVE-2026-45447](https://nvd.nist.gov/vuln/detail/CVE-2026-45447) |      8.8       | `pkg:github/openssl/openssl@3.0.21` |
 | [CVE-2026-7383](https://nvd.nist.gov/vuln/detail/CVE-2026-7383)   |      8.1       | `pkg:github/openssl/openssl@3.0.21` |
 | [CVE-2026-45445](https://nvd.nist.gov/vuln/detail/CVE-2026-45445) |      7.5       | `pkg:github/openssl/openssl@3.0.21` |
 | [CVE-2026-34180](https://nvd.nist.gov/vuln/detail/CVE-2026-34180) |      7.5       | `pkg:github/openssl/openssl@3.0.21` |
