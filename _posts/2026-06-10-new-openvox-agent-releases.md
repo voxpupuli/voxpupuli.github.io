@@ -16,6 +16,7 @@ What does the release contain? Mostly CVE fixes that were released yesterday wit
 {: .table .table-striped .table-hover }
 |                            Identifier                             | CVSS 3.1 Score |             Resolved By             |
 | ----------------------------------------------------------------- | :------------: | ----------------------------------- |
+| [CVE-2026-34182](https://nvd.nist.gov/vuln/detail/CVE-2026-34182) |      9.1       | `pkg:github/openssl/openssl@3.0.21` |
 | [CVE-2026-45447](https://nvd.nist.gov/vuln/detail/CVE-2026-45447) |      8.8       | `pkg:github/openssl/openssl@3.0.21` |
 | [CVE-2026-7383](https://nvd.nist.gov/vuln/detail/CVE-2026-7383)   |      8.1       | `pkg:github/openssl/openssl@3.0.21` |
 | [CVE-2026-45445](https://nvd.nist.gov/vuln/detail/CVE-2026-45445) |      7.5       | `pkg:github/openssl/openssl@3.0.21` |
@@ -24,7 +25,6 @@ What does the release contain? Mostly CVE fixes that were released yesterday wit
 | [CVE-2026-42766](https://nvd.nist.gov/vuln/detail/CVE-2026-42766) |      5.9       | `pkg:github/openssl/openssl@3.0.21` |
 | [CVE-2026-45446](https://nvd.nist.gov/vuln/detail/CVE-2026-45446) |      4.8       | `pkg:github/openssl/openssl@3.0.21` |
 | [CVE-2026-42770](https://nvd.nist.gov/vuln/detail/CVE-2026-42770) |      3.7       | `pkg:github/openssl/openssl@3.0.21` |
-| [CVE-2026-34182](https://nvd.nist.gov/vuln/detail/CVE-2026-34182) |      N/A       | `pkg:github/openssl/openssl@3.0.21` |
 
 ### New Features 🎉
 
@@ -62,22 +62,21 @@ This version also contains CVE fixes from yesterday's OpenSSL 3.5.7 release.
 {: .table .table-striped .table-hover }
 |                            Identifier                             | CVSS 3.1 Score |             Resolved By             |
 | ----------------------------------------------------------------- | :------------: | ----------------------------------- |
-| [CVE-2026-45447](https://nvd.nist.gov/vuln/detail/CVE-2026-45447) |      9.8       | `pkg:github/openssl/openssl@3.5.7` |
+| [CVE-2026-34182](https://nvd.nist.gov/vuln/detail/CVE-2026-34182) |      9.1       | `pkg:github/openssl/openssl@3.5.7` |
+| [CVE-2026-45447](https://nvd.nist.gov/vuln/detail/CVE-2026-45447) |      8.8       | `pkg:github/openssl/openssl@3.5.7` |
 | [CVE-2026-7383](https://nvd.nist.gov/vuln/detail/CVE-2026-7383)   |      8.1       | `pkg:github/openssl/openssl@3.5.7` |
 | [CVE-2026-45445](https://nvd.nist.gov/vuln/detail/CVE-2026-45445) |      7.5       | `pkg:github/openssl/openssl@3.5.7` |
 | [CVE-2026-42764](https://nvd.nist.gov/vuln/detail/CVE-2026-42764) |      7.5       | `pkg:github/openssl/openssl@3.5.7` |
+| [CVE-2026-34183](https://nvd.nist.gov/vuln/detail/CVE-2026-34183) |      7.5       | `pkg:github/openssl/openssl@3.5.7` |
 | [CVE-2026-34180](https://nvd.nist.gov/vuln/detail/CVE-2026-34180) |      7.5       | `pkg:github/openssl/openssl@3.5.7` |
 | [CVE-2026-9076](https://nvd.nist.gov/vuln/detail/CVE-2026-9076)   |      7.5       | `pkg:github/openssl/openssl@3.5.7` |
+| [CVE-2026-34181](https://nvd.nist.gov/vuln/detail/CVE-2026-34181) |      7.4       | `pkg:github/openssl/openssl@3.5.7` |
 | [CVE-2026-42767](https://nvd.nist.gov/vuln/detail/CVE-2026-42767) |      5.9       | `pkg:github/openssl/openssl@3.5.7` |
 | [CVE-2026-42766](https://nvd.nist.gov/vuln/detail/CVE-2026-42766) |      5.9       | `pkg:github/openssl/openssl@3.5.7` |
 | [CVE-2026-42769](https://nvd.nist.gov/vuln/detail/CVE-2026-42769) |      5.3       | `pkg:github/openssl/openssl@3.5.7` |
 | [CVE-2026-45446](https://nvd.nist.gov/vuln/detail/CVE-2026-45446) |      4.8       | `pkg:github/openssl/openssl@3.5.7` |
 | [CVE-2026-42770](https://nvd.nist.gov/vuln/detail/CVE-2026-42770) |      3.7       | `pkg:github/openssl/openssl@3.5.7` |
 | [CVE-2026-42768](https://nvd.nist.gov/vuln/detail/CVE-2026-42768) |      3.7       | `pkg:github/openssl/openssl@3.5.7` |
-| [CVE-2026-34183](https://nvd.nist.gov/vuln/detail/CVE-2026-34183) |      N/A       | `pkg:github/openssl/openssl@3.5.7` |
-| [CVE-2026-34182](https://nvd.nist.gov/vuln/detail/CVE-2026-34182) |      N/A       | `pkg:github/openssl/openssl@3.5.7` |
-| [CVE-2026-34181](https://nvd.nist.gov/vuln/detail/CVE-2026-34181) |      N/A       | `pkg:github/openssl/openssl@3.5.7` |
-| [CVE-2026-34181](https://nvd.nist.gov/vuln/detail/CVE-2026-34181) |      N/A       | `pkg:github/openssl/openssl@3.5.7` |
 
 ### Breaking Changes 🛠
 
