@@ -1,11 +1,18 @@
-# Jig joins OpenVox
+---
+date: 2026-06-17
+github_username: avitacco
+layout: post
+title: Jig joins OpenVox
+---
+
+## What is happening
 We are pleased to announce that jig has joined the OpenVox project. Jig is a
 fastand dependency-free reimplementation of the Puppet Development Kit (PDK). By
 bringing it under the OpenVox umbrella, we are providing the community with a
 reliable and sustainable module-authoring tool that is maintained in a neutral,
 long-term environment.
 
-## What jig does
+### What jig does
 Jig is designed to support the daily tasks involved in authoring Puppet modules.
 It provides scaffolding for new modules, classes, defined types, facts,
 functions, providers, tasks, transports, and tests, ensuring that the standard 
@@ -23,7 +30,7 @@ bundler, no risk of gem conflicts, and no requirement for a large runtime in
 your continuous integration environments. This approach results in fast cold
 starts in CI and a straightforward, single-file setup for developers.
 
-## Why it matters for OpenVox
+### Why it matters for OpenVox
 With the transition of PDK to a closed-source model, the open Puppet ecosystem
 lost a tool that many module authors had depended on for years. OpenVox was
 established to ensure that this ecosystem remains open and governed by the
@@ -35,13 +42,13 @@ releases, and the project roadmap are now managed within the community,
 allowing the tool to evolve alongside the broader OpenVox toolchain and to
 benefit from a wider range of contributors.
 
-## Thanks
+### Thanks
 Jig has already been strengthened by the efforts of early contributors and
 testers. I would like to extend particular thanks to Ben Ford and Martin Alfke
 for their contributions and feedback, as well as to everyone who provided issues
 and tested the tool during its initial development.
 
-## Try it
+### Try it
 If you are involved in authoring Puppet modules, I encourage you to try jig and
 share your experiences, both positive and negative. The repository is now
 maintained within the OpenVox organization, and contributions are welcome. This
