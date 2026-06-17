@@ -7,7 +7,7 @@ title: Jig joins OpenVox
 
 ## What is happening
 We are pleased to announce that [jig](https://github.com/voxpupuli/jig) has
-joined the OpenVox project. Jig is a fast and dependency-free reimplementation
+joined the Voxpupli project. Jig is a fast and dependency-free reimplementation
 of the Puppet Development Kit (PDK). By bringing it under the OpenVox umbrella,
 we are providing the community with a reliable and sustainable module-authoring
 tool that is maintained in a neutral, long-term environment.
