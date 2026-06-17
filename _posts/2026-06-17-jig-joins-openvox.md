@@ -54,3 +54,6 @@ share your experiences, both positive and negative. The repository is now
 maintained within the OpenVox organization, and contributions are welcome. This
 is a community-driven tool, and its future direction will be shaped by all of
 us.
+
+We invite you to visit https://github.com/voxpupuli/jig to download jig, read
+documentation, and learn how you can contribute to the project.
