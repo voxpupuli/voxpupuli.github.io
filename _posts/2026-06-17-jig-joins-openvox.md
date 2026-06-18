@@ -31,7 +31,7 @@ bundler, no risk of gem conflicts, and no requirement for a large runtime in
 your continuous integration environments. This approach results in fast cold
 starts in CI and a straightforward, single-file setup for developers.
 
-### Why it matters for Voxpupuli
+### Why it matters for Vox Pupuli
 With the transition of PDK to a closed-source model, the open Puppet ecosystem
 lost a tool that many module authors had depended on for years. Voxpupuli was
 established to ensure that this ecosystem remains open and governed by the
