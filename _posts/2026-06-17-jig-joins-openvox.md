@@ -40,7 +40,7 @@ community, and providing robust module tooling is a key aspect of that mission.
 Jig has always been open source, and its move into Voxpupuli ensures that it is 
 no longer dependent on a single individual's account or availability. Issues,
 releases, and the project roadmap are now managed within the community,
-allowing the tool to evolve alongside the broader Voxpupuli toolchain and to
+allowing the tool to evolve alongside the broader Vox Pupuli toolchain and to
 benefit from a wider range of contributors.
 
 ### Thanks
