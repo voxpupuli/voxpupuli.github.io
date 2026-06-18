@@ -7,11 +7,11 @@ title: Jig joins Vox Pupuli
 
 ## What is happening
 We are pleased to announce that [jig](https://github.com/voxpupuli/jig) has
-joined the Voxpupuli project. Jig is a fast and dependency-free reimplementation
-of the Puppet Development Kit (PDK). By bringing it under the Voxpupuli
+joined the Vox Pupli project. Jig is a fast and dependency-free reimplementation
+of the Puppet Development Kit (PDK). By bringing it under the Vox Pupli 
 umbrella, we are providing the community with a reliable and sustainable
 module-authoring tool that is maintained in a neutral, long-term environment.
->>>>>>> fb386ce (Replacing all of the Openvox instances with Voxpupuli)
+
 
 ### What jig does
 Jig is designed to support the daily tasks involved in authoring Puppet modules.
@@ -37,7 +37,7 @@ lost a tool that many module authors had depended on for years. Vox Pupuli was
 established to ensure that this ecosystem remains open and governed by the
 community, and providing robust module tooling is a key aspect of that mission.
 
-Jig has always been open source, and its move into Voxpupuli ensures that it is 
+Jig has always been open source, and its move into Vox Pupuli ensures that it is 
 no longer dependent on a single individual's account or availability. Issues,
 releases, and the project roadmap are now managed within the community,
 allowing the tool to evolve alongside the broader Vox Pupuli toolchain and to
@@ -52,7 +52,7 @@ and tested the tool during its initial development.
 ### Try it
 If you are involved in authoring Puppet modules, I encourage you to try jig and
 share your experiences, both positive and negative. The repository is now
-maintained within the Voxpupuli organization, and contributions are welcome. 
+maintained within the Vox Pupuli organization, and contributions are welcome. 
 This is a community-driven tool, and its future direction will be shaped by all
 of us.
 
