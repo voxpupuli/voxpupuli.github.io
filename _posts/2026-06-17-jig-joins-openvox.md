@@ -2,7 +2,7 @@
 date: 2026-06-17
 github_username: avitacco
 layout: post
-title: Jig joins Voxpupuli
+title: Jig joins Vox Pupuli
 ---
 
 ## What is happening
