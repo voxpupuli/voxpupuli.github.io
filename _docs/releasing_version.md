@@ -3,7 +3,6 @@ layout: post
 title: Releasing a new version of a module
 date: 2016-01-01
 summary: How to perform a complete version release, including modulesync and publication.
-last_modified_at: 2025-06-10
 ---
 
 Creating a release is a three step process:
