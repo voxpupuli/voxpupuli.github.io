@@ -15,10 +15,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v7
+        uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
 
       - name: Publish articles on dev.to
-        uses: sinedied/publish-devto@v2
+        uses: sinedied/publish-devto@c713cc0934b35cb3df9fca759b98e36e6a540a85 # v2
         with:
           # Your dev.to personal API key to publish and update articles.
           # See https://docs.dev.to/api/#section/Authentication/api_key
