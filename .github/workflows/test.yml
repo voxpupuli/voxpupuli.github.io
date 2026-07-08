@@ -13,6 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+        with:
+          # jekyll-last-modified-at needs the full git history to derive
+          # correct "last updated" dates; a shallow clone reports the head
+          # commit for every file, so the preview would not match production.
+          fetch-depth: 0
       - name: Install Ruby 3
         uses: ruby/setup-ruby@v1
         with:
