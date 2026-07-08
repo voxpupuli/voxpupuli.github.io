@@ -12,14 +12,14 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           # jekyll-last-modified-at needs the full git history to derive
           # correct "last updated" dates; a shallow clone reports the head
           # commit for every file, so the preview would not match production.
           fetch-depth: 0
       - name: Install Ruby 3
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@d45b1a4e94b71acab930e56e79c6aa188764e7f9 # v1.316.0
         with:
           ruby-version: '3.0'
           bundler-cache: true
@@ -27,7 +27,7 @@ jobs:
         run: bundle exec rake test
       - name: Build jekyll html
         run: bundle exec rake build
-      - uses: actions/upload-artifact@v7
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         id: upload-preview
         with:
           name: preview
