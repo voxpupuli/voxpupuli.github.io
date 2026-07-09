@@ -25,6 +25,11 @@
   line-height: 1.4em;
 }
 
+.content .article-meta {
+  font-size: smaller;
+  font-style: italic;
+  border-bottom: 1px solid #d3d3d3;
+}
 /* minimal styling for the docs index page listing */
 ul.docs-index {
   list-style-type: none;
