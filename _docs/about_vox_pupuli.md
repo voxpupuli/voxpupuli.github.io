@@ -39,19 +39,8 @@ the PMC. For 2019 [we
 elected](https://voxpupuli.org/blog/2018/12/19/election-results-2019/) 5
 people.
 
-## Our Sponsors
+## Our Sponsors & Partners
 
-At the moment Vox Pupuli has two sponsors.
-[Hetzner Cloud](https://www.hetzner.com/cloud) sponsors us cloud instances to
-run [voxpupu.li](https://voxpupu.li/) (our work-in-progress software to
-automate daily tasks with the help of the GitHub API. See
-[github.com/voxpupuli/vox-pupuli-tasks](https://github.com/voxpupuli/vox-pupuli-tasks#vox-pupuli-tasks---the-webapp-for-community-management)
-for details).
-
-GitHub
-[sponsors us a Team Plan](https://voxpupuli.org/blog/2021/10/15/github-sponsors/)
-for the whole organisation.
-
-Thanks to both sponsors! They enable us to continue our work. If you would like
-to sponsor us, in whatever form, please contact our
-[Project Management Committee](mailto:pmc@voxpupuli.org).
+We got so many sponsors and partners that we had to move them to dedicated pages!
+Checkout our [sponsors page](https://voxpupuli.org/sponsoring/) to see who supports us and how you can support us!
+Need help with OpenVox, Puppet, Foreman, Choria or want to offer commercial support? Check the [list of partners](https://voxpupuli.org/openvox/support/) around the globe!
