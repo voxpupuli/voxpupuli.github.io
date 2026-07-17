@@ -8,7 +8,7 @@ title:
 <div class="alert alert-success w-25 callout ms-3">
 <h3>🗓️ Upcoming Events</h3>
 <ul>
-<li><a href="2026">VoxConf 2026</a></li>
+<li><i>tbd....</i></li>
 </ul>
 </div>
 
@@ -16,6 +16,7 @@ title:
 <h3>🗓️ Previous Events</h3>
 <ul>
 <li><a href="2025">Inaugural VoxConf '25</a></li>
+<li><a href="2026">VoxConf 2026</a></li>
 </ul>
 </div>
 
