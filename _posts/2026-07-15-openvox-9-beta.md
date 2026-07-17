@@ -24,12 +24,16 @@ Packages for macOS can be found at:
 
 Updates to `homebrew-openvox` will show up later in the week.
 
-It wouldn't be a beta release without something going wrong, and today it was our Windows signing pipeline.
-For those adventurous souls who are fine with unsigned packages, the Windows build can be found on OSUOSL:
+~It wouldn't be a beta release without something going wrong, and today it was our Windows signing pipeline.
+For those adventurous souls who are fine with unsigned packages, the Windows build can be found on OSUOSL.~
 
-[https://s3.osuosl.org/openvox-artifacts/openvox-agent/9.0.0\~beta1/openvox-agent-9.0.0\~beta1-x64.msi](https://s3.osuosl.org/openvox-artifacts/openvox-agent/9.0.0~beta1/openvox-agent-9.0.0~beta1-x64.msi)
+### UPDATE!
 
-That build will be published to [https://voxpupuli.org](voxpupuli.org) once the Windows signer is sorted out.
+> The Windows signing pipeline issue has been resolved.
+> There was a latent bug discovered and fixed in an upstream tool we used.
+> The proper Windows package is now available at:
+>
+> [https://downloads.voxpupuli.org/windows/openvox9/openvox-agent-9.0.0~beta1-x64.msi](https://downloads.voxpupuli.org/windows/openvox9/openvox-agent-9.0.0~beta1-x64.msi)
 
 Headline component changes in these releases, compared to OpenVox 8:
 
