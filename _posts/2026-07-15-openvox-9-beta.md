@@ -24,10 +24,10 @@ Packages for macOS can be found at:
 
 Updates to `homebrew-openvox` will show up later in the week.
 
-~It wouldn't be a beta release without something going wrong, and today it was our Windows signing pipeline.
-For those adventurous souls who are fine with unsigned packages, the Windows build can be found on OSUOSL.~
+<s>It wouldn't be a beta release without something going wrong, and today it was our Windows signing pipeline.
+For those adventurous souls who are fine with unsigned packages, the Windows build can be found on OSUOSL.</s>
 
-### UPDATE!
+**UPDATE!**
 
 > The Windows signing pipeline issue has been resolved.
 > There was a latent bug discovered and fixed in an upstream tool we used.
