@@ -18,6 +18,8 @@ advance our ecosystem.
 
 {% include connect_groups_io.md %}
 
+{% include connect_rss.md %}
+
 {% include connect_slack.md %}
 
 {% include connect_irc.md %}
