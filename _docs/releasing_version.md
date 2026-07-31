@@ -15,6 +15,9 @@ Creating a release is a three step process:
 
 Run [modulesync](https://voxpupuli.org/docs/updating-files-managed-with-modulesync/) to ensure the dotfiles are up-to-date.
 
+Please make sure your git setup is configured for signing commits and tags.
+See guidance here: <https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification>
+
 ## Standard Release
 
 ### Create a Release PR
@@ -49,6 +52,7 @@ If you relabeled anything or the version is wrong, rerun the `Prepare Release` a
 Request feedback from the Vox Pupuli Community via the methods listed in the [Contact page](https://voxpupuli.org/connect/).
 
 All commentary should be reviewed, but specifically looking for consensus around:
+
 * Are there other changes that should get merged first?
 * Are there discussions about the tagging of any of the changes in the CHANGELOG.md?
 * Have you missed something needed for release?
@@ -179,8 +183,8 @@ It will look like this:
 ```bash
 Please review these changes and commit them to a new branch:
 
-  git checkout -b release-v1.2.3
-  git commit --gpg-sign -am "Release v1.2.3"
+  git switch --create release-v1.2.3
+  git commit --all --gpg-sign --signoff --message "Release v1.2.3"
 
 Then open a Pull-Request and wait for it to be reviewed and merged).
 ```
