@@ -16,7 +16,7 @@ Creating a release is a three step process:
 Run [modulesync](https://voxpupuli.org/docs/updating-files-managed-with-modulesync/) to ensure the dotfiles are up-to-date.
 
 Please make sure your git setup is configured for signing commits and tags.
-See guidance here: <https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification>
+For more information, see [commit signature guidance](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification).
 
 ## Standard Release
 
