@@ -10,7 +10,7 @@ Part one can be done by anybody with a GitHub account.
 You do not need to be part of the Vox Pupuli GitHub organisation.
 
 Please make sure your git setup is configured for signing commits and tags.
-See guidance here: <https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification>
+For more information, see [commit signature guidance](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification).
 
 ## Part 1: Create a 'release pr'
 
