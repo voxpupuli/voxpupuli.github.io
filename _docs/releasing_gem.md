@@ -9,6 +9,9 @@ The release process is split into two parts.
 Part one can be done by anybody with a GitHub account.
 You do not need to be part of the Vox Pupuli GitHub organisation.
 
+Please make sure your git setup is configured for signing commits and tags.
+For more information, see [commit signature guidance](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification).
+
 ## Part 1: Create a 'release pr'
 
 This pull request updates the changelog and bumps the version number to the target version.
@@ -23,7 +26,7 @@ Now you can install the changelog generator:
 export RELEASE_VERSION="X.Y.Z"
 git switch master
 git pull --rebase
-git switch -c release-v$RELEASE_VERSION
+git switch --create release-v$RELEASE_VERSION
 
 bundle config set --local path '.vendor/'
 bundle config set --local with 'release'
@@ -41,7 +44,7 @@ We can generate the changelog (in most cases, this requires a [GitHub access tok
 ```bash
 CHANGELOG_GITHUB_TOKEN='mytoken' bundle exec rake changelog
 
-git commit --all --message "Release v${RELEASE_VERSION}"
+git commit --all --gpg-sign --signoff --message "Release v${RELEASE_VERSION}"
 git push --set-upstream origin HEAD
 ```
 
@@ -80,9 +83,9 @@ This varies by project (we often adopt gems from other people and don't want to 
 Create a new git tag with the new version:
 
 ```bash
-git tag -s -a -m "${RELEASE_VERSION}" $RELEASE_VERSION
+git tag --sign --message "${RELEASE_VERSION}" $RELEASE_VERSION
 # or
-git tag -s -a -m "v${RELEASE_VERSION}" v$RELEASE_VERSION
+git tag --sign --message "v${RELEASE_VERSION}" v$RELEASE_VERSION
 ```
 
 Push the git tag:
