@@ -83,9 +83,9 @@ This varies by project (we often adopt gems from other people and don't want to 
 Create a new git tag with the new version:
 
 ```bash
-git tag --annotate --sign --message "${RELEASE_VERSION}" $RELEASE_VERSION
+git tag --sign --message "${RELEASE_VERSION}" $RELEASE_VERSION
 # or
-git tag --annotate --sign --message "v${RELEASE_VERSION}" v$RELEASE_VERSION
+git tag --sign --message "v${RELEASE_VERSION}" v$RELEASE_VERSION
 ```
 
 Push the git tag:
