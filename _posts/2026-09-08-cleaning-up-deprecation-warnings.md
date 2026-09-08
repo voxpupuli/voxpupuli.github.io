@@ -2,7 +2,7 @@
 date: 2026-09-08
 github_username: corporate-gadfly
 layout: post
-title: "Cleaning Up Deprecation Warnings in OpenVox Modules: Facter::Util::Resolution.exec and .which"
+title: "Cleaning Up Deprecation Warnings in Vox Pupuli Modules: Facter::Util::Resolution.exec and .which"
 ---
 
 As part of the upcoming **OpenVox Agent 9.0** release, a number of long-deprecated Facter APIs are being prepared for removal in a subsequent release, including `Facter::Util::Resolution.which` and `Facter::Util::Resolution.exec`. If you use OpenVox (or legacy Puppet) modules with custom facts, you will start seeing warnings like these in your output when running `facter` (OpenFact 6.x) with OpenVox 9.x:
@@ -117,4 +117,4 @@ Why this is the better pattern:
 - `Facter::Util::Resolution.exec` → `Facter::Core::Execution.execute(command, on_fail: nil)` — remember the `on_fail: nil`, since `execute`'s default is to raise on a missing binary.
 - Even though `execute` performs its own internal `which` check via `expand_command`, keep (or add) an explicit `confine { Facter::Core::Execution.which('binary') }` block rather than leaning on `execute`'s soft-fail behavior. It keeps your fact's suitability logic explicit, readable, and resilient to future changes in `execute`'s defaults.
 
-Making this change now, ahead of **OpenVox Agent 9.0**, resulting in removing these deprecation warnings, is a small, low-risk update — and cleaning up the `confine`/`setcode` split at the same time will make your OpenVox modules more robust in the long run. In a future upgrade, modules that don't migrate will see their custom facts break outright once `Facter::Util::Resolution.which` and `.exec` are gone, so it's worth auditing your fact code now rather than waiting for the upgrade to force the issue.
+Making this change now, ahead of **OpenVox Agent 9.0**, resulting in removing these deprecation warnings, is a small, low-risk update — and cleaning up the `confine`/`setcode` split at the same time will make your Vox Pupuli modules more robust in the long run. In a future upgrade, modules that don't migrate will see their custom facts break outright once `Facter::Util::Resolution.which` and `.exec` are gone, so it's worth auditing your fact code now rather than waiting for the upgrade to force the issue.
