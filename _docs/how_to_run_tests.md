@@ -325,7 +325,7 @@ bundle exec rspec spec/acceptance/foo.rb
 
 ## Running the tests in the VoxBox container
 
-Struggling with Ruby installations or dependency issues? [VoxBox](https://github.com/voxpupuli/container-voxbox/) simplifies your workflow by providing a ready-to-use container with all the Ruby tools you need. To guarantee a consistent rake environment, use `-f /Rakefile` to explicitly specify your Rakefile, rather than relying on potentially outdated versions in a repository. Learn more in the project's [README](https://github.com/voxpupuli/container-voxbox/blob/main/README.md).
+Struggling with Ruby installations or dependency issues? [VoxBox](https://github.com/voxpupuli/container-voxbox/) simplifies your workflow by providing a ready-to-use container with all the Ruby tools you need. To guarantee a consistent rake environment, use `-f Rakefile` to explicitly specify your Rakefile, rather than relying on potentially outdated versions in a repository. Learn more in the project's [README](https://github.com/voxpupuli/container-voxbox/blob/main/README.md).
 
 ### Installation
 
@@ -337,37 +337,37 @@ podman pull ghcr.io/voxpupuli/voxbox:8
 
 ```shell
 cd my/module
-podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f /Rakefile lint
-podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f /Rakefile lint_fix
+podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f Rakefile lint
+podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f Rakefile lint_fix
 
 # lint with all lint plugins enabled, puppetlabs-spec_helper deactivates some of them
-podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f /Rakefile voxpupuli:custom:lint_all
+podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f Rakefile voxpupuli:custom:lint_all
 ```
 
 ### Rubocop
 
 ```shell
-podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f /Rakefile rubocop
-podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f /Rakefile rubocop:autocorrect
+podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f Rakefile rubocop
+podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f Rakefile rubocop:autocorrect
 ```
 
 ### Unit tests in VoxBox
 
 ```shell
-podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f /Rakefile spec
-podman run -it --rm -e "SPEC_FACTS_OS=centos" -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f /Rakefile spec
-podman run -it --rm -e "SPEC=spec/classes/myclass_spec.rb" -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f /Rakefile spec
+podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f Rakefile spec
+podman run -it --rm -e "SPEC_FACTS_OS=centos" -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f Rakefile spec
+podman run -it --rm -e "SPEC=spec/classes/myclass_spec.rb" -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f Rakefile spec
 ```
 
 ### REFERENCE.md update in VoxBox
 
 ```shell
-podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f /Rakefile strings:generate:reference
+podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f Rakefile strings:generate:reference
 ```
 
 ### Puppetfile
 
 ```shell
-podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f /Rakefile r10k:syntax
-podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f /Rakefile r10k:dependencies
+podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f Rakefile r10k:syntax
+podman run -it --rm -v $PWD:/repo:Z ghcr.io/voxpupuli/voxbox:8 -f Rakefile r10k:dependencies
 ```
