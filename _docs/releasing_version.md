@@ -62,6 +62,9 @@ All commentary should be reviewed, but specifically looking for consensus around
 Merge the PR when ready.
 The person who does the merge of the PR is expected to do the release below.
 
+See also this extensive guide an what to spot on reviews and what to label
+[Review Guide](https://voxpupuli.org/docs/reviewing_pr/)
+
 ### Do the Actual Release
 
 *Please note that in order to execute this rake task you must be in the __Collaborators__ group on GitHub for the module in question.*
