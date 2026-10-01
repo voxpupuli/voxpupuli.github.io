@@ -38,11 +38,13 @@ It will automatically:
 
 This will have generated updates to the CHANGELOG.md, review each PR in the CHANGELOG to make sure they're labeled properly so that the CHANGELOG is correct:
 
-* backwards-incompatible
-* enhancement
-* bug/bugfix
+* backwards-incompatible - e.g. dropping EOL OSes, raising minimum required dependencies
+* enhancement - e.g. new features
+* bug/bugfix - just fixed buges
 * docs/documentation
 * dependencies
+* modulesync - skips changelog, just meant for modulesync induced PRs
+* backport-8.x - for OpenVox releases: To keep the mental load on diffs low, everything that can be backported will be backported. This create another PR with a cherry picked commit
 
 Make sure that the version updated as expected.
 Anything labeled backwards-incompatible should require a major version bump.
