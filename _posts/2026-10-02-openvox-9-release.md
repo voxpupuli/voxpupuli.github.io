@@ -137,6 +137,7 @@ Special thanks go to the people who carried a large share of the work this cycle
 - [Josh Partlow](https://github.com/jpartlow), for arm64 support and other work on the acceptance tests.
 - [Austin Blatt](https://github.com/austb), for the Jetty 12 migration.
 - [Chris Boot](https://github.com/bootc), for weeks of patient debugging data on [openvox#485](https://github.com/OpenVoxProject/openvox/issues/485).
+- [Miranda Streeter](https://github.com/MirandaStreeter), for the container image startup speed improvements.
 
 > *If you have questions about, or encounter issues with these releases, reach out in `#openvox` on Slack or `#voxpupuli-openvox` on IRC.
 > See [https://voxpupuli.org/connect/](https://voxpupuli.org/connect/) for details.*
