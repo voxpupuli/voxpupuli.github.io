@@ -15,6 +15,21 @@ OpenVox 9 includes `openvox-agent` and `openvoxdb` 9.0.0 and `openvox-server` 9.
 It also clears out a batch of long-deprecated code, [as we proposed back in April](/blog/2026/04/14/openvox-9-request-for-comments/).
 New features are planned for 10.x.
 
+## Release notes and documentation
+
+The full release notes, including bug fixes and the changes in each pre-release, are here:
+
+- `openvox-agent`: [https://github.com/OpenVoxProject/openvox/releases/tag/9.0.0](https://github.com/OpenVoxProject/openvox/releases/tag/9.0.0)
+- `openvox-server`: [https://github.com/OpenVoxProject/openvox-server/releases/tag/9.0.1](https://github.com/OpenVoxProject/openvox-server/releases/tag/9.0.1)
+- `openvoxdb`: [https://github.com/OpenVoxProject/openvoxdb/releases/tag/9.0.0](https://github.com/OpenVoxProject/openvoxdb/releases/tag/9.0.0)
+- `openfact`: [https://github.com/OpenVoxProject/openfact/releases/tag/6.0.0](https://github.com/OpenVoxProject/openfact/releases/tag/6.0.0) (OpenVox 9.0.0 ships 6.2.1, which adds only bug fixes on top)
+
+The OpenVox 9 documentation is here:
+
+- OpenVox: [https://docs.openvoxproject.org/openvox/9.x/](https://docs.openvoxproject.org/openvox/9.x/)
+- OpenVox Server: [https://docs.openvoxproject.org/openvox-server/9.x/](https://docs.openvoxproject.org/openvox-server/9.x/)
+- OpenVoxDB: [https://docs.openvoxproject.org/openvoxdb/9.x/](https://docs.openvoxproject.org/openvoxdb/9.x/)
+
 ## Getting OpenVox 9
 
 OpenVox 9 packages are published to separate `openvox9` repositories.
@@ -47,7 +62,7 @@ OpenVox 8 agents can keep running against OpenVox 9 servers while you upgrade yo
 ## Before you upgrade
 
 This is a major release with breaking changes.
-Please read the release notes in full, but these are the ones most likely to affect you:
+Please read the [release notes](#release-notes-and-documentation) in full, but these are the ones most likely to affect you:
 
 - **`server` no longer defaults to `puppet`.**
     Agents must set `server`, `server_list`, or use SRV records (`ca_server` and `report_server` also work for their own services).
@@ -68,13 +83,6 @@ Please read the release notes in full, but these are the ones most likely to aff
 - **Java 21 is now required.** Upgrade server and database packages fully with `apt`, `dnf`, or `zypper` so that the new Java packages are pulled in.
     Afterwards, check `update-alternatives --display java` to make sure `/usr/bin/java` points at **version 21 or newer**.
     If the services start under Java 17, they will crash early with a `ClassNotFoundException` for `java.util.SequencedCollection`.
-
-The full release notes, including bug fixes and the changes in each pre-release, are here:
-
-- `openvox-agent`: [https://github.com/OpenVoxProject/openvox/releases/tag/9.0.0](https://github.com/OpenVoxProject/openvox/releases/tag/9.0.0)
-- `openvox-server`: [https://github.com/OpenVoxProject/openvox-server/releases/tag/9.0.1](https://github.com/OpenVoxProject/openvox-server/releases/tag/9.0.1)
-- `openvoxdb`: [https://github.com/OpenVoxProject/openvoxdb/releases/tag/9.0.0](https://github.com/OpenVoxProject/openvoxdb/releases/tag/9.0.0)
-- `openfact`: [https://github.com/OpenVoxProject/openfact/releases](https://github.com/OpenVoxProject/openfact/releases)
 
 ## Known issues
 
