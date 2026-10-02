@@ -5,18 +5,14 @@ date: 2026-10-02
 github_username: silug
 ---
 
-<!--
-DRAFT. Before publishing:
-- Confirm the final versions and that packages are live in all repos (apt, yum, macOS, Windows).
-- Confirm the GitHub release tag URLs below resolve.
-- Re-check the status of the known issues (openvox#485, and the macOS items commented out below).
--->
-
-**We have just shipped OpenVox 9.0.0: `openvox-agent`, `openvox-server`, and `openvoxdb` 9.0.0, along with `openfact` 6.2.1.**
+**We have just shipped OpenVox 9.0.0!** This is a platform catch-up, meaning that it updates
+all core dependencies to actively maintained versions. If you've been watching the recent flood
+of CVEs nervously, this release is just for you.
 {: .alert .alert-success }
 
-OpenVox 9 is a platform catch-up release.
-It brings the core dependencies up to date and clears out a batch of long-deprecated code, [as we proposed back in April](/blog/2026/04/14/openvox-9-request-for-comments/).
+OpenVox 9 includes `openvox-agent` and `openvoxdb` 9.0.0 and `openvox-server` 9.0.1, along with `openfact` 6.2.1.
+(The first `openvox-server` release is 9.0.1 because the 9.0.0 version number was already taken by an artifact published to Clojars by mistake during the beta.)
+It also clears out a batch of long-deprecated code, [as we proposed back in April](/blog/2026/04/14/openvox-9-request-for-comments/).
 New features are planned for 10.x.
 
 ## Getting OpenVox 9
@@ -32,18 +28,20 @@ Packages for macOS and Windows can be found at:
 - [https://downloads.voxpupuli.org/mac/openvox9/](https://downloads.voxpupuli.org/mac/openvox9/)
 - [https://downloads.voxpupuli.org/windows/openvox9/](https://downloads.voxpupuli.org/windows/openvox9/)
 
-If you have been testing the betas or release candidates, a normal package upgrade will take you to 9.0.0.
+If you have been testing the betas or release candidates, a normal package upgrade will take you to the final release.
 Pre-releases used a tilde in their version (e.g. `9.0.0~rc4`) so that they sort below the final release.
 
-OpenVox 8 remains supported on the `openvox8` repositories.
-OpenVox 9 code is kept compatible with Ruby 3.2, so OpenVox 8 agents can keep running against OpenVox 9 servers while you upgrade your fleet.
+OpenVox 8 remains available on the `openvox8` repositories. It will continue to receive high-priority and security fixes for at least six months.
+OpenVox 8 agents can keep running against OpenVox 9 servers while you upgrade your fleet. You don't have to upgrade all at once.
 
 ## Headline changes compared to OpenVox 8
 
 - `openvox-agent` now bundles **Ruby 4.0** (up from Ruby 3.2) and **OpenSSL 3.5 LTS**.
 - `openvox-server` now uses **JRuby 10.1**, which is compatible with Ruby 4.0. This is an upgrade from JRuby 9.4, which was compatible with Ruby 3.1.
-- `openvox-server` and `openvoxdb` run on **Java 25**, except on EL 8 where they use Java 21. This is an upgrade from Java 17.
-- `openvoxdb` is now tested against **PostgreSQL 17 and 18**, up from PostgreSQL 14.
+- `openvox-server` and `openvoxdb` are officially supported and tested on **Java 21 and 25**, and support for Java 17 has been dropped.
+    The packages run on Java 25 where the platform provides it, and on Java 21 otherwise.
+    The FIPS packages run on **Java 21 only**, because the Bouncy Castle FIPS libraries are certified only up to Java 21.
+- `openvoxdb` is now tested against **PostgreSQL 15, 16, and 18**.
 - `openvox-agent` ships **openfact 6**, which removes the `ldapname` fact option and adds deprecation warnings ahead of removals in OpenVox 10.
 
 ## Before you upgrade
@@ -58,7 +56,8 @@ Please read the release notes in full, but these are the ones most likely to aff
     Set `reports = store` on your servers if you rely on reports being written to disk.
 - **Filebucket reads are restricted.**
     Agents can still back files up to a central filebucket, but reading bucket contents now requires a certificate with the `pp_cli_auth` extension.
-- **`file { content => '<checksum>' }` is now literal.**
+    The rule lives in the packaged `auth.conf`: if yours is edited or managed by a module, the upgrade keeps your copy (the new one lands beside it as `auth.conf.rpmnew` or `auth.conf.dpkg-dist`) and the old rule stays in effect until you merge the change.
+- **`file { content => '<string that looks like a checksum>' }` is now literal.**
     Content that looks like a checksum is no longer used to fetch a file from the filebucket.
     Use static catalogs or an explicit `source` instead.
 - **Hiera 3-era data bindings are gone.**
@@ -66,14 +65,14 @@ Please read the release notes in full, but these are the ones most likely to aff
 - **Several deprecated interfaces have been removed:** `--configprint` (use `puppet config print`), the `pluginsync` setting, the ignored fifth argument to `regsubst()`, the PAL `evaluate_script_string`/`evaluate_script_manifest` APIs, the `pe_serverversion` fact, and the vendored `zone_core` module.
 - **Ruby 4's `net/http` no longer adds a default `Content-Type` header.**
     If you maintain a custom report processor or other code that POSTs data with `net/http`, set `Content-Type` explicitly.
-- **Upgrade server and database packages fully** with `apt`, `dnf`, or `zypper` so that the new Java packages are pulled in.
+- **Java 21 is now required.** Upgrade server and database packages fully with `apt`, `dnf`, or `zypper` so that the new Java packages are pulled in.
     Afterwards, check `update-alternatives --display java` to make sure `/usr/bin/java` points at **version 21 or newer**.
     If the services start under Java 17, they will crash early with a `ClassNotFoundException` for `java.util.SequencedCollection`.
 
 The full release notes, including bug fixes and the changes in each pre-release, are here:
 
 - `openvox-agent`: [https://github.com/OpenVoxProject/openvox/releases/tag/9.0.0](https://github.com/OpenVoxProject/openvox/releases/tag/9.0.0)
-- `openvox-server`: [https://github.com/OpenVoxProject/openvox-server/releases/tag/9.0.0](https://github.com/OpenVoxProject/openvox-server/releases/tag/9.0.0)
+- `openvox-server`: [https://github.com/OpenVoxProject/openvox-server/releases/tag/9.0.1](https://github.com/OpenVoxProject/openvox-server/releases/tag/9.0.1)
 - `openvoxdb`: [https://github.com/OpenVoxProject/openvoxdb/releases/tag/9.0.0](https://github.com/OpenVoxProject/openvoxdb/releases/tag/9.0.0)
 - `openfact`: [https://github.com/OpenVoxProject/openfact/releases](https://github.com/OpenVoxProject/openfact/releases)
 
@@ -105,22 +104,31 @@ Environment=RUBY_TCP_NO_FAST_FALLBACK=1
 Restarting the `puppet` service does not clean up a child process that is already stuck; it has to be killed with `SIGKILL`.
 If you hit this issue on 9.0.0, please add details to [openvox#485](https://github.com/OpenVoxProject/openvox/issues/485).
 
-<!--
-TODO: keep or drop these depending on whether they are fixed in 9.0.0.
+### FIPS packages ship older Bouncy Castle jars
 
-### macOS
-
-- On macOS 26 and later, the forked agent run can crash in `getaddrinfo` ([openvox#686](https://github.com/OpenVoxProject/openvox/pull/686)).
-- Upgrading the agent with the pkg installer does not restart the `puppet` launchd service, so the old version keeps running until the service is restarted ([openvox#675](https://github.com/OpenVoxProject/openvox/issues/675)).
-    After upgrading, run `sudo launchctl kickstart -k system/puppet`.
--->
+The FIPS builds of `openvox-server` and `openvoxdb` ship an older set of Bouncy Castle FIPS jars.
+The latest Bouncy Castle FIPS 1.x release has a small issue that could cause problems in a very constrained, non-default configuration, so we are not updating to it.
+Instead, OpenVox 9.1 will move to the Bouncy Castle FIPS 2.x line, which is the one fully certified for FIPS on Java 21.
 
 ## Thank you
 
 OpenVox 9 would not exist without everyone who submitted pull requests, filed bugs, tested pre-releases, and joined the discussions about what should change.
 Thank you all!
 
-<!-- TODO: add specific shout-outs -->
+Special thanks go to the people who carried a large share of the work this cycle, including, but not limited to:
+
+- [Tim Meusel](https://github.com/bastelfreak), for work on nearly every repository: runtime and dependency updates, CI, release PRs, and SBOMs.
+- [Charlie Sharpsteen](https://github.com/Sharpie), for work across the server, database, runtime, and build tooling, and for the Great Docs Reset of 2026.
+- [Michael Harp](https://github.com/miharp), for an enormous amount of documentation work, including the 9.x docs, and for tracking down the cause of the agent hang described above.
+- [Nick Burgan](https://github.com/nmburgan), for building out the release infrastructure, smoke testing, and the Java and FIPS packaging work.
+- [Haroon Rafique](https://github.com/corporate-gadfly), for keeping the Clojure side of `openvox-server` and `openvoxdb` healthy, FIPS fixes, and the more secure default `server` setting.
+- [Martin Alfke](https://github.com/tuxmea), for bringing large parts of the documentation up to date for OpenVox and OpenFact.
+- [Robert Waffen](https://github.com/rwaffen), for rebuilding the container images and adding multi-platform builds.
+- [Ben Ford](https://github.com/binford2k), for the getting-started and quickstart guides, docs tooling, and catalog validation in the agent.
+- [Jerome Charaoui](https://github.com/jcharaoui), for Debian packaging and reproducibility fixes.
+- [Josh Partlow](https://github.com/jpartlow), for arm64 support and other work on the acceptance tests.
+- [Austin Blatt](https://github.com/austb), for the Jetty 12 migration.
+- [Chris Boot](https://github.com/bootc), for weeks of patient debugging data on [openvox#485](https://github.com/OpenVoxProject/openvox/issues/485).
 
 > *If you have questions about, or encounter issues with these releases, reach out in `#openvox` on Slack or `#voxpupuli-openvox` on IRC.
 > See [https://voxpupuli.org/connect/](https://voxpupuli.org/connect/) for details.*
