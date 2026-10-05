@@ -56,33 +56,14 @@ OpenVox 8 agents can keep running against OpenVox 9 servers while you upgrade yo
 - `openvox-server` and `openvoxdb` are officially supported and tested on **Java 21 and 25**, and support for Java 17 has been dropped.
     The packages run on Java 25 where the platform provides it, and on Java 21 otherwise.
     The FIPS packages run on **Java 21 only**, because the Bouncy Castle FIPS libraries are certified only up to Java 21.
+    The services use an explicit path to the JRE binary, not /usr/bin/java anymore.
 - `openvoxdb` is now tested against **PostgreSQL 15, 16, and 18**.
 - `openvox-agent` ships **openfact 6**, which removes the `ldapname` fact option and adds deprecation warnings ahead of removals in OpenVox 10.
 
 ## Before you upgrade
 
 This is a major release with breaking changes.
-Please read the [release notes](#release-notes-and-documentation) in full, but these are the ones most likely to affect you:
-
-- **`server` no longer defaults to `puppet`.**
-    Agents must set `server`, `server_list`, or use SRV records (`ca_server` and `report_server` also work for their own services).
-    An agent running as root with none of these set will fail with an error.
-- **The `reports` setting now defaults to `none`** instead of `store`.
-    Set `reports = store` on your servers if you rely on reports being written to disk.
-- **Filebucket reads are restricted.**
-    Agents can still back files up to a central filebucket, but reading bucket contents now requires a certificate with the `pp_cli_auth` extension.
-    The rule lives in the packaged `auth.conf`: if yours is edited or managed by a module, the upgrade keeps your copy (the new one lands beside it as `auth.conf.rpmnew` or `auth.conf.dpkg-dist`) and the old rule stays in effect until you merge the change.
-- **`file { content => '<string that looks like a checksum>' }` is now literal.**
-    Content that looks like a checksum is no longer used to fetch a file from the filebucket.
-    Use static catalogs or an explicit `source` instead.
-- **Hiera 3-era data bindings are gone.**
-    The `data_binding_terminus` and `environment_data_provider` settings and the Hiera 3 indirector terminus have been removed; Hiera 5 is the supported path.
-- **Several deprecated interfaces have been removed:** `--configprint` (use `puppet config print`), the `pluginsync` setting, the ignored fifth argument to `regsubst()`, the PAL `evaluate_script_string`/`evaluate_script_manifest` APIs, the `pe_serverversion` fact, and the vendored `zone_core` module.
-- **Ruby 4's `net/http` no longer adds a default `Content-Type` header.**
-    If you maintain a custom report processor or other code that POSTs data with `net/http`, set `Content-Type` explicitly.
-- **Java 21 is now required.** Upgrade server and database packages fully with `apt`, `dnf`, or `zypper` so that the new Java packages are pulled in.
-    Afterwards, check `update-alternatives --display java` to make sure `/usr/bin/java` points at **version 21 or newer**.
-    If the services start under Java 17, they will crash early with a `ClassNotFoundException` for `java.util.SequencedCollection`.
+Please read the [release notes](#release-notes-and-documentation) in full, in particular the [openvox 9.0.0 release notes](https://github.com/OpenVoxProject/openvox/releases/tag/9.0.0).
 
 ## Known issues
 
