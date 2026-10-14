@@ -57,7 +57,7 @@ OpenVox 8 agents can keep running against OpenVox 9 servers while you upgrade yo
     The packages run on Java 25 where the platform provides it, and on Java 21 otherwise.
     The FIPS packages run on **Java 21 only**, because the Bouncy Castle FIPS libraries are certified only up to Java 21.
     The services use an explicit path to the JRE binary, not /usr/bin/java anymore.
-- `openvoxdb` is now tested against **PostgreSQL 15, 16, and 18**.
+- `openvoxdb` is now tested against **PostgreSQL 18**. We can test against older versions if someone requests that.
 - `openvox-agent` ships **openfact 6**, which removes the `ldapname` fact option and adds deprecation warnings ahead of removals in OpenVox 10.
 
 ## Before you upgrade
