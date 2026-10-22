@@ -73,6 +73,10 @@ Go to Actions -> `Create Git Tag`.
 This workflow will create a signed git tag and push it.
 This will automatically trigger the `Release` workflow, which will build the module and upload it to the forge.puppet.com.
 
+### How to add text to the changelog
+
+See section [Help, I released a breaking change as minor version!](#help-i-released-a-breaking-change-as-minor-version)
+
 ### Help, I released a breaking change as minor version!
 
 No worries. At Vox Pupuli we fix forward.
@@ -82,13 +86,13 @@ Suppose you have a breaking change and dropped Debian support. You released as 1
 We will create a
 
  * Changelog entry indicating an error made
- * release 2.0
+ * release 2.0.0
 
 that will do it. The old tag 1.7 will stay in place, will not be deleted and we hope for people to read the 2.0 changelog.
 
 For the implementation we need a
 
- * milestone (future version number)
+ * milestone (future version number matching the git tag _v2.0.0_)
  * issue (explanation and label)
  * Github Action prepare release
  * Github Action Create Git tag
