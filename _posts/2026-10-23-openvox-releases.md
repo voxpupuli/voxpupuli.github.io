@@ -28,7 +28,8 @@ The current versions are:
 - **Jackson CVEs.** openvox-server 8.17.0 and openvoxdb 8.17.0 update Jackson to 2.21.7, which resolves four CVEs with a CVSS score of 7.5. openvox-server 8.17.0 also lets a post-deploy hook on the primary flush the environment cache without adding an `auth.conf` rule by hand.
 
 openvox-server 9.1.0 and openvoxdb 9.1.0 require openvox-agent 9.1.0 or newer.
-OpenVox 8 continues to receive high-priority and security fixes for at least six months after the 9.0 release.
+OpenVox 8 continues to receive high-priority fixes and backports for at least six months after the 9.0 release.
+Fixes that need a newer OpenSSL or Ruby than 8.x bundles will only land in OpenVox 9, so the OpenSSL issues above are the main reason to plan the upgrade.
 
 ## Release notes
 
