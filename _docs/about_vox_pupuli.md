@@ -35,9 +35,8 @@ as well as release announcements.
 
 We defined a [governance document](https://github.com/voxpupuli/plumbing/blob/master/share/governance.md#vox-pupuli-governance)
 some time ago. It defines several different groups and roles. One of them is
-the PMC. For 2019 [we
-elected](https://voxpupuli.org/blog/2018/12/19/election-results-2019/) 5
-people.
+the PMC.
+In 2026, [we elected](https://voxpupuli.org/blog/2026/03/29/pmc-elections-2026-voting-result/) 7 people.
 
 ## Our Sponsors & Partners
 
