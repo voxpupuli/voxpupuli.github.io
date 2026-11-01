@@ -13,6 +13,7 @@ You will have someone by your side in this process. The general flow is to…
     * Ensure github issues are enabled.
     * If this module was created with PDK delete .sync.yaml.
     * Ensure that the module has a correct `LICENSE` file in the docroot that matches the mentioned license in the `metadata.json`.
+    * Read through our [AI policy](https://github.com/OpenVoxProject/.github/blob/main/AI_POLICY.md) and (within reason) do your best to comply with it. See [info below](#adding-ai-trailers) about annotating multiple commits.
     * If the repo is a fork, to ensure pull requests go to the correct repo, [detach it from the fork network](https://docs.github.com/pull-requests/collaborating-with-pull-requests/working-with-forks/detaching-a-fork).
     * Rename the default branch to `main` if it is not already named `main`.
 * At this point you can [transfer your own repository](https://docs.github.com/repositories/creating-and-managing-repositories/transferring-a-repository).
@@ -34,6 +35,7 @@ Reference: https://voxpupuli.org/docs/migrate_module/
 
 * [ ] Remove PDK `.sync.yaml` if it exists.
 * [ ] Ensure correct `LICENSE`.
+* [ ] Comply with [AI policy](https://github.com/OpenVoxProject/.github/blob/main/AI_POLICY.md)
 * [x] Enable GitHub Issues.
 * [ ] [Detach from fork network](https://docs.github.com/pull-requests/collaborating-with-pull-requests/working-with-forks/detaching-a-fork).
 * [ ] Vox Pupuli Admin: Verify all webhooks are disabled.
@@ -57,6 +59,20 @@ We do ask that you show that reasonable efforts have been made to engage the own
 If the owner has responded and is not interested in migrating their module to VP, it will be evaluated on a case by case basis.
 To start the process, document your request and efforts in a brief email to the [mailing list](https://groups.io/g/voxpupuli/).
 If the module is accepted, VP will work with you to determine the proper fork/migration steps needed in addition to the checklist above.
+
+## Adding AI trailers
+
+If you're contributing a project with commits that need to have the `Assisted-By:` AI attribution trailers, you can do that with an interactive rebase.
+
+```
+$ git rebase -i HEAD~<n>
+```
+Change each commit to `reword` and save the list.
+Each commit message will be opened in your editor for you to paste the AI attribution trailer in.
+Once you've updated all, then force-push the end result to your repository.
+
+If you have a project with many many AI generated commits, then chat with the admins to ensure that the project is wanted.
+If so, then they will help you script the rebase or other similar solution.
 
 [managed_modules]: https://github.com/voxpupuli/modulesync_config/blob/master/managed_modules.yml
 [msync]: https://github.com/voxpupuli/modulesync_config#modulesync-configs
