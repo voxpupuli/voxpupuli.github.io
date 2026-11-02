@@ -25,7 +25,8 @@ You do not need to purge configuration files because OpenVox will continue to us
 However, **before getting started on the migration you should strongly consider backing up the entire `/etc/puppetlabs/` tree** in case of accidents.
 
 First enable the repository, based on your Linux distribution.
-Choose the appropriate `openvox8-release` repo package from either of these locations and install it.
+Choose the appropriate `openvox9-release` repo package from either of these locations and install it.
+If you need an older version, `openvox8-release` is also available (with only critical or security updates) until it reaches EOL.
 
 * Debian family:
   * [apt.voxpupuli.org](https://apt.voxpupuli.org/)
