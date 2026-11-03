@@ -137,6 +137,9 @@ section.content {
   float: right;
   font-style: italic;
 }
+.callout img {
+  width: 100%;
+}
 
 blockquote {
   border-left: 4px solid #c1c1c1;
