@@ -24,6 +24,8 @@ If you'd rather try it on an existing system or develop a migration process, the
 You do not need to purge configuration files because OpenVox will continue to use them as they are.
 However, **before getting started on the migration you should strongly consider backing up the entire `/etc/puppetlabs/` tree** in case of accidents.
 
+For a full walkthrough, see the [migration guide from Puppet 7 to OpenVox 8](https://docs.openvoxproject.org/openvox/8.x/upgrade_major.html) and the [migration guide from OpenVox 8 to OpenVox 9](https://docs.openvoxproject.org/openvox/9.x/upgrade_major.html).
+
 First enable the repository, based on your Linux distribution.
 Choose the appropriate `openvox9-release` repo package from either of these locations and install it.
 If you need an older version, `openvox8-release` is also available (with only critical or security updates) until it reaches EOL.
