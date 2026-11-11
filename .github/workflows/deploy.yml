@@ -35,6 +35,7 @@ jobs:
         continue-on-error: true
         run: bundle exec rake advisories
         env:
+          GH_TOKEN: 'Not used but gh complains if this is unset'
           OPENVOX_ADV_TOKEN: ${{ secrets.OPENVOX_ADV_TOKEN }}
           VOXPUPULI_ADV_TOKEN: ${{ secrets.VOXPUPULI_ADV_TOKEN }}
       - name: Setup Pages
