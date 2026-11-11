@@ -32,6 +32,7 @@ jobs:
           ruby-version: '3.0'
           bundler-cache: true
       - name: Retrieve Security Advisories
+        continue-on-error: true
         run: bundle exec rake advisories
         env:
           GH_TOKEN: ${{ secrets.ORG_ADVISORY_TOKEN }}
