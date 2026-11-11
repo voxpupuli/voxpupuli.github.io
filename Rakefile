@@ -59,22 +59,24 @@ task :advisories do
   end
 end
 
-def advisories(org, state='published')
-  stdout, stderr, status = Open3.capture3('gh', 'api',
+def advisories(org, state = 'published')
+  stdout, stderr, status = Open3.capture3(
+    'gh', 'api',
     '-H', 'Accept: application/vnd.github+json',
     '-H', 'X-GitHub-Api-Version: 2022-11-28',
-    "/orgs/#{org}/security-advisories?state=#{state}")
+    "/orgs/#{org}/security-advisories?state=#{state}"
+  )
 
-  fail "Error retrieving advisories for #{org}: #{stderr}" unless status.success?
+  raise "Error retrieving advisories for #{org}: #{stderr}" unless status.success?
 
   JSON.parse(stdout)
 end
 
 def md_advisory_row(advisory)
-  date     = Date.parse(advisory['published_at']).strftime("%Y-%m-%d")
+  date     = Date.parse(advisory['published_at']).strftime('%Y-%m-%d')
   cve      = advisory['cve_id']
   severity = advisory['severity']
-  scores   = advisory['cvss_severities'].values.map {|elem| elem['score']}.compact.join '/'
+  scores   = advisory['cvss_severities'].values.map { |elem| elem['score'] }.compact.join '/'
   infolink = "[#{advisory['summary']}](#{advisory['html_url']})"
 
   "| #{date} | #{cve} | #{severity} | #{scores} | #{infolink} |"
