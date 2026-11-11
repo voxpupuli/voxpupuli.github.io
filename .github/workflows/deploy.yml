@@ -35,7 +35,8 @@ jobs:
         continue-on-error: true
         run: bundle exec rake advisories
         env:
-          GH_TOKEN: ${{ secrets.ORG_ADVISORY_TOKEN }}
+          OPENVOX_ADV_TOKEN: ${{ secrets.OPENVOX_ADV_TOKEN }}
+          VOXPUPULI_ADV_TOKEN: ${{ secrets.VOXPUPULI_ADV_TOKEN }}
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
