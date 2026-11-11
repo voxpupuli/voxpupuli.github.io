@@ -49,21 +49,23 @@ task :advisories do
     file.puts '| Date | CVE ID | Severity | Scores | |'
     file.puts '|------|--------|----------|--------|-|'
 
-    advisories('openvoxproject').each do |advisory|
+    advisories('openvoxproject', ENV['OPENVOX_ADV_TOKEN']).each do |advisory|
       file.puts md_advisory_row(advisory)
     end
-    advisories('voxpupuli').each do |advisory|
+    advisories('voxpupuli', ENV['VOXPUPULI_ADV_TOKEN']).each do |advisory|
       file.puts md_advisory_row(advisory)
     end
     file.puts '{: .table .text-nowrap .table-sm .small}'
   end
 end
 
-def advisories(org, state = 'published')
+def advisories(org, token = nil, state = 'published')
+  apitoken = token || ENV['GH_TOKEN']
   stdout, stderr, status = Open3.capture3(
     'gh', 'api',
     '-H', 'Accept: application/vnd.github+json',
     '-H', 'X-GitHub-Api-Version: 2022-11-28',
+    '-H', "Authorization: Bearer #{apitoken}",
     "/orgs/#{org}/security-advisories?state=#{state}"
   )
 
