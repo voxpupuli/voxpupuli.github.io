@@ -59,19 +59,10 @@ If the owner has responded and is not interested in migrating their module to VP
 To start the process, document your request and efforts in a brief email to the [mailing list](https://groups.io/g/voxpupuli/).
 If the module is accepted, VP will work with you to determine the proper fork/migration steps needed in addition to the checklist above.
 
-## Adding AI trailers
+## AI trailer exception
 
-If you're contributing a project with commits that need to have the `Assisted-By:` AI attribution trailers, you can do that with an interactive rebase.
-
-```
-$ git rebase -i HEAD~<n>
-```
-Change each commit to `reword` and save the list.
-Each commit message will be opened in your editor for you to paste the AI attribution trailer in.
-Once you've updated all, then force-push the end result to your repository.
-
-If you have a project with many many AI generated commits, then chat with the admins to ensure that the project is wanted.
-If so, then they will help you script the rebase or other similar solution.
+If you're contributing an AI assisted project then you're not required to add the `Assisted-By:` AI attribution trailers,
+but we would prefer that you add a section to your README that describes the usage of AI.
 
 [managed_modules]: https://github.com/voxpupuli/modulesync_config/blob/master/managed_modules.yml
 [msync]: https://github.com/voxpupuli/modulesync_config#modulesync-configs
