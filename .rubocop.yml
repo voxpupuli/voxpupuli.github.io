@@ -496,3 +496,8 @@ Layout/HeredocIndentation:
 
 Security/YAMLLoad:
   Enabled: True
+
+# The fetch method is overly verbose for dubious benefits
+Style/FetchEnvVar:
+  Enabled: False
+  
