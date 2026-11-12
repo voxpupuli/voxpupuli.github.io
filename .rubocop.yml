@@ -500,4 +500,3 @@ Security/YAMLLoad:
 # The fetch method is overly verbose for dubious benefits
 Style/FetchEnvVar:
   Enabled: False
-  
