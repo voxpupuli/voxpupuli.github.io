@@ -36,6 +36,7 @@ The elections started with the announcement at [config management camp in Ghent,
 | Steven Pritchard | `Steven Pritchard`              | [`@silug`](https://github.com/silug)                   | [Intro][silug]          |
 | Romain Tartière  | `smortex`                       | [`@smortex`](https://github.com/smortex)               | [Intro][smortex]        |
 | Sebastian Rakel  | `Sebastian Spritzgebaeck Rakel` | [`@sebastianrakel`](https://github.com/sebastianrakel) | [Intro][sebastianrakel] |
+{: .table}
 
 [bastelfreak]: https://github.com/voxpupuli/plumbing/blob/master/share/elections/2026-02/bastelfreak.md
 [binford2k]: https://github.com/voxpupuli/plumbing/blob/master/share/elections/2026-02/binford2k.md
