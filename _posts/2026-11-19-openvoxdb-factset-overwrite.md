@@ -8,9 +8,9 @@ github_username: binford2k
 Another day, another CVE. Gotta say though, I'm pretty glad not to be working at MITRE these days.
 They must be utterly swamped right now.
 
-In any case, today's CVE comes to you courtesty of OpenVoxDB and it's fixed in the `openvox-termini` package versions 9.2.1 and 8.18.1.
+In any case, today's CVE comes to you courtesy of OpenVoxDB and it's fixed in the `openvoxdb-termini` package versions 9.2.1 and 8.18.1.
 
-**tl;dr:** If you're using OpenVoxDB, then please upgrade the `openvox-termini` package to versions `9.2.1` or `8.18.1`, depending on which track you're currently running.
+**tl;dr:** If you're using OpenVoxDB, then please upgrade the `openvoxdb` and `openvoxdb-termini` packages to versions `9.2.1` or `8.18.1`, depending on which track you're currently running.
 Don't forget to restart OpenVox Server to activate the updated terminus.
 {: .alert .alert-warning }
 
