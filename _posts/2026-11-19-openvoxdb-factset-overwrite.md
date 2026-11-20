@@ -22,14 +22,15 @@ When the agent starts a run, it generates facts and sends them to the server alo
 The server combines them with trusted information from the agent's SSL certificate and uses them during compilation.
 It also caches these facts in OpenVoxDB where they can be used for other purposes; dashboards, OpenBolt target lists, `puppetdb_query()` calls, etc.
 
-The flaw fixed in this release is that OpenVoxDB was not validating that the factset being stored actually represented the agent submitting the facts!
+Outside of regular catalog compilation, agents can update their own cached facts using the `/puppet/v3/facts` endpoint.
+The flaw fixed in this release is that OpenVoxDB was not validating that the factset being stored with this endpoint actually represented the agent submitting the facts!
 
 Now, to be clear, this doesn't directly affect classification or Hiera lookups.
 Those will always use the fresh factset submitted by the agent.
 What is affected is any classification using or gated behind `puppetdb_query()` calls or any OpenBolt plans that use a `puppetdb_query()` or OpenBolt tasks that use PQL to select a list of targets.
 This would also affect any custom administration tooling that used facts from OpenVoxDB.
 
-In particular, this could lead to administrative actions intended for one node could be executed on another node, which a skilled attacker could leverage via social engineering to achieve privilege escalation.
+In particular, this could lead to administrative actions intended for one node actually executing on another node, which a skilled attacker could leverage via social engineering to achieve privilege escalation.
 
 More details can be seen in the [advisory](https://github.com/OpenVoxProject/openvoxdb/security/advisories/GHSA-859m-7qpm-85p7).
 
@@ -56,8 +57,7 @@ This benefits everyone and engenders trust in the entire ecosystem, no matter wh
 Without this collaboration, end users lose trust in that ecosystem: OpenVox users cannot trust the modules coming from Puppet, Puppet users cannot trust the components coming from OpenVox, and *everybody has a higher level of risk*.
 
 Perforce's actions today put us all at risk and eroded trust in the Puppet ecosystem.
-If Vox Pupuli were driven by private equity, then we would probably respond in turn by declining to share security information.
-Obviously we are not, and we will not stoop to that level.
-And I'm sure that factored into Perforce's decision not to collaborate responsibly.
+The rational response these actions incentivize is for us to respond in turn by declining to share security information with them next time around.
+Obviously we will not stoop to that level and will continue to prioritize the interests of all users and customers when responding to security issues.
 
-And that's irresponsible behaviour from a vendor which should prioritize building trust.
+We invite Perforce to do the same.
